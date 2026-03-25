@@ -48,7 +48,7 @@ namespace Content.Server.Light.EntitySystems
 
                 var xform = Transform(match);
 
-                if (xform.GridUid is not {} gridUid)
+                if (xform.GridUid is not { } gridUid)
                     return;
 
                 var position = _transformSystem.GetGridOrMapTilePosition(match, xform);
@@ -87,11 +87,12 @@ namespace Content.Server.Light.EntitySystems
             // Change state
             SetState((matchstick, component), SmokableState.Lit); // Shitmed Change
             _litMatches.Add(matchstick);
-            matchstick.Owner.SpawnTimer(component.Duration * 1000, delegate
-            {
-                SetState((matchstick, component), SmokableState.Burnt); // Shitmed Change
-                _litMatches.Remove(matchstick);
-            });
+            // TODO FIX THAT
+            // matchstick.Owner.SpawnTimer(component.Duration * 1000, delegate
+            // {
+            //     SetState((matchstick, component), SmokableState.Burnt); // Shitmed Change
+            _litMatches.Remove(matchstick);
+            // });
         }
 
         // Shitmed Change Start
@@ -102,7 +103,7 @@ namespace Content.Server.Light.EntitySystems
 
             var (uid, component) = ent;
 
-        // Shitmed Change End
+            // Shitmed Change End
 
             if (_lights.TryGetLight(uid, out var pointLightComponent))
             {
