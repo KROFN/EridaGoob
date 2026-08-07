@@ -1,16 +1,21 @@
-# SPDX-License-Identifier: AGPL-3.0-or-later
-
 name: "Labels: Size"
-on: pull_request_target
+on:
+  pull_request_target:
+    types: [opened, reopened, ready_for_review, synchronize]
 
 jobs:
   size-label:
+    if: github.actor != 'Erida-change-bot' && github.event.pull_request.draft == false
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: write
     runs-on: ubuntu-latest
     steps:
       - name: size-label
-        uses: "pascalgn/size-label-action@v0.5.5"
+        uses: "pascalgn/size-label-action@v0.5.7"
         env:
-          GITHUB_TOKEN: "${{ secrets.BOT_TOKEN }}"
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
         with:
           # Custom size configuration
           sizes: >
