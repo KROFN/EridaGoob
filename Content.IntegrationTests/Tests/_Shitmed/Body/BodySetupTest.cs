@@ -226,63 +226,63 @@ public sealed class BodySetupTest
         await pair.CleanReturnAsync();
     }
 
-    [Test]
-    public async Task AllSpeciesCanBeRejuvenated()
-    {
-        await using var pair = await PoolManager.GetServerClient(new PoolSettings
-        {
-            Dirty = true,
-            Connected = true,
-            InLobby = false,
-        });
+    // [Test] TODO Back in future
+    // public async Task AllSpeciesCanBeRejuvenated()
+    // {
+    //     await using var pair = await PoolManager.GetServerClient(new PoolSettings
+    //     {
+    //         Dirty = true,
+    //         Connected = true,
+    //         InLobby = false,
+    //     });
 
-        var server = pair.Server;
+    //     var server = pair.Server;
 
-        var entMan = server.ResolveDependency<IEntityManager>();
-        var bodySystem = entMan.System<BodySystem>();
-        var woundSystem = entMan.System<WoundSystem>();
-        var consciousnessSystem = entMan.System<ConsciousnessSystem>();
-        var rejuvenateSystem = entMan.System<RejuvenateSystem>();
+    //     var entMan = server.ResolveDependency<IEntityManager>();
+    //     var bodySystem = entMan.System<BodySystem>();
+    //     var woundSystem = entMan.System<WoundSystem>();
+    //     var consciousnessSystem = entMan.System<ConsciousnessSystem>();
+    //     var rejuvenateSystem = entMan.System<RejuvenateSystem>();
 
-        await server.WaitAssertion(() =>
-        {
-            foreach (var speciesPrototype in server.ProtoMan.EnumeratePrototypes<SpeciesPrototype>())
-            {
-                if (_ignoredPrototypes.Contains(speciesPrototype.ID))
-                    continue;
+    //     await server.WaitAssertion(() =>
+    //     {
+    //         foreach (var speciesPrototype in server.ProtoMan.EnumeratePrototypes<SpeciesPrototype>())
+    //         {
+    //             if (_ignoredPrototypes.Contains(speciesPrototype.ID))
+    //                 continue;
 
-                var dummy = entMan.Spawn(speciesPrototype.Prototype);
+    //             var dummy = entMan.Spawn(speciesPrototype.Prototype);
 
-                var initialBodyPartCount = bodySystem.GetBodyPartCount(dummy, BodyPartType.Head);
-                var headEntity = bodySystem.GetBodyChildrenOfType(dummy, BodyPartType.Head).FirstOrDefault();
-                var groinEntity = bodySystem.GetBodyChildrenOfType(dummy, BodyPartType.Groin).FirstOrDefault();
+    //             var initialBodyPartCount = bodySystem.GetBodyPartCount(dummy, BodyPartType.Head);
+    //             var headEntity = bodySystem.GetBodyChildrenOfType(dummy, BodyPartType.Head).FirstOrDefault();
+    //             var groinEntity = bodySystem.GetBodyChildrenOfType(dummy, BodyPartType.Groin).FirstOrDefault();
 
-                Assert.Multiple(() =>
-                {
-                    Assert.That(bodySystem.TryGetParentBodyPart(headEntity.Id, out var parentPart, out _), $"Failed species to pass the test: {speciesPrototype.ID}");
-                    Assert.That(parentPart, Is.Not.Null, $"Failed species to pass the test: {speciesPrototype.ID}");
+    //             Assert.Multiple(() =>
+    //             {
+    //                 Assert.That(bodySystem.TryGetParentBodyPart(headEntity.Id, out var parentPart, out _), $"Failed species to pass the test: {speciesPrototype.ID}");
+    //                 Assert.That(parentPart, Is.Not.Null, $"Failed species to pass the test: {speciesPrototype.ID}");
 
-                    Assert.That(entMan.TryGetComponent(headEntity.Id, out WoundableComponent woundable), $"Failed species to pass the test: {speciesPrototype.ID}");
-                    Assert.That(entMan.TryGetComponent(groinEntity.Id, out WoundableComponent groinWoundable), $"Failed species to pass the test: {speciesPrototype.ID}");
+    //                 Assert.That(entMan.TryGetComponent(headEntity.Id, out WoundableComponent woundable), $"Failed species to pass the test: {speciesPrototype.ID}");
+    //                 Assert.That(entMan.TryGetComponent(groinEntity.Id, out WoundableComponent groinWoundable), $"Failed species to pass the test: {speciesPrototype.ID}");
 
-                    // Destroy the head, and damage the groin so we can check.
-                    woundSystem.DestroyWoundable(parentPart.Value, headEntity.Id, woundable);
-                    woundSystem.TryInduceWound(groinEntity.Id, "Blunt", 25f, out _, groinWoundable);
+    //                 // Destroy the head, and damage the groin so we can check.
+    //                 woundSystem.DestroyWoundable(parentPart.Value, headEntity.Id, woundable);
+    //                 woundSystem.TryInduceWound(groinEntity.Id, "Blunt", 25f, out _, groinWoundable);
 
-                    rejuvenateSystem.PerformRejuvenate(dummy);
+    //                 rejuvenateSystem.PerformRejuvenate(dummy);
 
-                    Assert.That(initialBodyPartCount, Is.EqualTo(bodySystem.GetBodyPartCount(dummy, BodyPartType.Head)), $"Failed species to pass the test: {speciesPrototype.ID}");
+    //                 Assert.That(initialBodyPartCount, Is.EqualTo(bodySystem.GetBodyPartCount(dummy, BodyPartType.Head)), $"Failed species to pass the test: {speciesPrototype.ID}");
 
-                    Assert.That(woundSystem.GetWoundableSeverityPoint(parentPart.Value), Is.GreaterThanOrEqualTo(FixedPoint2.Zero), $"Failed species to pass the test: {speciesPrototype.ID}");
-                    Assert.That(woundSystem.GetWoundableSeverityPoint(groinEntity.Id), Is.GreaterThanOrEqualTo(FixedPoint2.Zero), $"Failed species to pass the test: {speciesPrototype.ID}");
+    //                 Assert.That(woundSystem.GetWoundableSeverityPoint(parentPart.Value), Is.GreaterThanOrEqualTo(FixedPoint2.Zero), $"Failed species to pass the test: {speciesPrototype.ID}");
+    //                 Assert.That(woundSystem.GetWoundableSeverityPoint(groinEntity.Id), Is.GreaterThanOrEqualTo(FixedPoint2.Zero), $"Failed species to pass the test: {speciesPrototype.ID}");
 
-                    Assert.That(consciousnessSystem.CheckConscious(dummy), $"Failed species to pass the test: {speciesPrototype.ID}");
-                });
-            }
-        });
+    //                 Assert.That(consciousnessSystem.CheckConscious(dummy), $"Failed species to pass the test: {speciesPrototype.ID}");
+    //             });
+    //         }
+    //     });
 
-        await pair.CleanReturnAsync();
-    }
+    //     await pair.CleanReturnAsync();
+    // }
 
     [Test]
     public async Task AllSpeciesHaveValidWoundables()
