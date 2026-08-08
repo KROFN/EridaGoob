@@ -30,7 +30,7 @@ public sealed class TimeTransferPanelEui : BaseEui
 
     public override TimeTransferPanelEuiState GetNewState()
     {
-        var hasFlag = _adminMan.HasAdminFlag(Player, AdminFlags.Moderator);
+        var hasFlag = _adminMan.HasAdminFlag(Player, AdminFlags.PlayTime);
 
         return new TimeTransferPanelEuiState(hasFlag);
     }

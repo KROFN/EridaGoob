@@ -183,9 +183,3 @@
     - realtime
     - servertime
     - more
-
-- Flags: FULLADMIN # Goobstation
-  Commands:
-  - self
-  - entities
-  - nearby

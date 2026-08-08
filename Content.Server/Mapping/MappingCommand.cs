@@ -103,7 +103,7 @@ namespace Content.Server.Mapping
                 {
                     var path = new ResPath(args[1]);
                     toLoad = path.FilenameWithoutExtension;
-                    var opts = new DeserializationOptions {StoreYamlUids = true};
+                    var opts = new DeserializationOptions { StoreYamlUids = true };
 
                     if (isGrid == true)
                     {
@@ -154,8 +154,9 @@ namespace Content.Server.Mapping
             }
 
             // don't interrupt mapping with events or auto-shuttle
-            shell.ExecuteCommand("changecvar events.enabled false");
-            shell.ExecuteCommand("changecvar shuttle.auto_call_time 0");
+            // Erida comment
+            // shell.ExecuteCommand("changecvar events.enabled false");
+            // shell.ExecuteCommand("changecvar shuttle.auto_call_time 0");
 
             if (grid != null)
                 _mappingSystem.ToggleAutosave(grid.Value.Owner, toLoad ?? "NEWGRID");

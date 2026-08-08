@@ -127,15 +127,14 @@ namespace Content.Shared.Administration
         NameColor = 1 << 21,
 
         /// <summary>
-        ///     Goobstation Full Admin extra perms.
-        ///     Specifically used for Full Admin only.
+        ///     Lets you change users play time.
         /// </summary>
-        FullAdmin = 1 << 22,
+        PlayTime = 1 << 23,
 
         /// <summary>
         ///     Lets you make goob polls.
         /// </summary>
-        Polls = 1 << 23,
+        Polls = 1 << 24, // Erida 23 >> 24
 
         /// <summary>
         ///     Dangerous host permissions like scsi.

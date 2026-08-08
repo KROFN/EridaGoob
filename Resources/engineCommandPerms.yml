@@ -98,13 +98,6 @@
   Commands:
   - listplayers
 
-- Flags: FULLADMIN # Goobstation (and every setting in this flag)
-  Commands:
-  - self
-  - entities
-  - nearby
-  - ent
-
 - Flags: FUN
   Commands:
   - tippy
