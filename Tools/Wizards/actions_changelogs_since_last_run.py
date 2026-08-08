@@ -26,7 +26,7 @@ MAX_CHANGE_MESSAGE_LENGTH = 1000
 DISCORD_MESSAGE_DELAY_SECONDS = 0.5
 ERIDA_EMBED_COLOR = 0x6D3286
 
-CHANGELOG_FILE = "Resources/Changelog/Erida.yml" # Erida edit
+CHANGELOG_FILE = "Resources/Changelog/EridaChangelog.yml" # Erida edit
 
 TYPES_TO_EMOJI = {"Fix": "🐛", "Add": "🆕", "Remove": "❌", "Tweak": "⚒️"}
 TYPES_TO_LABELS = {
