@@ -28,13 +28,13 @@ public sealed partial class CCVars
     ///     Allows flavor text (character descriptions).
     /// </summary>
     public static readonly CVarDef<bool> FlavorText =
-        CVarDef.Create("ic.flavor_text", false, CVar.SERVER | CVar.REPLICATED);
+        CVarDef.Create("ic.flavor_text", true, CVar.SERVER | CVar.REPLICATED); // Erida
 
     /// <summary>
     ///     Sets the maximum length for flavor text (character descriptions).
     /// </summary>
     public static readonly CVarDef<int> MaxFlavorTextLength =
-        CVarDef.Create("ic.flavor_text_length", 512, CVar.SERVER | CVar.REPLICATED);
+        CVarDef.Create("ic.flavor_text_length", 5200, CVar.SERVER | CVar.REPLICATED); // Erida
 
     /// <summary>
     ///     Sets the maximum character length of a job on an ID.
@@ -92,4 +92,14 @@ public sealed partial class CCVars
     /// </summary>
     public static readonly CVarDef<float> ICSSDSleepTime =
         CVarDef.Create("ic.ssd_sleep_time", 600f, CVar.SERVER);
+
+    // Erida-start
+
+    /// <summary>
+    ///      Sets the maximum Custom Species length.
+    /// </summary>
+    public static readonly CVarDef<int> MaxCustomSpeciesLength =
+        CVarDef.Create("ic.custom_species_length", 16, CVar.SERVER | CVar.REPLICATED);
+
+    // Erida-end
 }
