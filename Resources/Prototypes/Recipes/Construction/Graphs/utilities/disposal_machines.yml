@@ -68,7 +68,7 @@
             - tag: MailingUnitElectronics
               name: construction-graph-tag-mailing-unit-electronics
               icon:
-                sprite: "Objects/Misc/module.rsi"
+                sprite: "_Erida/Objects/Misc/module.rsi"
                 state: "net_wired"
             - tool: Screwing
               doAfter: 0.25

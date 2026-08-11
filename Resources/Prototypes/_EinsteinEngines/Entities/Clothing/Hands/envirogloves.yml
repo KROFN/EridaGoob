@@ -5,12 +5,12 @@
   description: Covers up those scandalous boney hands.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     layers:
     - state: icon
       color: "#913b00"
   - type: Item
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     inhandVisuals:
       left:
       - state: inhand-left
@@ -19,7 +19,7 @@
       - state: inhand-right
         color: "#913b00"
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     clothingVisuals:
       gloves:
       - state: equipped-HAND
@@ -32,12 +32,12 @@
   description: Covers up those scandalous boney hands.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     layers:
     - state: icon
       color: "#2f2e31"
   - type: Item
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     inhandVisuals:
       left:
       - state: inhand-left
@@ -46,7 +46,7 @@
       - state: inhand-right
         color: "#2f2e31"
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     clothingVisuals:
       gloves:
       - state: equipped-HAND
@@ -78,12 +78,12 @@
   description: Pricy nitrile gloves made for Plasmamen.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     layers:
     - state: icon
       color: "#234f60"
   - type: Item
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     inhandVisuals:
       left:
       - state: inhand-left
@@ -92,7 +92,7 @@
       - state: inhand-right
         color: "#234f60"
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     clothingVisuals:
       gloves:
       - state: equipped-HAND
@@ -108,12 +108,12 @@
   description: Covers up those scandalous boney hands.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     layers:
     - state: icon
       color: "#ffffff"
   - type: Item
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     inhandVisuals:
       left:
       - state: inhand-left
@@ -122,7 +122,7 @@
       - state: inhand-right
         color: "#ffffff"
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     clothingVisuals:
       gloves:
       - state: equipped-HAND
@@ -144,9 +144,9 @@
   description: Covers up those scandalous boney fingerprints.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/forensic.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/forensic.rsi
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/forensic.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/forensic.rsi
   - type: FingerprintMask
   - type: GuideHelp
     guides:
@@ -159,12 +159,12 @@
   description: Covers up those scandalous boney hands.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     layers:
     - state: icon
       color: "#932500"
   - type: Item
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     inhandVisuals:
       left:
       - state: inhand-left
@@ -173,7 +173,7 @@
       - state: inhand-right
         color: "#932500"
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     clothingVisuals:
       gloves:
       - state: equipped-HAND
@@ -188,12 +188,12 @@
   description: Covers up those scandalous boney hands.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     layers:
     - state: icon
       color: "#883391"
   - type: Item
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     inhandVisuals:
       left:
       - state: inhand-left
@@ -202,7 +202,7 @@
       - state: inhand-right
         color: "#883391"
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     clothingVisuals:
       gloves:
       - state: equipped-HAND
@@ -218,12 +218,12 @@
   description: Covers up those scandalous boney hands.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     layers:
     - state: icon
       color: "#bb9042"
   - type: Item
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     inhandVisuals:
       left:
       - state: inhand-left
@@ -232,7 +232,7 @@
       - state: inhand-right
         color: "#bb9042"
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     clothingVisuals:
       gloves:
       - state: equipped-HAND
@@ -247,12 +247,12 @@
   description: Covers up those scandalous boney hands.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     layers:
     - state: icon
       color: "#d75600"
   - type: Item
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     inhandVisuals:
       left:
       - state: inhand-left
@@ -261,7 +261,7 @@
       - state: inhand-right
         color: "#d75600"
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     clothingVisuals:
       gloves:
       - state: equipped-HAND
@@ -277,12 +277,12 @@
   description: Covers up those scandalous boney hands.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     layers:
     - state: icon
       color: "#00a5ff"
   - type: Item
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     inhandVisuals:
       left:
       - state: inhand-left
@@ -291,7 +291,7 @@
       - state: inhand-right
         color: "#00a5ff"
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     clothingVisuals:
       gloves:
       - state: equipped-HAND
@@ -307,12 +307,12 @@
   description: Covers up those scandalous boney hands.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     layers:
     - state: icon
       color: "#47453d"
   - type: Item
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     inhandVisuals:
       left:
       - state: inhand-left
@@ -321,7 +321,7 @@
       - state: inhand-right
         color: "#47453d"
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     clothingVisuals:
       gloves:
       - state: equipped-HAND
@@ -336,12 +336,12 @@
   description: These leather gloves protect your boney hands against thorns, barbs, prickles, and spikes.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     layers:
     - state: icon
       color: "#3164ff"
   - type: Item
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     inhandVisuals:
       left:
       - state: inhand-left
@@ -350,7 +350,7 @@
       - state: inhand-right
         color: "#3164ff"
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     clothingVisuals:
       gloves:
       - state: equipped-HAND
@@ -371,12 +371,12 @@
   description: Covers up those scandalous boney hands.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     layers:
     - state: icon
       color: "#911801"
   - type: Item
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     inhandVisuals:
       left:
       - state: inhand-left
@@ -385,7 +385,7 @@
       - state: inhand-right
         color: "#911801"
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     clothingVisuals:
       gloves:
       - state: equipped-HAND
@@ -400,12 +400,12 @@
   description: Covers up those scandalous boney hands.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     layers:
     - state: icon
       color: "#ff0000"
   - type: Item
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     inhandVisuals:
       left:
       - state: inhand-left
@@ -414,7 +414,7 @@
       - state: inhand-right
         color: "#ff0000"
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     clothingVisuals:
       gloves:
       - state: equipped-HAND
@@ -466,12 +466,12 @@
   description: Covers up those scandalous boney hands.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     layers:
     - state: icon
       color: "#45ff00"
   - type: Item
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     inhandVisuals:
       left:
       - state: inhand-left
@@ -480,7 +480,7 @@
       - state: inhand-right
         color: "#45ff00"
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     clothingVisuals:
       gloves:
       - state: equipped-HAND
@@ -496,12 +496,12 @@
   description: Covers up those scandalous boney hands.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     layers:
     - state: icon
       color: "#64008a"
   - type: Item
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     inhandVisuals:
       left:
       - state: inhand-left
@@ -510,7 +510,7 @@
       - state: inhand-right
         color: "#64008a"
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     clothingVisuals:
       gloves:
       - state: equipped-HAND
@@ -525,12 +525,12 @@
   description: Covers up those scandalous boney hands.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     layers:
     - state: icon
       color: "#a349a4"
   - type: Item
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     inhandVisuals:
       left:
       - state: inhand-left
@@ -539,7 +539,7 @@
       - state: inhand-right
         color: "#a349a4"
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     clothingVisuals:
       gloves:
       - state: equipped-HAND
@@ -554,12 +554,12 @@
   description: Covers up those scandalous boney hands.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     layers:
     - state: icon
       color: "#315266"
   - type: Item
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     inhandVisuals:
       left:
       - state: inhand-left
@@ -568,7 +568,7 @@
       - state: inhand-right
         color: "#315266"
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     clothingVisuals:
       gloves:
       - state: equipped-HAND
@@ -583,12 +583,12 @@
   description: Covers up those scandalous boney hands.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     layers:
     - state: icon
       color: "#79CC26"
   - type: Item
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     inhandVisuals:
       left:
       - state: inhand-left
@@ -597,7 +597,7 @@
       - state: inhand-right
         color: "#79CC26"
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     clothingVisuals:
       gloves:
       - state: equipped-HAND
@@ -612,12 +612,12 @@
   description: Covers up those scandalous boney hands.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     layers:
     - state: icon
       color: "#616161"
   - type: Item
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     inhandVisuals:
       left:
       - state: inhand-left
@@ -626,7 +626,7 @@
       - state: inhand-right
         color: "#616161"
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     clothingVisuals:
       gloves:
       - state: equipped-HAND
@@ -641,12 +641,12 @@
   description: Covers up those scandalous boney hands.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     layers:
     - state: icon
       color: "#dab13b"
   - type: Item
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     inhandVisuals:
       left:
       - state: inhand-left
@@ -655,7 +655,7 @@
       - state: inhand-right
         color: "#dab13b"
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     clothingVisuals:
       gloves:
       - state: equipped-HAND
@@ -670,12 +670,12 @@
   description: Covers up those scandalous boney hands.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     layers:
     - state: icon
       color: "#79121b"
   - type: Item
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     inhandVisuals:
       left:
       - state: inhand-left
@@ -684,7 +684,7 @@
       - state: inhand-right
         color: "#79121b"
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/Color/color.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/Color/color.rsi
     clothingVisuals:
       gloves:
       - state: equipped-HAND

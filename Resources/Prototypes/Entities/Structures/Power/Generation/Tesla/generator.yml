@@ -8,7 +8,7 @@
   components:
   - type: Sprite
     noRot: true
-    sprite: Structures/Power/Generation/Tesla/generator.rsi
+    sprite: _Erida/Structures/Power/Generation/Tesla/generator.rsi
     state: icon
   - type: SingularityGenerator # TODO: rename the generator
     spawnId: TeslaEnergyBall

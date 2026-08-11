@@ -7,7 +7,7 @@
   components:
   - type: Sprite
     noRot: true
-    sprite: Structures/Storage/glassbox.rsi
+    sprite: _Erida/Structures/Storage/glassbox.rsi
   - type: Transform
     anchored: true
   - type: Physics
@@ -70,7 +70,7 @@
     damageDivisor: 7.555
     trackAllDamage: true
     damageOverlay:
-      sprite: Structures/Storage/glassbox.rsi
+      sprite: _Erida/Structures/Storage/glassbox.rsi
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: Glass

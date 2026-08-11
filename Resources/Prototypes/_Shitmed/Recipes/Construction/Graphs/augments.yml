@@ -56,14 +56,14 @@
       - tag: AugmentRechargerBoard
         name: construction-graph-tag-cell-recharger
         icon:
-          sprite: Objects/Misc/module.rsi
+          sprite: _Erida/Objects/Misc/module.rsi
           state: charger_APC
     - to: station
       steps:
       - tag: AugmentStationBoard
         name: construction-graph-tag-cyborg-recharger
         icon:
-          sprite: Objects/Misc/module.rsi
+          sprite: _Erida/Objects/Misc/module.rsi
           state: charger_APC
   - node: apc
     entity: AugmentRechargerAPC
@@ -98,28 +98,28 @@
       - tag: AugmentBotanyToolElectronics
         name: construction-graph-tag-botany-tools-electronics
         icon:
-          sprite: Objects/Misc/module.rsi
+          sprite: _Erida/Objects/Misc/module.rsi
           state: mainboard
     - to: "paperwork tools panel"
       steps:
       - tag: AugmentPaperworkToolElectronics
         name: construction-graph-tag-paperwork-tools-electronics
         icon:
-          sprite: Objects/Misc/module.rsi
+          sprite: _Erida/Objects/Misc/module.rsi
           state: mainboard
     - to: "utility tools panel"
       steps:
       - tag: AugmentUtilityToolElectronics
         name: construction-graph-tag-utility-tools-electronics
         icon:
-          sprite: Objects/Misc/module.rsi
+          sprite: _Erida/Objects/Misc/module.rsi
           state: mainboard
     - to: "surgery tools panel"
       steps:
       - tag: AugmentSurgeryToolElectronics
         name: construction-graph-tag-surgery-tools-electronics
         icon:
-          sprite: Objects/Misc/module.rsi
+          sprite: _Erida/Objects/Misc/module.rsi
           state: mainboard
   - node: "botany tools panel"
     entity: AugmentBotanyPanel
@@ -158,7 +158,7 @@
       - tag: AugmentStrengthElectronics
         name: construction-graph-tag-strength-augment-electronics
         icon:
-          sprite: Objects/Misc/module.rsi
+          sprite: _Erida/Objects/Misc/module.rsi
           state: mainboard
       - material: Plasteel
         amount: 4

@@ -29,10 +29,10 @@
   description: Handed out to the bravest souls who survived the "atomic twister" ride at Syndieland.
   components:
   - type: Sprite
-    sprite: Objects/Fun/Balloons/syndicate.rsi
+    sprite: _Erida/Objects/Fun/Balloons/syndicate.rsi
     state: icon
   - type: Item
-    sprite: Objects/Fun/Balloons/syndicate.rsi
+    sprite: _Erida/Objects/Fun/Balloons/syndicate.rsi
   - type: StaticPrice
     price: 100 # Entertainment.
 
@@ -43,10 +43,10 @@
   description: Specially designed to inflict maximum psychological damage to Syndicate operatives.
   components:
   - type: Sprite
-    sprite: Objects/Fun/Balloons/nanotrasen.rsi
+    sprite: _Erida/Objects/Fun/Balloons/nanotrasen.rsi
     state: icon
   - type: Item
-    sprite: Objects/Fun/Balloons/nanotrasen.rsi
+    sprite: _Erida/Objects/Fun/Balloons/nanotrasen.rsi
 
 - type: entity
   parent: BaseBalloon
@@ -55,7 +55,7 @@
   description: Just like owning a real dog - but a lot floatier.
   components:
   - type: Sprite
-    sprite: Objects/Fun/Balloons/corgi.rsi
+    sprite: _Erida/Objects/Fun/Balloons/corgi.rsi
     state: icon
   - type: Item
-    sprite: Objects/Fun/Balloons/corgi.rsi
+    sprite: _Erida/Objects/Fun/Balloons/corgi.rsi

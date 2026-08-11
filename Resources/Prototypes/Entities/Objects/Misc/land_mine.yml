@@ -27,7 +27,7 @@
           - LowImpassable
   - type: Sprite
     drawdepth: Items
-    sprite: Objects/Misc/landmine.rsi
+    sprite: _Erida/Objects/Misc/landmine.rsi
     layers:
     - state: landmine
     - state: landmine-unshaded

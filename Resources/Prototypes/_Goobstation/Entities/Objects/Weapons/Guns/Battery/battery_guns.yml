@@ -76,7 +76,7 @@
     tags:
     - Sidearm
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/taser.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/taser.rsi
     quickEquip: false
     slots:
     - Belt

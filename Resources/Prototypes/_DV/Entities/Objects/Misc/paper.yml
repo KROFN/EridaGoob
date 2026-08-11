@@ -7,7 +7,7 @@
   description: 'A paper warrant issued by the justice department.'
   components:
   - type: Sprite
-    sprite: Objects/Misc/bureaucracy.rsi
+    sprite: _Erida/Objects/Misc/bureaucracy.rsi
     layers:
     - state: paper
       color: "#e0bc99"

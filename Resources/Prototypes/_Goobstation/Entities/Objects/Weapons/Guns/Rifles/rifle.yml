@@ -68,7 +68,7 @@
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Rifles/carbine.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Rifles/carbine.rsi
   - type: ItemSlots
     slots:
       gun_magazine:

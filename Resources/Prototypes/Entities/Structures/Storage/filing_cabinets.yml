@@ -52,7 +52,7 @@
     - 0,0,9,3
     maxItemSize: Normal
   - type: Sprite
-    sprite: Structures/Storage/cabinets.rsi
+    sprite: _Erida/Structures/Storage/cabinets.rsi
     noRot: true
   - type: Appearance
   - type: UserInterface

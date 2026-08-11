@@ -8,7 +8,7 @@
   - type: Clickable
   - type: InteractionOutline
   - type: Sprite
-    sprite: Objects/Decoration/mines.rsi
+    sprite: _Erida/Objects/Decoration/mines.rsi
     state: sign_left
   - type: Physics
     bodyType: Static
@@ -53,7 +53,7 @@
   id: WoodenSignRight
   components:
   - type: Sprite
-    sprite: Objects/Decoration/mines.rsi
+    sprite: _Erida/Objects/Decoration/mines.rsi
     state: sign_right
 
 - type: entity
@@ -71,7 +71,7 @@
     - Wooden
   - type: Sprite
     noRot: true
-    sprite: Objects/Decoration/mines.rsi
+    sprite: _Erida/Objects/Decoration/mines.rsi
     state: support
   - type: Damageable
     damageContainer: StructuralInorganic
@@ -121,7 +121,7 @@
   parent: WoodenSupport
   components:
   - type: Sprite
-    sprite: Objects/Decoration/mines.rsi
+    sprite: _Erida/Objects/Decoration/mines.rsi
     state: support_beams
   - type: Fixtures
     fixtures:
@@ -152,7 +152,7 @@
     - Wooden
   - type: Sprite
     noRot: true
-    sprite: Objects/Decoration/mines.rsi
+    sprite: _Erida/Objects/Decoration/mines.rsi
     state: support_wall
   - type: Damageable
     damageContainer: StructuralInorganic
@@ -195,7 +195,7 @@
   parent: WoodenSupportWall
   components:
   - type: Sprite
-    sprite: Objects/Decoration/mines.rsi
+    sprite: _Erida/Objects/Decoration/mines.rsi
     state: support_wall_broken
   - type: Destructible
     thresholds:

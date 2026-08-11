@@ -6,7 +6,7 @@
   description: An electronics board used in a sentry turret control panel.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: _Erida/Objects/Misc/module.rsi
     state: security
   - type: ElectronicsBoard
     prototype: WeaponEnergyTurretSecurityControlPanel
@@ -25,7 +25,7 @@
   suffix: AI, Silicon
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: _Erida/Objects/Misc/module.rsi
     state: science
   - type: ElectronicsBoard
     prototype: WeaponEnergyTurretAIControlPanel
@@ -36,7 +36,7 @@
   suffix: Command
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: _Erida/Objects/Misc/module.rsi
     state: command
   - type: ElectronicsBoard
     prototype: WeaponEnergyTurretCommandControlPanel

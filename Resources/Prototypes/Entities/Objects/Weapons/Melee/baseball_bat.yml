@@ -7,7 +7,7 @@
   description: A robust baseball bat.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/baseball_bat.rsi
+    sprite: _Erida/Objects/Weapons/Melee/baseball_bat.rsi
     state: icon
   - type: MeleeWeapon
     animationRotation: -135 # WWDP
@@ -37,7 +37,7 @@
     - 0,0,0,3
     storedSprite:
       state: storage
-      sprite: Objects/Weapons/Melee/baseball_bat.rsi
+      sprite: _Erida/Objects/Weapons/Melee/baseball_bat.rsi
   - type: Tool
     qualities:
     - Rolling
@@ -66,7 +66,7 @@
   description: A few planks of wood stuck together.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/incomplete_bat.rsi
+    sprite: _Erida/Objects/Weapons/Melee/incomplete_bat.rsi
     state: icon
   - type: Item
     size: Normal
@@ -74,8 +74,8 @@
     - 0,0,0,3
     storedSprite:
       state: storage
-      sprite: Objects/Weapons/Melee/incomplete_bat.rsi
-    sprite: Objects/Weapons/Melee/incomplete_bat.rsi
+      sprite: _Erida/Objects/Weapons/Melee/incomplete_bat.rsi
+    sprite: _Erida/Objects/Weapons/Melee/incomplete_bat.rsi
   - type: Construction
     graph: WoodenBat
     node: incompleteBat

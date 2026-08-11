@@ -2,7 +2,7 @@
 - type: cargoProduct
   id: CargoDoubleEmergencyTank
   icon:
-    sprite: Objects/Tanks/emergency_double.rsi
+    sprite: _Erida/Objects/Tanks/emergency_double.rsi
     state: icon
   product: CrateDoubleEmergencyTank
   cost: 2400
@@ -12,7 +12,7 @@
 - type: cargoProduct
   id: CargoSeismicCharge
   icon:
-    sprite: Objects/Weapons/Bombs/seismic.rsi
+    sprite: _Erida/Objects/Weapons/Bombs/seismic.rsi
     state: icon
   product: CrateSeismicCharge
   cost: 1800
@@ -22,7 +22,7 @@
 - type: cargoProduct
   id: CargoCrusher
   icon:
-    sprite: Objects/Weapons/Melee/crusher.rsi
+    sprite: _Erida/Objects/Weapons/Melee/crusher.rsi
     state: icon
   product: CrateCrusher
   cost: 5000
@@ -32,7 +32,7 @@
 - type: cargoProduct
   id: CargoSalvageHardsuit
   icon:
-    sprite: Clothing/OuterClothing/Hardsuits/salvage.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/salvage.rsi
     state: icon
   product: CrateSalvageHardsuit
   cost: 7500
@@ -43,7 +43,7 @@
 - type: cargoProduct
   id: CargoFulton
   icon:
-    sprite: /Textures/Objects/Tools/fulton.rsi
+    sprite: /Textures/_Erida/Objects/Tools/fulton.rsi
     state: extraction_pack
   product: CrateFulton
   cost: 3000
@@ -53,7 +53,7 @@
 - type: cargoProduct
   id: CargoVoidJetpack
   icon:
-    sprite: Objects/Tanks/Jetpacks/void.rsi
+    sprite: _Erida/Objects/Tanks/Jetpacks/void.rsi
     state: icon
   product: CrateVoidJetpack
   cost: 4000
@@ -63,7 +63,7 @@
 - type: cargoProduct
   id: CargoCrusherGlaive
   icon:
-    sprite: Objects/Weapons/Melee/crusher_glaive.rsi
+    sprite: _Erida/Objects/Weapons/Melee/crusher_glaive.rsi
     state: icon
   product: CrateCrusherGlaive
   cost: 8000
@@ -75,7 +75,7 @@
 - type: cargoProduct
   id: CargoSupremeSalvagerCloak
   icon:
-    sprite: Clothing/Neck/Cloaks/miner.rsi
+    sprite: _Erida/Clothing/Neck/Cloaks/miner.rsi
     state: icon
   product: CrateSupremeSalvagerCloak
   cost: 25000

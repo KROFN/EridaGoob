@@ -67,11 +67,11 @@
   description: An orange high voltage power cable.
   components:
   - type: Sprite
-    sprite: Structures/Power/Cables/hv_cable.rsi
+    sprite: _Erida/Structures/Power/Cables/hv_cable.rsi
     state: hvcable_0
     drawdepth: ThickWire
   - type: Icon
-    sprite: Structures/Power/Cables/hv_cable.rsi
+    sprite: _Erida/Structures/Power/Cables/hv_cable.rsi
     state: hvcable_4
   - type: NodeContainer
     nodes:
@@ -125,13 +125,13 @@
   description: A medium voltage power cable.
   components:
   - type: Sprite
-    sprite: Structures/Power/Cables/mv_cable.rsi
+    sprite: _Erida/Structures/Power/Cables/mv_cable.rsi
     layers:
     - state: mvcable_0
       color: Yellow
     - state: mvstripes_0
   - type: Icon
-    sprite: Structures/Power/Cables/mv_cable.rsi
+    sprite: _Erida/Structures/Power/Cables/mv_cable.rsi
     state: mvcable_4
   - type: NodeContainer
     nodes:
@@ -180,10 +180,10 @@
   components:
   - type: Sprite
     color: Green
-    sprite: Structures/Power/Cables/lv_cable.rsi
+    sprite: _Erida/Structures/Power/Cables/lv_cable.rsi
     state: lvcable_0
   - type: Icon
-    sprite: Structures/Power/Cables/lv_cable.rsi
+    sprite: _Erida/Structures/Power/Cables/lv_cable.rsi
     state: lvcable_4
   - type: NodeContainer
     nodes:
@@ -238,10 +238,10 @@
     cableType: ExCable
   - type: Sprite
 #    color: white # maybe change this later and move the stripes to the CableVisualizerComp layer instead
-    sprite: Structures/Power/Cables/ex_cable.rsi
+    sprite: _Erida/Structures/Power/Cables/ex_cable.rsi
     state: excable_0
   - type: Icon
-    sprite: Structures/Power/Cables/ex_cable.rsi
+    sprite: _Erida/Structures/Power/Cables/ex_cable.rsi
     state: excable_4
   - type: Damageable
     damageContainer: StructuralInorganic

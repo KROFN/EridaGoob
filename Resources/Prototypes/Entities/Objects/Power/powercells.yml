@@ -15,7 +15,7 @@
     maxIntensity: 200
     intensitySlope: 1.5
   - type: Sprite
-    sprite: Objects/Power/power_cells.rsi
+    sprite: _Erida/Objects/Power/power_cells.rsi
   - type: SolutionContainerManager
     solutions:
       battery:
@@ -82,7 +82,7 @@
   - type: PowerMonitoringDevice
     group: Generator
     loadNode: output
-    sprite: Structures/Power/power.rsi
+    sprite: _Erida/Structures/Power/power.rsi
     state: generator
   - type: Anchorable # goob end
   - type: BatteryAmmoProvider # goob edit - svalinn buff fix
@@ -381,7 +381,7 @@
   description: A rechargeable power cage for big devices. This is the cheapest kind you can find.
   components:
   - type: Sprite
-    sprite: Objects/Power/power_cages.rsi
+    sprite: _Erida/Objects/Power/power_cages.rsi
     layers:
     - map: [ "enum.PowerCellVisualLayers.Base" ]
       state: small
@@ -399,7 +399,7 @@
   description: A rechargeable power cage for big devices. The gold standard of capacity and cost.
   components:
   - type: Sprite
-    sprite: Objects/Power/power_cages.rsi
+    sprite: _Erida/Objects/Power/power_cages.rsi
     layers:
     - map: [ "enum.PowerCellVisualLayers.Base" ]
       state: medium
@@ -417,7 +417,7 @@
   description: A rechargeable power cage for big devices. Increased capacity for increased power levels.
   components:
   - type: Sprite
-    sprite: Objects/Power/power_cages.rsi
+    sprite: _Erida/Objects/Power/power_cages.rsi
     layers:
     - map: [ "enum.PowerCellVisualLayers.Base" ]
       state: high
@@ -434,7 +434,7 @@
   suffix: Empty
   components:
   - type: Sprite
-    sprite: Objects/Power/power_cages.rsi
+    sprite: _Erida/Objects/Power/power_cages.rsi
     layers:
     - map: [ "enum.PowerCellVisualLayers.Base" ]
       state: small
@@ -452,7 +452,7 @@
   suffix: Empty
   components:
   - type: Sprite
-    sprite: Objects/Power/power_cages.rsi
+    sprite: _Erida/Objects/Power/power_cages.rsi
     layers:
     - map: [ "enum.PowerCellVisualLayers.Base" ]
       state: small
@@ -469,7 +469,7 @@
   suffix: Empty
   components:
   - type: Sprite
-    sprite: Objects/Power/power_cages.rsi
+    sprite: _Erida/Objects/Power/power_cages.rsi
     layers:
     - map: [ "enum.PowerCellVisualLayers.Base" ]
       state: small

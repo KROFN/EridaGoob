@@ -72,7 +72,7 @@
         - ReagentId: Milk
           Quantity: 30
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/waterbottle.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/waterbottle.rsi
   - type: SolutionContainerVisuals
     inHandsMaxFillLevels: 2
     inHandsFillBaseName: -fill-

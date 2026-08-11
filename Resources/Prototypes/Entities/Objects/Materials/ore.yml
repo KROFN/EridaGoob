@@ -7,9 +7,9 @@
   description: A piece of unrefined ore.
   components:
   - type: Sprite
-    sprite: Objects/Materials/ore.rsi
+    sprite: _Erida/Objects/Materials/ore.rsi
   - type: Item
-    sprite: Objects/Materials/ore.rsi
+    sprite: _Erida/Objects/Materials/ore.rsi
     size: Normal
   - type: Tag
     tags:

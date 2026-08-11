@@ -10,7 +10,7 @@
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
   - type: Sprite
-    sprite: Clothing/Back/Backpacks/backpack.rsi
+    sprite: _Erida/Clothing/Back/Backpacks/backpack.rsi
   - type: ChameleonClothing
     slot: [back]
     default: ClothingBackpack
@@ -33,7 +33,7 @@
     - NozzleBackTank
     - WhitelistChameleon
   - type: Sprite
-    sprite: Clothing/Back/Backpacks/waterbackpack.rsi
+    sprite: _Erida/Clothing/Back/Backpacks/waterbackpack.rsi
     state: icon
   - type: Item
     size: Ginormous
@@ -41,7 +41,7 @@
     slots:
      - BACK
      - suitStorage  # Goob edit
-    sprite: Clothing/Back/Backpacks/waterbackpack.rsi
+    sprite: _Erida/Clothing/Back/Backpacks/waterbackpack.rsi
   - type: ItemSlots
     slots:
       item:
@@ -95,7 +95,7 @@
   description: A small bag designed for use by pets and small animals.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Specific/petbag.rsi
+    sprite: _Erida/Clothing/Back/Specific/petbag.rsi
   - type: Storage
     grid:
     - 1,0,2,0
@@ -119,7 +119,7 @@
   description: Now you can reload, punch, and eat a snack - simultaneously.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Specific/harmpack.rsi
+    sprite: _Erida/Clothing/Back/Specific/harmpack.rsi
     state: icon
   - type: Item
     size: Ginormous
@@ -141,7 +141,7 @@
   description: A knockoff version of a bluespace bag, can vacumn up select materials, unfit for use by humanoids due to harmful emissions.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Robotics/silicon_storage_cube.rsi
+    sprite: _Erida/Objects/Specific/Robotics/silicon_storage_cube.rsi
     state: xenoborg
   - type: MagnetPickup
   - type: Dumpable

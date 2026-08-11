@@ -11,7 +11,7 @@
     - Pickaxe
     - ItemPickaxe # Einstein Engines
   - type: Sprite
-    sprite: Objects/Weapons/Melee/pickaxe.rsi
+    sprite: _Erida/Objects/Weapons/Melee/pickaxe.rsi
     state: pickaxe
   - type: MeleeWeapon
     attackRate: 0.7
@@ -36,7 +36,7 @@
     shape:
     - 0,0,2,0
     - 1,1,1,2
-    sprite: Objects/Weapons/Melee/pickaxe.rsi
+    sprite: _Erida/Objects/Weapons/Melee/pickaxe.rsi
     storedRotation: -45
   - type: UseDelay
   - type: PhysicalComposition #Goobstation - Recycle update
@@ -56,7 +56,7 @@
     tags:
     - Pickaxe
   - type: Sprite
-    sprite: Objects/Tools/handdrill.rsi
+    sprite: _Erida/Objects/Tools/handdrill.rsi
     state: handdrill
   - type: MeleeWeapon
     autoAttack: true
@@ -84,7 +84,7 @@
   description: A significantly more efficient mining drill tipped with diamond.
   components:
   - type: Sprite
-    sprite: Objects/Tools/handdrilldiamond.rsi
+    sprite: _Erida/Objects/Tools/handdrilldiamond.rsi
     state: handdrill
   - type: MeleeWeapon
     autoAttack: true

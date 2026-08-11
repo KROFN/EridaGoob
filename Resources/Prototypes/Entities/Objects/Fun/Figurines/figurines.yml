@@ -10,7 +10,7 @@
   description: A small miniature.
   components:
   - type: Sprite
-    sprite: Objects/Fun/figurines.rsi
+    sprite: _Erida/Objects/Fun/figurines.rsi
   - type: PhysicalComposition
     materialComposition:
       Plastic: 100
@@ -509,11 +509,11 @@
   description: A plastic model of a Nuclear Fission Explosive. No uranium included... probably.
   components:
   - type: Sprite
-    sprite: Objects/Fun/toy_nuke.rsi
+    sprite: _Erida/Objects/Fun/toy_nuke.rsi
     state: icon
   - type: Clothing
     quickEquip: false
-    sprite: Objects/Fun/toy_nuke.rsi
+    sprite: _Erida/Objects/Fun/toy_nuke.rsi
     slots:
     - HEAD
     clothingVisuals:
@@ -617,11 +617,11 @@
   description: A scaled-down toy AI core.
   components:
   - type: Sprite
-    sprite: Objects/Fun/AI.rsi
+    sprite: _Erida/Objects/Fun/AI.rsi
     state: icon
   - type: Clothing
     quickEquip: false
-    sprite: Objects/Fun/AI.rsi
+    sprite: _Erida/Objects/Fun/AI.rsi
     slots:
     - HEAD
     clothingVisuals:

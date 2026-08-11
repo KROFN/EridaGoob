@@ -6,9 +6,9 @@
   id: PartSiliconBase
   components:
   - type: Sprite
-    sprite: Objects/Specific/Robotics/cyborg_parts.rsi
+    sprite: _Erida/Objects/Specific/Robotics/cyborg_parts.rsi
   - type: Icon
-    sprite: Objects/Specific/Robotics/cyborg_parts.rsi
+    sprite: _Erida/Objects/Specific/Robotics/cyborg_parts.rsi
   - type: StaticPrice
     price: 15 #Goobstation - Increased price
   - type: BodyPart # Shitmed Change

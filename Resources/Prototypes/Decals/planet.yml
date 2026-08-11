@@ -5,7 +5,7 @@
   snapCardinals: true
   defaultSnap: false
   sprite:
-    sprite: /Textures/Decals/Flora/flora_flowers.rsi
+    sprite: /Textures/_Erida/Decals/Flora/flora_flowers.rsi
     state: flowersbr1
 
 - type: decal
@@ -13,7 +13,7 @@
   snapCardinals: true
   defaultSnap: false
   sprite:
-    sprite: /Textures/Decals/Flora/flora_flowers.rsi
+    sprite: /Textures/_Erida/Decals/Flora/flora_flowers.rsi
     state: flowersbr2
 
 - type: decal
@@ -21,7 +21,7 @@
   snapCardinals: true
   defaultSnap: false
   sprite:
-    sprite: /Textures/Decals/Flora/flora_flowers.rsi
+    sprite: /Textures/_Erida/Decals/Flora/flora_flowers.rsi
     state: flowersbr3
 
 # Grass
@@ -30,7 +30,7 @@
   snapCardinals: true
   defaultSnap: false
   sprite:
-    sprite: /Textures/Decals/Flora/flora_bushes.rsi
+    sprite: /Textures/_Erida/Decals/Flora/flora_bushes.rsi
     state: busha1
 
 - type: decal
@@ -38,7 +38,7 @@
   snapCardinals: true
   defaultSnap: false
   sprite:
-    sprite: /Textures/Decals/Flora/flora_bushes.rsi
+    sprite: /Textures/_Erida/Decals/Flora/flora_bushes.rsi
     state: busha2
 
 - type: decal
@@ -46,7 +46,7 @@
   snapCardinals: true
   defaultSnap: false
   sprite:
-    sprite: /Textures/Decals/Flora/flora_bushes.rsi
+    sprite: /Textures/_Erida/Decals/Flora/flora_bushes.rsi
     state: busha3
 
 - type: decal
@@ -54,7 +54,7 @@
   snapCardinals: true
   defaultSnap: false
   sprite:
-    sprite: /Textures/Decals/Flora/flora_bushes.rsi
+    sprite: /Textures/_Erida/Decals/Flora/flora_bushes.rsi
     state: bushc1
 
 - type: decal
@@ -62,7 +62,7 @@
   snapCardinals: true
   defaultSnap: false
   sprite:
-    sprite: /Textures/Decals/Flora/flora_bushes.rsi
+    sprite: /Textures/_Erida/Decals/Flora/flora_bushes.rsi
     state: bushc2
 
 - type: decal
@@ -70,7 +70,7 @@
   snapCardinals: true
   defaultSnap: false
   sprite:
-    sprite: /Textures/Decals/Flora/flora_bushes.rsi
+    sprite: /Textures/_Erida/Decals/Flora/flora_bushes.rsi
     state: bushc3
 
 - type: decal
@@ -78,7 +78,7 @@
   snapCardinals: true
   defaultSnap: false
   sprite:
-    sprite: /Textures/Decals/Flora/flora_bushes.rsi
+    sprite: /Textures/_Erida/Decals/Flora/flora_bushes.rsi
     state: bushd1
 
 - type: decal
@@ -86,7 +86,7 @@
   snapCardinals: true
   defaultSnap: false
   sprite:
-    sprite: /Textures/Decals/Flora/flora_bushes.rsi
+    sprite: /Textures/_Erida/Decals/Flora/flora_bushes.rsi
     state: bushd2
 
 - type: decal
@@ -94,5 +94,5 @@
   snapCardinals: true
   defaultSnap: false
   sprite:
-    sprite: /Textures/Decals/Flora/flora_bushes.rsi
+    sprite: /Textures/_Erida/Decals/Flora/flora_bushes.rsi
     state: bushd3

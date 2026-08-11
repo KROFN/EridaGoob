@@ -64,10 +64,10 @@
     - Knife
     - KitchenKnife
   - type: Sprite
-    sprite: Objects/Weapons/Melee/kitchen_knife.rsi
+    sprite: _Erida/Objects/Weapons/Melee/kitchen_knife.rsi
     state: icon
   - type: Item
-    sprite: Objects/Weapons/Melee/kitchen_knife.rsi
+    sprite: _Erida/Objects/Weapons/Melee/kitchen_knife.rsi
     storedOffset: -1,1
     storedRotation: -45
   - type: GuideHelp
@@ -108,7 +108,7 @@
     - Knife
     - Cleaver
   - type: Sprite
-    sprite: Objects/Weapons/Melee/cleaver.rsi
+    sprite: _Erida/Objects/Weapons/Melee/cleaver.rsi
     state: butch
   - type: MeleeWeapon
     wideAnimationRotation: -115
@@ -118,7 +118,7 @@
         Slash: 13
   - type: Item
     size: Normal
-    sprite: Objects/Weapons/Melee/cleaver.rsi
+    sprite: _Erida/Objects/Weapons/Melee/cleaver.rsi
   - type: GuideHelp
     guides:
     - Chef
@@ -153,7 +153,7 @@
     - CombatKnife
     - Knife
   - type: Sprite
-    sprite: Objects/Weapons/Melee/combat_knife.rsi
+    sprite: _Erida/Objects/Weapons/Melee/combat_knife.rsi
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: -135
@@ -170,10 +170,10 @@
       types:
         Slash: 10
   - type: Item
-    sprite: Objects/Weapons/Melee/combat_knife.rsi
+    sprite: _Erida/Objects/Weapons/Melee/combat_knife.rsi
     storedSprite:
       state: storage
-      sprite: Objects/Weapons/Melee/combat_knife.rsi
+      sprite: _Erida/Objects/Weapons/Melee/combat_knife.rsi
   - type: DisarmMalus
     malus: 0.225
   - type: ThrowingAngle
@@ -206,13 +206,13 @@
   description: Weapon of first and last resort for combatting space carp.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/survival_knife.rsi
+    sprite: _Erida/Objects/Weapons/Melee/survival_knife.rsi
     state: icon
   - type: Item
-    sprite: Objects/Weapons/Melee/survival_knife.rsi
+    sprite: _Erida/Objects/Weapons/Melee/survival_knife.rsi
     storedSprite:
       state: storage
-      sprite: Objects/Weapons/Melee/survival_knife.rsi
+      sprite: _Erida/Objects/Weapons/Melee/survival_knife.rsi
 
 - type: entity
   name: kukri knife
@@ -221,7 +221,7 @@
   description: Professionals have standards. Be polite. Be efficient. Have a plan to kill everyone you meet.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/kukri_knife.rsi
+    sprite: _Erida/Objects/Weapons/Melee/kukri_knife.rsi
     state: icon
   - type: MeleeWeapon
     animationRotation: -45 # WWDP
@@ -230,7 +230,7 @@
       types:
         Slash: 15
   - type: Item
-    sprite: Objects/Weapons/Melee/kukri_knife.rsi
+    sprite: _Erida/Objects/Weapons/Melee/kukri_knife.rsi
     storedSprite: null
 
 - type: entity
@@ -255,9 +255,9 @@
         Slash: 10
   - type: LandAtCursor
   - type: Sprite
-    sprite: Clothing/Head/Hats/greyflatcap.rsi
+    sprite: _Erida/Clothing/Head/Hats/greyflatcap.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/greyflatcap.rsi
+    sprite: _Erida/Clothing/Head/Hats/greyflatcap.rsi
   - type: ThrowableBlocked # Goobstation
 
 - type: entity
@@ -269,9 +269,9 @@
   - type: Construction
     graph: BladedFlatcapBrown
   - type: Sprite
-    sprite: Clothing/Head/Hats/brownflatcap.rsi
+    sprite: _Erida/Clothing/Head/Hats/brownflatcap.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/brownflatcap.rsi
+    sprite: _Erida/Clothing/Head/Hats/brownflatcap.rsi
 
 - type: entity
   name: shiv
@@ -288,7 +288,7 @@
     graph: Shiv
     node: icon
   - type: Sprite
-    sprite: Objects/Weapons/Melee/shiv.rsi
+    sprite: _Erida/Objects/Weapons/Melee/shiv.rsi
     state: icon
   - type: MeleeWeapon
     attackRate: 1.5
@@ -296,7 +296,7 @@
       types:
         Slash: 6 # goob edit
   - type: Item
-    sprite: Objects/Weapons/Melee/shiv.rsi
+    sprite: _Erida/Objects/Weapons/Melee/shiv.rsi
   - type: DisarmMalus
     malus: 0.225
   - type: Fixtures
@@ -330,9 +330,9 @@
       types:
         Slash: 8 #each "tier" grants an additional 2 damage # goob edit
   - type: Item
-    sprite: Objects/Weapons/Melee/reinforced_shiv.rsi
+    sprite: _Erida/Objects/Weapons/Melee/reinforced_shiv.rsi
   - type: Sprite
-    sprite: Objects/Weapons/Melee/reinforced_shiv.rsi
+    sprite: _Erida/Objects/Weapons/Melee/reinforced_shiv.rsi
 
 - type: entity
   name: plasma shiv
@@ -349,9 +349,9 @@
       types:
         Slash: 10 # goob edit
   - type: Item
-    sprite: Objects/Weapons/Melee/plasma_shiv.rsi
+    sprite: _Erida/Objects/Weapons/Melee/plasma_shiv.rsi
   - type: Sprite
-    sprite: Objects/Weapons/Melee/plasma_shiv.rsi
+    sprite: _Erida/Objects/Weapons/Melee/plasma_shiv.rsi
 
 - type: entity
   name: uranium shiv
@@ -369,9 +369,9 @@
         Slash: 6 # goob edit
         Radiation: 4
   - type: Item
-    sprite: Objects/Weapons/Melee/uranium_shiv.rsi
+    sprite: _Erida/Objects/Weapons/Melee/uranium_shiv.rsi
   - type: Sprite
-    sprite: Objects/Weapons/Melee/uranium_shiv.rsi
+    sprite: _Erida/Objects/Weapons/Melee/uranium_shiv.rsi
 
 - type: entity
   name: throwing knife
@@ -384,7 +384,7 @@
     - CombatKnife
     - Knife
   - type: Sprite
-    sprite: Objects/Weapons/Melee/throwing_knife.rsi
+    sprite: _Erida/Objects/Weapons/Melee/throwing_knife.rsi
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: -135
@@ -404,7 +404,7 @@
         Slash: 10
         Piercing: 15
   - type: Item
-    sprite: Objects/Weapons/Melee/throwing_knife.rsi
+    sprite: _Erida/Objects/Weapons/Melee/throwing_knife.rsi
   - type: ThrowingAngle
     angle: 225
   - type: StaticPrice
@@ -447,7 +447,7 @@
         path: /Audio/Items/Culinary/chop.ogg
   - type: Item
     size: Tiny
-    sprite: Objects/Weapons/Melee/utility_knife.rsi
+    sprite: _Erida/Objects/Weapons/Melee/utility_knife.rsi
   - type: ItemToggle
     soundActivate:
       path: /Audio/Weapons/utilityknifeopen.ogg
@@ -469,7 +469,7 @@
     materialComposition:
       Steel: 50
   - type: Sprite
-    sprite: Objects/Weapons/Melee/utility_knife.rsi
+    sprite: _Erida/Objects/Weapons/Melee/utility_knife.rsi
     layers:
     - state: utility_knife_handle
     - state: utility_knife_blade

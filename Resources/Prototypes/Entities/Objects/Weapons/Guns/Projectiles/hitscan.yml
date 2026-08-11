@@ -26,13 +26,13 @@
   - type: HitscanBasicRaycast
   - type: HitscanBasicVisuals
     muzzleFlash:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: muzzle_laser
     travelFlash:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: beam
     impactFlash:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: impact_laser
   - type: HitscanReflect
   - type: HitscanBasicEffects
@@ -82,13 +82,13 @@
         Heat: 28
   - type: HitscanBasicVisuals
     muzzleFlash:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: muzzle_beam_heavy
     travelFlash:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: beam_heavy
     impactFlash:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: impact_beam_heavy
 
 - type: entity
@@ -116,13 +116,13 @@
         Ion: 15 #Goobstation
   - type: HitscanBasicVisuals
     muzzleFlash:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: muzzle_xray
     travelFlash:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: xray
     impactFlash:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: impact_xray
 
 - type: entity
@@ -138,13 +138,13 @@
         Blunt: 5 # Split damage is cool. - Goobstation
   - type: HitscanBasicVisuals
     muzzleFlash:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: muzzle_blue
     travelFlash:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: beam_blue
     impactFlash:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: impact_blue
 
 - type: entity
@@ -162,13 +162,13 @@
         Structural: 10
   - type: HitscanBasicVisuals
     muzzleFlash:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: muzzle_beam_heavy2
     travelFlash:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: beam_heavy2
     impactFlash:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: impact_beam_heavy2
 
 - type: entity
@@ -184,13 +184,13 @@
         Heat: 1
   - type: HitscanBasicVisuals
     muzzleFlash:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: muzzle_debug
     travelFlash:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: debug
     impactFlash:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: impact_debug
 
 - type: entity

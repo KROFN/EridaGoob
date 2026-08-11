@@ -49,9 +49,9 @@
   description: A blue baseball cap.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/bluesoft.rsi
+    sprite: _Erida/Clothing/Head/Soft/bluesoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/bluesoft.rsi
+    sprite: _Erida/Clothing/Head/Soft/bluesoft.rsi
 
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatBluesoft]
@@ -94,9 +94,9 @@
   description: A baseball cap colored to match the Quartermaster's uniform.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/qmsoft.rsi
+    sprite: _Erida/Clothing/Head/Soft/qmsoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/qmsoft.rsi
+    sprite: _Erida/Clothing/Head/Soft/qmsoft.rsi
 
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatQMsoft]
@@ -110,9 +110,9 @@
   description: A baseball cap in command's distinctive shade of blue.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/commandsoft.rsi
+    sprite: _Erida/Clothing/Head/Soft/commandsoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/commandsoft.rsi
+    sprite: _Erida/Clothing/Head/Soft/commandsoft.rsi
 
 - type: entity
   parent: [ ClothingHeadHeadHatBaseFlipped, ClothingHeadHatCommandSoft ]
@@ -126,9 +126,9 @@
   description: A baseball cap in corporation colors.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/corpsoft.rsi
+    sprite: _Erida/Clothing/Head/Soft/corpsoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/corpsoft.rsi
+    sprite: _Erida/Clothing/Head/Soft/corpsoft.rsi
 
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatCorpsoft]
@@ -142,9 +142,9 @@
   description: A green baseball cap.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/greensoft.rsi
+    sprite: _Erida/Clothing/Head/Soft/greensoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/greensoft.rsi
+    sprite: _Erida/Clothing/Head/Soft/greensoft.rsi
 
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatGreensoft]
@@ -158,9 +158,9 @@
   description: A black baseball cap.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/blacksoft.rsi
+    sprite: _Erida/Clothing/Head/Soft/blacksoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/blacksoft.rsi
+    sprite: _Erida/Clothing/Head/Soft/blacksoft.rsi
 
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatBlacksoft]
@@ -174,9 +174,9 @@
   description: A grey baseball cap.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/greysoft.rsi
+    sprite: _Erida/Clothing/Head/Soft/greysoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/greysoft.rsi
+    sprite: _Erida/Clothing/Head/Soft/greysoft.rsi
 
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatGreysoft]
@@ -190,9 +190,9 @@
   description: A white baseball cap.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/mimesoft.rsi
+    sprite: _Erida/Clothing/Head/Soft/mimesoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/mimesoft.rsi
+    sprite: _Erida/Clothing/Head/Soft/mimesoft.rsi
 
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatMimesoft]
@@ -206,9 +206,9 @@
   description: An orange baseball cap.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/orangesoft.rsi
+    sprite: _Erida/Clothing/Head/Soft/orangesoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/orangesoft.rsi
+    sprite: _Erida/Clothing/Head/Soft/orangesoft.rsi
 
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatOrangesoft]
@@ -222,9 +222,9 @@
   description: A purple baseball cap.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/purplesoft.rsi
+    sprite: _Erida/Clothing/Head/Soft/purplesoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/purplesoft.rsi
+    sprite: _Erida/Clothing/Head/Soft/purplesoft.rsi
   - type: Tag
     tags:
     - ClothMade
@@ -251,9 +251,9 @@
   description: A red baseball cap.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/redsoft.rsi
+    sprite: _Erida/Clothing/Head/Soft/redsoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/redsoft.rsi
+    sprite: _Erida/Clothing/Head/Soft/redsoft.rsi
 
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatRedsoft]
@@ -267,9 +267,9 @@
   description: A baseball cap colored to match security's uniforms.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/secsoft.rsi
+    sprite: _Erida/Clothing/Head/Soft/secsoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/secsoft.rsi
+    sprite: _Erida/Clothing/Head/Soft/secsoft.rsi
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatSecsoft]
   id: ClothingHeadHatSecsoftFlipped
@@ -282,9 +282,9 @@
   description: A yellow baseball cap.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/yellowsoft.rsi
+    sprite: _Erida/Clothing/Head/Soft/yellowsoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/yellowsoft.rsi
+    sprite: _Erida/Clothing/Head/Soft/yellowsoft.rsi
 
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatYellowsoft]
@@ -298,9 +298,9 @@
   description: A truly.. bizarre accessory.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/bizarresoft.rsi
+    sprite: _Erida/Clothing/Head/Soft/bizarresoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/bizarresoft.rsi
+    sprite: _Erida/Clothing/Head/Soft/bizarresoft.rsi
 
 - type: entity
   parent: [ClothingHeadHeadHatBaseFlipped, ClothingHeadHatBizarreSoft]
@@ -314,9 +314,9 @@
   description: A blue baseball cap with a cross on the front.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Soft/paramedicsoft.rsi
+    sprite: _Erida/Clothing/Head/Soft/paramedicsoft.rsi
   - type: Clothing
-    sprite: Clothing/Head/Soft/paramedicsoft.rsi
+    sprite: _Erida/Clothing/Head/Soft/paramedicsoft.rsi
   - type: Tag
     tags:
     - ClothMade

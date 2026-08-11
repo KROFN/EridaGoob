@@ -4,7 +4,7 @@
   id: ProjectileFireball
   desc: Fireball. Fires exploding fireball.
   icon:
-    sprite: Objects/Magic/magicactions.rsi
+    sprite: _Erida/Objects/Magic/magicactions.rsi
     state: fireball
   color: darkorange
   soundGunshot:
@@ -46,7 +46,7 @@
   id: ProjectileTeleBolt
   desc: Teleportation. Teleports the target randomly.
   icon:
-    sprite: Objects/Magic/magicactions.rsi
+    sprite: _Erida/Objects/Magic/magicactions.rsi
     state: blink
   color: lightblue
   soundGunshot:
@@ -130,7 +130,7 @@
   id: ProjectileXRayBolt
   desc: X-Ray. Pierces through anything.
   icon:
-    sprite: Objects/Weapons/Guns/Battery/xray.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/xray.rsi
     state: icon
   color: "#1AE51A"
   soundGunshot:

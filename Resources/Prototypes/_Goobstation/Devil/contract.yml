@@ -24,7 +24,7 @@
     sprite: _Goobstation/Objects/Misc/devil_contract.rsi
     size: Small
   - type: Sprite
-    sprite: Objects/Misc/bureaucracy.rsi
+    sprite: _Erida/Objects/Misc/bureaucracy.rsi
     state: contract-written
   - type: CrematoriumImmune # Dude. You're burning the paper from *hell*? Really?
   - type: SupermatterImmune # Nope.

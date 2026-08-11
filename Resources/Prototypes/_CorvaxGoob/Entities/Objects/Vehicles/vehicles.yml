@@ -7,7 +7,7 @@
     - type: Vehicle
       renderOver: North, NorthEast, East, SouthEast, South, SouthWest, West, NorthWest
     - type: Sprite
-      sprite: Objects/Vehicles/motorbike.rsi
+      sprite: _Erida/Objects/Vehicles/motorbike.rsi
       state: vehicle
       noRot: true
     - type: MovementSpeedModifier

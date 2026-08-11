@@ -4,7 +4,7 @@
   suffix: Lamarr, Filled
   components:
   - type: Sprite
-    sprite: Structures/Storage/glassbox.rsi
+    sprite: _Erida/Structures/Storage/glassbox.rsi
     layers:
     - state: base
     - sprite: _White/Mobs/Aliens/Xenomorphs/old_facehugger.rsi

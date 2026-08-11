@@ -22,7 +22,7 @@
   id: BulletDisablerSmgSpread
   desc: Disabler bolt spread.
   icon:
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     state: omnilaser
   protoId: BulletDisablerSmgSpread
   fireCost: 100
@@ -31,7 +31,7 @@
   id: BulletDisabler
   desc: Disabler bolt.
   icon:
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     state: omnilaser
   color: "#00B2FF"
   protoId: BulletDisabler
@@ -41,7 +41,7 @@
   id: BulletEnergyGunLaser
   desc: Laser bolt.
   icon:
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     state: heavylaser
   color: red
   protoId: BulletEnergyGunLaser
@@ -83,7 +83,7 @@
   id: BulletEnergyGunDetain
   desc: Causes large amounts of stamina damage.
   icon:
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     state: omnilaser
   color: blue
   protoId: BulletDetain
@@ -136,7 +136,7 @@
   id: HeavyPulse
   desc: Decimate
   icon:
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     state: omnilaser
   color: "#00B2FF"
   protoId: HeavyPulse
@@ -146,7 +146,7 @@
   id: Pulse
   desc: Terminate.
   icon:
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     state: omnilaser
   color: "#00B2FF"
   protoId: Pulse
@@ -156,7 +156,7 @@
   id: LightPulse
   desc: Kill.
   icon:
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     state: heavylaser
   color: red
   protoId: LightPulse

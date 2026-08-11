@@ -8,7 +8,7 @@
   components:
   - type: Sprite
     noRot: false
-    sprite: Objects/Misc/meteor.rsi
+    sprite: _Erida/Objects/Misc/meteor.rsi
   - type: Projectile
     damage: {}
     deleteOnCollide: false

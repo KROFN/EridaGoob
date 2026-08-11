@@ -11,10 +11,10 @@
     stackType: InflatableWall
     count: 10
   - type: Sprite
-    sprite: Objects/Misc/inflatable_wall.rsi
+    sprite: _Erida/Objects/Misc/inflatable_wall.rsi
     state: item_wall
   - type: Item
-    sprite: Objects/Misc/inflatable_wall.rsi
+    sprite: _Erida/Objects/Misc/inflatable_wall.rsi
     size: Small
     storedRotation: 90
   - type: SpawnAfterInteract
@@ -40,10 +40,10 @@
     stackType: InflatableDoor
     count: 4
   - type: Sprite
-    sprite: Objects/Misc/inflatable_door.rsi
+    sprite: _Erida/Objects/Misc/inflatable_door.rsi
     state: item_door
   - type: Item
-    sprite: Objects/Misc/inflatable_door.rsi
+    sprite: _Erida/Objects/Misc/inflatable_door.rsi
     size: Small
     storedRotation: 90
   - type: SpawnAfterInteract

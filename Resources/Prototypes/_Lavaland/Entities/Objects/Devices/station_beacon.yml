@@ -9,7 +9,7 @@
   suffix: General
   components:
   - type: Sprite
-    sprite: Objects/Devices/station_beacon.rsi
+    sprite: _Erida/Objects/Devices/station_beacon.rsi
     drawdepth: BelowFloor
     layers:
     - state: blink

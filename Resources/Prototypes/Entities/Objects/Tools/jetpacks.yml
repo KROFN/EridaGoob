@@ -13,7 +13,7 @@
     layers:
     - shader: unshaded
       map: ["enum.EffectLayers.Unshaded"]
-      sprite: Effects/atmospherics.rsi
+      sprite: _Erida/Effects/atmospherics.rsi
       state: frezon_old
   - type: Tag
     tags:
@@ -28,12 +28,12 @@
   description: It's a jetpack. It can hold 5 L of gas.
   components:
   - type: Sprite
-    sprite: Objects/Tanks/Jetpacks/blue.rsi
+    sprite: _Erida/Objects/Tanks/Jetpacks/blue.rsi
     layers:
     - state: icon
       map: ["enum.JetpackVisuals.Layer"]
   - type: Item
-    sprite: Objects/Tanks/Jetpacks/blue.rsi
+    sprite: _Erida/Objects/Tanks/Jetpacks/blue.rsi
     size: Huge
   - type: UserInterface
     interfaces:
@@ -44,7 +44,7 @@
       gasTank:
         length: 1.0
   - type: Clothing
-    sprite: Objects/Tanks/Jetpacks/blue.rsi
+    sprite: _Erida/Objects/Tanks/Jetpacks/blue.rsi
     quickEquip: false
     slots:
     - Back
@@ -73,10 +73,10 @@
   components:
   - type: Action
     icon:
-      sprite: Objects/Tanks/Jetpacks/blue.rsi
+      sprite: _Erida/Objects/Tanks/Jetpacks/blue.rsi
       state: icon
     iconOn:
-      sprite: Objects/Tanks/Jetpacks/blue.rsi
+      sprite: _Erida/Objects/Tanks/Jetpacks/blue.rsi
       state: icon-on
     useDelay: 1.0
   - type: InstantAction
@@ -90,9 +90,9 @@
   suffix: Empty
   components:
   - type: Sprite
-    sprite: Objects/Tanks/Jetpacks/blue.rsi
+    sprite: _Erida/Objects/Tanks/Jetpacks/blue.rsi
   - type: Clothing
-    sprite: Objects/Tanks/Jetpacks/blue.rsi
+    sprite: _Erida/Objects/Tanks/Jetpacks/blue.rsi
     slots:
       - Back
 
@@ -121,11 +121,11 @@
   suffix: Empty
   components:
   - type: Item
-    sprite: Objects/Tanks/Jetpacks/black.rsi
+    sprite: _Erida/Objects/Tanks/Jetpacks/black.rsi
   - type: Sprite
-    sprite: Objects/Tanks/Jetpacks/black.rsi
+    sprite: _Erida/Objects/Tanks/Jetpacks/black.rsi
   - type: Clothing
-    sprite: Objects/Tanks/Jetpacks/black.rsi
+    sprite: _Erida/Objects/Tanks/Jetpacks/black.rsi
     slots:
       - Back
   - type: StaticPrice
@@ -156,14 +156,14 @@
   suffix: Empty
   components:
   - type: Sprite
-    sprite: Objects/Tanks/Jetpacks/captain.rsi
+    sprite: _Erida/Objects/Tanks/Jetpacks/captain.rsi
   - type: Clothing
-    sprite: Objects/Tanks/Jetpacks/captain.rsi
+    sprite: _Erida/Objects/Tanks/Jetpacks/captain.rsi
     slots:
       - Back
       - SuitStorage
   - type: Item
-    sprite: Objects/Tanks/Jetpacks/captain.rsi
+    sprite: _Erida/Objects/Tanks/Jetpacks/captain.rsi
     size: Normal
   - type: Tag
     tags:
@@ -198,11 +198,11 @@
   components:
     - type: Item
       size: Normal # goobstation - MINI jetpack
-      sprite: Objects/Tanks/Jetpacks/mini.rsi
+      sprite: _Erida/Objects/Tanks/Jetpacks/mini.rsi
     - type: Sprite
-      sprite: Objects/Tanks/Jetpacks/mini.rsi
+      sprite: _Erida/Objects/Tanks/Jetpacks/mini.rsi
     - type: Clothing
-      sprite: Objects/Tanks/Jetpacks/mini.rsi
+      sprite: _Erida/Objects/Tanks/Jetpacks/mini.rsi
       slots:
         - Back
         - suitStorage
@@ -238,11 +238,11 @@
   suffix: Empty
   components:
   - type: Item
-    sprite: Objects/Tanks/Jetpacks/security.rsi
+    sprite: _Erida/Objects/Tanks/Jetpacks/security.rsi
   - type: Sprite
-    sprite: Objects/Tanks/Jetpacks/security.rsi
+    sprite: _Erida/Objects/Tanks/Jetpacks/security.rsi
   - type: Clothing
-    sprite: Objects/Tanks/Jetpacks/security.rsi
+    sprite: _Erida/Objects/Tanks/Jetpacks/security.rsi
 
 #Filled security
 - type: entity
@@ -269,11 +269,11 @@
   suffix: Empty
   components:
   - type: Item
-    sprite: Objects/Tanks/Jetpacks/void.rsi
+    sprite: _Erida/Objects/Tanks/Jetpacks/void.rsi
   - type: Sprite
-    sprite: Objects/Tanks/Jetpacks/void.rsi
+    sprite: _Erida/Objects/Tanks/Jetpacks/void.rsi
   - type: Clothing
-    sprite: Objects/Tanks/Jetpacks/void.rsi
+    sprite: _Erida/Objects/Tanks/Jetpacks/void.rsi
     slots:
       - Back
       - suitStorage

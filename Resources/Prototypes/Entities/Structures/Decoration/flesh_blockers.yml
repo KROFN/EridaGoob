@@ -9,7 +9,7 @@
   - type: InteractionOutline
   - type: Sprite
     noRot: true
-    sprite: Structures/Decoration/flesh_decoration.rsi
+    sprite: _Erida/Structures/Decoration/flesh_decoration.rsi
     layers:
     - state: closed
       map: [ "enum.DamageStateVisualLayers.Base" ]

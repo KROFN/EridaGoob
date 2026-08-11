@@ -9,7 +9,7 @@
   - type: Objective
     unique: false
     icon:
-      sprite: Objects/Weapons/Melee/baseball_bat.rsi
+      sprite: _Erida/Objects/Weapons/Melee/baseball_bat.rsi
       state: icon
   - type: ObjectiveBlacklistRequirement
     blacklist:

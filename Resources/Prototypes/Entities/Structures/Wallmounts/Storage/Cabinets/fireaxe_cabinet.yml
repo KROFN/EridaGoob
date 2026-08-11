@@ -27,7 +27,7 @@
         sound:
           collection: MetalGlassBreak
   - type: Sprite
-    sprite: Structures/Wallmounts/fireaxe_cabinet.rsi
+    sprite: _Erida/Structures/Wallmounts/fireaxe_cabinet.rsi
     layers:
     - state: cabinet
     - state: fireaxe

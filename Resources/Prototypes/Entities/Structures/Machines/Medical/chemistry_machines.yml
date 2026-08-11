@@ -55,7 +55,7 @@
     reactionTypes:
     - Electrolysis
   - type: Sprite
-    sprite: Structures/Machines/Medical/electrolysis.rsi
+    sprite: _Erida/Structures/Machines/Medical/electrolysis.rsi
     offset: "0.0,0.4"
     layers:
     - state: base
@@ -95,7 +95,7 @@
     reactionTypes:
     - Centrifuge
   - type: Sprite
-    sprite: Structures/Machines/Medical/centrifuge.rsi
+    sprite: _Erida/Structures/Machines/Medical/centrifuge.rsi
     offset: "0.0,0.4"
     layers:
     - state: base

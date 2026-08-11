@@ -7,9 +7,9 @@
   description: "\"Gentlemen?\""
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/beaver_hat.rsi
+    sprite: _Erida/Clothing/Head/Hats/beaver_hat.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/beaver_hat.rsi
+    sprite: _Erida/Clothing/Head/Hats/beaver_hat.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -18,9 +18,9 @@
   description: An artist's favorite headwear.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/beret.rsi
+    sprite: _Erida/Clothing/Head/Hats/beret.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/beret.rsi
+    sprite: _Erida/Clothing/Head/Hats/beret.rsi
   - type: Tag
     tags:
     - PetWearable
@@ -41,9 +41,9 @@
   description: A French beret. "Vive la France!"
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/beret_french.rsi
+    sprite: _Erida/Clothing/Head/Hats/beret_french.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/beret_french.rsi
+    sprite: _Erida/Clothing/Head/Hats/beret_french.rsi
   - type: AddAccentClothing
     accent: FrenchAccent
   - type: Tag
@@ -63,9 +63,9 @@
   description: A beret with the security department's insignia. For officers that are more inclined towards style than safety.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/beret_security.rsi
+    sprite: _Erida/Clothing/Head/Hats/beret_security.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/beret_security.rsi
+    sprite: _Erida/Clothing/Head/Hats/beret_security.rsi
   - type: Tag
     tags:
     - ClothMade
@@ -83,9 +83,9 @@
   description: A campaign hat for the Nanotrasen Troopers. It's supposed to come with a case, too...
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/security_trooper_hat.rsi
+    sprite: _Erida/Clothing/Head/Hats/security_trooper_hat.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/security_trooper_hat.rsi
+    sprite: _Erida/Clothing/Head/Hats/security_trooper_hat.rsi
   - type: Tag
     tags:
     - ClothMade
@@ -98,9 +98,9 @@
   description: Cone-shaped hat.
   components:
     - type: Sprite
-      sprite: Clothing/Head/Hats/casa.rsi
+      sprite: _Erida/Clothing/Head/Hats/casa.rsi
     - type: Clothing
-      sprite: Clothing/Head/Hats/casa.rsi
+      sprite: _Erida/Clothing/Head/Hats/casa.rsi
     - type: Tag
       tags:
       - PetWearable
@@ -113,9 +113,9 @@
   description: A beret for real scientists.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/beret_rnd.rsi
+    sprite: _Erida/Clothing/Head/Hats/beret_rnd.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/beret_rnd.rsi
+    sprite: _Erida/Clothing/Head/Hats/beret_rnd.rsi
   - type: Tag
     tags:
     - PetWearable
@@ -137,9 +137,9 @@
   description: A beret with the engineering department's insignia. For engineers that are more inclined towards style than safety.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/beret_engineering.rsi
+    sprite: _Erida/Clothing/Head/Hats/beret_engineering.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/beret_engineering.rsi
+    sprite: _Erida/Clothing/Head/Hats/beret_engineering.rsi
   - type: Tag
     tags:
     - PetWearable
@@ -177,9 +177,9 @@
   description: A black beret with a commander's rank emblem. For officers that are more inclined towards style than safety.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/beret_hos.rsi
+    sprite: _Erida/Clothing/Head/Hats/beret_hos.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/beret_hos.rsi
+    sprite: _Erida/Clothing/Head/Hats/beret_hos.rsi
   - type: Tag
     tags:
     - PetWearable
@@ -197,9 +197,9 @@
   description: A corporate-blue beret with a warden's rank emblem. For officers that are more inclined towards style than safety.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/beret_warden.rsi
+    sprite: _Erida/Clothing/Head/Hats/beret_warden.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/beret_warden.rsi
+    sprite: _Erida/Clothing/Head/Hats/beret_warden.rsi
   - type: Tag
     tags:
     - PetWearable
@@ -212,9 +212,9 @@
   description: Donning the colours of medical and chemistry, physicians are the pride of this department!
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/beret_physician.rsi
+    sprite: _Erida/Clothing/Head/Hats/beret_physician.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/beret_physician.rsi
+    sprite: _Erida/Clothing/Head/Hats/beret_physician.rsi
   - type: Tag
     tags:
     - PetWearable
@@ -227,9 +227,9 @@
   description: A white beret for brigmedics.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/beret_brigmedic.rsi
+    sprite: _Erida/Clothing/Head/Hats/beret_brigmedic.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/beret_brigmedic.rsi
+    sprite: _Erida/Clothing/Head/Hats/beret_brigmedic.rsi
   - type: Tag
     tags:
     - PetWearable
@@ -242,9 +242,9 @@
   description: An olive beret with a badge depicting a jackal on a rock.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/beret_merc.rsi
+    sprite: _Erida/Clothing/Head/Hats/beret_merc.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/beret_merc.rsi
+    sprite: _Erida/Clothing/Head/Hats/beret_merc.rsi
   - type: Tag
     tags:
     - PetWearable
@@ -257,9 +257,9 @@
   description: A beret with the Nanotrasen logo. It has an aura of authority.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/beret_command.rsi
+    sprite: _Erida/Clothing/Head/Hats/beret_command.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/beret_command.rsi
+    sprite: _Erida/Clothing/Head/Hats/beret_command.rsi
   - type: Tag
     tags:
     - ClothMade
@@ -276,9 +276,9 @@
   description: A stylish bowler hat.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/bowler_hat.rsi
+    sprite: _Erida/Clothing/Head/Hats/bowler_hat.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/bowler_hat.rsi
+    sprite: _Erida/Clothing/Head/Hats/bowler_hat.rsi
   - type: Tag
     tags:
     - PetWearable
@@ -291,9 +291,9 @@
   description: Feels good being the king.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/captain.rsi
+    sprite: _Erida/Clothing/Head/Hats/captain.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/captain.rsi
+    sprite: _Erida/Clothing/Head/Hats/captain.rsi
   - type: Tag
     tags:
     - PetWearable
@@ -311,9 +311,9 @@
   description: A hat made out of a box.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/cardborg_h.rsi
+    sprite: _Erida/Clothing/Head/Hats/cardborg_h.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/cardborg_h.rsi
+    sprite: _Erida/Clothing/Head/Hats/cardborg_h.rsi
   - type: TypingIndicatorClothing
     proto: robot
   - type: IdentityBlocker
@@ -326,9 +326,9 @@
   description: Feels good being the king's boss.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/centcom.rsi
+    sprite: _Erida/Clothing/Head/Hats/centcom.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/centcom.rsi
+    sprite: _Erida/Clothing/Head/Hats/centcom.rsi
   - type: Tag
     tags:
     - PetWearable
@@ -341,9 +341,9 @@
   description: A hat used by chefs to keep their hair out of your food. Judging by the food in the mess, they don't work.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/chefhat.rsi
+    sprite: _Erida/Clothing/Head/Hats/chefhat.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/chefhat.rsi
+    sprite: _Erida/Clothing/Head/Hats/chefhat.rsi
   - type: Storage
     grid:
     - 0,0,0,0
@@ -375,9 +375,9 @@
   description: A brown fedora.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/brownfedora.rsi
+    sprite: _Erida/Clothing/Head/Hats/brownfedora.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/brownfedora.rsi
+    sprite: _Erida/Clothing/Head/Hats/brownfedora.rsi
   - type: Tag
     tags:
     - PetWearable
@@ -395,9 +395,9 @@
   description: A grey fedora.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/greyfedora.rsi
+    sprite: _Erida/Clothing/Head/Hats/greyfedora.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/greyfedora.rsi
+    sprite: _Erida/Clothing/Head/Hats/greyfedora.rsi
   - type: Tag
     tags:
     - PetWearable
@@ -410,9 +410,9 @@
   description: A red fez.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/fez.rsi
+    sprite: _Erida/Clothing/Head/Hats/fez.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/fez.rsi
+    sprite: _Erida/Clothing/Head/Hats/fez.rsi
   - type: Tag
     tags:
     - PetWearable
@@ -425,9 +425,9 @@
   description: A stylish cap worn by the Head of Personnel. Shows paperwork who's in charge.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/hopcap.rsi
+    sprite: _Erida/Clothing/Head/Hats/hopcap.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/hopcap.rsi
+    sprite: _Erida/Clothing/Head/Hats/hopcap.rsi
   - type: Tag
     tags:
     - PetWearable
@@ -445,9 +445,9 @@
   description: A stylish cap worn by the Head of Security. Shows the officers who's in charge.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/hoshat.rsi
+    sprite: _Erida/Clothing/Head/Hats/hoshat.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/hoshat.rsi
+    sprite: _Erida/Clothing/Head/Hats/hoshat.rsi
   - type: Tag
     tags:
     - PetWearable
@@ -465,9 +465,9 @@
   description: A hat that makes you look like you carry a notched pistol, numbered one and nineteen more.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/outlawhat.rsi
+    sprite: _Erida/Clothing/Head/Hats/outlawhat.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/outlawhat.rsi
+    sprite: _Erida/Clothing/Head/Hats/outlawhat.rsi
   - type: StaticPrice
     price: 500
   - type: Tag
@@ -482,9 +482,9 @@
   description: Strange-looking hat-wear. Makes you want to cast fireballs. # Goob edit
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/witchhat.rsi
+    sprite: _Erida/Clothing/Head/Hats/witchhat.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/witchhat.rsi
+    sprite: _Erida/Clothing/Head/Hats/witchhat.rsi
   - type: Tag
     tags:
     - PetWearable
@@ -497,9 +497,9 @@
   description: A hat made of paper.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/paper.rsi
+    sprite: _Erida/Clothing/Head/Hats/paper.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/paper.rsi
+    sprite: _Erida/Clothing/Head/Hats/paper.rsi
   - type: Tag
     tags:
     - PetWearable
@@ -512,9 +512,9 @@
   description: "\"Yo ho ho and a bottle of rum!\""
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/pirate.rsi
+    sprite: _Erida/Clothing/Head/Hats/pirate.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/pirate.rsi
+    sprite: _Erida/Clothing/Head/Hats/pirate.rsi
   - type: Tag
     tags:
     - PetWearable
@@ -527,9 +527,9 @@
   description: These were once used by plague doctors.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/plaguedoctor.rsi
+    sprite: _Erida/Clothing/Head/Hats/plaguedoctor.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/plaguedoctor.rsi
+    sprite: _Erida/Clothing/Head/Hats/plaguedoctor.rsi
   - type: Tag
     tags:
     - WhitelistChameleon
@@ -548,9 +548,9 @@
   description: A strange-looking red hat that most certainly belongs to a powerful magic-user.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/redwizard.rsi
+    sprite: _Erida/Clothing/Head/Hats/redwizard.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/redwizard.rsi
+    sprite: _Erida/Clothing/Head/Hats/redwizard.rsi
   - type: Tag
     tags:
     - PetWearable # Goobstation
@@ -565,7 +565,7 @@
   description: A festive hat worn by Santa Claus. Now with a foldable beard.
   components:
   - type: Clothing
-    sprite: Clothing/Head/Hats/santahat.rsi
+    sprite: _Erida/Clothing/Head/Hats/santahat.rsi
   - type: Appearance
   - type: HideLayerClothing
     layers:
@@ -579,7 +579,7 @@
     foldedEquippedPrefix: nobeard
     foldedHeldPrefix: nobeard
   - type: Sprite
-    sprite: Clothing/Head/Hats/santahat.rsi
+    sprite: _Erida/Clothing/Head/Hats/santahat.rsi
     layers:
     - state: icon
       map: ["unfoldedLayer"]
@@ -600,9 +600,9 @@
   description: "\"Perfect for Space Mexico, si?\""
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/sombrero.rsi
+    sprite: _Erida/Clothing/Head/Hats/sombrero.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/sombrero.rsi
+    sprite: _Erida/Clothing/Head/Hats/sombrero.rsi
   - type: AddAccentClothing
     accent: SpanishAccent
   - type: Tag
@@ -617,9 +617,9 @@
   description: A blue cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/surgcap_blue.rsi
+    sprite: _Erida/Clothing/Head/Hats/surgcap_blue.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/surgcap_blue.rsi
+    sprite: _Erida/Clothing/Head/Hats/surgcap_blue.rsi
   - type: Tag
     tags:
     - ClothMade
@@ -640,9 +640,9 @@
   description: A green cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/surgcap_green.rsi
+    sprite: _Erida/Clothing/Head/Hats/surgcap_green.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/surgcap_green.rsi
+    sprite: _Erida/Clothing/Head/Hats/surgcap_green.rsi
   - type: HideLayerClothing
     layers:
       Hair: HEAD
@@ -656,9 +656,9 @@
   description: A purple cap surgeons wear during operations. Keeps their hair from tickling your internal organs.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/surgcap_purple.rsi
+    sprite: _Erida/Clothing/Head/Hats/surgcap_purple.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/surgcap_purple.rsi
+    sprite: _Erida/Clothing/Head/Hats/surgcap_purple.rsi
   - type: HideLayerClothing
     layers:
       Hair: HEAD
@@ -672,9 +672,9 @@
   description: A stylish black tophat.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/tophat.rsi
+    sprite: _Erida/Clothing/Head/Hats/tophat.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/tophat.rsi
+    sprite: _Erida/Clothing/Head/Hats/tophat.rsi
   - type: Tag
     tags:
     - PetWearable
@@ -692,7 +692,7 @@
   description: "\"Perfect for winter in Siberia, da?\""
   components:
   - type: Clothing
-    sprite: Clothing/Head/Hats/ushanka.rsi
+    sprite: _Erida/Clothing/Head/Hats/ushanka.rsi
   - type: Appearance
   - type: AddAccentClothing
     accent: RussianAccent
@@ -702,7 +702,7 @@
     foldedEquippedPrefix: up
     foldedHeldPrefix: up
   - type: Sprite
-    sprite: Clothing/Head/Hats/ushanka.rsi
+    sprite: _Erida/Clothing/Head/Hats/ushanka.rsi
     layers:
     - state: icon
       map: [ "unfoldedLayer" ]
@@ -724,7 +724,7 @@
   description: Red, white and snug. It radiates a homely feeling, if your home happens to be chilly and filled with coffeehouses.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/beanie.rsi
+    sprite: _Erida/Clothing/Head/Hats/beanie.rsi
     layers:
     - state: body-icon
     - state: cuffcrown-icon
@@ -746,7 +746,7 @@
       - state: pompom-inhand-right
         color: "#a60b0b"
   - type: Clothing
-    sprite: Clothing/Head/Hats/beanie.rsi
+    sprite: _Erida/Clothing/Head/Hats/beanie.rsi
     clothingVisuals:
       head:
       - state: body-equipped-HELMET
@@ -762,9 +762,9 @@
   description: A strange-looking violet hat that most certainly belongs to a powerful magic-user.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/violetwizard.rsi
+    sprite: _Erida/Clothing/Head/Hats/violetwizard.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/violetwizard.rsi
+    sprite: _Erida/Clothing/Head/Hats/violetwizard.rsi
   - type: Tag
     tags:
     - PetWearable # Goobstation
@@ -779,9 +779,9 @@
   description: This hat emphasizes that you are THE LAW.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/warden.rsi
+    sprite: _Erida/Clothing/Head/Hats/warden.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/warden.rsi
+    sprite: _Erida/Clothing/Head/Hats/warden.rsi
   - type: StealTarget
     stealGroup: ClothingHeadHatWarden
   - type: Tag
@@ -796,9 +796,9 @@
   description: Strange-looking hat-wear. Makes you want to cast fireballs. # Goob edit
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/witch.rsi
+    sprite: _Erida/Clothing/Head/Hats/witch.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/witch.rsi
+    sprite: _Erida/Clothing/Head/Hats/witch.rsi
   - type: Tag
     tags:
     - PetWearable
@@ -817,9 +817,9 @@
   description: It has "WIZZARD" written across it in garish sequins. Comes with a cool beard.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/wizard_fake.rsi
+    sprite: _Erida/Clothing/Head/Hats/wizard_fake.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/wizard_fake.rsi
+    sprite: _Erida/Clothing/Head/Hats/wizard_fake.rsi
   - type: HideLayerClothing
     layers:
       Hair: HEAD
@@ -846,9 +846,9 @@
   description: A strange-looking blue hat that most certainly belongs to a powerful magic-user.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/wizardhat.rsi
+    sprite: _Erida/Clothing/Head/Hats/wizardhat.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/wizardhat.rsi
+    sprite: _Erida/Clothing/Head/Hats/wizardhat.rsi
   - type: Tag
     tags:
     - PetWearable
@@ -867,9 +867,9 @@
   description: "\"Happy Christmas!\""
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/xmascrown.rsi
+    sprite: _Erida/Clothing/Head/Hats/xmascrown.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/xmascrown.rsi
+    sprite: _Erida/Clothing/Head/Hats/xmascrown.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -878,9 +878,9 @@
   description: Formerly Chuck's, this hat is yours now.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/truckershat.rsi
+    sprite: _Erida/Clothing/Head/Hats/truckershat.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/truckershat.rsi
+    sprite: _Erida/Clothing/Head/Hats/truckershat.rsi
 
 - type: entity
   parent: [ ClothingHeadBase, BaseSyndicateContraband ]
@@ -889,9 +889,9 @@
   description: For keeping that traitor head of yours warm.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/pyjamasyndicateblack.rsi
+    sprite: _Erida/Clothing/Head/Hats/pyjamasyndicateblack.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/pyjamasyndicateblack.rsi
+    sprite: _Erida/Clothing/Head/Hats/pyjamasyndicateblack.rsi
   - type: HideLayerClothing
     layers:
       Hair: HEAD
@@ -907,9 +907,9 @@
   description: For keeping that traitor head of yours warm.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/pyjamasyndicatepink.rsi
+    sprite: _Erida/Clothing/Head/Hats/pyjamasyndicatepink.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/pyjamasyndicatepink.rsi
+    sprite: _Erida/Clothing/Head/Hats/pyjamasyndicatepink.rsi
   - type: HideLayerClothing
     layers:
       Hair: HEAD
@@ -925,9 +925,9 @@
   description: For keeping that traitor head of yours warm.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/pyjamasyndicatered.rsi
+    sprite: _Erida/Clothing/Head/Hats/pyjamasyndicatered.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/pyjamasyndicatered.rsi
+    sprite: _Erida/Clothing/Head/Hats/pyjamasyndicatered.rsi
   - type: HideLayerClothing
     layers:
       Hair: HEAD
@@ -943,9 +943,9 @@
   description: A paper sack with crude holes cut out for eyes. Useful for hiding one's identity and/or ugliness.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/papersack.rsi
+    sprite: _Erida/Clothing/Head/Hats/papersack.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/papersack.rsi
+    sprite: _Erida/Clothing/Head/Hats/papersack.rsi
   - type: IdentityBlocker
   - type: HideLayerClothing
     layers:
@@ -960,9 +960,9 @@
   description: A paper sack with crude holes cut out for eyes and a sketchy smile drawn on the front. Not creepy at all.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/papersacksmile.rsi
+    sprite: _Erida/Clothing/Head/Hats/papersacksmile.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/papersacksmile.rsi
+    sprite: _Erida/Clothing/Head/Hats/papersacksmile.rsi
   - type: IdentityBlocker
   - type: HideLayerClothing
     layers:
@@ -977,9 +977,9 @@
   description: "\"Women fear me. Fish fear me. Men turn their eyes away from me. As I walk no beast dares make a sound in my presence. I am alone on this barren Earth.\""
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/fishcap.rsi
+    sprite: _Erida/Clothing/Head/Hats/fishcap.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/fishcap.rsi
+    sprite: _Erida/Clothing/Head/Hats/fishcap.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -988,9 +988,9 @@
   description: "\"It was a net hat! Tiders wear them all the time! It's got airholes in the back to keep a cross-breeze going and everything!\""
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/wehcellentcap.rsi
+    sprite: _Erida/Clothing/Head/Hats/wehcellentcap.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/wehcellentcap.rsi
+    sprite: _Erida/Clothing/Head/Hats/wehcellentcap.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -999,9 +999,9 @@
   description: Somehow I feel I'm not supposed to leave this place.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/nursehat.rsi
+    sprite: _Erida/Clothing/Head/Hats/nursehat.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/nursehat.rsi
+    sprite: _Erida/Clothing/Head/Hats/nursehat.rsi
   - type: Tag
     tags:
     - ClothMade
@@ -1017,9 +1017,9 @@
   description: Right near da beach, boyee.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/rasta.rsi
+    sprite: _Erida/Clothing/Head/Hats/rasta.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/rasta.rsi
+    sprite: _Erida/Clothing/Head/Hats/rasta.rsi
   - type: HideLayerClothing
     layers:
       Hair: HEAD
@@ -1033,9 +1033,9 @@
   description: Keeps the sun out of your eyes. Makes you a target for the locals.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/safarihat.rsi
+    sprite: _Erida/Clothing/Head/Hats/safarihat.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/safarihat.rsi
+    sprite: _Erida/Clothing/Head/Hats/safarihat.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -1044,18 +1044,18 @@
   description: A hat with bells, to add some merriness to your head.
   components:
     - type: Sprite
-      sprite: Clothing/Head/Hats/jester.rsi
+      sprite: _Erida/Clothing/Head/Hats/jester.rsi
     - type: Clothing
-      sprite: Clothing/Head/Hats/jester.rsi
+      sprite: _Erida/Clothing/Head/Hats/jester.rsi
 
 - type: entity
   parent: ClothingHeadHatJester
   id: ClothingHeadHatJesterAlt
   components:
     - type: Sprite
-      sprite: Clothing/Head/Hats/jester2.rsi
+      sprite: _Erida/Clothing/Head/Hats/jester2.rsi
     - type: Clothing
-      sprite: Clothing/Head/Hats/jester2.rsi
+      sprite: _Erida/Clothing/Head/Hats/jester2.rsi
     - type: HideLayerClothing
       layers:
         Hair: HEAD
@@ -1069,9 +1069,9 @@
   description: A turquoise beret with a cross on the front. The sight of it calms you down and makes it clear that you will be cured.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/beret_cmo.rsi
+    sprite: _Erida/Clothing/Head/Hats/beret_cmo.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/beret_cmo.rsi
+    sprite: _Erida/Clothing/Head/Hats/beret_cmo.rsi
   - type: Tag
     tags:
     - PetWearable
@@ -1089,9 +1089,9 @@
   description: "\"Yo ho ho and a bottle of rum!\""
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/piratetricord.rsi
+    sprite: _Erida/Clothing/Head/Hats/piratetricord.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/piratetricord.rsi
+    sprite: _Erida/Clothing/Head/Hats/piratetricord.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -1100,9 +1100,9 @@
   description: A carelessly cut half of a watermelon, gutted from the inside, to be worn as a helmet. It can soften the blow to the head.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/melon.rsi
+    sprite: _Erida/Clothing/Head/Hats/melon.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/melon.rsi
+    sprite: _Erida/Clothing/Head/Hats/melon.rsi
   - type: Armor
     coverage:
     - Head
@@ -1117,9 +1117,9 @@
   description: Holy moly.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/holyhatmelon.rsi
+    sprite: _Erida/Clothing/Head/Hats/holyhatmelon.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/holyhatmelon.rsi
+    sprite: _Erida/Clothing/Head/Hats/holyhatmelon.rsi
   - type: Armor
     coverage:
     - Head
@@ -1136,9 +1136,9 @@
   description: A souvenir hat from "Syndieland", their production has already been closed.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/syndiecap.rsi
+    sprite: _Erida/Clothing/Head/Hats/syndiecap.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/syndiecap.rsi
+    sprite: _Erida/Clothing/Head/Hats/syndiecap.rsi
   - type: ScannableForPoints # goob edit
     points: 1
 
@@ -1149,9 +1149,9 @@
   description: Master at arms hat, looks intimidating, I doubt that you will like to communicate with its owner...
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/syndiecap_maa.rsi
+    sprite: _Erida/Clothing/Head/Hats/syndiecap_maa.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/syndiecap_maa.rsi
+    sprite: _Erida/Clothing/Head/Hats/syndiecap_maa.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -1160,9 +1160,9 @@
   description: A red headband - don't imagine yourself a Rambo and don't pick up a few machine guns.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/tacticalmaidheadband.rsi
+    sprite: _Erida/Clothing/Head/Hats/tacticalmaidheadband.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/tacticalmaidheadband.rsi
+    sprite: _Erida/Clothing/Head/Hats/tacticalmaidheadband.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -1171,9 +1171,9 @@
   description: From the Zaporozhian Sich with love.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/hetman_hat.rsi
+    sprite: _Erida/Clothing/Head/Hats/hetman_hat.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/hetman_hat.rsi
+    sprite: _Erida/Clothing/Head/Hats/hetman_hat.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -1182,20 +1182,20 @@
   description: A magician's top hat.
   components:
   - type: Icon
-    sprite: Clothing/Head/Hats/magician.rsi
+    sprite: _Erida/Clothing/Head/Hats/magician.rsi
     state: "icon"
   - type: Sprite
     state: "icon"
-    sprite: Clothing/Head/Hats/magician.rsi
+    sprite: _Erida/Clothing/Head/Hats/magician.rsi
   - type: Clothing
     clothingVisuals:
       head:
       - state: equipped-HELMET
         offset: "0, 0.12"
-    sprite: Clothing/Head/Hats/magician.rsi
+    sprite: _Erida/Clothing/Head/Hats/magician.rsi
   - type: Item
     size: Small
-    sprite: Clothing/Head/Hats/magician.rsi
+    sprite: _Erida/Clothing/Head/Hats/magician.rsi
     storedRotation: 0
   - type: Storage
     grid:
@@ -1219,11 +1219,11 @@
   description: A grand, stylish cap worn by the Captain. Shows the station who's in charge.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/capcap.rsi
+    sprite: _Erida/Clothing/Head/Hats/capcap.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/capcap.rsi
+    sprite: _Erida/Clothing/Head/Hats/capcap.rsi
   - type: Item
-    sprite: Clothing/Head/Hats/capcap.rsi
+    sprite: _Erida/Clothing/Head/Hats/capcap.rsi
   - type: Tag
     tags:
     - PetWearable
@@ -1245,11 +1245,11 @@
   description: An extravagant, stylish cap worn by CentComm officials. Shows the Captain who's in charge.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/comcap.rsi
+    sprite: _Erida/Clothing/Head/Hats/comcap.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/comcap.rsi
+    sprite: _Erida/Clothing/Head/Hats/comcap.rsi
   - type: Item
-    sprite: Clothing/Head/Hats/comcap.rsi
+    sprite: _Erida/Clothing/Head/Hats/comcap.rsi
   - type: Tag
     tags:
     - PetWearable
@@ -1268,9 +1268,9 @@
   description: Protects the head from harsh ash winds and toy spears.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/gladiator.rsi
+    sprite: _Erida/Clothing/Head/Hats/gladiator.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/gladiator.rsi
+    sprite: _Erida/Clothing/Head/Hats/gladiator.rsi
   - type: HideLayerClothing
     layers:
       Hair: HEAD
@@ -1284,9 +1284,9 @@
   description: Spread a joy!
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/party_red.rsi
+    sprite: _Erida/Clothing/Head/Hats/party_red.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/party_red.rsi
+    sprite: _Erida/Clothing/Head/Hats/party_red.rsi
   - type: Item
     storedRotation: 0
   - type: Tag
@@ -1304,9 +1304,9 @@
   name: yellow party hat
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/party_yellow.rsi
+    sprite: _Erida/Clothing/Head/Hats/party_yellow.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/party_yellow.rsi
+    sprite: _Erida/Clothing/Head/Hats/party_yellow.rsi
 
 - type: entity
   parent: ClothingHeadHatPartyRed
@@ -1314,9 +1314,9 @@
   name: green party hat
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/party_green.rsi
+    sprite: _Erida/Clothing/Head/Hats/party_green.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/party_green.rsi
+    sprite: _Erida/Clothing/Head/Hats/party_green.rsi
 
 - type: entity
   parent: ClothingHeadHatPartyRed
@@ -1324,9 +1324,9 @@
   name: blue party hat
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/party_blue.rsi
+    sprite: _Erida/Clothing/Head/Hats/party_blue.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/party_blue.rsi
+    sprite: _Erida/Clothing/Head/Hats/party_blue.rsi
 
 - type: entity
   parent: ClothingHeadHatPartyRed
@@ -1335,9 +1335,9 @@
   description: Not as fulfilling as you had hoped...
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/party_water_cup.rsi
+    sprite: _Erida/Clothing/Head/Hats/party_water_cup.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/party_water_cup.rsi
+    sprite: _Erida/Clothing/Head/Hats/party_water_cup.rsi
   - type: Tag
     tags:
     - PetWearable
@@ -1356,9 +1356,9 @@
     tags:
     - BrimFlatcapGrey
   - type: Sprite
-    sprite: Clothing/Head/Hats/greyflatcap.rsi
+    sprite: _Erida/Clothing/Head/Hats/greyflatcap.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/greyflatcap.rsi
+    sprite: _Erida/Clothing/Head/Hats/greyflatcap.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -1370,9 +1370,9 @@
     tags:
     - BrimFlatcapBrown
   - type: Sprite
-    sprite: Clothing/Head/Hats/brownflatcap.rsi
+    sprite: _Erida/Clothing/Head/Hats/brownflatcap.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/brownflatcap.rsi
+    sprite: _Erida/Clothing/Head/Hats/brownflatcap.rsi
 
 - type: entity
   parent: ClothingHeadBase
@@ -1381,9 +1381,9 @@
   description: "\"This hat ain't big enough for the two of us.\""
   components:
     - type: Sprite
-      sprite: Clothing/Head/Hats/cowboyhatbrown.rsi
+      sprite: _Erida/Clothing/Head/Hats/cowboyhatbrown.rsi
     - type: Clothing
-      sprite: Clothing/Head/Hats/cowboyhatbrown.rsi
+      sprite: _Erida/Clothing/Head/Hats/cowboyhatbrown.rsi
     - type: AddAccentClothing
       accent: ReplacementAccent
       replacement: cowboy
@@ -1401,9 +1401,9 @@
   name: black cowboy hat
   components:
     - type: Sprite
-      sprite: Clothing/Head/Hats/cowboyhatblack.rsi
+      sprite: _Erida/Clothing/Head/Hats/cowboyhatblack.rsi
     - type: Clothing
-      sprite: Clothing/Head/Hats/cowboyhatblack.rsi
+      sprite: _Erida/Clothing/Head/Hats/cowboyhatblack.rsi
     - type: Tag
       tags:
       - PetWearable
@@ -1418,9 +1418,9 @@
   name: grey cowboy hat
   components:
     - type: Sprite
-      sprite: Clothing/Head/Hats/cowboyhatgrey.rsi
+      sprite: _Erida/Clothing/Head/Hats/cowboyhatgrey.rsi
     - type: Clothing
-      sprite: Clothing/Head/Hats/cowboyhatgrey.rsi
+      sprite: _Erida/Clothing/Head/Hats/cowboyhatgrey.rsi
     - type: Tag
       tags:
       - PetWearable
@@ -1435,9 +1435,9 @@
   name: red cowboy hat
   components:
     - type: Sprite
-      sprite: Clothing/Head/Hats/cowboyhatred.rsi
+      sprite: _Erida/Clothing/Head/Hats/cowboyhatred.rsi
     - type: Clothing
-      sprite: Clothing/Head/Hats/cowboyhatred.rsi
+      sprite: _Erida/Clothing/Head/Hats/cowboyhatred.rsi
     - type: Tag
       tags:
       - PetWearable
@@ -1452,9 +1452,9 @@
   name: white cowboy hat
   components:
     - type: Sprite
-      sprite: Clothing/Head/Hats/cowboyhatwhite.rsi
+      sprite: _Erida/Clothing/Head/Hats/cowboyhatwhite.rsi
     - type: Clothing
-      sprite: Clothing/Head/Hats/cowboyhatwhite.rsi
+      sprite: _Erida/Clothing/Head/Hats/cowboyhatwhite.rsi
     - type: Tag
       tags:
       - PetWearable
@@ -1469,9 +1469,9 @@
   name: bounty hunter cowboy hat
   components:
     - type: Sprite
-      sprite: Clothing/Head/Hats/cowboyhatbountyhunter.rsi
+      sprite: _Erida/Clothing/Head/Hats/cowboyhatbountyhunter.rsi
     - type: Clothing
-      sprite: Clothing/Head/Hats/cowboyhatbountyhunter.rsi
+      sprite: _Erida/Clothing/Head/Hats/cowboyhatbountyhunter.rsi
     - type: Tag
       tags:
       - PetWearable
@@ -1487,9 +1487,9 @@
   description: A fancy hat for hot days! Not recommended to wear near fires.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/straw_hat.rsi
+    sprite: _Erida/Clothing/Head/Hats/straw_hat.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/straw_hat.rsi
+    sprite: _Erida/Clothing/Head/Hats/straw_hat.rsi
   - type: Construction
     graph: StrawHat
     node: strawhat
@@ -1511,7 +1511,7 @@
     damageModifierSet: Wood
   - type: Appearance
   - type: FireVisuals
-    sprite: Effects/fire.rsi
+    sprite: _Erida/Effects/fire.rsi
     normalState: fire
   - type: Destructible
     thresholds:
@@ -1534,9 +1534,9 @@
   description: A sterile white beret.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/beret_medic.rsi
+    sprite: _Erida/Clothing/Head/Hats/beret_medic.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/beret_medic.rsi
+    sprite: _Erida/Clothing/Head/Hats/beret_medic.rsi
   - type: Tag
     tags:
     - PetWearable
@@ -1549,9 +1549,9 @@
   description: "\"You'll feel like you're Invisible while wearing this! (DISCLAIMER: DOES NOT ACTUALLY MAKE THE WEARER INVISIBLE)\""
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/solidheadband.rsi
+    sprite: _Erida/Clothing/Head/Hats/solidheadband.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/solidheadband.rsi
+    sprite: _Erida/Clothing/Head/Hats/solidheadband.rsi
   - type: Tag
     tags:
     - PetWearable
@@ -1564,13 +1564,13 @@
   description: You're the bestest boy.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/propellerhat.rsi
+    sprite: _Erida/Clothing/Head/Hats/propellerhat.rsi
     layers:
     - state: icon
       map: [ "enum.ToggleableVisuals.Layer" ]
   - type: Clothing
     equippedPrefix: off
-    sprite: Clothing/Head/Hats/propellerhat.rsi
+    sprite: _Erida/Clothing/Head/Hats/propellerhat.rsi
   - type: ToggleableVisuals
     spriteLayer: enum.ToggleableVisuals.Layer
     clothingVisuals:

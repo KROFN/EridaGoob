@@ -4,7 +4,7 @@
   id: GrenadeBase
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Grenades/grenade.rsi
+    sprite: _Erida/Objects/Weapons/Grenades/grenade.rsi
     layers:
     - state: icon
       map: ["enum.TriggerVisualLayers.Base"]

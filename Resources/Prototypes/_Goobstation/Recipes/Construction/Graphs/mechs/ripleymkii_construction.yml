@@ -40,7 +40,7 @@
       - tag: RipleyCentralControlModule
         name: construction-graph-tag-ripley-central-control-module
         icon:
-          sprite: "Objects/Misc/module.rsi"
+          sprite: "_Erida/Objects/Misc/module.rsi"
           state: "mainboard"
         completed:
         - !type:VisualizerDataInt
@@ -57,7 +57,7 @@
       - tag: RipleyPeripheralsControlModule
         name: construction-graph-tag-ripley-peripherals-control-module
         icon:
-          sprite: "Objects/Misc/module.rsi"
+          sprite: "_Erida/Objects/Misc/module.rsi"
           state: id_mod
         completed:
         - !type:VisualizerDataInt
@@ -75,7 +75,7 @@
         name: construction-graph-component-power-cell
         store: battery-container
         icon:
-          sprite: Objects/Power/power_cells.rsi
+          sprite: _Erida/Objects/Power/power_cells.rsi
           state: small
         completed:
         - !type:VisualizerDataInt
@@ -113,7 +113,7 @@
       - tag: MechAirTank
         name: construction-graph-tag-exosuit-air-tank
         icon:
-          sprite: Objects/Specific/Mech/mecha_equipment.rsi
+          sprite: _Erida/Objects/Specific/Mech/mecha_equipment.rsi
           state: mecha_air_tank
 
       - tool: Anchoring

@@ -25,7 +25,7 @@
   - type: Objective
     issuer: objective-condition-kill-wizard-first
     icon:
-      sprite: Clothing/Head/Hats/wizardhat.rsi
+      sprite: _Erida/Clothing/Head/Hats/wizardhat.rsi
       state: icon
   - type: TargetObjective
     title: objective-condition-kill-wizard-title
@@ -40,7 +40,7 @@
   - type: Objective
     issuer: objective-issuer-slaughter-satan
     icon:
-      sprite: Structures/Furniture/Altars/Cults/fangs.rsi
+      sprite: _Erida/Structures/Furniture/Altars/Cults/fangs.rsi
       state: blood
   - type: SlaughterKillEveryoneCondition
     title: objective-condition-kill-everyone-title
@@ -54,7 +54,7 @@
   - type: Objective
     issuer: objective-issuer-slaughter-devil
     icon:
-      sprite: Objects/Consumable/Food/Baked/cake.rsi
+      sprite: _Erida/Objects/Consumable/Food/Baked/cake.rsi
       state: clown
   - type: SlaughterKillEveryoneCondition
     title: objective-condition-hug-and-tickle-title
@@ -67,7 +67,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Structures/Furniture/Altars/Cults/fangs.rsi
+      sprite: _Erida/Structures/Furniture/Altars/Cults/fangs.rsi
       state: blood
   - type: NumberObjective
     min: 10
@@ -84,7 +84,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Objects/Specific/Janitorial/advmop.rsi
+      sprite: _Erida/Objects/Specific/Janitorial/advmop.rsi
       state: advmop
   - type: SlaughterBaseObjective
     title: objective-annihilate-janitors-title
@@ -96,7 +96,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Objects/Fun/dice.rsi
+      sprite: _Erida/Objects/Fun/dice.rsi
       state: d6_2
   - type: SlaughterBaseObjective
     title: objective-spare-crew-title
@@ -120,7 +120,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Objects/Magic/magicactions.rsi
+      sprite: _Erida/Objects/Magic/magicactions.rsi
       state: gib
   - type: SlaughterBaseObjective
     title: objective-hunt-the-cowards-title

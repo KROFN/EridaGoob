@@ -12,7 +12,7 @@
     layers:
     - shader: unshaded
       map: ["enum.EffectLayers.Unshaded"]
-      sprite: Effects/sparks.rsi
+      sprite: _Erida/Effects/sparks.rsi
       state: sparks
   - type: EffectVisuals
   - type: Tag
@@ -32,7 +32,7 @@
     layers:
     - shader: unshaded
       map: ["enum.EffectLayers.Unshaded"]
-      sprite: Effects/atmospherics.rsi
+      sprite: _Erida/Effects/atmospherics.rsi
       state: frezon_old
   - type: EffectVisuals
   - type: Tag

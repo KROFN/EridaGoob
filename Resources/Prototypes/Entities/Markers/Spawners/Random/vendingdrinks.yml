@@ -9,7 +9,7 @@
   - type: Sprite
     layers:
       - state: red
-      - sprite: Structures/Machines/VendingMachines/random.rsi
+      - sprite: _Erida/Structures/Machines/VendingMachines/random.rsi
         state: drink
   - type: RandomSpawner
     prototypes:

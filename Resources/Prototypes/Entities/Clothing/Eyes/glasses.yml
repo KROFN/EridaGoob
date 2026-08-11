@@ -7,9 +7,9 @@
   description: Go beyond impossible and kick reason to the curb!
   components:
   - type: Sprite
-    sprite: Clothing/Eyes/Glasses/gar.rsi
+    sprite: _Erida/Clothing/Eyes/Glasses/gar.rsi
   - type: Clothing
-    sprite: Clothing/Eyes/Glasses/gar.rsi
+    sprite: _Erida/Clothing/Eyes/Glasses/gar.rsi
   - type: MeleeWeapon
     attackRate: 1.5
     damage:
@@ -23,10 +23,10 @@
   description: Just who the hell do you think I am?!
   components:
   - type: Sprite
-    sprite: Clothing/Eyes/Glasses/gar.rsi
+    sprite: _Erida/Clothing/Eyes/Glasses/gar.rsi
     state: icon-alt
   - type: Clothing
-    sprite: Clothing/Eyes/Glasses/gar.rsi
+    sprite: _Erida/Clothing/Eyes/Glasses/gar.rsi
     equippedPrefix: alt
   - type: Item
     heldPrefix: alt
@@ -42,10 +42,10 @@
   description: We evolve past the person we were a minute before. Little by little we advance with each turn. That's how a drill works!
   components:
   - type: Sprite
-    sprite: Clothing/Eyes/Glasses/gar.rsi
+    sprite: _Erida/Clothing/Eyes/Glasses/gar.rsi
     state: icon-super
   - type: Clothing
-    sprite: Clothing/Eyes/Glasses/gar.rsi
+    sprite: _Erida/Clothing/Eyes/Glasses/gar.rsi
     equippedPrefix: super
   - type: Item
     heldPrefix: super
@@ -61,9 +61,9 @@
   description: Green-tinted goggles using a proprietary polymer that provides protection from eye damage of all types.
   components:
   - type: Sprite
-    sprite: Clothing/Eyes/Glasses/meson.rsi
+    sprite: _Erida/Clothing/Eyes/Glasses/meson.rsi
   - type: Clothing
-    sprite: Clothing/Eyes/Glasses/meson.rsi
+    sprite: _Erida/Clothing/Eyes/Glasses/meson.rsi
   - type: EyeProtection
   - type: IdentityBlocker
     coverage: EYES
@@ -81,9 +81,9 @@
   description: Upon closer inspection, you realize these lenses are infact made of plastic. # Goobstation
   components:
   - type: Sprite
-    sprite: Clothing/Eyes/Glasses/glasses.rsi
+    sprite: _Erida/Clothing/Eyes/Glasses/glasses.rsi
   - type: Clothing
-    sprite: Clothing/Eyes/Glasses/glasses.rsi
+    sprite: _Erida/Clothing/Eyes/Glasses/glasses.rsi
  # - type: VisionCorrection - Goobstation
   - type: Tag
     tags:
@@ -97,9 +97,9 @@
   description: A pair of yellow tinted folding glasses. You never asked for these.
   components:
   - type: Sprite
-    sprite: Clothing/Eyes/Glasses/jensen.rsi
+    sprite: _Erida/Clothing/Eyes/Glasses/jensen.rsi
   - type: Clothing
-    sprite: Clothing/Eyes/Glasses/jensen.rsi
+    sprite: _Erida/Clothing/Eyes/Glasses/jensen.rsi
   - type: Tag
     tags:
     - WhitelistChameleon
@@ -111,9 +111,9 @@
   description: These retro glasses remind you of a simpler time.
   components:
   - type: Sprite
-    sprite: Clothing/Eyes/Glasses/jamjar.rsi
+    sprite: _Erida/Clothing/Eyes/Glasses/jamjar.rsi
   - type: Clothing
-    sprite: Clothing/Eyes/Glasses/jamjar.rsi
+    sprite: _Erida/Clothing/Eyes/Glasses/jamjar.rsi
   - type: VisionCorrection
   - type: Tag
     tags:
@@ -127,9 +127,9 @@
   description: A must for every self-respecting undercover agent.
   components:
   - type: Sprite
-    sprite: Clothing/Eyes/Glasses/outlawglasses.rsi
+    sprite: _Erida/Clothing/Eyes/Glasses/outlawglasses.rsi
   - type: Clothing
-    sprite: Clothing/Eyes/Glasses/outlawglasses.rsi
+    sprite: _Erida/Clothing/Eyes/Glasses/outlawglasses.rsi
   - type: VisionCorrection
   - type: IdentityBlocker
   - type: StaticPrice
@@ -142,9 +142,9 @@
   description: A pair of black sunglasses. Doesn't block light well, more of an accessory than something useful.
   components:
   - type: Sprite
-    sprite: Clothing/Eyes/Glasses/sunglasses.rsi
+    sprite: _Erida/Clothing/Eyes/Glasses/sunglasses.rsi
   - type: Clothing
-    sprite: Clothing/Eyes/Glasses/sunglasses.rsi
+    sprite: _Erida/Clothing/Eyes/Glasses/sunglasses.rsi
   - type: Tag
     tags:
     - HamsterWearable
@@ -178,9 +178,9 @@
   description: Upgraded sunglasses that provide flash immunity and a security HUD.
   components:
   - type: Sprite
-    sprite: Clothing/Eyes/Glasses/secglasses.rsi
+    sprite: _Erida/Clothing/Eyes/Glasses/secglasses.rsi
   - type: Clothing
-    sprite: Clothing/Eyes/Glasses/secglasses.rsi
+    sprite: _Erida/Clothing/Eyes/Glasses/secglasses.rsi
   - type: FlashImmunity
   - type: EyeProtection
     protectionTime: 5
@@ -224,9 +224,9 @@
   description: Upgraded sunglasses that provide flash immunity and show ID card status.
   components:
   - type: Sprite
-    sprite: Clothing/Eyes/Glasses/commandglasses.rsi
+    sprite: _Erida/Clothing/Eyes/Glasses/commandglasses.rsi
   - type: Clothing
-    sprite: Clothing/Eyes/Glasses/commandglasses.rsi
+    sprite: _Erida/Clothing/Eyes/Glasses/commandglasses.rsi
   - type: FlashImmunity
   - type: EyeProtection
     protectionTime: 5
@@ -247,9 +247,9 @@
   description: Glasses made for combat, to protect the eyes from bright blinding flashes.
   components:
   - type: Sprite
-    sprite: Clothing/Eyes/Glasses/mercglasses.rsi
+    sprite: _Erida/Clothing/Eyes/Glasses/mercglasses.rsi
   - type: Clothing
-    sprite: Clothing/Eyes/Glasses/mercglasses.rsi
+    sprite: _Erida/Clothing/Eyes/Glasses/mercglasses.rsi
   - type: FlashImmunity
   - type: EyeProtection
     protectionTime: 5
@@ -281,9 +281,9 @@
   description: Thermals in the shape of glasses.
   components:
   - type: Sprite
-    sprite: Clothing/Eyes/Glasses/thermal.rsi
+    sprite: _Erida/Clothing/Eyes/Glasses/thermal.rsi
   - type: Clothing
-    sprite: Clothing/Eyes/Glasses/thermal.rsi
+    sprite: _Erida/Clothing/Eyes/Glasses/thermal.rsi
   - type: Armor
     coverage: # defends you well only against heat lol # GOOBSTATION???? # Goob start
     - Head
@@ -311,9 +311,9 @@
   description: Goggles that can scan the chemical composition of a solution.
   components:
     - type: Sprite
-      sprite: Clothing/Eyes/Glasses/science.rsi
+      sprite: _Erida/Clothing/Eyes/Glasses/science.rsi
     - type: Clothing
-      sprite: Clothing/Eyes/Glasses/science.rsi
+      sprite: _Erida/Clothing/Eyes/Glasses/science.rsi
     - type: SolutionScanner
     - type: IdentityBlocker
       coverage: EYES
@@ -340,9 +340,9 @@
   description: An advanced visor protecting a ninja's eyes from flashing lights.
   components:
   - type: Sprite
-    sprite: Clothing/Eyes/Glasses/ninjavisor.rsi
+    sprite: _Erida/Clothing/Eyes/Glasses/ninjavisor.rsi
   - type: Clothing
-    sprite: Clothing/Eyes/Glasses/ninjavisor.rsi
+    sprite: _Erida/Clothing/Eyes/Glasses/ninjavisor.rsi
   - type: FlashImmunity
     # Goob start
   - type: NightVision
@@ -371,9 +371,9 @@
   description: A pair of glasses that simulate what the world looked like before the invention of color.
   components:
   - type: Sprite
-    sprite: Clothing/Eyes/Glasses/noir.rsi
+    sprite: _Erida/Clothing/Eyes/Glasses/noir.rsi
   - type: Clothing
-    sprite: Clothing/Eyes/Glasses/sunglasses.rsi
+    sprite: _Erida/Clothing/Eyes/Glasses/sunglasses.rsi
   - type: IdentityBlocker
     coverage: EYES
   - type: FlashImmunity

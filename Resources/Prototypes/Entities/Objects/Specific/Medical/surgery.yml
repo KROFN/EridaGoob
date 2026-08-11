@@ -124,10 +124,10 @@
   description: A pointy piece of glass, abraded to an edge and wrapped in tape for a handle. # Could become a decent tool or weapon with right tool mods.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Medical/Surgery/scalpel.rsi
+    sprite: _Erida/Objects/Specific/Medical/Surgery/scalpel.rsi
     state: shiv
   - type: Item
-    sprite: Objects/Specific/Medical/Surgery/scalpel.rsi
+    sprite: _Erida/Objects/Specific/Medical/Surgery/scalpel.rsi
     storedRotation: 90
     heldPrefix: shiv
   - type: Fixtures
@@ -149,10 +149,10 @@
   description: Made of more expensive materials, sharper and generally more reliable.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Medical/Surgery/scalpel.rsi
+    sprite: _Erida/Objects/Specific/Medical/Surgery/scalpel.rsi
     state: advanced
   - type: Item
-    sprite: Objects/Specific/Medical/Surgery/scalpel.rsi
+    sprite: _Erida/Objects/Specific/Medical/Surgery/scalpel.rsi
     storedRotation: 90
     heldPrefix: advanced
   - type: MeleeWeapon
@@ -169,10 +169,10 @@
   description: A scalpel which uses a directed laser to slice instead of a blade, for more precise surgery while also cauterizing as it cuts.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Medical/Surgery/scalpel.rsi
+    sprite: _Erida/Objects/Specific/Medical/Surgery/scalpel.rsi
     state: laser
   - type: Item
-    sprite: Objects/Specific/Medical/Surgery/scalpel.rsi
+    sprite: _Erida/Objects/Specific/Medical/Surgery/scalpel.rsi
     storedRotation: 90
     heldPrefix: laser
   - type: Scalpel # Shitmed
@@ -239,11 +239,11 @@
     types:
       - Knife
   - type: Sprite
-    sprite: Objects/Specific/Medical/Surgery/saw.rsi
+    sprite: _Erida/Objects/Specific/Medical/Surgery/saw.rsi
     state: saw
   - type: Item
     size: Normal
-    sprite: Objects/Specific/Medical/Surgery/saw.rsi
+    sprite: _Erida/Objects/Specific/Medical/Surgery/saw.rsi
     storedRotation: 90
   - type: Tool
     qualities:
@@ -310,11 +310,11 @@
   description: You think you can cut anything with it.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Medical/Surgery/saw.rsi
+    sprite: _Erida/Objects/Specific/Medical/Surgery/saw.rsi
     state: advanced
   - type: Item
     size: Normal
-    sprite: Objects/Specific/Medical/Surgery/saw.rsi
+    sprite: _Erida/Objects/Specific/Medical/Surgery/saw.rsi
     storedRotation: 90
     heldPrefix: advanced
   - type: MeleeWeapon

@@ -15,7 +15,7 @@
     sprite: Markers/jobs.rsi
     layers:
     - state: green
-    - sprite: Objects/Weapons/Guns/SMGs/wt550.rsi
+    - sprite: _Erida/Objects/Weapons/Guns/SMGs/wt550.rsi
       state: icon
 
 - type: entity
@@ -32,5 +32,5 @@
     sprite: Markers/jobs.rsi
     layers:
     - state: green
-    - sprite: Objects/Weapons/Guns/Battery/energy_shotgun.rsi
+    - sprite: _Erida/Objects/Weapons/Guns/Battery/energy_shotgun.rsi
       state: icon

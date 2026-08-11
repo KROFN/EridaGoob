@@ -101,11 +101,11 @@
   description: Contains a Syndicate bundle. Which one is yet to be determined.
   components:
   - type: Icon
-    sprite: Structures/Storage/Crates/syndicate.rsi
+    sprite: _Erida/Structures/Storage/Crates/syndicate.rsi
     state: icon
   - type: Sprite
     noRot: true
-    sprite: Structures/Storage/Crates/syndicate.rsi
+    sprite: _Erida/Structures/Storage/Crates/syndicate.rsi
     layers:
     - state: icon
   - type: SetSelector

@@ -7,7 +7,7 @@
   description: An industrial machine used for expediting machine construction across the station.
   components:
   - type: Sprite
-    sprite: Structures/Machines/flatpacker.rsi
+    sprite: _Erida/Structures/Machines/flatpacker.rsi
     snapCardinals: true
     layers:
     - state: base
@@ -102,6 +102,6 @@
   - HideSpawnMenu
   components:
   - type: Sprite
-    sprite: Structures/Machines/autolathe.rsi
+    sprite: _Erida/Structures/Machines/autolathe.rsi
     state: icon
     color: "#222222"

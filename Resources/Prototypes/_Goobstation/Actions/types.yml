@@ -25,7 +25,7 @@
   components:
   - type: Action
     useDelay: 1
-    icon: { sprite: Objects/Fun/bikehorn.rsi, state: icon }
+    icon: { sprite: _Erida/Objects/Fun/bikehorn.rsi, state: icon }
   - type: InstantAction
     event: !type:HornActionEvent
 
@@ -37,7 +37,7 @@
   components:
   - type: Action
     useDelay: 1
-    icon: { sprite: Objects/Fun/bikehorn.rsi, state: icon }
+    icon: { sprite: _Erida/Objects/Fun/bikehorn.rsi, state: icon }
   - type: InstantAction
     event: !type:SirenActionEvent
 
@@ -50,7 +50,7 @@
   - type: Action
     useDelay: 30
     icon:
-      sprite: Objects/Weapons/Grenades/smoke.rsi
+      sprite: _Erida/Objects/Weapons/Grenades/smoke.rsi
       state: icon
 
 - type: entity
@@ -157,7 +157,7 @@
     itemIconStyle: BigAction
     useDelay: 3
     icon:
-      sprite: Structures/Piping/Atmospherics/vent.rsi
+      sprite: _Erida/Structures/Piping/Atmospherics/vent.rsi
       state: vent_off
   - type: InstantAction
     event: !type:ToggleCrawlingStateEvent
@@ -172,7 +172,7 @@
     checkCanInteract: false
     itemIconStyle: NoItem
     icon:
-      sprite: Clothing/Shoes/Boots/jackboots.rsi
+      sprite: _Erida/Clothing/Shoes/Boots/jackboots.rsi
       state: icon
   - type: TargetAction
     interactOnMiss: false
@@ -191,7 +191,7 @@
   - type: Action
     itemIconStyle: NoItem
     icon:
-      sprite: Structures/Furniture/chairs.rsi
+      sprite: _Erida/Structures/Furniture/chairs.rsi
       state: office-dark
     useDelay: 1
   - type: TargetAction
@@ -209,7 +209,7 @@
   - type: Action
     itemIconStyle: NoItem
     icon:
-      sprite: Objects/Misc/fire_extinguisher.rsi
+      sprite: _Erida/Objects/Misc/fire_extinguisher.rsi
       state: fire_extinguisher_closed
     useDelay: 1
   - type: TargetAction

@@ -7,9 +7,9 @@
   description: A hand-held mass scanner.
   components:
   - type: Item
-    sprite: Objects/Tools/handheld_mass_scanner.rsi
+    sprite: _Erida/Objects/Tools/handheld_mass_scanner.rsi
   - type: Sprite
-    sprite: Objects/Tools/handheld_mass_scanner.rsi
+    sprite: _Erida/Objects/Tools/handheld_mass_scanner.rsi
     state: icon
     layers:
       - state: icon

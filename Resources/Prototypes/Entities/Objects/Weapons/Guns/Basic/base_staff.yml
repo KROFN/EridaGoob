@@ -6,7 +6,7 @@
   parent: [BaseItem, BaseMagicalContraband] # Goob edit
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Basic/staves.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Basic/staves.rsi
   - type: Item
     heldPrefix: staff
     size: Huge # Goob edit

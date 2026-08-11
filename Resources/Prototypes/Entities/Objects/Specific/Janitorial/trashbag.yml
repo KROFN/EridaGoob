@@ -6,7 +6,7 @@
   parent: BaseStorageItem
   components:
   - type: Sprite
-    sprite: Objects/Specific/Janitorial/trashbag.rsi
+    sprite: _Erida/Objects/Specific/Janitorial/trashbag.rsi
     layers:
       - state: icon-0
         map: ["enum.StorageFillLayers.Fill"]
@@ -36,7 +36,7 @@
   - type: Dumpable
   - type: Clothing
     slots: [belt]
-    sprite: Objects/Specific/Janitorial/trashbag.rsi
+    sprite: _Erida/Objects/Specific/Janitorial/trashbag.rsi
   - type: Item
     size: Normal
   - type: PhysicalComposition #Goobstation - Recycle update

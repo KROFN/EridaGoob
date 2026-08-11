@@ -133,8 +133,8 @@
   id: BaseAGhostAction
   components:
   - type: Action
-    icon: { sprite: Structures/Machines/parts.rsi, state: box_0 }
-    iconOn: { sprite: Structures/Machines/parts.rsi, state: box_2 }
+    icon: { sprite: _Erida/Structures/Machines/parts.rsi, state: box_0 }
+    iconOn: { sprite: _Erida/Structures/Machines/parts.rsi, state: box_2 }
     keywords: [ "AI", "console", "interface" ]
     priority: -10
 

@@ -26,11 +26,11 @@
   - type: Sprite
     noRot: true
     drawdepth: Items
-    sprite: Objects/Specific/Robotics/cyborg_parts.rsi
+    sprite: _Erida/Objects/Specific/Robotics/cyborg_parts.rsi
     state: robo_suit
   - type: Appearance
   - type: ItemMapper
-    sprite: Objects/Specific/Robotics/cyborg_parts.rsi
+    sprite: _Erida/Objects/Specific/Robotics/cyborg_parts.rsi
     mapLayers:
       borg_l_arm+o:
         whitelist:

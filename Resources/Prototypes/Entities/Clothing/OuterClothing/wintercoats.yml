@@ -7,9 +7,9 @@
   description: A heavy jacket made from 'synthetic' animal furs.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coat.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coat.rsi
   - type: TemperatureProtection
     heatingCoefficient: 1.1
     coolingCoefficient: 0.1
@@ -200,9 +200,9 @@
   name: clown winter coat
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/WinterCoats/coatclown.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coatclown.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/WinterCoats/coatclown.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coatclown.rsi
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -258,9 +258,9 @@
   description: A sturdy, utilitarian winter coat designed to protect a head of security from any brig-bound threats and hypothermic events.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/WinterCoats/coathosarmored.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coathosarmored.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/WinterCoats/coathosarmored.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coathosarmored.rsi
   - type: ToggleableClothing # Goobstation - Modsuits change
     clothingPrototypes:
       head: ClothingHeadHatHoodWinterHOS
@@ -502,9 +502,9 @@
   description: A sturdy, utilitarian winter coat designed to protect a warden from any brig-bound threats and hypothermic events.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/WinterCoats/coatwardenarmored.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coatwardenarmored.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/WinterCoats/coatwardenarmored.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coatwardenarmored.rsi
   - type: ToggleableClothing # Goobstation - Modsuits change
     clothingPrototypes:
       head: ClothingHeadHatHoodWinterWarden
@@ -561,9 +561,9 @@
   description: "The syndicate's armored winter coat is made of durable fabric, with gilded patterns, and coarse wool."
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/WinterCoats/syndicate/coatsyndiecaparmored.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/syndicate/coatsyndiecaparmored.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/WinterCoats/syndicate/coatsyndiecaparmored.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/syndicate/coatsyndiecaparmored.rsi
   - type: ToggleableClothing # Goobstation - Modsuits change
     clothingPrototypes:
       head: ClothingHeadHatHoodWinterSyndie
@@ -590,9 +590,9 @@
   description: An oversized, plasticine space tuxedo that'll have people asking "do you know me?"
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/WinterCoats/coatnomi.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coatnomi.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/WinterCoats/coatnomi.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coatnomi.rsi
 
 - type: entity
   parent: ClothingOuterWinterCoatToggleable
@@ -633,7 +633,7 @@
   name: black winter coat
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coat.rsi
     layers:
     - state: coatybits-icon
       color: "#3f3f3f"
@@ -649,7 +649,7 @@
         color: "#3f3f3f"
       - state: winterbits-inhand-right
   - type: Clothing
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coat.rsi
     clothingVisuals:
       outerClothing:
       - state: coatybits-equipped-OUTERCLOTHING
@@ -665,7 +665,7 @@
   name: purple winter coat
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coat.rsi
     layers:
     - state: coatybits-icon
       color: "#9C0DE1"
@@ -681,7 +681,7 @@
         color: "#9C0DE1"
       - state: winterbits-inhand-right
   - type: Clothing
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coat.rsi
     clothingVisuals:
       outerClothing:
       - state: coatybits-equipped-OUTERCLOTHING
@@ -697,7 +697,7 @@
   name: red winter coat
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coat.rsi
     layers:
     - state: coatybits-icon
       color: "#940000"
@@ -713,7 +713,7 @@
         color: "#940000"
       - state: winterbits-inhand-right
   - type: Clothing
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coat.rsi
     clothingVisuals:
       outerClothing:
       - state: coatybits-equipped-OUTERCLOTHING
@@ -729,7 +729,7 @@
   name: blue winter coat
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coat.rsi
     layers:
     - state: coatybits-icon
       color: "#0089EF"
@@ -745,7 +745,7 @@
         color: "#0089EF"
       - state: winterbits-inhand-right
   - type: Clothing
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coat.rsi
     clothingVisuals:
       outerClothing:
       - state: coatybits-equipped-OUTERCLOTHING
@@ -761,7 +761,7 @@
   name: brown winter coat
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coat.rsi
     layers:
     - state: coatybits-icon
       color: "#723A02"
@@ -777,7 +777,7 @@
         color: "#723A02"
       - state: winterbits-inhand-right
   - type: Clothing
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coat.rsi
     clothingVisuals:
       outerClothing:
       - state: coatybits-equipped-OUTERCLOTHING
@@ -793,7 +793,7 @@
   name: gray winter coat
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coat.rsi
     layers:
     - state: coatybits-icon
       color: "#999999"
@@ -809,7 +809,7 @@
         color: "#999999"
       - state: winterbits-inhand-right
   - type: Clothing
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coat.rsi
     clothingVisuals:
       outerClothing:
       - state: coatybits-equipped-OUTERCLOTHING
@@ -825,7 +825,7 @@
   name: green winter coat
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coat.rsi
     layers:
     - state: coatybits-icon
       color: "#5ABF2F"
@@ -841,7 +841,7 @@
         color: "#5ABF2F"
       - state: winterbits-inhand-right
   - type: Clothing
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coat.rsi
     clothingVisuals:
       outerClothing:
       - state: coatybits-equipped-OUTERCLOTHING
@@ -857,7 +857,7 @@
   name: light brown winter coat
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coat.rsi
     layers:
     - state: coatybits-icon
       color: "#C09F72"
@@ -873,7 +873,7 @@
         color: "#C09F72"
       - state: winterbits-inhand-right
   - type: Clothing
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coat.rsi
     clothingVisuals:
       outerClothing:
       - state: coatybits-equipped-OUTERCLOTHING
@@ -889,7 +889,7 @@
   name: orange winter coat
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coat.rsi
     layers:
     - state: coatybits-icon
       color: "#EF8100"
@@ -905,7 +905,7 @@
         color: "#EF8100"
       - state: winterbits-inhand-right
   - type: Clothing
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coat.rsi
     clothingVisuals:
       outerClothing:
       - state: coatybits-equipped-OUTERCLOTHING
@@ -921,7 +921,7 @@
   name: white winter coat
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coat.rsi
     layers:
     - state: coatybits-icon
       color: "#EAE8E8"
@@ -937,7 +937,7 @@
         color: "#EAE8E8"
       - state: winterbits-inhand-right
   - type: Clothing
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coat.rsi
     clothingVisuals:
       outerClothing:
       - state: coatybits-equipped-OUTERCLOTHING
@@ -953,7 +953,7 @@
   name: yellow winter coat
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coat.rsi
     layers:
     - state: coatybits-icon
       color: "#EBE216"
@@ -969,7 +969,7 @@
         color: "#EBE216"
       - state: winterbits-inhand-right
   - type: Clothing
-    sprite: Clothing/OuterClothing/WinterCoats/coat.rsi
+    sprite: _Erida/Clothing/OuterClothing/WinterCoats/coat.rsi
     clothingVisuals:
       outerClothing:
       - state: coatybits-equipped-OUTERCLOTHING

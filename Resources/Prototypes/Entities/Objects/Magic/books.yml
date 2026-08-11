@@ -7,7 +7,7 @@
   name: spellbook
   components:
     - type: Sprite
-      sprite: Objects/Misc/books.rsi
+      sprite: _Erida/Objects/Misc/books.rsi
       layers:
       - state: paper_blood
       - state: cover_strong
@@ -31,7 +31,7 @@
   description: A heavy tome containing complicated arcane formulae for preparing magic spells and conjuring supernatural equipment. Decades of study went into researching this collection of mystical secrets; now go use them to ruin someone's day.
   components:
     - type: Sprite
-      sprite: Objects/Misc/books.rsi
+      sprite: _Erida/Objects/Misc/books.rsi
       layers:
       - state: paper_blood
       - state: cover_strong
@@ -67,7 +67,7 @@
   parent: [ BaseItem, BaseMagicalContraband, GhostAntagSpellPreset ] # Goob edit
   components:
     - type: Sprite
-      sprite: Objects/Misc/books.rsi
+      sprite: _Erida/Objects/Misc/books.rsi
       layers:
       - state: paper_blood
       - state: cover_strong
@@ -133,7 +133,7 @@
   name: force wall spellbook
   components:
     - type: Sprite
-      sprite: Objects/Misc/books.rsi
+      sprite: _Erida/Objects/Misc/books.rsi
       layers:
       - state: paper
       - state: cover_strong
@@ -156,7 +156,7 @@
   name: blink spellbook
   components:
     - type: Sprite
-      sprite: Objects/Misc/books.rsi
+      sprite: _Erida/Objects/Misc/books.rsi
       layers:
       - state: paper
       - state: cover_old
@@ -177,7 +177,7 @@
   name: smite spellbook
   components:
     - type: Sprite
-      sprite: Objects/Misc/books.rsi
+      sprite: _Erida/Objects/Misc/books.rsi
       layers:
       - state: paper
       - state: cover_old
@@ -200,7 +200,7 @@
   name: knock spellbook
   components:
     - type: Sprite
-      sprite: Objects/Misc/books.rsi
+      sprite: _Erida/Objects/Misc/books.rsi
       layers:
       - state: paper
       - state: cover_strong
@@ -222,7 +222,7 @@
   name: fireball spellbook
   components:
     - type: Sprite
-      sprite: Objects/Misc/books.rsi
+      sprite: _Erida/Objects/Misc/books.rsi
       layers:
       - state: paper
       - state: cover_old
@@ -248,7 +248,7 @@
   - type: Item
     size: Normal
   - type: Sprite
-    sprite: Objects/Magic/magicactions.rsi
+    sprite: _Erida/Objects/Magic/magicactions.rsi
     layers:
     - state: spell_default
   - type: Spellbook

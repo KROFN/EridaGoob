@@ -8,7 +8,7 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Objects/Weapons/Melee/e_sword.rsi
+        - sprite: _Erida/Objects/Weapons/Melee/e_sword.rsi
           state: icon
     - type: RandomSpawner
       prototypes:

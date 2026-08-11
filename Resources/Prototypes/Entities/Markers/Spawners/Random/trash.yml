@@ -56,7 +56,7 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Objects/Consumable/Food/snacks.rsi
+        - sprite: _Erida/Objects/Consumable/Food/snacks.rsi
           state: pistachio-trash
     - type: EntityTableSpawner
       offset: 0.2
@@ -86,7 +86,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: Objects/Specific/Hydroponics/banana.rsi
+    - sprite: _Erida/Objects/Specific/Hydroponics/banana.rsi
       state: peel
   - type: EntityTableSpawner
     table: !type:NestedSelector

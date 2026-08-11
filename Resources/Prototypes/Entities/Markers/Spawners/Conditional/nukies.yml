@@ -9,5 +9,5 @@
   - type: Sprite
     layers:
     - state: green
-    - sprite: Objects/Fun/Plushies/nukie.rsi
+    - sprite: _Erida/Objects/Fun/Plushies/nukie.rsi
       state: icon

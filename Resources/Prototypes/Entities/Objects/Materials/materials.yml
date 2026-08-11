@@ -7,9 +7,9 @@
   description: A raw material.
   components:
   - type: Sprite
-    sprite: Objects/Materials/materials.rsi
+    sprite: _Erida/Objects/Materials/materials.rsi
   - type: Item
-    sprite: Objects/Materials/materials.rsi
+    sprite: _Erida/Objects/Materials/materials.rsi
     size: Normal
   - type: Tag
     tags:
@@ -327,7 +327,7 @@
       enum.StackCustomSplitUiKey.Key:
         type: StackCustomSplitBoundUserInterface
   - type: Sprite
-    sprite: /Textures/Objects/Misc/monkeycube.rsi
+    sprite: /Textures/_Erida/Objects/Misc/monkeycube.rsi
     state: cube
     color: "#8A9A5B"
   - type: GuideHelp
@@ -349,7 +349,7 @@
   name: bear hide
   components:
   - type: Sprite
-    sprite: Objects/Materials/materials.rsi
+    sprite: _Erida/Objects/Materials/materials.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: bearpelt
@@ -357,10 +357,10 @@
       state: bearpelt_glow
       shader: unshaded
   - type: Item
-    sprite: Clothing/Head/Misc/hides.rsi
+    sprite: _Erida/Clothing/Head/Misc/hides.rsi
     heldPrefix: bear
   - type: Clothing
-    sprite: Clothing/Head/Misc/hides.rsi
+    sprite: _Erida/Clothing/Head/Misc/hides.rsi
     equippedPrefix: bear
     slots:
       - HEAD
@@ -377,12 +377,12 @@
   description: Luxury pelt used in only the most elite fashion. Rumors say this is found when a corgi is sent to the nice farm.
   components:
   - type: Sprite
-    sprite: Objects/Materials/materials.rsi
+    sprite: _Erida/Objects/Materials/materials.rsi
     state: corgihide
   - type: Item
     heldPrefix: corgihide
   - type: Clothing
-    sprite: Clothing/Head/Misc/hides.rsi
+    sprite: _Erida/Clothing/Head/Misc/hides.rsi
     equippedPrefix: corgi2
     slots:
     - HEAD
@@ -648,7 +648,7 @@
     materialComposition:
       WebSilk: 100
   - type: Sprite
-    sprite: Objects/Materials/silk.rsi
+    sprite: _Erida/Objects/Materials/silk.rsi
     state: icon
   - type: Stack
     count: 50
@@ -681,7 +681,7 @@
       - ClothMade
       - RawMaterial
   - type: Item
-    sprite: Objects/Materials/silk.rsi
+    sprite: _Erida/Objects/Materials/silk.rsi
     heldPrefix: silk
 
 - type: entity
@@ -708,12 +708,12 @@
   suffix: Full
   components:
   - type: Sprite
-    sprite: Objects/Materials/Mob/carptooth.rsi
+    sprite: _Erida/Objects/Materials/Mob/carptooth.rsi
     layers:
     - state: tooth
       map: [ "base" ]
   - type: Item
-    sprite: Objects/Materials/Mob/carptooth.rsi
+    sprite: _Erida/Objects/Materials/Mob/carptooth.rsi
     size: Normal
   - type: Appearance
   - type: Stack
@@ -755,12 +755,12 @@
       types:
         Slash: 12 #goobedit - buff spear variant, nerf tooth.
   - type: Sprite
-    sprite: Objects/Materials/Mob/sharktooth.rsi
+    sprite: _Erida/Objects/Materials/Mob/sharktooth.rsi
     layers:
     - state: tooth
       map: [ "base" ]
   - type: Item
-    sprite: Objects/Materials/Mob/sharktooth.rsi
+    sprite: _Erida/Objects/Materials/Mob/sharktooth.rsi
     size: Normal
   - type: Appearance
   - type: Stack
@@ -850,7 +850,7 @@
       enum.StackCustomSplitUiKey.Key:
         type: StackCustomSplitBoundUserInterface
   - type: Sprite
-    sprite: Objects/Misc/reagent_fillings.rsi
+    sprite: _Erida/Objects/Misc/reagent_fillings.rsi
     state: powderpile
     color: darkgray
   - type: PhysicalComposition
@@ -867,7 +867,7 @@
   suffix: Full
   components:
   - type: Sprite
-    sprite: Objects/Materials/hide.rsi
+    sprite: _Erida/Objects/Materials/hide.rsi
     layers:
     - state: goliath_hide
       map: [ "base" ]
@@ -891,7 +891,7 @@
   - type: Item
     size: Large
     heldPrefix: goliathhide
-    sprite: Objects/Materials/hide.rsi
+    sprite: _Erida/Objects/Materials/hide.rsi
     shape:
     - 0,0,2,2
   - type: Tag

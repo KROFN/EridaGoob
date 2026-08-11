@@ -564,7 +564,7 @@
   name: syndicate team leader ghost role
   components:
     - type: Sprite
-      sprite: Structures/Decoration/banner.rsi
+      sprite: _Erida/Structures/Decoration/banner.rsi
       state: banner_syndicate
     - type: RandomHumanoidSpawner
       settings: SyndieSoldierTeamLeader
@@ -574,7 +574,7 @@
   name: syndicate soldier ghost role
   components:
     - type: Sprite
-      sprite: Structures/Decoration/banner.rsi
+      sprite: _Erida/Structures/Decoration/banner.rsi
       state: banner_syndicate
     - type: RandomHumanoidSpawner
       settings: SyndieSoldier
@@ -584,7 +584,7 @@
   name: syndie disaster victim ghost role
   components:
     - type: Sprite
-      sprite: Structures/Decoration/banner.rsi
+      sprite: _Erida/Structures/Decoration/banner.rsi
       state: banner_syndicate
     - type: RandomHumanoidSpawner
       settings: SyndieVisitor
@@ -595,7 +595,7 @@
   suffix: scooner
   components:
     - type: Sprite
-      sprite: Structures/Decoration/banner.rsi
+      sprite: _Erida/Structures/Decoration/banner.rsi
       state: banner-red
     - type: RandomHumanoidSpawner
       settings: PirateScooner
@@ -606,7 +606,7 @@
   suffix: scooner
   components:
     - type: Sprite
-      sprite: Structures/Decoration/banner.rsi
+      sprite: _Erida/Structures/Decoration/banner.rsi
       state: banner-red
     - type: RandomHumanoidSpawner
       settings: PirateCaptainScooner
@@ -618,7 +618,7 @@
   name: visiting blackmarketeer ghost role
   components:
     - type: Sprite
-      sprite: Structures/Decoration/banner.rsi
+      sprite: _Erida/Structures/Decoration/banner.rsi
       state: banner-yellow
     - type: RandomHumanoidSpawner
       settings: VisitorBlackmarketeer
@@ -629,7 +629,7 @@
   name: cossack ghost role
   components:
     - type: Sprite
-      sprite: Structures/Decoration/banner.rsi
+      sprite: _Erida/Structures/Decoration/banner.rsi
       state: banner-yellow
     - type: RandomHumanoidSpawner
       settings: Cossack

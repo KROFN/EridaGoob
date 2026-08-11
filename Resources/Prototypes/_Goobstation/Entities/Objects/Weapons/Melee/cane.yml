@@ -9,7 +9,7 @@
   components:
   - type: Sharp
   - type: Sprite
-    sprite: Objects/Weapons/Melee/cane_blade.rsi
+    sprite: _Erida/Objects/Weapons/Melee/cane_blade.rsi
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: 65
@@ -21,7 +21,7 @@
         path: /Audio/Weapons/bladeslice.ogg
   - type: Item
     size: Normal
-    sprite: Objects/Weapons/Melee/cane_blade.rsi
+    sprite: _Erida/Objects/Weapons/Melee/cane_blade.rsi
   - type: Tag
     tags:
       - CaneBlade

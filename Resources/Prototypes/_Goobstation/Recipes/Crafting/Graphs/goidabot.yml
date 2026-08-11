@@ -7,12 +7,12 @@
       steps:
       - tag: Ushanka
         icon:
-          sprite: Clothing/Head/Hats/ushanka.rsi
+          sprite: _Erida/Clothing/Head/Hats/ushanka.rsi
           state: icon
         name: construction-graph-tag-ushanka
       - tag: BaseballBat
         icon:
-          sprite: Objects/Weapons/Melee/baseball_bat.rsi
+          sprite: _Erida/Objects/Weapons/Melee/baseball_bat.rsi
           state: icon
         name: construction-graph-tag-baseball-bat
         doAfter: 2
@@ -24,7 +24,7 @@
         doAfter: 2
       - tag: ProximitySensor
         icon:
-          sprite: Objects/Misc/proximity_sensor.rsi
+          sprite: _Erida/Objects/Misc/proximity_sensor.rsi
           state: icon
         name: construction-graph-tag-proximity-sensor
         doAfter: 2

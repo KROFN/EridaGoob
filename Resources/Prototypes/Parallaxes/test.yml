@@ -8,17 +8,17 @@
   layers:
     - texture:
         !type:ImageParallaxTextureSource
-        path: "/Textures/Decals/dirty.rsi/damaged.png"
+        path: "/Textures/_Erida/Decals/dirty.rsi/damaged.png"
       slowness: 0.5
       scale: "2, 2"
     - texture:
         !type:ImageParallaxTextureSource
-        path: "/Textures/Decals/dirty.rsi/rust.png"
+        path: "/Textures/_Erida/Decals/dirty.rsi/rust.png"
       slowness: 3.0
       scale: "3, 3"
     - texture:
         !type:ImageParallaxTextureSource
-        path: "/Textures/Objects/Devices/flatpack.rsi/ame-part.png"
+        path: "/Textures/_Erida/Objects/Devices/flatpack.rsi/ame-part.png"
       slowness: 0.995
       tiled: false
       controlHomePosition: "-128, -128"
@@ -27,19 +27,19 @@
       scale: "8, 8"
     - texture:
         !type:ImageParallaxTextureSource
-        path: "/Textures/Objects/Power/AME/ame_jar.rsi/jar.png"
+        path: "/Textures/_Erida/Objects/Power/AME/ame_jar.rsi/jar.png"
       slowness: 0.0
       tiled: false
       scale: "2, 2"
     - texture:
         !type:ImageParallaxTextureSource
-        path: "/Textures/Objects/Power/AME/ame_jar.rsi/jar.png"
+        path: "/Textures/_Erida/Objects/Power/AME/ame_jar.rsi/jar.png"
       slowness: 0.125
       tiled: false
       scale: "1, 1"
     - texture:
         !type:ImageParallaxTextureSource
-        path: "/Textures/Objects/Devices/flatpack.rsi/ame-part.png"
+        path: "/Textures/_Erida/Objects/Devices/flatpack.rsi/ame-part.png"
       slowness: 0.0
       tiled: false
       controlHomePosition: "0, 32"
@@ -48,7 +48,7 @@
   layersLQ:
     - texture:
         !type:ImageParallaxTextureSource
-        path: "/Textures/Decals/dirty.rsi/rust.png"
+        path: "/Textures/_Erida/Decals/dirty.rsi/rust.png"
       slowness: 3.0
       scale: "3, 3"
   layersLQUseHQ: false

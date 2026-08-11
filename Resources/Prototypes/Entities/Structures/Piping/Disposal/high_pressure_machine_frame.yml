@@ -47,7 +47,7 @@
             - !type:DoActsBehavior
               acts: [ "Destruction" ]
     - type: Sprite
-      sprite: Structures/Piping/high_pressure_machine_frame.rsi
+      sprite: _Erida/Structures/Piping/high_pressure_machine_frame.rsi
       layers:
       - state: frame
         map: [ "enum.ConstructionVisuals.Layer" ]

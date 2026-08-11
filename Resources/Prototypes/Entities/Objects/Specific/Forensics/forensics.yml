@@ -10,7 +10,7 @@
     size: Tiny
   - type: ForensicPad
   - type: Sprite
-    sprite: Objects/Misc/bureaucracy.rsi
+    sprite: _Erida/Objects/Misc/bureaucracy.rsi
     layers:
     - state: paper
       color: yellow

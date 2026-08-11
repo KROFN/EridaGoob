@@ -12,7 +12,7 @@
         id: MonkeyCubeWrapped
         amount: 8
   - type: Sprite
-    sprite: Objects/Misc/monkeycube.rsi
+    sprite: _Erida/Objects/Misc/monkeycube.rsi
     state: box
 
 - type: entity
@@ -27,7 +27,7 @@
     sound:
       path: /Audio/Effects/unwrap.ogg
   - type: Sprite
-    sprite: Objects/Misc/monkeycube.rsi
+    sprite: _Erida/Objects/Misc/monkeycube.rsi
 
 - type: entity
   parent: BaseWrappedCube
@@ -56,7 +56,7 @@
         id: KoboldCubeWrapped
         amount: 8
   - type: Sprite
-    sprite: Objects/Misc/monkeycube.rsi
+    sprite: _Erida/Objects/Misc/monkeycube.rsi
     state: box_kobold
 
 - type: entity
@@ -74,7 +74,7 @@
         - id: MonkeyCubeWrapped
           amount: 4
   - type: Sprite
-    sprite: Objects/Misc/monkeycube.rsi
+    sprite: _Erida/Objects/Misc/monkeycube.rsi
     state: box_variant
 
 - type: entity
@@ -102,7 +102,7 @@
         id: SyndicateSpongeWrapped
         amount: 6
   - type: Sprite
-    sprite: Objects/Misc/monkeycube.rsi
+    sprite: _Erida/Objects/Misc/monkeycube.rsi
     state: box
 
 - type: entity

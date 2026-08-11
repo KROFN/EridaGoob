@@ -45,7 +45,7 @@
   description: Used for grinding small amounts of objects.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Kitchen/mortar_and_pestle.rsi
+    sprite: _Erida/Objects/Specific/Kitchen/mortar_and_pestle.rsi
     layers:
     - state: icon
     - map: ["enum.SolutionContainerLayers.Fill"]
@@ -61,7 +61,7 @@
   description: Used for grinding small amounts of objects. Inferior version made out of wood.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Kitchen/mortar_and_pestle.rsi
+    sprite: _Erida/Objects/Specific/Kitchen/mortar_and_pestle.rsi
     layers:
     - state: makeshift_icon
     - map: ["enum.SolutionContainerLayers.Fill"]
@@ -87,7 +87,7 @@
   description: Used for juicing small amounts of objects.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Kitchen/handheld_juicer.rsi
+    sprite: _Erida/Objects/Specific/Kitchen/handheld_juicer.rsi
     layers:
     - state: juicer_base
     - map: ["enum.SolutionContainerLayers.Fill"]
@@ -109,7 +109,7 @@
   description: Used for juicing small amounts of objects. Inferior version made out of wood.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Kitchen/handheld_juicer.rsi
+    sprite: _Erida/Objects/Specific/Kitchen/handheld_juicer.rsi
     layers:
     - state: makeshift_base
     - map: ["enum.SolutionContainerLayers.Fill"]
@@ -136,7 +136,7 @@
   description: A few planks of wood stuck together.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Kitchen/mortar_and_pestle.rsi
+    sprite: _Erida/Objects/Specific/Kitchen/mortar_and_pestle.rsi
     state: makeshift_base
   - type: Item
     size: Normal
@@ -156,7 +156,7 @@
   description: A some wood and plastic stuck together.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Kitchen/handheld_juicer.rsi
+    sprite: _Erida/Objects/Specific/Kitchen/handheld_juicer.rsi
     state: makeshift_base
   - type: Item
     size: Normal

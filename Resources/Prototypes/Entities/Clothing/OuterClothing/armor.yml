@@ -16,9 +16,9 @@
   description: A standard Type I armored vest that provides decent protection against most types of damage.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/security.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/security.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/security.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/security.rsi
     # Goob start
   - type: Armor
     coverage:
@@ -64,9 +64,9 @@
   description: A slim Type I armored vest that provides decent protection against most types of damage.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/security_slim.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/security_slim.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/security_slim.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/security_slim.rsi
 
 - type: entity
   parent: ClothingOuterArmorBase
@@ -75,9 +75,9 @@
   description: A Type III heavy bulletproof vest that excels in protecting the wearer against traditional projectile weaponry and explosives to a minor extent.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/bulletproof.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/bulletproof.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/bulletproof.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/bulletproof.rsi
   - type: Armor
     # Goob start
     coverage:
@@ -109,9 +109,9 @@
   description: An armored vest with advanced shielding to protect against energy weapons.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/armor_reflec.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/armor_reflec.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/armor_reflec.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/armor_reflec.rsi
   - type: Armor
     # Goob start
     coverage:
@@ -139,9 +139,9 @@
 #  description: A hard-boiled private investigator's armored vest.
 #  components:
 #  - type: Sprite
-#    sprite: Clothing/OuterClothing/Vests/detvest.rsi
+#    sprite: _Erida/Clothing/OuterClothing/Vests/detvest.rsi
 #  - type: Clothing
-#    sprite: Clothing/OuterClothing/Vests/detvest.rsi
+#    sprite: _Erida/Clothing/OuterClothing/Vests/detvest.rsi
 #
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing]
@@ -174,9 +174,9 @@
   description: An armored chestpiece that provides protection whilst still offering maximum mobility and flexibility. Issued only to the station's finest.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/captain_carapace.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/captain_carapace.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/captain_carapace.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/captain_carapace.rsi
   - type: Armor
     # Goob start
     coverage:
@@ -222,9 +222,9 @@
   description: An armored chestpiece that provides protection whilst still offering maximum mobility and flexibility. Issued only to centcomm officials and agents.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/centcomm_carapace.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/centcomm_carapace.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/centcomm_carapace.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/centcomm_carapace.rsi
 
 ## Goob - These are meant to be here in upstream. Why are ours elsewhere. Fixme. todo marty
 ##Web vest
@@ -235,9 +235,9 @@
 #  description: A synthetic armor vest. This one has added webbing and ballistic plates.
 #  components:
 #  - type: Sprite
-#    sprite: Clothing/OuterClothing/Vests/webvest.rsi
+#    sprite: _Erida/Clothing/OuterClothing/Vests/webvest.rsi
 #  - type: Clothing
-#    sprite: Clothing/OuterClothing/Vests/webvest.rsi
+#    sprite: _Erida/Clothing/OuterClothing/Vests/webvest.rsi
 #  - type: Armor
 #    modifiers:
 #      coefficients:
@@ -258,9 +258,9 @@
 #  description: A synthetic armor vest. This one has added webbing and heat resistant fibers.
 #  components:
 #  - type: Sprite
-#    sprite: Clothing/OuterClothing/Vests/elitevest.rsi
+#    sprite: _Erida/Clothing/OuterClothing/Vests/elitevest.rsi
 #  - type: Clothing
-#    sprite: Clothing/OuterClothing/Vests/elitevest.rsi
+#    sprite: _Erida/Clothing/OuterClothing/Vests/elitevest.rsi
 #  - type: TemperatureProtection
 #    heatingCoefficient: 0.1
 #    coolingCoefficient: 0.1
@@ -288,9 +288,9 @@
 #  description: A high-quality armored vest made from a hard synthetic material. It's surprisingly flexible and light, despite formidable armor plating.
 #  components:
 #  - type: Sprite
-#    sprite: Clothing/OuterClothing/Vests/mercwebvest.rsi
+#    sprite: _Erida/Clothing/OuterClothing/Vests/mercwebvest.rsi
 #  - type: Clothing
-#    sprite: Clothing/OuterClothing/Vests/mercwebvest.rsi
+#    sprite: _Erida/Clothing/OuterClothing/Vests/mercwebvest.rsi
 #  - type: Armor
 #    modifiers:
 #      coefficients:
@@ -310,14 +310,14 @@
   description: A somewhat flexible and well-armored suit with a powerful shoulder mounted flashlight manufactured in the Gorlex Marauder's iconic blood-red color scheme, it does not protect its wearer from space.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/syndie-raid.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/syndie-raid.rsi
     layers:
     - state: icon
     - state: light-overlay
       visible: false
       shader: unshaded
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/syndie-raid.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/syndie-raid.rsi
   - type: Armor
     # Goob start
     coverage:
@@ -411,9 +411,9 @@
   description: A suit of semi-flexible polycarbonate body armor with heavy padding to protect against melee attacks. Perfect for fighting delinquents around the station.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/riot.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/riot.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/riot.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/riot.rsi
   - type: Armor
     # Goob start
     coverage:
@@ -452,9 +452,9 @@
   description: An evil-looking piece of cult armor, made of bones.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/cult_armour.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/cult_armour.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/cult_armour.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/cult_armour.rsi
   - type: Armor
     # Goob start
     coverage:
@@ -490,9 +490,9 @@
   description: A heavily armored suit that protects against excessive damage.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/heavy.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/heavy.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/heavy.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/heavy.rsi
   - type: Armor
     coverage:
     - Chest
@@ -531,9 +531,9 @@
   description: A heavily armored suit with green accents that protects against excessive damage.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/heavygreen.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/heavygreen.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/heavygreen.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/heavygreen.rsi
 
 - type: entity
   parent: ClothingOuterArmorHeavy
@@ -542,9 +542,9 @@
   description: A heavily armored suit with red accents that protects against excessive damage.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/heavyred.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/heavyred.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/heavyred.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/heavyred.rsi
 
 - type: entity
   parent: [ClothingOuterArmorHeavy, ClothingOuterWizardBaseArmor, BaseMagicalContraband] # Goob edit
@@ -553,9 +553,9 @@
   description: An blue armored suit that provides good protection. Doesn't count as wizard robes. # Goob edit
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/magusblue.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/magusblue.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/magusblue.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/magusblue.rsi
   - type: Armor
     # Goob start
     traumaDeductions: # Wizard Also Probally should have this
@@ -588,9 +588,9 @@
   description: A red armored suit that provides good protection. Doesn't count as wizard robes. # Goob edit
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/magusred.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/magusred.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/magusred.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/magusred.rsi
 
 - type: entity
   parent: [ ClothingOuterBaseLarge, BaseMajorContraband, AllowSuitStorageClothing ]
@@ -599,9 +599,9 @@
   description: Inflates the changeling's body into an all-consuming chitinous mass of armor.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/lingarmor.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/lingarmor.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/lingarmor.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/lingarmor.rsi
   - type: Armor
     # Goob start
     coverage:
@@ -653,9 +653,9 @@
   description: Sits on you like a second skin.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/bone_armor.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/bone_armor.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/bone_armor.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/bone_armor.rsi
   - type: Armor
     # Goob start
     coverage:
@@ -706,9 +706,9 @@
   description: A repurposed suit of ironclad II armor, a relic of the pod wars.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/podwars_armor.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/podwars_armor.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/podwars_armor.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/podwars_armor.rsi
   - type: Armor
     # Goob start
     coverage:
@@ -752,9 +752,9 @@
   description: A medieval chestpiece built from cardboard.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/card_armour.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/card_armour.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/card_armour.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/card_armour.rsi
   - type: Armor
     modifiers:
       coefficients:

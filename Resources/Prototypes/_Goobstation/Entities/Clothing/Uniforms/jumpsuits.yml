@@ -280,9 +280,9 @@
   description: A stylish black suit made of materials not from this dimension. Warm to the touch.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/lawyerblack.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/lawyerblack.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/lawyerblack.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/lawyerblack.rsi
   - type: CrematoriumImmune
   - type: Armor
     modifiers:

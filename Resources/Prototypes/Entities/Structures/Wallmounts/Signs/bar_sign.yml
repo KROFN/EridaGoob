@@ -9,7 +9,7 @@
   - type: WallMount
     arc: 360
   - type: Sprite
-    sprite: Structures/Wallmounts/barsign.rsi
+    sprite: _Erida/Structures/Wallmounts/barsign.rsi
     state: empty
   - type: BarSign
   - type: AccessReader
@@ -58,7 +58,7 @@
 #  - type: InteractionOutline
 #  - type: Sprite
 #    drawdepth: WallTops
-#    sprite: Structures/Wallmounts/sylphs.rsi
+#    sprite: _Erida/Structures/Wallmounts/sylphs.rsi
 #    state: sylph
 #  - type: ApcPowerReceiver
 #  - type: ExtensionCableReceiver

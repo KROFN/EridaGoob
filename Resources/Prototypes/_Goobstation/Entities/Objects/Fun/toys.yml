@@ -239,7 +239,7 @@
   - type: CartridgeAmmo
     proto: BulletGrenadeToy
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi
     layers:
     - state: frag
       map: ["enum.AmmoVisualLayers.Base"]
@@ -262,7 +262,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
       - state: grenade
   - type: ExplodeOnTrigger
@@ -706,7 +706,7 @@
         Heat: 1
   - type: Appearance
   - type: FireVisuals
-    sprite: Effects/fire.rsi
+    sprite: _Erida/Effects/fire.rsi
     normalState: fire
   - type: Damageable
     damageModifierSet: Wood
@@ -770,7 +770,7 @@
         Heat: 1
   - type: Appearance
   - type: FireVisuals
-    sprite: Effects/fire.rsi
+    sprite: _Erida/Effects/fire.rsi
     normalState: fire
   - type: Damageable
     damageModifierSet: Wood
@@ -797,7 +797,7 @@
   description: A disco beach ball turns any beach trip into Studio 54.
   components:
   - type: Sprite
-    sprite: Objects/Fun/Balls/beach_ball.rsi
+    sprite: _Erida/Objects/Fun/Balls/beach_ball.rsi
     state: icon
     color: "#FFFFFF"
   - type: PointLight
@@ -814,7 +814,7 @@
   - type: MultiHandedItem
   - type: Item
     size: Large
-    sprite: Objects/Fun/Balls/beach_ball.rsi
+    sprite: _Erida/Objects/Fun/Balls/beach_ball.rsi
   - type: Anchorable
   - type: Damageable
     damageContainer: Inorganic
@@ -852,7 +852,7 @@
   description: Why would you make this?
   components:
     - type: Sprite
-      sprite: Objects/Weapons/Melee/Throngler2.rsi
+      sprite: _Erida/Objects/Weapons/Melee/Throngler2.rsi
       state: icon
     - type: StaminaDamageOnHit
       damage: 0.8
@@ -869,7 +869,7 @@
         path: /Audio/Effects/explosion_small1.ogg
     - type: Item
       size: Ginormous
-      sprite: Objects/Weapons/Melee/Throngler-in-hand.rsi
+      sprite: _Erida/Objects/Weapons/Melee/Throngler-in-hand.rsi
     - type: DisarmMalus
       malus: 0
 

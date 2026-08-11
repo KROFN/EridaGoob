@@ -5,7 +5,7 @@
   tags: ["overlay"]
   defaultCustomColor: true
   sprite:
-    sprite: Decals/Overlays/markups.rsi
+    sprite: _Erida/Decals/Overlays/markups.rsi
     state: square
 
 - type: decal
@@ -13,7 +13,7 @@
   tags: ["overlay"]
   defaultCustomColor: true
   sprite:
-    sprite: Decals/Overlays/markups.rsi
+    sprite: _Erida/Decals/Overlays/markups.rsi
     state: rectangle1x2
 
 - type: decal
@@ -21,7 +21,7 @@
   tags: ["overlay"]
   defaultCustomColor: true
   sprite:
-    sprite: Decals/Overlays/markups.rsi
+    sprite: _Erida/Decals/Overlays/markups.rsi
     state: rectangle1x2center
 
 - type: decal
@@ -29,7 +29,7 @@
   tags: ["overlay"]
   defaultCustomColor: true
   sprite:
-    sprite: Decals/Overlays/markups.rsi
+    sprite: _Erida/Decals/Overlays/markups.rsi
     state: squareQuater
 
 - type: decal
@@ -37,5 +37,5 @@
   tags: ["overlay"]
   defaultCustomColor: true
   sprite:
-    sprite: Decals/Overlays/markups.rsi
+    sprite: _Erida/Decals/Overlays/markups.rsi
     state: squareQuaterCenter

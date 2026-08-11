@@ -8,9 +8,9 @@
   description: A numbered yellow marker, useful for labeling evidence on a crime scene.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Detective/evidence_marker.rsi
+    sprite: _Erida/Objects/Specific/Detective/evidence_marker.rsi
   - type: Item
-    sprite: Objects/Specific/Detective/evidence_marker.rsi
+    sprite: _Erida/Objects/Specific/Detective/evidence_marker.rsi
     size: Tiny
 
 - type: entity

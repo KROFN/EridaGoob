@@ -11,7 +11,7 @@
   - type: Item
     size: Normal
   - type: Sprite
-    sprite: Objects/Consumable/Food/breakfast.rsi
+    sprite: _Erida/Objects/Consumable/Food/breakfast.rsi
   - type: SolutionContainerManager
     solutions:
       food:

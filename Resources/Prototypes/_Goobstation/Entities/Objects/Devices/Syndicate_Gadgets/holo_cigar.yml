@@ -11,12 +11,12 @@
     state: icon
     scale: 0.8, 0.8
   - type: Clothing
-    sprite: Objects/Consumable/Smokeables/Cigars/cigar.rsi
+    sprite: _Erida/Objects/Consumable/Smokeables/Cigars/cigar.rsi
     slots: [ mask ]
     equippedPrefix: unlit
   - type: Item
     size: Tiny
-    sprite: Objects/Consumable/Smokeables/Cigars/cigar.rsi
+    sprite: _Erida/Objects/Consumable/Smokeables/Cigars/cigar.rsi
     heldPrefix: unlit
   - type: Appearance
   - type: BurnStateVisuals

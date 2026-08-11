@@ -10,7 +10,7 @@
     flavors:
       - meaty
   - type: Sprite
-    sprite: Objects/Consumable/Food/meat.rsi
+    sprite: _Erida/Objects/Consumable/Food/meat.rsi
   - type: Extractable
     grindableSolutionName: food
   - type: SolutionContainerManager
@@ -787,7 +787,7 @@
     - Raw
     - Meat
   - type: Sprite
-    sprite: Objects/Consumable/Food/salami.rsi
+    sprite: _Erida/Objects/Consumable/Food/salami.rsi
     state: salami
   - type: SliceableFood
     slice: FoodMeatSalamiSlice

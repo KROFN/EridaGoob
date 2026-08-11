@@ -43,7 +43,7 @@
       # Orion start
       enum.EdgeConnectionVisuals.ConnectionMask:
         computerLayerBody:
-          None: { state: computer, sprite: Structures/Machines/computers.rsi }
+          None: { state: computer, sprite: _Erida/Structures/Machines/computers.rsi }
           West: { state: computer_r, sprite: _Orion/Structures/Machines/computers.rsi }
           East: { state: computer_l, sprite: _Orion/Structures/Machines/computers.rsi }
           East, West: { state: computer_l_r, sprite: _Orion/Structures/Machines/computers.rsi }
@@ -285,7 +285,7 @@
     - map: ["computerLayerKeyboard"]
       state: generic_keyboard
     - map: ["computerLayerScreen"]
-      sprite: Structures/Shuttles/iff.rsi
+      sprite: _Erida/Structures/Shuttles/iff.rsi
       state: helm
     - map: ["computerLayerKeys"]
       state: generic_keys
@@ -1337,7 +1337,7 @@
         # Orion start
         enum.EdgeConnectionVisuals.ConnectionMask:
           computerLayerBody:
-            None: { state: computer, sprite: Structures/Machines/computers.rsi }
+            None: { state: computer, sprite: _Erida/Structures/Machines/computers.rsi }
             West: { state: computer_r, sprite: _Orion/Structures/Machines/computers.rsi }
             East: { state: computer_l, sprite: _Orion/Structures/Machines/computers.rsi }
             East, West: { state: computer_l_r, sprite: _Orion/Structures/Machines/computers.rsi }

@@ -3,7 +3,7 @@
 - type: cargoProduct
   id: EmergencyExplosive
   icon:
-    sprite: Clothing/Head/Helmets/bombsuit.rsi
+    sprite: _Erida/Clothing/Head/Helmets/bombsuit.rsi
     state: icon
   product: CrateEmergencyExplosive
   cost: 1000
@@ -13,7 +13,7 @@
 - type: cargoProduct
   id: EmergencyFire
   icon:
-    sprite: Objects/Misc/fire_extinguisher.rsi
+    sprite: _Erida/Objects/Misc/fire_extinguisher.rsi
     state: fire_extinguisher_closed
   product: CrateEmergencyFire
   cost: 1500
@@ -23,7 +23,7 @@
 - type: cargoProduct
   id: EmergencyInternals
   icon:
-    sprite: Clothing/Mask/breath.rsi
+    sprite: _Erida/Clothing/Mask/breath.rsi
     state: icon
   product: CrateEmergencyInternals
   cost: 600
@@ -33,7 +33,7 @@
 - type: cargoProduct
   id: EmergencyInternalsLarge
   icon:
-    sprite: Clothing/Mask/breath.rsi
+    sprite: _Erida/Clothing/Mask/breath.rsi
     state: icon
   product: CrateEmergencyInternalsLarge
   cost: 1200
@@ -43,7 +43,7 @@
 - type: cargoProduct
   id: EmergencyRadiation
   icon:
-    sprite: Structures/Wallmounts/signs.rsi
+    sprite: _Erida/Structures/Wallmounts/signs.rsi
     state: radiation
   product: CrateEmergencyRadiation
   cost: 1000
@@ -53,7 +53,7 @@
 - type: cargoProduct
   id: EmergencyInflatablewall
   icon:
-    sprite: Objects/Misc/inflatable_wall.rsi
+    sprite: _Erida/Objects/Misc/inflatable_wall.rsi
     state: item_wall
   product: CrateEmergencyInflatablewall
   cost: 500
@@ -63,7 +63,7 @@
 - type: cargoProduct
   id: EmergencyNitrogenTanks
   icon:
-    sprite: Objects/Tanks/red.rsi
+    sprite: _Erida/Objects/Tanks/red.rsi
     state: icon
   product: CrateNitrogenInternals
   cost: 400 # Goobstation
@@ -73,7 +73,7 @@
 - type: cargoProduct
   id: EmergencyBiosuit
   icon:
-    sprite: Clothing/Head/Hoods/Bio/general.rsi
+    sprite: _Erida/Clothing/Head/Hoods/Bio/general.rsi
     state: icon
   product: CrateGenericBiosuit
   cost: 800

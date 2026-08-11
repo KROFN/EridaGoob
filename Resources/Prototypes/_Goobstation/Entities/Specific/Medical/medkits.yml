@@ -7,7 +7,7 @@
   description: A single-use advanced medipen containing chemicals extracted from eldritch beasts. # ethically sourced space dragon blood
   components:
   - type: Sprite
-    sprite: Objects/Specific/Medical/medipen.rsi
+    sprite: _Erida/Objects/Specific/Medical/medipen.rsi
     layers:
     - state: advcombatpen
       map: ["enum.SolutionContainerLayers.Fill"]
@@ -37,10 +37,10 @@
   id: MedkitBSO
   components:
   - type: Sprite
-    sprite: /Textures/_Goobstation/Objects/Specific/Medical/firstaidkits.rsi
+    sprite: /Textures/_Erida/Objects/Specific/Medical/firstaidkits.rsi
     state: bsokit
   - type: Item
-    sprite: /Textures/_Goobstation/Objects/Specific/Medical/firstaidkits.rsi
+    sprite: /Textures/_Erida/Objects/Specific/Medical/firstaidkits.rsi
     heldPrefix: bsokit
     size: Normal
   - type: Storage
@@ -64,10 +64,10 @@
   id: MedkitCombatBlue
   components:
   - type: Sprite
-    sprite: /Textures/_Goobstation/Objects/Specific/Medical/firstaidkits.rsi
+    sprite: /Textures/_Erida/Objects/Specific/Medical/firstaidkits.rsi
     state: blackbluekit
   - type: Item
-    sprite: /Textures/_Goobstation/Objects/Specific/Medical/firstaidkits.rsi
+    sprite: /Textures/_Erida/Objects/Specific/Medical/firstaidkits.rsi
     heldPrefix: blackbluekit
     size: Normal
 
@@ -78,10 +78,10 @@
   id: MedkitCombatPurple
   components:
   - type: Sprite
-    sprite: /Textures/_Goobstation/Objects/Specific/Medical/firstaidkits.rsi
+    sprite: /Textures/_Erida/Objects/Specific/Medical/firstaidkits.rsi
     state: blackpurplekit
   - type: Item
-    sprite: /Textures/_Goobstation/Objects/Specific/Medical/firstaidkits.rsi
+    sprite: /Textures/_Erida/Objects/Specific/Medical/firstaidkits.rsi
     heldPrefix: blackpurplekit
     size: Normal
   - type: Storage

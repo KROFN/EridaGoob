@@ -17,7 +17,7 @@
   - type: Instrument
     program: 9
   - type: Sprite
-    sprite: Objects/Fun/Instruments/glockenspiel.rsi
+    sprite: _Erida/Objects/Fun/Instruments/glockenspiel.rsi
 
 - type: entity
   parent: BasePercussionInstrument
@@ -28,7 +28,7 @@
   - type: Instrument
     program: 10
   - type: Sprite
-    sprite: Objects/Fun/Instruments/musicbox.rsi
+    sprite: _Erida/Objects/Fun/Instruments/musicbox.rsi
   - type: Item
     size: Small
 
@@ -41,7 +41,7 @@
   - type: Instrument
     program: 13
   - type: Sprite
-    sprite: Objects/Fun/Instruments/structureinstruments.rsi
+    sprite: _Erida/Objects/Fun/Instruments/structureinstruments.rsi
     state: xylophone
 
 - type: entity
@@ -60,7 +60,7 @@
       "Waa": {5: 100} # Defined in space-station-14.sf2
       "Wah": {6: 100} # Defined in space-station-14.sf2
   - type: Sprite
-    sprite: Objects/Fun/Instruments/microphone.rsi
+    sprite: _Erida/Objects/Fun/Instruments/microphone.rsi
   - type: Item
     size: Small
     storedRotation: -45
@@ -74,7 +74,7 @@
   - type: Instrument
     program: 115
   - type: Sprite
-    sprite: Objects/Fun/Instruments/woodblock.rsi
+    sprite: _Erida/Objects/Fun/Instruments/woodblock.rsi
 
 - type: entity
   parent: BasePercussionInstrument
@@ -85,4 +85,4 @@
   - type: Instrument
     program: 119
   - type: Sprite
-    sprite: Objects/Fun/Instruments/reversecymbal.rsi
+    sprite: _Erida/Objects/Fun/Instruments/reversecymbal.rsi

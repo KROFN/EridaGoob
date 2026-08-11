@@ -6,7 +6,7 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Objects/Vehicles/motorbike.rsi
+      - sprite: _Erida/Objects/Vehicles/motorbike.rsi
         state: keys
   - type: ConditionalSpawner
     prototypes:

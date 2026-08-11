@@ -3,7 +3,7 @@
   categories: [ HideSpawnMenu ] # on LightFade animation complete, which causes a
   components:                   # "Predicting the queued deletion of a networked entity" error on tests.
     - type: Sprite
-      sprite: Effects/arcs.rsi
+      sprite: _Erida/Effects/arcs.rsi
       layers:
       - state: punch
         color: "#ff80f4"

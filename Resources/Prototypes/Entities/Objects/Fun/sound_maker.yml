@@ -10,13 +10,13 @@
   description: A horn off of a bicycle.
   components:
   - type: Sprite
-    sprite: Objects/Fun/bikehorn.rsi
+    sprite: _Erida/Objects/Fun/bikehorn.rsi
     state: icon
   - type: Item
-    sprite: Objects/Fun/bikehorn.rsi
+    sprite: _Erida/Objects/Fun/bikehorn.rsi
     size: Tiny
   - type: Clothing
-    sprite: Objects/Fun/bikehorn.rsi
+    sprite: _Erida/Objects/Fun/bikehorn.rsi
     slots: [Belt]
     quickEquip: false
   - type: UseDelay
@@ -57,13 +57,13 @@
   components:
   - type: UseDelay
   - type: Sprite
-    sprite: Objects/Fun/cluwnehorn.rsi
+    sprite: _Erida/Objects/Fun/cluwnehorn.rsi
     state: icon
   - type: Item
-    sprite: Objects/Fun/cluwnehorn.rsi
+    sprite: _Erida/Objects/Fun/cluwnehorn.rsi
     size: Tiny
   - type: Clothing
-    sprite: Objects/Fun/cluwnehorn.rsi
+    sprite: _Erida/Objects/Fun/cluwnehorn.rsi
     slots: [Belt]
     quickEquip: false
   - type: Tag
@@ -98,13 +98,13 @@
   categories: [ DoNotMap ]
   components:
   - type: Sprite
-    sprite: Objects/Fun/goldbikehorn.rsi
+    sprite: _Erida/Objects/Fun/goldbikehorn.rsi
     state: icon
   - type: Item
-    sprite: Objects/Fun/goldbikehorn.rsi
+    sprite: _Erida/Objects/Fun/goldbikehorn.rsi
     size: Tiny
   - type: Clothing
-    sprite: Objects/Fun/goldbikehorn.rsi
+    sprite: _Erida/Objects/Fun/goldbikehorn.rsi
     slots: [Belt]
   - type: Prayable
   - type: StaticPrice
@@ -122,13 +122,13 @@
   description: An air horn made from bananium.
   components:
   - type: Sprite
-    sprite: Objects/Fun/bananiumhorn.rsi
+    sprite: _Erida/Objects/Fun/bananiumhorn.rsi
     state: icon
   - type: Item
-    sprite: Objects/Fun/bananiumhorn.rsi
+    sprite: _Erida/Objects/Fun/bananiumhorn.rsi
     size: Small
   - type: Clothing
-    sprite: Objects/Fun/bananiumhorn.rsi
+    sprite: _Erida/Objects/Fun/bananiumhorn.rsi
     slots: [Belt]
     quickEquip: false
   - type: UseDelay
@@ -166,13 +166,13 @@
   description: This powerful bikehorn is sure to blast frowns away.
   components:
   - type: Sprite
-    sprite: Objects/Fun/push_horn.rsi
+    sprite: _Erida/Objects/Fun/push_horn.rsi
     state: icon
   - type: Item
-    sprite: Objects/Fun/push_horn.rsi
+    sprite: _Erida/Objects/Fun/push_horn.rsi
     size: Tiny
   - type: Clothing
-    sprite: Objects/Fun/push_horn.rsi
+    sprite: _Erida/Objects/Fun/push_horn.rsi
     slots: [Belt]
     quickEquip: false
   - type: EmitSoundOnUse
@@ -203,12 +203,12 @@
   description: Someone forgot to turn off a kettle?
   components:
   - type: Item
-    sprite: Objects/Fun/whistles.rsi
+    sprite: _Erida/Objects/Fun/whistles.rsi
     size: Tiny
   - type: Sprite
-    sprite: Objects/Fun/whistles.rsi
+    sprite: _Erida/Objects/Fun/whistles.rsi
   - type: Clothing
-    sprite: Objects/Fun/whistles.rsi
+    sprite: _Erida/Objects/Fun/whistles.rsi
     quickEquip: false
     slots: neck
   - type: UseDelay
@@ -287,11 +287,11 @@
   description: Not carried here by ocean currents.
   components:
   - type: Sprite
-    sprite: Objects/Fun/ducky.rsi
+    sprite: _Erida/Objects/Fun/ducky.rsi
     state: icon
   - type: Clothing
     quickEquip: false
-    sprite: Objects/Fun/ducky.rsi
+    sprite: _Erida/Objects/Fun/ducky.rsi
     slots:
     - HEAD
   - type: Item
@@ -320,7 +320,7 @@
   description: A stress inducing parody of nature's most delectable avian.
   components:
   - type: Sprite
-    sprite: Objects/Fun/rubber_chicken.rsi
+    sprite: _Erida/Objects/Fun/rubber_chicken.rsi
     state: icon
   - type: EmitSoundOnUse
     sound: &SoundRubberChicken
@@ -346,10 +346,10 @@
   description: A device bored paper pushers use to remind themselves that time did not stop yet. Contains gravity.
   components:
   - type: Sprite
-    sprite: Objects/Fun/newton_cradle.rsi
+    sprite: _Erida/Objects/Fun/newton_cradle.rsi
     state: icon-off
   - type: Item
-    sprite: Objects/Fun/newton_cradle.rsi
+    sprite: _Erida/Objects/Fun/newton_cradle.rsi
     storedRotation: -90
   - type: Appearance
   - type: GenericVisualizer
@@ -375,7 +375,7 @@
   description: When you just can't get those laughs coming the natural way!
   components:
   - type: Sprite
-    sprite: Objects/Fun/clownrecorder.rsi
+    sprite: _Erida/Objects/Fun/clownrecorder.rsi
     state: icon
   - type: EmitSoundOnUse
     sound: &SoundClownRecorder
@@ -402,7 +402,7 @@
   description: A practical joke device involving flatulence humour.
   components:
   - type: Sprite
-    sprite: Objects/Fun/whoopie.rsi
+    sprite: _Erida/Objects/Fun/whoopie.rsi
     state: icon
   - type: Tag
     tags:
@@ -465,13 +465,13 @@
   description: Skub is the fifth Chaos God.
   components:
   - type: Sprite
-    sprite: Objects/Misc/skub.rsi
+    sprite: _Erida/Objects/Misc/skub.rsi
     state: icon
   - type: Tag
     tags:
     - Payload
   - type: Item
-    sprite: Objects/Misc/skub.rsi
+    sprite: _Erida/Objects/Misc/skub.rsi
   - type: EmitSoundOnUse
     sound: &SoundSkub
       collection: Skub

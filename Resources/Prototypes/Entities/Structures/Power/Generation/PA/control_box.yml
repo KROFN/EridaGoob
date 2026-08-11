@@ -7,7 +7,7 @@
   description: This controls the density of the particles.
   components:
   - type: Sprite
-    sprite: Structures/Power/Generation/PA/control_box.rsi
+    sprite: _Erida/Structures/Power/Generation/PA/control_box.rsi
   - type: ParticleAcceleratorControlBox
   - type: ApcPowerReceiver
     powerLoad: 250
@@ -84,6 +84,6 @@
   description: This controls the density of the particles. It looks unfinished.
   components:
     - type: Sprite
-      sprite: Structures/Power/Generation/PA/control_box.rsi
+      sprite: _Erida/Structures/Power/Generation/PA/control_box.rsi
     - type: Construction
       graph: ParticleAcceleratorControlBox

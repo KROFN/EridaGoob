@@ -11,13 +11,13 @@
       - tag: GlassShard
         name: construction-graph-tag-glass-shard
         icon:
-          sprite: Objects/Materials/Shards/shard.rsi
+          sprite: _Erida/Objects/Materials/Shards/shard.rsi
           state: shard1
         doAfter: 1
       - tag: BrimFlatcapGrey
         name: construction-graph-tag-grey-flatcap
         icon:
-          sprite: Clothing/Head/Hats/greyflatcap.rsi
+          sprite: _Erida/Clothing/Head/Hats/greyflatcap.rsi
           state: icon
   - node: icon
     entity: BladedFlatcapGrey
@@ -33,13 +33,13 @@
       - tag: GlassShard
         name: construction-graph-tag-glass-shard
         icon:
-          sprite: Objects/Materials/Shards/shard.rsi
+          sprite: _Erida/Objects/Materials/Shards/shard.rsi
           state: shard1
         doAfter: 1
       - tag: BrimFlatcapBrown
         name: construction-graph-tag-brown-flatcap
         icon:
-          sprite: Clothing/Head/Hats/brownflatcap.rsi
+          sprite: _Erida/Clothing/Head/Hats/brownflatcap.rsi
           state: icon
   - node: icon
     entity: BladedFlatcapBrown

@@ -10,19 +10,19 @@
       steps:
       - tag: ProximitySensor
         icon:
-          sprite: Objects/Misc/proximity_sensor.rsi
+          sprite: _Erida/Objects/Misc/proximity_sensor.rsi
           state: icon
         name: construction-graph-tag-proximity-sensor
         doAfter: 2
       - tag: WeldingMask
         icon:
-          sprite: Clothing/Head/Welding/welding.rsi
+          sprite: _Erida/Clothing/Head/Welding/welding.rsi
           state: icon
         name: construction-graph-tag-welding-mask
         doAfter: 2
       - tag: WeldingTool
         icon:
-          sprite: Objects/Tools/welder.rsi
+          sprite: _Erida/Objects/Tools/welder.rsi
           state: icon
         name: construction-graph-tag-welding-tool
         doAfter: 2

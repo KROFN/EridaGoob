@@ -102,7 +102,7 @@
     onlyReclaimDrainable: false
     solutionContainerId: output
   - type: Sprite
-    sprite: Structures/Machines/recycling.rsi
+    sprite: _Erida/Structures/Machines/recycling.rsi
     layers:
       - state: grinder-b0
   - type: AutomationSlots # Goobstation

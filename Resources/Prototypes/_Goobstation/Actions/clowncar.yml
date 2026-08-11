@@ -39,7 +39,7 @@
   - type: Action
     itemIconStyle: NoItem
     icon:
-      sprite: Structures/Machines/jukebox.rsi
+      sprite: _Erida/Structures/Machines/jukebox.rsi
       state: "on"
     useDelay: 1
   - type: InstantAction

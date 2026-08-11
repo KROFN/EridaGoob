@@ -5,7 +5,7 @@
   description: Stores the data of scanned diseases.
   components:
     - type: Sprite
-      sprite: Structures/Machines/server.rsi
+      sprite: _Erida/Structures/Machines/server.rsi
       layers:
         - state: server
         - state: variant-biohazard

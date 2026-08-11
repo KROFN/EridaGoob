@@ -20,7 +20,7 @@
   description: Access the tools implanted within you
   components:
   - type: Action
-    icon: { sprite: Clothing/Belt/utility.rsi, state: icon }
+    icon: { sprite: _Erida/Clothing/Belt/utility.rsi, state: icon }
     iconOn: Interface/Default/blocked.png
 
 - type: entity
@@ -298,7 +298,7 @@
   components:
   - type: Action
     icon: Interface/Default/blocked.png
-    iconOn: { sprite: Objects/Tools/Toolboxes/toolbox_blue.rsi, state: icon }
+    iconOn: { sprite: _Erida/Objects/Tools/Toolboxes/toolbox_blue.rsi, state: icon }
   - type: InstantAction
     event: !type:ToggleActionEvent
 

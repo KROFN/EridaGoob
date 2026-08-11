@@ -11,7 +11,7 @@
             - tag: Sunglasses
               name: construction-graph-tag-sun-glasses
               icon:
-                sprite: Clothing/Eyes/Glasses/sunglasses.rsi
+                sprite: _Erida/Clothing/Eyes/Glasses/sunglasses.rsi
                 state: icon
               doAfter: 5
             - tag: HudMedichem

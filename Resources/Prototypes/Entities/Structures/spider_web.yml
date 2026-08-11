@@ -14,7 +14,7 @@
         path:
           "/Audio/Weapons/slash.ogg"
   - type: Sprite
-    sprite: Structures/floor_web.rsi
+    sprite: _Erida/Structures/floor_web.rsi
     drawdepth: WallMountedItems
   - type: Appearance
   - type: Clickable

@@ -256,7 +256,7 @@
 #   id: UplinkEswordDouble
 #   name: uplink-esword-double-name
 #   description: uplink-esword-double-desc
-#   icon: { sprite: /Textures/Objects/Weapons/Melee/e_sword_double.rsi, state: icon }
+#   icon: { sprite: /Textures/_Erida/Objects/Weapons/Melee/e_sword_double.rsi, state: icon }
 #   productEntity: EnergySwordDouble
 #   cost:
 #     Telecrystal: 80
@@ -539,7 +539,7 @@
   id: UplinkClothingHeadHelmetSwatSyndicate
   name: uplink-helmet-swat-name
   description: uplink-helmet-swat-desc
-  icon: { sprite: /Textures/Clothing/Head/Helmets/swat_syndicate.rsi, state: icon }
+  icon: { sprite: /Textures/_Erida/Clothing/Head/Helmets/swat_syndicate.rsi, state: icon }
   productEntity: ClothingHeadHelmetSwatSyndicate
   cost:
     Telecrystal: 10
@@ -550,7 +550,7 @@
   id: UplinkHardsuitSyndieMedic
   name: uplink-hardsuit-syndiemedic-name
   description: uplink-hardsuit-syndiemedic-desc
-  icon: { sprite: /Textures/Clothing/OuterClothing/Hardsuits/syndiemedic.rsi, state: icon }
+  icon: { sprite: /Textures/_Erida/Clothing/OuterClothing/Hardsuits/syndiemedic.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateMedicHardsuitBundle
   cost:
     Telecrystal: 50 # novelty item for the larp
@@ -569,7 +569,7 @@
   id: UplinkHardsuitSyndieCommander
   name: uplink-hardsuit-syndiecommander-name
   description: uplink-hardsuit-syndiecommander-desc
-  icon: { sprite: /Textures/Clothing/OuterClothing/Hardsuits/syndiecommander.rsi, state: icon }
+  icon: { sprite: /Textures/_Erida/Clothing/OuterClothing/Hardsuits/syndiecommander.rsi, state: icon }
   productEntity: ClothingOuterHardsuitSyndieCommander
   cost:
     Telecrystal: 100 # novelty item for the larp, doesnt come with bundle though because bulky fuck
@@ -633,7 +633,7 @@
   id: UplinkPieCannon
   name: uplink-pie-cannon-name
   description: uplink-pie-cannon-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Cannons/pie_cannon.rsi, state: piecannon }
+  icon: { sprite: /Textures/_Erida/Objects/Weapons/Guns/Cannons/pie_cannon.rsi, state: piecannon }
   productEntity: LauncherCreamPieRegenerating
   cost:
     Telecrystal: 40
@@ -814,7 +814,7 @@
   id: UplinkGreyTide
   name: uplink-grey-tide-name
   description: uplink-grey-tide-desc
-  icon: { sprite: Objects/Weapons/Melee/plasma_spear.rsi, state: spear }
+  icon: { sprite: _Erida/Objects/Weapons/Melee/plasma_spear.rsi, state: spear }
   productEntity: SpearGreyTide
   cost:
     Telecrystal: 50
@@ -929,7 +929,7 @@
   id: UplinkMindcontrolImplanter
   name: uplink-mindcontrol-implant-name
   description: uplink-mindcontrol-implant-desc
-  icon: { sprite: /Textures/Objects/Specific/Medical/syndi_implanter.rsi, state: implanter0 }
+  icon: { sprite: /Textures/_Erida/Objects/Specific/Medical/syndi_implanter.rsi, state: implanter0 }
   productEntity: MindcontrolImplanter
   cost:
     Telecrystal: 25 # Half the budget #bounty someone want it cheaper.
@@ -947,7 +947,7 @@
   id: UplinkSmokeImplanter
   name: uplink-smoke-implant-name
   description: uplink-smoke-implant-desc
-  icon: { sprite: /Textures/Objects/Weapons/Grenades/smoke.rsi, state: icon }
+  icon: { sprite: /Textures/_Erida/Objects/Weapons/Grenades/smoke.rsi, state: icon }
   productEntity: SmokeImplanter
   cost:
     Telecrystal: 10
@@ -958,7 +958,7 @@
   id: UplinkNutrimentImplanter
   name: uplink-nutriment-implant-name
   description: uplink-nutriment-implant-desc
-  icon: { sprite: Objects/Consumable/Food/burger.rsi, state: bacon }
+  icon: { sprite: _Erida/Objects/Consumable/Food/burger.rsi, state: bacon }
   productEntity: NutrimentImplanter
   cost:
     Telecrystal: 5
@@ -971,7 +971,7 @@
 #  id: UplinkStypticStimulatorImplanter
 #  name: uplink-styptic-stimulator-implant-name
 #  description: uplink-styptic-stimulator-implant-desc
-#  icon: { sprite: Objects/Specific/Medical/medical.rsi, state: brutepack }
+#  icon: { sprite: _Erida/Objects/Specific/Medical/medical.rsi, state: brutepack }
 #  productEntity: StypticStimulatorImplanter
 #  cost:
 #    Telecrystal: 40
@@ -993,7 +993,7 @@
   id: UplinkBinaryImplant
   name: uplink-binary-implant-name
   description: uplink-binary-implant-desc
-  icon: { sprite: /Textures/Objects/Devices/encryption_keys.rsi, state: ai_label }
+  icon: { sprite: /Textures/_Erida/Objects/Devices/encryption_keys.rsi, state: ai_label }
   productEntity: BinaryImplanter
   cost:
     Telecrystal: 5 # goob
@@ -1134,7 +1134,7 @@
   id: UplinkAutosurgeonRecoilAbsorber
   name: uplink-autosurgeon-recoil-absorbing-name
   description: uplink-autosurgeon-recoil-absorbing-desc
-  icon: { sprite: Objects/Weapons/Guns/LMGs/l6.rsi, state: icon }
+  icon: { sprite: _Erida/Objects/Weapons/Guns/LMGs/l6.rsi, state: icon }
   productEntity: AutosurgeonRecoilAbsorber
   cost:
     Telecrystal: 40
@@ -1201,7 +1201,7 @@
   id: UplinkGrenadeBlast
   name: uplink-blast-grenade-name
   description: uplink-blast-grenade-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi, state: blast }
+  icon: { sprite: /Textures/_Erida/Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi, state: blast }
   productEntity: GrenadeBlast
   cost:
     Telecrystal: 12 # Buying granades this way is ~14% cheaper than getting them from china-lake bundles
@@ -1217,7 +1217,7 @@
   id: UplinkGrenadeFrag
   name: uplink-frag-grenade-name
   description: uplink-frag-grenade-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi, state: frag }
+  icon: { sprite: /Textures/_Erida/Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi, state: frag }
   productEntity: GrenadeFrag
   cost:
     Telecrystal: 12 # Buying granades this way is ~14% cheaper than getting them from china-lake bundles
@@ -1249,7 +1249,7 @@
   id: UplinkMagazineShotgun
   name: uplink-shotgun-magazine-name
   description: uplink-shotgun-magazine-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Shotgun/m12.rsi, state: pellets }
+  icon: { sprite: /Textures/_Erida/Objects/Weapons/Guns/Ammunition/Magazine/Shotgun/m12.rsi, state: pellets }
   productEntity: MagazineShotgun
   cost:
     Telecrystal: 5
@@ -1260,7 +1260,7 @@
   id: UplinkMagazineShotgunSlug
   name: uplink-shotgun-magazine-slug-name
   description: uplink-shotgun-magazine-slug-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Shotgun/m12.rsi, state: slug }
+  icon: { sprite: /Textures/_Erida/Objects/Weapons/Guns/Ammunition/Magazine/Shotgun/m12.rsi, state: slug }
   productEntity: MagazineShotgunSlug
   cost:
     Telecrystal: 4 # So little total damage
@@ -1271,7 +1271,7 @@
   id: UplinkMagazineLightRifleBox
   name: uplink-l6-box-name
   description: uplink-l6-box-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_box.rsi, state: base }
+  icon: { sprite: /Textures/_Erida/Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_box.rsi, state: base }
   productEntity: MagazineLightRifleBox
   cost:
     Telecrystal: 20
@@ -1319,7 +1319,7 @@
 #  id: UplinkHighCaliberBox
 #  name: uplink-high-caliber-box-name
 #  description: uplink-high-caliber-box-desc
-#  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Boxes/anti_materiel.rsi, state: base-b }
+#  icon: { sprite: /Textures/_Erida/Objects/Weapons/Guns/Ammunition/Boxes/anti_materiel.rsi, state: base-b }
 #  productEntity: MagazineBoxHighCaliber
 #  cost:
 #    Telecrystal: 40 # ammo should be a big cost for this
@@ -1389,7 +1389,7 @@
   id: UplinkHighCapacityMagazinePistol
   name: uplink-highcap-pistol-mag-name
   description: uplink-highcap-pistol-mag-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_high_capacity_mag.rsi, state: base }
+  icon: { sprite: /Textures/_Erida/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_high_capacity_mag.rsi, state: base }
   productEntity: MagazinePistolHighCapacity
   cost:
     Telecrystal: 3
@@ -1405,7 +1405,7 @@
   id: UplinkSyndicateSegwayCrate
   name: uplink-syndicate-segway-crate-name # Funnily enough these localizations weren't removed when wiz removed vehicles
   description: uplink-syndicate-segway-crate-desc
-  icon: { sprite: /Textures/Objects/Vehicles/syndicatesegway.rsi, state: icon }
+  icon: { sprite: /Textures/_Erida/Objects/Vehicles/syndicatesegway.rsi, state: icon }
   productEntity: CrateFunSyndicateSegway
   cost:
     Telecrystal: 25 # Same as what it was before being removed
@@ -1436,7 +1436,7 @@
   id: UplinkMagazinePistolCaselessRifleSAPHE
   name: uplink-pistol-magazine-caseless-saphe-name
   description: uplink-pistol-magazine-caseless-saphe-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_pistol_mag.rsi, state: base }
+  icon: { sprite: /Textures/_Erida/Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_pistol_mag.rsi, state: base }
   productEntity: MagazinePistolCaselessRifleSAPHE
   cost:
     Telecrystal: 5 # 23 damage but ~1/3 of a rifle magazine and semi armor piercing, remember the damage is 13 pierce 10.5 explosive
@@ -1564,7 +1564,7 @@
   id: UplinkDarkGygax
   name: uplink-mech-teleporter-assault-name
   description: uplink-mech-teleporter-assault-desc
-  icon: { sprite: /Textures/Objects/Specific/Mech/mecha.rsi, state: darkgygax }
+  icon: { sprite: /Textures/_Erida/Objects/Specific/Mech/mecha.rsi, state: darkgygax }
   productEntity: CrateCybersunDarkGygaxBundle
   cost:
     Telecrystal: 400
@@ -1580,7 +1580,7 @@
   id: UplinkMauler
   name: uplink-mech-teleporter-heavy-name
   description: uplink-mech-teleporter-heavy-desc
-  icon: { sprite: /Textures/Objects/Specific/Mech/mecha.rsi, state: mauler }
+  icon: { sprite: /Textures/_Erida/Objects/Specific/Mech/mecha.rsi, state: mauler }
   productEntity: CrateCybersunMaulerBundle
   cost:
     Telecrystal: 650
@@ -1957,7 +1957,7 @@
   id: UplinkContractorChestRig
   name: uplink-webbing-contractor-name
   description: uplink-webbing-contractor-desc
-  icon: { sprite: /Textures/Clothing/Belt/securitywebbing.rsi, state: icon }
+  icon: { sprite: /Textures/_Erida/Clothing/Belt/securitywebbing.rsi, state: icon }
   productEntity: ClothingBeltSecurityWebbingContractor
   cost:
     Telecrystal: 5
@@ -1991,7 +1991,7 @@
   id: UplinkContractorCuffs
   name: uplink-cuffs-contractor-name
   description: uplink-cuffs-contractor-desc
-  icon: { sprite: /Textures/Objects/Misc/handcuffs.rsi, state: handcuff }
+  icon: { sprite: /Textures/_Erida/Objects/Misc/handcuffs.rsi, state: handcuff }
   productEntity: Handcuffs
   cost:
     Telecrystal: 2

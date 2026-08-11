@@ -9,7 +9,7 @@
   components:
     - type: StationMap
     - type: Sprite
-      sprite: Objects/Devices/tablets.rsi
+      sprite: _Erida/Objects/Devices/tablets.rsi
       layers:
         - state: tablet
         - state: generic
@@ -75,13 +75,13 @@
   description: Displays a readout of the target station.
   components:
   - type: Sprite
-    sprite: Objects/Devices/tablets.rsi
+    sprite: _Erida/Objects/Devices/tablets.rsi
     layers:
     - state: tablet
     - state: syndie
       shader: unshaded
   - type: Item
-    sprite: Objects/Devices/tablets.rsi
+    sprite: _Erida/Objects/Devices/tablets.rsi
     inhandVisuals:
       left:
       - state: inhand-left-syndie

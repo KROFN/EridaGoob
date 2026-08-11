@@ -14,7 +14,7 @@
         Poison: -0.001
         Blunt: -0.001
   - type: Sprite
-    sprite: Structures/Machines/stasis_bed.rsi
+    sprite: _Erida/Structures/Machines/stasis_bed.rsi
     noRot: true
     layers:
     - state: icon

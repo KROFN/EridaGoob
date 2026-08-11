@@ -10,7 +10,7 @@
       drink:
         maxVol: 30
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/flask.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/flask.rsi
   - type: FitsInDispenser
     solution: drink
   - type: Openable
@@ -33,7 +33,7 @@
       drink:
         maxVol: 30
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/flask_old.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/flask_old.rsi
   - type: FitsInDispenser
     solution: drink
 
@@ -44,7 +44,7 @@
   description: A shiny metal flask. It appears to have a Greek symbol inscribed on it.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/shinyflask.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/shinyflask.rsi
 
 - type: entity
   parent: FlaskBase
@@ -54,7 +54,7 @@
   description: An old military flask, filled with the finest contents for soldiers.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/mreflask.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/mreflask.rsi
   - type: SolutionContainerManager
     solutions:
       drink:
@@ -71,7 +71,7 @@
   description: A metal flask with a leather band and golden badge belonging to the inspector.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/detflask.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/detflask.rsi
 
 - type: entity
   parent: FlaskBase
@@ -80,7 +80,7 @@
   description: A metal flask, fit for a hard working HoS.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/hosflask.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/hosflask.rsi
 
 - type: entity
   parent: FlaskBase
@@ -89,7 +89,7 @@
   description: A metal flask belonging to the captain.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/flask.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/flask.rsi
 
 - type: entity
   parent: FlaskBase
@@ -98,7 +98,7 @@
   description: A reusable metal flask. Classier than drinking straight from a bottle.
   components:
     - type: Sprite
-      sprite: Objects/Consumable/Drinks/barflask.rsi
+      sprite: _Erida/Objects/Consumable/Drinks/barflask.rsi
 
 - type: entity
   parent: FlaskBase
@@ -107,7 +107,7 @@
   description: A flask with a Lithium Atom symbol on it.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/lithiumflask.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/lithiumflask.rsi
 
 - type: entity
   parent: FlaskBase
@@ -116,7 +116,7 @@
   description: Keeping your drinks at the perfect temperature since 1892.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/vacuumflask.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/vacuumflask.rsi
   - type: Tool
     qualities:
     - Rolling # Perfectly cylindrical flask

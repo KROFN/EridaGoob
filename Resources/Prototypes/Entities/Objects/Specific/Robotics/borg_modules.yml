@@ -27,7 +27,7 @@
       - state: base-stripes-inhand-right
         color: "#7D7D7D"
   - type: Sprite
-    sprite: Objects/Specific/Robotics/borgmodule.rsi
+    sprite: _Erida/Objects/Specific/Robotics/borgmodule.rsi
   - type: BorgModule
     borgFitTypes:
     - borg-type-all
@@ -692,7 +692,7 @@
   parent: BaseItem
   components:
   - type: Sprite
-    sprite: Objects/Materials/Sheets/other.rsi
+    sprite: _Erida/Objects/Materials/Sheets/other.rsi
     state: generic_materials
 
 - type: entity

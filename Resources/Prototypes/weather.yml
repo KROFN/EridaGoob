@@ -3,7 +3,7 @@
 - type: weather
   id: Ashfall
   sprite:
-    sprite: /Textures/Effects/weather.rsi
+    sprite: /Textures/_Erida/Effects/weather.rsi
     state: ashfall
   sound:
     path: /Audio/Effects/Weather/snowstorm_weak.ogg
@@ -20,7 +20,7 @@
 - type: weather
   id: AshfallLight
   sprite:
-    sprite: /Textures/Effects/weather.rsi
+    sprite: /Textures/_Erida/Effects/weather.rsi
     state: ashfall_light
   sound:
     path: /Audio/Effects/Weather/snowstorm_weak.ogg
@@ -31,7 +31,7 @@
 - type: weather
   id: AshfallHeavy
   sprite:
-    sprite: /Textures/Effects/weather.rsi
+    sprite: /Textures/_Erida/Effects/weather.rsi
     state: ashfall_heavy
   sound:
     path: /Audio/Effects/Weather/snowstorm.ogg
@@ -42,7 +42,7 @@
 - type: weather
   id: Fallout
   sprite:
-    sprite: /Textures/Effects/weather.rsi
+    sprite: /Textures/_Erida/Effects/weather.rsi
     state: fallout
   sound:
     path: /Audio/Effects/Weather/snowstorm_weak.ogg
@@ -53,7 +53,7 @@
 - type: weather
   id: Hail
   sprite:
-    sprite: /Textures/Effects/weather.rsi
+    sprite: /Textures/_Erida/Effects/weather.rsi
     state: hail
   sound:
     path:
@@ -65,7 +65,7 @@
 - type: weather
   id: Rain
   sprite:
-    sprite: /Textures/Effects/weather.rsi
+    sprite: /Textures/_Erida/Effects/weather.rsi
     state: rain
   sound:
     collection: Rain
@@ -82,7 +82,7 @@
 - type: weather
   id: Sandstorm
   sprite:
-    sprite: /Textures/Effects/weather.rsi
+    sprite: /Textures/_Erida/Effects/weather.rsi
     state: sandstorm
   sound:
     path: /Audio/Effects/Weather/snowstorm_weak.ogg
@@ -93,7 +93,7 @@
 - type: weather
   id: SandstormHeavy
   sprite:
-    sprite: /Textures/Effects/weather.rsi
+    sprite: /Textures/_Erida/Effects/weather.rsi
     state: sandstorm_heavy
   sound:
     path: /Audio/Effects/Weather/snowstorm.ogg
@@ -104,7 +104,7 @@
 - type: weather
   id: SnowfallLight
   sprite:
-    sprite: /Textures/Effects/weather.rsi
+    sprite: /Textures/_Erida/Effects/weather.rsi
     state: snowfall_light
   sound:
     path: /Audio/Effects/Weather/snowstorm_weak.ogg
@@ -115,7 +115,7 @@
 - type: weather
   id: SnowfallMedium
   sprite:
-    sprite: /Textures/Effects/weather.rsi
+    sprite: /Textures/_Erida/Effects/weather.rsi
     state: snowfall_med
   sound:
     path: /Audio/Effects/Weather/snowstorm_weak.ogg
@@ -126,7 +126,7 @@
 - type: weather
   id: SnowfallHeavy
   sprite:
-    sprite: /Textures/Effects/weather.rsi
+    sprite: /Textures/_Erida/Effects/weather.rsi
     state: snowfall_heavy
   sound:
     path: /Audio/Effects/Weather/snowstorm.ogg
@@ -138,7 +138,7 @@
 - type: weather
   id: SnowfallMagic
   sprite:
-    sprite: /Textures/Effects/weather.rsi
+    sprite: /Textures/_Erida/Effects/weather.rsi
     state: snowfall_magic
   sound:
     path: /Audio/Effects/Weather/snowstorm.ogg
@@ -150,7 +150,7 @@
 - type: weather
   id: Storm
   sprite:
-    sprite: /Textures/Effects/weather.rsi
+    sprite: /Textures/_Erida/Effects/weather.rsi
     state: storm
   sound:
     path: /Audio/Effects/Weather/rain_heavy.ogg

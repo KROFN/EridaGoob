@@ -5,13 +5,13 @@
   description: Quality headphones from Drunk Masters, with good sound insulation.
   components:
   - type: Sprite
-    sprite: Clothing/Multiple/headphones.rsi
+    sprite: _Erida/Clothing/Multiple/headphones.rsi
     layers:
     - state: icon
       map: [ "enum.ToggleableVisuals.Layer" ]
   - type: Clothing
     equippedPrefix: off
-    sprite: Clothing/Multiple/headphones.rsi
+    sprite: _Erida/Clothing/Multiple/headphones.rsi
     slots:
     - HEAD
     - EARS

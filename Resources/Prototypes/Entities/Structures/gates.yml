@@ -8,7 +8,7 @@
   components:
   - type: Sprite
     drawdepth: ThinPipe
-    sprite: Objects/Devices/gates.rsi
+    sprite: _Erida/Objects/Devices/gates.rsi
     layers:
     - state: base
   - type: Anchorable

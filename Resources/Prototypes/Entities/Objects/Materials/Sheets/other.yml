@@ -7,9 +7,9 @@
   description: A sheet of material, used often on the station in various applications.
   components:
   - type: Sprite
-    sprite: Objects/Materials/Sheets/other.rsi
+    sprite: _Erida/Objects/Materials/Sheets/other.rsi
   - type: Item
-    sprite: Objects/Materials/Sheets/other.rsi
+    sprite: _Erida/Objects/Materials/Sheets/other.rsi
     size: Normal
   - type: Tag
     tags:
@@ -259,7 +259,7 @@
   suffix: Full
   components:
     - type: Sprite
-      sprite: Objects/Materials/Sheets/meaterial.rsi
+      sprite: _Erida/Objects/Materials/Sheets/meaterial.rsi
       layers:
       - state: meat_3
         map: [ "base" ]
@@ -279,7 +279,7 @@
         - meat_2
         - meat_3
     - type: Item
-      sprite: Objects/Materials/Sheets/meaterial.rsi
+      sprite: _Erida/Objects/Materials/Sheets/meaterial.rsi
       heldPrefix: meat
     - type: Extractable
       grindableSolutionName: meatsheet

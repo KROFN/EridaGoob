@@ -6,7 +6,7 @@
   parent: BaseCartridge
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Ammunition/Casings/ammo_casing.rsi
     layers:
     - state: base
       map: [ "enum.AmmoVisualLayers.Base" ]

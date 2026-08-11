@@ -7,7 +7,7 @@
   description: Improvised using nothing but a pipe, some zipties, and a pneumatic cannon. Doesn't accept tanks without enough gas.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Cannons/pneumatic_cannon.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Cannons/pneumatic_cannon.rsi
     layers:
     - state: icon
     - state: tank
@@ -74,7 +74,7 @@
   description: Load cream pie for optimal results.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Cannons/pie_cannon.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Cannons/pie_cannon.rsi
     layers:
     - state: piecannon
   - type: Storage
@@ -100,7 +100,7 @@
   - type: Item
     size: Large
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Cannons/pie_cannon.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Cannons/pie_cannon.rsi
     quickEquip: false
     slots:
     - Back
@@ -116,7 +116,7 @@
   description: Deliver a generous portion of cream directly to the crew! Automatically bakes pies over time.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Cannons/pie_cannon.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Cannons/pie_cannon.rsi
     layers:
     - state: piecannon
   - type: Gun
@@ -150,7 +150,7 @@
 #  description: Load full of poisoned syringes for optimal fun.
 #  components:
 #  - type: Sprite
-#    sprite: Objects/Weapons/Guns/Cannons/syringe_gun.rsi
+#    sprite: _Erida/Objects/Weapons/Guns/Cannons/syringe_gun.rsi
 #    layers:
 #    - state: syringe_gun
 #  - type: Storage

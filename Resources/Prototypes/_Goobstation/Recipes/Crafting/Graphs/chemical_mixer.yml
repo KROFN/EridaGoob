@@ -10,17 +10,17 @@
       steps:
       - tag: Bucket # general mixing and container
         icon:
-          sprite: Objects/Tools/bucket.rsi
+          sprite: _Erida/Objects/Tools/bucket.rsi
           state: icon
         name: construction-graph-tag-bucket
       - tag: Multitool  # for the screen
         icon:
-          sprite: Objects/Tools/multitool.rsi
+          sprite: _Erida/Objects/Tools/multitool.rsi
           state: icon
         name: construction-graph-tag-multitool
       - tag: GlassBeaker
         icon:
-          sprite: Objects/Specific/Chemistry/beaker.rsi
+          sprite: _Erida/Objects/Specific/Chemistry/beaker.rsi
           state: beaker
         name: construction-graph-tag-beaker
       - material: Cable
@@ -30,7 +30,7 @@
         - PowerCellSmall
         name: construction-graph-tag-power-cell
         icon:
-          sprite: "Objects/Power/power_cells.rsi"
+          sprite: "_Erida/Objects/Power/power_cells.rsi"
           state: "medium"
         doAfter: 5
 

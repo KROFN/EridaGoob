@@ -9,10 +9,10 @@
     mode: AlignAtmosPipeLayers
   components:
   - type: Sprite
-    sprite: Structures/Piping/Atmospherics/gas_pipe_sensor.rsi
+    sprite: _Erida/Structures/Piping/Atmospherics/gas_pipe_sensor.rsi
     drawdepth: BelowFloor
     layers:
-    - sprite: Structures/Piping/Atmospherics/pipe.rsi
+    - sprite: _Erida/Structures/Piping/Atmospherics/pipe.rsi
       map: [ "enum.PipeVisualLayers.Pipe" ]
       state: pipeStraight
     - map: ["base"]
@@ -22,9 +22,9 @@
       shader: unshaded
   - type: AtmosPipeLayers
     spriteRsiPaths:
-      Primary: Structures/Piping/Atmospherics/gas_pipe_sensor.rsi
-      Secondary: Structures/Piping/Atmospherics/gas_pipe_sensor_alt1.rsi
-      Tertiary: Structures/Piping/Atmospherics/gas_pipe_sensor_alt2.rsi
+      Primary: _Erida/Structures/Piping/Atmospherics/gas_pipe_sensor.rsi
+      Secondary: _Erida/Structures/Piping/Atmospherics/gas_pipe_sensor_alt1.rsi
+      Tertiary: _Erida/Structures/Piping/Atmospherics/gas_pipe_sensor_alt2.rsi
     alternativePrototypes:
       Primary: GasPipeSensor
       Secondary: GasPipeSensorAlt1

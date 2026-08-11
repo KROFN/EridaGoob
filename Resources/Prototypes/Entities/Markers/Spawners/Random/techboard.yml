@@ -8,7 +8,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: Objects/Misc/module.rsi
+    - sprite: _Erida/Objects/Misc/module.rsi
       state: boris
   - type: RandomSpawner
     prototypes:

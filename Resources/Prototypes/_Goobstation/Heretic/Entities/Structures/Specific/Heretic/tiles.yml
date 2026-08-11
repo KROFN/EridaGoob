@@ -18,7 +18,7 @@
       types:
         - Lava
   - type: Sprite
-    sprite: Effects/fire.rsi
+    sprite: _Erida/Effects/fire.rsi
     drawdepth: FloorEffects
     layers:
       - state: 1

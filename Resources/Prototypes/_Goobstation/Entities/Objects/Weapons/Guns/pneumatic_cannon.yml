@@ -9,7 +9,7 @@
   components:
   - type: PacifismAllowedGun
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Cannons/pie_cannon.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Cannons/pie_cannon.rsi
     layers:
     - state: piecannon
   - type: Gun

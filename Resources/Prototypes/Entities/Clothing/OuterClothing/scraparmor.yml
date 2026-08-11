@@ -8,11 +8,11 @@
   description: An apron threaded with cabling. It looks incomplete.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/scrap_armor.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/scrap_armor.rsi
     state: construction-1
   - type: Item
     size: Ginormous
-    sprite: Clothing/OuterClothing/Armor/scrap_armor.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/scrap_armor.rsi
   - type: Construction
     graph: scraparmor
     node: wiredapron
@@ -24,11 +24,11 @@
   description: An apron with steel plating haphazardly affixed by spare cabling. In it's current state, it would fall apart immediately if worn.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/scrap_armor.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/scrap_armor.rsi
     state: construction-2
   - type: Item
     size: Ginormous
-    sprite: Clothing/OuterClothing/Armor/scrap_armor.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/scrap_armor.rsi
   - type: Construction
     graph: scraparmor
     node: steelapron
@@ -40,11 +40,11 @@
   description: An apron affixed with welded steel plating attached to spare cabling. The armor is no longer in danger of falling apart, but requires additional work to be worn securely.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/scrap_armor.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/scrap_armor.rsi
     state: construction-3
   - type: Item
     size: Ginormous
-    sprite: Clothing/OuterClothing/Armor/scrap_armor.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/scrap_armor.rsi
   - type: Construction
     graph: scraparmor
     node: weldedsteelapron
@@ -57,11 +57,11 @@
   description: A tider's gleaming plate mail. Bail up, or you're a dead man.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/scrap_armor.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/scrap_armor.rsi
   - type: Item
     size: Ginormous
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/scrap_armor.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/scrap_armor.rsi
     equipSound: /Audio/Effects/metal_scrape2.ogg
     unequipSound: /Audio/Effects/metal_scrape1.ogg
     equipDelay: 5

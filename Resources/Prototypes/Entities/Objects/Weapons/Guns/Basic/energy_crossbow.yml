@@ -4,9 +4,9 @@
   id: WeaponEnergyCrossbowBase
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Basic/energy_crossbow.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Basic/energy_crossbow.rsi
   - type: Item
-    sprite: Objects/Weapons/Guns/Basic/energy_crossbow.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Basic/energy_crossbow.rsi
     size: Small
   - type: Gun
     fireRate: 5 #high firerate innately bottlenecked by ammo regeneration speed.
@@ -41,9 +41,9 @@
   description: Launches renewable toxic arrows capable of flooring targets instantly.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Basic/energy_crossbow.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Basic/energy_crossbow.rsi
     state: icon
   - type: Item
-    sprite: Objects/Weapons/Guns/Basic/energy_crossbow.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Basic/energy_crossbow.rsi
   - type: StaticPrice
     price: 2500

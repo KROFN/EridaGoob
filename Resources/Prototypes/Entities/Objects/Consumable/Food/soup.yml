@@ -22,7 +22,7 @@
         - ReagentId: Nutriment
           Quantity: 20
   - type: Sprite
-    sprite: Objects/Consumable/Food/bowl.rsi
+    sprite: _Erida/Objects/Consumable/Food/bowl.rsi
   - type: DamageOnLand
     damage:
       types:
@@ -83,7 +83,7 @@
       - creamy
       - peas
   - type: Sprite
-    sprite: Objects/Consumable/Food/bowl.rsi
+    sprite: _Erida/Objects/Consumable/Food/bowl.rsi
     layers:
     - state: bowl
     - state: alpha-filling
@@ -572,7 +572,7 @@
       - mushroom
       - jelly
   - type: Sprite
-    sprite: Objects/Consumable/Food/meals.rsi
+    sprite: _Erida/Objects/Consumable/Food/meals.rsi
     state: amanita-jelly
   - type: SolutionContainerManager
     solutions:

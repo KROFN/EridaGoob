@@ -59,7 +59,7 @@
           reagent: Coffee
           min: 100
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/coffeeglass.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/coffeeglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -134,7 +134,7 @@
   flavor: creamy
   color: "#664300"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/cafe_latte.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/cafe_latte.rsi
     state: icon
   metamorphicMaxFillLevels: 1
   metamorphicFillBaseName: fill-
@@ -158,7 +158,7 @@
   flavor: tea
   color: "#7EB626"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/greenteaglass.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/greenteaglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -173,7 +173,7 @@
   flavor: bitter
   color: "#EA1D26"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/grenadineglass.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/grenadineglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 3
   metamorphicFillBaseName: fill-
@@ -190,7 +190,7 @@
   flavor: coffee
   color: "#102838"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/icedcoffeeglass.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/icedcoffeeglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -217,7 +217,7 @@
   flavor: icedtea
   color: "#5B821B"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/icedgreenteaglass.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/icedgreenteaglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -232,7 +232,7 @@
   flavor: icedtea
   color: "#6C3916"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/icedteaglass.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/icedteaglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
@@ -280,7 +280,7 @@
   flavor: sweet
   color: "#FFFF00"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/lemonadeglass.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/lemonadeglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 6
   metamorphicFillBaseName: fill-
@@ -389,7 +389,7 @@
   flavor: atomiccola
   color: "#100800"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/nuclear_colaglass.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/nuclear_colaglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -434,7 +434,7 @@
   flavor: soy
   color: "#664300"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/soy_latte.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/soy_latte.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 1
   metamorphicFillBaseName: fill-
@@ -467,7 +467,7 @@
         reagent: Theobromine
         amount: 0.05
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/teaglass.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/teaglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -483,7 +483,7 @@
   color: "#0064C8"
   fizziness: 0.4
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/tonicglass.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/tonicglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -575,7 +575,7 @@
   - !type:PlantAdjustWater
     amount: 1 # The internet tells me I should avoid watering plants with ice, but mostly because of temperature, so this value being the same as water should probably be fine?
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/iceglass.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/iceglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 3
   metamorphicFillBaseName: fill-
@@ -618,7 +618,7 @@
   flavor: arnoldpalmer
   color: "#d8cc5d"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/arnoldpalmer.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/arnoldpalmer.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-
@@ -665,7 +665,7 @@
   flavor: sweet
   color: "#CCCC99"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/orangelime_soda.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/orangelime_soda.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 3
   metamorphicFillBaseName: fill-
@@ -681,7 +681,7 @@
   flavor: sweet
   color: "#485000"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/rewriter.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/rewriter.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -711,7 +711,7 @@
   flavor: tortuga
   color: "#1c8c40"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/tortuga.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/tortuga.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-

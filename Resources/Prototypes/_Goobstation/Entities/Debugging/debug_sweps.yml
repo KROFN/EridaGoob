@@ -9,7 +9,7 @@
     tags:
     - Debug
   - type: Sprite
-    sprite: Objects/Weapons/Melee/debug.rsi
+    sprite: _Erida/Objects/Weapons/Melee/debug.rsi
     state: icon
   - type: MeleeWeapon
     damage:
@@ -17,7 +17,7 @@
         Holy: 100
   - type: Item
     size: Tiny
-    sprite: Objects/Weapons/Melee/debug.rsi
+    sprite: _Erida/Objects/Weapons/Melee/debug.rsi
 
 - type: entity
   name: holy blast stick 200dmg
@@ -30,7 +30,7 @@
     tags:
     - Debug
   - type: Sprite
-    sprite: Objects/Weapons/Melee/debug.rsi
+    sprite: _Erida/Objects/Weapons/Melee/debug.rsi
     state: icon
   - type: MeleeWeapon
     damage:
@@ -38,7 +38,7 @@
         Holy: 200
   - type: Item
     size: Tiny
-    sprite: Objects/Weapons/Melee/debug.rsi
+    sprite: _Erida/Objects/Weapons/Melee/debug.rsi
 
 - type: entity
   name: holy smite stick # This ones just for fun
@@ -51,7 +51,7 @@
     tags:
     - Debug
   - type: Sprite
-    sprite: Objects/Weapons/Melee/debug.rsi
+    sprite: _Erida/Objects/Weapons/Melee/debug.rsi
     state: icon
   - type: MeleeWeapon
     damage:
@@ -59,4 +59,4 @@
         Holy: 20000
   - type: Item
     size: Tiny
-    sprite: Objects/Weapons/Melee/debug.rsi
+    sprite: _Erida/Objects/Weapons/Melee/debug.rsi

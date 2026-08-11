@@ -9,7 +9,7 @@
   components:
   - type: Sprite
     noRot: true
-    sprite: Structures/Decoration/statues.rsi
+    sprite: _Erida/Structures/Decoration/statues.rsi
     state: venus_red
     drawdepth: Mobs
     offset: "0.0,0.5"
@@ -23,7 +23,7 @@
   components:
   - type: Sprite
     noRot: true
-    sprite: Structures/Decoration/statues.rsi
+    sprite: _Erida/Structures/Decoration/statues.rsi
     state: venus_blue
     drawdepth: Mobs
     offset: "0.0,0.5"
@@ -36,7 +36,7 @@
   components:
   - type: Sprite
     noRot: true
-    sprite: Structures/Decoration/statues.rsi
+    sprite: _Erida/Structures/Decoration/statues.rsi
     state: bananium_clown
     drawdepth: Mobs
     offset: "0.0,0.5"
@@ -89,7 +89,7 @@
   name: ironsand small statue
   components:
   - type: Sprite
-    sprite: Structures/Decoration/ironsand_statue.rsi
+    sprite: _Erida/Structures/Decoration/ironsand_statue.rsi
     state: small_pillar
   - type: Fixtures
     fixtures:
@@ -109,7 +109,7 @@
   name: ironsand small statue
   components:
   - type: Sprite
-    sprite: Structures/Decoration/ironsand_statue.rsi
+    sprite: _Erida/Structures/Decoration/ironsand_statue.rsi
     state: small_pillar_2
   - type: Fixtures
     fixtures:
@@ -129,7 +129,7 @@
   name: ironsand tall statue
   components:
   - type: Sprite
-    sprite: Structures/Decoration/ironsand_statue_tall.rsi
+    sprite: _Erida/Structures/Decoration/ironsand_statue_tall.rsi
     state: pillar_of_weh
     offset: "0.0,0.5"
   - type: Fixtures
@@ -150,7 +150,7 @@
   name: ironsand tall statue
   components:
   - type: Sprite
-    sprite: Structures/Decoration/ironsand_statue_tall.rsi
+    sprite: _Erida/Structures/Decoration/ironsand_statue_tall.rsi
     state: inverse_pillar
     offset: "0.0,0.5"
   - type: Fixtures

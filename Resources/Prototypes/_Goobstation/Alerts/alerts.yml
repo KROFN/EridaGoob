@@ -73,7 +73,7 @@
   id: SneakAttack
   category: Ninjutsu
   icons:
-  - sprite: /Textures/Objects/Weapons/Melee/energykatana.rsi
+  - sprite: /Textures/_Erida/Objects/Weapons/Melee/energykatana.rsi
     state: icon
   name: alerts-sneak-attack-name
   description: alerts-sneak-attack-desc
@@ -82,7 +82,7 @@
   id: LossOfSurprise
   category: Ninjutsu
   icons:
-  - sprite: /Textures/Structures/Storage/closet.rsi
+  - sprite: /Textures/_Erida/Structures/Storage/closet.rsi
     state: cardboard_special
   name: alerts-loss-of-surprise-name
   description: alerts-loss-of-surprise-desc

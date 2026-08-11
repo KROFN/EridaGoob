@@ -3,7 +3,7 @@
 - type: cargoProduct
   id: ShuttleThruster
   icon:
-    sprite: Structures/Shuttles/thruster.rsi
+    sprite: _Erida/Structures/Shuttles/thruster.rsi
     state: base
   product: CrateEngineeringThruster
   cost: 1500
@@ -13,7 +13,7 @@
 - type: cargoProduct
   id: ShuttleGyroscope
   icon:
-    sprite: Structures/Shuttles/gyroscope.rsi
+    sprite: _Erida/Structures/Shuttles/gyroscope.rsi
     state: base
   product: CrateEngineeringGyroscope
   cost: 4000
@@ -23,7 +23,7 @@
 # - type: cargoProduct
   # id: ShuttlePowerKit
   # icon:
-    # sprite: Structures/Machines/computers.rsi
+    # sprite: _Erida/Structures/Machines/computers.rsi
     # state: avionics-systems
   # product: CrateEngineeringShuttle
   # cost: 3000

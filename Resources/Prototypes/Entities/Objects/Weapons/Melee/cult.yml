@@ -8,7 +8,7 @@
   components:
   - type: Sharp
   - type: Sprite
-    sprite: Objects/Weapons/Melee/cult_dagger.rsi
+    sprite: _Erida/Objects/Weapons/Melee/cult_dagger.rsi
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: -135
@@ -21,7 +21,7 @@
   - type: Item
     size: Normal
   - type: Clothing
-    sprite: Objects/Weapons/Melee/cult_dagger.rsi
+    sprite: _Erida/Objects/Weapons/Melee/cult_dagger.rsi
     slots:
     - back
   - type: DisarmMalus
@@ -37,7 +37,7 @@
   components:
   - type: Sharp
   - type: Sprite
-    sprite: Objects/Weapons/Melee/cult_blade.rsi
+    sprite: _Erida/Objects/Weapons/Melee/cult_blade.rsi
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: -135
@@ -50,7 +50,7 @@
   - type: Item
     size: Normal
   - type: Clothing
-    sprite: Objects/Weapons/Melee/cult_blade.rsi
+    sprite: _Erida/Objects/Weapons/Melee/cult_blade.rsi
     slots:
     - back
   - type: DisarmMalus
@@ -66,7 +66,7 @@
     - FireAxe
   - type: Sharp
   - type: Sprite
-    sprite: Objects/Weapons/Melee/cult_halberd.rsi
+    sprite: _Erida/Objects/Weapons/Melee/cult_halberd.rsi
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: -135
@@ -88,7 +88,7 @@
   - type: Item
     size: Ginormous
   - type: Clothing
-    sprite: Objects/Weapons/Melee/cult_halberd.rsi
+    sprite: _Erida/Objects/Weapons/Melee/cult_halberd.rsi
     quickEquip: false
     slots:
     - back

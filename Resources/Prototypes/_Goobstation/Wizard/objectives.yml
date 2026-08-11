@@ -9,7 +9,7 @@
     difficulty: 1.5
     issuer: objective-issuer-wizard-federation
     icon:
-      sprite: Clothing/Head/Hats/wizardhat.rsi
+      sprite: _Erida/Clothing/Head/Hats/wizardhat.rsi
       state: icon
 
 - type: entity

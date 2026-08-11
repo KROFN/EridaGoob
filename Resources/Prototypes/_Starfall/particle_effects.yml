@@ -112,7 +112,7 @@
 - type: particleEffect
   id: SfSmoke
   sprite:
-    sprite: Effects/chemsmoke.rsi
+    sprite: _Erida/Effects/chemsmoke.rsi
     state: chemsmoke
   startColor: "#CCCCCCCC"
   endColor: "#CCCCCC00"
@@ -179,7 +179,7 @@
 - type: particleEffect
   id: SfFireSmoke
   sprite:
-    sprite: Effects/chemsmoke.rsi
+    sprite: _Erida/Effects/chemsmoke.rsi
     state: chemsmoke
   startColor: "#555555AA"
   endColor: "#33333300"
@@ -222,7 +222,7 @@
 - type: particleEffect
   id: SfFireEmbers
   sprite:
-    sprite: Effects/fire.rsi
+    sprite: _Erida/Effects/fire.rsi
     state: fire
   shader: unshaded
   colorOverLifetime:
@@ -251,7 +251,7 @@
 - type: particleEffect
   id: SfFootstepDust
   sprite:
-    sprite: Effects/chemsmoke.rsi
+    sprite: _Erida/Effects/chemsmoke.rsi
     state: chemsmoke
   startColor: "#CCCCCC88"
   endColor: "#CCCCCC00"

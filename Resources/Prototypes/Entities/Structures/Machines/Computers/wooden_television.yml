@@ -17,10 +17,10 @@
     visuals:
       enum.EdgeConnectionVisuals.ConnectionMask:
         computerLayerBody:
-          None: { state: television, sprite: Structures/Machines/computers.rsi }
-          East: { state: television, sprite: Structures/Machines/computers.rsi }
-          West: { state: television, sprite: Structures/Machines/computers.rsi }
-          East, West: { state: television, sprite: Structures/Machines/computers.rsi }
+          None: { state: television, sprite: _Erida/Structures/Machines/computers.rsi }
+          East: { state: television, sprite: _Erida/Structures/Machines/computers.rsi }
+          West: { state: television, sprite: _Erida/Structures/Machines/computers.rsi }
+          East, West: { state: television, sprite: _Erida/Structures/Machines/computers.rsi }
   # Orion end
   - type: Computer
     board: ComputerTelevisionCircuitboard

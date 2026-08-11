@@ -10,7 +10,7 @@
             - tag: ToySword
               name: construction-graph-tag-toy-sword
               icon:
-                sprite: Objects/Weapons/Melee/e_sword.rsi
+                sprite: _Erida/Objects/Weapons/Melee/e_sword.rsi
                 state: e_sword
               doAfter: 2
             - material: Bananium

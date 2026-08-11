@@ -7,10 +7,10 @@
   description: An item which uses magnets to easily replace broken lights. Refill by adding more lights into the replacer.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Janitorial/light_replacer.rsi
+    sprite: _Erida/Objects/Specific/Janitorial/light_replacer.rsi
     state: icon
   - type: Item
-    sprite: Objects/Specific/Janitorial/light_replacer.rsi
+    sprite: _Erida/Objects/Specific/Janitorial/light_replacer.rsi
   - type: LightReplacer
     contents:
     - id: LightTube

@@ -9,7 +9,7 @@
   components:
   - type: Rotatable
   - type: Sprite
-    sprite: Structures/smalldispensers.rsi
+    sprite: _Erida/Structures/smalldispensers.rsi
     drawdepth: SmallObjects
     state: soda
   - type: Storage

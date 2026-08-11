@@ -18,7 +18,7 @@
       - !type:DoActsBehavior
         acts: ["Destruction"]
   - type: Sprite
-    sprite: Structures/Wallmounts/signs.rsi
+    sprite: _Erida/Structures/Wallmounts/signs.rsi
     snapCardinals: false
     noRot: true
   - type: StaticPrice

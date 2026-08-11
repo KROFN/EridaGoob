@@ -69,7 +69,7 @@
         Blunt: 450
         Heat: 50
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
     - state: frag
   - type: Ammo
@@ -125,7 +125,7 @@
         Blunt: 2000
         Heat: 500
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
     - state: frag
   - type: Ammo

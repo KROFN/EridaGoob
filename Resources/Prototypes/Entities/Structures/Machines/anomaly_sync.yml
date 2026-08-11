@@ -23,7 +23,7 @@
       - Supercritical
   - type: Sprite
     noRot: true
-    sprite: Structures/Machines/anomaly_sync.rsi
+    sprite: _Erida/Structures/Machines/anomaly_sync.rsi
     layers:
     - state: base
     - state: energy

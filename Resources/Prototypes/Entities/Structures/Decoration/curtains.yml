@@ -69,7 +69,7 @@
   components:
   - type: Sprite
     snapCardinals: true
-    sprite: Structures/Decoration/Curtains/hospital.rsi
+    sprite: _Erida/Structures/Decoration/Curtains/hospital.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -99,7 +99,7 @@
   components:
   - type: Sprite
     snapCardinals: true
-    sprite: Structures/Decoration/Curtains/black.rsi
+    sprite: _Erida/Structures/Decoration/Curtains/black.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -129,7 +129,7 @@
   components:
   - type: Sprite
     snapCardinals: true
-    sprite: Structures/Decoration/Curtains/blue.rsi
+    sprite: _Erida/Structures/Decoration/Curtains/blue.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -144,7 +144,7 @@
   components:
   - type: Sprite
     snapCardinals: true
-    sprite: Structures/Decoration/Curtains/skyblue.rsi
+    sprite: _Erida/Structures/Decoration/Curtains/skyblue.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -189,7 +189,7 @@
   components:
   - type: Sprite
     snapCardinals: true
-    sprite: Structures/Decoration/Curtains/cyan.rsi
+    sprite: _Erida/Structures/Decoration/Curtains/cyan.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -219,7 +219,7 @@
   components:
   - type: Sprite
     snapCardinals: true
-    sprite: Structures/Decoration/Curtains/green.rsi
+    sprite: _Erida/Structures/Decoration/Curtains/green.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -249,7 +249,7 @@
   components:
   - type: Sprite
     snapCardinals: true
-    sprite: Structures/Decoration/Curtains/orange.rsi
+    sprite: _Erida/Structures/Decoration/Curtains/orange.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -279,7 +279,7 @@
   components:
   - type: Sprite
     snapCardinals: true
-    sprite: Structures/Decoration/Curtains/pink.rsi
+    sprite: _Erida/Structures/Decoration/Curtains/pink.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -309,7 +309,7 @@
   components:
   - type: Sprite
     snapCardinals: true
-    sprite: Structures/Decoration/Curtains/purple.rsi
+    sprite: _Erida/Structures/Decoration/Curtains/purple.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -339,7 +339,7 @@
   components:
   - type: Sprite
     snapCardinals: true
-    sprite: Structures/Decoration/Curtains/red.rsi
+    sprite: _Erida/Structures/Decoration/Curtains/red.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -369,7 +369,7 @@
   components:
   - type: Sprite
     snapCardinals: true
-    sprite: Structures/Decoration/Curtains/white.rsi
+    sprite: _Erida/Structures/Decoration/Curtains/white.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]

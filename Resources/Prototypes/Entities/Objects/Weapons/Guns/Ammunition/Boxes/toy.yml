@@ -40,7 +40,7 @@
     capacity: 40
     proto: BulletFoam
   - type: Sprite
-    sprite: Objects/Storage/boxes.rsi
+    sprite: _Erida/Objects/Storage/boxes.rsi
     layers:
       - state: boxwidetoy
       - state: shelltoy

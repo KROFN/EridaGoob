@@ -7,9 +7,9 @@
   description: A face-covering mask that can be connected to an air supply.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/gas.rsi
+    sprite: _Erida/Clothing/Mask/gas.rsi
   - type: Clothing
-    sprite: Clothing/Mask/gas.rsi
+    sprite: _Erida/Clothing/Mask/gas.rsi
   - type: BreathMask
   - type: IngestionBlocker
   - type: IdentityBlocker
@@ -51,9 +51,9 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: Clothing/Mask/gassecurity.rsi
+    sprite: _Erida/Clothing/Mask/gassecurity.rsi
   - type: Clothing
-    sprite: Clothing/Mask/gassecurity.rsi
+    sprite: _Erida/Clothing/Mask/gassecurity.rsi
   - type: Armor
     coverage:
     - Head
@@ -80,9 +80,9 @@
   description: A close-fitting tactical mask that can be connected to an air supply.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/gassyndicate.rsi
+    sprite: _Erida/Clothing/Mask/gassyndicate.rsi
   - type: Clothing
-    sprite: Clothing/Mask/gassyndicate.rsi
+    sprite: _Erida/Clothing/Mask/gassyndicate.rsi
   - type: FlashImmunity
   - type: EyeProtection
   - type: Armor
@@ -110,9 +110,9 @@
   description: Improved gas mask utilized by atmospheric technicians. It's flameproof!
   components:
   - type: Sprite
-    sprite: Clothing/Mask/gasatmos.rsi
+    sprite: _Erida/Clothing/Mask/gasatmos.rsi
   - type: Clothing
-    sprite: Clothing/Mask/gasatmos.rsi
+    sprite: _Erida/Clothing/Mask/gasatmos.rsi
   - type: Armor
     coverage:
     - Head
@@ -133,9 +133,9 @@
   description: Nanotrasen cut corners and repainted a spare atmospheric gas mask, but don't tell anyone.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/gascaptain.rsi
+    sprite: _Erida/Clothing/Mask/gascaptain.rsi
   - type: Clothing
-    sprite: Clothing/Mask/gascaptain.rsi
+    sprite: _Erida/Clothing/Mask/gascaptain.rsi
   - type: BreathMask
   - type: IngestionBlocker
     blockSmokeIngestion: true # Goobstation
@@ -148,9 +148,9 @@
   description: Oooh, gold and green. Fancy! This should help as you sit in your office.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/gascentcom.rsi
+    sprite: _Erida/Clothing/Mask/gascentcom.rsi
   - type: Clothing
-    sprite: Clothing/Mask/gascentcom.rsi
+    sprite: _Erida/Clothing/Mask/gascentcom.rsi
   - type: BreathMask
   - type: IngestionBlocker
     blockSmokeIngestion: true # Goobstation
@@ -162,9 +162,9 @@
   description: A military-grade gas mask that can be connected to an air supply.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/gasexplorer.rsi
+    sprite: _Erida/Clothing/Mask/gasexplorer.rsi
   - type: Clothing
-    sprite: Clothing/Mask/gasexplorer.rsi
+    sprite: _Erida/Clothing/Mask/gasexplorer.rsi
   - type: Armor
     coverage:
     - Head
@@ -192,9 +192,9 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: Clothing/Mask/medical.rsi
+    sprite: _Erida/Clothing/Mask/medical.rsi
   - type: Clothing
-    sprite: Clothing/Mask/medical.rsi
+    sprite: _Erida/Clothing/Mask/medical.rsi
   - type: BreathMask
   - type: IngestionBlocker
   - type: Tag
@@ -229,9 +229,9 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: Clothing/Mask/medicalsecurity.rsi
+    sprite: _Erida/Clothing/Mask/medicalsecurity.rsi
   - type: Clothing
-    sprite: Clothing/Mask/medicalsecurity.rsi
+    sprite: _Erida/Clothing/Mask/medicalsecurity.rsi
   - type: Armor
     coverage:
     - Head
@@ -266,9 +266,9 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: Clothing/Mask/breath.rsi
+    sprite: _Erida/Clothing/Mask/breath.rsi
   - type: Clothing
-    sprite: Clothing/Mask/breath.rsi
+    sprite: _Erida/Clothing/Mask/breath.rsi
   - type: BreathMask
   - type: IngestionBlocker
   - type: Tag
@@ -291,9 +291,9 @@
   description: A true prankster's facial attire. A clown is incomplete without his wig and mask.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/clown.rsi
+    sprite: _Erida/Clothing/Mask/clown.rsi
   - type: Clothing
-    sprite: Clothing/Mask/clown.rsi
+    sprite: _Erida/Clothing/Mask/clown.rsi
   - type: BreathMask
   - type: IdentityBlocker
   - type: Tag
@@ -321,7 +321,7 @@
     foldedEquippedPrefix: opened
     foldedHeldPrefix: opened
   - type: Sprite
-    sprite: Clothing/Mask/clown.rsi
+    sprite: _Erida/Clothing/Mask/clown.rsi
     layers:
     - state: icon
       map: [ "unfoldedLayer" ]
@@ -343,9 +343,9 @@
   name: banana clown wig and mask
   components:
   - type: Sprite
-    sprite: Clothing/Mask/clown_banana.rsi
+    sprite: _Erida/Clothing/Mask/clown_banana.rsi
   - type: Clothing
-    sprite: Clothing/Mask/clown_banana.rsi
+    sprite: _Erida/Clothing/Mask/clown_banana.rsi
   - type: Construction
     graph: BananaClownMask
     node: mask
@@ -365,9 +365,9 @@
   description: A debatably oxymoronic but protective mask and wig.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/clown_security.rsi
+    sprite: _Erida/Clothing/Mask/clown_security.rsi
   - type: Clothing
-    sprite: Clothing/Mask/clown_security.rsi
+    sprite: _Erida/Clothing/Mask/clown_security.rsi
   - type: Armor
     coverage:
     - Head
@@ -395,9 +395,9 @@
   description: Express your happiness or hide your sorrows with this laughing face with crying tears of joy cutout.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/joy.rsi
+    sprite: _Erida/Clothing/Mask/joy.rsi
   - type: Clothing
-    sprite: Clothing/Mask/joy.rsi
+    sprite: _Erida/Clothing/Mask/joy.rsi
   - type: BreathMask
   - type: IdentityBlocker
   - type: HideLayerClothing
@@ -414,9 +414,9 @@
   description: The traditional mime's mask. It has an eerie facial posture.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/mime.rsi
+    sprite: _Erida/Clothing/Mask/mime.rsi
   - type: Clothing
-    sprite: Clothing/Mask/mime.rsi
+    sprite: _Erida/Clothing/Mask/mime.rsi
   - type: BreathMask
   - type: IdentityBlocker
   - type: Tag
@@ -435,9 +435,9 @@
   description: A sterile mask designed to help prevent the spread of diseases.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/sterile.rsi
+    sprite: _Erida/Clothing/Mask/sterile.rsi
   - type: Clothing
-    sprite: Clothing/Mask/sterile.rsi
+    sprite: _Erida/Clothing/Mask/sterile.rsi
   - type: IngestionBlocker
   - type: Item
     size: Tiny
@@ -472,9 +472,9 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: Clothing/Mask/muzzle.rsi
+    sprite: _Erida/Clothing/Mask/muzzle.rsi
   - type: Clothing
-    sprite: Clothing/Mask/muzzle.rsi
+    sprite: _Erida/Clothing/Mask/muzzle.rsi
     equipDelay: 3
     unequipDelay: 3
   - type: IngestionBlocker
@@ -497,9 +497,9 @@
   description: A bad omen.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/plaguedoctormask.rsi
+    sprite: _Erida/Clothing/Mask/plaguedoctormask.rsi
   - type: Clothing
-    sprite: Clothing/Mask/plaguedoctormask.rsi
+    sprite: _Erida/Clothing/Mask/plaguedoctormask.rsi
   - type: BreathMask
   - type: IngestionBlocker
   - type: IdentityBlocker
@@ -529,9 +529,9 @@
   description: Cursed cluwne face and hair.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/cluwne.rsi
+    sprite: _Erida/Clothing/Mask/cluwne.rsi
   - type: Clothing
-    sprite: Clothing/Mask/cluwne.rsi
+    sprite: _Erida/Clothing/Mask/cluwne.rsi
   - type: Unremoveable
   - type: AddAccentClothing
     accent: StutteringAccent
@@ -543,9 +543,9 @@
   description: A elite issue Security gas mask.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/swat.rsi
+    sprite: _Erida/Clothing/Mask/swat.rsi
   - type: Clothing
-    sprite: Clothing/Mask/swat.rsi
+    sprite: _Erida/Clothing/Mask/swat.rsi
   - type: Tag
     tags:
     - WhitelistChameleon
@@ -577,9 +577,9 @@
   description: Slightly outdated, but reliable military-style gas mask.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/merc.rsi
+    sprite: _Erida/Clothing/Mask/merc.rsi
   - type: Clothing
-    sprite: Clothing/Mask/merc.rsi
+    sprite: _Erida/Clothing/Mask/merc.rsi
   - type: Armor
     coverage:
     - Head
@@ -605,9 +605,9 @@
   description: The gas mask of the elite squad of the ERT.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/ert.rsi
+    sprite: _Erida/Clothing/Mask/ert.rsi
   - type: Clothing
-    sprite: Clothing/Mask/ert.rsi
+    sprite: _Erida/Clothing/Mask/ert.rsi
   - type: Tag
     tags:
     - WhitelistChameleon
@@ -638,9 +638,9 @@
   description: A unique gas mask for the NT's most elite squad.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/squadron.rsi
+    sprite: _Erida/Clothing/Mask/squadron.rsi
   - type: Clothing
-    sprite: Clothing/Mask/squadron.rsi
+    sprite: _Erida/Clothing/Mask/squadron.rsi
   - type: HideLayerClothing
     slots:
     - Hair
@@ -679,9 +679,9 @@
   description: A mask of a rat that looks like a rat. Perhaps they will take you for a fellow rat.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/rat.rsi
+    sprite: _Erida/Clothing/Mask/rat.rsi
   - type: Clothing
-    sprite: Clothing/Mask/rat.rsi
+    sprite: _Erida/Clothing/Mask/rat.rsi
   - type: Tag
     tags:
     - HamsterWearable
@@ -702,9 +702,9 @@
   description: What does the fox say?
   components:
   - type: Sprite
-    sprite: Clothing/Mask/fox.rsi
+    sprite: _Erida/Clothing/Mask/fox.rsi
   - type: Clothing
-    sprite: Clothing/Mask/fox.rsi
+    sprite: _Erida/Clothing/Mask/fox.rsi
   - type: IdentityBlocker
   - type: HideLayerClothing
     slots:
@@ -724,9 +724,9 @@
   description: For the queen!
   components:
   - type: Sprite
-    sprite: Clothing/Mask/bee.rsi
+    sprite: _Erida/Clothing/Mask/bee.rsi
   - type: Clothing
-    sprite: Clothing/Mask/bee.rsi
+    sprite: _Erida/Clothing/Mask/bee.rsi
   - type: IdentityBlocker
   - type: HideLayerClothing
     slots:
@@ -746,9 +746,9 @@
   description: I'm a cloudy, cloudy, cloudy, I'm not a bear at all.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/bear.rsi
+    sprite: _Erida/Clothing/Mask/bear.rsi
   - type: Clothing
-    sprite: Clothing/Mask/bear.rsi
+    sprite: _Erida/Clothing/Mask/bear.rsi
   - type: IdentityBlocker
   - type: HideLayerClothing
     slots:
@@ -768,9 +768,9 @@
   description: Where I am, death... or glitter.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/raven.rsi
+    sprite: _Erida/Clothing/Mask/raven.rsi
   - type: Clothing
-    sprite: Clothing/Mask/raven.rsi
+    sprite: _Erida/Clothing/Mask/raven.rsi
   - type: IdentityBlocker
   - type: HideLayerClothing
     slots:
@@ -790,9 +790,9 @@
   description: It is better not to turn your back to the owner of the mask, it may bite.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/jackal.rsi
+    sprite: _Erida/Clothing/Mask/jackal.rsi
   - type: Clothing
-    sprite: Clothing/Mask/jackal.rsi
+    sprite: _Erida/Clothing/Mask/jackal.rsi
   - type: IdentityBlocker
   - type: HideLayerClothing
     slots:
@@ -812,9 +812,9 @@
   description: A bloodsucker by night, and a cute, blinded beast by day.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/bat.rsi
+    sprite: _Erida/Clothing/Mask/bat.rsi
   - type: Clothing
-    sprite: Clothing/Mask/bat.rsi
+    sprite: _Erida/Clothing/Mask/bat.rsi
   - type: IdentityBlocker
   - type: HideLayerClothing
     slots:
@@ -834,9 +834,9 @@
   description: Stylish neck gaiter for your neck, can protect from the cosmic wind?...
   components:
   - type: Sprite
-    sprite: Clothing/Mask/neckgaiter.rsi
+    sprite: _Erida/Clothing/Mask/neckgaiter.rsi
   - type: Clothing
-    sprite: Clothing/Mask/neckgaiter.rsi
+    sprite: _Erida/Clothing/Mask/neckgaiter.rsi
   - type: IdentityBlocker
     coverage: MOUTH
   - type: Tag
@@ -850,9 +850,9 @@
   name: red neck gaiter
   components:
   - type: Sprite
-    sprite: Clothing/Mask/neckgaiterred.rsi
+    sprite: _Erida/Clothing/Mask/neckgaiterred.rsi
   - type: Clothing
-    sprite: Clothing/Mask/neckgaiterred.rsi
+    sprite: _Erida/Clothing/Mask/neckgaiterred.rsi
 
 - type: entity
   parent: ClothingMaskClownBase
@@ -883,9 +883,9 @@
   description: Many people think this is what a real mime mask looks like.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/sadmime.rsi
+    sprite: _Erida/Clothing/Mask/sadmime.rsi
   - type: Clothing
-    sprite: Clothing/Mask/sadmime.rsi
+    sprite: _Erida/Clothing/Mask/sadmime.rsi
 
 - type: entity
   parent: ClothingMaskMime
@@ -894,9 +894,9 @@
   description: Looks like it would scream if it wasn't a mask.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/scaredmime.rsi
+    sprite: _Erida/Clothing/Mask/scaredmime.rsi
   - type: Clothing
-    sprite: Clothing/Mask/scaredmime.rsi
+    sprite: _Erida/Clothing/Mask/scaredmime.rsi
 
 - type: entity
   parent: [ClothingMaskMime, BaseSecurityContraband]
@@ -905,9 +905,9 @@
   description: You have the right to remain silent.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/mime_security.rsi
+    sprite: _Erida/Clothing/Mask/mime_security.rsi
   - type: Clothing
-    sprite: Clothing/Mask/mime_security.rsi
+    sprite: _Erida/Clothing/Mask/mime_security.rsi
   - type: Armor
     modifiers:
       coefficients:
@@ -923,9 +923,9 @@
   description: Made from authentic Italian moustache hairs. Gives the wearer an irresistable urge to gesticulate wildly.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/italian_moustache.rsi
+    sprite: _Erida/Clothing/Mask/italian_moustache.rsi
   - type: Clothing
-    sprite: Clothing/Mask/italian_moustache.rsi
+    sprite: _Erida/Clothing/Mask/italian_moustache.rsi
   - type: Item
     storedRotation: -90
   - type: AddAccentClothing
@@ -947,9 +947,9 @@
   description: A close-fitting nano-enhanced mask that acts both as an air filter and a post-modern fashion statement.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/ninja.rsi
+    sprite: _Erida/Clothing/Mask/ninja.rsi
   - type: Clothing
-    sprite: Clothing/Mask/ninja.rsi
+    sprite: _Erida/Clothing/Mask/ninja.rsi
   - type: Item
     storedRotation: -90
   - type: EyeProtection
@@ -966,10 +966,10 @@
   description: A gas mask with built in welding goggles and face shield. Looks like a skull, clearly designed by a nerd.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/welding-gas.rsi
+    sprite: _Erida/Clothing/Mask/welding-gas.rsi
     state: icon
   - type: Clothing
-    sprite: Clothing/Mask/welding-gas.rsi
+    sprite: _Erida/Clothing/Mask/welding-gas.rsi
   - type: BreathMask
   - type: IngestionBlocker
   - type: IdentityBlocker

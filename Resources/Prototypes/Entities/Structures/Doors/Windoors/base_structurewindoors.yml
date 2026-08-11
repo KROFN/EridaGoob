@@ -30,7 +30,7 @@
         layer:
         - GlassAirlockLayer
   - type: Sprite
-    sprite: Structures/Doors/Windoors/windoor.rsi
+    sprite: _Erida/Structures/Doors/Windoors/windoor.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -54,7 +54,7 @@
       visible: false
       map: ["enum.ElectrifiedLayers.HUD"]
     - state: electrified
-      sprite: Effects/electricity.rsi
+      sprite: _Erida/Effects/electricity.rsi
       shader: unshaded
       visible: false
       map: ["enum.ElectrifiedLayers.Sparks"]
@@ -189,7 +189,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Structures/Doors/Windoors/windoor.rsi
+    sprite: _Erida/Structures/Doors/Windoors/windoor.rsi
     layers:
     - state: secure_underlay
     - state: closed
@@ -215,7 +215,7 @@
       visible: false
       map: [ "enum.ElectrifiedLayers.HUD" ]
     - state: electrified
-      sprite: Effects/electricity.rsi
+      sprite: _Erida/Effects/electricity.rsi
       shader: unshaded
       visible: false
       map: [ "enum.ElectrifiedLayers.Sparks" ]
@@ -267,7 +267,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Structures/Doors/Windoors/plasma.rsi
+    sprite: _Erida/Structures/Doors/Windoors/plasma.rsi
     layers:
     - state: closed
       map: [ "enum.DoorVisualLayers.Base" ]
@@ -292,7 +292,7 @@
       visible: false
       map: [ "enum.ElectrifiedLayers.HUD" ]
     - state: electrified
-      sprite: Effects/electricity.rsi
+      sprite: _Erida/Effects/electricity.rsi
       shader: unshaded
       visible: false
       map: [ "enum.ElectrifiedLayers.Sparks" ]
@@ -337,7 +337,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Structures/Doors/Windoors/plasma.rsi
+    sprite: _Erida/Structures/Doors/Windoors/plasma.rsi
     layers:
     - state: secure_underlay
     - state: closed
@@ -363,7 +363,7 @@
       visible: false
       map: [ "enum.ElectrifiedLayers.HUD" ]
     - state: electrified
-      sprite: Effects/electricity.rsi
+      sprite: _Erida/Effects/electricity.rsi
       shader: unshaded
       visible: false
       map: [ "enum.ElectrifiedLayers.Sparks" ]
@@ -415,7 +415,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Structures/Doors/Windoors/uranium.rsi
+    sprite: _Erida/Structures/Doors/Windoors/uranium.rsi
     layers:
     - state: closed
       map: [ "enum.DoorVisualLayers.Base" ]
@@ -440,7 +440,7 @@
       visible: false
       map: [ "enum.ElectrifiedLayers.HUD" ]
     - state: electrified
-      sprite: Effects/electricity.rsi
+      sprite: _Erida/Effects/electricity.rsi
       shader: unshaded
       visible: false
       map: [ "enum.ElectrifiedLayers.Sparks" ]
@@ -487,7 +487,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Structures/Doors/Windoors/uranium.rsi
+    sprite: _Erida/Structures/Doors/Windoors/uranium.rsi
     layers:
     - state: secure_underlay
     - state: closed
@@ -513,7 +513,7 @@
       visible: false
       map: [ "enum.ElectrifiedLayers.HUD" ]
     - state: electrified
-      sprite: Effects/electricity.rsi
+      sprite: _Erida/Effects/electricity.rsi
       shader: unshaded
       visible: false
       map: [ "enum.ElectrifiedLayers.Sparks" ]

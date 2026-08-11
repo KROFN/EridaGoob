@@ -7,7 +7,7 @@
   flavor: mango
   color: "#FFBF34"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/orangejuiceglass.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/orangejuiceglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-

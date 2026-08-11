@@ -6,7 +6,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Structures/Wallmounts/paintings.rsi
+    sprite: _Erida/Structures/Wallmounts/paintings.rsi
 
 - type: entity
   parent: PaintingBase

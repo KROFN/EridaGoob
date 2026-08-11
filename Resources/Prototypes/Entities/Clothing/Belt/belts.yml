@@ -9,10 +9,10 @@
   description: An ornate sheath designed to hold an officer's blade.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/sheath.rsi
+    sprite: _Erida/Clothing/Belt/sheath.rsi
     state: sheath
   - type: Clothing
-    sprite: Clothing/Belt/sheath.rsi
+    sprite: _Erida/Clothing/Belt/sheath.rsi
   - type: Item
     size: Ginormous
   - type: ItemSlots
@@ -41,7 +41,7 @@
   description: Can hold up to 15 arrows, and fits snug around your waist.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/quiver.rsi
+    sprite: _Erida/Clothing/Belt/quiver.rsi
     layers:
     - state: icon
     - map: [ "enum.StorageContainerVisualLayers.Fill" ]
@@ -72,9 +72,9 @@
   description: A bandolier for holding shotgun ammunition.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/bandolier.rsi
+    sprite: _Erida/Clothing/Belt/bandolier.rsi
   - type: Clothing
-    sprite: Clothing/Belt/bandolier.rsi
+    sprite: _Erida/Clothing/Belt/bandolier.rsi
   - type: Item
     size: Huge
   - type: BallisticAmmoProvider
@@ -90,9 +90,9 @@
   description: A belt designed to hold various rods of power. A veritable fanny pack of exotic magic.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/wand.rsi
+    sprite: _Erida/Clothing/Belt/wand.rsi
   - type: Clothing
-    sprite: Clothing/Belt/wand.rsi
+    sprite: _Erida/Clothing/Belt/wand.rsi
   - type: Storage
     grid:
     - 0,0,15,1
@@ -110,9 +110,9 @@
   description: 'A holster to carry a handgun and ammo. WARNING: Badasses only.'
   components:
   - type: Sprite
-    sprite: Clothing/Belt/holster.rsi
+    sprite: _Erida/Clothing/Belt/holster.rsi
   - type: Clothing
-    sprite: Clothing/Belt/holster.rsi
+    sprite: _Erida/Clothing/Belt/holster.rsi
   - type: Storage
     grid:
     - 0,0,3,1
@@ -144,9 +144,9 @@
   description: A deep shoulder holster capable of holding many types of ballistics.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/syndieholster.rsi
+    sprite: _Erida/Clothing/Belt/syndieholster.rsi
   - type: Clothing
-    sprite: Clothing/Belt/syndieholster.rsi
+    sprite: _Erida/Clothing/Belt/syndieholster.rsi
   - type: Storage
     maxItemSize: Huge
     grid:
@@ -179,9 +179,9 @@
   description: Unique and versatile chest rig, can hold security gear.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/securitywebbing.rsi
+    sprite: _Erida/Clothing/Belt/securitywebbing.rsi
   - type: Clothing
-    sprite: Clothing/Belt/securitywebbing.rsi
+    sprite: _Erida/Clothing/Belt/securitywebbing.rsi
 
 - type: entity
   parent: [ ClothingBeltStorageBase, BaseSecurityCargoContraband ]
@@ -190,9 +190,9 @@
   description: Ideal for storing everything from ammo to weapons and combat essentials.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/mercwebbing.rsi
+    sprite: _Erida/Clothing/Belt/mercwebbing.rsi
   - type: Clothing
-    sprite: Clothing/Belt/mercwebbing.rsi
+    sprite: _Erida/Clothing/Belt/mercwebbing.rsi
 
 - type: entity
   parent: ClothingBeltStorageBase
@@ -201,9 +201,9 @@
   description: Universal unloading system for work in space.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/salvagewebbing.rsi
+    sprite: _Erida/Clothing/Belt/salvagewebbing.rsi
   - type: Clothing
-    sprite: Clothing/Belt/salvagewebbing.rsi
+    sprite: _Erida/Clothing/Belt/salvagewebbing.rsi
 
 
 - type: entity
@@ -213,9 +213,9 @@
   description: A set of tactical webbing worn by Syndicate boarding parties.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/militarywebbing.rsi
+    sprite: _Erida/Clothing/Belt/militarywebbing.rsi
   - type: Clothing
-    sprite: Clothing/Belt/militarywebbing.rsi
+    sprite: _Erida/Clothing/Belt/militarywebbing.rsi
   - type: ExplosionResistance
     damageCoefficient: 0.1
   - type: StaticPrice
@@ -228,9 +228,9 @@
   description: A set of tactical webbing worn by Gorlex Marauder medic operatives.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/militarywebbingmed.rsi
+    sprite: _Erida/Clothing/Belt/militarywebbingmed.rsi
   - type: Clothing
-    sprite: Clothing/Belt/militarywebbingmed.rsi
+    sprite: _Erida/Clothing/Belt/militarywebbingmed.rsi
   # Goobstation Start
   - type: Item
     size: Huge
@@ -245,6 +245,6 @@
   description: A set of tactical webbing worn by Emergency Response Team operatives.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/militarywebbingert.rsi
+    sprite: _Erida/Clothing/Belt/militarywebbingert.rsi
   - type: Clothing
-    sprite: Clothing/Belt/militarywebbingert.rsi
+    sprite: _Erida/Clothing/Belt/militarywebbingert.rsi

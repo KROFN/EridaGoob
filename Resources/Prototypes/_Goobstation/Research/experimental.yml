@@ -4,7 +4,7 @@
   id: Pinpointers
   name: research-technology-pinpointing
   icon:
-    sprite: Objects/Devices/pinpointer.rsi
+    sprite: _Erida/Objects/Devices/pinpointer.rsi
     state: pinpointer
   discipline: Experimental
   tier: 2
@@ -75,7 +75,7 @@
   id: ExperimentalScience
   name: research-technology-experimental-science
   icon:
-    sprite: Objects/Misc/module.rsi
+    sprite: _Erida/Objects/Misc/module.rsi
     state: std_mod
   discipline: Experimental
   tier: 2

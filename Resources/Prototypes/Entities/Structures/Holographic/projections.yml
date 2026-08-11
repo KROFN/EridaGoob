@@ -13,7 +13,7 @@
     bodyType: Static
     canCollide: false
   - type: Sprite
-    sprite: Structures/Holo/wetfloor.rsi
+    sprite: _Erida/Structures/Holo/wetfloor.rsi
     state: icon
   - type: TimedDespawn
     lifetime: 90
@@ -38,7 +38,7 @@
   description: A barrier of hard light that blocks air, but nothing else.
   components:
   - type: Sprite
-    sprite: Structures/Holo/holofan.rsi
+    sprite: _Erida/Structures/Holo/holofan.rsi
     state: icon
   - type: Fixtures
     fixtures:
@@ -61,7 +61,7 @@
   description: A banana peel made of slippery hard light, watch your step!
   components:
   - type: Sprite
-    sprite: Structures/Holo/peel.rsi
+    sprite: _Erida/Structures/Holo/peel.rsi
     state: icon
   - type: Physics
     bodyType: Static
@@ -102,7 +102,7 @@
       bodyType: Static
       canCollide: true
     - type: Sprite
-      sprite: Structures/Holo/security.rsi
+      sprite: _Erida/Structures/Holo/security.rsi
       state: icon
     - type: Fixtures
       fixtures:
@@ -133,7 +133,7 @@
     bodyType: Static
     canCollide: true
   - type: Sprite
-    sprite: Structures/Holo/field.rsi
+    sprite: _Erida/Structures/Holo/field.rsi
     state: icon
   - type: Fixtures
     fixtures:

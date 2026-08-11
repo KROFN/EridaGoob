@@ -9,7 +9,7 @@
   - type: Item
     size: Huge
   - type: Sprite
-    sprite: Objects/Power/portable_recharger.rsi
+    sprite: _Erida/Objects/Power/portable_recharger.rsi
     layers:
     - map: ["enum.PowerChargerVisualLayers.Base"]
       state: charging

@@ -15,7 +15,7 @@
       sound:
         path: /Audio/Ambience/Objects/periodic_beep.ogg
     - type: Sprite
-      sprite: Structures/Power/smes.rsi
+      sprite: _Erida/Structures/Power/smes.rsi
       snapCardinals: true
       layers:
         - state: smes
@@ -57,7 +57,7 @@
       sourceNode: input
       loadNode: output
       collectionName: smes
-      sprite: Structures/Power/smes.rsi
+      sprite: _Erida/Structures/Power/smes.rsi
       state: static
     - type: BatteryDischarger
       voltage: High
@@ -147,7 +147,7 @@
   description: An even-higher-capacity superconducting magnetic energy storage (SMES) unit.
   components:
   - type: Sprite
-    sprite: Structures/Power/smes.rsi
+    sprite: _Erida/Structures/Power/smes.rsi
     snapCardinals: true
     layers:
     - state: advancedsmes
@@ -174,7 +174,7 @@
     sourceNode: input
     loadNode: output
     collectionName: smes
-    sprite: Structures/Power/smes.rsi
+    sprite: _Erida/Structures/Power/smes.rsi
     state: advancedsmes-static
 
 - type: entity

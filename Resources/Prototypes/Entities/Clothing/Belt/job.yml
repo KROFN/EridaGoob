@@ -44,7 +44,7 @@
       - GasAnalyzer
       - HandLabeler
   - type: ItemMapper
-    sprite: &BeltOverlay Clothing/Belt/belt_overlay.rsi
+    sprite: &BeltOverlay _Erida/Clothing/Belt/belt_overlay.rsi
     mapLayers:
       drill:
         whitelist:
@@ -87,9 +87,9 @@
   description: Can hold various things.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/utility.rsi
+    sprite: _Erida/Clothing/Belt/utility.rsi
   - type: Clothing
-    sprite: Clothing/Belt/utility.rsi
+    sprite: _Erida/Clothing/Belt/utility.rsi
   - type: Tag
     tags:
     - UtilityBelt
@@ -102,9 +102,9 @@
   description: Holds tools, looks snazzy.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/ce.rsi
+    sprite: _Erida/Clothing/Belt/ce.rsi
   - type: Clothing
-    sprite: Clothing/Belt/ce.rsi
+    sprite: _Erida/Clothing/Belt/ce.rsi
   - type: Storage
     grid:
     - 0,0,9,1
@@ -118,9 +118,9 @@
   description: A belt used to hold most janitorial supplies.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/janitor.rsi
+    sprite: _Erida/Clothing/Belt/janitor.rsi
   - type: Clothing
-    sprite: Clothing/Belt/janitor.rsi
+    sprite: _Erida/Clothing/Belt/janitor.rsi
   - type: Storage
     maxItemSize: Large
     whitelist:
@@ -165,9 +165,9 @@
   description: Can hold various medical equipment.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/medical.rsi
+    sprite: _Erida/Clothing/Belt/medical.rsi
   - type: Clothing
-    sprite: Clothing/Belt/medical.rsi
+    sprite: _Erida/Clothing/Belt/medical.rsi
   - type: Storage
     whitelist:
       tags:
@@ -239,9 +239,9 @@
   description: Perfect for holding various equipment for medical emergencies.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/emt.rsi
+    sprite: _Erida/Clothing/Belt/emt.rsi
   - type: Clothing
-    sprite: Clothing/Belt/emt.rsi
+    sprite: _Erida/Clothing/Belt/emt.rsi
 
 - type: entity
   parent: ClothingBeltStorageBase
@@ -250,9 +250,9 @@
   description: A belt used to hold most hydroponics supplies. Suprisingly, not green.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/plant.rsi
+    sprite: _Erida/Clothing/Belt/plant.rsi
   - type: Clothing
-    sprite: Clothing/Belt/plant.rsi
+    sprite: _Erida/Clothing/Belt/plant.rsi
   - type: Storage
     whitelist:
       tags:
@@ -301,9 +301,9 @@
   description: A belt used to hold kitchen knives and condiments for quick access.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/chef.rsi
+    sprite: _Erida/Clothing/Belt/chef.rsi
   - type: Clothing
-    sprite: Clothing/Belt/chef.rsi
+    sprite: _Erida/Clothing/Belt/chef.rsi
   - type: Storage
     whitelist:
       tags:
@@ -378,9 +378,9 @@
   description: Can hold security gear like handcuffs and flashes.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/security.rsi
+    sprite: _Erida/Clothing/Belt/security.rsi
   - type: Clothing
-    sprite: Clothing/Belt/security.rsi
+    sprite: _Erida/Clothing/Belt/security.rsi
   - type: ExplosionResistance
     damageCoefficient: 0.9
   - type: Storage

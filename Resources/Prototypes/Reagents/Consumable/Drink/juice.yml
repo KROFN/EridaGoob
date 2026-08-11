@@ -88,7 +88,7 @@
   flavor: sour
   color: "#fff690"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/lemonjuiceglass.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/lemonjuiceglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -138,7 +138,7 @@
   flavor: orange
   color: "#E78108"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/orangejuiceglass.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/orangejuiceglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 5
   metamorphicFillBaseName: fill-
@@ -198,7 +198,7 @@
   flavor: watermelon
   color: "#EF3520"
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/watermelonglass.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/watermelonglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-

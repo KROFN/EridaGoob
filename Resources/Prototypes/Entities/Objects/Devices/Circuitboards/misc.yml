@@ -9,7 +9,7 @@
   - type: Item
     storedRotation: 0
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: _Erida/Objects/Misc/module.rsi
     state: airalarm_electronics
   - type: Tag
     tags:

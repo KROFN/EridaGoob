@@ -7,7 +7,7 @@
   description: A trendy looking satchel.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Satchels/satchel.rsi
+    sprite: _Erida/Clothing/Back/Satchels/satchel.rsi
   - type: Storage
     grid:
     - 0,0,1,3
@@ -21,7 +21,7 @@
   description: A trend-setting satchel from a bygone era.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Satchels/leather.rsi
+    sprite: _Erida/Clothing/Back/Satchels/leather.rsi
 
 - type: entity
   parent: ClothingBackpackSatchel
@@ -30,7 +30,7 @@
   description: A tough satchel with extra pockets.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Satchels/engineering.rsi
+    sprite: _Erida/Clothing/Back/Satchels/engineering.rsi
 
 - type: entity
   parent: ClothingBackpackSatchel
@@ -39,7 +39,7 @@
   description: A tough satchel made of fire resistant fibers. Smells like plasma.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Satchels/atmospherics.rsi
+    sprite: _Erida/Clothing/Back/Satchels/atmospherics.rsi
 
 - type: entity
   parent: ClothingBackpackSatchel
@@ -48,7 +48,7 @@
   description: For fast running from security.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Satchels/clown.rsi
+    sprite: _Erida/Clothing/Back/Satchels/clown.rsi
   - type: Storage
     storageOpenSound:
       collection: BikeHorn
@@ -66,7 +66,7 @@
   description: A satchel designed for the silent and expressive art of miming.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Satchels/mime.rsi
+    sprite: _Erida/Clothing/Back/Satchels/mime.rsi
   - type: Storage
     storageOpenSound: null
     storageInsertSound: null
@@ -78,7 +78,7 @@
   description: A sterile satchel used in medical departments.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Satchels/medical.rsi
+    sprite: _Erida/Clothing/Back/Satchels/medical.rsi
 
 - type: entity
   parent: ClothingBackpackSatchel
@@ -87,7 +87,7 @@
   description: A sterile satchel with chemist colours.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Satchels/chemistry.rsi
+    sprite: _Erida/Clothing/Back/Satchels/chemistry.rsi
 
 - type: entity
   parent: ClothingBackpackSatchel
@@ -96,7 +96,7 @@
   description: A satchel made of hypo-allergenic fibers. It's designed to help prevent the spread of disease. Smells like monkey.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Satchels/virology.rsi
+    sprite: _Erida/Clothing/Back/Satchels/virology.rsi
 
 - type: entity
   parent: ClothingBackpackSatchel
@@ -105,7 +105,7 @@
   description: A sterile satchel with geneticist colours.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Satchels/genetics.rsi
+    sprite: _Erida/Clothing/Back/Satchels/genetics.rsi
 
 - type: entity
   parent: ClothingBackpackSatchel
@@ -114,7 +114,7 @@
   description: Useful for holding research materials.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Satchels/science.rsi
+    sprite: _Erida/Clothing/Back/Satchels/science.rsi
 
 - type: entity
   parent: [ClothingBackpackSatchel, BaseSecurityContraband]
@@ -123,7 +123,7 @@
   description: A robust satchel for security related needs.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Satchels/security.rsi
+    sprite: _Erida/Clothing/Back/Satchels/security.rsi
 
 - type: entity
   parent: [ClothingBackpackSatchel, BaseSecurityContraband]
@@ -132,7 +132,7 @@
   description: A sterile satchel for medical related needs.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Satchels/brigmedic.rsi
+    sprite: _Erida/Clothing/Back/Satchels/brigmedic.rsi
 
 - type: entity
   parent: [ClothingBackpackSatchel, BaseCommandContraband]
@@ -141,7 +141,7 @@
   description: An exclusive satchel for Nanotrasen officers.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Satchels/captain.rsi
+    sprite: _Erida/Clothing/Back/Satchels/captain.rsi
 
 - type: entity
   parent: ClothingBackpackSatchel
@@ -150,7 +150,7 @@
   description: A satchel made of all natural fibers.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Satchels/hydroponics.rsi
+    sprite: _Erida/Clothing/Back/Satchels/hydroponics.rsi
 
 - type: entity
   parent: ClothingBackpackSatchel
@@ -167,7 +167,7 @@
   description: A robust satchel for stashing your loot.
   components:
     - type: Sprite
-      sprite: Clothing/Back/Satchels/salvage.rsi
+      sprite: _Erida/Clothing/Back/Satchels/salvage.rsi
 
 - type: entity
   parent: [ClothingBackpackSatchel, BaseHighlyIllegalContraband]
@@ -176,7 +176,7 @@
   description: A robust satchel for stashing your loot.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Satchels/ninja.rsi
+    sprite: _Erida/Clothing/Back/Satchels/ninja.rsi
   - type: Storage # Backpack sounds are null due to silent ninja tech
     storageOpenSound: null
     storageInsertSound: null
@@ -188,7 +188,7 @@
   description: A satchel that opens into a localized pocket of bluespace.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Satchels/holding.rsi
+    sprite: _Erida/Clothing/Back/Satchels/holding.rsi
     state: icon
     layers:
     - state: icon

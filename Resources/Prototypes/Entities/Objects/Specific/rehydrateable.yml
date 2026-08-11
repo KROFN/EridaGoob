@@ -48,7 +48,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Objects/Misc/monkeycube.rsi
+    sprite: _Erida/Objects/Misc/monkeycube.rsi
     state: cube
   - type: SolutionContainerManager
     solutions:
@@ -270,7 +270,7 @@
   description: Just add water! And then more water!
   components:
   - type: Sprite
-    sprite: Objects/Specific/Janitorial/janitorial.rsi
+    sprite: _Erida/Objects/Specific/Janitorial/janitorial.rsi
     state: mopbucket_cube
   - type: Rehydratable
     possibleSpawns:

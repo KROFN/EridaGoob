@@ -18,7 +18,7 @@
         - BulletImpassable
   - type: Sprite
     noRot: true
-    sprite: Structures/Decoration/bonfire.rsi
+    sprite: _Erida/Structures/Decoration/bonfire.rsi
   - type: PointLight
     radius: 5
     energy: 3
@@ -70,7 +70,7 @@
   description: A sinister bonfire with a stake for... ceremonial purposes. Best not to ask.
   components:
   - type: Sprite
-    sprite: Structures/Decoration/bonfire_stake.rsi
+    sprite: _Erida/Structures/Decoration/bonfire_stake.rsi
     layers:
     - state: burning
     offset: "0, 0.5"

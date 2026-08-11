@@ -9,7 +9,7 @@
   - type: InteractionOutline
   - type: Sprite
     # temp to make clickmask work
-    sprite: Structures/meat_spike.rsi
+    sprite: _Erida/Structures/meat_spike.rsi
     state: spike
     layers:
     - state: spike

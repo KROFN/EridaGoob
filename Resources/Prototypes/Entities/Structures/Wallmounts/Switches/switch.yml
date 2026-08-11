@@ -11,7 +11,7 @@
   - type: StationAiWhitelist
   - type: Sprite
     drawdepth: SmallObjects
-    sprite: Structures/Wallmounts/switch.rsi
+    sprite: _Erida/Structures/Wallmounts/switch.rsi
     # CorvaxGoob-ButtonsVisuals-Start
     layers:
     - state: dead
@@ -83,7 +83,7 @@
   - type: StationAiWhitelist
   - type: Sprite
     drawdepth: SmallObjects
-    sprite: Structures/Wallmounts/switch.rsi
+    sprite: _Erida/Structures/Wallmounts/switch.rsi
     state: dead
   - type: UseDelay
     delay: 0.5 # prevent light-toggling auto-clickers.
@@ -140,7 +140,7 @@
       anchored: true
     - type: Sprite
       drawdepth: SmallObjects
-      sprite: Structures/Wallmounts/switch.rsi
+      sprite: _Erida/Structures/Wallmounts/switch.rsi
       # CorvaxGoob-ButtonsVisuals-End
       layers:
       - state: dead
@@ -213,7 +213,7 @@
   - type: AccessReader
   - type: Sprite
     drawdepth: WallMountedItems
-    sprite: Structures/Wallmounts/locked_switch.rsi
+    sprite: _Erida/Structures/Wallmounts/locked_switch.rsi
     layers:
     - state: base
     - state: locked
@@ -487,7 +487,7 @@
     canCollide: false
   - type: Sprite
     drawdepth: SmallObjects
-    sprite: Structures/Wallmounts/switch_frame.rsi
+    sprite: _Erida/Structures/Wallmounts/switch_frame.rsi
     state: grey
   - type: Rotatable
   - type: Fixtures
@@ -499,7 +499,7 @@
   components:
   - type: Sprite
     drawdepth: SmallObjects
-    sprite: Structures/Wallmounts/switch_frame.rsi
+    sprite: _Erida/Structures/Wallmounts/switch_frame.rsi
     state: grey
 
 - type: entity
@@ -509,7 +509,7 @@
   components:
   - type: Sprite
     drawdepth: SmallObjects
-    sprite: Structures/Wallmounts/switch_frame.rsi
+    sprite: _Erida/Structures/Wallmounts/switch_frame.rsi
     state: caution
 
 - type: entity
@@ -519,7 +519,7 @@
   components:
   - type: Sprite
     drawdepth: SmallObjects
-    sprite: Structures/Wallmounts/switch_frame.rsi
+    sprite: _Erida/Structures/Wallmounts/switch_frame.rsi
     state: caution_security
 
 - type: entity
@@ -529,7 +529,7 @@
   components:
   - type: Sprite
     drawdepth: SmallObjects
-    sprite: Structures/Wallmounts/switch_frame.rsi
+    sprite: _Erida/Structures/Wallmounts/switch_frame.rsi
     state: exit
 
 - type: entity
@@ -539,5 +539,5 @@
   components:
   - type: Sprite
     drawdepth: SmallObjects
-    sprite: Structures/Wallmounts/switch_frame.rsi
+    sprite: _Erida/Structures/Wallmounts/switch_frame.rsi
     state: janitor

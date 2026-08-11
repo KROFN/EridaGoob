@@ -253,7 +253,7 @@
     - map: [ "jumpsuit" ]                         # Jumpsuit above tail & limbs
     - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
       color: "#ffffff"
-      sprite: Objects/Misc/handcuffs.rsi
+      sprite: _Erida/Objects/Misc/handcuffs.rsi
       state: body-overlay-2-resomi
       visible: false
     - map: [ "gloves" ]
@@ -276,7 +276,7 @@
     - map: [ "pocket1" ]
     - map: [ "pocket2" ]
     - map: [ "clownedon" ]
-      sprite: "Effects/creampie.rsi"
+      sprite: "_Erida/Effects/creampie.rsi"
       state: "creampie_resomi"
       visible: false
 
@@ -383,7 +383,7 @@
     - map: [ "jumpsuit" ]                         # Jumpsuit above tail & limbs
     - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
       color: "#ffffff"
-      sprite: Objects/Misc/handcuffs.rsi
+      sprite: _Erida/Objects/Misc/handcuffs.rsi
       state: body-overlay-2-resomi
       visible: false
     - map: [ "gloves" ]
@@ -406,6 +406,6 @@
     - map: [ "pocket1" ]
     - map: [ "pocket2" ]
     - map: [ "clownedon" ]
-      sprite: "Effects/creampie.rsi"
+      sprite: "_Erida/Effects/creampie.rsi"
       state: "creampie_resomi"
       visible: false

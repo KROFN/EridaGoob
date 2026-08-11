@@ -5,7 +5,7 @@
   description: A scaled down version of a proto-kinetic crusher. Uses kinetic energy to vibrate the blade at high speeds.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/crusher_dagger.rsi
+    sprite: _Erida/Objects/Weapons/Melee/crusher_dagger.rsi
     state: icon
   - type: MeleeWeapon
     autoAttack: true

@@ -8,7 +8,7 @@
   components:
   - type: Clickable
   - type: Sprite
-    sprite: Objects/Specific/Janitorial/janitorial.rsi
+    sprite: _Erida/Objects/Specific/Janitorial/janitorial.rsi
     noRot: true
     layers:
     - state: mopbucket
@@ -57,7 +57,7 @@
         whitelist:
           tags:
           - PlushieCarpHolo
-    sprite: Objects/Specific/Janitorial/janitorial.rsi
+    sprite: _Erida/Objects/Specific/Janitorial/janitorial.rsi
   - type: Transform
     noRot: true
   - type: ItemSlots
@@ -157,7 +157,7 @@
   components:
     - type: Sprite
       noRot: true
-      sprite: Objects/Specific/Janitorial/janitorial_cart.rsi
+      sprite: _Erida/Objects/Specific/Janitorial/janitorial_cart.rsi
       layers:
         - state: cart
         - state: cart_water-1
@@ -343,7 +343,7 @@
           whitelist:
             tags:
               - Bucket
-      sprite: Objects/Specific/Janitorial/janitorial_cart.rsi
+      sprite: _Erida/Objects/Specific/Janitorial/janitorial_cart.rsi
     - type: Appearance
     - type: SolutionContainerVisuals
       maxFillLevels: 3

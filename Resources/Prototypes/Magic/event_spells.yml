@@ -28,7 +28,7 @@
     useDelay: 300
     itemIconStyle: BigAction
     icon:
-      sprite: Objects/Weapons/Guns/Rifles/ak.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Rifles/ak.rsi
       state: base
   - type: InstantAction
     event: !type:RandomGlobalSpawnSpellEvent
@@ -178,7 +178,7 @@
     useDelay: 300
     itemIconStyle: BigAction
     icon:
-      sprite: Objects/Magic/magicactions.rsi
+      sprite: _Erida/Objects/Magic/magicactions.rsi
       state: magicmissile
   - type: InstantAction
     event: !type:RandomGlobalSpawnSpellEvent

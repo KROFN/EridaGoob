@@ -7,7 +7,7 @@
   description: Artificial Intelligence cyborg control board.
   components:
     - type: Sprite
-      sprite: Objects/Misc/module.rsi
+      sprite: _Erida/Objects/Misc/module.rsi
       state: boris
     - type: Examiner
     - type: AiRemoteBrain

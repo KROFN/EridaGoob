@@ -10,13 +10,13 @@
             - tag: Sunglasses
               name: construction-graph-tag-sun-glasses
               icon:
-                sprite: Clothing/Eyes/Glasses/sunglasses.rsi
+                sprite: _Erida/Clothing/Eyes/Glasses/sunglasses.rsi
                 state: icon
               doAfter: 5
             - tag: HudMedicalSecurity
               name: construction-graph-tag-medsec-hud
               icon:
-                sprite: Clothing/Eyes/Hud/medsec.rsi
+                sprite: _Erida/Clothing/Eyes/Hud/medsec.rsi
                 state: icon
               doAfter: 5
             - material: Cable

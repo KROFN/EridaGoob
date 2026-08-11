@@ -12,7 +12,7 @@
     layers:
     - shader: unshaded
       map: ["enum.EffectLayers.Unshaded"]
-      sprite: Effects/emp.rsi
+      sprite: _Erida/Effects/emp.rsi
       state: emp_pulse
   - type: EffectVisuals
   - type: Tag
@@ -32,7 +32,7 @@
     layers:
     - shader: unshaded
       map: ["enum.EffectLayers.Unshaded"]
-      sprite: Effects/emp.rsi
+      sprite: _Erida/Effects/emp.rsi
       state: emp_disable
   - type: EffectVisuals
   - type: Tag

@@ -107,10 +107,10 @@
   description: What began as a simple cosplay hood was illegally reinforced with armored plates, transforming it into a functional piece of armor. Looks like it's even capable of protecting the user from the lack of pressure in space.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/voidcloak.rsi
+    sprite: _Erida/Clothing/Head/Hoods/voidcloak.rsi
     state: icon
   - type: Clothing
-    sprite: Clothing/Head/Hoods/voidcloak.rsi
+    sprite: _Erida/Clothing/Head/Hoods/voidcloak.rsi
   - type: Armor
     coverage:
     - Head

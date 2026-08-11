@@ -70,7 +70,7 @@
 - type: latheRecipe
   parent: [ BaseGoldCircuitboardRecipe, BaseResearchComputerRecipeCategory ]
   id: TechDiskComputerCircuitboard
-  icon: { sprite: Structures/Machines/tech_disk_printer.rsi, state: icon } # Goobstation
+  icon: { sprite: _Erida/Structures/Machines/tech_disk_printer.rsi, state: icon } # Goobstation
   result: TechDiskComputerCircuitboard
 
 # Cameras
@@ -83,7 +83,7 @@
 - type: latheRecipe
   parent: [ BaseCircuitboardRecipe, BaseServiceComputerRecipeCategory ]
   id: SurveillanceWirelessCameraMonitorCircuitboard
-  icon: { sprite:  Structures/monitors.rsi, state: mobilevision } # Goobstation
+  icon: { sprite:  _Erida/Structures/monitors.rsi, state: mobilevision } # Goobstation
   result: SurveillanceWirelessCameraMonitorCircuitboard
 
 # Service
@@ -110,5 +110,5 @@
 - type: latheRecipe
   parent: [ BaseCircuitboardRecipe, BaseGeneralComputerRecipeCategory ]
   id: ComputerTelevisionCircuitboard
-  icon: { sprite:  Structures/Machines/computers.rsi, state: television } # Goobstation
+  icon: { sprite:  _Erida/Structures/Machines/computers.rsi, state: television } # Goobstation
   result: ComputerTelevisionCircuitboard

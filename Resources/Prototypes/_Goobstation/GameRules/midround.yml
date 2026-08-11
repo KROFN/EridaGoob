@@ -462,7 +462,7 @@
             gear: SlasherGearBilly
             description: slasher-kit-billy-desc
             sprite:
-              sprite: Objects/Tools/crowbar.rsi
+              sprite: _Erida/Objects/Tools/crowbar.rsi
               state: icon
             machetePrototype: SlasherCrowbar
             bloodTrailMusic:
@@ -474,7 +474,7 @@
             gear: SlasherGearCult
             description: slasher-kit-cult-desc
             sprite:
-              sprite: Clothing/Head/Hoods/cult.rsi
+              sprite: _Erida/Clothing/Head/Hoods/cult.rsi
               state: icon
             machetePrototype: SlasherEldritchBlade
             bloodTrailMusic:
@@ -485,7 +485,7 @@
             gear: SlasherGearMaintenance
             description: slasher-kit-maintenance-desc
             sprite:
-              sprite: Clothing/Head/Hats/papersacksmile.rsi
+              sprite: _Erida/Clothing/Head/Hats/papersacksmile.rsi
               state: icon
             machetePrototype: SlasherButchCleaver
             bloodTrailMusic:
@@ -508,7 +508,7 @@
             gear: SlasherGearClown
             description: slasher-kit-clown-desc
             sprite:
-              sprite: Clothing/Mask/clown.rsi
+              sprite: _Erida/Clothing/Mask/clown.rsi
               state: icon
             machetePrototype: SlasherOffsetCaneClown
             bloodTrailMusic:
@@ -532,7 +532,7 @@
             gear: SlasherGearGlutton
             description: slasher-kit-glutton-desc
             sprite:
-              sprite: Clothing/OuterClothing/Hardsuits/lingspacesuit.rsi
+              sprite: _Erida/Clothing/OuterClothing/Hardsuits/lingspacesuit.rsi
               state: icon
             machetePrototype: SlasherButchCleaver
             bloodTrailMusic:

@@ -7,7 +7,7 @@
   - type: Sprite
     noRot: false
     drawdepth: SmallObjects
-    sprite: Structures/Wallmounts/turret_controls.rsi
+    sprite: _Erida/Structures/Wallmounts/turret_controls.rsi
     layers:
     - state: base
   - type: Damageable
@@ -57,7 +57,7 @@
   - type: Sprite
     noRot: false
     drawdepth: SmallObjects
-    sprite: Structures/Wallmounts/turret_controls.rsi
+    sprite: _Erida/Structures/Wallmounts/turret_controls.rsi
     layers:
     - state: base
     - state: safe

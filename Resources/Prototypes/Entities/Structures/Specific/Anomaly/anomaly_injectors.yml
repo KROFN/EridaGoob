@@ -38,7 +38,7 @@
   - type: Sprite
     layers:
     - state: pink
-    - sprite: Structures/Specific/Anomalies/pyro_anom.rsi
+    - sprite: _Erida/Structures/Specific/Anomalies/pyro_anom.rsi
       state: pulse
     - sprite: Mobs/Species/Human/parts.rsi
       state: full
@@ -55,17 +55,17 @@
         injectionProto: AnomalyInjectionPyroclastic
         startMessage: inner-anomaly-start-message-pyro
         fallbackSprite:
-          sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+          sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
           state: fire
         speciesSprites:
           Vox:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+            sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
             state: fire_VOX
           Arachnid:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+            sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
             state: fire_ARACHNID
           Moth:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+            sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
             state: fire_MOTH
 
 - type: entity
@@ -76,7 +76,7 @@
   - type: Sprite
     layers:
     - state: pink
-    - sprite: Structures/Specific/anomaly.rsi
+    - sprite: _Erida/Structures/Specific/anomaly.rsi
       state: anom3-pulse
     - sprite: Mobs/Species/Human/parts.rsi
       state: full
@@ -93,17 +93,17 @@
         injectionProto: AnomalyInjectionElectric
         startMessage: inner-anomaly-start-message-shock
         fallbackSprite:
-          sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+          sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
           state: shock
         speciesSprites:
           Vox:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+            sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
             state: shock_VOX
           Arachnid:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+            sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
             state: shock_ARACHNID
           Moth:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+            sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
             state: shock_MOTH
 
 - type: entity
@@ -114,7 +114,7 @@
   - type: Sprite
     layers:
     - state: pink
-    - sprite: Structures/Specific/Anomalies/shadow_anom.rsi
+    - sprite: _Erida/Structures/Specific/Anomalies/shadow_anom.rsi
       state: pulse
     - sprite: Mobs/Species/Human/parts.rsi
       state: full
@@ -131,17 +131,17 @@
         injectionProto: AnomalyInjectionShadow
         startMessage: inner-anomaly-start-message-shadow
         fallbackSprite:
-          sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+          sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
           state: shadow
         speciesSprites:
           Vox:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+            sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
             state: shadow_VOX
           Arachnid:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+            sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
             state: shadow_ARACHNID
           Moth:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+            sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
             state: shadow_MOTH
 
 - type: entity
@@ -152,7 +152,7 @@
   - type: Sprite
     layers:
     - state: pink
-    - sprite: Structures/Specific/Anomalies/ice_anom.rsi
+    - sprite: _Erida/Structures/Specific/Anomalies/ice_anom.rsi
       state: pulse
     - sprite: Mobs/Species/Human/parts.rsi
       state: full
@@ -169,17 +169,17 @@
         injectionProto: AnomalyInjectionIce
         startMessage: inner-anomaly-start-message-frost
         fallbackSprite:
-          sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+          sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
           state: frost
         speciesSprites:
           Vox:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+            sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
             state: frost_VOX
           Arachnid:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+            sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
             state: frost_ARACHNID
           Moth:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+            sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
             state: frost_MOTH
 
 - type: entity
@@ -190,7 +190,7 @@
   - type: Sprite
     layers:
     - state: pink
-    - sprite: Structures/Specific/Anomalies/flora_anom.rsi
+    - sprite: _Erida/Structures/Specific/Anomalies/flora_anom.rsi
       state: pulse
     - sprite: Mobs/Species/Human/parts.rsi
       state: full
@@ -207,17 +207,17 @@
         injectionProto: AnomalyInjectionFlora
         startMessage: inner-anomaly-start-message-flora
         fallbackSprite:
-          sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+          sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
           state: flora
         speciesSprites:
           Vox:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+            sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
             state: flora_VOX
           Arachnid:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+            sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
             state: flora_ARACHNID
           Moth:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+            sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
             state: flora_MOTH
 
 - type: entity
@@ -228,7 +228,7 @@
   - type: Sprite
     layers:
     - state: pink
-    - sprite: Structures/Specific/anomaly.rsi
+    - sprite: _Erida/Structures/Specific/anomaly.rsi
       state: anom4-pulse
     - sprite: Mobs/Species/Human/parts.rsi
       state: full
@@ -245,17 +245,17 @@
         injectionProto: AnomalyInjectionBluespace
         startMessage: inner-anomaly-start-message-bluespace
         fallbackSprite:
-          sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+          sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
           state: bluespace
         speciesSprites:
           Vox:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+            sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
             state: bluespace_VOX
           Arachnid:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+            sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
             state: bluespace_ARACHNID
           Moth:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+            sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
             state: bluespace_MOTH
 
 - type: entity
@@ -266,7 +266,7 @@
   - type: Sprite
     layers:
     - state: pink
-    - sprite: Structures/Specific/anomaly.rsi
+    - sprite: _Erida/Structures/Specific/anomaly.rsi
       state: anom5-pulse
     - sprite: Mobs/Species/Human/parts.rsi
       state: full
@@ -283,17 +283,17 @@
         injectionProto: AnomalyInjectionFlesh
         startMessage: inner-anomaly-start-message-flesh
         fallbackSprite:
-          sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+          sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
           state: flesh
         speciesSprites:
           Vox:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+            sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
             state: flesh_VOX
           Arachnid:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+            sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
             state: flesh_ARACHNID
           Moth:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+            sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
             state: flesh_MOTH
 
 - type: entity
@@ -304,7 +304,7 @@
   - type: Sprite
     layers:
     - state: pink
-    - sprite: Structures/Specific/anomaly.rsi
+    - sprite: _Erida/Structures/Specific/anomaly.rsi
       state: anom2-pulse
     - sprite: Mobs/Species/Human/parts.rsi
       state: full
@@ -322,17 +322,17 @@
         injectionProto: AnomalyInjectionGravity
         startMessage: inner-anomaly-start-message-grav
         fallbackSprite:
-          sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+          sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
           state: grav
         speciesSprites:
           Vox:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+            sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
             state: grav_VOX
           Arachnid:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+            sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
             state: grav_ARACHNID
           Moth:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+            sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
             state: grav_MOTH
 
 - type: entity
@@ -343,7 +343,7 @@
   - type: Sprite
     layers:
     - state: pink
-    - sprite: Structures/Specific/Anomalies/tech_anom.rsi
+    - sprite: _Erida/Structures/Specific/Anomalies/tech_anom.rsi
       state: pulse
     - sprite: Mobs/Species/Human/parts.rsi
       state: full
@@ -360,17 +360,17 @@
         injectionProto: AnomalyInjectionTech
         startMessage: inner-anomaly-start-message-tech
         fallbackSprite:
-          sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+          sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
           state: tech
         speciesSprites:
           Vox:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+            sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
             state: tech_VOX
           Arachnid:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+            sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
             state: tech_ARACHNID
           Moth:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+            sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
             state: tech_MOTH
 
 - type: entity
@@ -381,7 +381,7 @@
   - type: Sprite
     layers:
     - state: pink
-    - sprite: Structures/Specific/anomaly.rsi
+    - sprite: _Erida/Structures/Specific/anomaly.rsi
       state: anom6-pulse
       color: "#5ca8cb"
     - sprite: Mobs/Species/Human/parts.rsi
@@ -399,17 +399,17 @@
         injectionProto: AnomalyInjectionRock
         startMessage: inner-anomaly-start-message-rock
         fallbackSprite:
-          sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+          sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
           state: rock
         speciesSprites:
           Vox:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+            sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
             state: rock_VOX
           Arachnid:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+            sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
             state: rock_ARACHNID
           Moth:
-            sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+            sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
             state: rock_MOTH
 
 - type: entity
@@ -420,7 +420,7 @@
   - type: Sprite
     layers:
     - state: pink
-    - sprite: Structures/Specific/Anomalies/santa_anom.rsi
+    - sprite: _Erida/Structures/Specific/Anomalies/santa_anom.rsi
       state: pulse
     - sprite: Mobs/Species/Human/parts.rsi
       state: full
@@ -437,5 +437,5 @@
         injectionProto: AnomalyInjectionSanta
         startMessage: inner-anomaly-start-message-santa
         fallbackSprite:
-          sprite: Structures/Specific/Anomalies/inner_anom_layer.rsi
+          sprite: _Erida/Structures/Specific/Anomalies/inner_anom_layer.rsi
           state: santa

@@ -8,7 +8,7 @@
   abstract: true
   components:
     - type: Sprite
-      sprite: Objects/Specific/Medical/implanter.rsi
+      sprite: _Erida/Objects/Specific/Medical/implanter.rsi
       state: implanter0
       layers:
         - state: implanter1

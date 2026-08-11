@@ -48,7 +48,7 @@
   id: HereticFleshPath3
   name: knowledge-path-flesh-s3-name
   description: knowledge-path-flesh-s3-desc
-  icon: { sprite: Objects/Specific/Hydroponics/poppy.rsi, state: dead }
+  icon: { sprite: _Erida/Objects/Specific/Hydroponics/poppy.rsi, state: dead }
   productHereticKnowledge: ImperfectRitual
   cost:
     KnowledgePoint: 1

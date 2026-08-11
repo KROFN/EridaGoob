@@ -8,7 +8,7 @@
   components:
   - type: StationAiWhitelist
   - type: Sprite
-    sprite: Structures/Machines/jukebox.rsi
+    sprite: _Erida/Structures/Machines/jukebox.rsi
     layers:
     - state: "off"
       map: ["enum.JukeboxVisualLayers.Base"]

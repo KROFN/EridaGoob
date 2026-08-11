@@ -7,7 +7,7 @@
   components:
   - type: Sprite
     noRot: true
-    sprite: Structures/Storage/glassbox.rsi
+    sprite: _Erida/Structures/Storage/glassbox.rsi
     layers:
     - state: base
     - state: lawbringer

@@ -58,14 +58,14 @@
   description: A stuffed toy to remind cargo techs of what they can no longer have.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/ThronglerPlushie.rsi
+    sprite: _Erida/Objects/Weapons/Melee/ThronglerPlushie.rsi
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: -135
     attackRate: 10
   - type: Item
     size: Ginormous
-    sprite: Objects/Weapons/Melee/Throngler-in-hand.rsi
+    sprite: _Erida/Objects/Weapons/Melee/Throngler-in-hand.rsi
   - type: FoodSequenceElement
     entries:
       CottonBurger: ThronglerPlushie
@@ -142,11 +142,11 @@
   description: A cute toy that resembles an even cuter programmer. You'd have to be a monster to grind this up.
   components:
   - type: Sprite
-    sprite: Objects/Fun/Plushies/bee.rsi
+    sprite: _Erida/Objects/Fun/Plushies/bee.rsi
     state: icon
   - type: Item
     size: Normal
-    sprite: Objects/Fun/Plushies/bee.rsi
+    sprite: _Erida/Objects/Fun/Plushies/bee.rsi
   - type: Extractable
     grindableSolutionName: bee
   - type: SolutionContainerManager
@@ -164,7 +164,7 @@
           Quantity: 5
   - type: Clothing
     quickEquip: false
-    sprite: Objects/Fun/Plushies/bee.rsi
+    sprite: _Erida/Objects/Fun/Plushies/bee.rsi
     slots:
     - HEAD
   - type: FoodSequenceElement
@@ -178,7 +178,7 @@
   description: A cute stuffed toy that resembles a hamster. Its face looks squished.
   components:
   - type: Sprite
-    sprite: Objects/Fun/Plushies/hampter.rsi
+    sprite: _Erida/Objects/Fun/Plushies/hampter.rsi
     state: icon
   - type: EmitSoundOnUse
     sound: &PlushieHampterSound
@@ -197,7 +197,7 @@
     soundHit: *PlushieHampterSound
   - type: Clothing
     quickEquip: false
-    sprite: Objects/Fun/Plushies/hampter.rsi
+    sprite: _Erida/Objects/Fun/Plushies/hampter.rsi
     slots:
     - HEAD
     clothingVisuals:
@@ -240,11 +240,11 @@
   description: A stuffed toy that resembles a syndicate nuclear operative. The tag claims operatives to be purely fictitious.
   components:
   - type: Sprite
-    sprite: Objects/Fun/Plushies/nukie.rsi
+    sprite: _Erida/Objects/Fun/Plushies/nukie.rsi
     state: icon
   - type: Clothing
     quickEquip: false
-    sprite: Objects/Fun/Plushies/nukie.rsi
+    sprite: _Erida/Objects/Fun/Plushies/nukie.rsi
     slots:
     - HEAD
     clothingVisuals:
@@ -262,12 +262,12 @@
   description: Rouny.
   components:
   - type: Sprite
-    sprite: Objects/Fun/Plushies/rouny.rsi
+    sprite: _Erida/Objects/Fun/Plushies/rouny.rsi
     state: icon
   - type: Rotatable
   - type: Clothing
     quickEquip: false
-    sprite: Objects/Fun/Plushies/rouny.rsi
+    sprite: _Erida/Objects/Fun/Plushies/rouny.rsi
     slots:
     - HEAD
     clothingVisuals:
@@ -285,7 +285,7 @@
   description: A light emitting friend!
   components:
   - type: Sprite
-    sprite: Objects/Fun/Plushies/lamp.rsi
+    sprite: _Erida/Objects/Fun/Plushies/lamp.rsi
     state: icon
   - type: PointLight
     radius: 1.5
@@ -302,7 +302,7 @@
   description: An adorable stuffed toy that resembles an arachnid. It feels silky..
   components:
   - type: Sprite
-    sprite: Objects/Fun/Plushies/arachnid.rsi
+    sprite: _Erida/Objects/Fun/Plushies/arachnid.rsi
     state: icon
   - type: EmitSoundOnUse
     sound: &PlushieArachnidSound
@@ -321,7 +321,7 @@
     soundHit: *PlushieArachnidSound
   - type: Clothing
     quickEquip: false
-    sprite: Objects/Fun/Plushies/arachnid.rsi
+    sprite: _Erida/Objects/Fun/Plushies/arachnid.rsi
     slots:
     - HEAD
   - type: FoodSequenceElement
@@ -335,10 +335,10 @@
   description: An adorable stuffed toy that resembles a lizardperson. Made by CentComm as a token initiative to combat speciesism in work environments. "Welcome your new colleagues as you do this plush, with open arms!"
   components:
   - type: Sprite
-    sprite: Objects/Fun/Plushies/lizard.rsi
+    sprite: _Erida/Objects/Fun/Plushies/lizard.rsi
     state: icon
   - type: Item
-    sprite: Objects/Fun/Plushies/lizard.rsi
+    sprite: _Erida/Objects/Fun/Plushies/lizard.rsi
   - type: EmitSoundOnUse
     sound: &PlushieLizardSound
       path: /Audio/Items/Toys/weh.ogg
@@ -373,7 +373,7 @@
           Quantity: 10
   - type: Clothing
     quickEquip: false
-    sprite: Objects/Fun/Plushies/lizard.rsi
+    sprite: _Erida/Objects/Fun/Plushies/lizard.rsi
     slots:
     - HEAD
   - type: Speech
@@ -394,10 +394,10 @@
   description: A plushie of a canid of sorts. It yearns to be detonated on a landmine.
   components:
   - type: Sprite
-    sprite: Objects/Fun/Plushies/expi.rsi
+    sprite: _Erida/Objects/Fun/Plushies/expi.rsi
     state: icon
   - type: Item
-    sprite: Objects/Fun/Plushies/expi.rsi
+    sprite: _Erida/Objects/Fun/Plushies/expi.rsi
     inhandVisuals:
       left:
       - state: inhand-left
@@ -428,7 +428,7 @@
       - state: equipped-HELMET
         shader: shaded
     quickEquip: false
-    sprite: Objects/Fun/Plushies/expi.rsi
+    sprite: _Erida/Objects/Fun/Plushies/expi.rsi
     slots:
     - HEAD
   - type: FoodSequenceElement
@@ -482,10 +482,10 @@
   description: An adorable stuffed toy that resembles a lizardperson in an EVA suit. Made by CentComm as a token initiative to combat speciesism in space environments. "Welcome your new colleagues as you do this plush, with open arms!"
   components:
   - type: Sprite
-    sprite: Objects/Fun/Plushies/lizard.rsi
+    sprite: _Erida/Objects/Fun/Plushies/lizard.rsi
     state: plushie_spacelizard
   - type: Item
-    sprite: Objects/Fun/Plushies/lizard.rsi
+    sprite: _Erida/Objects/Fun/Plushies/lizard.rsi
     heldPrefix: spacelizard
   - type: EmitSoundOnUse
     sound: &PlushieSpaceLizardSound
@@ -505,7 +505,7 @@
   - type: MeleeWeapon
     soundHit: *PlushieSpaceLizardSound
   - type: Clothing
-    sprite: Objects/Fun/Plushies/lizard.rsi
+    sprite: _Erida/Objects/Fun/Plushies/lizard.rsi
     slots:
     - HEAD
     quickEquip: false
@@ -560,7 +560,7 @@
           Quantity: 10
   - type: Clothing
     quickEquip: false
-    sprite: Objects/Fun/Plushies/lizard.rsi
+    sprite: _Erida/Objects/Fun/Plushies/lizard.rsi
     equippedPrefix: plushielizardinversed
     slots:
     - HEAD
@@ -576,7 +576,7 @@
   description: An adorable stuffed toy that resembles a diona. Love water and cuddles. Do not wet!
   components:
   - type: Sprite
-    sprite: Objects/Fun/Plushies/diona.rsi
+    sprite: _Erida/Objects/Fun/Plushies/diona.rsi
     layers:
     - state: plushie_diona
     - state: plushie_diona1
@@ -642,7 +642,7 @@
     enabled: false
   - type: Clothing
     quickEquip: false
-    sprite: Objects/Fun/Plushies/diona.rsi
+    sprite: _Erida/Objects/Fun/Plushies/diona.rsi
     slots:
     - HEAD
     clothingVisuals:
@@ -660,7 +660,7 @@
   description: Big and safe to have by your side if you want to discover the world below the surface of the ocean.
   components:
   - type: Sprite
-    sprite: Objects/Fun/Plushies/shark.rsi
+    sprite: _Erida/Objects/Fun/Plushies/shark.rsi
     state: blue
   - type: EmitSoundOnUse
     sound: &PlushieSharkSound
@@ -698,7 +698,7 @@
   description: Hehe shonk :)
   components:
   - type: Sprite
-    sprite: Objects/Fun/Plushies/shark.rsi
+    sprite: _Erida/Objects/Fun/Plushies/shark.rsi
     state: pink
   - type: Item
     heldPrefix: pink
@@ -718,7 +718,7 @@
   description: A quiet, reserved kind of shonk. Loves to ride the grey tide.
   components:
   - type: Sprite
-    sprite: Objects/Fun/Plushies/shark.rsi
+    sprite: _Erida/Objects/Fun/Plushies/shark.rsi
     state: grey
   - type: Item
     heldPrefix: grey
@@ -738,15 +738,15 @@
   description: A large stuffed doll of the elder god Ratvar.
   components:
   - type: Sprite
-    sprite: Objects/Fun/Plushies/ratvar.rsi
+    sprite: _Erida/Objects/Fun/Plushies/ratvar.rsi
     state: icon
   - type: Item
     size: Normal
-    sprite: Objects/Fun/Plushies/ratvar.rsi
+    sprite: _Erida/Objects/Fun/Plushies/ratvar.rsi
   - type: MultiHandedItem
   - type: Clothing
     quickEquip: false
-    sprite: Objects/Fun/Plushies/ratvar.rsi
+    sprite: _Erida/Objects/Fun/Plushies/ratvar.rsi
     slots:
     - neck
   - type: FoodSequenceElement
@@ -760,15 +760,15 @@
   description: A large stuffed doll of the elder goddess Nar'Sie.
   components:
   - type: Sprite
-    sprite: Objects/Fun/Plushies/narsie.rsi
+    sprite: _Erida/Objects/Fun/Plushies/narsie.rsi
     state: icon
   - type: Item
     size: Normal
-    sprite: Objects/Fun/Plushies/narsie.rsi
+    sprite: _Erida/Objects/Fun/Plushies/narsie.rsi
   - type: MultiHandedItem
   - type: Clothing
     quickEquip: false
-    sprite: Objects/Fun/Plushies/narsie.rsi
+    sprite: _Erida/Objects/Fun/Plushies/narsie.rsi
     slots:
     - neck
   - type: FoodSequenceElement
@@ -782,10 +782,10 @@
   description: An adorable stuffed toy that resembles the monstrous space carp.
   components:
   - type: Sprite
-    sprite: Objects/Fun/Plushies/carp.rsi
+    sprite: _Erida/Objects/Fun/Plushies/carp.rsi
     state: carpplush
   - type: Item
-    sprite: Objects/Fun/Plushies/carp.rsi
+    sprite: _Erida/Objects/Fun/Plushies/carp.rsi
     heldPrefix: carpplush
     storedRotation: -90
   - type: EmitSoundOnUse
@@ -897,7 +897,7 @@
   description: An adorable stuffed toy that resembles a slime. It's basically a hacky sack.
   components:
   - type: Sprite
-    sprite: Objects/Fun/Plushies/slime.rsi
+    sprite: _Erida/Objects/Fun/Plushies/slime.rsi
     state: icon
   - type: EmitSoundOnUse
     sound: &PlushieSlimeSound
@@ -916,7 +916,7 @@
     useSound: *PlushieSlimeSound
   - type: Clothing
     quickEquip: false
-    sprite: Objects/Fun/Plushies/slime.rsi
+    sprite: _Erida/Objects/Fun/Plushies/slime.rsi
     slots:
     - HEAD
   - type: FoodSequenceElement
@@ -930,7 +930,7 @@
   description: An adorable stuffed toy that resembles a snake.
   components:
   - type: Sprite
-    sprite: Objects/Fun/Plushies/snake.rsi
+    sprite: _Erida/Objects/Fun/Plushies/snake.rsi
     state: icon
   - type: Item
     heldPrefix: plushiesnake
@@ -951,7 +951,7 @@
     wideAnimationRotation: 90
     soundHit: *PlushieSnakeSound
   - type: Clothing
-    sprite: Objects/Fun/Plushies/snake.rsi
+    sprite: _Erida/Objects/Fun/Plushies/snake.rsi
     quickEquip: false
     slots:
     - NECK
@@ -968,7 +968,7 @@
   description: A colorful toy mouse!
   components:
   - type: Sprite
-    sprite: Objects/Fun/toy_mouse.rsi
+    sprite: _Erida/Objects/Fun/toy_mouse.rsi
     state: icon
   - type: EmitSoundOnUse
     sound: &PlushieMouseSound
@@ -988,7 +988,7 @@
     soundHit: *PlushieMouseSound
   - type: Clothing
     quickEquip: false
-    sprite: Objects/Fun/toy_mouse.rsi
+    sprite: _Erida/Objects/Fun/toy_mouse.rsi
     slots:
     - HEAD
   - type: FoodSequenceElement
@@ -1002,7 +1002,7 @@
   description: SKREEEEEEEEEEEE!
   components:
   - type: Sprite
-    sprite: Objects/Fun/Plushies/vox.rsi
+    sprite: _Erida/Objects/Fun/Plushies/vox.rsi
     state: icon
   - type: EmitSoundOnUse
     sound: &PlushieVoxSound
@@ -1023,7 +1023,7 @@
     soundHit: *PlushieVoxSound
   - type: Clothing
     quickEquip: false
-    sprite: Objects/Fun/Plushies/vox.rsi
+    sprite: _Erida/Objects/Fun/Plushies/vox.rsi
     slots:
     - HEAD
     clothingVisuals:
@@ -1041,11 +1041,11 @@
   description: An adorable stuffed toy that resembles a brave atmosian. Unfortunately, he won't fix those depressurizations for you.
   components:
   - type: Sprite
-    sprite: Objects/Fun/Plushies/atmosian.rsi
+    sprite: _Erida/Objects/Fun/Plushies/atmosian.rsi
     state: icon
   - type: Clothing
     quickEquip: false
-    sprite: Objects/Fun/Plushies/atmosian.rsi
+    sprite: _Erida/Objects/Fun/Plushies/atmosian.rsi
     slots:
     - HEAD
     clothingVisuals:
@@ -1063,7 +1063,7 @@
   description: An adorable stuffed toy that resembles a scary xenomorf. You're lucky it's just a toy.
   components:
   - type: Sprite
-    sprite: Objects/Fun/Plushies/xeno.rsi
+    sprite: _Erida/Objects/Fun/Plushies/xeno.rsi
     state: icon
   - type: Item
     size: Normal
@@ -1086,7 +1086,7 @@
     soundHit: *PlushieXenoSound
   - type: Clothing
     quickEquip: false
-    sprite: Objects/Fun/Plushies/xeno.rsi
+    sprite: _Erida/Objects/Fun/Plushies/xeno.rsi
     slots:
     - HEAD
     clothingVisuals:
@@ -1104,11 +1104,11 @@
   description: I use arch btw!
   components:
   - type: Sprite
-    sprite: Objects/Fun/Plushies/penguin.rsi
+    sprite: _Erida/Objects/Fun/Plushies/penguin.rsi
     state: icon
   - type: Clothing
     quickEquip: false
-    sprite: Objects/Fun/Plushies/penguin.rsi
+    sprite: _Erida/Objects/Fun/Plushies/penguin.rsi
     slots:
     - HEAD
   - type: FoodSequenceElement
@@ -1122,7 +1122,7 @@
   description: This is a felt plush of a human. All craftsmanship is of the lowest quality. The human is naked. The human is crying. The human is screaming.
   components:
   - type: Sprite
-    sprite: Objects/Fun/Plushies/human.rsi
+    sprite: _Erida/Objects/Fun/Plushies/human.rsi
     state: icon
   - type: EmitSoundOnUse
     sound: &PlushieHuman1
@@ -1155,7 +1155,7 @@
         volume: -8
   - type: Clothing
     quickEquip: false
-    sprite: Objects/Fun/Plushies/human.rsi
+    sprite: _Erida/Objects/Fun/Plushies/human.rsi
     slots:
     - HEAD
   - type: FoodSequenceElement
@@ -1169,7 +1169,7 @@
   description: Cute and fluffy moth plushie. Enjoy, bz!
   components:
   - type: Sprite
-    sprite: Objects/Fun/Plushies/moth.rsi
+    sprite: _Erida/Objects/Fun/Plushies/moth.rsi
     state: icon
   - type: EmitSoundOnUse
     sound: &PlushieMothSound
@@ -1188,7 +1188,7 @@
     useSound: *PlushieMothSound
   - type: Clothing
     quickEquip: false
-    sprite: Objects/Fun/Plushies/moth.rsi
+    sprite: _Erida/Objects/Fun/Plushies/moth.rsi
     slots:
     - HEAD
   - type: FoodSequenceElement
@@ -1202,11 +1202,11 @@
   description: Unable to eat, but just as fluffy as the real guy!
   components:
   - type: Sprite
-    sprite: Objects/Fun/toy_ian.rsi
+    sprite: _Erida/Objects/Fun/toy_ian.rsi
     state: icon
   - type: Clothing
     quickEquip: false
-    sprite: Objects/Fun/toy_ian.rsi
+    sprite: _Erida/Objects/Fun/toy_ian.rsi
     slots:
     - HEAD
     clothingVisuals:
@@ -1240,13 +1240,13 @@
   description: Sus!
   components:
   - type: Sprite
-    sprite: Objects/Fun/pequeno.rsi
+    sprite: _Erida/Objects/Fun/pequeno.rsi
     layers:
     - state: base
       map: [ "enum.DamageStateVisualLayers.Base" ]
     - state: visor
   - type: Clothing
-    sprite: Objects/Fun/pequeno.rsi
+    sprite: _Erida/Objects/Fun/pequeno.rsi
     slots:
     - HEAD
     clothingVisuals:

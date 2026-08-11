@@ -10,7 +10,7 @@
   - type: MovementIgnoreGravity
     weightless: true
   - type: Sprite
-    sprite: Objects/Fun/immovable_rod.rsi
+    sprite: _Erida/Objects/Fun/immovable_rod.rsi
     state: icon
     noRot: false
   - type: ImmovableRod
@@ -110,7 +110,7 @@
     lerpTime: 0.1
     alphaLerpAmount: 0.4
     sprite:
-      sprite: /Textures/Objects/Fun/immovable_rod.rsi
+      sprite: /Textures/_Erida/Objects/Fun/immovable_rod.rsi
       state: icon
   - type: StatusIcon # Goobstation
     bounds: -0.5,-0.5,0.5,0.5
@@ -133,7 +133,7 @@
   description: Hurled like a javelin, with the power of a thousand furious janitors.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Janitorial/mop.rsi
+    sprite: _Erida/Objects/Specific/Janitorial/mop.rsi
     state: mop
     rotation: 225
     noRot: false
@@ -145,7 +145,7 @@
   description: SHARK TORNADO!
   components:
   - type: Sprite
-    sprite: Objects/Fun/Plushies/shark.rsi
+    sprite: _Erida/Objects/Fun/Plushies/shark.rsi
     state: blue
     rotation: 90
     noRot: false
@@ -169,7 +169,7 @@
   description: At least you won't slip on it.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/banana.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/banana.rsi
     state: produce
     noRot: false
 
@@ -180,7 +180,7 @@
   description: Bwoink.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/sledgehammer.rsi
+    sprite: _Erida/Objects/Weapons/Melee/sledgehammer.rsi
     state: icon
     rotation: 225
     noRot: false
@@ -192,7 +192,7 @@
   description: If you catch it, you can keep it.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/Throngler2.rsi
+    sprite: _Erida/Objects/Weapons/Melee/Throngler2.rsi
     state: icon
     rotation: 225
     noRot: false
@@ -204,7 +204,7 @@
   description: What did you expect?
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/debug.rsi
+    sprite: _Erida/Objects/Weapons/Melee/debug.rsi
     state: icon
     rotation: 225
     noRot: false
@@ -216,6 +216,6 @@
   description: WEH!
   components:
   - type: Sprite
-    sprite: Objects/Fun/Plushies/lizard.rsi
+    sprite: _Erida/Objects/Fun/Plushies/lizard.rsi
     state: icon
     noRot: false

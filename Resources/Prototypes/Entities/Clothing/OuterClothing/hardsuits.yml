@@ -154,9 +154,9 @@
   description: A special suit that protects against hazardous, low pressure environments. Has thermal shielding.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/atmospherics.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/atmospherics.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/atmospherics.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/atmospherics.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -196,9 +196,9 @@
   description: A special hardsuit that protects against hazardous, low pressure environments. Has radiation shielding.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/engineering.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/engineering.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/engineering.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/engineering.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.04
     lowPressureMultiplier: 1000
@@ -235,9 +235,9 @@
   description: A lightweight hardsuit designed for industrial EVA in zero gravity. # Goob edit
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/spatio.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/spatio.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/spatio.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/spatio.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.7
     lowPressureMultiplier: 1000
@@ -276,9 +276,9 @@
   description: A special suit that protects against hazardous, low pressure environments. Has reinforced plating for wildlife encounters.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/salvage.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/salvage.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/salvage.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/salvage.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
@@ -319,9 +319,9 @@
   description: A lightweight hardsuit, adorned with a patchwork of thick, chitinous goliath hide. # Goob edit
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/goliath.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/goliath.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/goliath.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/goliath.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
@@ -365,9 +365,9 @@
   description: Fire. Heat. These things forge great weapons, they also forge great salvagers.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/maxim.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/maxim.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/maxim.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/maxim.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -410,9 +410,9 @@
   description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/security.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/security.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/security.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/security.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
@@ -457,9 +457,9 @@
   description: Special hardsuit of the guardian angel of the brig. It is the medical version of the security hardsuit. # Goob edit
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/brigmedic.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/brigmedic.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/brigmedic.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/brigmedic.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.3
     lowPressureMultiplier: 1000
@@ -495,9 +495,9 @@
   description: A specialized riot suit geared to combat low pressure environments.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/security-warden.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/security-warden.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/security-warden.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/security-warden.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
@@ -538,9 +538,9 @@
   description: A formal and slightly armored hardsuit, made for the station's captain. # Goob edit
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/capspace.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/capspace.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/capspace.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/capspace.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -586,9 +586,9 @@
   description: A special hardsuit that protects against hazardous, low pressure environments, made for the chief engineer of the station. # Goob edit
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/engineering-white.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/engineering-white.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/engineering-white.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/engineering-white.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -636,9 +636,9 @@
   description: A special suit that protects against hazardous, low pressure environments. Built with lightweight materials for easier movement. # Goob edit
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/medical.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/medical.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/medical.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/medical.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.3
     lowPressureMultiplier: 1000
@@ -673,9 +673,9 @@
   description: A special suit that protects against hazardous, low pressure environments. Has an additional layer of armor.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/rd.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/rd.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/rd.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/rd.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -726,9 +726,9 @@
   description: Lighter and more protective than the standard security hardsuit, but not by much.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/security-red.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/security-red.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/security-red.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/security-red.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.45
     lowPressureMultiplier: 1000
@@ -771,9 +771,9 @@
   categories: [ DoNotMap ]
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/luxury.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/luxury.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/luxury.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/luxury.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
@@ -809,11 +809,11 @@
   description: A heavily armored hardsuit designed for work in special operations. Property of Gorlex Marauders.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/syndicate.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/syndicate.rsi
   - type: Item
     size: Huge
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/syndicate.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/syndicate.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
@@ -864,9 +864,9 @@
   description: A heavily armored and agile advanced hardsuit specifically designed for field medic operations.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/syndiemedic.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/syndiemedic.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/syndiemedic.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/syndiemedic.rsi
   - type: ToggleableClothing # Goobstation - Modsuits change
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitSyndieMedic
@@ -888,9 +888,9 @@
   description: An elite version of the blood-red hardsuit, with improved mobility and fireproofing. Property of Gorlex Marauders. # Goob edit
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/syndieelite.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/syndieelite.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/syndieelite.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/syndieelite.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -940,9 +940,9 @@
   description: A bulked up version of the blood-red hardsuit, purpose-built for the commander of a syndicate operative squad. Has significantly improved armor for those deadly front-lines firefights. # Goob edit
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/syndiecommander.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/syndiecommander.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/syndiecommander.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/syndiecommander.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
@@ -989,9 +989,9 @@
   description: A suit made by the cutting edge R&D department at Cybersun to be hyper resilient.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/cybersun.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/cybersun.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/cybersun.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/cybersun.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.2
     lowPressureMultiplier: 1000
@@ -1039,9 +1039,9 @@
   description: A bizarre gem-encrusted suit that radiates magical energies.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/wizard.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/wizard.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/wizard.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/wizard.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
@@ -1087,9 +1087,9 @@
   description: A spaceworthy biomass of pressure and temperature resistant tissue.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/lingspacesuit.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/lingspacesuit.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/lingspacesuit.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/lingspacesuit.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.225
     lowPressureMultiplier: 1000
@@ -1124,11 +1124,11 @@
   description: A heavy space suit that provides some basic protection from the cold harsh realities of deep space.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/pirateeva.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/pirateeva.rsi
   - type: Item
     size: Huge
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/pirateeva.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/pirateeva.rsi
   - type: ExplosionResistance
     damageCoefficient: 0.7
   - type: Armor
@@ -1162,11 +1162,11 @@
   description: An ancient armored hardsuit, perfect for defending against space scurvy and toolbox-wielding scallywags. # Goob edit
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/piratecaptain.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/piratecaptain.rsi
   - type: Item
     size: Huge
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/piratecaptain.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/piratecaptain.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -1204,9 +1204,9 @@
   description: A protective hardsuit worn by the leader of an emergency response team. # Goob edit
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertleader.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/ERTSuits/ertleader.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertleader.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/ERTSuits/ertleader.rsi
   - type: ToggleableClothing # Goobstation - Modsuits change
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitERTLeader
@@ -1219,9 +1219,9 @@
   description: A protective hardsuit worn by the chaplains of an Emergency Response Team. # Goob edit
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertchaplain.rsi #if you change this, please update the humanoid.yml with a better markers sprite.
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/ERTSuits/ertchaplain.rsi #if you change this, please update the humanoid.yml with a better markers sprite.
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertchaplain.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/ERTSuits/ertchaplain.rsi
   - type: ToggleableClothing # Goobstation - Modsuits change
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitERTChaplain
@@ -1234,9 +1234,9 @@
   description: A protective hardsuit worn by the engineers of an emergency response team. # Goob edit
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertengineer.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/ERTSuits/ertengineer.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertengineer.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/ERTSuits/ertengineer.rsi
   - type: ToggleableClothing # Goobstation - Modsuits change
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitERTEngineer
@@ -1251,9 +1251,9 @@
   description: A protective hardsuit worn by the medics of an emergency response team. # Goob edit
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertmedical.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/ERTSuits/ertmedical.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertmedical.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/ERTSuits/ertmedical.rsi
   - type: ToggleableClothing # Goobstation - Modsuits change
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitERTMedical
@@ -1266,9 +1266,9 @@
   description: A protective hardsuit worn by the security officers of an emergency response team. # Goob edit
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertsecurity.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/ERTSuits/ertsecurity.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertsecurity.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/ERTSuits/ertsecurity.rsi
   - type: ToggleableClothing # Goobstation - Modsuits change
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitERTSecurity
@@ -1285,9 +1285,9 @@
   description: A protective hardsuit worn by the janitors of an emergency response team. # Goob edit
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertjanitor.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/ERTSuits/ertjanitor.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/ERTSuits/ertjanitor.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/ERTSuits/ertjanitor.rsi
   - type: ToggleableClothing # Goobstation - Modsuits change
     clothingPrototypes:
       head: ClothingHeadHelmetHardsuitERTJanitor
@@ -1300,9 +1300,9 @@
   description: A famous hardsuit used by Central Command's death-squadrons, often shown in movies by Nanotrasen intended to increase recruitment. # Goob edit
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/deathsquad.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/deathsquad.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/deathsquad.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/deathsquad.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -1358,9 +1358,9 @@
   description: A lightweight yet strong exosuit used for special cleanup operations.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/cburn.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/cburn.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/cburn.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/cburn.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.02
     lowPressureMultiplier: 1000
@@ -1404,9 +1404,9 @@
   description: A custom-made clown hardsuit. # Goob edit
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/clown.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/clown.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/clown.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/clown.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000
@@ -1441,9 +1441,9 @@
   description: A custom-made mime hardsuit. # Goob edit.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/mime.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/mime.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/mime.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/mime.rsi
   - type: Construction
     graph: MimeHardsuit
     node: mimeHardsuit
@@ -1459,9 +1459,9 @@
   description: A festive, cheerful hardsuit that protects the jolly gift-giver while on sleighrides in space. Offers some resistance against asteroid strikes. # Goob edit
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/santahardsuit.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/santahardsuit.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/santahardsuit.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/santahardsuit.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.5
     lowPressureMultiplier: 1000

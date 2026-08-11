@@ -10,9 +10,9 @@
     - type: Tag
       tags: [] # ignore "WhitelistChameleon" tag
     - type: Sprite
-      sprite: Clothing/Mask/gas.rsi
+      sprite: _Erida/Clothing/Mask/gas.rsi
     - type: Clothing
-      sprite: Clothing/Mask/gas.rsi
+      sprite: _Erida/Clothing/Mask/gas.rsi
     - type: ChameleonClothing
       slot: [mask]
       default: ClothingMaskGas
@@ -54,12 +54,12 @@
   description: Previously used in strange pantomimes, after one of the actors went mad on stage these masks have avoided use. You swear its face contorts when you're not looking.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/goldenmask.rsi
+    sprite: _Erida/Clothing/Mask/goldenmask.rsi
     layers:
     - state: icon
       map: [ "mask" ]
   - type: Clothing
-    sprite: Clothing/Mask/goldenmask.rsi
+    sprite: _Erida/Clothing/Mask/goldenmask.rsi
   - type: Appearance
   - type: GenericVisualizer
     visuals:

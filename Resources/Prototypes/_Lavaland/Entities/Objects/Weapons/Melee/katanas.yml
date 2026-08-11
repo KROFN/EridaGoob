@@ -17,7 +17,7 @@
     - 0,0,0,3
     #storedSprite:
     #  state: storage
-    #  sprite: Objects/Weapons/Melee/katana_storage_64x.rsi #Done in 64x64 because it looks way too puny in 32x32
+    #  sprite: _Erida/Objects/Weapons/Melee/katana_storage_64x.rsi #Done in 64x64 because it looks way too puny in 32x32
   - type: Clothing
     sprite: _Lavaland/Objects/Weapons/Melee/katana.rsi
     slots:
@@ -52,7 +52,7 @@
   - type: Item
     #storedSprite:
     #  state: storage
-    #  sprite: Objects/Weapons/Melee/katana_storage_64x.rsi #Done in 64x64 because it looks way too puny in 32x32
+    #  sprite: _Erida/Objects/Weapons/Melee/katana_storage_64x.rsi #Done in 64x64 because it looks way too puny in 32x32
     inhandVisuals:
       left:
       - state: handle-inhand-left
@@ -90,7 +90,7 @@
   - type: Item
     #storedSprite:
     #  state: storage
-    #  sprite: Objects/Weapons/Melee/katana_storage_64x.rsi #Done in 64x64 because it looks way too puny in 32x32
+    #  sprite: _Erida/Objects/Weapons/Melee/katana_storage_64x.rsi #Done in 64x64 because it looks way too puny in 32x32
     inhandVisuals:
       left:
       - state: handle-inhand-left

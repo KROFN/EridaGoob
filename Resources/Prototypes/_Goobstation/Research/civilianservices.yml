@@ -37,7 +37,7 @@
   id: RescueTechnology
   name: research-technology-rescue
   icon:
-    sprite: Objects/Specific/Medical/handheldcrewmonitor.rsi
+    sprite: _Erida/Objects/Specific/Medical/handheldcrewmonitor.rsi
     state: scanner
   discipline: CivilianServices
   tier: 1
@@ -87,7 +87,7 @@
   id: HONKWeapons
   name: research-technology-honk-weapons
   icon:
-    sprite: Objects/Specific/Mech/mecha_equipment.rsi
+    sprite: _Erida/Objects/Specific/Mech/mecha_equipment.rsi
     state: mecha_bananamrtr
   discipline: CivilianServices
   tier: 2
@@ -105,7 +105,7 @@
   id: CloningTechnology
   name: research-technology-cloning
   icon:
-    sprite: Structures/Machines/cloning.rsi
+    sprite: _Erida/Structures/Machines/cloning.rsi
     state: pod_0
   discipline: CivilianServices
   tier: 3

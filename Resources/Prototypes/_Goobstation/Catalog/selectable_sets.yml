@@ -7,7 +7,7 @@
   name: selectable-set-thief-anatomy-name
   description: selectable-set-thief-anatomy-description
   sprite:
-    sprite: Objects/Specific/Medical/implanter.rsi
+    sprite: _Erida/Objects/Specific/Medical/implanter.rsi
     state: implanter0
   content:
   - StorageImplanter
@@ -23,7 +23,7 @@
   name: selectable-set-thief-breacher-name
   description: selectable-set-thief-breacher-description
   sprite:
-    sprite: Objects/Tools/jaws_of_life.rsi
+    sprite: _Erida/Objects/Tools/jaws_of_life.rsi
     state: jaws_pry
   content:
   - WelderIndustrialAdvanced
@@ -40,7 +40,7 @@
   name: selectable-set-thief-chameleon-name
   description: selectable-set-thief-chameleon-description
   sprite:
-    sprite: /Textures/Clothing/OuterClothing/Misc/black_hoodie.rsi
+    sprite: /Textures/_Erida/Clothing/OuterClothing/Misc/black_hoodie.rsi
     state: icon
   content:
   - ClothingBackpackChameleonFill
@@ -53,7 +53,7 @@
   name: selectable-set-thief-syndie-name
   description: selectable-set-thief-syndie-description
   sprite:
-    sprite: Objects/Specific/Syndicate/telecrystal.rsi
+    sprite: _Erida/Objects/Specific/Syndicate/telecrystal.rsi
     state: telecrystal
   content:
   - RadioJammer
@@ -69,7 +69,7 @@
   name: selectable-set-thief-sleeper-name
   description: selectable-set-thief-sleeper-description
   sprite:
-    sprite: Objects/Tanks/anesthetic.rsi
+    sprite: _Erida/Objects/Tanks/anesthetic.rsi
     state: icon
   content:
   - ChemistryBottleNocturine
@@ -82,7 +82,7 @@
   name: selectable-set-thief-communicator-name
   description: selectable-set-thief-communicator-description
   sprite:
-    sprite: Objects/Tools/spy_device.rsi
+    sprite: _Erida/Objects/Tools/spy_device.rsi
     state: icon
   content:
   - EncryptionKeyStationMaster
@@ -95,7 +95,7 @@
   name: selectable-set-thief-smuggler-name
   description: selectable-set-thief-smuggler-description
   sprite:
-    sprite: Clothing/Neck/Cloaks/void.rsi
+    sprite: _Erida/Clothing/Neck/Cloaks/void.rsi
     state: icon
   content:
   - InvisibleCrate
@@ -112,7 +112,7 @@
   name: selectable-set-syndicate-spy-name
   description: selectable-set-syndicate-spy-description
   sprite:
-    sprite: Clothing/Mask/gas.rsi
+    sprite: _Erida/Clothing/Mask/gas.rsi
     state: icon
   content:
   - EncryptionKeySyndie
@@ -131,7 +131,7 @@
   name: selectable-set-syndicate-hitman-name
   description: selectable-set-syndicate-hitman-description
   sprite:
-    sprite: Objects/Weapons/Guns/Pistols/cobra.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Pistols/cobra.rsi
     state: icon
   content:
   - EncryptionKeySyndie
@@ -172,7 +172,7 @@
   name: selectable-set-syndicate-hacker-name
   description: selectable-set-syndicate-hacker-description
   sprite:
-    sprite: Objects/Misc/module.rsi
+    sprite: _Erida/Objects/Misc/module.rsi
     state: std_mod
   content:
   - EncryptionKeySyndie
@@ -190,7 +190,7 @@
   name: selectable-set-syndicate-desword-name
   description: selectable-set-syndicate-desword-description
   sprite:
-    sprite: Objects/Weapons/Melee/e_sword_double.rsi
+    sprite: _Erida/Objects/Weapons/Melee/e_sword_double.rsi
     state: icon
   content:
   - EncryptionKeySyndie
@@ -204,7 +204,7 @@
   name: selectable-set-syndicate-grenadier-name
   description: selectable-set-syndicate-grenadier-description
   sprite:
-    sprite: Objects/Weapons/Grenades/syndgrenade.rsi
+    sprite: _Erida/Objects/Weapons/Grenades/syndgrenade.rsi
     state: icon
   content:
   - ClothingBeltMilitaryRigGrenadierFilled
@@ -218,7 +218,7 @@
   name: selectable-set-syndicate-fluclear-name
   description: selectable-set-syndicate-fluclear-description
   sprite:
-    sprite: Clothing/OuterClothing/Hardsuits/syndicate.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/syndicate.rsi
     state: icon
   content:
   - ClothingHeadsetAltSyndicate
@@ -264,7 +264,7 @@
   name: selectable-set-syndicate-carp-name
   description: selectable-set-syndicate-carp-description
   sprite:
-    sprite: Objects/Fun/Plushies/carp.rsi
+    sprite: _Erida/Objects/Fun/Plushies/carp.rsi
     state: carpplush
   content:
     - EncryptionKeySyndie
@@ -287,7 +287,7 @@
   name: selectable-set-syndicate-western-name
   description: selectable-set-syndicate-western-description
   sprite:
-    sprite: Clothing/Head/Hats/cowboyhatbrown.rsi
+    sprite: _Erida/Clothing/Head/Hats/cowboyhatbrown.rsi
     state: icon
   content:
     - HoloCigarWestern
@@ -446,7 +446,7 @@
   name: selectable-set-ert-pulse-name
   description: selectable-set-ert-pulse-description
   sprite:
-    sprite: Objects/Weapons/Guns/Battery/pulse_carbine.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/pulse_carbine.rsi
     state: icon
   content:
     - WeaponPulseCarbineAdvanced
@@ -463,7 +463,7 @@
   name: selectable-set-paramedic-voidsuit-name
   description: selectable-set-paramedic-voidsuit-desc
   sprite:
-    sprite: Clothing/OuterClothing/Hardsuits/paramed.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/paramed.rsi
     state: icon
   content:
   - ClothingOuterHardsuitVoidParamed
@@ -505,7 +505,7 @@
   name: selectable-set-headofsecurity-voidsuit-name
   description: selectable-set-headofsecurity-voidsuit-desc
   sprite:
-    sprite: Clothing/OuterClothing/Hardsuits/security-red.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/security-red.rsi
     state: icon
   content:
   - ClothingOuterHardsuitSecurityRed
@@ -527,7 +527,7 @@
   name: selectable-set-engineering-voidsuit-name
   description: selectable-set-engineering-voidsuit-desc
   sprite:
-    sprite: Clothing/OuterClothing/Hardsuits/engineering.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/engineering.rsi
     state: icon
   content:
   - ClothingOuterHardsuitEngineering
@@ -591,7 +591,7 @@
   name: selectable-set-captain-voidsuit-name
   description: selectable-set-captain-voidsuit-desc
   sprite:
-    sprite: Clothing/OuterClothing/Hardsuits/capspace.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/capspace.rsi
     state: icon
   content:
   - ClothingOuterHardsuitCap
@@ -613,7 +613,7 @@
   name: selectable-set-research-director-voidsuit-name
   description: selectable-set-research-director-voidsuit-desc
   sprite:
-    sprite: Clothing/OuterClothing/Hardsuits/rd.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/rd.rsi
     state: icon
   content:
   - ClothingOuterHardsuitRd

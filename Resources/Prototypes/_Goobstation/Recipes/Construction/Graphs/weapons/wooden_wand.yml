@@ -10,7 +10,7 @@
       - component: AnomalyCore
         name: recipe-anomaly-core-name
         icon:
-          sprite: Structures/Specific/Anomalies/Cores/gravity_core.rsi
+          sprite: _Erida/Structures/Specific/Anomalies/Cores/gravity_core.rsi
           state: core
       - material: WoodPlank
         amount: 5

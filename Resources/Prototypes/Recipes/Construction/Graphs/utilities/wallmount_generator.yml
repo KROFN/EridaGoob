@@ -41,7 +41,7 @@
           store: board
           name: construction-graph-tag-wallmount-generator-circuit-board
           icon:
-            sprite: "Objects/Misc/module.rsi"
+            sprite: "_Erida/Objects/Misc/module.rsi"
             state: "charger_APC"
           doAfter: 1
       - to: electronicsAPU
@@ -50,7 +50,7 @@
           store: board
           name: construction-graph-tag-wallmount-apu-circuit-board
           icon:
-            sprite: "Objects/Misc/module.rsi"
+            sprite: "_Erida/Objects/Misc/module.rsi"
             state: "charger_APC"
           doAfter: 1
       - to: frame

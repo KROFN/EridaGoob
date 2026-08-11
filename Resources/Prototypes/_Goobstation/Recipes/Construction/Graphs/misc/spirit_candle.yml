@@ -10,7 +10,7 @@
       - tag: Candle
         name: construction-graph-candle
         icon:
-          sprite: Objects/Misc/candles.rsi
+          sprite: _Erida/Objects/Misc/candles.rsi
           state: candle-big
         doAfter: 2
       completed:

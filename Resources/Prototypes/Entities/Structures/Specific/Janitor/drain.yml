@@ -9,7 +9,7 @@
   components:
     - type: Sprite
       drawdepth: FloorObjects
-      sprite: Objects/Specific/Janitorial/drain.rsi
+      sprite: _Erida/Objects/Specific/Janitorial/drain.rsi
       layers:
       - state: icon
       - map: [ "enum.SolutionContainerLayers.Fill" ]

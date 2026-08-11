@@ -3,7 +3,7 @@
 - type: cargoProduct
   id: CargoGatewayLavaland
   icon:
-    sprite:  /Textures/Structures/Machines/gateway.rsi
+    sprite:  /Textures/_Erida/Structures/Machines/gateway.rsi
     state: frame
   product: GatewayFlatpackLavaland
   cost: 20000

@@ -10,18 +10,18 @@
       steps:
       - tag: Medkit
         icon:
-          sprite: Objects/Specific/Medical/firstaidkits.rsi
+          sprite: _Erida/Objects/Specific/Medical/firstaidkits.rsi
           state: firstaid
         name: construction-graph-tag-medkit
       - tag: DiscreteHealthAnalyzer
         icon:
-          sprite: Objects/Specific/Medical/healthanalyzer.rsi
+          sprite: _Erida/Objects/Specific/Medical/healthanalyzer.rsi
           state: analyzer
         name: construction-graph-tag-health-analyzer
         doAfter: 2
       - tag: ProximitySensor
         icon:
-          sprite: Objects/Misc/proximity_sensor.rsi
+          sprite: _Erida/Objects/Misc/proximity_sensor.rsi
           state: icon
         name: construction-graph-tag-proximity-sensor
         doAfter: 2

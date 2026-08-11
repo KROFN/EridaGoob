@@ -12,7 +12,7 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Objects/Consumable/Food/meat.rsi
+      - sprite: _Erida/Objects/Consumable/Food/meat.rsi
         state: plain
   - type: EntityTableSpawner
     table: !type:NestedSelector

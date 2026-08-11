@@ -36,7 +36,7 @@
       behaviors:
       - !type:OpenBehavior
   - type: Item
-    sprite: Objects/Consumable/Food/snacks.rsi
+    sprite: _Erida/Objects/Consumable/Food/snacks.rsi
     heldPrefix: packet
     size: Small
   - type: DamageOnLand
@@ -67,7 +67,7 @@
   - type: Sprite
     state: trash
   - type: Item
-    sprite: Objects/Consumable/Food/snacks.rsi
+    sprite: _Erida/Objects/Consumable/Food/snacks.rsi
     heldPrefix: packet
     size: Small
   - type: PhysicalComposition
@@ -90,7 +90,7 @@
   - type: Item
     storedOffset: 0,-3
   - type: Sprite
-    sprite: Objects/Consumable/Food/Tins/peaches.rsi
+    sprite: _Erida/Objects/Consumable/Food/Tins/peaches.rsi
   - type: FlavorProfile
     flavors:
     - sweet
@@ -110,7 +110,7 @@
   - type: Item
     storedOffset: 0,-3
   - type: Sprite
-    sprite: Objects/Consumable/Food/Tins/peaches.rsi
+    sprite: _Erida/Objects/Consumable/Food/Tins/peaches.rsi
 
 # slightly run down texture and different name
 - type: entity
@@ -119,7 +119,7 @@
   name: maintenance peaches
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Food/Tins/maint_peaches.rsi
+    sprite: _Erida/Objects/Consumable/Food/Tins/maint_peaches.rsi
   - type: Edible
     trash:
     - FoodTinPeachesMaintTrash
@@ -145,7 +145,7 @@
   - type: Item
     storedOffset: 0,-3
   - type: Sprite
-    sprite: Objects/Consumable/Food/Tins/maint_peaches.rsi
+    sprite: _Erida/Objects/Consumable/Food/Tins/maint_peaches.rsi
 
 - type: entity
   parent: FoodTinBase
@@ -156,7 +156,7 @@
   - type: Item
     storedOffset: 0,-3
   - type: Sprite
-    sprite: Objects/Consumable/Food/Tins/beans.rsi
+    sprite: _Erida/Objects/Consumable/Food/Tins/beans.rsi
   - type: FlavorProfile
     flavors:
     - savory
@@ -174,7 +174,7 @@
   - type: Item
     storedOffset: 0,-3
   - type: Sprite
-    sprite: Objects/Consumable/Food/Tins/beans.rsi
+    sprite: _Erida/Objects/Consumable/Food/Tins/beans.rsi
 
 # MRE can
 
@@ -189,7 +189,7 @@
     shape:
     - 0,0,0,0
   - type: Sprite
-    sprite: Objects/Consumable/Food/Tins/meat.rsi
+    sprite: _Erida/Objects/Consumable/Food/Tins/meat.rsi
   # the convenient pull tab
   - type: Openable
     openableByHand: true
@@ -216,4 +216,4 @@
     shape:
     - 0,0,0,0
   - type: Sprite
-    sprite: Objects/Consumable/Food/Tins/meat.rsi
+    sprite: _Erida/Objects/Consumable/Food/Tins/meat.rsi

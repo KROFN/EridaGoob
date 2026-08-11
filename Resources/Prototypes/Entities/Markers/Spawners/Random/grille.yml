@@ -7,7 +7,7 @@
   components:
     - type: Sprite
       layers:
-        - sprite: Structures/Walls/random.rsi
+        - sprite: _Erida/Structures/Walls/random.rsi
           state: randomgrille
     - type: RandomSpawner
       prototypes:

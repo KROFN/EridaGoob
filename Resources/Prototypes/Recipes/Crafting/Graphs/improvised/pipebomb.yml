@@ -10,7 +10,7 @@
       steps:
       - tag: Pipe
         icon:
-          sprite: Structures/Piping/Atmospherics/pipe.rsi
+          sprite: _Erida/Structures/Piping/Atmospherics/pipe.rsi
           state: pipeStraight
         name: construction-graph-tag-pipe
       - material: Steel

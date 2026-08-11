@@ -4,7 +4,7 @@
   id: Ripley2
   name: research-technology-ripley-mkii
   icon:
-    sprite: Objects/Specific/Mech/mecha.rsi
+    sprite: _Erida/Objects/Specific/Mech/mecha.rsi
     state: ripleymkii
   discipline: Industrial
   tier: 2
@@ -20,7 +20,7 @@
   id: Clarke
   name: research-technology-clarke
   icon:
-    sprite: Objects/Specific/Mech/mecha.rsi
+    sprite: _Erida/Objects/Specific/Mech/mecha.rsi
     state: clarke
   discipline: Industrial
   tier: 2
@@ -41,7 +41,7 @@
   id: AdvancedPowerGeneration
   name: research-technology-advanced-power-generation
   icon:
-    sprite: Structures/Power/Generation/Tesla/coil.rsi
+    sprite: _Erida/Structures/Power/Generation/Tesla/coil.rsi
     state: coil
   discipline: Industrial
   tier: 1

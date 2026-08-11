@@ -9,7 +9,7 @@
     mode: SnapgridCenter
   components:
   - type: Sprite
-    sprite: Structures/Wallmounts/mirror.rsi
+    sprite: _Erida/Structures/Wallmounts/mirror.rsi
     state: mirror
   - type: MagicMirror #instant and silent
     changeHairSound: null

@@ -14,7 +14,7 @@
     - type: ResistLocker
     - type: Sprite
       drawdepth: Objects
-      sprite: Structures/Storage/Crates/artifact.rsi
+      sprite: _Erida/Structures/Storage/Crates/artifact.rsi
       layers:
       - state: artifact_container
         map: ["enum.StorageVisualLayers.Base"]
@@ -42,7 +42,7 @@
           layer:
           - MachineLayer
     - type: Icon
-      sprite: Structures/Storage/Crates/artifact.rsi
+      sprite: _Erida/Structures/Storage/Crates/artifact.rsi
       state: artifact_container_icon
     - type: EntityStorage
       capacity: 1
@@ -101,7 +101,7 @@
   description: A handheld case used to safely contain and move small artifacts.
   components:
   - type: Sprite
-    sprite: Objects/Storage/artifact_container.rsi
+    sprite: _Erida/Objects/Storage/artifact_container.rsi
     state: icon
     layers:
       - state: icon
@@ -117,7 +117,7 @@
       components:
       - XenoArtifact
   - type: Item
-    sprite: Objects/Storage/artifact_container.rsi
+    sprite: _Erida/Objects/Storage/artifact_container.rsi
     size: Huge
   - type: MeleeWeapon
     damage:

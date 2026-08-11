@@ -208,7 +208,7 @@
 #    - type: Scalpel
 #  - type: SurgeryCutLarvaRootsStep
 #  - type: Sprite
-#    sprite: Objects/Specific/Medical/Surgery/scalpel.rsi
+#    sprite: _Erida/Objects/Specific/Medical/Surgery/scalpel.rsi
 #    state: scalpel
 #  - type: SurgeryOperatingTableCondition
 
@@ -224,7 +224,7 @@
 #    bodyRemove:
 #    - type: VictimInfected
 #  - type: Sprite
-#    sprite: Objects/Specific/Medical/Surgery/scissors.rsi
+#    sprite: _Erida/Objects/Specific/Medical/Surgery/scissors.rsi
 #    state: hemostat
 #  - type: SurgeryOperatingTableCondition
 #  - type: SurgeryStepSpawnEffect

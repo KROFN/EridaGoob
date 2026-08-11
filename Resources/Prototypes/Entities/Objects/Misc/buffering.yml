@@ -5,6 +5,6 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Misc/buffering.rsi
+    sprite: _Erida/Objects/Misc/buffering.rsi
     state: icon
     drawdepth: Overlays

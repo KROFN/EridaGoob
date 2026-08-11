@@ -3,7 +3,7 @@
 - type: cargoProduct
   id: FunATV
   icon:
-    sprite: Objects/Vehicles/atv.rsi
+    sprite: _Erida/Objects/Vehicles/atv.rsi
     state: vehicle
   product: CrateFunATV
   cost: 3000
@@ -61,7 +61,7 @@
 - type: cargoProduct
   id: FunDiscoBeachBall
   icon:
-    sprite: Objects/Fun/Balls/beach_ball.rsi
+    sprite: _Erida/Objects/Fun/Balls/beach_ball.rsi
     state: icon
   product: CrateFunDiscoBeachBall
   cost: 1000

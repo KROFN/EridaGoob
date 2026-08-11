@@ -16,7 +16,7 @@
   - type: InteractionOutline
   - type: Sprite
     snapCardinals: true
-    sprite: Structures/Doors/Airlocks/highsec/highsec.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/highsec/highsec.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -40,7 +40,7 @@
       visible: false
       map: ["enum.ElectrifiedLayers.HUD"]
     - state: electrified
-      sprite: Effects/electricity.rsi
+      sprite: _Erida/Effects/electricity.rsi
       shader: unshaded
       visible: false
       map: ["enum.ElectrifiedLayers.Sparks"]

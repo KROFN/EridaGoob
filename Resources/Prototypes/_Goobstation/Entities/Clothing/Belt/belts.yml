@@ -65,9 +65,9 @@
   description: "A medical chest rig with deep pockets, for use by ERT operatives."
   components:
   - type: Sprite
-    sprite: Clothing/Belt/securitywebbing.rsi
+    sprite: _Erida/Clothing/Belt/securitywebbing.rsi
   - type: Clothing
-    sprite: Clothing/Belt/securitywebbing.rsi
+    sprite: _Erida/Clothing/Belt/securitywebbing.rsi
   - type: Storage
     maxItemSize: Normal
     grid:
@@ -267,9 +267,9 @@
   description: A set of tactical webbing worn by Central Command support units.
   components:
   - type: Sprite
-    sprite: Clothing/Belt/militarywebbing.rsi
+    sprite: _Erida/Clothing/Belt/militarywebbing.rsi
   - type: Clothing
-    sprite: Clothing/Belt/militarywebbing.rsi
+    sprite: _Erida/Clothing/Belt/militarywebbing.rsi
   - type: ExplosionResistance
     damageCoefficient: 0.05
   - type: StorageFill
@@ -301,9 +301,9 @@
   description: "A chest rig with deep pockets and explosion resistance, often used by contractors and bounty hunters."
   components:
   - type: Sprite
-    sprite: Clothing/Belt/securitywebbing.rsi
+    sprite: _Erida/Clothing/Belt/securitywebbing.rsi
   - type: Clothing
-    sprite: Clothing/Belt/securitywebbing.rsi
+    sprite: _Erida/Clothing/Belt/securitywebbing.rsi
   - type: Storage
     maxItemSize: Normal
     grid:

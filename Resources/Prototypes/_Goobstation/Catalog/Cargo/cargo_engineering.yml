@@ -13,7 +13,7 @@
 - type: cargoProduct
   id: CargoEngineeringTEGKit
   icon:
-    sprite: Structures/Power/Generation/teg.rsi
+    sprite: _Erida/Structures/Power/Generation/teg.rsi
     state: teg
   product: CrateEngineeringTEG
   cost: 20000

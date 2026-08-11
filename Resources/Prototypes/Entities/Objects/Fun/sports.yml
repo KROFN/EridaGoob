@@ -23,7 +23,7 @@
   description: Where dah courts at?
   components:
   - type: Sprite
-    sprite: Objects/Fun/Balls/basketball.rsi
+    sprite: _Erida/Objects/Fun/Balls/basketball.rsi
     state: icon
   - type: Fixtures
     fixtures:
@@ -37,7 +37,7 @@
         friction: 0.2
   - type: Item
     size: Normal
-    sprite: Objects/Fun/Balls/basketball.rsi
+    sprite: _Erida/Objects/Fun/Balls/basketball.rsi
   - type: TileFrictionModifier
     modifier: 0.5
 
@@ -48,7 +48,7 @@
   description: Otherwise known as a handegg.
   components:
   - type: Sprite
-    sprite: Objects/Fun/Balls/football.rsi
+    sprite: _Erida/Objects/Fun/Balls/football.rsi
     state: icon
   - type: Fixtures
     fixtures:
@@ -62,7 +62,7 @@
         friction: 0.2
   - type: Item
     size: Small
-    sprite: Objects/Fun/Balls/football.rsi
+    sprite: _Erida/Objects/Fun/Balls/football.rsi
 
 - type: entity
   parent: [ BaseItem, BaseSportsBall ]
@@ -71,7 +71,7 @@
   description: A fuzzy orb of endless betrayal.
   components:
   - type: Sprite
-    sprite: Objects/Fun/Balls/tennisball.rsi
+    sprite: _Erida/Objects/Fun/Balls/tennisball.rsi
     state: icon
   - type: Fixtures
     fixtures:
@@ -94,7 +94,7 @@
     # Goobstation end
   - type: Item
     size: Small
-    sprite: Objects/Fun/Balls/tennisball.rsi
+    sprite: _Erida/Objects/Fun/Balls/tennisball.rsi
   - type: EmitSoundOnUse
     sound:
       collection: ToySqueak
@@ -114,7 +114,7 @@
   description: The simple beach ball is one of Nanotrasen's most popular products. 'Why do we make beach balls? Because we can! (TM)' - Nanotrasen
   components:
   - type: Sprite
-    sprite: Objects/Fun/Balls/beach_ball.rsi
+    sprite: _Erida/Objects/Fun/Balls/beach_ball.rsi
     state: icon
   - type: Fixtures
     fixtures:
@@ -129,7 +129,7 @@
         friction: 0.2
   - type: Item
     size: Normal
-    sprite: Objects/Fun/Balls/beach_ball.rsi
+    sprite: _Erida/Objects/Fun/Balls/beach_ball.rsi
   - type: TileFrictionModifier
     modifier: 0.05
 

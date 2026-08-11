@@ -22,7 +22,7 @@
       "Standard": {56: 0}
       "Muted": {59: 0}
   - type: Sprite
-    sprite: Objects/Fun/Instruments/trumpet.rsi
+    sprite: _Erida/Objects/Fun/Instruments/trumpet.rsi
 
 - type: entity
   parent: BaseBrassInstrument
@@ -33,7 +33,7 @@
   - type: Instrument
     program: 57
   - type: Sprite
-    sprite: Objects/Fun/Instruments/trombone.rsi
+    sprite: _Erida/Objects/Fun/Instruments/trombone.rsi
 
 - type: entity
   parent: BaseBrassInstrument
@@ -44,7 +44,7 @@
   - type: Instrument
     program: 60
   - type: Sprite
-    sprite: Objects/Fun/Instruments/frenchhorn.rsi
+    sprite: _Erida/Objects/Fun/Instruments/frenchhorn.rsi
 
 - type: entity
   parent: BaseBrassInstrument
@@ -56,4 +56,4 @@
     program: 3
     bank: 100 # Defined in space-station-14.sf2
   - type: Sprite
-    sprite: Objects/Fun/Instruments/euphonium.rsi
+    sprite: _Erida/Objects/Fun/Instruments/euphonium.rsi

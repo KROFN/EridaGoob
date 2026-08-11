@@ -24,7 +24,7 @@
   - type: Clothing
     slots:
     - ears
-    sprite: Clothing/Ears/Headsets/base.rsi
+    sprite: _Erida/Clothing/Ears/Headsets/base.rsi
   - type: GuideHelp
     guides:
     - Radio
@@ -43,7 +43,7 @@
   name: passenger headset
   components:
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/base.rsi
+    sprite: _Erida/Clothing/Ears/Headsets/base.rsi
 
 - type: entity
   parent: ClothingHeadset
@@ -57,9 +57,9 @@
       - EncryptionKeyCargo
       - EncryptionKeyCommon
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/cargo.rsi
+    sprite: _Erida/Clothing/Ears/Headsets/cargo.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/cargo.rsi
+    sprite: _Erida/Clothing/Ears/Headsets/cargo.rsi
 
 - type: entity
   parent: ClothingHeadsetCargo
@@ -68,9 +68,9 @@
   description: Headset used by shaft miners.
   components:
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/mining.rsi
+    sprite: _Erida/Clothing/Ears/Headsets/mining.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/mining.rsi
+    sprite: _Erida/Clothing/Ears/Headsets/mining.rsi
 
 - type: entity
   parent: [ClothingHeadsetCargo, BaseCommandContraband]
@@ -97,9 +97,9 @@
       - EncryptionKeyCentCom
       - EncryptionKeyStationMaster
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/centcom.rsi
+    sprite: _Erida/Clothing/Ears/Headsets/centcom.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/centcom.rsi
+    sprite: _Erida/Clothing/Ears/Headsets/centcom.rsi
 
 - type: entity
   parent: [ClothingHeadset, BaseCommandContraband]
@@ -112,9 +112,9 @@
       key_slots:
       - EncryptionKeyStationMaster
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/command.rsi
+    sprite: _Erida/Clothing/Ears/Headsets/command.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/command.rsi
+    sprite: _Erida/Clothing/Ears/Headsets/command.rsi
 
 - type: entity
   parent: ClothingHeadset
@@ -128,9 +128,9 @@
       - EncryptionKeyEngineering
       - EncryptionKeyCommon
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/engineering.rsi
+    sprite: _Erida/Clothing/Ears/Headsets/engineering.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/engineering.rsi
+    sprite: _Erida/Clothing/Ears/Headsets/engineering.rsi
 
 - type: entity
   parent: [ClothingHeadsetEngineering, BaseCommandContraband]
@@ -157,9 +157,9 @@
       - EncryptionKeyMedical
       - EncryptionKeyCommon
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/medical.rsi
+    sprite: _Erida/Clothing/Ears/Headsets/medical.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/medical.rsi
+    sprite: _Erida/Clothing/Ears/Headsets/medical.rsi
 
 - type: entity
   parent: [ClothingHeadsetMedical, BaseCommandContraband]
@@ -186,9 +186,9 @@
       - EncryptionKeyScience
       - EncryptionKeyCommon
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/science.rsi
+    sprite: _Erida/Clothing/Ears/Headsets/science.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/science.rsi
+    sprite: _Erida/Clothing/Ears/Headsets/science.rsi
 
 - type: entity
   parent: ClothingHeadsetScience
@@ -202,9 +202,9 @@
       - EncryptionKeyMedicalScience
       - EncryptionKeyCommon
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/medicalscience.rsi
+    sprite: _Erida/Clothing/Ears/Headsets/medicalscience.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/medicalscience.rsi
+    sprite: _Erida/Clothing/Ears/Headsets/medicalscience.rsi
 
 - type: entity
   parent: ClothingHeadsetScience
@@ -218,9 +218,9 @@
       - EncryptionKeyRobo
       - EncryptionKeyCommon
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/robotics.rsi
+    sprite: _Erida/Clothing/Ears/Headsets/robotics.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/robotics.rsi
+    sprite: _Erida/Clothing/Ears/Headsets/robotics.rsi
 
 - type: entity
   parent: [ClothingHeadsetScience, BaseCommandContraband]
@@ -247,9 +247,9 @@
       - EncryptionKeySecurity
       - EncryptionKeyCommon
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/security.rsi
+    sprite: _Erida/Clothing/Ears/Headsets/security.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/security.rsi
+    sprite: _Erida/Clothing/Ears/Headsets/security.rsi
 
 - type: entity
   parent: [ClothingHeadset, BaseSecurityContraband]
@@ -264,9 +264,9 @@
       - EncryptionKeySecurity
       - EncryptionKeyCommon
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/brigmedic.rsi
+    sprite: _Erida/Clothing/Ears/Headsets/brigmedic.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/brigmedic.rsi
+    sprite: _Erida/Clothing/Ears/Headsets/brigmedic.rsi
 
 - type: entity
   parent: ClothingHeadset
@@ -280,9 +280,9 @@
       - EncryptionKeyService
       - EncryptionKeyCommon
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/service.rsi
+    sprite: _Erida/Clothing/Ears/Headsets/service.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/service.rsi
+    sprite: _Erida/Clothing/Ears/Headsets/service.rsi
 
 - type: entity
   parent: ClothingHeadset
@@ -295,9 +295,9 @@
         key_slots:
         - EncryptionKeyFreelance
     - type: Sprite
-      sprite: Clothing/Ears/Headsets/freelance.rsi
+      sprite: _Erida/Clothing/Ears/Headsets/freelance.rsi
     - type: Clothing
-      sprite: Clothing/Ears/Headsets/freelance.rsi
+      sprite: _Erida/Clothing/Ears/Headsets/freelance.rsi
 
 - type: entity
   parent: [ClothingHeadset, BaseMagicalContraband]
@@ -310,9 +310,9 @@
         key_slots:
         - EncryptionKeyStationMaster
     - type: Sprite
-      sprite: Clothing/Ears/Headsets/wizard.rsi
+      sprite: _Erida/Clothing/Ears/Headsets/wizard.rsi
     - type: Clothing
-      sprite: Clothing/Ears/Headsets/wizard.rsi
+      sprite: _Erida/Clothing/Ears/Headsets/wizard.rsi
 
 - type: entity
   parent: [ClothingHeadset, BaseMajorContraband]
@@ -321,8 +321,8 @@
   description: Who could refuse to wear this stylish black and green headset?
   components:
   - type: Sprite
-    sprite: Clothing/Ears/Headsets/ninja.rsi
+    sprite: _Erida/Clothing/Ears/Headsets/ninja.rsi
   - type: Clothing
-    sprite: Clothing/Ears/Headsets/ninja.rsi
+    sprite: _Erida/Clothing/Ears/Headsets/ninja.rsi
   - type: EmpResistance
     strengthMultiplier: 0

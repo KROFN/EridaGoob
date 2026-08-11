@@ -8,7 +8,7 @@
   - type: Dice
   - type: UseDelay
   - type: Sprite
-    sprite: Objects/Fun/dice.rsi
+    sprite: _Erida/Objects/Fun/dice.rsi
     noRot: true # If their sprites rotate, the number becomes even more illegible than usual.
   - type: Tag
     tags:
@@ -159,7 +159,7 @@
         - id: d20Dice
         - id: PercentileDie
   - type: Sprite
-    sprite: Objects/Fun/dice.rsi
+    sprite: _Erida/Objects/Fun/dice.rsi
     state: dicebag
   - type: Item
     size: Small
@@ -176,7 +176,7 @@
   name: bag of dice
   components:
   - type: Sprite
-    sprite: Objects/Fun/dice.rsi
+    sprite: _Erida/Objects/Fun/dice.rsi
     state: magicdicebag
   - type: Storage
     grid:

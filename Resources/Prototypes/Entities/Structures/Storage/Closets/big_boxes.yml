@@ -39,7 +39,7 @@
       damageContainer: Box
     - type: Sprite
       noRot: true
-      sprite: Structures/Storage/closet.rsi
+      sprite: _Erida/Structures/Storage/closet.rsi
       layers:
       - state: cardboard
         map: ["enum.StorageVisualLayers.Base"]

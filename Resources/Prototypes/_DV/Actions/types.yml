@@ -10,7 +10,7 @@
     itemIconStyle: BigAction
     priority: -20
     icon:
-      sprite: Clothing/Ears/Headsets/base.rsi
+      sprite: _Erida/Clothing/Ears/Headsets/base.rsi
       state: icon
   - type: InstantAction
     event: !type:OpenStorageImplantEvent
@@ -38,7 +38,7 @@
     itemIconStyle: BigAction
     useDelay: 3
     icon:
-      sprite: Structures/Furniture/Tables/generic.rsi
+      sprite: _Erida/Structures/Furniture/Tables/generic.rsi
       state: full
   - type: InstantAction
     event: !type:ToggleCrawlingStateEvent

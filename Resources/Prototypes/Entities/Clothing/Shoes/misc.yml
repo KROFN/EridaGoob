@@ -7,9 +7,9 @@
   description: A pair of rubber flippers that improves swimming ability when worn.
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Misc/flippers.rsi
+    sprite: _Erida/Clothing/Shoes/Misc/flippers.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Misc/flippers.rsi
+    sprite: _Erida/Clothing/Shoes/Misc/flippers.rsi
 
 - type: entity
   parent: ClothingShoesBaseButcherable
@@ -18,9 +18,9 @@
   description: Very stylish pair of boots, made from fine leather.
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Misc/leather.rsi
+    sprite: _Erida/Clothing/Shoes/Misc/leather.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Misc/leather.rsi
+    sprite: _Erida/Clothing/Shoes/Misc/leather.rsi
 
 - type: entity
   parent: ClothingShoesBaseButcherable
@@ -29,9 +29,9 @@
   description: Fluffy!
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Misc/slippers.rsi
+    sprite: _Erida/Clothing/Shoes/Misc/slippers.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Misc/slippers.rsi
+    sprite: _Erida/Clothing/Shoes/Misc/slippers.rsi
 
 - type: entity
   parent: ClothingShoesBaseButcherable
@@ -40,9 +40,9 @@
   description: You wish these made quacking sounds as you walked. It's a good thing they don't, though.
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Misc/duck-slippers.rsi
+    sprite: _Erida/Clothing/Shoes/Misc/duck-slippers.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Misc/duck-slippers.rsi
+    sprite: _Erida/Clothing/Shoes/Misc/duck-slippers.rsi
   - type: FootstepModifier
     footstepSoundCollection:
       collection: FootstepDuck # Goobstation - quack
@@ -61,9 +61,9 @@
   description: An adorable pair of slippers that resemble a lizardperson. Combine this with some other green clothing and you'll be the coolest crewmember on the station!
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Misc/lizard-slippers.rsi
+    sprite: _Erida/Clothing/Shoes/Misc/lizard-slippers.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Misc/lizard-slippers.rsi
+    sprite: _Erida/Clothing/Shoes/Misc/lizard-slippers.rsi
   - type: FootstepModifier
     footstepSoundCollection:
       collection: FootstepLizardSlippers # Goobstation - weh
@@ -102,9 +102,9 @@
   description: These cheap sandals don't look very comfortable.
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Misc/tourist.rsi
+    sprite: _Erida/Clothing/Shoes/Misc/tourist.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Misc/tourist.rsi
+    sprite: _Erida/Clothing/Shoes/Misc/tourist.rsi
 
 - type: entity
   parent: ClothingShoesBaseButcherable
@@ -113,9 +113,9 @@
   description: At last...
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Misc/damedaneshoes.rsi
+    sprite: _Erida/Clothing/Shoes/Misc/damedaneshoes.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Misc/damedaneshoes.rsi
+    sprite: _Erida/Clothing/Shoes/Misc/damedaneshoes.rsi
 
 - type: entity
   parent: ClothingShoesBase
@@ -124,9 +124,9 @@
   description: Boots made of once-valuable snakeskin, everyone around you would have been jealous.
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Misc/snakeskin.rsi
+    sprite: _Erida/Clothing/Shoes/Misc/snakeskin.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Misc/snakeskin.rsi
+    sprite: _Erida/Clothing/Shoes/Misc/snakeskin.rsi
 
 - type: entity
   parent: [ClothingShoesBase, PowerCellSlotSmallItem, BaseToggleClothing]
@@ -135,12 +135,12 @@
   description: High-tech boots woven with quantum fibers, able to convert electricity into pure speed!
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Boots/speedboots.rsi
+    sprite: _Erida/Clothing/Shoes/Boots/speedboots.rsi
     layers:
     - state: icon
       map: [ "enum.ToggleableVisuals.Layer" ]
   - type: Clothing
-    sprite: Clothing/Shoes/Boots/speedboots.rsi
+    sprite: _Erida/Clothing/Shoes/Boots/speedboots.rsi
   - type: ToggleClothing
     action: ActionToggleSpeedBoots
   - type: ClothingSpeedModifier
@@ -191,11 +191,11 @@
   description: Special anti-gravity boots developed with a speciality blend of lunar rock gel. Shipped from the Netherlands.
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Boots/moonboots.rsi
+    sprite: _Erida/Clothing/Shoes/Boots/moonboots.rsi
     layers:
     - state: icon
   - type: Clothing
-    sprite: Clothing/Shoes/Boots/moonboots.rsi
+    sprite: _Erida/Clothing/Shoes/Boots/moonboots.rsi
   - type: AntiGravityClothing
   - type: StaticPrice
     price: 75
@@ -212,11 +212,11 @@
   description: High-tech boots that give you the incredible ability to JUMP! With these boots you can jump over lava, chasms and weird chemicals on the floor!
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Boots/jumpboots.rsi
+    sprite: _Erida/Clothing/Shoes/Boots/jumpboots.rsi
     layers:
     - state: icon
   - type: Clothing
-    sprite: Clothing/Shoes/Boots/jumpboots.rsi
+    sprite: _Erida/Clothing/Shoes/Boots/jumpboots.rsi
   - type: JumpAbility
     jumpDistance: 4
     jumpSound: /Audio/Effects/stealthoff.ogg

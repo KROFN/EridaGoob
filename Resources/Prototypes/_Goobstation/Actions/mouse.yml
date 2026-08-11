@@ -8,7 +8,7 @@
   components:
   - type: Action
     icon:
-      sprite: Objects/Consumable/Food/ingredients.rsi
+      sprite: _Erida/Objects/Consumable/Food/ingredients.rsi
       state: cheesewedge
     useDelay: 1
     sound: !type:SoundPathSpecifier

@@ -5,7 +5,7 @@
   description: Paper used contain items for transport.
   components:
   - type: Sprite
-    sprite: Objects/Misc/ParcelWrap/parcel_wrap.rsi
+    sprite: _Erida/Objects/Misc/ParcelWrap/parcel_wrap.rsi
     state: brown
   - type: ParcelWrap
     parcelPrototype: WrappedParcel
@@ -122,13 +122,13 @@
           CaptainsPaper: { state: captains_paper }
           Invoice: { state: invoice }
   - type: Sprite
-    sprite: Objects/Misc/ParcelWrap/wrapped_parcel.rsi
+    sprite: _Erida/Objects/Misc/ParcelWrap/wrapped_parcel.rsi
     layers:
     - state: parcel-medium
       map: [ "enum.WrappedParcelVisuals.Layer" ]
     - state: paper
       visible: false
-      sprite: Objects/Misc/ParcelWrap/paper_labels.rsi
+      sprite: _Erida/Objects/Misc/ParcelWrap/paper_labels.rsi
       map: ["enum.PaperLabelVisuals.Layer"]
 
 - type: entity
@@ -139,7 +139,7 @@
   - type: Physics
     fixedRotation: false
   - type: Sprite
-    sprite: Objects/Misc/ParcelWrap/wrapped_parcel.rsi
+    sprite: _Erida/Objects/Misc/ParcelWrap/wrapped_parcel.rsi
     state: human
     noRot: true
     drawdepth: Mobs
@@ -164,7 +164,7 @@
   description: The disappointing remnants of an unwrapped parcel.
   components:
   - type: Sprite
-    sprite: Objects/Misc/ParcelWrap/parcel_wrap_trash.rsi
+    sprite: _Erida/Objects/Misc/ParcelWrap/parcel_wrap_trash.rsi
     layers:
     - state: brown
   - type: Tag

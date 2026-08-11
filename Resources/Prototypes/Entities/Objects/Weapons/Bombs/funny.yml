@@ -7,13 +7,13 @@
   id: HotPotato
   components:
     - type: Sprite
-      sprite: Objects/Weapons/Bombs/hot_potato.rsi
+      sprite: _Erida/Objects/Weapons/Bombs/hot_potato.rsi
       state: icon
       layers:
       - state: icon
         map: ["base"]
     - type: Item
-      sprite: Objects/Specific/Hydroponics/potato.rsi
+      sprite: _Erida/Objects/Specific/Hydroponics/potato.rsi
       heldPrefix: produce
       size: Small
     - type: AmbientSound
@@ -67,7 +67,7 @@
   - type: Sprite
     noRot: true
     drawdepth: Effects
-    sprite: Effects/chemsmoke.rsi
+    sprite: _Erida/Effects/chemsmoke.rsi
     state: chemsmoke
     scale: "0.15, 0.15"
   - type: EffectVisuals
@@ -82,7 +82,7 @@
   suffix: Explosive
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/banana.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/banana.rsi
     layers:
     - state: peel
     - state: primed
@@ -122,7 +122,7 @@
   description: There's something unusual about this banana.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/banana.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/banana.rsi
     state: produce
   - type: SpawnItemsOnUse
     items:

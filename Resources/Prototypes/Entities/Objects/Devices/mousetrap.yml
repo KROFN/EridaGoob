@@ -7,7 +7,7 @@
   description: Useful for catching rodents sneaking into your kitchen.
   components:
     - type: Sprite
-      sprite: Objects/Devices/mousetrap.rsi
+      sprite: _Erida/Objects/Devices/mousetrap.rsi
       drawdepth: SmallMobs # if mice can hide under tables, so can mousetraps
       layers:
       - state: mousetrap
@@ -36,7 +36,7 @@
         types:
           Blunt: 2 # base damage, scales based on mass
     - type: Item
-      sprite: Objects/Devices/mousetrap.rsi
+      sprite: _Erida/Objects/Devices/mousetrap.rsi
     - type: Appearance
     - type: GenericVisualizer
       visuals:

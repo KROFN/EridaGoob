@@ -9,14 +9,14 @@
   description: A weak, improvised incendiary device.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Bombs/ied.rsi
+    sprite: _Erida/Objects/Weapons/Bombs/ied.rsi
     layers:
     - state: base
       map: ["enum.TriggerVisualLayers.Base"]
     - state: fuel
     - state: wires
   - type: Item
-    sprite: Objects/Weapons/Bombs/ied.rsi
+    sprite: _Erida/Objects/Weapons/Bombs/ied.rsi
   - type: TriggerOnUse
   - type: TimerTrigger
     delay: 5
@@ -66,7 +66,7 @@
   description: A weak, improvised incendiary device. This one has no fuel.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Bombs/ied.rsi
+    sprite: _Erida/Objects/Weapons/Bombs/ied.rsi
     layers:
     - state: base
       map: ["enum.OpenableVisuals.Layer"]

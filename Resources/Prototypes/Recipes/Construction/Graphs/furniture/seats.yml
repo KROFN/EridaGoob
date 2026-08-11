@@ -156,13 +156,13 @@
             - tag: FireExtinguisher
               name: construction-graph-tag-fire-extinguisher
               icon:
-                sprite: Objects/Misc/fire_extinguisher.rsi
+                sprite: _Erida/Objects/Misc/fire_extinguisher.rsi
                 state: fire_extinguisher_closed
               doAfter: 1
             - tag: FireExtinguisher
               name: construction-graph-tag-fire-extinguisher
               icon:
-                sprite: Objects/Misc/fire_extinguisher.rsi
+                sprite: _Erida/Objects/Misc/fire_extinguisher.rsi
                 state: fire_extinguisher_closed
               doAfter: 1
             - tool: Screwing
@@ -198,13 +198,13 @@
             - tag: FireExtinguisher
               name: construction-graph-tag-fire-extinguisher
               icon:
-                sprite: Objects/Misc/fire_extinguisher.rsi
+                sprite: _Erida/Objects/Misc/fire_extinguisher.rsi
                 state: fire_extinguisher_closed
               doAfter: 1
             - tag: FireExtinguisher
               name: construction-graph-tag-fire-extinguisher
               icon:
-                sprite: Objects/Misc/fire_extinguisher.rsi
+                sprite: _Erida/Objects/Misc/fire_extinguisher.rsi
                 state: fire_extinguisher_closed
               doAfter: 1
             - tool: Screwing

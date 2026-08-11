@@ -9,7 +9,7 @@
     unique: true
     difficulty: 1
     icon:
-      sprite: Objects/Devices/nuke.rsi
+      sprite: _Erida/Objects/Devices/nuke.rsi
       state: nuclearbomb_base
   - type: RoleRequirement
     roles:

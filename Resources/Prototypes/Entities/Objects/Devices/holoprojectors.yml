@@ -21,7 +21,7 @@
         name: power-cell-slot-component-slot-name-default
         startingItem: PowerCellMedium
   - type: Sprite
-    sprite: Objects/Devices/Holoprojectors/custodial.rsi
+    sprite: _Erida/Objects/Devices/Holoprojectors/custodial.rsi
     state: icon
   - type: Tag
     tags:
@@ -69,7 +69,7 @@
     signProto: HoloPeel
     chargeUse: 240
   - type: Sprite
-    sprite: Objects/Devices/Holoprojectors/peel.rsi
+    sprite: _Erida/Objects/Devices/Holoprojectors/peel.rsi
     state: icon
   - type: ItemSlots
     slots:
@@ -90,7 +90,7 @@
     signComponentName: Holofan # DeltaV
     #chargeUse: 120 # DeltaV
   - type: Sprite
-    sprite: Objects/Devices/Holoprojectors/atmos.rsi
+    sprite: _Erida/Objects/Devices/Holoprojectors/atmos.rsi
     state: icon
   # Begin DeltaV Additions
   - type: Item
@@ -162,7 +162,7 @@
       signProto: HolosignForcefield
       chargeUse: 120
     - type: Sprite
-      sprite: Objects/Devices/Holoprojectors/field.rsi
+      sprite: _Erida/Objects/Devices/Holoprojectors/field.rsi
       state: icon
     - type: Tag
       tags:
@@ -190,7 +190,7 @@
       signProto: HolosignSecurity
       chargeUse: 90
     - type: Sprite
-      sprite: Objects/Devices/Holoprojectors/security.rsi
+      sprite: _Erida/Objects/Devices/Holoprojectors/security.rsi
       state: icon
     - type: Tag
       tags:

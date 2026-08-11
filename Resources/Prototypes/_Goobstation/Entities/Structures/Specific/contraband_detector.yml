@@ -132,7 +132,7 @@
   description: An electronics board used in contraband detector.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: _Erida/Objects/Misc/module.rsi
     state: security
   - type: Tag
     tags:

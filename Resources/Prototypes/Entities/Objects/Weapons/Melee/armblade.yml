@@ -10,7 +10,7 @@
   - type: Execution
     doAfterDuration: 4.0
   - type: Sprite
-    sprite: Objects/Weapons/Melee/armblade.rsi
+    sprite: _Erida/Objects/Weapons/Melee/armblade.rsi
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: 90
@@ -21,7 +21,7 @@
         Piercing: 15
   - type: Item
     size: Normal
-    sprite: Objects/Weapons/Melee/armblade.rsi
+    sprite: _Erida/Objects/Weapons/Melee/armblade.rsi
   - type: Prying
   - type: UseDelay # Goobstation - For insta prying
     delay: 1

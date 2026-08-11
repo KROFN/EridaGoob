@@ -8,7 +8,7 @@
             - tag: Book
               name: construction-graph-tag-book
               icon:
-                sprite: Objects/Misc/books.rsi
+                sprite: _Erida/Objects/Misc/books.rsi
                 state: cover_base
               doAfter: 30
     - node: revolutionaryManifesto

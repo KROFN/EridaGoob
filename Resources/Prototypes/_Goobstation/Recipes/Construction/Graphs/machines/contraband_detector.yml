@@ -43,7 +43,7 @@
       - tag: ContrabandDetectorCircuitboard
         name: construction-graph-tag-contraband-detector-circuitboard
         icon:
-          sprite: "Objects/Misc/module.rsi"
+          sprite: "_Erida/Objects/Misc/module.rsi"
           state: "security"
         doAfter: 3
     - to: frame
@@ -63,7 +63,7 @@
       - tag: ProximitySensor
         name: construction-graph-tag-proximity-sensor
         icon:
-          sprite: Objects/Misc/proximity_sensor.rsi
+          sprite: _Erida/Objects/Misc/proximity_sensor.rsi
           state: icon
         doAfter: 2
     - to: electronics

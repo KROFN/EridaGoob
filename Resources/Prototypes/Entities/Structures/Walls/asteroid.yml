@@ -18,10 +18,10 @@
     mode: NoSprite
   - type: SmoothEdge
   - type: Icon
-    sprite: Structures/Walls/rock.rsi
+    sprite: _Erida/Structures/Walls/rock.rsi
     state: rock_asteroid
   - type: Sprite
-    sprite: Structures/Walls/rock.rsi
+    sprite: _Erida/Structures/Walls/rock.rsi
     layers:
     - state: rock_asteroid
     - map: [ "enum.EdgeLayer.South" ]
@@ -485,11 +485,11 @@
     key: walls
     mode: NoSprite
   - type: Icon
-    sprite: Structures/Walls/rock.rsi
+    sprite: _Erida/Structures/Walls/rock.rsi
     state: ironrock
   - type: SmoothEdge
   - type: Sprite
-    sprite: Structures/Walls/rock.rsi
+    sprite: _Erida/Structures/Walls/rock.rsi
     layers:
     - state: ironrock
     - map: [ "enum.EdgeLayer.South" ]
@@ -521,7 +521,7 @@
   - type: Icon
     state: ironsandstone
   - type: Sprite
-    sprite: Structures/Walls/rock.rsi
+    sprite: _Erida/Structures/Walls/rock.rsi
     layers:
     - state: ironsandstone
     - map: [ "enum.EdgeLayer.South" ]
@@ -848,12 +848,12 @@
       key: walls
       mode: NoSprite
     - type: Icon
-      sprite: Structures/Walls/rock.rsi
+      sprite: _Erida/Structures/Walls/rock.rsi
       state: rock
     - type: MiningScannerViewable
     - type: SmoothEdge
     - type: Sprite
-      sprite: Structures/Walls/rock.rsi
+      sprite: _Erida/Structures/Walls/rock.rsi
       layers:
         - state: rock
         - map: [ "enum.EdgeLayer.South" ]
@@ -1199,10 +1199,10 @@
   parent: WallRock
   components:
   - type: Icon
-    sprite: Structures/Walls/rock.rsi
+    sprite: _Erida/Structures/Walls/rock.rsi
     state: rock_wall
   - type: Sprite
-    sprite: Structures/Walls/rock.rsi
+    sprite: _Erida/Structures/Walls/rock.rsi
     layers:
     - state: rock_wall
     - map: [ "enum.EdgeLayer.South" ]
@@ -1476,10 +1476,10 @@
   parent: WallRock
   components:
   - type: Icon
-    sprite: Structures/Walls/rock.rsi
+    sprite: _Erida/Structures/Walls/rock.rsi
     state: rock_snow
   - type: Sprite
-    sprite: Structures/Walls/rock.rsi
+    sprite: _Erida/Structures/Walls/rock.rsi
     layers:
     - state: rock_snow
     - map: [ "enum.EdgeLayer.South" ]
@@ -1753,10 +1753,10 @@
   parent: WallRock
   components:
   - type: Icon
-    sprite: Structures/Walls/rock.rsi
+    sprite: _Erida/Structures/Walls/rock.rsi
     state: rock_sand
   - type: Sprite
-    sprite: Structures/Walls/rock.rsi
+    sprite: _Erida/Structures/Walls/rock.rsi
     layers:
     - state: rock_sand
     - map: [ "enum.EdgeLayer.South" ]
@@ -2029,10 +2029,10 @@
   parent: WallRock
   components:
   - type: Icon
-    sprite: Structures/Walls/rock.rsi
+    sprite: _Erida/Structures/Walls/rock.rsi
     state: rock_chromite
   - type: Sprite
-    sprite: Structures/Walls/rock.rsi
+    sprite: _Erida/Structures/Walls/rock.rsi
     layers:
     - state: rock_chromite
     - map: [ "enum.EdgeLayer.South" ]
@@ -2306,10 +2306,10 @@
   parent: WallRock
   components:
   - type: Icon
-    sprite: Structures/Walls/rock.rsi
+    sprite: _Erida/Structures/Walls/rock.rsi
     state: rock_andesite
   - type: Sprite
-    sprite: Structures/Walls/rock.rsi
+    sprite: _Erida/Structures/Walls/rock.rsi
     layers:
     - state: rock_andesite
     - map: [ "enum.EdgeLayer.South" ]

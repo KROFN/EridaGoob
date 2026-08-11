@@ -9,7 +9,7 @@
   - type: Sprite
     noRot: true
     drawdepth: Effects
-    sprite: Effects/hearts.rsi
+    sprite: _Erida/Effects/hearts.rsi
     state: hearts
   - type: EffectVisuals
   - type: Tag

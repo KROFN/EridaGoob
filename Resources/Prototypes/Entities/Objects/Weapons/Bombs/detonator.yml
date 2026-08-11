@@ -5,7 +5,7 @@
   description: A detonator cap. Requires a trigger and wire.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Bombs/detonator.rsi
+    sprite: _Erida/Objects/Weapons/Bombs/detonator.rsi
     layers:
     - state: empty
       map: [ "enum.ConstructionVisuals.Layer" ]

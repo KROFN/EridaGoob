@@ -110,7 +110,7 @@
   parent: BaseItem
   components:
   - type: Sprite
-    sprite: Objects/Misc/coins.rsi
+    sprite: _Erida/Objects/Misc/coins.rsi
     state: coin_diamond
   - type: GhostRole
     name: ghost-role-cargo-bingle-name

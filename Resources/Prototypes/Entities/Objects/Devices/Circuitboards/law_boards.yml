@@ -5,7 +5,7 @@
   description: An electronics board containing a silicon lawset.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: _Erida/Objects/Misc/module.rsi
     state: std_mod
   - type: SiliconLawProvider
     laws: NTDefault

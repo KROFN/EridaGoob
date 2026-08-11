@@ -90,7 +90,7 @@
   id: MMI
   result: MMI
   icon:
-    sprite: Objects/Specific/Robotics/mmi.rsi
+    sprite: _Erida/Objects/Specific/Robotics/mmi.rsi
     state: mmi_off
   materials:
     Steel: 1000

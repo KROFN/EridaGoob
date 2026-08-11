@@ -971,7 +971,7 @@
       FullRandomSpellTable: null
   raiseProductEventOnUser: true
   icon:
-    sprite: Objects/Fun/dice.rsi
+    sprite: _Erida/Objects/Fun/dice.rsi
     state: d20_20
   cost:
     WizCoin: 10
@@ -997,7 +997,7 @@
       FullRandomSpellTable: null
   raiseProductEventOnUser: true
   icon:
-    sprite: Objects/Fun/dice.rsi
+    sprite: _Erida/Objects/Fun/dice.rsi
     state: d6_6
   cost:
     WizCoin: 10

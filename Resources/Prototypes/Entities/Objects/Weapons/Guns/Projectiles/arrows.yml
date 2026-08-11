@@ -8,7 +8,7 @@
   - type: Item
     size: Small
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/arrows.rsi
   - type: Fixtures
     fixtures:
       fix1:
@@ -90,7 +90,7 @@
   description: The greyshirt's preferred projectile.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/arrows.rsi
     layers:
     - state: tail
       color: white
@@ -116,7 +116,7 @@
   description: The greyshirt's preferred projectile. Now with extra lethality!
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/arrows.rsi
     layers:
     - state: tail
       color: white
@@ -142,7 +142,7 @@
   description: The greyshirt's preferred projectile. Now with added radiation!
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/arrows.rsi
     layers:
     - state: tail
       color: white
@@ -169,7 +169,7 @@
   description: The salvager's preferred arrow. Kill your enemies with the teeth of their families.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/arrows.rsi
     layers:
     - state: tail
       color: purple
@@ -195,7 +195,7 @@
   description: Careful, you'll poke an eye out!
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/arrows.rsi
     layers:
     - state: tail
       color: white

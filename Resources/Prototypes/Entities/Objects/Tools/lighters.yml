@@ -22,7 +22,7 @@
     activatedSize: Small
   - type: ItemToggleHot
   - type: Sprite
-    sprite: Objects/Tools/Lighters/lighters.rsi
+    sprite: _Erida/Objects/Tools/Lighters/lighters.rsi
     layers:
     - state: icon_map
     - state: cheap_icon_base
@@ -64,7 +64,7 @@
         shader: unshaded
   - type: Item
     size: Tiny
-    sprite: Objects/Tools/Lighters/lighters.rsi
+    sprite: _Erida/Objects/Tools/Lighters/lighters.rsi
   - type: UseDelay
   - type: RefillableSolution
     solution: Welder
@@ -113,7 +113,7 @@
   description: "A dangerously inexpensive plastic lighter, don't burn your thumb!"
   components:
   - type: Sprite
-    sprite: Objects/Tools/Lighters/lighters.rsi
+    sprite: _Erida/Objects/Tools/Lighters/lighters.rsi
     layers:
     - state: icon_map
     - state: cheap_icon_base
@@ -142,7 +142,7 @@
   description: "A rugged metal lighter, lasts quite a while."
   components:
   - type: Sprite
-    sprite: Objects/Tools/Lighters/lighters.rsi
+    sprite: _Erida/Objects/Tools/Lighters/lighters.rsi
     layers:
     - state: zippo_icon_base
       map: ["base"]
@@ -175,7 +175,7 @@
   - type: ItemToggleHot
   - type: Item
     size: Tiny
-    sprite: Objects/Tools/Lighters/lighters.rsi
+    sprite: _Erida/Objects/Tools/Lighters/lighters.rsi
     heldPrefix: zippo
   - type: Appearance
   - type: GenericVisualizer
@@ -239,7 +239,7 @@
   description: "A rugged golden lighter, lasts quite a while. Engravings serve no tactical advantage whatsoever."
   components:
   - type: Sprite
-    sprite: Objects/Tools/Lighters/lighters.rsi
+    sprite: _Erida/Objects/Tools/Lighters/lighters.rsi
     layers:
     - state: zippo_engraved_icon_base
       map: ["base"]
@@ -348,9 +348,9 @@
   description: "A 'Valid' choice in lighters. Contains no copper."
   components:
   - type: Sprite
-    sprite: Objects/Tools/Lighters/syndielighter.rsi
+    sprite: _Erida/Objects/Tools/Lighters/syndielighter.rsi
   - type: Item
-    sprite: Objects/Tools/Lighters/syndielighter.rsi
+    sprite: _Erida/Objects/Tools/Lighters/syndielighter.rsi
   - type: Welder
     fuelConsumption: 0.005
     fuelLitCost: 0.01
@@ -368,7 +368,7 @@
   description: "The worst lighter ever produced, lighterburn is inevitable, do not refuel while lit."
   components:
   - type: Sprite
-    sprite: Objects/Tools/Lighters/lighters.rsi
+    sprite: _Erida/Objects/Tools/Lighters/lighters.rsi
     layers:
     - state: icon_map
     - state: discount_icon_base
@@ -383,7 +383,7 @@
     fuelLitCost: 0.1
     tankSafe: false
   - type: Item
-    sprite: Objects/Tools/Lighters/lighters.rsi
+    sprite: _Erida/Objects/Tools/Lighters/lighters.rsi
   - type: ToggleableVisuals
     spriteLayer: lighter_flame
     inhandVisuals:
@@ -423,9 +423,9 @@
   description: "A Sleek black and magenta flippo lighter, bearing the logo and iconography of CyberSun Industries."
   components:
   - type: Sprite
-    sprite: Objects/Tools/Lighters/cybersun.rsi
+    sprite: _Erida/Objects/Tools/Lighters/cybersun.rsi
   - type: Item
-    sprite: Objects/Tools/Lighters/cybersun.rsi
+    sprite: _Erida/Objects/Tools/Lighters/cybersun.rsi
   - type: Welder #
     fuelConsumption: 0.005
     fuelLitCost: 0.01
@@ -443,9 +443,9 @@
   description: "A deep blue flippo lighter, decorated with the logo of Interdyne Pharmaceuticals' 'Gene Clean' clinics. Become the master of your own cigarette."
   components:
   - type: Sprite
-    sprite: Objects/Tools/Lighters/interdyne.rsi
+    sprite: _Erida/Objects/Tools/Lighters/interdyne.rsi
   - type: Item
-    sprite: Objects/Tools/Lighters/interdyne.rsi
+    sprite: _Erida/Objects/Tools/Lighters/interdyne.rsi
   - type: Welder #
     fuelConsumption: 0.005
     fuelLitCost: 0.01
@@ -467,9 +467,9 @@
   description: "A navy blue luxury flippo, generally handed out to loyal heads of staff instead of a payraise. Fueled with liquid plasma"
   components:
   - type: Sprite
-    sprite: Objects/Tools/Lighters/nanotrasen.rsi
+    sprite: _Erida/Objects/Tools/Lighters/nanotrasen.rsi
   - type: Item
-    sprite: Objects/Tools/Lighters/nanotrasen.rsi
+    sprite: _Erida/Objects/Tools/Lighters/nanotrasen.rsi
   - type: Welder #
     fuelConsumption: 0.005
     fuelLitCost: 1
@@ -498,9 +498,9 @@
   suffix: DO NOT MAP
   components:
   - type: Sprite
-    sprite: Objects/Tools/Lighters/centcomm.rsi
+    sprite: _Erida/Objects/Tools/Lighters/centcomm.rsi
   - type: Item
-    sprite: Objects/Tools/Lighters/centcomm.rsi
+    sprite: _Erida/Objects/Tools/Lighters/centcomm.rsi
   - type: ItemToggleRequiresLock
     requireLocked: false
   - type: Welder #
@@ -543,9 +543,9 @@
   description: "A high tech jet lighter, engineered to function even in deep space. Runs on a tiny microfusion cell."
   components:
   - type: Sprite
-    sprite: Objects/Tools/Lighters/spiderclan.rsi
+    sprite: _Erida/Objects/Tools/Lighters/spiderclan.rsi
   - type: Item
-    sprite: Objects/Tools/Lighters/spiderclan.rsi
+    sprite: _Erida/Objects/Tools/Lighters/spiderclan.rsi
   - type: Welder #
     fuelConsumption: 0
     fuelLitCost: 0
@@ -563,9 +563,9 @@
   description: "A robust mass produced lighter. The Waffle Co. logo turns the spark wheel when pushed up, minimising risk of lighter burns for even the most inept user."
   components:
   - type: Sprite
-    sprite: Objects/Tools/Lighters/waffleco.rsi
+    sprite: _Erida/Objects/Tools/Lighters/waffleco.rsi
   - type: Item
-    sprite: Objects/Tools/Lighters/waffleco.rsi
+    sprite: _Erida/Objects/Tools/Lighters/waffleco.rsi
   - type: Welder #
     fuelConsumption: 0.005
     fuelLitCost: 0.05
@@ -583,9 +583,9 @@
   description: "A slippery gag lighter produced by Honk Co. hidden inside of a real banana peel."
   components:
   - type: Sprite
-    sprite: Objects/Tools/Lighters/honkco.rsi
+    sprite: _Erida/Objects/Tools/Lighters/honkco.rsi
   - type: Item
-    sprite: Objects/Tools/Lighters/honkco.rsi
+    sprite: _Erida/Objects/Tools/Lighters/honkco.rsi
   - type: ComponentToggler # This is super cursed and ends up deleting the fixtures when toggled off
     components:
     - type: Slippery
@@ -628,9 +628,9 @@
   description: "The flippo of choice for the seasoned traitor. A Breaded novelty lighter made by Donk Co. Somehow edible while lit."
   components:
   - type: Sprite
-    sprite: Objects/Tools/Lighters/donkco.rsi
+    sprite: _Erida/Objects/Tools/Lighters/donkco.rsi
   - type: Item
-    sprite: Objects/Tools/Lighters/donkco.rsi
+    sprite: _Erida/Objects/Tools/Lighters/donkco.rsi
   - type: Welder #
     fuelConsumption: 0.02
     fuelLitCost: 0.1

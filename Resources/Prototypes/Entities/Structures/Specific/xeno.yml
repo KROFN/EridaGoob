@@ -22,7 +22,7 @@
   - type: Clickable
   - type: InteractionOutline
   - type: Sprite
-    sprite: Structures/Specific/xeno_building.rsi
+    sprite: _Erida/Structures/Specific/xeno_building.rsi
     layers:
       - state: wardingtower
       - state: wardingtower-unshaded
@@ -60,7 +60,7 @@
   components:
   - type: Sprite
     noRot: true
-    sprite: Structures/Specific/carp_statue.rsi
+    sprite: _Erida/Structures/Specific/carp_statue.rsi
     layers:
     - state: statue
     - state: eyes

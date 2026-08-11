@@ -37,7 +37,7 @@
   name: ghost-cosmetic-top-hat
   category: Hat
   sprite:
-    sprite: Clothing/Head/Hats/tophat.rsi
+    sprite: _Erida/Clothing/Head/Hats/tophat.rsi
     state: equipped-HELMET
 
 - type: ghostCosmetic
@@ -45,7 +45,7 @@
   name: ghost-cosmetic-wizard-hat
   category: Hat
   sprite:
-    sprite: Clothing/Head/Hats/wizardhat.rsi
+    sprite: _Erida/Clothing/Head/Hats/wizardhat.rsi
     state: equipped-HELMET
 
 - type: ghostCosmetic
@@ -53,7 +53,7 @@
   name: ghost-cosmetic-pirate-hat
   category: Hat
   sprite:
-    sprite: Clothing/Head/Hats/pirate.rsi
+    sprite: _Erida/Clothing/Head/Hats/pirate.rsi
     state: equipped-HELMET
 
 - type: ghostCosmetic
@@ -61,7 +61,7 @@
   name: ghost-cosmetic-santa-hat
   category: Hat
   sprite:
-    sprite: Clothing/Head/Hats/santahat.rsi
+    sprite: _Erida/Clothing/Head/Hats/santahat.rsi
     state: equipped-HELMET
 
 - type: ghostCosmetic
@@ -69,7 +69,7 @@
   name: ghost-cosmetic-ushanka
   category: Hat
   sprite:
-    sprite: Clothing/Head/Hats/ushanka.rsi
+    sprite: _Erida/Clothing/Head/Hats/ushanka.rsi
     state: equipped-HELMET
 
 - type: ghostCosmetic
@@ -77,7 +77,7 @@
   name: ghost-cosmetic-party-hat
   category: Hat
   sprite:
-    sprite: Clothing/Head/Hats/party_red.rsi
+    sprite: _Erida/Clothing/Head/Hats/party_red.rsi
     state: equipped-HELMET
 
 - type: ghostCosmetic
@@ -85,7 +85,7 @@
   name: ghost-cosmetic-bowler-hat
   category: Hat
   sprite:
-    sprite: Clothing/Head/Hats/bowler_hat.rsi
+    sprite: _Erida/Clothing/Head/Hats/bowler_hat.rsi
     state: equipped-HELMET
 
 - type: ghostCosmetic
@@ -93,7 +93,7 @@
   name: ghost-cosmetic-fedora
   category: Hat
   sprite:
-    sprite: Clothing/Head/Hats/brownfedora.rsi
+    sprite: _Erida/Clothing/Head/Hats/brownfedora.rsi
     state: equipped-HELMET
 
 - type: ghostCosmetic
@@ -101,7 +101,7 @@
   name: ghost-cosmetic-cat-ears
   category: Hat
   sprite:
-    sprite: Clothing/Head/Hats/catears.rsi
+    sprite: _Erida/Clothing/Head/Hats/catears.rsi
     state: equipped-HELMET
 
 - type: ghostCosmetic
@@ -109,7 +109,7 @@
   name: ghost-cosmetic-chef-hat
   category: Hat
   sprite:
-    sprite: Clothing/Head/Hats/chefhat.rsi
+    sprite: _Erida/Clothing/Head/Hats/chefhat.rsi
     state: equipped-HELMET
 
 - type: ghostCosmetic
@@ -117,7 +117,7 @@
   name: ghost-cosmetic-cowboy-hat
   category: Hat
   sprite:
-    sprite: Clothing/Head/Hats/cowboyhatbrown.rsi
+    sprite: _Erida/Clothing/Head/Hats/cowboyhatbrown.rsi
     state: equipped-HELMET
 
 - type: ghostCosmetic
@@ -125,7 +125,7 @@
   name: ghost-cosmetic-dog-ears
   category: Hat
   sprite:
-    sprite: Clothing/Head/Hats/dogears.rsi
+    sprite: _Erida/Clothing/Head/Hats/dogears.rsi
     state: equipped-HELMET
 
 - type: ghostCosmetic
@@ -133,7 +133,7 @@
   name: ghost-cosmetic-fez
   category: Hat
   sprite:
-    sprite: Clothing/Head/Hats/fez.rsi
+    sprite: _Erida/Clothing/Head/Hats/fez.rsi
     state: equipped-HELMET
 
 - type: ghostCosmetic
@@ -141,7 +141,7 @@
   name: ghost-cosmetic-jester-hat
   category: Hat
   sprite:
-    sprite: Clothing/Head/Hats/jester.rsi
+    sprite: _Erida/Clothing/Head/Hats/jester.rsi
     state: equipped-HELMET
 
 - type: ghostCosmetic
@@ -149,7 +149,7 @@
   name: ghost-cosmetic-paper-hat
   category: Hat
   sprite:
-    sprite: Clothing/Head/Hats/paper.rsi
+    sprite: _Erida/Clothing/Head/Hats/paper.rsi
     state: equipped-HELMET
 
 - type: ghostCosmetic
@@ -157,7 +157,7 @@
   name: ghost-cosmetic-plague-doctor-hat
   category: Hat
   sprite:
-    sprite: Clothing/Head/Hats/plaguedoctor.rsi
+    sprite: _Erida/Clothing/Head/Hats/plaguedoctor.rsi
     state: equipped-HELMET
 
 - type: ghostCosmetic
@@ -165,7 +165,7 @@
   name: ghost-cosmetic-sombrero
   category: Hat
   sprite:
-    sprite: Clothing/Head/Hats/sombrero.rsi
+    sprite: _Erida/Clothing/Head/Hats/sombrero.rsi
     state: equipped-HELMET
 
 - type: ghostCosmetic
@@ -173,7 +173,7 @@
   name: ghost-cosmetic-straw-hat
   category: Hat
   sprite:
-    sprite: Clothing/Head/Hats/straw_hat.rsi
+    sprite: _Erida/Clothing/Head/Hats/straw_hat.rsi
     state: equipped-HELMET
 
 - type: ghostCosmetic
@@ -181,7 +181,7 @@
   name: ghost-cosmetic-witch-hat
   category: Hat
   sprite:
-    sprite: Clothing/Head/Hats/witchhat.rsi
+    sprite: _Erida/Clothing/Head/Hats/witchhat.rsi
     state: equipped-HELMET
 
 - type: ghostCosmetic
@@ -189,7 +189,7 @@
   name: ghost-cosmetic-christmas-crown
   category: Hat
   sprite:
-    sprite: Clothing/Head/Hats/xmascrown.rsi
+    sprite: _Erida/Clothing/Head/Hats/xmascrown.rsi
     state: equipped-HELMET
 
 # Masks
@@ -199,7 +199,7 @@
   name: ghost-cosmetic-clown-mask
   category: Mask
   sprite:
-    sprite: Clothing/Mask/clown.rsi
+    sprite: _Erida/Clothing/Mask/clown.rsi
     state: equipped-MASK
 
 - type: ghostCosmetic
@@ -207,7 +207,7 @@
   name: ghost-cosmetic-mime-mask
   category: Mask
   sprite:
-    sprite: Clothing/Mask/mime.rsi
+    sprite: _Erida/Clothing/Mask/mime.rsi
     state: equipped-MASK
 
 - type: ghostCosmetic
@@ -215,7 +215,7 @@
   name: ghost-cosmetic-fox-mask
   category: Mask
   sprite:
-    sprite: Clothing/Mask/fox.rsi
+    sprite: _Erida/Clothing/Mask/fox.rsi
     state: equipped-MASK
 
 - type: ghostCosmetic
@@ -223,7 +223,7 @@
   name: ghost-cosmetic-bear-mask
   category: Mask
   sprite:
-    sprite: Clothing/Mask/bear.rsi
+    sprite: _Erida/Clothing/Mask/bear.rsi
     state: equipped-MASK
 
 - type: ghostCosmetic
@@ -231,7 +231,7 @@
   name: ghost-cosmetic-golden-mask
   category: Mask
   sprite:
-    sprite: Clothing/Mask/goldenmask.rsi
+    sprite: _Erida/Clothing/Mask/goldenmask.rsi
     state: equipped-MASK
 
 - type: ghostCosmetic
@@ -239,7 +239,7 @@
   name: ghost-cosmetic-gas-mask
   category: Mask
   sprite:
-    sprite: Clothing/Mask/gas.rsi
+    sprite: _Erida/Clothing/Mask/gas.rsi
     state: equipped-MASK
 
 - type: ghostCosmetic
@@ -247,7 +247,7 @@
   name: ghost-cosmetic-bat-mask
   category: Mask
   sprite:
-    sprite: Clothing/Mask/bat.rsi
+    sprite: _Erida/Clothing/Mask/bat.rsi
     state: equipped-MASK
 
 - type: ghostCosmetic
@@ -255,7 +255,7 @@
   name: ghost-cosmetic-bee-mask
   category: Mask
   sprite:
-    sprite: Clothing/Mask/bee.rsi
+    sprite: _Erida/Clothing/Mask/bee.rsi
     state: equipped-MASK
 
 - type: ghostCosmetic
@@ -263,7 +263,7 @@
   name: ghost-cosmetic-breath-mask
   category: Mask
   sprite:
-    sprite: Clothing/Mask/breath.rsi
+    sprite: _Erida/Clothing/Mask/breath.rsi
     state: equipped-MASK
 
 - type: ghostCosmetic
@@ -271,7 +271,7 @@
   name: ghost-cosmetic-cluwne-mask
   category: Mask
   sprite:
-    sprite: Clothing/Mask/cluwne.rsi
+    sprite: _Erida/Clothing/Mask/cluwne.rsi
     state: equipped-MASK
 
 - type: ghostCosmetic
@@ -279,7 +279,7 @@
   name: ghost-cosmetic-moustache
   category: Mask
   sprite:
-    sprite: Clothing/Mask/italian_moustache.rsi
+    sprite: _Erida/Clothing/Mask/italian_moustache.rsi
     state: equipped-MASK
 
 - type: ghostCosmetic
@@ -287,7 +287,7 @@
   name: ghost-cosmetic-jackal-mask
   category: Mask
   sprite:
-    sprite: Clothing/Mask/jackal.rsi
+    sprite: _Erida/Clothing/Mask/jackal.rsi
     state: equipped-MASK
 
 - type: ghostCosmetic
@@ -295,7 +295,7 @@
   name: ghost-cosmetic-joy-mask
   category: Mask
   sprite:
-    sprite: Clothing/Mask/joy.rsi
+    sprite: _Erida/Clothing/Mask/joy.rsi
     state: equipped-MASK
 
 - type: ghostCosmetic
@@ -303,7 +303,7 @@
   name: ghost-cosmetic-muzzle
   category: Mask
   sprite:
-    sprite: Clothing/Mask/muzzle.rsi
+    sprite: _Erida/Clothing/Mask/muzzle.rsi
     state: equipped-MASK
 
 - type: ghostCosmetic
@@ -311,7 +311,7 @@
   name: ghost-cosmetic-neck-gaiter
   category: Mask
   sprite:
-    sprite: Clothing/Mask/neckgaiter.rsi
+    sprite: _Erida/Clothing/Mask/neckgaiter.rsi
     state: equipped-MASK
 
 - type: ghostCosmetic
@@ -319,7 +319,7 @@
   name: ghost-cosmetic-ninja-mask
   category: Mask
   sprite:
-    sprite: Clothing/Mask/ninja.rsi
+    sprite: _Erida/Clothing/Mask/ninja.rsi
     state: equipped-MASK
 
 - type: ghostCosmetic
@@ -327,7 +327,7 @@
   name: ghost-cosmetic-plague-doctor-mask
   category: Mask
   sprite:
-    sprite: Clothing/Mask/plaguedoctormask.rsi
+    sprite: _Erida/Clothing/Mask/plaguedoctormask.rsi
     state: equipped-MASK
 
 - type: ghostCosmetic
@@ -335,7 +335,7 @@
   name: ghost-cosmetic-rat-mask
   category: Mask
   sprite:
-    sprite: Clothing/Mask/rat.rsi
+    sprite: _Erida/Clothing/Mask/rat.rsi
     state: equipped-MASK
 
 - type: ghostCosmetic
@@ -343,7 +343,7 @@
   name: ghost-cosmetic-raven-mask
   category: Mask
   sprite:
-    sprite: Clothing/Mask/raven.rsi
+    sprite: _Erida/Clothing/Mask/raven.rsi
     state: equipped-MASK
 
 - type: ghostCosmetic
@@ -351,5 +351,5 @@
   name: ghost-cosmetic-sad-mime-mask
   category: Mask
   sprite:
-    sprite: Clothing/Mask/sadmime.rsi
+    sprite: _Erida/Clothing/Mask/sadmime.rsi
     state: equipped-MASK

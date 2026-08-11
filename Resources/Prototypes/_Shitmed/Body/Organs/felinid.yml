@@ -7,7 +7,7 @@
   description: "Holding these might potentially be contagious."
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/catears.rsi
+    sprite: _Erida/Clothing/Head/Hats/catears.rsi
     state: icon
   - type: MarkingContainer
     marking: FelinidEarsBasic

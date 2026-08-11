@@ -287,9 +287,9 @@
   description: For a real cowboy.
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Boots/cowboybootsbrown.rsi
+    sprite: _Erida/Clothing/Shoes/Boots/cowboybootsbrown.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Boots/cowboybootsbrown.rsi
+    sprite: _Erida/Clothing/Shoes/Boots/cowboybootsbrown.rsi
   - type: ClothingSlowOnDamageModifier
     modifier: 0.5
 

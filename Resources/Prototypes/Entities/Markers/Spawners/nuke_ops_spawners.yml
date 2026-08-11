@@ -145,7 +145,7 @@
   - type: Sprite
     layers:
     - state: green
-    - sprite: Objects/Devices/jammer.rsi
+    - sprite: _Erida/Objects/Devices/jammer.rsi
       state: jammer
   - type: EntityTableSpawner
     table: !type:NestedSelector
@@ -161,7 +161,7 @@
   - type: Sprite
     layers:
     - state: green
-    - sprite: Objects/Weapons/Guns/Revolvers/python.rsi
+    - sprite: _Erida/Objects/Weapons/Guns/Revolvers/python.rsi
       state: icon
   - type: EntityTableSpawner
     offset: 0.15
@@ -178,7 +178,7 @@
   - type: Sprite
     layers:
     - state: green
-    - sprite: Objects/Specific/Medical/firstaidkits.rsi
+    - sprite: _Erida/Objects/Specific/Medical/firstaidkits.rsi
       state: brutekit
   - type: EntityTableSpawner
     table: !type:NestedSelector
@@ -194,7 +194,7 @@
   - type: Sprite
     layers:
     - state: green
-    - sprite: Objects/Specific/Medical/firstaidkits.rsi
+    - sprite: _Erida/Objects/Specific/Medical/firstaidkits.rsi
       state: burnkit
   - type: EntityTableSpawner
     table: !type:NestedSelector
@@ -212,7 +212,7 @@
   - type: Sprite
     layers:
     - state: green
-    - sprite: Objects/Weapons/Grenades/grenade.rsi
+    - sprite: _Erida/Objects/Weapons/Grenades/grenade.rsi
       state: icon
   - type: EntityTableSpawner
     offset: 0.15
@@ -231,7 +231,7 @@
   - type: Sprite
     layers:
     - state: green
-    - sprite: Objects/Weapons/Guns/Ammunition/Magazine/Pistol/smg_mag.rsi
+    - sprite: _Erida/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/smg_mag.rsi
       state: base
   - type: EntityTableSpawner
     offset: 0.15

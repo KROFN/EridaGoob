@@ -32,7 +32,7 @@
   description: High performance glue intended for maintenance of extremely complex mechanical equipment. DON'T DRINK!
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/glue-tube.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/glue-tube.rsi
   - type: SolutionContainerManager
     solutions:
       drink:
@@ -49,7 +49,7 @@
   description: High performance lubricant intended for maintenance of extremely complex mechanical equipment.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/lube-tube.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/lube-tube.rsi
   - type: SolutionContainerManager
     solutions:
       drink:
@@ -88,7 +88,7 @@
   description: You can't really tell what this is.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/jar_what.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/jar_what.rsi
   - type: FitsInDispenser
     solution: drink
 
@@ -156,4 +156,4 @@
     solution: drink
     weightedRandomId: RandomFillMopwata
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/mopwata.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/mopwata.rsi

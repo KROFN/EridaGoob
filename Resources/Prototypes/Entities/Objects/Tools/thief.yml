@@ -34,7 +34,7 @@
             True: { state: folded_extraction }
             False: { state: extraction_point }
     - type: Sprite
-      sprite: Objects/Tools/thief_beacon.rsi
+      sprite: _Erida/Objects/Tools/thief_beacon.rsi
       drawdepth: SmallObjects
       noRot: true
       layers:
@@ -48,7 +48,7 @@
   parent: [ BaseItem, BaseSetSelector, BaseMinorContraband ] # Goobstation edit
   components:
     - type: Sprite
-      sprite: Objects/Tools/Toolboxes/toolbox_thief.rsi
+      sprite: _Erida/Objects/Tools/Toolboxes/toolbox_thief.rsi
       state: icon
     # Goobstation - SetSelector rework - start
     #  - type: ThiefUndeterminedBackpack
@@ -86,7 +86,7 @@
   parent: ToolboxThief
   components:
   - type: Sprite
-    sprite: Clothing/Back/Satchels/smuggler.rsi
+    sprite: _Erida/Clothing/Back/Satchels/smuggler.rsi
     state: folded
   - type: Item
     storedRotation: 90

@@ -7,7 +7,7 @@
   description: Creates a spark when activated by a signal.
   components:
   - type: Sprite
-    sprite: Objects/Devices/igniter.rsi
+    sprite: _Erida/Objects/Devices/igniter.rsi
     state: icon
   - type: Item
     storedRotation: -90

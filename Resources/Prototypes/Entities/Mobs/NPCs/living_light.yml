@@ -103,8 +103,6 @@
           - !type:PlaySoundBehavior
             sound:
               collection: GlassBreak
-  - type: Physics # Goob ????????????
-    bodyType: KinematicController
 
 - type: entity
   id: MobLuminousPerson

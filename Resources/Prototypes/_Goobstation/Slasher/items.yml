@@ -253,9 +253,9 @@
   description: Tactical gloves, permanently stained.
   components:
   - type: Sprite
-    sprite: Clothing/Hands/Gloves/combat.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/combat.rsi
   - type: Clothing
-    sprite: Clothing/Hands/Gloves/combat.rsi
+    sprite: _Erida/Clothing/Hands/Gloves/combat.rsi
 
 - type: entity
   name: gas mask
@@ -265,9 +265,9 @@
   description: A face-covering mask. You can smell the fear through it.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/gas.rsi
+    sprite: _Erida/Clothing/Mask/gas.rsi
   - type: Clothing
-    sprite: Clothing/Mask/gas.rsi
+    sprite: _Erida/Clothing/Mask/gas.rsi
     clothingVisuals:
       head:
       - state: equipped-MASK
@@ -280,9 +280,9 @@
   description: Made out of the toughest synthleather for the toughest killer.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Coats/jensencoat.rsi
+    sprite: _Erida/Clothing/OuterClothing/Coats/jensencoat.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Coats/jensencoat.rsi
+    sprite: _Erida/Clothing/OuterClothing/Coats/jensencoat.rsi
     clothingVisuals:
       outerClothing:
       - state: equipped-OUTERCLOTHING
@@ -319,7 +319,7 @@
   description: A multipurpose tool. Multipurpose includes murder.
   components:
   - type: Sprite
-    sprite: Objects/Tools/crowbar.rsi
+    sprite: _Erida/Objects/Tools/crowbar.rsi
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: -135
@@ -327,7 +327,7 @@
       collection: MetalThud
   - type: Item
     size: Normal
-    sprite: Objects/Tools/crowbar.rsi
+    sprite: _Erida/Objects/Tools/crowbar.rsi
     shape:
     - 0,0,0,1
   - type: Tool
@@ -347,9 +347,9 @@
   description: There's no slasher without cult hoods.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hoods/cult.rsi
+    sprite: _Erida/Clothing/Head/Hoods/cult.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hoods/cult.rsi
+    sprite: _Erida/Clothing/Head/Hoods/cult.rsi
     clothingVisuals:
       head:
       - state: equipped-HELMET
@@ -379,9 +379,9 @@
   description: There's no slasher without classic cult robes.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Misc/cultrobes.rsi
+    sprite: _Erida/Clothing/OuterClothing/Misc/cultrobes.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Misc/cultrobes.rsi
+    sprite: _Erida/Clothing/OuterClothing/Misc/cultrobes.rsi
     clothingVisuals:
       outerClothing:
       - state: equipped-OUTERCLOTHING
@@ -394,12 +394,12 @@
   description: A sword humming with unholy energy. The slasher has claimed it as their own.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/cult_blade.rsi
+    sprite: _Erida/Objects/Weapons/Melee/cult_blade.rsi
     state: icon
   - type: Item
     storedSprite:
       state: icon
-      sprite: Objects/Weapons/Melee/cult_blade.rsi
+      sprite: _Erida/Objects/Weapons/Melee/cult_blade.rsi
   - type: Tag
     tags:
     - Machete
@@ -415,9 +415,9 @@
   description: A smiling paper bag. Somehow more unsettling than any mask.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/papersacksmile.rsi
+    sprite: _Erida/Clothing/Head/Hats/papersacksmile.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/papersacksmile.rsi
+    sprite: _Erida/Clothing/Head/Hats/papersacksmile.rsi
     clothingVisuals:
       head:
       - state: equipped-HELMET
@@ -430,9 +430,9 @@
   description: A light robe worn by a wandering something.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/monastic_robe_light.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/monastic_robe_light.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/monastic_robe_light.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/monastic_robe_light.rsi
 
 - type: entity
   name: butcher's cleaver
@@ -447,13 +447,13 @@
     - Cleaver
     - Machete
   - type: Sprite
-    sprite: Objects/Weapons/Melee/cleaver.rsi
+    sprite: _Erida/Objects/Weapons/Melee/cleaver.rsi
     state: butch
   - type: MeleeWeapon
     wideAnimationRotation: -115
   - type: Item
     size: Normal
-    sprite: Objects/Weapons/Melee/cleaver.rsi
+    sprite: _Erida/Objects/Weapons/Melee/cleaver.rsi
 
 - type: entity
   name: basic armor
@@ -463,9 +463,9 @@
   description: Basic armor. Looks a bit worn down.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Armor/security.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/security.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Armor/security.rsi
+    sprite: _Erida/Clothing/OuterClothing/Armor/security.rsi
     clothingVisuals:
       outerClothing:
       - state: equipped-OUTERCLOTHING
@@ -480,9 +480,9 @@
   description: A chef's uniform. Still warm from the last shift.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/chef.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/chef.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/chef.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/chef.rsi
 
 - type: entity
   name: chef's hat
@@ -492,9 +492,9 @@
   description: A tall white chef's hat, stained with more than just grease.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hats/chefhat.rsi
+    sprite: _Erida/Clothing/Head/Hats/chefhat.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hats/chefhat.rsi
+    sprite: _Erida/Clothing/Head/Hats/chefhat.rsi
     clothingVisuals:
       head:
       - state: equipped-HELMET
@@ -539,9 +539,9 @@
   description: You can't quite make out what it is.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/lingspacesuit.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/lingspacesuit.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/lingspacesuit.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/lingspacesuit.rsi
     clothingVisuals:
       outerClothing:
       - state: equipped-OUTERCLOTHING
@@ -554,9 +554,9 @@
   description: You can't quite make out what it is.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/lingspacehelmet.rsi
+    sprite: _Erida/Clothing/Head/Hardsuits/lingspacehelmet.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/lingspacehelmet.rsi
+    sprite: _Erida/Clothing/Head/Hardsuits/lingspacehelmet.rsi
     clothingVisuals:
       head:
       - state: equipped-HELMET
@@ -571,9 +571,9 @@
   description: Meant for a clown of the cloth. And for murder, apparently.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Coats/clownpriest.rsi
+    sprite: _Erida/Clothing/OuterClothing/Coats/clownpriest.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Coats/clownpriest.rsi
+    sprite: _Erida/Clothing/OuterClothing/Coats/clownpriest.rsi
     clothingVisuals:
       outerClothing:
       - state: equipped-OUTERCLOTHING
@@ -586,9 +586,9 @@
   description: HONK!
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/clown.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/clown.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/clown.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/clown.rsi
 
 - type: entity
   name: large clown shoes
@@ -598,10 +598,10 @@
   description: When you need to stand out in a room full of clowns. Or crime scenes.
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Specific/large_clown.rsi
+    sprite: _Erida/Clothing/Shoes/Specific/large_clown.rsi
     state: icon
   - type: Clothing
-    sprite: Clothing/Shoes/Specific/large_clown.rsi
+    sprite: _Erida/Clothing/Shoes/Specific/large_clown.rsi
     clothingVisuals:
       shoes:
       - state: equipped-FEET
@@ -622,9 +622,9 @@
   description: A true prankster's facial attire. The slasher has claimed it as their own.
   components:
   - type: Sprite
-    sprite: Clothing/Mask/clown.rsi
+    sprite: _Erida/Clothing/Mask/clown.rsi
   - type: Clothing
-    sprite: Clothing/Mask/clown.rsi
+    sprite: _Erida/Clothing/Mask/clown.rsi
     clothingVisuals:
       head:
       - state: equipped-MASK
@@ -637,7 +637,7 @@
   description: A rainbow offset cane. Perfect for clowns and for making a mess.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/offset_canes/clown.rsi
+    sprite: _Erida/Objects/Weapons/Melee/offset_canes/clown.rsi
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: -135
@@ -647,7 +647,7 @@
         volume: -4
   - type: Item
     size: Normal
-    sprite: Objects/Weapons/Melee/offset_canes/clown.rsi
+    sprite: _Erida/Objects/Weapons/Melee/offset_canes/clown.rsi
     shape:
     - 0,0,0,1
 
@@ -659,7 +659,7 @@
   description: An unsettling bananium tower. You might want to run.
   components:
   - type: Sprite
-    sprite: Structures/Decoration/statues.rsi
+    sprite: _Erida/Structures/Decoration/statues.rsi
     state: bananium_clown
     layers:
     - state: bananium_clown
@@ -676,9 +676,9 @@
   description: Made of refined bananium. You've achieved something truly unprecedented.
   components:
   - type: Sprite
-    sprite: Clothing/Shoes/Specific/bling.rsi
+    sprite: _Erida/Clothing/Shoes/Specific/bling.rsi
   - type: Clothing
-    sprite: Clothing/Shoes/Specific/bling.rsi
+    sprite: _Erida/Clothing/Shoes/Specific/bling.rsi
     clothingVisuals:
       shoes:
       - state: equipped-FEET
@@ -696,9 +696,9 @@
   description: A banana-yellow clown suit, radiating with honk energy.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/clown_banana.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/clown_banana.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/clown_banana.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/clown_banana.rsi
 
 - type: entity
   name: banana clown wig and mask
@@ -708,9 +708,9 @@
   description: The wig and mask of the honkmother. HONK!
   components:
   - type: Sprite
-    sprite: Clothing/Mask/clown_banana.rsi
+    sprite: _Erida/Clothing/Mask/clown_banana.rsi
   - type: Clothing
-    sprite: Clothing/Mask/clown_banana.rsi
+    sprite: _Erida/Clothing/Mask/clown_banana.rsi
     clothingVisuals:
       head:
       - state: equipped-MASK
@@ -768,7 +768,7 @@
   components:
   - type: InteractionOutline
   - type: Sprite
-    sprite: Structures/meat_spike.rsi
+    sprite: _Erida/Structures/meat_spike.rsi
     state: spike
     layers:
     - state: spike

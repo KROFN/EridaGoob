@@ -13,7 +13,7 @@
   description: Mmm, Donuts.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Food/Baked/donut.rsi
+    sprite: _Erida/Objects/Consumable/Food/Baked/donut.rsi
     state: box
     layers:
     - state: box
@@ -46,7 +46,7 @@
       tags:
       - Donut
   - type: Item
-    sprite: Objects/Consumable/Food/Baked/donut.rsi
+    sprite: _Erida/Objects/Consumable/Food/Baked/donut.rsi
     size: Normal
     shape:
     - 0,0,2,1
@@ -81,7 +81,7 @@
   description: Don't drop 'em!
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Food/egg.rsi
+    sprite: _Erida/Objects/Consumable/Food/egg.rsi
     state: box-closed
     layers:
     - state: box-closed
@@ -132,7 +132,7 @@
       tags:
       - Egg
   - type: Item
-    sprite: Objects/Consumable/Food/egg.rsi
+    sprite: _Erida/Objects/Consumable/Food/egg.rsi
     size: Normal
     shape:
     - 0,0,2,1
@@ -212,7 +212,7 @@
   description: A box for pizza. It keeps in the heat, the smell, and the memories of the best five minutes of your life.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Food/Baked/pizza.rsi
+    sprite: _Erida/Objects/Consumable/Food/Baked/pizza.rsi
     drawdepth: SmallObjects
     layers:
     - state: box
@@ -230,7 +230,7 @@
       tags:
       - Pizza
   - type: Item
-    sprite: Objects/Consumable/Food/Baked/pizza.rsi
+    sprite: _Erida/Objects/Consumable/Food/Baked/pizza.rsi
     heldPrefix: box
     shape:
     - 0,0,2,1
@@ -295,7 +295,7 @@
   description: You suddenly have an urge to trade on the intergalactic stock market.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Food/Baked/nuggets.rsi
+    sprite: _Erida/Objects/Consumable/Food/Baked/nuggets.rsi
     state: box
     layers:
     - state: box
@@ -325,7 +325,7 @@
     grid:
     - 0,0,1,2
   - type: Item
-    sprite: Objects/Consumable/Food/Baked/nuggets.rsi
+    sprite: _Erida/Objects/Consumable/Food/Baked/nuggets.rsi
     size: Small
     heldPrefix: box
   - type: EntityTableContainerFill
@@ -355,7 +355,7 @@
   description: 'Instructions: Heat in microwave. Product will cool if not eaten within seven minutes.'
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Food/Baked/donkpocket.rsi
+    sprite: _Erida/Objects/Consumable/Food/Baked/donkpocket.rsi
     state: box
   - type: Storage
     grid:
@@ -364,7 +364,7 @@
       tags:
       - DonkPocket
   - type: Item
-    sprite: Objects/Consumable/Food/Baked/donkpocket.rsi
+    sprite: _Erida/Objects/Consumable/Food/Baked/donkpocket.rsi
     size: Normal
     shape:
     - 0,0,2,1
@@ -504,7 +504,7 @@
   description: The toy is more edible than the food.
   components:
   - type: Sprite
-    sprite: Objects/Storage/Happyhonk/clown.rsi
+    sprite: _Erida/Objects/Storage/Happyhonk/clown.rsi
     state: box
     layers: # Goobstation?
     - state: box
@@ -512,7 +512,7 @@
     - state: box-open
       map: ["openLayer"]
   - type: Item
-    sprite: Objects/Storage/Happyhonk/clown.rsi
+    sprite: _Erida/Objects/Storage/Happyhonk/clown.rsi
     heldPrefix: box
   - type: Storage
     maxItemSize: Normal
@@ -539,9 +539,9 @@
     - Trash
     - MimeHappyHonk
   - type: Sprite
-    sprite: Objects/Storage/Happyhonk/mime.rsi
+    sprite: _Erida/Objects/Storage/Happyhonk/mime.rsi
   - type: Item
-    sprite: Objects/Storage/Happyhonk/mime.rsi
+    sprite: _Erida/Objects/Storage/Happyhonk/mime.rsi
 
 - type: entity
   id: HappyHonkNukie
@@ -551,9 +551,9 @@
   suffix: Toy Unsafe
   components:
   - type: Sprite
-    sprite: Objects/Storage/Happyhonk/nukie.rsi
+    sprite: _Erida/Objects/Storage/Happyhonk/nukie.rsi
   - type: Item
-    sprite: Objects/Storage/Happyhonk/nukie.rsi
+    sprite: _Erida/Objects/Storage/Happyhonk/nukie.rsi
   - type: EntityTableContainerFill
     containers:
       storagebase: !type:NestedSelector
@@ -605,9 +605,9 @@
     - CluwneHappyHonk # BAD: Intentional removal of parent tag
     - BoxCardboard
   - type: Sprite
-    sprite: Objects/Storage/Happyhonk/cluwne.rsi
+    sprite: _Erida/Objects/Storage/Happyhonk/cluwne.rsi
   - type: Item
-    sprite: Objects/Storage/Happyhonk/cluwne.rsi
+    sprite: _Erida/Objects/Storage/Happyhonk/cluwne.rsi
   - type: EntityTableContainerFill
     containers:
       storagebase:
@@ -657,7 +657,7 @@
   description: Fiber is the most important moth meal of the day! Don't skip it or use bottom-of-the-locker junk, buy high-quality FlutterSoft-brand cloth instead.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Food/ingredients.rsi
+    sprite: _Erida/Objects/Consumable/Food/ingredients.rsi
     state: cloth-box
   - type: Storage
     grid:

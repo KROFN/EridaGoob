@@ -40,9 +40,9 @@
   description: A poorly constructed voice modulator made of a gasmask and voice trigger.
   components:
     - type: Sprite
-      sprite: Clothing/Mask/gas.rsi
+      sprite: _Erida/Clothing/Mask/gas.rsi
     - type: Clothing
-      sprite: Clothing/Mask/gas.rsi
+      sprite: _Erida/Clothing/Mask/gas.rsi
     - type: BreathMask
     - type: IdentityBlocker
     - type: VoiceMask
@@ -172,9 +172,9 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: Clothing/Mask/gassecurity.rsi
+    sprite: _Erida/Clothing/Mask/gassecurity.rsi
   - type: Clothing
-    sprite: Clothing/Mask/gassecurity.rsi
+    sprite: _Erida/Clothing/Mask/gassecurity.rsi
   - type: Armor
     coverage:
     - Head

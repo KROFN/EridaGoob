@@ -7,7 +7,7 @@
   description: A mop that can't be stopped, viscera cleanup detail awaits.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Janitorial/mop.rsi
+    sprite: _Erida/Objects/Specific/Janitorial/mop.rsi
     layers:
       - state: mop
       - map: ["enum.SolutionContainerLayers.Fill"]
@@ -38,7 +38,7 @@
         Blunt: 5
   - type: Item
     size: Large
-    sprite: Objects/Specific/Janitorial/mop.rsi
+    sprite: _Erida/Objects/Specific/Janitorial/mop.rsi
   - type: Absorbent
     useAbsorberSolution: true
   - type: SolutionContainerManager
@@ -69,7 +69,7 @@
   description: Motorized mop that has a bigger reservoir and quickly replaces reagents inside with water. Automatic Clown Countermeasure not included.
   components:
     - type: Sprite
-      sprite: Objects/Specific/Janitorial/advmop.rsi
+      sprite: _Erida/Objects/Specific/Janitorial/advmop.rsi
       layers:
       - state: advmop
       - map: ["enum.SolutionContainerLayers.Fill"]
@@ -78,7 +78,7 @@
     - type: SolutionContainerVisuals
       maxFillLevels: 2
     - type: Item
-      sprite: Objects/Specific/Janitorial/advmop.rsi
+      sprite: _Erida/Objects/Specific/Janitorial/advmop.rsi
     - type: Absorbent
       pickupAmount: 100
       useAbsorberSolution: true
@@ -117,9 +117,9 @@
   description: Caution! Wet Floor!
   components:
   - type: Sprite
-    sprite: Objects/Specific/Janitorial/wet_floor_sign.rsi
+    sprite: _Erida/Objects/Specific/Janitorial/wet_floor_sign.rsi
   - type: Item
-    sprite: Objects/Specific/Janitorial/wet_floor_sign.rsi
+    sprite: _Erida/Objects/Specific/Janitorial/wet_floor_sign.rsi
     size: Normal
   - type: Armor
     coverage:
@@ -209,16 +209,16 @@
        - Plunger
        - WhitelistChameleon
   - type: Sprite
-    sprite: Objects/Specific/Janitorial/plunger.rsi
+    sprite: _Erida/Objects/Specific/Janitorial/plunger.rsi
     state: plunger
   - type: Item
-    sprite: Objects/Specific/Janitorial/plunger.rsi
+    sprite: _Erida/Objects/Specific/Janitorial/plunger.rsi
     heldPrefix: plunger
   - type: GuideHelp
     guides:
     - Janitorial
   - type: Clothing
-    sprite: Objects/Specific/Janitorial/plunger.rsi
+    sprite: _Erida/Objects/Specific/Janitorial/plunger.rsi
     slots:
       - HEAD
     clothingVisuals:
@@ -276,13 +276,13 @@
     - Plunger
     - WhitelistChameleon
   - type: Sprite
-    sprite: Objects/Specific/Janitorial/golden_plunger.rsi
+    sprite: _Erida/Objects/Specific/Janitorial/golden_plunger.rsi
     state: plunger
   - type: Item
-    sprite: Objects/Specific/Janitorial/golden_plunger.rsi
+    sprite: _Erida/Objects/Specific/Janitorial/golden_plunger.rsi
     heldPrefix: plunger
   - type: Clothing
-    sprite: Objects/Specific/Janitorial/golden_plunger.rsi
+    sprite: _Erida/Objects/Specific/Janitorial/golden_plunger.rsi
     slots:
       - HEAD
     clothingVisuals:
@@ -315,7 +315,7 @@
   description: For cleaning up messes, you suppose.
   components:
     - type: Sprite
-      sprite: Objects/Specific/Janitorial/rag.rsi
+      sprite: _Erida/Objects/Specific/Janitorial/rag.rsi
       layers:
       - state: rag
       - map: ["enum.SolutionContainerLayers.Fill"]
@@ -338,7 +338,7 @@
           Blunt: 0
     - type: Item
       size: Small
-      sprite: Objects/Specific/Janitorial/rag.rsi
+      sprite: _Erida/Objects/Specific/Janitorial/rag.rsi
     - type: Absorbent
       pickupAmount: 15
       useAbsorberSolution: true
@@ -367,11 +367,11 @@
   description: A bristly steel wire brush, perfect for scraping away even the toughest patches of rust.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Janitorial/wirebrush.rsi
+    sprite: _Erida/Objects/Specific/Janitorial/wirebrush.rsi
     state: icon
   - type: Item
     storedSprite:
-      sprite: Objects/Specific/Janitorial/wirebrush.rsi
+      sprite: _Erida/Objects/Specific/Janitorial/wirebrush.rsi
       state: storage
     size: Small
   - type: Tag

@@ -79,7 +79,7 @@
   description: An older model recharger that can recharge power cells.
   components:
   - type: Sprite
-    sprite: Structures/Power/cell_recharger.rsi
+    sprite: _Erida/Structures/Power/cell_recharger.rsi
     layers:
     - map: ["enum.PowerChargerVisualLayers.Base"]
       state: "empty"
@@ -141,7 +141,7 @@
   - type: Charger
     chargeRate: 50
   - type: Sprite
-    sprite: Structures/Power/cage_recharger.rsi
+    sprite: _Erida/Structures/Power/cage_recharger.rsi
   - type: PowerCellSlot
     cellSlotId: charger_slot
   - type: ItemSlots
@@ -164,7 +164,7 @@
   description: A modern recharging station that can fit both power cells and small electronic devices.
   components:
   - type: Sprite
-    sprite: Structures/Power/recharger.rsi
+    sprite: _Erida/Structures/Power/recharger.rsi
     layers:
     # WWDP Edit begin
     - map: ["enum.PowerChargerVisualLayers.Base"]
@@ -213,7 +213,7 @@
   description: An overclocked recharger. Not recommended for use around asthmatics.
   components:
   - type: Sprite
-    sprite: Structures/Power/turbo_recharger.rsi
+    sprite: _Erida/Structures/Power/turbo_recharger.rsi
     layers:
     # WWDP Edit begin
     - map: ["enum.PowerChargerVisualLayers.Base"]
@@ -259,7 +259,7 @@
   description: A compact wall-mounted recharger. It can only recharge electronic devices and has no space for power cells.
   components:
   - type: Sprite
-    sprite: Structures/Power/wall_recharger.rsi
+    sprite: _Erida/Structures/Power/wall_recharger.rsi
     layers:
     - map: ["enum.PowerChargerVisualLayers.Base"]
       state: "empty"
@@ -301,7 +301,7 @@
   description: A stationary charger for various robotic and cyborg entities. Surprisingly spacious.
   components:
   - type: Sprite
-    sprite: Structures/Power/borg_charger.rsi
+    sprite: _Erida/Structures/Power/borg_charger.rsi
     layers:
       - state: borgcharger-u1
         map: ["base"]
@@ -382,4 +382,4 @@
   description: A stationary charger for xenoborgs. Feels claustrophobic.
   components:
   - type: Sprite
-    sprite: Structures/Power/xenoborg_charger.rsi
+    sprite: _Erida/Structures/Power/xenoborg_charger.rsi

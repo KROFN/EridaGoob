@@ -6,6 +6,6 @@
   components:
   - type: Action
     useDelay: 0.5
-    icon: { sprite: Objects/Tools/seclite.rsi, state: seclite }
+    icon: { sprite: _Erida/Objects/Tools/seclite.rsi, state: seclite }
   - type: InstantAction
     event: !type:ToggleActionEvent

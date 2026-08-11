@@ -7,7 +7,7 @@
   - type: Action
     itemIconStyle: BigItem
     icon:
-      sprite: Objects/Misc/fire_extinguisher.rsi
+      sprite: _Erida/Objects/Misc/fire_extinguisher.rsi
       state: fire_extinguisher_open
   - type: InstantAction
     event: !type:SelfExtinguishEvent

@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   parent: [BaseStructureDynamic, BaseXenoArtifact]
   id: BaseXenoArtifactStructure
   name: artifact
@@ -8,7 +8,7 @@
   # Visual
   - type: Sprite
     drawdepth: SmallObjects
-    sprite: Objects/Specific/Xenoarchaeology/xeno_artifacts.rsi
+    sprite: _Erida/Objects/Specific/Xenoarchaeology/xeno_artifacts.rsi
     noRot: true
     layers:
     - state: ano30

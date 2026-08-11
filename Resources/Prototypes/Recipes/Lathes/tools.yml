@@ -26,7 +26,7 @@
   id: Wirecutter
   result: Wirecutter
   icon:
-    sprite: Objects/Tools/wirecutters.rsi
+    sprite: _Erida/Objects/Tools/wirecutters.rsi
     state: cutters-map
 
 - type: latheRecipe
@@ -34,7 +34,7 @@
   id: Screwdriver
   result: Screwdriver
   icon:
-    sprite: Objects/Tools/screwdriver.rsi
+    sprite: _Erida/Objects/Tools/screwdriver.rsi
     state: screwdriver-map
 
 - type: latheRecipe

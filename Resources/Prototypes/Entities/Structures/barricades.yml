@@ -13,7 +13,7 @@
   components:
   - type: InteractionOutline
   - type: Sprite
-    sprite: Structures/barricades.rsi
+    sprite: _Erida/Structures/barricades.rsi
     state: barricade_full
     drawdepth: BlastDoors
     noRot: true
@@ -69,7 +69,7 @@
         Heat: 3 #per second, scales with number of fire 'stacks'
   - type: Appearance
   - type: FireVisuals
-    sprite: Effects/fire.rsi
+    sprite: _Erida/Effects/fire.rsi
     normalState: 1
 
 #Structure-Mounted Barricade
@@ -78,7 +78,7 @@
   parent: Barricade
   components:
   - type: Sprite
-    sprite: Structures/barricades.rsi
+    sprite: _Erida/Structures/barricades.rsi
     state: barricade
   - type: Construction
     graph: BarricadeCovering
@@ -93,7 +93,7 @@
 #A bunch of this is taken straight from dirwindows and there is a chance that I may have fucked something up. Probably not though
   components:
   - type: Sprite
-    sprite: Structures/barricades.rsi
+    sprite: _Erida/Structures/barricades.rsi
     state: barricade_directional
     noRot: false #Results in smoother rotation when turning the camera, the sprite's dirs are just it rotated anyways so there's no reason to not set this.
   - type: Construction
@@ -120,5 +120,5 @@
         Heat: 3 #per second, scales with number of fire 'stacks'
   - type: Appearance
   - type: FireVisuals
-    sprite: Effects/fire.rsi
+    sprite: _Erida/Effects/fire.rsi
     normalState: 1

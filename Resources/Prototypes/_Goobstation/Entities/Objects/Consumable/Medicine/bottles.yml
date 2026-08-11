@@ -6,7 +6,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: Objects/Specific/Chemistry/bottle.rsi
+    - sprite: _Erida/Objects/Specific/Chemistry/bottle.rsi
       state: bottle
   - type: EntityTableSpawner
     table: !type:NestedSelector
@@ -20,7 +20,7 @@
   - type: Sprite
     layers:
     - state: green
-    - sprite: Objects/Specific/Chemistry/bottle.rsi
+    - sprite: _Erida/Objects/Specific/Chemistry/bottle.rsi
       state: bottle
   - type: EntityTableSpawner
     table: !type:NestedSelector
@@ -34,7 +34,7 @@
   - type: Sprite
     layers:
     - state: blue
-    - sprite: Objects/Specific/Chemistry/bottle.rsi
+    - sprite: _Erida/Objects/Specific/Chemistry/bottle.rsi
       state: bottle
   - type: EntityTableSpawner
     table: !type:NestedSelector
@@ -48,7 +48,7 @@
   - type: Sprite
     layers:
     - state: blue
-    - sprite: Objects/Specific/Chemistry/bottle.rsi
+    - sprite: _Erida/Objects/Specific/Chemistry/bottle.rsi
       state: bottle
   - type: EntityTableSpawner
     table: !type:NestedSelector

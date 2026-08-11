@@ -24,7 +24,7 @@
         volume: -4
   # Goobstation edit end
   - type: Sprite
-    sprite: Objects/Misc/books.rsi
+    sprite: _Erida/Objects/Misc/books.rsi
     layers:
     - state: paper
     - state: cover_base
@@ -91,7 +91,7 @@
   suffix: guidebook
   components:
   - type: Sprite
-    sprite: Objects/Misc/books.rsi
+    sprite: _Erida/Objects/Misc/books.rsi
   - type: Tag
     tags:
     - Book

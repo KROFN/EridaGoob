@@ -6,9 +6,9 @@
   name: crate
   components:
   - type: Icon
-    sprite: Structures/Storage/Crates/generic.rsi
+    sprite: _Erida/Structures/Storage/Crates/generic.rsi
   - type: Sprite
-    sprite: Structures/Storage/Crates/generic.rsi
+    sprite: _Erida/Structures/Storage/Crates/generic.rsi
   - type: Reflect
     reflects:
     - Energy
@@ -31,9 +31,9 @@
   name: plastic crate
   components:
   - type: Icon
-    sprite: Structures/Storage/Crates/plastic.rsi
+    sprite: _Erida/Structures/Storage/Crates/plastic.rsi
   - type: Sprite
-    sprite: Structures/Storage/Crates/plastic.rsi
+    sprite: _Erida/Structures/Storage/Crates/plastic.rsi
   - type: Construction
     graph: CratePlastic
     node: crateplastic
@@ -53,9 +53,9 @@
   name: freezer
   components:
   - type: Icon
-    sprite: Structures/Storage/Crates/freezer.rsi
+    sprite: _Erida/Structures/Storage/Crates/freezer.rsi
   - type: Sprite
-    sprite: Structures/Storage/Crates/freezer.rsi
+    sprite: _Erida/Structures/Storage/Crates/freezer.rsi
   - type: AntiRottingContainer
   - type: ExplosionResistance
     damageCoefficient: 0.50
@@ -73,9 +73,9 @@
   name: hydroponics crate
   components:
   - type: Icon
-    sprite: Structures/Storage/Crates/hydroponics.rsi
+    sprite: _Erida/Structures/Storage/Crates/hydroponics.rsi
   - type: Sprite
-    sprite: Structures/Storage/Crates/hydroponics.rsi
+    sprite: _Erida/Structures/Storage/Crates/hydroponics.rsi
 
 - type: entity
   parent: CratePlastic
@@ -83,9 +83,9 @@
   name: medical crate
   components:
   - type: Icon
-    sprite: Structures/Storage/Crates/medical.rsi
+    sprite: _Erida/Structures/Storage/Crates/medical.rsi
   - type: Sprite
-    sprite: Structures/Storage/Crates/medical.rsi
+    sprite: _Erida/Structures/Storage/Crates/medical.rsi
 
 - type: entity
   parent: CrateGenericSteel
@@ -94,9 +94,9 @@
   description: Is not actually lead lined. Do not store your plutonium in this.
   components:
   - type: Icon
-    sprite: Structures/Storage/Crates/radiation.rsi
+    sprite: _Erida/Structures/Storage/Crates/radiation.rsi
   - type: Sprite
-    sprite: Structures/Storage/Crates/radiation.rsi
+    sprite: _Erida/Structures/Storage/Crates/radiation.rsi
 
 - type: entity
   parent: CratePlastic
@@ -104,9 +104,9 @@
   name: oxygen crate
   components:
   - type: Icon
-    sprite: Structures/Storage/Crates/o2.rsi
+    sprite: _Erida/Structures/Storage/Crates/o2.rsi
   - type: Sprite
-    sprite: Structures/Storage/Crates/o2.rsi
+    sprite: _Erida/Structures/Storage/Crates/o2.rsi
 
 - type: entity
   parent: CrateGenericSteel
@@ -114,9 +114,9 @@
   name: electrical crate
   components:
   - type: Icon
-    sprite: Structures/Storage/Crates/electrical.rsi
+    sprite: _Erida/Structures/Storage/Crates/electrical.rsi
   - type: Sprite
-    sprite: Structures/Storage/Crates/electrical.rsi
+    sprite: _Erida/Structures/Storage/Crates/electrical.rsi
 
 - type: entity
   parent: CrateGenericSteel
@@ -124,9 +124,9 @@
   name: engineering crate
   components:
   - type: Icon
-    sprite: Structures/Storage/Crates/engineering.rsi
+    sprite: _Erida/Structures/Storage/Crates/engineering.rsi
   - type: Sprite
-    sprite: Structures/Storage/Crates/engineering.rsi
+    sprite: _Erida/Structures/Storage/Crates/engineering.rsi
 
 - type: entity
   parent: CrateGenericSteel
@@ -134,9 +134,9 @@
   name: science crate
   components:
   - type: Icon
-    sprite: Structures/Storage/Crates/science.rsi
+    sprite: _Erida/Structures/Storage/Crates/science.rsi
   - type: Sprite
-    sprite: Structures/Storage/Crates/science.rsi
+    sprite: _Erida/Structures/Storage/Crates/science.rsi
 
 - type: entity
   parent: CrateGenericSteel
@@ -144,9 +144,9 @@
   name: surgery crate
   components:
   - type: Icon
-    sprite: Structures/Storage/Crates/surgery.rsi
+    sprite: _Erida/Structures/Storage/Crates/surgery.rsi
   - type: Sprite
-    sprite: Structures/Storage/Crates/surgery.rsi
+    sprite: _Erida/Structures/Storage/Crates/surgery.rsi
 
 - type: entity
   parent: CrateGeneric
@@ -154,16 +154,16 @@
   name: web crate
   components:
   - type: Icon
-    sprite: Structures/Storage/Crates/web.rsi
+    sprite: _Erida/Structures/Storage/Crates/web.rsi
   - type: Sprite
-    sprite: Structures/Storage/Crates/web.rsi
+    sprite: _Erida/Structures/Storage/Crates/web.rsi
     layers:
     - state: base
       map: ["enum.StorageVisualLayers.Base"]
     - state: closed
       map: ["enum.StorageVisualLayers.Door"]
     - state: paper
-      sprite: Structures/Storage/Crates/labels.rsi
+      sprite: _Erida/Structures/Storage/Crates/labels.rsi
       map: ["enum.PaperLabelVisuals.Layer"]
   - type: Construction
     graph: WebStructures
@@ -209,9 +209,9 @@
   name: secgear crate
   components:
   - type: Icon
-    sprite: Structures/Storage/Crates/sec_gear.rsi
+    sprite: _Erida/Structures/Storage/Crates/sec_gear.rsi
   - type: Sprite
-    sprite: Structures/Storage/Crates/sec_gear.rsi
+    sprite: _Erida/Structures/Storage/Crates/sec_gear.rsi
   - type: AccessReader
     access: [["Security"]]
 
@@ -221,9 +221,9 @@
   name: secure engineering crate
   components:
   - type: Icon
-    sprite: Structures/Storage/Crates/engicrate_secure.rsi
+    sprite: _Erida/Structures/Storage/Crates/engicrate_secure.rsi
   - type: Sprite
-    sprite: Structures/Storage/Crates/engicrate_secure.rsi
+    sprite: _Erida/Structures/Storage/Crates/engicrate_secure.rsi
   - type: AccessReader
     access: [["Engineering"]]
 
@@ -233,9 +233,9 @@
   name: secure medical crate
   components:
   - type: Icon
-    sprite: Structures/Storage/Crates/medicalcrate_secure.rsi
+    sprite: _Erida/Structures/Storage/Crates/medicalcrate_secure.rsi
   - type: Sprite
-    sprite: Structures/Storage/Crates/medicalcrate_secure.rsi
+    sprite: _Erida/Structures/Storage/Crates/medicalcrate_secure.rsi
   - type: AccessReader
     access: [["Medical"]]
 
@@ -245,9 +245,9 @@
   name: secure chemistry crate
   components:
     - type: Icon
-      sprite: Structures/Storage/Crates/chemcrate_secure.rsi
+      sprite: _Erida/Structures/Storage/Crates/chemcrate_secure.rsi
     - type: Sprite
-      sprite: Structures/Storage/Crates/chemcrate_secure.rsi
+      sprite: _Erida/Structures/Storage/Crates/chemcrate_secure.rsi
     - type: AccessReader
       access: [["Chemistry"]]
 
@@ -257,9 +257,9 @@
   name: private crate
   components:
   - type: Icon
-    sprite: Structures/Storage/Crates/privatecrate_secure.rsi
+    sprite: _Erida/Structures/Storage/Crates/privatecrate_secure.rsi
   - type: Sprite
-    sprite: Structures/Storage/Crates/privatecrate_secure.rsi
+    sprite: _Erida/Structures/Storage/Crates/privatecrate_secure.rsi
 
 - type: entity
   parent: CrateBaseSecure
@@ -267,9 +267,9 @@
   name: secure science crate
   components:
   - type: Icon
-    sprite: Structures/Storage/Crates/scicrate_secure.rsi
+    sprite: _Erida/Structures/Storage/Crates/scicrate_secure.rsi
   - type: Sprite
-    sprite: Structures/Storage/Crates/scicrate_secure.rsi
+    sprite: _Erida/Structures/Storage/Crates/scicrate_secure.rsi
   - type: AccessReader
     access: [["Research"]]
 
@@ -279,9 +279,9 @@
   name: plasma crate
   components:
   - type: Icon
-    sprite: Structures/Storage/Crates/plasma.rsi
+    sprite: _Erida/Structures/Storage/Crates/plasma.rsi
   - type: Sprite
-    sprite: Structures/Storage/Crates/plasma.rsi
+    sprite: _Erida/Structures/Storage/Crates/plasma.rsi
   - type: AccessReader
     access: [["Engineering"], ["Research"], ["Chemistry"]]
 
@@ -291,9 +291,9 @@
   name: secure crate
   components:
     - type: Icon
-      sprite: Structures/Storage/Crates/secure.rsi
+      sprite: _Erida/Structures/Storage/Crates/secure.rsi
     - type: Sprite
-      sprite: Structures/Storage/Crates/secure.rsi
+      sprite: _Erida/Structures/Storage/Crates/secure.rsi
 
 - type: entity
   parent: CrateBaseSecure
@@ -301,9 +301,9 @@
   name: secure hydroponics crate
   components:
   - type: Icon
-    sprite: Structures/Storage/Crates/hydro_secure.rsi
+    sprite: _Erida/Structures/Storage/Crates/hydro_secure.rsi
   - type: Sprite
-    sprite: Structures/Storage/Crates/hydro_secure.rsi
+    sprite: _Erida/Structures/Storage/Crates/hydro_secure.rsi
   - type: AccessReader
     access: [["Hydroponics"]]
 
@@ -313,9 +313,9 @@
   name: secure weapon crate
   components:
   - type: Icon
-    sprite: Structures/Storage/Crates/weapon.rsi
+    sprite: _Erida/Structures/Storage/Crates/weapon.rsi
   - type: Sprite
-    sprite: Structures/Storage/Crates/weapon.rsi
+    sprite: _Erida/Structures/Storage/Crates/weapon.rsi
   - type: AccessReader
     access: [["Armory"]]
   - type: Destructible #GOOB START
@@ -341,7 +341,7 @@
   description: An armory access locked crate for storing contraband confiscated from suspects or prisoners.
   components:
   - type: Sprite
-    sprite: Structures/Storage/Crates/sec_gear.rsi
+    sprite: _Erida/Structures/Storage/Crates/sec_gear.rsi
   - type: AccessReader
     access: [["Armory"]]
 
@@ -351,9 +351,9 @@
   name: command crate
   components:
   - type: Icon
-    sprite: Structures/Storage/Crates/command.rsi
+    sprite: _Erida/Structures/Storage/Crates/command.rsi
   - type: Sprite
-    sprite: Structures/Storage/Crates/command.rsi
+    sprite: _Erida/Structures/Storage/Crates/command.rsi
   - type: AccessReader
     access: [["Command"]]
 
@@ -364,9 +364,9 @@
   description: A dark steel crate with red bands and a letter S embossed on the front.
   components:
   - type: Icon
-    sprite: Structures/Storage/Crates/syndicate_secure.rsi
+    sprite: _Erida/Structures/Storage/Crates/syndicate_secure.rsi
   - type: Sprite
-    sprite: Structures/Storage/Crates/syndicate_secure.rsi
+    sprite: _Erida/Structures/Storage/Crates/syndicate_secure.rsi
   - type: AccessReader
     access: [["SyndicateAgent", "NuclearOperative"]]
 
@@ -378,17 +378,17 @@
   - type: EntityStorage
     airtight: false
   - type: Sprite
-    sprite: Structures/Storage/Crates/livestock.rsi
+    sprite: _Erida/Structures/Storage/Crates/livestock.rsi
     layers:
     - state: base
     - state: closed
       map: ["enum.StorageVisualLayers.Door"]
     - state: paper
-      sprite: Structures/Storage/Crates/labels.rsi
+      sprite: _Erida/Structures/Storage/Crates/labels.rsi
       offset: "-0.25,0.625"
       map: ["enum.PaperLabelVisuals.Layer"]
   - type: Icon
-    sprite: Structures/Storage/Crates/livestock.rsi
+    sprite: _Erida/Structures/Storage/Crates/livestock.rsi
     state: base
   - type: Destructible
     thresholds:
@@ -433,7 +433,7 @@
   name: hamster cage
   components:
   - type: Sprite
-    sprite: Structures/Storage/Crates/cage.rsi
+    sprite: _Erida/Structures/Storage/Crates/cage.rsi
     drawdepth: LargeObjects
     snapCardinals: true
     layers:
@@ -441,11 +441,11 @@
     - state: closed
       map: ["enum.StorageVisualLayers.Door"]
     - state: paper
-      sprite: Structures/Storage/Crates/labels.rsi
+      sprite: _Erida/Structures/Storage/Crates/labels.rsi
       offset: "0.0,0.125"
       map: ["enum.PaperLabelVisuals.Layer"]
   - type: Icon
-    sprite: Structures/Storage/Crates/cage.rsi
+    sprite: _Erida/Structures/Storage/Crates/cage.rsi
   - type: Destructible
     thresholds:
     - trigger: # Excess damage, don't spawn entities
@@ -498,7 +498,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Structures/Storage/Crates/lockbox.rsi
+    sprite: _Erida/Structures/Storage/Crates/lockbox.rsi
   - type: GenericVisualizer
     visuals:
       enum.PaperLabelVisuals.HasLabel:
@@ -552,7 +552,7 @@
       map: ["enum.LockVisualLayers.Lock"]
       shader: unshaded
     - state: paper
-      sprite: Structures/Storage/Crates/labels.rsi
+      sprite: _Erida/Structures/Storage/Crates/labels.rsi
       offset: "-0.46875,0.03125"
       map: ["enum.PaperLabelVisuals.Layer"]
   - type: OverrideSell
@@ -582,7 +582,7 @@
       map: ["enum.LockVisualLayers.Lock"]
       shader: unshaded
     - state: paper
-      sprite: Structures/Storage/Crates/labels.rsi
+      sprite: _Erida/Structures/Storage/Crates/labels.rsi
       offset: "-0.46875,0.03125"
       map: ["enum.PaperLabelVisuals.Layer"]
   - type: OverrideSell
@@ -612,7 +612,7 @@
       map: ["enum.LockVisualLayers.Lock"]
       shader: unshaded
     - state: paper
-      sprite: Structures/Storage/Crates/labels.rsi
+      sprite: _Erida/Structures/Storage/Crates/labels.rsi
       offset: "-0.46875,0.03125"
       map: ["enum.PaperLabelVisuals.Layer"]
   - type: OverrideSell
@@ -642,7 +642,7 @@
       map: ["enum.LockVisualLayers.Lock"]
       shader: unshaded
     - state: paper
-      sprite: Structures/Storage/Crates/labels.rsi
+      sprite: _Erida/Structures/Storage/Crates/labels.rsi
       offset: "-0.46875,0.03125"
       map: ["enum.PaperLabelVisuals.Layer"]
   - type: OverrideSell
@@ -672,7 +672,7 @@
       map: ["enum.LockVisualLayers.Lock"]
       shader: unshaded
     - state: paper
-      sprite: Structures/Storage/Crates/labels.rsi
+      sprite: _Erida/Structures/Storage/Crates/labels.rsi
       offset: "-0.46875,0.03125"
       map: ["enum.PaperLabelVisuals.Layer"]
   - type: OverrideSell
@@ -687,7 +687,7 @@
   description: A space pirate chest, not for station lubbers.
   components:
   - type: Sprite
-    sprite: Structures/Storage/Crates/piratechest.rsi
+    sprite: _Erida/Structures/Storage/Crates/piratechest.rsi
     layers:
     - state: crate
       map: ["enum.StorageVisualLayers.Base"]
@@ -697,11 +697,11 @@
       visible: false
       map: ["enum.WeldableLayers.BaseWelded"]
     - state: paper
-      sprite: Structures/Storage/Crates/labels.rsi
+      sprite: _Erida/Structures/Storage/Crates/labels.rsi
       offset: "0.0,-0.09375"
       map: ["enum.PaperLabelVisuals.Layer"]
   - type: Icon
-    sprite: Structures/Storage/Crates/piratechest.rsi
+    sprite: _Erida/Structures/Storage/Crates/piratechest.rsi
     state: crate_icon
   - type: Appearance
   - type: EntityStorageVisuals
@@ -716,7 +716,7 @@
   description: A box overflowing with fun.
   components:
   - type: Sprite
-    sprite: Structures/Storage/Crates/toybox.rsi
+    sprite: _Erida/Structures/Storage/Crates/toybox.rsi
     layers:
     - state: crate
       map: ["enum.StorageVisualLayers.Base"]
@@ -728,7 +728,7 @@
     - state: paper
       map: ["enum.PaperLabelVisuals.Layer"]
   - type: Icon
-    sprite: Structures/Storage/Crates/toybox.rsi
+    sprite: _Erida/Structures/Storage/Crates/toybox.rsi
     state: crate_icon
 
 - type: entity
@@ -738,7 +738,7 @@
   description: A comfy coffin, excellent place for the vampires and corpses.
   components:
   - type: Sprite
-    sprite: Structures/Storage/Crates/coffin.rsi
+    sprite: _Erida/Structures/Storage/Crates/coffin.rsi
     layers:
     - state: base
     - state: closed
@@ -746,7 +746,7 @@
     - state: paper
       map: ["enum.PaperLabelVisuals.Layer"]
   - type: Icon
-    sprite: Structures/Storage/Crates/coffin.rsi
+    sprite: _Erida/Structures/Storage/Crates/coffin.rsi
     state: base
   - type: Destructible
     thresholds:
@@ -787,17 +787,17 @@
   description: Someone died here...
   components:
   - type: Sprite
-    sprite: Structures/Storage/Crates/wooden_grave.rsi
+    sprite: _Erida/Structures/Storage/Crates/wooden_grave.rsi
     layers:
     - state: base
     - state: closed
       map: ["enum.StorageVisualLayers.Door"]
     - state: paper
-      sprite: Structures/Storage/Crates/labels.rsi
+      sprite: _Erida/Structures/Storage/Crates/labels.rsi
       offset: "-0.28125,0.625"
       map: ["enum.PaperLabelVisuals.Layer"]
   - type: Icon
-    sprite: Structures/Storage/Crates/wooden_grave.rsi
+    sprite: _Erida/Structures/Storage/Crates/wooden_grave.rsi
     state: base
   - type: Destructible
     thresholds:
@@ -844,17 +844,17 @@
   description: Someone died here...
   components:
   - type: Sprite
-    sprite: Structures/Storage/Crates/stone_grave.rsi
+    sprite: _Erida/Structures/Storage/Crates/stone_grave.rsi
     layers:
     - state: base
     - state: closed
       map: ["enum.StorageVisualLayers.Door"]
     - state: paper
-      sprite: Structures/Storage/Crates/labels.rsi
+      sprite: _Erida/Structures/Storage/Crates/labels.rsi
       offset: "-0.3125,0.5625"
       map: ["enum.PaperLabelVisuals.Layer"]
   - type: Icon
-    sprite: Structures/Storage/Crates/stone_grave.rsi
+    sprite: _Erida/Structures/Storage/Crates/stone_grave.rsi
     state: base
 
 - type: entity
@@ -864,9 +864,9 @@
   description: A dark steel crate with red bands and a letter S embossed on the front.
   components:
   - type: Icon
-    sprite: Structures/Storage/Crates/syndicate.rsi
+    sprite: _Erida/Structures/Storage/Crates/syndicate.rsi
   - type: Sprite
-    sprite: Structures/Storage/Crates/syndicate.rsi
+    sprite: _Erida/Structures/Storage/Crates/syndicate.rsi
 
 - type: entity
   parent: [StructureWheeled, CrateBaseWeldable]
@@ -874,9 +874,9 @@
   name: trash cart
   components:
   - type: Icon
-    sprite: Structures/Storage/Crates/trashcart.rsi
+    sprite: _Erida/Structures/Storage/Crates/trashcart.rsi
   - type: Sprite
-    sprite: Structures/Storage/Crates/trashcart.rsi
+    sprite: _Erida/Structures/Storage/Crates/trashcart.rsi
     layers:
     - state: base
     - state: closed
@@ -885,7 +885,7 @@
       visible: false
       map: ["enum.WeldableLayers.BaseWelded"]
     - state: paper
-      sprite: Structures/Storage/Crates/labels.rsi
+      sprite: _Erida/Structures/Storage/Crates/labels.rsi
       offset: "0.0,0.03125"
       map: ["enum.PaperLabelVisuals.Layer"]
   - type: Paintable
@@ -897,9 +897,9 @@
   name: janitorial trash cart
   components:
   - type: Icon
-    sprite: Structures/Storage/Crates/trashcart_jani.rsi
+    sprite: _Erida/Structures/Storage/Crates/trashcart_jani.rsi
   - type: Sprite
-    sprite: Structures/Storage/Crates/trashcart_jani.rsi
+    sprite: _Erida/Structures/Storage/Crates/trashcart_jani.rsi
     layers:
     - state: base
     - state: closed
@@ -911,7 +911,7 @@
       map: ["enum.LockVisualLayers.Lock"]
       shader: unshaded
     - state: paper
-      sprite: Structures/Storage/Crates/labels.rsi
+      sprite: _Erida/Structures/Storage/Crates/labels.rsi
       offset: "0.0,0.03125"
       map: ["enum.PaperLabelVisuals.Layer"]
   - type: AccessReader

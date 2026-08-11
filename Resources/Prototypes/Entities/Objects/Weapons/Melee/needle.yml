@@ -7,7 +7,7 @@
   description: A specialty weapon used in the destruction of unique syndicate morale-boosting equipment.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/needle.rsi
+    sprite: _Erida/Objects/Weapons/Melee/needle.rsi
     state: icon
   - type: MeleeWeapon
     animationRotation: -135 # WWDP

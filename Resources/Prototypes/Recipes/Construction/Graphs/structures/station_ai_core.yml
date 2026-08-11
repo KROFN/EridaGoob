@@ -1,4 +1,4 @@
-﻿- type: constructionGraph
+- type: constructionGraph
   id: StationAiCore
   start: start
   graph:
@@ -21,7 +21,7 @@
         name: construction-graph-tag-station-ai-core-electronics
         store: board
         icon:
-          sprite: "Objects/Misc/module.rsi"
+          sprite: "_Erida/Objects/Misc/module.rsi"
           state: "mainboard"
     - to: start       
       completed:
@@ -73,7 +73,7 @@
         name: construction-graph-component-borg-brain
         store: station_ai_brain_slot
         icon:
-          sprite: "Objects/Specific/Robotics/mmi.rsi"
+          sprite: "_Erida/Objects/Specific/Robotics/mmi.rsi"
           state: "mmi_icon"
     - to: frameWithoutBrainFinished
       steps:

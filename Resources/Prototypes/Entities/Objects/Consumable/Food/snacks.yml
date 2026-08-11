@@ -11,7 +11,7 @@
     tags:
       - FoodSnack
   - type: Sprite
-    sprite: Objects/Consumable/Food/snacks.rsi
+    sprite: _Erida/Objects/Consumable/Food/snacks.rsi
   - type: SolutionContainerManager
     solutions:
       food:
@@ -20,7 +20,7 @@
         - ReagentId: Nutriment
           Quantity: 10
   - type: Item
-    sprite: Objects/Consumable/Food/snacks.rsi
+    sprite: _Erida/Objects/Consumable/Food/snacks.rsi
     heldPrefix: packet
     size: Tiny
 # Snacks
@@ -106,7 +106,7 @@
   description: Tastes like cardboard.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Food/snacks.rsi
+    sprite: _Erida/Objects/Consumable/Food/snacks.rsi
     state: chocolatebar
   - type: Item
     heldPrefix: chocolatebar
@@ -428,7 +428,7 @@
         - ReagentId: Nutriment
           Quantity: 1
   - type: Item
-    sprite: Objects/Consumable/Food/snacks.rsi
+    sprite: _Erida/Objects/Consumable/Food/snacks.rsi
     heldPrefix: cookie_fortune
     storedOffset: 1,-1
     size: Tiny
@@ -450,7 +450,7 @@
     tags:
       - FoodSnack
   - type: Sprite
-    sprite: Objects/Consumable/Food/snacks.rsi
+    sprite: _Erida/Objects/Consumable/Food/snacks.rsi
     state: nutribrick
   - type: SpawnItemsOnUse
     items:
@@ -492,7 +492,7 @@
   description: A precisely mixed brownie, made to withstand blunt trauma and harsh conditions. Tastes like shit.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Food/snacks.rsi
+    sprite: _Erida/Objects/Consumable/Food/snacks.rsi
     state: mre-brownie
   - type: Item
     heldPrefix: mre-brownie
@@ -540,10 +540,10 @@
   description: A swirly circle of pure concentrated sugar. Who's the biggest kid on the playground now?
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Food/candy.rsi
+    sprite: _Erida/Objects/Consumable/Food/candy.rsi
     state: swirl_lollipop
   - type: Item
-    sprite: Objects/Consumable/Food/candy.rsi
+    sprite: _Erida/Objects/Consumable/Food/candy.rsi
     heldPrefix: swirl_lollipop
     size: Small
     storedRotation: -45
@@ -580,9 +580,9 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Food/snacks.rsi
+    sprite: _Erida/Objects/Consumable/Food/snacks.rsi
   - type: Item
-    sprite: Objects/Consumable/Food/snacks.rsi
+    sprite: _Erida/Objects/Consumable/Food/snacks.rsi
     size: Tiny
   - type: Tag
     tags:

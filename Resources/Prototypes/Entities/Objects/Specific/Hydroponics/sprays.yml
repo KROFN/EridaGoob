@@ -11,7 +11,7 @@
     tags:
     - PlantBGone
   - type: Sprite
-    sprite: Objects/Tools/Hydroponics/sprays.rsi
+    sprite: _Erida/Objects/Tools/Hydroponics/sprays.rsi
     state: plantbgone
   - type: SolutionContainerManager
     solutions:
@@ -21,7 +21,7 @@
         - ReagentId: PlantBGone
           Quantity: 100
   - type: Item
-    sprite: Objects/Tools/Hydroponics/sprays.rsi
+    sprite: _Erida/Objects/Tools/Hydroponics/sprays.rsi
     heldPrefix: plantbgone
 
 - type: entity
@@ -32,7 +32,7 @@
   description: It's a toxic mixture, in spray form, to kill small weeds.
   components:
   - type: Sprite
-    sprite: Objects/Tools/Hydroponics/sprays.rsi
+    sprite: _Erida/Objects/Tools/Hydroponics/sprays.rsi
     state: weedspray
   - type: SolutionContainerManager
     solutions:
@@ -47,7 +47,7 @@
   - type: Spray
     transferAmount: 1
   - type: Item
-    sprite: Objects/Tools/Hydroponics/sprays.rsi
+    sprite: _Erida/Objects/Tools/Hydroponics/sprays.rsi
 
 - type: entity
   parent: WeedSpray
@@ -66,4 +66,4 @@
         - ReagentId: PestKiller
           Quantity: 50
   - type: Item
-    sprite: Objects/Tools/Hydroponics/sprays.rsi
+    sprite: _Erida/Objects/Tools/Hydroponics/sprays.rsi

@@ -59,7 +59,7 @@
   name: package
   components:
   - type: Sprite
-    sprite: Objects/Specific/Cargo/mail_large.rsi
+    sprite: _Erida/Objects/Specific/Cargo/mail_large.rsi
     scale: 0.85,0.85
     layers:
     - state: icon
@@ -114,7 +114,7 @@
   name: letter
   components:
   - type: Sprite
-    sprite: Objects/Specific/Cargo/mail.rsi
+    sprite: _Erida/Objects/Specific/Cargo/mail.rsi
     scale: 0.8,0.8
     layers:
     - state: icon

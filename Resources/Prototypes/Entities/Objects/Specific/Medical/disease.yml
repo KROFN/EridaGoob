@@ -9,7 +9,7 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: Objects/Specific/Medical/mouth_swab.rsi
+    sprite: _Erida/Objects/Specific/Medical/mouth_swab.rsi
     state: icon
   - type: Tag
     tags:
@@ -55,7 +55,7 @@
     size: Tiny
   - type: Sprite
     # <Goobstation>
-    sprite: Objects/Specific/Medical/medipen.rsi
+    sprite: _Erida/Objects/Specific/Medical/medipen.rsi
     layers:
     - state: salpen
   - type: Appearance

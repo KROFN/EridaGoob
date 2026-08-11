@@ -3,7 +3,7 @@
 - type: cargoProduct
   id: ServiceJanitorial
   icon:
-    sprite: Objects/Specific/Janitorial/spray_bottle.rsi
+    sprite: _Erida/Objects/Specific/Janitorial/spray_bottle.rsi
     state: cleaner
   product: CrateServiceJanitorialSupplies
   cost: 560
@@ -13,7 +13,7 @@
 - type: cargoProduct
   id: ServiceCleanerGrenades
   icon:
-    sprite: Objects/Weapons/Grenades/janitor.rsi
+    sprite: _Erida/Objects/Weapons/Grenades/janitor.rsi
     state: icon
   product: CrateServiceCleanerGrenades
   cost: 400
@@ -23,7 +23,7 @@
 - type: cargoProduct
   id: ServiceLightsReplacement
   icon:
-    sprite: Objects/Power/light_bulb.rsi
+    sprite: _Erida/Objects/Power/light_bulb.rsi
     state: normal
   product: CrateServiceReplacementLights
   cost: 600
@@ -33,7 +33,7 @@
 - type: cargoProduct
   id: ServiceLightsHoliday
   icon:
-    sprite: Objects/Power/light_bulb.rsi
+    sprite: _Erida/Objects/Power/light_bulb.rsi
     state: normal
   product: CrateServiceHolidayLights
   cost: 800
@@ -43,7 +43,7 @@
 - type: cargoProduct
   id: ServiceLightsColorful
   icon:
-    sprite: Objects/Power/light_bulb.rsi
+    sprite: _Erida/Objects/Power/light_bulb.rsi
     state: normal
   product: CrateServiceColorfulLights
   cost: 800
@@ -53,7 +53,7 @@
 - type: cargoProduct
   id: MousetrapBoxes
   icon:
-    sprite: Objects/Devices/mousetrap.rsi
+    sprite: _Erida/Objects/Devices/mousetrap.rsi
     state: mousetrap
   product: CrateMousetrapBoxes
   cost: 500
@@ -63,7 +63,7 @@
 - type: cargoProduct
   id: ServiceTheatre
   icon:
-    sprite: Clothing/Mask/mime.rsi
+    sprite: _Erida/Clothing/Mask/mime.rsi
     state: icon
   product: CrateServiceTheatre
   cost: 1800
@@ -73,7 +73,7 @@
 - type: cargoProduct
   id: ServiceSmokeables
   icon:
-    sprite: Objects/Consumable/Smokeables/Cigarettes/Cartons/green.rsi
+    sprite: _Erida/Objects/Consumable/Smokeables/Cigarettes/Cartons/green.rsi
     state: closed
   product: CrateServiceSmokeables
   cost: 1500
@@ -83,7 +83,7 @@
 - type: cargoProduct
   id: ServiceCustomSmokable
   icon:
-    sprite: Objects/Consumable/Smokeables/Cigarettes/Cartons/green.rsi
+    sprite: _Erida/Objects/Consumable/Smokeables/Cigarettes/Cartons/green.rsi
     state: closed
   product: CrateServiceCustomSmokable
   cost: 1000
@@ -93,7 +93,7 @@
 - type: cargoProduct
   id: ServiceBureaucracy
   icon:
-    sprite: Objects/Misc/pens.rsi
+    sprite: _Erida/Objects/Misc/pens.rsi
     state: pen
   product: CrateServiceBureaucracy
   cost: 1000
@@ -103,7 +103,7 @@
 - type: cargoProduct
   id: ServiceFaxMachine
   icon:
-    sprite: Structures/Machines/fax_machine.rsi
+    sprite: _Erida/Structures/Machines/fax_machine.rsi
     state: icon
   product: CrateServiceFaxMachine
   cost: 2000
@@ -113,7 +113,7 @@
 - type: cargoProduct
   id: ServicePersonnel
   icon:
-    sprite: Objects/Misc/id_cards.rsi
+    sprite: _Erida/Objects/Misc/id_cards.rsi
     state: default
   product: CrateServicePersonnel
   cost: 1000
@@ -123,7 +123,7 @@
 - type: cargoProduct
   id: ServiceBooks
   icon:
-    sprite: Objects/Misc/books.rsi
+    sprite: _Erida/Objects/Misc/books.rsi
     state: book_icon
   product: CrateServiceBooks
   cost: 1000
@@ -133,7 +133,7 @@
 - type: cargoProduct
   id: ServiceGuidebooks
   icon:
-    sprite: Objects/Misc/books.rsi
+    sprite: _Erida/Objects/Misc/books.rsi
     state: book_icon
   product: CrateServiceGuidebooks
   cost: 1300
@@ -143,7 +143,7 @@
 - type: cargoProduct
   id: ServiceSodaDispenser
   icon:
-    sprite: Objects/Consumable/Drinks/generic_jug.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/generic_jug.rsi
     state: icon
   product: CrateServiceSodaDispenser
   cost: 850
@@ -153,7 +153,7 @@
 - type: cargoProduct
   id: ServiceBoozeDispenser
   icon:
-    sprite: Objects/Consumable/Drinks/generic_jug.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/generic_jug.rsi
     state: icon
   product: CrateServiceBoozeDispenser
   cost: 750
@@ -163,7 +163,7 @@
 - type: cargoProduct
   id: ServiceBoxes
   icon:
-    sprite: Objects/Storage/boxes.rsi
+    sprite: _Erida/Objects/Storage/boxes.rsi
     state: box
   product: CrateServiceBox
   cost: 400
@@ -173,7 +173,7 @@
 - type: cargoProduct
   id: ServiceJanitorBiosuit
   icon:
-    sprite: Clothing/Head/Hoods/Bio/janitor.rsi
+    sprite: _Erida/Clothing/Head/Hoods/Bio/janitor.rsi
     state: icon
   product: CrateJanitorBiosuit
   cost: 800
@@ -183,7 +183,7 @@
 - type: cargoProduct
   id: ServiceFoodCartHot
   icon:
-    sprite: Objects/Specific/Kitchen/food_carts.rsi
+    sprite: _Erida/Objects/Specific/Kitchen/food_carts.rsi
     state: icon-hot
   product: FoodCartHot
   cost: 2000
@@ -193,7 +193,7 @@
 - type: cargoProduct
   id: ServiceFoodCartCold
   icon:
-    sprite: Objects/Specific/Kitchen/food_carts.rsi
+    sprite: _Erida/Objects/Specific/Kitchen/food_carts.rsi
     state: icon-cold
   product: FoodCartCold
   cost: 2000
@@ -203,7 +203,7 @@
 - type: cargoProduct
   id: ServiceAnimalCarrier
   icon:
-    sprite: Objects/Storage/petcarrier.rsi
+    sprite: _Erida/Objects/Storage/petcarrier.rsi
     state: icon
   product: PetCarrier
   cost: 500
@@ -213,7 +213,7 @@
 - type: cargoProduct
   id: JanitorExplosive
   icon:
-    sprite: Clothing/Head/Helmets/janitor_bombsuit.rsi
+    sprite: _Erida/Clothing/Head/Helmets/janitor_bombsuit.rsi
     state: icon
   product: ClosetJanitorBombFilled
   cost: 1000
@@ -223,7 +223,7 @@
 - type: cargoProduct
   id: ServiceJanitorTrolley
   icon:
-    sprite: Objects/Specific/Janitorial/janitorial_cart.rsi
+    sprite: _Erida/Objects/Specific/Janitorial/janitorial_cart.rsi
     state: icon-cart
   product: JanitorialTrolley
   cost: 300
@@ -233,7 +233,7 @@
 - type: cargoProduct
   id: ServiceCandles
   icon:
-    sprite: Objects/Misc/candles.rsi
+    sprite: _Erida/Objects/Misc/candles.rsi
     state: candle-big
   product: CrateCandles
   cost: 500

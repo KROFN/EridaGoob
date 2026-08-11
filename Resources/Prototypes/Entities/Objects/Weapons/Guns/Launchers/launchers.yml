@@ -9,7 +9,7 @@
   components:
   - type: Sprite
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Launchers/china_lake.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Launchers/china_lake.rsi
     quickEquip: false
     slots:
     - Back
@@ -32,12 +32,12 @@
   description: PLOOP.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Launchers/china_lake.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Launchers/china_lake.rsi
     layers:
       - state: icon
         map: ["enum.GunVisualLayers.Base"]
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Launchers/china_lake.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Launchers/china_lake.rsi
     slots:
     - Back
     - suitStorage
@@ -73,12 +73,12 @@
   description: PLOOP... FSSSSSS...
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Launchers/hydra_launcher.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Launchers/hydra_launcher.rsi
     layers:
     - state: icon
       map: [ "enum.GunVisualLayers.Base" ]
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Launchers/hydra_launcher.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Launchers/hydra_launcher.rsi
     slots:
     - Back
     - suitStorage
@@ -124,14 +124,14 @@
   description: A modified ancient rocket-propelled grenade launcher.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Launchers/rocket.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Launchers/rocket.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Launchers/rocket.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Launchers/rocket.rsi
   - type: Gun
     fireRate: 0.5
     soundGunshot:
@@ -157,14 +157,14 @@
   description: A modified ancient rocket-propelled grenade launcher.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Launchers/rocket.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Launchers/rocket.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
       - state: mag-0
         map: ["enum.GunVisualLayers.Mag"]
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Launchers/rocket.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Launchers/rocket.rsi
   - type: Gun
     fireRate: 6
     selectedMode: FullAuto
@@ -192,7 +192,7 @@
   description: Kaboom!
   components:
     - type: Sprite
-      sprite: Objects/Weapons/Guns/Launchers/pirate_cannon.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Launchers/pirate_cannon.rsi
       layers:
         - state: icon
           map: ["enum.GunVisualLayers.Base"]
@@ -203,7 +203,7 @@
           ents: []
       type: ContainerContainer
     - type: Clothing
-      sprite: Objects/Weapons/Guns/Launchers/pirate_cannon.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Launchers/pirate_cannon.rsi
     - type: Gun
       fireRate: 1
       soundGunshot:
@@ -237,7 +237,7 @@
     - type: PowerCellDraw
     - type: ToggleCellDraw
     - type: Sprite
-      sprite: Objects/Weapons/Guns/Launchers/tether_gun.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Launchers/tether_gun.rsi
       layers:
         - state: base
         - state: base-unshaded
@@ -292,7 +292,7 @@
     - type: PowerCellDraw
     - type: ToggleCellDraw
     - type: Sprite
-      sprite: Objects/Weapons/Guns/Launchers/force_gun.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Launchers/force_gun.rsi
       layers:
         - state: base
         - state: base-unshaded
@@ -342,7 +342,7 @@
       proto: GrapplingHook
       capacity: 1
     - type: Sprite
-      sprite: Objects/Weapons/Guns/Launchers/grappling_gun.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Launchers/grappling_gun.rsi
       layers:
         - state: base
         - state: base-unshaded
@@ -423,7 +423,7 @@
       dampingRatio: 4
       frequency: 20
     - type: Sprite
-      sprite: Objects/Weapons/Guns/Launchers/tether_gun.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Launchers/tether_gun.rsi
       layers:
         - state: base
         - state: base-unshaded
@@ -467,7 +467,7 @@
       throwDistance: 100
       lineColor: "#18a2d5"
     - type: Sprite
-      sprite: Objects/Weapons/Guns/Launchers/force_gun.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Launchers/force_gun.rsi
       layers:
         - state: base
         - state: base-unshaded

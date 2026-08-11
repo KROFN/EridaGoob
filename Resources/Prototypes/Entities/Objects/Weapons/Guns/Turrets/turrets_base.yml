@@ -21,7 +21,7 @@
         layer:
         - MachineLayer
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Turrets/turrets.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Turrets/turrets.rsi
     drawdepth: Mobs
     layers:
     - state: syndie_lethal
@@ -108,7 +108,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Turrets/sentry_turret.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Turrets/sentry_turret.rsi
     drawdepth: FloorObjects
     granularLayersRendering: true
     layers:

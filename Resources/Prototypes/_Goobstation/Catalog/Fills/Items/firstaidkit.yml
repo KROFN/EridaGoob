@@ -12,7 +12,7 @@
       - id: StasiziumAutoInjector
         amount: 8
   - type: Sprite
-    sprite: Objects/Specific/Medical/firstaidkits.rsi
+    sprite: _Erida/Objects/Specific/Medical/firstaidkits.rsi
     state: purplekit
 
 - type: entity

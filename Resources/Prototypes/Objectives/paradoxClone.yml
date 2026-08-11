@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   abstract: true
   parent: BaseObjective
   id: BaseParadoxCloneObjective
@@ -22,7 +22,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Structures/Furniture/chairs.rsi
+      sprite: _Erida/Structures/Furniture/chairs.rsi
       state: shuttle
   - type: EscapeShuttleCondition
 

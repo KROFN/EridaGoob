@@ -14,7 +14,7 @@
         Brute:
           collection: GlassBreak
     - type: Sprite
-      sprite: Objects/Misc/ice_crust.rsi
+      sprite: _Erida/Objects/Misc/ice_crust.rsi
       layers:
         - state: ice
       drawdepth: FloorObjects

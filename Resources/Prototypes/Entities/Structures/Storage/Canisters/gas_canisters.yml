@@ -13,7 +13,7 @@
     - type: Transform
       noRot: true
     - type: Sprite
-      sprite: Structures/Storage/canister.rsi
+      sprite: _Erida/Structures/Storage/canister.rsi
       noRot: true
       layers:
         - state: grey
@@ -668,7 +668,7 @@
       damageModifierSet: Metallic
     - type: InteractionOutline
     - type: Sprite
-      sprite: Structures/Storage/canister.rsi
+      sprite: _Erida/Structures/Storage/canister.rsi
       state: grey-1
     - type: Physics
       bodyType: Dynamic

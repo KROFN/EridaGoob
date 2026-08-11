@@ -7,7 +7,7 @@
   description: An improvised explosive made from pipes and wire.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Bombs/pipebomb.rsi
+    sprite: _Erida/Objects/Weapons/Bombs/pipebomb.rsi
     layers:
     - state: base
       map: ["enum.TriggerVisualLayers.Base"]
@@ -44,7 +44,7 @@
   suffix: Gunpowder
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Bombs/pipebomb.rsi
+    sprite: _Erida/Objects/Weapons/Bombs/pipebomb.rsi
     state: base
   - type: Construction
     graph: PipeBomb
@@ -59,7 +59,7 @@
   suffix: Cable
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Bombs/pipebomb.rsi
+    sprite: _Erida/Objects/Weapons/Bombs/pipebomb.rsi
     state: base
   - type: Construction
     graph: PipeBomb

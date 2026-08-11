@@ -10,7 +10,7 @@
     arrivalSound: /Audio/Items/hiss.ogg
     departureSound: /Audio/Items/hiss.ogg
   - type: Sprite
-    sprite: /Textures/_Goobstation/Effects/portal.rsi
+    sprite: /Textures/_Erida/Effects/portal.rsi
     state: portal-chrono
     color: "#FFFFFFFF"
   - type: PointLight

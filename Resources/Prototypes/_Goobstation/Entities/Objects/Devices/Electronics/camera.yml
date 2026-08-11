@@ -5,7 +5,7 @@
   description: An electronics board used in cameras.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: _Erida/Objects/Misc/module.rsi
     state: door_electronics # goida
   - type: Tag
     tags:

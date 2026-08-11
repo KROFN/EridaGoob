@@ -11,7 +11,7 @@
   - type: Sprite
     layers:
       - state: red
-      - sprite: Objects/Consumable/Drinks/beerglass.rsi
+      - sprite: _Erida/Objects/Consumable/Drinks/beerglass.rsi
         state: icon
   - type: RandomSpawner
   #small item

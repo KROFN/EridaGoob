@@ -7,7 +7,7 @@
   description: You wear this on your back and put items into it.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Backpacks/backpack.rsi
+    sprite: _Erida/Clothing/Back/Backpacks/backpack.rsi
     state: icon
   - type: Item
     size: Huge
@@ -65,7 +65,7 @@
   description: It's a backpack made by Honk! Co.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Backpacks/clown.rsi
+    sprite: _Erida/Clothing/Back/Backpacks/clown.rsi
   - type: Storage
     storageOpenSound:
       collection: BikeHorn
@@ -83,7 +83,7 @@
   description: Sometimes he wears it.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Backpacks/ian.rsi
+    sprite: _Erida/Clothing/Back/Backpacks/ian.rsi
   - type: Storage
     storageOpenSound:
       collection: IanBark
@@ -95,7 +95,7 @@
   description: It's a very robust backpack.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Backpacks/security.rsi
+    sprite: _Erida/Clothing/Back/Backpacks/security.rsi
 
 - type: entity
   parent: [ClothingBackpack, BaseSecurityContraband]
@@ -104,7 +104,7 @@
   description: It's a very sterile backpack.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Backpacks/brigmedic.rsi
+    sprite: _Erida/Clothing/Back/Backpacks/brigmedic.rsi
 
 - type: entity
   parent: ClothingBackpack
@@ -113,7 +113,7 @@
   description: It's a tough backpack for the daily grind of station life.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Backpacks/engineering.rsi
+    sprite: _Erida/Clothing/Back/Backpacks/engineering.rsi
 
 - type: entity
   parent: ClothingBackpack
@@ -122,7 +122,7 @@
   description: It's a backpack made of fire resistant fibers. Smells like plasma.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Backpacks/atmospherics.rsi
+    sprite: _Erida/Clothing/Back/Backpacks/atmospherics.rsi
 
 - type: entity
   parent: ClothingBackpack
@@ -131,7 +131,7 @@
   description: It's a backpack especially designed for use in a sterile environment.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Backpacks/medical.rsi
+    sprite: _Erida/Clothing/Back/Backpacks/medical.rsi
 
 - type: entity
   parent: [ClothingBackpack, BaseCommandContraband]
@@ -140,7 +140,7 @@
   description: It's a special backpack made exclusively for Nanotrasen officers.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Backpacks/captain.rsi
+    sprite: _Erida/Clothing/Back/Backpacks/captain.rsi
 
 - type: entity
   parent: ClothingBackpack
@@ -149,7 +149,7 @@
   description: A silent backpack made for those silent workers. Silence Co.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Backpacks/mime.rsi
+    sprite: _Erida/Clothing/Back/Backpacks/mime.rsi
   - type: Storage
     storageOpenSound: null
     storageInsertSound: null
@@ -161,7 +161,7 @@
   description: A backpack specially designed to repel stains and hazardous liquids.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Backpacks/chemistry.rsi
+    sprite: _Erida/Clothing/Back/Backpacks/chemistry.rsi
 
 - type: entity
   parent: ClothingBackpack
@@ -170,7 +170,7 @@
   description: It's a backpack made of all-natural fibers.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Backpacks/hydroponics.rsi
+    sprite: _Erida/Clothing/Back/Backpacks/hydroponics.rsi
 
 - type: entity
   parent: ClothingBackpack
@@ -179,7 +179,7 @@
   description: A backpack specially designed to repel stains and hazardous liquids.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Backpacks/science.rsi
+    sprite: _Erida/Clothing/Back/Backpacks/science.rsi
 
 - type: entity
   parent: ClothingBackpack
@@ -188,7 +188,7 @@
   description: A backpack made of hypo-allergenic fibers. It's designed to help prevent the spread of disease. Smells like monkey.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Backpacks/virology.rsi
+    sprite: _Erida/Clothing/Back/Backpacks/virology.rsi
 
 - type: entity
   parent: ClothingBackpack
@@ -197,7 +197,7 @@
   description: A backpack designed to be super tough, just in case someone hulks out on you.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Backpacks/genetics.rsi
+    sprite: _Erida/Clothing/Back/Backpacks/genetics.rsi
 
 - type: entity
   parent: ClothingBackpack
@@ -215,7 +215,7 @@
   description: A robust backpack for stashing your loot.
   components:
     - type: Sprite
-      sprite: Clothing/Back/Backpacks/salvage.rsi
+      sprite: _Erida/Clothing/Back/Backpacks/salvage.rsi
 
 - type: entity
   parent: ClothingBackpack
@@ -224,7 +224,7 @@
   description: A backpack that has been in many dangerous places, a reliable combat backpack.
   components:
     - type: Sprite
-      sprite: Clothing/Back/Backpacks/merc.rsi
+      sprite: _Erida/Clothing/Back/Backpacks/merc.rsi
 
 #ERT
 - type: entity
@@ -234,7 +234,7 @@
   description: A spacious backpack with lots of pockets, worn by the Leader of an Emergency Response Team.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Backpacks/ertleader.rsi
+    sprite: _Erida/Clothing/Back/Backpacks/ertleader.rsi
   - type: Storage
     grid:
     - 0,0,8,3
@@ -248,7 +248,7 @@
   description: A spacious backpack with lots of pockets, worn by Security Officers of an Emergency Response Team.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Backpacks/ertsec.rsi
+    sprite: _Erida/Clothing/Back/Backpacks/ertsec.rsi
 
 - type: entity
   parent: ClothingBackpackERTLeader
@@ -257,7 +257,7 @@
   description: A spacious backpack with lots of pockets, worn by Medical Officers of an Emergency Response Team.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Backpacks/ertmed.rsi
+    sprite: _Erida/Clothing/Back/Backpacks/ertmed.rsi
 
 - type: entity
   parent: ClothingBackpackERTLeader
@@ -266,7 +266,7 @@
   description: A spacious backpack with lots of pockets, worn by Engineers of an Emergency Response Team.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Backpacks/erteng.rsi
+    sprite: _Erida/Clothing/Back/Backpacks/erteng.rsi
 
 - type: entity
   parent: ClothingBackpackERTLeader
@@ -275,7 +275,7 @@
   description: A spacious backpack with lots of pockets, worn by Janitors of an Emergency Response Team.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Backpacks/ertjanitor.rsi
+    sprite: _Erida/Clothing/Back/Backpacks/ertjanitor.rsi
 
 - type: entity
   parent: ClothingBackpackERTLeader
@@ -284,7 +284,7 @@
   description: A spacious backpack with lots of pockets, worn by Clowns of an Emergency Response Team.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Backpacks/ertclown.rsi
+    sprite: _Erida/Clothing/Back/Backpacks/ertclown.rsi
 
 - type: entity
   parent: ClothingBackpackERTLeader
@@ -293,7 +293,7 @@
   description: A spacious backpack with lots of pockets, worn by Chaplains of an Emergency Response Team.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Backpacks/ertchaplain.rsi
+    sprite: _Erida/Clothing/Back/Backpacks/ertchaplain.rsi
 
 - type: entity
   parent: ClothingBackpackERTSecurity
@@ -317,7 +317,7 @@
   description:
   components:
   - type: Sprite
-    sprite: Clothing/Back/Backpacks/syndicate.rsi
+    sprite: _Erida/Clothing/Back/Backpacks/syndicate.rsi
   - type: ExplosionResistance
     damageCoefficient: 0.1
   - type: Storage
@@ -335,7 +335,7 @@
   description: A backpack that opens into a localized pocket of bluespace.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Backpacks/holding.rsi
+    sprite: _Erida/Clothing/Back/Backpacks/holding.rsi
     state: holding
     layers:
     - state: holding
@@ -368,7 +368,7 @@
   description: It's a backpack made by Jonk! Co.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Backpacks/cluwne.rsi
+    sprite: _Erida/Clothing/Back/Backpacks/cluwne.rsi
   - type: Unremoveable
     deleteOnDrop: false
 
@@ -380,7 +380,7 @@
   description: Shocks on the signal. It is used to keep a particularly dangerous criminal under control.
   components:
   - type: Sprite
-    sprite: Clothing/Back/Backpacks/electropack.rsi
+    sprite: _Erida/Clothing/Back/Backpacks/electropack.rsi
     state: icon
   - type: Clothing
     stripDelay: 10

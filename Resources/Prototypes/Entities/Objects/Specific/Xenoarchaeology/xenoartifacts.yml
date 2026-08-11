@@ -60,7 +60,7 @@
   components:
   - type: Action
     icon:
-      sprite: Objects/Specific/Xenoarchaeology/xeno_artifacts.rsi
+      sprite: _Erida/Objects/Specific/Xenoarchaeology/xeno_artifacts.rsi
       state: ano29
     useDelay: 30 # Goobstation
   - type: InstantAction

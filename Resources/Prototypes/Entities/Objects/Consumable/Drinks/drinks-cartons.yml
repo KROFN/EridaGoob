@@ -61,7 +61,7 @@
         - ReagentId: JuiceLime
           Quantity: 50
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/limejuice.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/limejuice.rsi
 
 - type: entity
   parent: DrinkCartonSmallBaseFull
@@ -76,7 +76,7 @@
         - ReagentId: JuiceOrange
           Quantity: 50
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/orangejuice.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/orangejuice.rsi
 
 - type: entity
   parent: DrinkCartonSmallBaseFull
@@ -91,7 +91,7 @@
         - ReagentId: JuiceTomato
           Quantity: 50
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/tomatojuice.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/tomatojuice.rsi
 
 - type: entity
   parent: DrinkCartonSmallBaseFull
@@ -106,7 +106,7 @@
         - ReagentId: CoconutWater
           Quantity: 50
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/coconutwater.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/coconutwater.rsi
 
 - type: entity
   parent: DrinkCartonSmallBaseFull
@@ -121,7 +121,7 @@
         - ReagentId: Cream
           Quantity: 50
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/cream.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/cream.rsi
 
 - type: entity
   parent: [DrinkBaseMaterialPlastic, DrinkCartonSmallBaseFull]
@@ -136,7 +136,7 @@
         - ReagentId: JuiceLemon
           Quantity: 50
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/lemonjuice.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/lemonjuice.rsi
 
 - type: entity
   parent: DrinkCartonSmallBaseFull
@@ -151,7 +151,7 @@
         - ReagentId: JuicePineapple
           Quantity: 50
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/pineapplejuice.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/pineapplejuice.rsi
 
 # Large carton
 
@@ -168,7 +168,7 @@
         - ReagentId: Milk
           Quantity: 100
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/milk.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/milk.rsi
 
 - type: entity
   parent: DrinkCartonBaseFull
@@ -183,7 +183,7 @@
         - ReagentId: MilkSoy
           Quantity: 100
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/soymilk.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/soymilk.rsi
 
 - type: entity
   parent: [DrinkBaseMaterialPlastic, DrinkCartonBaseFull]
@@ -198,7 +198,7 @@
         - ReagentId: MilkOat
           Quantity: 100
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/oatmilk.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/oatmilk.rsi
 
 # Xtra large
 
@@ -218,7 +218,7 @@
   - type: Label
     currentLabel: reagent-name-juice-lime
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/limejuice.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/limejuice.rsi
 
 - type: entity
   parent: DrinkCartonBaseXtraLargeFull
@@ -236,7 +236,7 @@
   - type: Label
     currentLabel: reagent-name-juice-orange
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/orangejuice.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/orangejuice.rsi
 
 - type: entity
   parent: DrinkCartonBaseXtraLargeFull
@@ -254,4 +254,4 @@
   - type: Label
     currentLabel: reagent-name-cream
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/cream.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/cream.rsi

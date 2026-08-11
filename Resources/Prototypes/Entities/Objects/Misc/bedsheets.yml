@@ -12,7 +12,7 @@
     - Bed
   components:
   - type: Sprite
-    sprite: Objects/Misc/bedsheets.rsi
+    sprite: _Erida/Objects/Misc/bedsheets.rsi
     noRot: true
   - type: Item
     size: Small
@@ -44,7 +44,7 @@
   - type: Sprite
     state: sheetblack
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/black.rsi
+    sprite: _Erida/Clothing/Neck/Bedsheets/black.rsi
 
 - type: entity
   id: BedsheetBlue
@@ -54,7 +54,7 @@
   - type: Sprite
     state: sheetblue
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/blue.rsi
+    sprite: _Erida/Clothing/Neck/Bedsheets/blue.rsi
 
 - type: entity
   id: BedsheetBrown
@@ -64,7 +64,7 @@
   - type: Sprite
     state: sheetbrown
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/brown.rsi
+    sprite: _Erida/Clothing/Neck/Bedsheets/brown.rsi
 
 - type: entity
   id: BedsheetCaptain
@@ -75,7 +75,7 @@
   - type: Sprite
     state: sheetcaptain
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/captain.rsi
+    sprite: _Erida/Clothing/Neck/Bedsheets/captain.rsi
   - type: StealTarget
     stealGroup: HeadBedsheet
 
@@ -88,7 +88,7 @@
   - type: Sprite
     state: sheetce
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/ce.rsi
+    sprite: _Erida/Clothing/Neck/Bedsheets/ce.rsi
   - type: StealTarget
     stealGroup: HeadBedsheet
 
@@ -101,7 +101,7 @@
   - type: Sprite
     state: sheetcentcom
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/centcom.rsi
+    sprite: _Erida/Clothing/Neck/Bedsheets/centcom.rsi
   - type: StealTarget
     stealGroup: HeadBedsheet
 
@@ -114,7 +114,7 @@
   - type: Sprite
     state: sheetclown
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/rainbow.rsi
+    sprite: _Erida/Clothing/Neck/Bedsheets/rainbow.rsi
 
 - type: entity
   id: BedsheetCMO
@@ -125,7 +125,7 @@
   - type: Sprite
     state: sheetcmo
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/cmo.rsi
+    sprite: _Erida/Clothing/Neck/Bedsheets/cmo.rsi
   - type: StealTarget
     stealGroup: HeadBedsheet
 
@@ -138,7 +138,7 @@
   - type: Sprite
     state: sheetcosmos
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/cosmos.rsi
+    sprite: _Erida/Clothing/Neck/Bedsheets/cosmos.rsi
 
 - type: entity
   id: BedsheetCult
@@ -149,7 +149,7 @@
   - type: Sprite
     state: sheetcult
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/cult.rsi
+    sprite: _Erida/Clothing/Neck/Bedsheets/cult.rsi
 
 - type: entity
   id: BedsheetGreen
@@ -159,7 +159,7 @@
   - type: Sprite
     state: sheetgreen
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/green.rsi
+    sprite: _Erida/Clothing/Neck/Bedsheets/green.rsi
 
 - type: entity
   id: BedsheetGrey
@@ -169,7 +169,7 @@
   - type: Sprite
     state: sheetgrey
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/grey.rsi
+    sprite: _Erida/Clothing/Neck/Bedsheets/grey.rsi
 
 - type: entity
   id: BedsheetHOP
@@ -180,7 +180,7 @@
   - type: Sprite
     state: sheethop
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/hop.rsi
+    sprite: _Erida/Clothing/Neck/Bedsheets/hop.rsi
   - type: StealTarget
     stealGroup: HeadBedsheet
 
@@ -193,7 +193,7 @@
   - type: Sprite
     state: sheethos
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/hos.rsi
+    sprite: _Erida/Clothing/Neck/Bedsheets/hos.rsi
   - type: StealTarget
     stealGroup: HeadBedsheet
 
@@ -205,7 +205,7 @@
   - type: Sprite
     state: sheetian
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/ian.rsi
+    sprite: _Erida/Clothing/Neck/Bedsheets/ian.rsi
 
 - type: entity
   id: BedsheetMedical
@@ -216,7 +216,7 @@
   - type: Sprite
     state: sheetmedical
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/medical.rsi
+    sprite: _Erida/Clothing/Neck/Bedsheets/medical.rsi
 
 - type: entity
   id: BedsheetMime
@@ -227,7 +227,7 @@
   - type: Sprite
     state: sheetmime
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/mime.rsi
+    sprite: _Erida/Clothing/Neck/Bedsheets/mime.rsi
 
 - type: entity
   id: BedsheetNT
@@ -238,7 +238,7 @@
   - type: Sprite
     state: sheetNT
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/NT.rsi
+    sprite: _Erida/Clothing/Neck/Bedsheets/NT.rsi
 
 - type: entity
   id: BedsheetOrange
@@ -248,7 +248,7 @@
   - type: Sprite
     state: sheetorange
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/orange.rsi
+    sprite: _Erida/Clothing/Neck/Bedsheets/orange.rsi
 
 - type: entity
   id: BedsheetPurple
@@ -258,7 +258,7 @@
   - type: Sprite
     state: sheetpurple
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/purple.rsi
+    sprite: _Erida/Clothing/Neck/Bedsheets/purple.rsi
 
 - type: entity
   id: BedsheetQM
@@ -268,7 +268,7 @@
   - type: Sprite
     state: sheetqm
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/qm.rsi
+    sprite: _Erida/Clothing/Neck/Bedsheets/qm.rsi
   - type: StealTarget
     stealGroup: HeadBedsheet
 
@@ -280,7 +280,7 @@
   - type: Sprite
     state: sheetrainbow
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/rainbow.rsi
+    sprite: _Erida/Clothing/Neck/Bedsheets/rainbow.rsi
 
 - type: entity
   id: BedsheetRD
@@ -291,7 +291,7 @@
   - type: Sprite
     state: sheetrd
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/rd.rsi
+    sprite: _Erida/Clothing/Neck/Bedsheets/rd.rsi
   - type: StealTarget
     stealGroup: HeadBedsheet
 
@@ -304,7 +304,7 @@
   - type: Sprite
     state: sheetbrigmedic
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/brigmedic.rsi
+    sprite: _Erida/Clothing/Neck/Bedsheets/brigmedic.rsi
 
 - type: entity
   id: BedsheetRed
@@ -314,7 +314,7 @@
   - type: Sprite
     state: sheetred
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/red.rsi
+    sprite: _Erida/Clothing/Neck/Bedsheets/red.rsi
 
 - type: entity
   id: BedsheetSyndie
@@ -325,7 +325,7 @@
   - type: Sprite
     state: sheetsyndie
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/syndie.rsi
+    sprite: _Erida/Clothing/Neck/Bedsheets/syndie.rsi
   - type: ScannableForPoints # goob edit
     points: 1
 
@@ -337,7 +337,7 @@
   - type: Sprite
     state: sheetUSA
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/USA.rsi
+    sprite: _Erida/Clothing/Neck/Bedsheets/USA.rsi
 
 - type: entity
   id: BedsheetWhite
@@ -351,7 +351,7 @@
   - type: Sprite
     state: sheetwhite
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/white.rsi
+    sprite: _Erida/Clothing/Neck/Bedsheets/white.rsi
 
 - type: entity
   id: BedsheetWiz
@@ -362,7 +362,7 @@
   - type: Sprite
     state: sheetwiz
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/wiz.rsi
+    sprite: _Erida/Clothing/Neck/Bedsheets/wiz.rsi
 
 - type: entity
   id: BedsheetYellow
@@ -372,4 +372,4 @@
   - type: Sprite
     state: sheetyellow
   - type: Clothing
-    sprite: Clothing/Neck/Bedsheets/yellow.rsi
+    sprite: _Erida/Clothing/Neck/Bedsheets/yellow.rsi

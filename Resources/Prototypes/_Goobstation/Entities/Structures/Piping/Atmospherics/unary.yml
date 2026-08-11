@@ -9,7 +9,7 @@
   - type: Sprite
     sprite: Structures/Piping/Atmospherics/heatexchanger.rsi
     layers:
-    - sprite: Structures/Piping/Atmospherics/pipe.rsi
+    - sprite: _Erida/Structures/Piping/Atmospherics/pipe.rsi
       state: pipeStraight
       map: [ "enum.PipeVisualLayers.Pipe" ]
     - state: heInlineStraight
@@ -33,7 +33,7 @@
   components:
     - type: Sprite
       layers:
-      - sprite: Structures/Piping/Atmospherics/pipe.rsi
+      - sprite: _Erida/Structures/Piping/Atmospherics/pipe.rsi
         state: pipeBend
         map: [ "enum.PipeVisualLayers.Pipe" ]
       - state: heInlineBend

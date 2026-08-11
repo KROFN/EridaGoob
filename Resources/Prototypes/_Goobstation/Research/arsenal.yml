@@ -70,7 +70,7 @@
   id: Gygax
   name: research-technology-gygax
   icon:
-    sprite: Objects/Specific/Mech/mecha.rsi
+    sprite: _Erida/Objects/Specific/Mech/mecha.rsi
     state: gygax
   discipline: Arsenal
   tier: 2
@@ -152,7 +152,7 @@
   id: ExplosiveMechAmmunition
   name: research-technology-explosive-mech-ammunition
   icon:
-    sprite: Objects/Specific/Mech/mecha_equipment.rsi
+    sprite: _Erida/Objects/Specific/Mech/mecha_equipment.rsi
     state: mecha_missilerack
   discipline: Arsenal
   tier: 3
@@ -167,7 +167,7 @@
   id: Durand
   name: research-technology-durand
   icon:
-    sprite: Objects/Specific/Mech/mecha.rsi
+    sprite: _Erida/Objects/Specific/Mech/mecha.rsi
     state: durand
   discipline: Arsenal
   tier: 3

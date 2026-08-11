@@ -7,7 +7,7 @@
   description: A chessboard. Pieces included!
   components:
   - type: Sprite
-    sprite: Objects/Fun/Tabletop/chessboard.rsi
+    sprite: _Erida/Objects/Fun/Tabletop/chessboard.rsi
     state: chessboard
   - type: TabletopGame
     boardName: tabletop-chess-board-name
@@ -23,7 +23,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Fun/Tabletop/chessboard_tabletop.rsi
+    sprite: _Erida/Objects/Fun/Tabletop/chessboard_tabletop.rsi
     state: chessboard_tabletop
 
 # White pieces
@@ -33,7 +33,7 @@
   name: white king
   components:
   - type: Sprite
-    sprite: Objects/Fun/Tabletop/chess_pieces.rsi
+    sprite: _Erida/Objects/Fun/Tabletop/chess_pieces.rsi
     state: w_king
 
 - type: entity
@@ -42,7 +42,7 @@
   name: white queen
   components:
   - type: Sprite
-    sprite: Objects/Fun/Tabletop/chess_pieces.rsi
+    sprite: _Erida/Objects/Fun/Tabletop/chess_pieces.rsi
     state: w_queen
 
 - type: entity
@@ -51,7 +51,7 @@
   name: white rook
   components:
   - type: Sprite
-    sprite: Objects/Fun/Tabletop/chess_pieces.rsi
+    sprite: _Erida/Objects/Fun/Tabletop/chess_pieces.rsi
     state: w_rook
 
 - type: entity
@@ -60,7 +60,7 @@
   name: white bishop
   components:
   - type: Sprite
-    sprite: Objects/Fun/Tabletop/chess_pieces.rsi
+    sprite: _Erida/Objects/Fun/Tabletop/chess_pieces.rsi
     state: w_bishop
 
 - type: entity
@@ -69,7 +69,7 @@
   name: white knight
   components:
   - type: Sprite
-    sprite: Objects/Fun/Tabletop/chess_pieces.rsi
+    sprite: _Erida/Objects/Fun/Tabletop/chess_pieces.rsi
     state: w_knight
 
 - type: entity
@@ -78,7 +78,7 @@
   name: white pawn
   components:
   - type: Sprite
-    sprite: Objects/Fun/Tabletop/chess_pieces.rsi
+    sprite: _Erida/Objects/Fun/Tabletop/chess_pieces.rsi
     state: w_pawn
 
 # Black pieces
@@ -88,7 +88,7 @@
   name: black king
   components:
   - type: Sprite
-    sprite: Objects/Fun/Tabletop/chess_pieces.rsi
+    sprite: _Erida/Objects/Fun/Tabletop/chess_pieces.rsi
     state: b_king
 
 - type: entity
@@ -97,7 +97,7 @@
   name: black queen
   components:
   - type: Sprite
-    sprite: Objects/Fun/Tabletop/chess_pieces.rsi
+    sprite: _Erida/Objects/Fun/Tabletop/chess_pieces.rsi
     state: b_queen
 
 - type: entity
@@ -106,7 +106,7 @@
   name: black rook
   components:
   - type: Sprite
-    sprite: Objects/Fun/Tabletop/chess_pieces.rsi
+    sprite: _Erida/Objects/Fun/Tabletop/chess_pieces.rsi
     state: b_rook
 
 - type: entity
@@ -115,7 +115,7 @@
   name: black bishop
   components:
   - type: Sprite
-    sprite: Objects/Fun/Tabletop/chess_pieces.rsi
+    sprite: _Erida/Objects/Fun/Tabletop/chess_pieces.rsi
     state: b_bishop
 
 - type: entity
@@ -124,7 +124,7 @@
   name: black knight
   components:
   - type: Sprite
-    sprite: Objects/Fun/Tabletop/chess_pieces.rsi
+    sprite: _Erida/Objects/Fun/Tabletop/chess_pieces.rsi
     state: b_knight
 
 - type: entity
@@ -133,5 +133,5 @@
   name: black pawn
   components:
   - type: Sprite
-    sprite: Objects/Fun/Tabletop/chess_pieces.rsi
+    sprite: _Erida/Objects/Fun/Tabletop/chess_pieces.rsi
     state: b_pawn

@@ -7,7 +7,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Structures/Doors/Windoors/clockwork_windoor.rsi
+    sprite: _Erida/Structures/Doors/Windoors/clockwork_windoor.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -31,7 +31,7 @@
       visible: false
       map: ["enum.ElectrifiedLayers.HUD"]
     - state: electrified
-      sprite: Effects/electricity.rsi
+      sprite: _Erida/Effects/electricity.rsi
       shader: unshaded
       visible: false
       map: ["enum.ElectrifiedLayers.Sparks"]

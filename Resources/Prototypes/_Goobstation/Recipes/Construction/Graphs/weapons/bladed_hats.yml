@@ -9,13 +9,13 @@
       - tag: PlasmaGlassShard
         name: construction-graph-tag-plasma-glass-shard
         icon:
-          sprite: Objects/Materials/Shards/shard.rsi
+          sprite: _Erida/Objects/Materials/Shards/shard.rsi
           state: shard1
         doAfter: 1
       - tag: BrimFlatcapGrey
         name: construction-graph-tag-grey-flatcap
         icon:
-          sprite: Clothing/Head/Hats/greyflatcap.rsi
+          sprite: _Erida/Clothing/Head/Hats/greyflatcap.rsi
           state: icon
   - node: icon
     entity: BladedPlasmaFlatcapGrey
@@ -31,13 +31,13 @@
       - tag: UraniumGlassShard
         name: construction-graph-tag-uranium-glass-shard
         icon:
-          sprite: Objects/Materials/Shards/shard.rsi
+          sprite: _Erida/Objects/Materials/Shards/shard.rsi
           state: shard1
         doAfter: 1
       - tag: BrimFlatcapGrey
         name: construction-graph-tag-grey-flatcap
         icon:
-          sprite: Clothing/Head/Hats/greyflatcap.rsi
+          sprite: _Erida/Clothing/Head/Hats/greyflatcap.rsi
           state: icon
   - node: icon
     entity: BladedUraniumFlatcapGrey
@@ -53,13 +53,13 @@
       - tag: ReinforcedGlassShard
         name: construction-graph-tag-reinforced-glass-shard
         icon:
-          sprite: Objects/Materials/Shards/shard.rsi
+          sprite: _Erida/Objects/Materials/Shards/shard.rsi
           state: shard1
         doAfter: 1
       - tag: BrimFlatcapGrey
         name: construction-graph-tag-grey-flatcap
         icon:
-          sprite: Clothing/Head/Hats/greyflatcap.rsi
+          sprite: _Erida/Clothing/Head/Hats/greyflatcap.rsi
           state: icon
   - node: icon
     entity: BladedReinforcedFlatcapGrey
@@ -75,13 +75,13 @@
       - tag: PlasmaGlassShard
         name: construction-graph-tag-plasma-glass-shard
         icon:
-          sprite: Objects/Materials/Shards/shard.rsi
+          sprite: _Erida/Objects/Materials/Shards/shard.rsi
           state: shard1
         doAfter: 1
       - tag: BrimFlatcapBrown
         name: construction-graph-tag-brown-flatcap
         icon:
-          sprite: Clothing/Head/Hats/brownflatcap.rsi
+          sprite: _Erida/Clothing/Head/Hats/brownflatcap.rsi
           state: icon
   - node: icon
     entity: BladedPlasmaFlatcapBrown
@@ -97,13 +97,13 @@
       - tag: UraniumGlassShard
         name: construction-graph-tag-uranium-glass-shard
         icon:
-          sprite: Objects/Materials/Shards/shard.rsi
+          sprite: _Erida/Objects/Materials/Shards/shard.rsi
           state: shard1
         doAfter: 1
       - tag: BrimFlatcapBrown
         name: construction-graph-tag-brown-flatcap
         icon:
-          sprite: Clothing/Head/Hats/brownflatcap.rsi
+          sprite: _Erida/Clothing/Head/Hats/brownflatcap.rsi
           state: icon
   - node: icon
     entity: BladedUraniumFlatcapBrown
@@ -119,13 +119,13 @@
       - tag: ReinforcedGlassShard
         name: construction-graph-tag-reinforced-glass-shard
         icon:
-          sprite: Objects/Materials/Shards/shard.rsi
+          sprite: _Erida/Objects/Materials/Shards/shard.rsi
           state: shard1
         doAfter: 1
       - tag: BrimFlatcapBrown
         name: construction-graph-tag-brown-flatcap
         icon:
-          sprite: Clothing/Head/Hats/brownflatcap.rsi
+          sprite: _Erida/Clothing/Head/Hats/brownflatcap.rsi
           state: icon
   - node: icon
     entity: BladedReinforcedFlatcapBrown

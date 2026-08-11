@@ -5,7 +5,7 @@
   name: tool-quality-axing-name
   toolName: tool-quality-axing-tool-name
   spawn: FireAxe
-  icon: { sprite: Objects/Weapons/Melee/fireaxe.rsi, state: icon }
+  icon: { sprite: _Erida/Objects/Weapons/Melee/fireaxe.rsi, state: icon }
 
 - type: tool
   id: Hammering
@@ -19,4 +19,4 @@
   name: tool-quality-painting-name
   toolName: tool-quality-painting-tool-name
   spawn: SprayPainter
-  icon: { sprite: Objects/Tools/spray_painter.rsi, state: spray_painter }
+  icon: { sprite: _Erida/Objects/Tools/spray_painter.rsi, state: spray_painter }

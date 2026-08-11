@@ -12,7 +12,7 @@
       - oily
       - bread
   - type: Sprite
-    sprite: Objects/Consumable/Food/Baked/pizza.rsi
+    sprite: _Erida/Objects/Consumable/Food/Baked/pizza.rsi
   - type: SolutionContainerManager
     solutions:
       food:
@@ -44,7 +44,7 @@
       - oily
       - bread
   - type: Sprite
-    sprite: Objects/Consumable/Food/Baked/pizza.rsi
+    sprite: _Erida/Objects/Consumable/Food/Baked/pizza.rsi
   - type: SolutionContainerManager
     solutions:
       food:

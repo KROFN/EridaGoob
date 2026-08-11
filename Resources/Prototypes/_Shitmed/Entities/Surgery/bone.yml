@@ -8,11 +8,11 @@
   components:
   - type: Bone # backmen: wounding
   - type: Sprite
-    sprite: Objects/Materials/materials.rsi
+    sprite: _Erida/Objects/Materials/materials.rsi
     state: bones
   - type: Appearance
   - type: Item
-    sprite: Objects/Materials/materials.rsi
+    sprite: _Erida/Objects/Materials/materials.rsi
     size: Normal
   - type: Tag
     tags:
@@ -30,7 +30,7 @@
     integrityCap: 100 # Goob edit
     boneIntegrity: 100 # Goob edit
   - type: Sprite
-    sprite: Objects/Materials/materials.rsi
+    sprite: _Erida/Objects/Materials/materials.rsi
     state: bones
   - type: Appearance
 

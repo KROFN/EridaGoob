@@ -16,7 +16,7 @@
       types:
         Heat: 10
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/magic.rsi
     layers:
     - state: fireball
       shader: unshaded
@@ -60,7 +60,7 @@
     radius: 3.0
     energy: 5.0
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/magic.rsi
     layers:
     - state: fireball
       shader: unshaded
@@ -138,7 +138,7 @@
         Brute: 0
   - type: Sprite
     noRot: true
-    sprite: Structures/Storage/closet.rsi
+    sprite: _Erida/Structures/Storage/closet.rsi
     layers:
     - state: cursed
       map: [ "enum.StorageVisualLayers.Base" ]
@@ -146,7 +146,7 @@
       map: [ "enum.StorageVisualLayers.Door" ]
     - state: paper
       visible: false
-      sprite: Structures/Storage/closet_labels.rsi
+      sprite: _Erida/Structures/Storage/closet_labels.rsi
       map: [ "enum.PaperLabelVisuals.Layer" ]
     - state: cursed_door
       map: [ "enum.LockVisualLayers.Lock" ]
@@ -194,7 +194,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/magic.rsi
     layers:
     - state: magicm_green # Goob edit
       shader: unshaded
@@ -220,7 +220,7 @@
     alphaLerpAmount: 0.4
     shader: unshaded
     sprite:
-      sprite: /Textures/Objects/Weapons/Guns/Projectiles/magic.rsi
+      sprite: /Textures/_Erida/Objects/Weapons/Guns/Projectiles/magic.rsi
       state: magicm_green
 
 - type: entity
@@ -263,7 +263,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/magic.rsi
     layers:
     - state: spell
       color: brown
@@ -287,7 +287,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/magic.rsi
     layers:
     - state: magicm_yellow # Goob edit
       shader: unshaded
@@ -315,7 +315,7 @@
     alphaLerpAmount: 0.4
     shader: unshaded
     sprite:
-      sprite: /Textures/Objects/Weapons/Guns/Projectiles/magic.rsi
+      sprite: /Textures/_Erida/Objects/Weapons/Guns/Projectiles/magic.rsi
       state: magicm_yellow
 
 - type: entity
@@ -359,7 +359,7 @@
   - type: Reflective
     reflective: Magic
   - type: Sprite
-    sprite: Structures/Specific/Anomalies/ice_anom.rsi
+    sprite: _Erida/Structures/Specific/Anomalies/ice_anom.rsi
   - type: Projectile
     damage:
       types:

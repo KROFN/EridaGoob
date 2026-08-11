@@ -1,4 +1,4 @@
-﻿# Goobwizard
+# Goobwizard
 #- type: entity
 #  abstract: true
 #  parent: BaseObjective
@@ -21,7 +21,7 @@
 #  components:
 #  - type: Objective
 #    icon:
-#      sprite: Clothing/Head/Hats/wizardhat.rsi
+#      sprite: _Erida/Clothing/Head/Hats/wizardhat.rsi
 #      state: icon
 
 # Goobwizard
@@ -33,5 +33,5 @@
 #  components:
 #  - type: Objective
 #    icon:
-#      sprite: Objects/Magic/magicactions.rsi
+#      sprite: _Erida/Objects/Magic/magicactions.rsi
 #      state: fireball

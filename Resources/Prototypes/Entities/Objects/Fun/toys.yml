@@ -8,7 +8,7 @@
   description: Throw it at the floor and listen to it POP!
   components:
   - type: Sprite
-    sprite: Objects/Fun/snap_pops.rsi
+    sprite: _Erida/Objects/Fun/snap_pops.rsi
     state: icon
   - type: Item
     size: Tiny
@@ -49,7 +49,7 @@
   - type: Item
     size: Normal
   - type: Sprite
-    sprite: Objects/Fun/snap_pops.rsi
+    sprite: _Erida/Objects/Fun/snap_pops.rsi
     state: box
   - type: Storage
     grid:
@@ -71,7 +71,7 @@
   description: A plastic banana.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/banana.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/banana.rsi
   - type: FlavorProfile
     flavors:
     - plastic
@@ -93,7 +93,7 @@
   description:  A bottle of crazy glue manufactured by Honk! Co.
   components:
   - type: Sprite
-    sprite: Objects/Fun/glue.rsi
+    sprite: _Erida/Objects/Fun/glue.rsi
     state: icon
     layers:
     - state: icon
@@ -108,7 +108,7 @@
   - type: Glue
     consumptionUnit: 10
   - type: Item
-    sprite: Objects/Fun/glue.rsi
+    sprite: _Erida/Objects/Fun/glue.rsi
   - type: SolutionContainerManager
     solutions:
       drink:
@@ -132,7 +132,7 @@
     sound:
       collection: packetOpenSounds
   - type: Sprite
-    sprite: Objects/Fun/lube.rsi
+    sprite: _Erida/Objects/Fun/lube.rsi
     layers:
     - state: icon
       map: ["enum.OpenableVisuals.Layer"]
@@ -162,7 +162,7 @@
   description: It's a dummy, dummy!
   components:
   - type: Sprite
-    sprite: Objects/Fun/mrchips.rsi
+    sprite: _Erida/Objects/Fun/mrchips.rsi
     layers:
     - state: icon
   - type: Input
@@ -193,7 +193,7 @@
   name: mr dips
   components:
   - type: Sprite
-    sprite: Objects/Fun/mrdips.rsi
+    sprite: _Erida/Objects/Fun/mrdips.rsi
 
 - type: entity
   parent: BaseItem
@@ -247,7 +247,7 @@
   description: Appears to be a modified anomaly locator. Seems very old.
   components:
   - type: Sprite
-    sprite: Objects/Fun/spectrallocator.rsi
+    sprite: _Erida/Objects/Fun/spectrallocator.rsi
     layers:
     - state: icon
     - state: screen

@@ -13,7 +13,7 @@
     noRot: true
   - type: Sprite
     noRot: true
-    sprite: Structures/Storage/closet.rsi
+    sprite: _Erida/Structures/Storage/closet.rsi
     layers:
     - state: generic
       map: ["enum.StorageVisualLayers.Base"]
@@ -24,7 +24,7 @@
       map: ["enum.WeldableLayers.BaseWelded"]
     - state: paper
       visible: false
-      sprite: Structures/Storage/closet_labels.rsi
+      sprite: _Erida/Structures/Storage/closet_labels.rsi
       map: ["enum.PaperLabelVisuals.Layer"]
   - type: MovedByPressure
   - type: DamageOnHighSpeedImpact
@@ -139,7 +139,7 @@
   - type: Sprite
     drawdepth: WallMountedItems
     noRot: false
-    sprite: Structures/Storage/wall_locker.rsi
+    sprite: _Erida/Structures/Storage/wall_locker.rsi
     layers:
     - state: generic
       map: ["enum.StorageVisualLayers.Base"]
@@ -207,7 +207,7 @@
   - type: Lock
   - type: LockVisuals
   - type: Sprite
-    sprite: Structures/Storage/wall_locker.rsi
+    sprite: _Erida/Structures/Storage/wall_locker.rsi
     layers:
     - state: generic
       map: ["enum.StorageVisualLayers.Base"]
@@ -241,7 +241,7 @@
     noRot: true
   - type: Sprite
     noRot: true
-    sprite: Structures/Storage/suit_storage.rsi
+    sprite: _Erida/Structures/Storage/suit_storage.rsi
     layers:
     - state: base
     - state: door

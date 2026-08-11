@@ -3,7 +3,7 @@
   name: selectable-set-syndicate-lawyer-name
   description: selectable-set-syndicate-lawyer-description
   sprite:
-    sprite: Objects/Storage/Briefcases/briefcase_brown.rsi
+    sprite: _Erida/Objects/Storage/Briefcases/briefcase_brown.rsi
     state: icon
   content:
   - ClothingUniformJumpsuitLawyerRed
@@ -30,7 +30,7 @@
   name: selectable-set-syndicate-no-russian-name
   description: selectable-set-no-russian-description
   sprite:
-    sprite: Objects/Weapons/Guns/LMGs/l6.rsi
+    sprite: _Erida/Objects/Weapons/Guns/LMGs/l6.rsi
     state: icon
   content:
   - ClothingUniformJumpsuitLawyerBlack
@@ -45,7 +45,7 @@
   name: selectable-set-syndicate-pirate-captain-name
   description: selectable-set-syndicate-pirate-captain-description
   sprite:
-    sprite: Objects/Weapons/Guns/Launchers/pirate_cannon.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Launchers/pirate_cannon.rsi
     state: icon
   content:
   - ClothingUniformJumpsuitPirate
@@ -76,7 +76,7 @@
   name: selectable-set-syndicate-engineer-name
   description: selectable-set-syndicate-engineer-description
   sprite:
-    sprite: Objects/Weapons/Guns/Turrets/turrets.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Turrets/turrets.rsi
     state: syndie_off
   content:
   - ToolboxElectricalTurret # 1
@@ -124,7 +124,7 @@
   name: selectable-set-syndicate-tunnel-clown-name
   description: selectable-set-syndicate-tunnel-clown-description
   sprite:
-    sprite: Clothing/Mask/clown.rsi
+    sprite: _Erida/Clothing/Mask/clown.rsi
     state: icon
   content:
   - EncryptionKeySyndie

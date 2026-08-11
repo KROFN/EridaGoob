@@ -60,9 +60,9 @@
       visibleLayers:
       - enum.SubfloorLayers.FirstLayer
     - type: Sprite
-      sprite: Structures/Piping/Atmospherics/gasfilter.rsi
+      sprite: _Erida/Structures/Piping/Atmospherics/gasfilter.rsi
       layers:
-        - sprite: Structures/Piping/Atmospherics/pipe.rsi
+        - sprite: _Erida/Structures/Piping/Atmospherics/pipe.rsi
           state: pipeTrinaryConnectors
           map: [ "enum.PipeVisualLayers.Pipe" ]
         - state: gasFilter
@@ -129,7 +129,7 @@
     - enum.SubfloorLayers.FirstLayer
   - type: Sprite
     layers:
-    - sprite: Structures/Piping/Atmospherics/pipe.rsi
+    - sprite: _Erida/Structures/Piping/Atmospherics/pipe.rsi
       state: pipeTrinaryConnectors
       map: [ "enum.PipeVisualLayers.Pipe" ]
     - state: gasFilterF
@@ -158,9 +158,9 @@
       visibleLayers:
       - enum.SubfloorLayers.FirstLayer
     - type: Sprite
-      sprite: Structures/Piping/Atmospherics/gasmixer.rsi
+      sprite: _Erida/Structures/Piping/Atmospherics/gasmixer.rsi
       layers:
-        - sprite: Structures/Piping/Atmospherics/pipe.rsi
+        - sprite: _Erida/Structures/Piping/Atmospherics/pipe.rsi
           state: pipeTrinaryConnectors
           map: [ "enum.PipeVisualLayers.Pipe" ]
         - state: gasMixer
@@ -217,9 +217,9 @@
     mode: SnapgridCenter
   components:
   - type: Sprite
-    sprite: Structures/Piping/Atmospherics/gasmixer.rsi
+    sprite: _Erida/Structures/Piping/Atmospherics/gasmixer.rsi
     layers:
-    - sprite: Structures/Piping/Atmospherics/pipe.rsi
+    - sprite: _Erida/Structures/Piping/Atmospherics/pipe.rsi
       state: pipeTrinaryConnectors
       map: [ "enum.PipeVisualLayers.Pipe" ]
     - state: gasMixerF
@@ -293,9 +293,9 @@
           nodeGroupID: Pipe
           pipeDirection: South
     - type: Sprite
-      sprite: Structures/Piping/Atmospherics/pneumaticvalve.rsi
+      sprite: _Erida/Structures/Piping/Atmospherics/pneumaticvalve.rsi
       layers:
-        - sprite: Structures/Piping/Atmospherics/pipe.rsi
+        - sprite: _Erida/Structures/Piping/Atmospherics/pipe.rsi
           state: pipeTrinaryConnectors
           map: [ "enum.PipeVisualLayers.Pipe" ]
         - state: off

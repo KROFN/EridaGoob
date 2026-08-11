@@ -7,7 +7,7 @@
   description: A festive bucket for all your treats.
   components:
   - type: Sprite
-    sprite: Objects/Fun/candy_bucket.rsi
+    sprite: _Erida/Objects/Fun/candy_bucket.rsi
     layers:
     - state: empty_icon
       map: [ "enum.ToggleableVisuals.Layer" ]

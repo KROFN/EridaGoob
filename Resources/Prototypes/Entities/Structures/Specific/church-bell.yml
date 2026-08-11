@@ -11,7 +11,7 @@
     anchored: true
   - type: Sprite
     noRot: true
-    sprite: Structures/Specific/church-bell.rsi
+    sprite: _Erida/Structures/Specific/church-bell.rsi
     layers:
     - state: church-bell
   - type: InteractionPopup

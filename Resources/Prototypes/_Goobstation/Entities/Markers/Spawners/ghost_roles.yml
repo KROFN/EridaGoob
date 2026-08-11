@@ -40,7 +40,7 @@
     sprite: Markers/jobs.rsi
     layers:
     - state: green
-    - sprite: Objects/Tools/Toolboxes/toolbox_red.rsi
+    - sprite: _Erida/Objects/Tools/Toolboxes/toolbox_red.rsi
       state: icon
 
 - type: entity
@@ -62,7 +62,7 @@
     sprite: Markers/jobs.rsi
     layers:
     - state: green
-    - sprite: Clothing/Mask/clown.rsi
+    - sprite: _Erida/Clothing/Mask/clown.rsi
       state: icon
 
 - type: entity
@@ -104,7 +104,7 @@
     sprite: Markers/jobs.rsi
     layers:
     - state: green
-    - sprite: Objects/Weapons/Melee/e_sword.rsi
+    - sprite: _Erida/Objects/Weapons/Melee/e_sword.rsi
       state: icon
   - type: DarkLord
 
@@ -127,7 +127,7 @@
     sprite: Markers/jobs.rsi
     layers:
     - state: green
-    - sprite: Clothing/Head/Hats/beret_french.rsi
+    - sprite: _Erida/Clothing/Head/Hats/beret_french.rsi
       state: icon
 
 - type: entity
@@ -149,7 +149,7 @@
     sprite: Markers/jobs.rsi
     layers:
     - state: green
-    - sprite: Objects/Weapons/Melee/e_sword.rsi
+    - sprite: _Erida/Objects/Weapons/Melee/e_sword.rsi
       state: icon
 
 - type: entity
@@ -205,6 +205,6 @@
     sprite: Markers/jobs.rsi
     layers:
     - state: green
-    - sprite: Objects/Tools/Toolboxes/toolbox_red.rsi
+    - sprite: _Erida/Objects/Tools/Toolboxes/toolbox_red.rsi
       state: icon
   - type: MaintsSpawnLocation

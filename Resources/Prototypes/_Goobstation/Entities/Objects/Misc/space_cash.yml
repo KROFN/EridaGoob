@@ -13,7 +13,7 @@
   suffix: 10
   components:
   - type: Icon
-    sprite: Objects/Economy/cash.rsi
+    sprite: _Erida/Objects/Economy/cash.rsi
     state: cash_10
   - type: Stack
     count: 10
@@ -24,7 +24,7 @@
   suffix: 50
   components:
   - type: Icon
-    sprite: Objects/Economy/cash.rsi
+    sprite: _Erida/Objects/Economy/cash.rsi
     state: cash_10
   - type: Stack
     count: 50

@@ -9,7 +9,7 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Objects/Weapons/Melee/flash.rsi
+        - sprite: _Erida/Objects/Weapons/Melee/flash.rsi
           state: flash
     - type: RandomSpawner
       rarePrototypes:
@@ -33,7 +33,7 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Objects/Weapons/Melee/flash.rsi
+        - sprite: _Erida/Objects/Weapons/Melee/flash.rsi
           state: flash
     - type: RandomSpawner
       rarePrototypes:
@@ -65,9 +65,9 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Clothing/OuterClothing/Armor/security.rsi
+        - sprite: _Erida/Clothing/OuterClothing/Armor/security.rsi
           state: icon
-        - sprite: Objects/Weapons/Guns/Shotguns/pump.rsi
+        - sprite: _Erida/Objects/Weapons/Guns/Shotguns/pump.rsi
           state: icon
     - type: RandomSpawner
       rarePrototypes:
@@ -103,7 +103,7 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Objects/Weapons/Guns/Shotguns/pump.rsi
+        - sprite: _Erida/Objects/Weapons/Guns/Shotguns/pump.rsi
           state: icon
     - type: RandomSpawner
       rarePrototypes:
@@ -130,7 +130,7 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Clothing/OuterClothing/Armor/security.rsi
+        - sprite: _Erida/Clothing/OuterClothing/Armor/security.rsi
           state: icon
     - type: RandomSpawner
       rarePrototypes:

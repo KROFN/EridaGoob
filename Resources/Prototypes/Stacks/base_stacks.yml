@@ -38,5 +38,5 @@
 - type: stack
   abstract: true
   id: BaseTileStack
-  icon: { sprite: /Textures/Objects/Tiles/tile.rsi, state: steel }
+  icon: { sprite: /Textures/_Erida/Objects/Tiles/tile.rsi, state: steel }
   maxCount: 30

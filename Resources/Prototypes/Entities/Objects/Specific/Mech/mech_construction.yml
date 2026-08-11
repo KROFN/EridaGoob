@@ -39,7 +39,7 @@
   - type: Sprite
     drawdepth: Items
     noRot: false
-    sprite: Objects/Specific/Mech/ripley_construction.rsi
+    sprite: _Erida/Objects/Specific/Mech/ripley_construction.rsi
 
 - type: entity
   id: BaseRipleyPartItem
@@ -74,7 +74,7 @@
         whitelist:
           tags:
           - RipleyRLeg
-    sprite: Objects/Specific/Mech/ripley_construction.rsi
+    sprite: _Erida/Objects/Specific/Mech/ripley_construction.rsi
   - type: ContainerContainer
     containers:
       mech-assembly-container: !type:Container
@@ -154,7 +154,7 @@
   - type: Sprite
     drawdepth: Items
     noRot: false
-    sprite: Objects/Specific/Mech/honker_construction.rsi
+    sprite: _Erida/Objects/Specific/Mech/honker_construction.rsi
 
 - type: entity
   id: BaseHonkerPartItem
@@ -189,7 +189,7 @@
         whitelist:
           tags:
           - HonkerRLeg
-    sprite: Objects/Specific/Mech/honker_construction.rsi
+    sprite: _Erida/Objects/Specific/Mech/honker_construction.rsi
   - type: ContainerContainer
     containers:
       mech-assembly-container: !type:Container
@@ -269,7 +269,7 @@
   - type: Sprite
     drawdepth: Items
     noRot: false
-    sprite: Objects/Specific/Mech/hamtr_construction.rsi
+    sprite: _Erida/Objects/Specific/Mech/hamtr_construction.rsi
 
 - type: entity
   id: BaseHamtrPartItem
@@ -304,7 +304,7 @@
         whitelist:
           tags:
           - HamtrRLeg
-    sprite: Objects/Specific/Mech/hamtr_construction.rsi
+    sprite: _Erida/Objects/Specific/Mech/hamtr_construction.rsi
   - type: ContainerContainer
     containers:
       mech-assembly-container: !type:Container
@@ -384,7 +384,7 @@
   - type: Sprite
     drawdepth: Items
     noRot: false
-    sprite: Objects/Specific/Mech/vim_construction.rsi
+    sprite: _Erida/Objects/Specific/Mech/vim_construction.rsi
 
 - type: entity
   parent: BaseVimPart
@@ -415,7 +415,7 @@
         whitelist:
           tags:
           - BorgLeg
-    sprite: Objects/Specific/Mech/vim_construction.rsi
+    sprite: _Erida/Objects/Specific/Mech/vim_construction.rsi
   - type: ContainerContainer
     containers:
       mech-assembly-container: !type:Container

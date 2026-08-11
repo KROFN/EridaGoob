@@ -86,9 +86,9 @@
   description: A small vial.
   components:
   - type: Item
-    sprite: Objects/Specific/Chemistry/vial.rsi
+    sprite: _Erida/Objects/Specific/Chemistry/vial.rsi
   - type: Sprite
-    sprite: Objects/Specific/Chemistry/vial.rsi
+    sprite: _Erida/Objects/Specific/Chemistry/vial.rsi
   - type: SolutionContainerVisuals
     maxFillLevels: 6
     inHandsMaxFillLevels: 4
@@ -128,9 +128,9 @@
   description: A smaller vial.
   components:
   - type: Item
-    sprite: Objects/Specific/Chemistry/vial_mini.rsi
+    sprite: _Erida/Objects/Specific/Chemistry/vial_mini.rsi
   - type: Sprite
-    sprite: Objects/Specific/Chemistry/vial_mini.rsi
+    sprite: _Erida/Objects/Specific/Chemistry/vial_mini.rsi
   - type: SolutionContainerVisuals
     maxFillLevels: 5
     inHandsMaxFillLevels: 4

@@ -8,7 +8,7 @@
         steps:
         - tag: Bucket
           icon:
-            sprite: Objects/Tools/bucket.rsi
+            sprite: _Erida/Objects/Tools/bucket.rsi
             state: icon
           name: construction-graph-tag-bucket
         - material: Cable

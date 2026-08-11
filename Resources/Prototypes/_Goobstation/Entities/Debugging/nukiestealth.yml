@@ -9,11 +9,11 @@
   description: A hardsuit with stealth plating for operations, the shielding doesn't work while you're moving though! Needs the helmet on to finish the stealth field.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Hardsuits/syndicate.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/syndicate.rsi
   - type: Item
     size: Huge
   - type: Clothing
-    sprite: Clothing/OuterClothing/Hardsuits/syndicate.rsi
+    sprite: _Erida/Clothing/OuterClothing/Hardsuits/syndicate.rsi
   - type: PressureProtection
     highPressureMultiplier: 0.05
     lowPressureMultiplier: 1000
@@ -63,9 +63,9 @@
   description: A helmet with plating for stealth operations.
   components:
   - type: Sprite
-    sprite: Clothing/Head/Hardsuits/syndicate.rsi
+    sprite: _Erida/Clothing/Head/Hardsuits/syndicate.rsi
   - type: Clothing
-    sprite: Clothing/Head/Hardsuits/syndicate.rsi
+    sprite: _Erida/Clothing/Head/Hardsuits/syndicate.rsi
   - type: PointLight
     color: green
   - type: PressureProtection

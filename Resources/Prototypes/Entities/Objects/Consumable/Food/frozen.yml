@@ -8,7 +8,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Food/frozen.rsi
+    sprite: _Erida/Objects/Consumable/Food/frozen.rsi
   - type: SolutionContainerManager
     solutions:
       food:
@@ -280,7 +280,7 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: Objects/Consumable/Food/frozen.rsi
+    sprite: _Erida/Objects/Consumable/Food/frozen.rsi
     state: cone-trash
   - type: Tag
     tags:
@@ -293,7 +293,7 @@
   description: Once held a delicious treat. Now, 'tis barren.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Food/frozen.rsi
+    sprite: _Erida/Objects/Consumable/Food/frozen.rsi
     layers:
       - state: stick
         map: [ "enum.DamageStateVisualLayers.Base" ]

@@ -6,9 +6,9 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Objects/Misc/utensils.rsi
+    sprite: _Erida/Objects/Misc/utensils.rsi
   - type: Item # TODO add inhand sprites for all utensils
-    sprite: Objects/Misc/utensils.rsi
+    sprite: _Erida/Objects/Misc/utensils.rsi
   - type: SpaceGarbage
   - type: Tweezers # Shitmed: Any utensil can poorly remove organs
     speed: 0.2

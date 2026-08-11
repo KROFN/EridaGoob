@@ -6,7 +6,7 @@
   id: BaseGenericTabletopPiece
   components:
   - type: Sprite
-    sprite: Objects/Fun/Tabletop/generic_pieces.rsi
+    sprite: _Erida/Objects/Fun/Tabletop/generic_pieces.rsi
 
 - type: entity
   parent: BaseGenericTabletopPiece

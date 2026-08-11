@@ -89,7 +89,7 @@
         - !type:ChangeConstructionNodeBehavior
           node: machineFrame
   - type: Sprite
-    sprite: Structures/Shuttles/thruster.rsi
+    sprite: _Erida/Structures/Shuttles/thruster.rsi
     layers:
     - state: base
       map: ["enum.ThrusterVisualLayers.Base"]
@@ -116,7 +116,7 @@
   - type: Rotatable
     rotateWhileAnchored: false # no rotating it backwards so it doesn't face space
   - type: Sprite
-    sprite: Structures/Shuttles/xenoborg_thruster.rsi
+    sprite: _Erida/Structures/Shuttles/xenoborg_thruster.rsi
 
 - type: entity
   id: ThrusterLarge
@@ -162,7 +162,7 @@
       types:
         Heat: 120
   - type: Sprite
-    sprite: Structures/Shuttles/thruster_large.rsi
+    sprite: _Erida/Structures/Shuttles/thruster_large.rsi
     offset: 0.5,-0.5
     layers:
     - state: base
@@ -202,7 +202,7 @@
     needsPower: false
     powerLoad: 0
   - type: Sprite
-    sprite: Structures/Shuttles/thruster.rsi
+    sprite: _Erida/Structures/Shuttles/thruster.rsi
     layers:
     - state: base
       map: ["enum.ThrusterVisualLayers.Base"]
@@ -229,7 +229,7 @@
     machinePartThrust: Manipulator
   - type: Sprite
     # Listen I'm not the biggest fan of the sprite but it was the most appropriate thing I could find.
-    sprite: Structures/Shuttles/gyroscope.rsi
+    sprite: _Erida/Structures/Shuttles/gyroscope.rsi
     snapCardinals: true
     layers:
     - state: base
@@ -303,7 +303,7 @@
     needsPower: false
     powerLoad: 0
   - type: Sprite
-    sprite: Structures/Shuttles/gyroscope.rsi
+    sprite: _Erida/Structures/Shuttles/gyroscope.rsi
     snapCardinals: true
     layers:
     - state: base
@@ -341,7 +341,7 @@
     - type: Rotatable
       rotateWhileAnchored: true
     - type: Sprite
-      sprite: Structures/Shuttles/old_thruster.rsi
+      sprite: _Erida/Structures/Shuttles/old_thruster.rsi
       state: base
     - type: Damageable
       damageContainer: Inorganic
@@ -420,7 +420,7 @@
     - type: StaticPrice
       price: 300
     - type: Sprite
-      sprite: Structures/Shuttles/thruster.rsi
+      sprite: _Erida/Structures/Shuttles/thruster.rsi
       layers:
       - state: base
         map: ["enum.ThrusterVisualLayers.Base"]

@@ -19,7 +19,7 @@
       "Electro": {62: 0} #i needed generic sounding synth presets, sue me
       "Bubbles": {63: 0}
   - type: Sprite
-    sprite: Objects/Fun/Instruments/h_synthesizer.rsi
+    sprite: _Erida/Objects/Fun/Instruments/h_synthesizer.rsi
   - type: StaticPrice
     price: 90
 
@@ -34,7 +34,7 @@
     allowPercussion: true
     allowProgramChange: true
   - type: Sprite
-    sprite: Objects/Fun/Instruments/h_synthesizer.rsi
+    sprite: _Erida/Objects/Fun/Instruments/h_synthesizer.rsi
     state: supersynth
   - type: Item
     heldPrefix: super
@@ -59,7 +59,7 @@
       "Standard": {21: 0}
       "Tango": {23: 0}
   - type: Sprite
-    sprite: Objects/Fun/Instruments/accordion.rsi
+    sprite: _Erida/Objects/Fun/Instruments/accordion.rsi
 
 - type: entity
   parent: BaseKeyedInstrument
@@ -70,6 +70,6 @@
   - type: Instrument
     program: 108
   - type: Sprite
-    sprite: Objects/Fun/Instruments/kalimba.rsi
+    sprite: _Erida/Objects/Fun/Instruments/kalimba.rsi
   - type: Item
     size: Small

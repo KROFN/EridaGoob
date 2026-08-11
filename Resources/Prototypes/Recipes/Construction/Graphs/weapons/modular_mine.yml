@@ -22,7 +22,7 @@
         doAfter: 0.5
       - tag: ProximitySensor
         icon:
-          sprite: Objects/Misc/proximity_sensor.rsi
+          sprite: _Erida/Objects/Misc/proximity_sensor.rsi
           state: icon
         name: construction-graph-tag-proximity-sensor
     - to: start

@@ -7,11 +7,11 @@
   description: A standard wooden cane. Can help disabled people move easier. # Goobstation
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/cane.rsi
+    sprite: _Erida/Objects/Weapons/Melee/cane.rsi
     state: cane
   - type: Item
     size: Normal
-    sprite: Objects/Weapons/Melee/cane.rsi
+    sprite: _Erida/Objects/Weapons/Melee/cane.rsi
   - type: Appearance
   - type: MobilityAid
   - type: MeleeWeapon
@@ -38,7 +38,7 @@
   description: A sharp blade with a cane shaped hilt. Enchanted with fire powers by a fellow book lover. # Goobstation
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/cane_blade.rsi
+    sprite: _Erida/Objects/Weapons/Melee/cane_blade.rsi
   - type: MeleeWeapon
     animationRotation: 45 # WWDP
     wideAnimationRotation: 65
@@ -49,7 +49,7 @@
     soundHit:
         path: /Audio/Weapons/bladeslice.ogg
   - type: Item
-    sprite: Objects/Weapons/Melee/cane_blade.rsi
+    sprite: _Erida/Objects/Weapons/Melee/cane_blade.rsi
   - type: Tag
     tags:
       - CaneBlade
@@ -63,7 +63,7 @@
   suffix: Empty
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/cane.rsi
+    sprite: _Erida/Objects/Weapons/Melee/cane.rsi
     state: cane-empty
   - type: ContainerContainer
     containers:

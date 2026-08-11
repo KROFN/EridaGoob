@@ -58,9 +58,9 @@
     - Cola
     - DrinkCan
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/cola.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/cola.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/cola.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/cola.rsi
 
 # created when taking apart an ied
 - type: entity
@@ -94,9 +94,9 @@
           Quantity: 30
       grindable: *grindable
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/ice_tea_can.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/ice_tea_can.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/ice_tea_can.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/ice_tea_can.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -113,9 +113,9 @@
           Quantity: 30
       grindable: *grindable
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/lemon-lime.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/lemon-lime.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/lemon-lime.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/lemon-lime.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -132,9 +132,9 @@
           Quantity: 30
       grindable: *grindable
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/lemon-lime-cranberry.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/lemon-lime-cranberry.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/lemon-lime-cranberry.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/lemon-lime-cranberry.rsi
   - type: Fixtures
     fixtures:
       fix1:
@@ -184,9 +184,9 @@
           Quantity: 30
       grindable: *grindable
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/purple_can.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/purple_can.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/purple_can.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/purple_can.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -203,9 +203,9 @@
           Quantity: 30
       grindable: *grindable
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/rootbeer.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/rootbeer.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/rootbeer.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/rootbeer.rsi
   - type: Tag
     tags:
     - Beer
@@ -226,9 +226,9 @@
           Quantity: 30
       grindable: *grindable
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/sodawater.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/sodawater.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/sodawater.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/sodawater.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -245,9 +245,9 @@
           Quantity: 30
       grindable: *grindable
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/space_mountain_wind.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/space_mountain_wind.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/space_mountain_wind.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/space_mountain_wind.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -264,9 +264,9 @@
           Quantity: 30
       grindable: *grindable
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/space-up.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/space-up.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/space-up.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/space-up.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -283,9 +283,9 @@
           Quantity: 30
       grindable: *grindable
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/sol_dry.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/sol_dry.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/sol_dry.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/sol_dry.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -302,9 +302,9 @@
           Quantity: 30
       grindable: *grindable
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/starkist.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/starkist.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/starkist.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/starkist.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -321,9 +321,9 @@
           Quantity: 30
       grindable: *grindable
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/tonic.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/tonic.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/tonic.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/tonic.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -340,9 +340,9 @@
           Quantity: 30
       grindable: *grindable
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/fourteen_loko.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/fourteen_loko.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/fourteen_loko.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/fourteen_loko.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -359,9 +359,9 @@
           Quantity: 30
       grindable: *grindable
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/changelingsting.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/changelingsting.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/changelingsting.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/changelingsting.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -378,9 +378,9 @@
           Quantity: 30
       grindable: *grindable
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/dr_gibb.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/dr_gibb.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/dr_gibb.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/dr_gibb.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -401,9 +401,9 @@
           Quantity: 5
       grindable: *grindable
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/robustnukie.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/robustnukie.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/robustnukie.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/robustnukie.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -420,9 +420,9 @@
           Quantity: 30
       grindable: *grindable
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/energy_drink.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/energy_drink.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/energy_drink.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/energy_drink.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -439,9 +439,9 @@
           Quantity: 30
       grindable: *grindable
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/shamblersjuice.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/shamblersjuice.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/shamblersjuice.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/shamblersjuice.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -458,9 +458,9 @@
           Quantity: 30
       grindable: *grindable
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/pwrgame.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/pwrgame.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/pwrgame.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/pwrgame.rsi
 
 - type: entity
   parent: DrinkCanBaseFull
@@ -477,9 +477,9 @@
           Quantity: 30
       grindable: *grindable
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/beer_can.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/beer_can.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/beer_can.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/beer_can.rsi
   - type: Tag
     tags:
     - Beer
@@ -500,9 +500,9 @@
           Quantity: 30
       grindable: *grindable
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/wine_can.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/wine_can.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/wine_can.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/wine_can.rsi
   - type: Tag
     tags:
     - Wine

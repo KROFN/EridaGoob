@@ -7,7 +7,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/magic.rsi
     layers:
     - state: magicm
       shader: unshaded
@@ -41,7 +41,7 @@
     alphaLerpAmount: 0.4
     shader: unshaded
     sprite:
-      sprite: /Textures/Objects/Weapons/Guns/Projectiles/magic.rsi
+      sprite: /Textures/_Erida/Objects/Weapons/Guns/Projectiles/magic.rsi
       state: magicm
   - type: HomingProjectile
     homingSpeed: 1620
@@ -55,7 +55,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Tools/Toolboxes/toolbox_blue.rsi
+    sprite: _Erida/Objects/Tools/Toolboxes/toolbox_blue.rsi
     layers:
     - state: icon
   - type: Reflective
@@ -73,7 +73,7 @@
     lifetime: 1
     alphaLerpAmount: 0.4
     sprite:
-      sprite: /Textures/Objects/Tools/Toolboxes/toolbox_blue.rsi
+      sprite: /Textures/_Erida/Objects/Tools/Toolboxes/toolbox_blue.rsi
       state: icon
   - type: Fixtures
     fixtures:
@@ -219,7 +219,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/magic.rsi
     layers:
     - state: arcane_barrage
       shader: unshaded
@@ -286,7 +286,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/magic.rsi
     layers:
     - state: magicm_cyan
       shader: unshaded
@@ -312,7 +312,7 @@
     alphaLerpAmount: 0.4
     shader: unshaded
     sprite:
-      sprite: /Textures/Objects/Weapons/Guns/Projectiles/magic.rsi
+      sprite: /Textures/_Erida/Objects/Weapons/Guns/Projectiles/magic.rsi
       state: magicm_cyan
   - type: Fixtures
     fixtures:
@@ -336,7 +336,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/magic.rsi
     layers:
     - state: magicm_red
       shader: unshaded
@@ -365,7 +365,7 @@
     alphaLerpAmount: 0.4
     shader: unshaded
     sprite:
-      sprite: /Textures/Objects/Weapons/Guns/Projectiles/magic.rsi
+      sprite: /Textures/_Erida/Objects/Weapons/Guns/Projectiles/magic.rsi
       state: magicm_red
 
 - type: entity
@@ -376,7 +376,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/magic.rsi
     layers:
     - state: bluespace
       shader: unshaded
@@ -407,7 +407,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/magic.rsi
     layers:
     - state: blastwave
       shader: unshaded
@@ -434,7 +434,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Structures/Specific/Anomalies/ice_anom.rsi
+    sprite: _Erida/Structures/Specific/Anomalies/ice_anom.rsi
     layers:
     - state: bullet
       shader: unshaded
@@ -461,7 +461,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/magic.rsi
     layers:
     - state: chronobolt
       color: black
@@ -493,7 +493,7 @@
     shader: unshaded
     color: black
     sprite:
-      sprite: /Textures/Objects/Weapons/Guns/Projectiles/magic.rsi
+      sprite: /Textures/_Erida/Objects/Weapons/Guns/Projectiles/magic.rsi
       state: chronobolt
 
 - type: entity
@@ -533,7 +533,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/magic.rsi
     layers:
     - state: declone
       shader: unshaded
@@ -556,7 +556,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/magic.rsi
     layers:
     - state: ice
       shader: unshaded
@@ -583,7 +583,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Effects/chemsmoke.rsi
+    sprite: _Erida/Effects/chemsmoke.rsi
     layers:
     - state: chemsmoke
       color: "#28005B"
@@ -609,7 +609,7 @@
     alphaLerpAmount: 0
     color: "#28005B"
     sprite:
-      sprite: /Textures/Effects/chemsmoke.rsi
+      sprite: /Textures/_Erida/Effects/chemsmoke.rsi
       state: chemsmoke
 
 - type: entity
@@ -690,7 +690,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/magic.rsi
     layers:
     - state: magicm
       shader: unshaded
@@ -718,7 +718,7 @@
     alphaLerpAmount: 0.4
     shader: unshaded
     sprite:
-      sprite: /Textures/Objects/Weapons/Guns/Projectiles/magic.rsi
+      sprite: /Textures/_Erida/Objects/Weapons/Guns/Projectiles/magic.rsi
       state: magicm
   - type: Ammo
     muzzleFlash: null

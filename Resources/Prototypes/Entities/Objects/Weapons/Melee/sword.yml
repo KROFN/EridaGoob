@@ -37,7 +37,7 @@
   description: A wickedly curved blade, often seen in the hands of space pirates.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/cutlass.rsi
+    sprite: _Erida/Objects/Weapons/Melee/cutlass.rsi
   - type: MeleeWeapon
     damage:
       types:
@@ -49,7 +49,7 @@
   - type: Item
     storedSprite:
       state: storage
-      sprite: Objects/Weapons/Melee/cutlass.rsi
+      sprite: _Erida/Objects/Weapons/Melee/cutlass.rsi
     shape:
     - 0,0,0,2
   - type: DisarmMalus
@@ -61,7 +61,7 @@
   description: A large, vicious looking blade.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/machete.rsi
+    sprite: _Erida/Objects/Weapons/Melee/machete.rsi
   - type: MeleeWeapon
     damage:
       types:
@@ -73,7 +73,7 @@
   - type: Item
     storedSprite:
       state: storage
-      sprite: Objects/Weapons/Melee/machete.rsi
+      sprite: _Erida/Objects/Weapons/Melee/machete.rsi
     shape:
     - 0,0,0,2
   - type: DisarmMalus
@@ -91,7 +91,7 @@
       path: /Audio/_Goobstation/Items/handling/sabre_drop.ogg
   # Goobstation edit start
   - type: Sprite
-    sprite: Objects/Weapons/Melee/captain_sabre.rsi
+    sprite: _Erida/Objects/Weapons/Melee/captain_sabre.rsi
   - type: MeleeWeapon
     animationRotation: -95 # WWDP
     wideAnimationRotation: -135 # WWDP
@@ -108,7 +108,7 @@
   - type: Item
     storedSprite:
       state: storage
-      sprite: Objects/Weapons/Melee/captain_sabre_storage_64x.rsi #Done in 64x64 because it looks way too puny in 32x32
+      sprite: _Erida/Objects/Weapons/Melee/captain_sabre_storage_64x.rsi #Done in 64x64 because it looks way too puny in 32x32
     shape:
     - 0,0,0,3
   - type: Tag
@@ -130,7 +130,7 @@
   description: Ancient craftwork made with not so ancient plasteel.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/katana.rsi
+    sprite: _Erida/Objects/Weapons/Melee/katana.rsi
   - type: MeleeWeapon
     damage:
       types:
@@ -142,11 +142,11 @@
   - type: Item
     storedSprite:
       state: storage
-      sprite: Objects/Weapons/Melee/katana_storage_64x.rsi #Done in 64x64 because it looks way too puny in 32x32
+      sprite: _Erida/Objects/Weapons/Melee/katana_storage_64x.rsi #Done in 64x64 because it looks way too puny in 32x32
     shape:
     - 0,0,0,3
   - type: Clothing
-    sprite: Objects/Weapons/Melee/katana.rsi
+    sprite: _Erida/Objects/Weapons/Melee/katana.rsi
     slots:
     - Back
     - Belt
@@ -161,7 +161,7 @@
   - type: Contraband
     severity: HighlyIllegal
   - type: Sprite
-    sprite: Objects/Weapons/Melee/energykatana.rsi
+    sprite: _Erida/Objects/Weapons/Melee/energykatana.rsi
   - type: MeleeWeapon
     wideAnimationRotation: -60
     damage:
@@ -172,7 +172,7 @@
   - type: Item
     storedSprite:
       state: storage
-      sprite: Objects/Weapons/Melee/energykatana_storage_64x.rsi #Done in 64x64 because it looks way too puny in 32x32
+      sprite: _Erida/Objects/Weapons/Melee/energykatana_storage_64x.rsi #Done in 64x64 because it looks way too puny in 32x32
     shape:
     - 0,0,0,3
   - type: EnergyKatana
@@ -182,7 +182,7 @@
   - type: AutoRecharge
     rechargeDuration: 20
   - type: Clothing
-    sprite: Objects/Weapons/Melee/energykatana.rsi
+    sprite: _Erida/Objects/Weapons/Melee/energykatana.rsi
     slots:
     - Back
     - Belt
@@ -198,7 +198,7 @@
   description: An ancient war blade.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/claymore.rsi
+    sprite: _Erida/Objects/Weapons/Melee/claymore.rsi
   - type: MeleeWeapon
     attackRate: 0.75
     damage:
@@ -211,11 +211,11 @@
   - type: Item
     storedSprite:
       state: storage
-      sprite: Objects/Weapons/Melee/claymore_storage_64x.rsi #Done in 64x64 because it looks way too puny in 32x32
+      sprite: _Erida/Objects/Weapons/Melee/claymore_storage_64x.rsi #Done in 64x64 because it looks way too puny in 32x32
     shape:
     - 0,0,1,3
   - type: Clothing
-    sprite: Objects/Weapons/Melee/claymore.rsi
+    sprite: _Erida/Objects/Weapons/Melee/claymore.rsi
     slots:
     - Back
     - SuitStorage #Bigger than the other swords, easier to strap to your suit.
@@ -229,7 +229,7 @@
   description: If Security dares take it from you, just remind them that they are indeed mortal.
   components:
     - type: Sprite
-      sprite: Objects/Weapons/Melee/Throngler2.rsi
+      sprite: _Erida/Objects/Weapons/Melee/Throngler2.rsi
     - type: MeleeWeapon
       attackRate: 10
       damage:
@@ -249,7 +249,7 @@
       spread: 90
     - type: Item
       size: Ginormous
-      sprite: Objects/Weapons/Melee/Throngler-in-hand.rsi
+      sprite: _Erida/Objects/Weapons/Melee/Throngler-in-hand.rsi
     - type: DisarmMalus
     - type: Grammar
       attributes:

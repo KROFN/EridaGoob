@@ -79,7 +79,7 @@
     tags:
     - ConveyorAssembly
   - type: Sprite
-    sprite: Structures/conveyor.rsi
+    sprite: _Erida/Structures/conveyor.rsi
     state: conveyor_loose
   - type: Construction
     graph: ConveyorGraph

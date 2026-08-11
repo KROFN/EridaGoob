@@ -11,11 +11,11 @@
   - type: Transform
     noRot: true
   - type: Icon
-    sprite: Structures/Storage/Crates/generic.rsi
+    sprite: _Erida/Structures/Storage/Crates/generic.rsi
     state: icon
   - type: Sprite
     noRot: true
-    sprite: Structures/Storage/Crates/generic.rsi
+    sprite: _Erida/Structures/Storage/Crates/generic.rsi
     layers:
     - state: base
       map: ["enum.StorageVisualLayers.Base"]
@@ -25,7 +25,7 @@
       visible: false
       map: ["enum.WeldableLayers.BaseWelded"]
     - state: paper
-      sprite: Structures/Storage/Crates/labels.rsi
+      sprite: _Erida/Structures/Storage/Crates/labels.rsi
       map: ["enum.PaperLabelVisuals.Layer"]
   - type: InteractionOutline
   - type: Physics
@@ -93,10 +93,10 @@
   - type: LockVisuals
   - type: AccessReader
   - type: Icon
-    sprite: Structures/Storage/Crates/secure.rsi
+    sprite: _Erida/Structures/Storage/Crates/secure.rsi
     state: icon
   - type: Sprite
-    sprite: Structures/Storage/Crates/secure.rsi
+    sprite: _Erida/Structures/Storage/Crates/secure.rsi
     layers:
     - state: base
     - state: closed
@@ -108,7 +108,7 @@
       map: ["enum.LockVisualLayers.Lock"]
       shader: unshaded
     - state: paper
-      sprite: Structures/Storage/Crates/labels.rsi
+      sprite: _Erida/Structures/Storage/Crates/labels.rsi
       offset: "-0.5,0"
       map: ["enum.PaperLabelVisuals.Layer"]
   - type: Damageable

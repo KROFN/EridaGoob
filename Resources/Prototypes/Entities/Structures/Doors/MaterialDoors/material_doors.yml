@@ -13,7 +13,7 @@
   - type: Rotatable
   - type: InteractionOutline
   - type: Sprite
-    sprite: Structures/Doors/MineralDoors/metal_door.rsi
+    sprite: _Erida/Structures/Doors/MineralDoors/metal_door.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -113,7 +113,7 @@
   name: plasma door
   components:
   - type: Sprite
-    sprite: Structures/Doors/MineralDoors/plasma_door.rsi
+    sprite: _Erida/Structures/Doors/MineralDoors/plasma_door.rsi
   - type: Construction
     graph: DoorGraph
     node: plasmaDoor
@@ -140,7 +140,7 @@
   name: gold door
   components:
   - type: Sprite
-    sprite: Structures/Doors/MineralDoors/gold_door.rsi
+    sprite: _Erida/Structures/Doors/MineralDoors/gold_door.rsi
   - type: Construction
     graph: DoorGraph
     node: goldDoor
@@ -167,7 +167,7 @@
   name: silver door
   components:
   - type: Sprite
-    sprite: Structures/Doors/MineralDoors/silver_door.rsi
+    sprite: _Erida/Structures/Doors/MineralDoors/silver_door.rsi
   - type: Construction
     graph: DoorGraph
     node: silverDoor
@@ -194,7 +194,7 @@
   name: bananium door
   components:
   - type: Sprite
-    sprite: Structures/Doors/MineralDoors/bananium_door.rsi
+    sprite: _Erida/Structures/Doors/MineralDoors/bananium_door.rsi
   - type: Door
     openSound: &BikeHornSound
       collection: BikeHorn
@@ -229,7 +229,7 @@
   name: wooden door
   components:
   - type: Sprite
-    sprite: Structures/Doors/MineralDoors/wood_door.rsi
+    sprite: _Erida/Structures/Doors/MineralDoors/wood_door.rsi
   - type: Door
     openSound:
       path: /Audio/Effects/door_open.ogg
@@ -265,7 +265,7 @@
   name: paper door
   components:
   - type: Sprite
-    sprite: Structures/Doors/MineralDoors/paper_door.rsi
+    sprite: _Erida/Structures/Doors/MineralDoors/paper_door.rsi
   - type: Door
     openSound:
       path: /Audio/Effects/paperdoor_openclose.ogg
@@ -302,7 +302,7 @@
   description: A door, leading to the lands of the spiders... or a spaced room.
   components:
   - type: Sprite
-    sprite: Structures/Doors/web_door.rsi
+    sprite: _Erida/Structures/Doors/web_door.rsi
   - type: Door
     closeSound:
       path: /Audio/Effects/rustle1.ogg
@@ -338,7 +338,7 @@
   name: cardboard door
   components:
   - type: Sprite
-    sprite: Structures/Doors/MineralDoors/card_door.rsi
+    sprite: _Erida/Structures/Doors/MineralDoors/card_door.rsi
   - type: Door
     openSound:
       path: /Audio/Effects/card_drag.ogg
@@ -380,7 +380,7 @@
   description: A mysterious door made of rune-etched stone.
   components:
   - type: Sprite
-    sprite: Structures/Doors/MineralDoors/ironstone_door.rsi
+    sprite: _Erida/Structures/Doors/MineralDoors/ironstone_door.rsi
   - type: Door
     openSound:
       path: /Audio/Effects/stonedoor_openclose.ogg
@@ -420,7 +420,7 @@
   description: A stone door covered in nacreous blobs of an unknown substance.
   components:
   - type: Sprite
-    sprite: Structures/Doors/MineralDoors/encrusted_ironstone_door.rsi
+    sprite: _Erida/Structures/Doors/MineralDoors/encrusted_ironstone_door.rsi
   - type: Destructible
     thresholds:
     - trigger:

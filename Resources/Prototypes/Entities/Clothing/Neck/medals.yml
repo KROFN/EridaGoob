@@ -18,9 +18,9 @@
       path: /Audio/_Goobstation/Items/handling/accessory_drop.ogg
   # Goobstation edit end
   - type: Sprite
-    sprite: Clothing/Neck/Medals/bronzeheart.rsi
+    sprite: _Erida/Clothing/Neck/Medals/bronzeheart.rsi
   - type: Clothing
-    sprite: Clothing/Neck/Medals/bronzeheart.rsi
+    sprite: _Erida/Clothing/Neck/Medals/bronzeheart.rsi
   - type: Tag
     tags:
       - Medal
@@ -44,9 +44,9 @@
       path: /Audio/_Goobstation/Items/handling/accessory_drop.ogg
   # Goobstation edit end
   - type: Sprite
-    sprite: Clothing/Neck/Medals/gold.rsi
+    sprite: _Erida/Clothing/Neck/Medals/gold.rsi
   - type: Clothing
-    sprite: Clothing/Neck/Medals/gold.rsi
+    sprite: _Erida/Clothing/Neck/Medals/gold.rsi
   - type: StealTarget
     stealGroup: ClothingNeckGoldmedal
   - type: Tag
@@ -72,9 +72,9 @@
       path: /Audio/_Goobstation/Items/handling/accessory_drop.ogg
   # Goobstation edit end
   - type: Sprite
-    sprite: Clothing/Neck/Medals/cargomedal.rsi
+    sprite: _Erida/Clothing/Neck/Medals/cargomedal.rsi
   - type: Clothing
-    sprite: Clothing/Neck/Medals/cargomedal.rsi
+    sprite: _Erida/Clothing/Neck/Medals/cargomedal.rsi
   - type: Tag
     tags:
       - Medal
@@ -98,9 +98,9 @@
       path: /Audio/_Goobstation/Items/handling/accessory_drop.ogg
   # Goobstation edit end
   - type: Sprite
-    sprite: Clothing/Neck/Medals/engineermedal.rsi
+    sprite: _Erida/Clothing/Neck/Medals/engineermedal.rsi
   - type: Clothing
-    sprite: Clothing/Neck/Medals/engineermedal.rsi
+    sprite: _Erida/Clothing/Neck/Medals/engineermedal.rsi
   - type: Tag
     tags:
       - Medal
@@ -124,9 +124,9 @@
       path: /Audio/_Goobstation/Items/handling/accessory_drop.ogg
   # Goobstation edit end
   - type: Sprite
-    sprite: Clothing/Neck/Medals/medicalmedal.rsi
+    sprite: _Erida/Clothing/Neck/Medals/medicalmedal.rsi
   - type: Clothing
-    sprite: Clothing/Neck/Medals/medicalmedal.rsi
+    sprite: _Erida/Clothing/Neck/Medals/medicalmedal.rsi
   - type: Tag
     tags:
       - Medal
@@ -150,9 +150,9 @@
       path: /Audio/_Goobstation/Items/handling/accessory_drop.ogg
   # Goobstation edit end
   - type: Sprite
-    sprite: Clothing/Neck/Medals/sciencemedal.rsi
+    sprite: _Erida/Clothing/Neck/Medals/sciencemedal.rsi
   - type: Clothing
-    sprite: Clothing/Neck/Medals/sciencemedal.rsi
+    sprite: _Erida/Clothing/Neck/Medals/sciencemedal.rsi
   - type: Tag
     tags:
       - Medal
@@ -176,9 +176,9 @@
       path: /Audio/_Goobstation/Items/handling/accessory_drop.ogg
   # Goobstation edit end
   - type: Sprite
-    sprite: Clothing/Neck/Medals/securitymedal.rsi
+    sprite: _Erida/Clothing/Neck/Medals/securitymedal.rsi
   - type: Clothing
-    sprite: Clothing/Neck/Medals/securitymedal.rsi
+    sprite: _Erida/Clothing/Neck/Medals/securitymedal.rsi
   - type: Tag
     tags:
       - Medal
@@ -202,9 +202,9 @@
       path: /Audio/_Goobstation/Items/handling/accessory_drop.ogg
   # Goobstation edit end
   - type: Sprite
-    sprite: Clothing/Neck/Medals/clownmedal.rsi
+    sprite: _Erida/Clothing/Neck/Medals/clownmedal.rsi
   - type: Clothing
-    sprite: Clothing/Neck/Medals/clownmedal.rsi
+    sprite: _Erida/Clothing/Neck/Medals/clownmedal.rsi
   - type: StealTarget
     stealGroup: ClothingNeckClownmedal
   - type: Tag

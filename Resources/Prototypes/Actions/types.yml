@@ -84,8 +84,8 @@
   components:
   - type: Action
     useDelay: 1
-    icon: { sprite: Objects/Tools/flashlight.rsi, state: flashlight }
-    iconOn: { sprite: Objects/Tools/flashlight.rsi, state: flashlight-on }
+    icon: { sprite: _Erida/Objects/Tools/flashlight.rsi, state: flashlight }
+    iconOn: { sprite: _Erida/Objects/Tools/flashlight.rsi, state: flashlight-on }
 
 - type: entity
   parent: BaseAction
@@ -97,7 +97,7 @@
     itemIconStyle: BigAction
     priority: -20
     icon:
-      sprite: Clothing/Back/Backpacks/backpack.rsi
+      sprite: _Erida/Clothing/Back/Backpacks/backpack.rsi
       state: icon
     useDelay: 1
   - type: InstantAction
@@ -126,7 +126,7 @@
     itemIconStyle: BigAction
     priority: -20
     icon:
-      sprite: Objects/Magic/magicactions.rsi
+      sprite: _Erida/Objects/Magic/magicactions.rsi
       state: gib
 
 - type: entity
@@ -154,7 +154,7 @@
     itemIconStyle: BigAction
     priority: -20
     icon:
-      sprite: Objects/Devices/communication.rsi
+      sprite: _Erida/Objects/Devices/communication.rsi
       state: radio
   - type: InstantAction
     event: !type:OpenUplinkImplantEvent
@@ -171,7 +171,7 @@
     itemIconStyle: BigAction
     priority: -20
     icon:
-      sprite: Objects/Weapons/Grenades/empgrenade.rsi
+      sprite: _Erida/Objects/Weapons/Grenades/empgrenade.rsi
       state: icon
 
 - type: entity
@@ -188,7 +188,7 @@
     itemIconStyle: BigAction
     priority: -20
     icon:
-      sprite: Structures/Specific/anomaly.rsi
+      sprite: _Erida/Structures/Specific/anomaly.rsi
       state: anom4
 
 - type: entity
@@ -205,7 +205,7 @@
     itemIconStyle: BigAction
     priority: -20
     icon:
-      sprite: Clothing/OuterClothing/Hardsuits/lingspacesuit.rsi
+      sprite: _Erida/Clothing/OuterClothing/Hardsuits/lingspacesuit.rsi
       state: icon
 
 - type: entity
@@ -259,7 +259,7 @@
   description: Spray water towards your enemies.
   components:
   - type: Action
-    icon: { sprite: Clothing/Neck/Misc/pins.rsi, state: flower }
+    icon: { sprite: _Erida/Clothing/Neck/Misc/pins.rsi, state: flower }
   - type: InstantAction
     event: !type:SprayLiquidEvent
 
@@ -281,8 +281,8 @@
   description: Raise or lower your shield.
   components:
   - type: Action
-    icon: { sprite: Objects/Weapons/Melee/shields.rsi, state: teleriot-icon }
-    iconOn: { sprite: Objects/Weapons/Melee/shields.rsi, state: teleriot-on }
+    icon: { sprite: _Erida/Objects/Weapons/Melee/shields.rsi, state: teleriot-icon }
+    iconOn: { sprite: _Erida/Objects/Weapons/Melee/shields.rsi, state: teleriot-on }
 
 - type: entity
   parent: BaseMentalAction
@@ -293,7 +293,7 @@
   - type: Action
     clientExclusive: true
     temporary: true
-    icon: { sprite: Objects/Tools/multitool.rsi, state: icon }
+    icon: { sprite: _Erida/Objects/Tools/multitool.rsi, state: icon }
   - type: InstantAction
     event: !type:ClearAllOverlaysEvent
 
@@ -304,7 +304,7 @@
   description: Uses hunger to lay an egg.
   components:
   - type: Action
-    icon: { sprite: Objects/Consumable/Food/egg.rsi, state: icon }
+    icon: { sprite: _Erida/Objects/Consumable/Food/egg.rsi, state: icon }
     useDelay: 60
   - type: InstantAction
     event: !type:EggLayInstantActionEvent
@@ -316,7 +316,7 @@
   description: Go to sleep.
   components:
   - type: Action
-    icon: { sprite: Clothing/Head/Hats/pyjamasyndicatered.rsi, state: icon }
+    icon: { sprite: _Erida/Clothing/Head/Hats/pyjamasyndicatered.rsi, state: icon }
   - type: InstantAction
     event: !type:SleepActionEvent
 
@@ -329,7 +329,7 @@
   - type: Action
     startDelay: true
     useDelay: 2
-    icon: { sprite: Clothing/Head/Hats/pyjamasyndicatered.rsi, state: icon }
+    icon: { sprite: _Erida/Clothing/Head/Hats/pyjamasyndicatered.rsi, state: icon }
   - type: InstantAction
     event: !type:WakeActionEvent
 
@@ -340,7 +340,7 @@
   description: Activates your honking implant, which will produce the signature sound of the clown.
   components:
   - type: Action
-    icon: { sprite: Objects/Fun/bikehorn.rsi, state: icon }
+    icon: { sprite: _Erida/Objects/Fun/bikehorn.rsi, state: icon }
     useDelay: 1
 
 - type: entity
@@ -409,7 +409,7 @@
 #   components:
 #   - type: Action
 #     icon:
-#       sprite: Clothing/OuterClothing/Hardsuits/paramed.rsi
+#       sprite: _Erida/Clothing/OuterClothing/Hardsuits/paramed.rsi
 #       state: icon-siren
 #     useDelay: 1
 #     itemIconStyle: BigAction

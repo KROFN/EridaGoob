@@ -13,7 +13,7 @@
     flavors:
       - bread
   - type: Sprite
-    sprite: Objects/Consumable/Food/Baked/bread.rsi
+    sprite: _Erida/Objects/Consumable/Food/Baked/bread.rsi
   - type: Tag
     tags:
     - Bread
@@ -1020,7 +1020,7 @@
   description: bon 'pétite!
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Food/Baked/bread.rsi
+    sprite: _Erida/Objects/Consumable/Food/Baked/bread.rsi
     state: batard
   - type: Item
     size: Small
@@ -1045,7 +1045,7 @@
   - type: Edible
     requiresSpecialDigestion: true
   - type: Sprite
-    sprite: Objects/Consumable/Food/Baked/bread.rsi
+    sprite: _Erida/Objects/Consumable/Food/Baked/bread.rsi
     state: batard-cotton
   - type: FlavorProfile
     flavors:

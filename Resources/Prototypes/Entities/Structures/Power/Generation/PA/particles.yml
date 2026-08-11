@@ -9,7 +9,7 @@
   components:
     - type: Sprite
       layers:
-      - sprite: Structures/Power/Generation/PA/particle.rsi
+      - sprite: _Erida/Structures/Power/Generation/PA/particle.rsi
         state: particle0
         shader: unshaded
         map: [ "unshaded" ]
@@ -62,7 +62,7 @@
   components:
   - type: Sprite
     layers:
-    - sprite: Structures/Power/Generation/PA/particle.rsi
+    - sprite: _Erida/Structures/Power/Generation/PA/particle.rsi
       color: red
       state: particle0
       shader: unshaded

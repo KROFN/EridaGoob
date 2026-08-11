@@ -17,7 +17,7 @@
       drink:
         maxVol: 100
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/generic_jug.rsi # fallback to generic plastic jug
+    sprite: _Erida/Objects/Consumable/Drinks/generic_jug.rsi # fallback to generic plastic jug
   - type: TrashOnSolutionEmpty
     solution: drink
   - type: Tag
@@ -39,7 +39,7 @@
       drink:
         maxVol: 30
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/waterbottle.rsi # fallback
+    sprite: _Erida/Objects/Consumable/Drinks/waterbottle.rsi # fallback
   - type: FitsInDispenser
     solution: drink
 
@@ -71,7 +71,7 @@
         - ReagentId: Water
           Quantity: 30
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/waterbottle.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/waterbottle.rsi
   - type: Label
     currentLabel: reagent-name-water
   - type: Sealable # Goobstation
@@ -96,7 +96,7 @@
   - type: Label
     currentLabel: reagent-name-cola
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/colabottle.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/colabottle.rsi
 
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottlePlasticBaseFull]
@@ -113,7 +113,7 @@
   - type: Label
     currentLabel: reagent-name-space-mountain-wind
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/space_mountain_wind_bottle.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/space_mountain_wind_bottle.rsi
 
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottlePlasticBaseFull]
@@ -130,7 +130,7 @@
   - type: Label
     currentLabel: reagent-name-space-up
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/space-up_bottle.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/space-up_bottle.rsi
 
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottlePlasticBaseFull]
@@ -146,7 +146,7 @@
         - ReagentId: SodaWater
           Quantity: 100
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/sodawater-bottle.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/sodawater-bottle.rsi
   - type: Label
     currentLabel: reagent-name-soda-water
 
@@ -164,7 +164,7 @@
         - ReagentId: TonicWater
           Quantity: 100
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/tonic-bottle.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/tonic-bottle.rsi
   - type: Label
     currentLabel: reagent-name-tonic-water
 

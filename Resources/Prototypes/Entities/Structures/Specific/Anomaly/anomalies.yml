@@ -36,7 +36,7 @@
   - type: Sprite
     noRot: true
     drawdepth: Effects #it needs to draw over stuff.
-    sprite: Structures/Specific/anomaly.rsi
+    sprite: _Erida/Structures/Specific/anomaly.rsi
   - type: InteractionOutline
   - type: Clickable
   - type: Damageable
@@ -77,7 +77,7 @@
     supercriticalSoundAtAnimationStart:
       collection: AnomalyPyroSupercritical
   - type: Sprite
-    sprite: Structures/Specific/Anomalies/pyro_anom.rsi
+    sprite: _Erida/Structures/Specific/Anomalies/pyro_anom.rsi
     layers:
     - state: anom
       map: ["enum.AnomalyVisualLayers.Base"]
@@ -330,7 +330,7 @@
   suffix: Ice
   components:
   - type: Sprite
-    sprite: Structures/Specific/Anomalies/ice_anom.rsi
+    sprite: _Erida/Structures/Specific/Anomalies/ice_anom.rsi
     layers:
     - state: anom
       map: ["enum.AnomalyVisualLayers.Base"]
@@ -777,7 +777,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: Structures/Specific/Anomalies/flora_anom.rsi
+    sprite: _Erida/Structures/Specific/Anomalies/flora_anom.rsi
     layers:
     - state: anom
       map: ["enum.AnomalyVisualLayers.Base"]
@@ -868,7 +868,7 @@
     color: "#6270bb"
   - type: Sprite
     noRot: true
-    sprite: Structures/Specific/Anomalies/flora_anom.rsi
+    sprite: _Erida/Structures/Specific/Anomalies/flora_anom.rsi
     state: bulb
 
 - type: entity
@@ -877,7 +877,7 @@
   suffix: Liquid
   components:
   - type: Sprite
-    sprite: Structures/Specific/Anomalies/liquid_anom.rsi
+    sprite: _Erida/Structures/Specific/Anomalies/liquid_anom.rsi
     layers:
     - state: anom
       map: ["enum.AnomalyVisualLayers.Base"]
@@ -1029,7 +1029,7 @@
   suffix: Shadow
   components:
   - type: Sprite
-    sprite: Structures/Specific/Anomalies/shadow_anom.rsi
+    sprite: _Erida/Structures/Specific/Anomalies/shadow_anom.rsi
     layers:
     - state: anom
       map: ["enum.AnomalyVisualLayers.Base"]
@@ -1093,7 +1093,7 @@
   suffix: Tech
   components:
   - type: Sprite
-    sprite: Structures/Specific/Anomalies/tech_anom.rsi
+    sprite: _Erida/Structures/Specific/Anomalies/tech_anom.rsi
     layers:
     - state: bg
       map: ["enum.AnomalyVisualLayers.Base"]
@@ -1127,7 +1127,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: /Textures/Effects/techanom_beam.rsi
+    sprite: /Textures/_Erida/Effects/techanom_beam.rsi
     drawdepth: Effects
     layers:
     - state: beam
@@ -1156,7 +1156,7 @@
   components:
   - type: Sprite
     drawdepth: Mobs
-    sprite: Structures/Specific/Anomalies/santa_anom.rsi
+    sprite: _Erida/Structures/Specific/Anomalies/santa_anom.rsi
     layers:
     - state: anom
       map: ["enum.AnomalyVisualLayers.Base"]

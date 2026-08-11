@@ -113,7 +113,7 @@
         store: board
         name: construction-graph-component-door-electronics-circuit-board
         icon:
-          sprite: "Objects/Misc/module.rsi"
+          sprite: "_Erida/Objects/Misc/module.rsi"
           state: "door_electronics"
         doAfter: 1
     - to: glass
@@ -187,7 +187,7 @@
         store: board
         name: construction-graph-tag-door-electronics-circuit-board
         icon:
-          sprite: "Objects/Misc/module.rsi"
+          sprite: "_Erida/Objects/Misc/module.rsi"
           state: "door_electronics"
         doAfter: 1
     - to: pglass
@@ -261,7 +261,7 @@
         store: board
         name: construction-graph-tag-door-electronics-circuit-board
         icon:
-          sprite: "Objects/Misc/module.rsi"
+          sprite: "_Erida/Objects/Misc/module.rsi"
           state: "door_electronics"
         doAfter: 1
     - to: uglass
@@ -383,7 +383,7 @@
         store: board
         name: construction-graph-component-door-electronics-circuit-board
         icon:
-          sprite: "Objects/Misc/module.rsi"
+          sprite: "_Erida/Objects/Misc/module.rsi"
           state: "door_electronics"
         doAfter: 1
     - to: glassSecure
@@ -495,7 +495,7 @@
         store: board
         name: construction-graph-tag-door-electronics-circuit-board
         icon:
-          sprite: "Objects/Misc/module.rsi"
+          sprite: "_Erida/Objects/Misc/module.rsi"
           state: "door_electronics"
         doAfter: 1
     - to: glassClockwork
@@ -570,7 +570,7 @@
         store: board
         name: construction-graph-tag-door-electronics-circuit-board
         icon:
-          sprite: "Objects/Misc/module.rsi"
+          sprite: "_Erida/Objects/Misc/module.rsi"
           state: "door_electronics"
         doAfter: 1
     - to: pglassSecure
@@ -648,7 +648,7 @@
         store: board
         name: construction-graph-tag-door-electronics-circuit-board
         icon:
-          sprite: "Objects/Misc/module.rsi"
+          sprite: "_Erida/Objects/Misc/module.rsi"
           state: "door_electronics"
         doAfter: 1
     - to: uglassSecure

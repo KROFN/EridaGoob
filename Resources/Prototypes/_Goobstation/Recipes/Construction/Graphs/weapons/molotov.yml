@@ -14,7 +14,7 @@
             - tag: MolotovConstruction
               name: construction-graph-tag-glass-bottle
               icon:
-                sprite: Objects/Consumable/Drinks/vodkabottle.rsi
+                sprite: _Erida/Objects/Consumable/Drinks/vodkabottle.rsi
                 state: icon
               doAfter: 1
             - material: Cloth

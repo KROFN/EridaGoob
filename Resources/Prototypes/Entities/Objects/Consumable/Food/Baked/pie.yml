@@ -14,7 +14,7 @@
     flavors:
       - sweet
   - type: Sprite
-    sprite: Objects/Consumable/Food/Baked/pie.rsi
+    sprite: _Erida/Objects/Consumable/Food/Baked/pie.rsi
   - type: SolutionContainerManager
     solutions:
       food:
@@ -45,7 +45,7 @@
     flavors:
       - sweet
   - type: Sprite
-    sprite: Objects/Consumable/Food/Baked/pie.rsi
+    sprite: _Erida/Objects/Consumable/Food/Baked/pie.rsi
   - type: SolutionContainerManager
     solutions:
       food:

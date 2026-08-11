@@ -1312,7 +1312,7 @@
 ##  category: construction-category-structures
 ##  description: An altar to worship the honkmother with.
 ##  icon:
-##   sprite: Structures/Furniture/Altars/Cults/bananium.rsi
+##   sprite: _Erida/Structures/Furniture/Altars/Cults/bananium.rsi
 ##    state: full
 ##  objectType: Structure
 ##  placementMode: SnapgridCenter

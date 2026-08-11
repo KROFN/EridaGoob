@@ -9,7 +9,7 @@
   - type: Item
     size: Huge
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/laser_retro.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/laser_retro.rsi
     quickEquip: false
     slots:
     - Back
@@ -67,7 +67,7 @@
   - type: Item
     size: Large
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/laser_gun.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -80,7 +80,7 @@
     zeroVisible: false
   - type: Appearance
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/laser_gun.rsi
   - type: Gun
     selectedMode: SemiAuto
     availableModes:
@@ -161,7 +161,7 @@
     tags:
     - Sidearm
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/taser.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/taser.rsi
     quickEquip: false
     slots:
     - Belt
@@ -189,7 +189,7 @@
     tags:
     - Sidearm
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/taser.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/taser.rsi
     quickEquip: false
     slots:
     - Belt
@@ -213,7 +213,7 @@
   description: A cheap and modular laser pistol often carried by civilians. Takes standard power cells, with higher capacity ones amplifying the capacity and power of the resulting beam. # Goobstation
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/svalinn.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/svalinn.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -225,7 +225,7 @@
     - 0,0,1,0
     - 0,1,0,1
     storedOffset: 0,-7
-    sprite: Objects/Weapons/Guns/Battery/svalinn.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/svalinn.rsi
   - type: RestrictGunshotsByUserTag # Goobstation
     doesntContain:
     - Oni
@@ -265,7 +265,7 @@
   description: A laser pistol from another time. Its design is pretty rare in the current era, but it's compatible with modern rechargers. # Goobstation
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/laser_retro.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/laser_retro.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -301,7 +301,7 @@
   description: Better pray it won't burn your hands off.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/makeshift.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/makeshift.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -323,7 +323,7 @@
     zeroVisible: false
   - type: Appearance
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/makeshift.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/makeshift.rsi
   - type: BatteryAmmoProvider
     proto: RedLaser
     fireCost: 62.5
@@ -346,7 +346,7 @@
     shape:
     - 0,0,2,1
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/tesla_gun.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/tesla_gun.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
@@ -403,7 +403,7 @@
   description: A state-of-the-art laser pistol that fires a rapidly pulsing beam. It's favored as a sidearm for the Emergency Response corps due to its self-recharging design. # Goobstation
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/pulse_pistol.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/pulse_pistol.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -418,7 +418,7 @@
     zeroVisible: false
   - type: Appearance
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/pulse_pistol.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/pulse_pistol.rsi
   - type: Gun
     selectedMode: SemiAuto
     availableModes:
@@ -447,7 +447,7 @@
 #  - type: Item #Goob
 #    size: Large
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/pulse_carbine.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/pulse_carbine.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -460,7 +460,7 @@
     zeroVisible: false
   - type: Appearance
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/pulse_carbine.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/pulse_carbine.rsi
   - type: Gun
     selectedMode: SemiAuto
     fireRate: 3
@@ -508,7 +508,7 @@
     shape:
     - 0,0,4,1
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/pulse_rifle.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/pulse_rifle.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -521,7 +521,7 @@
     zeroVisible: false
   - type: Appearance
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/pulse_rifle.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/pulse_rifle.rsi
   - type: Gun
     fireRate: 1.5
     soundGunshot:
@@ -562,7 +562,7 @@
     shape:
     - 0,0,4,1
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/laser_cannon.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/laser_cannon.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -575,7 +575,7 @@
     zeroVisible: false
   - type: Appearance
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/laser_cannon.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/laser_cannon.rsi
   - type: Gun
     fireRate: 2 # Goobstation
     soundGunshot:
@@ -602,7 +602,7 @@
       sprintModifier: 0.6
     - type: HeldSpeedModifier
     - type: Sprite
-      sprite: Objects/Weapons/Guns/Battery/particle_decelerator.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Battery/particle_decelerator.rsi
       layers:
         - state: base
           map: ["enum.GunVisualLayers.Base"]
@@ -638,7 +638,7 @@
     shape:
     - 0,0,4,1
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/xray.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/xray.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -646,7 +646,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/xray.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/xray.rsi
   - type: Gun
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser3.ogg
@@ -677,7 +677,7 @@
   description: A self-defense weapon that exhausts organic targets, weakening them until they collapse. This one has been undertuned for use in training scenarios or target practice.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/practice_disabler.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/practice_disabler.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -687,7 +687,7 @@
   - type: Item
     storedOffset: -1,-5
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/practice_disabler.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/practice_disabler.rsi
     quickEquip: false
     slots:
     - Belt
@@ -721,7 +721,7 @@
   description: A self-defense weapon that exhausts organic targets, weakening them until they collapse.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/disabler.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/disabler.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
@@ -729,7 +729,7 @@
         map: ["enum.GunVisualLayers.MagUnshaded"]
         shader: unshaded
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/disabler.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/disabler.rsi
     quickEquip: false
     slots:
       - suitStorage
@@ -764,7 +764,7 @@
     tags:
       - Taser
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/disabler_smg.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/disabler_smg.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
@@ -803,7 +803,7 @@
     - Taser
     - Sidearm
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/taser.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/taser.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -856,7 +856,7 @@
   description: A premium laser pistol from another age, customised with a mahogany grip and sleek chrome filigree. The chamber glows with menacing spikes of energy. There are clown and captain stick figures scratched into the side plate. The clown is dead. The captain is striking a heroic pose. # Goobstation
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/antiquelasergun.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/antiquelasergun.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -864,7 +864,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/antiquelasergun.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/antiquelasergun.rsi
   - type: Gun
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
@@ -904,7 +904,7 @@
     #shape:
     #- 0,0,1,1
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/advancedlasergun.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/advancedlasergun.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -912,7 +912,7 @@
       map: ["enum.GunVisualLayers.MagUnshaded"]
       shader: unshaded
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/advancedlasergun.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/advancedlasergun.rsi
   - type: Gun
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/laser_cannon.ogg
@@ -947,7 +947,7 @@
   description: Just because it's a little C.H.I.M.P. doesn't mean it can't punch like an A.P.E.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Revolvers/chimp.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Revolvers/chimp.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -963,7 +963,7 @@
     steps: 3
     zeroVisible: false
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Revolvers/chimp.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Revolvers/chimp.rsi
   - type: Gun
     projectileSpeed: 10
     fireRate: 1.5
@@ -1020,7 +1020,7 @@
   description: The eye of a behonker, it fires a laser when squeezed.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/behonker_eye.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/behonker_eye.rsi
     layers:
     - state: base
       map: ["enum.GunVisualLayers.Base"]
@@ -1047,7 +1047,7 @@
   description: A one-of-a-kind energy weapon that fires a barrage of red-hot plasma rather than a laser beam. Comes with a fire selector between narrow, wide, and disabling, making it a diverse weapon in the right hands. # Goobstation
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/energy_shotgun.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/energy_shotgun.rsi
     layers:
       - state: base
         map: ["enum.GunVisualLayers.Base"]
@@ -1060,7 +1060,7 @@
     zeroVisible: false
   - type: Appearance
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/energy_shotgun.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/energy_shotgun.rsi
   - type: Gun
     fireRate: 2
     soundGunshot:
@@ -1095,7 +1095,7 @@
     shape:
     - 0,0,4,1
   # Goob edit end
-    sprite: Objects/Weapons/Guns/Battery/inhands_64x.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/inhands_64x.rsi
     heldPrefix: energy
   - type: GunRequiresWield #remove when inaccuracy on spreads is fixed
   - type: Battery
@@ -1109,7 +1109,7 @@
   description: A high powered self-charging energy pistol designed for elite security personnel. It has has three firing modes allowing for either high damage, window piercing, or non-lethal disabling.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Battery/energy_magnum.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/energy_magnum.rsi
     layers:
     - state: base
       map: [ "enum.GunVisualLayers.Base" ]
@@ -1123,7 +1123,7 @@
     zeroVisible: true
   - type: Appearance
   - type: Clothing
-    sprite: Objects/Weapons/Guns/Battery/energy_magnum.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Battery/energy_magnum.rsi
   - type: Tag
     tags:
     - HighRiskItem

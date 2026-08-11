@@ -12,7 +12,7 @@
   - type: Edible
     transferAmount: 3
   - type: Sprite
-    sprite: Objects/Consumable/Food/taco_sequence.rsi
+    sprite: _Erida/Objects/Consumable/Food/taco_sequence.rsi
     layers:
     - state: tacoshell_back
     - map: ["foodSequenceLayers"]
@@ -50,7 +50,7 @@
   - type: Edible
     transferAmount: 3
   - type: Sprite
-    sprite: Objects/Consumable/Food/taco.rsi
+    sprite: _Erida/Objects/Consumable/Food/taco.rsi
   - type: SolutionContainerManager
     solutions:
       food:
@@ -61,7 +61,7 @@
         - ReagentId: Vitamin
           Quantity: 4
   - type: Item
-    sprite: Objects/Consumable/Food/taco.rsi
+    sprite: _Erida/Objects/Consumable/Food/taco.rsi
     shape:
     - 0,0,1,0
     storedOffset: 0,1

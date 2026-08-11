@@ -59,7 +59,7 @@
     sprite: Markers/jobs.rsi
     layers:
       - state: green
-      - sprite: Clothing/Head/Hats/wizardhat.rsi
+      - sprite: _Erida/Clothing/Head/Hats/wizardhat.rsi
         state: icon
 
 - type: entity
@@ -71,7 +71,7 @@
   - type: Sprite
     layers:
     - state: green
-    - sprite: Objects/Fun/figurines.rsi
+    - sprite: _Erida/Objects/Fun/figurines.rsi
       state: wizard
 
 - type: npcFaction

@@ -7,12 +7,12 @@
   description: A special machine intended to create a safe environment for the use of chemicals that react in cold environments.
   components:
   - type: Sprite
-    sprite: Structures/Machines/Medical/cryopod.rsi
+    sprite: _Erida/Structures/Machines/Medical/cryopod.rsi
     drawdepth: Mobs
     noRot: true
     offset: 0, 0.5
     layers:
-      - sprite: Structures/Piping/Atmospherics/pipe.rsi
+      - sprite: _Erida/Structures/Piping/Atmospherics/pipe.rsi
         state: pipeHalf
         offset: 0, -0.5
         map: [ "enum.PipeVisualLayers.Pipe" ]
@@ -126,7 +126,7 @@
   description: A cryo pod that has seen better days. It's entirely inoperable; not good for anything but scrap.
   components:
   - type: Sprite
-    sprite: Structures/Machines/Medical/cryopod.rsi
+    sprite: _Erida/Structures/Machines/Medical/cryopod.rsi
     drawdepth: Mobs
     noRot: true
     offset: 0, 0.5

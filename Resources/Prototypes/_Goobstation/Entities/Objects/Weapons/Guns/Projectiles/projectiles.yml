@@ -126,7 +126,7 @@
     energy: 0.5
   - type: Sprite
     noRot: false
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
     - state: bullet
       shader: unshaded
@@ -143,13 +143,13 @@
         Structural: 80
   - type: HitscanBasicVisuals
     muzzleFlash:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: muzzle_blue
     travelFlash:
       sprite: _Goobstation/Objects/Weapons/Guns/Projectiles/heavy_pulse.rsi
       state: beam_blue_heavy
     impactFlash:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: impact_blue
 
 - type: entity
@@ -163,13 +163,13 @@
         Blunt: 5 # Split damage is cool.
   - type: HitscanBasicVisuals
     muzzleFlash:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: muzzle_blue
     travelFlash:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: beam_blue
     impactFlash:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: impact_blue
 
 - type: entity
@@ -183,13 +183,13 @@
         Shock: 10
   - type: HitscanBasicVisuals
     muzzleFlash:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: muzzle_blue
     travelFlash:
       sprite: _Goobstation/Objects/Weapons/Guns/Projectiles/heavy_pulse.rsi
       state: beam_blue_heavy
     impactFlash:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: impact_blue
 
 - type: entity
@@ -203,13 +203,13 @@
         Shock: 2 # Lecter is slightly armor-piercing and so is this
   - type: HitscanBasicVisuals
     muzzleFlash:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: muzzle_laser
     travelFlash:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: beam
     impactFlash:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: impact_laser
 
 - type: entity
@@ -258,13 +258,13 @@
     staminaDamage: 80
   - type: HitscanBasicVisuals
     muzzleFlash:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: muzzle_blue
     travelFlash:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: beam_blue
     impactFlash:
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: impact_blue
 
 - type: entity
@@ -285,7 +285,7 @@
   - type: ChangeTemperatureOnCollide
     heat: -35000
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     layers:
     - state: omnilaser
       shader: unshaded
@@ -383,7 +383,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
       - state: grenade
   - type: SmokeOnTrigger
@@ -414,7 +414,7 @@
     - NonEnergy
   - type: Sprite
     noRot: false
-    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/magic.rsi
     layers:
     - state: magicm_yellow
       shader: unshaded
@@ -504,7 +504,7 @@
         Piercing: 1
     angle: 315
   - type: Sprite
-    sprite: Objects/Fun/Darts/dart_red.rsi
+    sprite: _Erida/Objects/Fun/Darts/dart_red.rsi
     layers:
     - state: icon
   - type: Ammo

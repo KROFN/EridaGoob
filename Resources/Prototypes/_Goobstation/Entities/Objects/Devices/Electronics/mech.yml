@@ -10,7 +10,7 @@
     - type: Item
       storedRotation: 0
     - type: Sprite
-      sprite: Objects/Misc/module.rsi
+      sprite: _Erida/Objects/Misc/module.rsi
       state: mainboard
     - type: Tag
       tags:
@@ -26,7 +26,7 @@
   description: The electrical peripherals control for the clarke mech.
   components:
     - type: Sprite
-      sprite: Objects/Misc/module.rsi
+      sprite: _Erida/Objects/Misc/module.rsi
       state: id_mod
     - type: Tag
       tags:
@@ -46,7 +46,7 @@
     - type: Item
       storedRotation: 0
     - type: Sprite
-      sprite: Objects/Misc/module.rsi
+      sprite: _Erida/Objects/Misc/module.rsi
       state: mainboard
     - type: Tag
       tags:
@@ -62,7 +62,7 @@
   description: The electrical peripherals control for the gygax mech.
   components:
     - type: Sprite
-      sprite: Objects/Misc/module.rsi
+      sprite: _Erida/Objects/Misc/module.rsi
       state: id_mod
     - type: Tag
       tags:
@@ -78,7 +78,7 @@
   description: The electrical targeting control for the gygax mech.
   components:
     - type: Sprite
-      sprite: Objects/Misc/module.rsi
+      sprite: _Erida/Objects/Misc/module.rsi
       state: mcontroller
     - type: Tag
       tags:
@@ -98,7 +98,7 @@
     - type: Item
       storedRotation: 0
     - type: Sprite
-      sprite: Objects/Misc/module.rsi
+      sprite: _Erida/Objects/Misc/module.rsi
       state: mainboard
     - type: Tag
       tags:
@@ -114,7 +114,7 @@
   description: The electrical peripherals control for the durand mech.
   components:
     - type: Sprite
-      sprite: Objects/Misc/module.rsi
+      sprite: _Erida/Objects/Misc/module.rsi
       state: id_mod
     - type: Tag
       tags:
@@ -130,7 +130,7 @@
   description: The electrical targeting control for the durand mech.
   components:
     - type: Sprite
-      sprite: Objects/Misc/module.rsi
+      sprite: _Erida/Objects/Misc/module.rsi
       state: mcontroller
     - type: Tag
       tags:

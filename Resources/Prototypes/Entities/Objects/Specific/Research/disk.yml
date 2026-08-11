@@ -24,7 +24,7 @@
         volume: -6
   # Goobstation edit end
   - type: Sprite
-    sprite: Objects/Specific/Research/researchdisk.rsi
+    sprite: _Erida/Objects/Specific/Research/researchdisk.rsi
     state: icon
   - type: ResearchDisk
   - type: GuideHelp
@@ -67,7 +67,7 @@
   description: A disk for the R&D server containing research technology.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: _Erida/Objects/Misc/module.rsi
     layers:
     - state: datadisk_base
       map: ["enum.DamageStateVisualLayers.Base"]

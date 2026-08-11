@@ -13,7 +13,7 @@
   - type: Physics
     bodyType: Static
   - type: Sprite
-    sprite: /Textures/Effects/portal.rsi
+    sprite: /Textures/_Erida/Effects/portal.rsi
   - type: Fixtures
     fixtures:
       portalFixture:
@@ -77,7 +77,7 @@
   components:
   - type: Sprite
     noRot: true
-    sprite: Structures/Machines/gateway.rsi
+    sprite: _Erida/Structures/Machines/gateway.rsi
     color: SkyBlue
     layers:
     - state: portal
@@ -93,7 +93,7 @@
   components:
   - type: Sprite
     noRot: true
-    sprite: Structures/Machines/gateway.rsi
+    sprite: _Erida/Structures/Machines/gateway.rsi
     color: OrangeRed
     layers:
     - state: portal

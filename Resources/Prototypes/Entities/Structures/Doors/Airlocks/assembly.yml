@@ -6,7 +6,7 @@
   suffix: Atmospherics
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/atmospherics.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Standard/atmospherics.rsi
     state: "assembly"
 
 - type: entity
@@ -15,7 +15,7 @@
   suffix: Atmospherics, Glass
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/atmospherics.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Glass/atmospherics.rsi
     state: "assembly"
 
 #Cargo
@@ -25,7 +25,7 @@
   suffix: Cargo
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/cargo.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Standard/cargo.rsi
     state: "assembly"
 
 - type: entity
@@ -34,7 +34,7 @@
   suffix: Cargo, Glass
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/cargo.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Glass/cargo.rsi
     state: "assembly"
 
 #Clockwork
@@ -45,7 +45,7 @@
   parent: AirlockAssembly
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/clockwork_pinion.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Standard/clockwork_pinion.rsi
     state: "assembly"
   - type: Construction
     graph: PinionAirlock
@@ -59,7 +59,7 @@
   suffix: Pinion, Clockwork, Glass
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/clockwork_pinion.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Glass/clockwork_pinion.rsi
     state: "assembly"
 
 #Command
@@ -69,7 +69,7 @@
   suffix: Command
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/command.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Standard/command.rsi
     state: "assembly"
 
 - type: entity
@@ -78,7 +78,7 @@
   suffix: Command, Glass
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/command.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Glass/command.rsi
     state: "assembly"
 
 #Engineering
@@ -88,7 +88,7 @@
   suffix: Engineering
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/engineering.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Standard/engineering.rsi
     state: "assembly"
 
 - type: entity
@@ -97,7 +97,7 @@
   suffix: Engineering, Glass
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/engineering.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Glass/engineering.rsi
     state: "assembly"
 
 #External
@@ -107,7 +107,7 @@
   suffix: External
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/external.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Standard/external.rsi
     state: "assembly"
 
 - type: entity
@@ -116,7 +116,7 @@
   suffix: External, Glass
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/external.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Glass/external.rsi
     state: "assembly"
 
 #Public (Glass Airlock)
@@ -126,7 +126,7 @@
   suffix: Glass
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/glass.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Glass/glass.rsi
     state: "assembly"
 
 #Freezer
@@ -136,7 +136,7 @@
   suffix: Freezer
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/freezer.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Standard/freezer.rsi
     state: "assembly"
 
 #Hydroponics
@@ -146,7 +146,7 @@
   suffix: Hydroponics
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/hydroponics.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Standard/hydroponics.rsi
     state: "assembly"
 
 - type: entity
@@ -155,7 +155,7 @@
   suffix: Hydroponics, Glass
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/hydroponics.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Glass/hydroponics.rsi
     state: "assembly"
 
 #Maintenance
@@ -165,7 +165,7 @@
   suffix: Maintenance
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Standard/maint.rsi
     state: "assembly"
 
 - type: entity
@@ -174,7 +174,7 @@
   suffix: Maintenance, Glass
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/maint.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Glass/maint.rsi
     state: "assembly"
 
 #Medical
@@ -184,7 +184,7 @@
   suffix: Medical
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/medical.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Standard/medical.rsi
     state: "assembly"
 
 - type: entity
@@ -193,7 +193,7 @@
   suffix: Medical, Glass
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/medical.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Glass/medical.rsi
     state: "assembly"
 
 #Salvage
@@ -203,7 +203,7 @@
   suffix: Salvage
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/salvage.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Standard/salvage.rsi
     state: "assembly"
 
 - type: entity
@@ -212,7 +212,7 @@
   suffix: Salvage, Glass
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/salvage.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Glass/salvage.rsi
     state: "assembly"
 
 #Science
@@ -222,7 +222,7 @@
   suffix: Science
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/science.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Standard/science.rsi
     state: "assembly"
 
 - type: entity
@@ -231,7 +231,7 @@
   suffix: Science, Glass
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/science.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Glass/science.rsi
     state: "assembly"
 
 #Security
@@ -241,7 +241,7 @@
   suffix: Security
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/security.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Standard/security.rsi
     state: "assembly"
 
 - type: entity
@@ -250,7 +250,7 @@
   suffix: Security, Glass
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/security.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Glass/security.rsi
     state: "assembly"
 
 #Shuttle
@@ -260,7 +260,7 @@
   suffix: Shuttle
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/shuttle.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Standard/shuttle.rsi
     state: "assembly"
 
 - type: entity
@@ -269,7 +269,7 @@
   suffix: Shuttle, Glass
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/shuttle.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Glass/shuttle.rsi
     state: "assembly"
 
 #Virology
@@ -279,7 +279,7 @@
   suffix: Virology
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/virology.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Standard/virology.rsi
     state: "assembly"
 
 - type: entity
@@ -288,7 +288,7 @@
   suffix: Virology, Glass
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/virology.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Glass/virology.rsi
     state: "assembly"
 
 #CentralCommand
@@ -298,7 +298,7 @@
   suffix: CentralCommand
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/centcomm.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Standard/centcomm.rsi
     state: "assembly"
 
 - type: entity
@@ -307,7 +307,7 @@
   suffix: CentralCommand, Glass
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/centcomm.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Glass/centcomm.rsi
     state: "assembly"
 
 #Mining
@@ -317,7 +317,7 @@
   suffix: Mining
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/mining.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Standard/mining.rsi
     state: "assembly"
 
 - type: entity
@@ -326,7 +326,7 @@
   suffix: Mining, Glass
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/mining.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Glass/mining.rsi
     state: "assembly"
 
 #Syndicate
@@ -336,7 +336,7 @@
   suffix: Syndicate
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/syndicate.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Standard/syndicate.rsi
     state: "assembly"
 
 - type: entity
@@ -345,7 +345,7 @@
   suffix: Syndicate, Glass
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/syndicate.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Glass/syndicate.rsi
     state: "assembly"
 
 #ShuttleSyndicate
@@ -355,7 +355,7 @@
   suffix: ShuttleSyndicate
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/shuttle_syndicate.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Standard/shuttle_syndicate.rsi
     state: "assembly"
 
 - type: entity
@@ -364,7 +364,7 @@
   suffix: ShuttleSyndicate, Glass
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/shuttle_syndicate.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Glass/shuttle_syndicate.rsi
     state: "assembly"
 
 #High Security
@@ -374,5 +374,5 @@
   suffix: HighSec
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/highsec/highsec.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/highsec/highsec.rsi
     state: "assembly"

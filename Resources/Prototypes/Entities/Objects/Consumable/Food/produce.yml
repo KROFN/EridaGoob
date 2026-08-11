@@ -53,7 +53,7 @@
   parent: ProduceBaseRuminant
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/wheat.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/wheat.rsi
   - type: Item
     heldPrefix: produce
   - type: SolutionContainerManager
@@ -76,7 +76,7 @@
   parent: ProduceBaseRuminant
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/meatwheat.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/meatwheat.rsi
   - type: Item
     heldPrefix: produce
   - type: SolutionContainerManager
@@ -100,7 +100,7 @@
   parent: ProduceBaseRuminant
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/oat.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/oat.rsi
   - type: Item
     heldPrefix: produce
   - type: SolutionContainerManager
@@ -124,7 +124,7 @@
   parent: ProduceBaseRuminant
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/sugarcane.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/sugarcane.rsi
   - type: Item
     heldPrefix: produce
   - type: SolutionContainerManager
@@ -143,7 +143,7 @@
   parent: ProduceBase
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/papercane.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/papercane.rsi
   - type: Item
     heldPrefix: produce
   - type: SolutionContainerManager
@@ -179,7 +179,7 @@
       - ReagentId: LaughinSyrup
         Quantity: 5
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/laughin_pea.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/laughin_pea.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -196,7 +196,7 @@
   parent: ProduceBase
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/towercap.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/towercap.rsi
   - type: Item
     heldPrefix: produce
   - type: SolutionContainerManager
@@ -215,7 +215,7 @@
   parent: ProduceBase
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/steelcap.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/steelcap.rsi
   - type: Item
     heldPrefix: produce
   - type: SolutionContainerManager
@@ -236,10 +236,10 @@
   parent: ProduceBaseRuminant
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/nettle.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/nettle.rsi
   - type: Item
     size: Small
-    sprite: Objects/Specific/Hydroponics/nettle.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/nettle.rsi
     heldPrefix: produce
   - type: MeleeWeapon
     damage:
@@ -267,10 +267,10 @@
   parent: [ProduceBase, BaseMajorContraband]
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/death_nettle.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/death_nettle.rsi
   - type: Item
     size: Small
-    sprite: Objects/Specific/Hydroponics/death_nettle.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/death_nettle.rsi
     heldPrefix: produce
   - type: MeleeWeapon
     damage:
@@ -352,7 +352,7 @@
         - ReagentId: Vitamin
           Quantity: 2
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/banana.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/banana.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -413,7 +413,7 @@
         - ReagentId: Vitamin
           Quantity: 2
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/mimana.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/mimana.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -439,10 +439,10 @@
   name: banana peel
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/banana.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/banana.rsi
     state: peel
   - type: Item
-    sprite: Objects/Specific/Hydroponics/banana.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/banana.rsi
     heldPrefix: peel
   - type: Slippery
   - type: StepTrigger
@@ -493,7 +493,7 @@
   - type: Edible
     requiresSpecialDigestion: true
   - type: Clothing
-    sprite: Objects/Specific/Hydroponics/banana.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/banana.rsi
     equippedPrefix: peel
     slots:
     - HEAD
@@ -505,13 +505,13 @@
   name: baked banana peel
   components:
   - type: Clothing
-    sprite: Objects/Specific/Hydroponics/banana.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/banana.rsi
     equippedPrefix: baked-peel
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/banana.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/banana.rsi
     state: baked-peel
   - type: Item
-    sprite: Objects/Specific/Hydroponics/banana.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/banana.rsi
     heldPrefix: baked-peel
   - type: SolutionContainerManager
     solutions:
@@ -530,13 +530,13 @@
   name: mimana peel
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/mimana.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/mimana.rsi
     state: peel
   - type: Item
-    sprite: Objects/Specific/Hydroponics/mimana.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/mimana.rsi
     heldPrefix: peel
   - type: Clothing
-    sprite: Objects/Specific/Hydroponics/mimana.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/mimana.rsi
     equippedPrefix: peel
   - type: Slippery
     slipSound:
@@ -550,14 +550,14 @@
   name: bananium peel
   components:
   - type: Sprite
-    sprite: Objects/Materials/materials.rsi
+    sprite: _Erida/Objects/Materials/materials.rsi
     state: peel
   - type: Item
-    sprite: Objects/Materials/materials.rsi
+    sprite: _Erida/Objects/Materials/materials.rsi
     heldPrefix: peel
   - type: Slippery
   - type: Clothing
-    sprite: Objects/Materials/materials.rsi
+    sprite: _Erida/Objects/Materials/materials.rsi
     equippedPrefix: peel
 
 - type: entity
@@ -585,7 +585,7 @@
         - ReagentId: Oculine
           Quantity: 3
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/carrot.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/carrot.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -621,7 +621,7 @@
         - ReagentId: Vitamin
           Quantity: 4
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/cabbage.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/cabbage.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -655,7 +655,7 @@
         - ReagentId: Allicin
           Quantity: 4
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/garlic.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/garlic.rsi
   - type: Produce
     seedId: garlic
   - type: Tag
@@ -685,7 +685,7 @@
         - ReagentId: Vitamin
           Quantity: 4
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/lemon.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/lemon.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -723,7 +723,7 @@
         - ReagentId: Milk
           Quantity: 16
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/lemoon.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/lemoon.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -751,7 +751,7 @@
     flavors:
       - sour
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/lime.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/lime.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -780,7 +780,7 @@
     flavors:
       - orange
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/orange.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/orange.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -819,7 +819,7 @@
         - ReagentId: Vitamin
           Quantity: 4
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/extradimensional_orange.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/extradimensional_orange.rsi
     scale: 0.5,0.5
   - type: Item
     heldPrefix: produce
@@ -858,7 +858,7 @@
         - ReagentId: Water
           Quantity: 4
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/pineapple.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/pineapple.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -894,7 +894,7 @@
         - ReagentId: Vitamin
           Quantity: 4
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/potato.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/potato.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -935,7 +935,7 @@
         - ReagentId: Water
           Quantity: 4
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/tomato.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/tomato.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -994,7 +994,7 @@
         - ReagentId: Vitamin
           Quantity: 4
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/blue_tomato.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/blue_tomato.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -1043,7 +1043,7 @@
         - ReagentId: Vitamin
           Quantity: 4
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/blood_tomato.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/blood_tomato.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -1096,7 +1096,7 @@
         - ReagentId: Vitamin
           Quantity: 4
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/eggplant.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/eggplant.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -1125,7 +1125,7 @@
         - ReagentId: Vitamin
           Quantity: 4
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/apple.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/apple.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -1165,7 +1165,7 @@
         - ReagentId: DoctorsDelight
           Quantity: 13
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/golden_apple.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/golden_apple.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -1206,7 +1206,7 @@
         - ReagentId: CocoaPowder
           Quantity: 1
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/cocoa.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/cocoa.rsi
   - type: Produce
     seedId: cocoa
   - type: SpawnItemsOnUse
@@ -1248,7 +1248,7 @@
     - Corn
     - Vegetable
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/corn.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/corn.rsi
   - type: Produce
     seedId: corn
   - type: Extractable
@@ -1272,7 +1272,7 @@
   description: Not a dang kernel left.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/corn.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/corn.rsi
     state: cob
   - type: Item
     size: Tiny
@@ -1308,7 +1308,7 @@
         - ReagentId: Allicin
           Quantity: 4
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/onion.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/onion.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -1341,7 +1341,7 @@
         - ReagentId: Allicin
           Quantity: 4
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/onion_red.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/onion_red.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -1366,7 +1366,7 @@
         - ReagentId: Nutriment
           Quantity: 5
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/chanterelle.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/chanterelle.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -1408,7 +1408,7 @@
     flavors:
       - pineapple
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/pineapple.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/pineapple.rsi
   - type: Extractable
     juiceSolution:
       reagents:
@@ -1433,7 +1433,7 @@
     flavors:
       - onion
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/onion.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/onion.rsi
   - type: SolutionContainerManager
     solutions:
       food:
@@ -1464,7 +1464,7 @@
     flavors:
       - onion
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/onion_red.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/onion_red.rsi
   - type: SolutionContainerManager
     solutions:
       food:
@@ -1506,7 +1506,7 @@
           - ReagentId: Vitamin
             Quantity: 4
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/chili.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/chili.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -1542,7 +1542,7 @@
           - ReagentId: Vitamin
             Quantity: 4
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/chilly.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/chilly.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -1572,7 +1572,7 @@
         - ReagentId: SilverSulfadiazine # Goobstation edit
           Quantity: 20
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/aloe.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/aloe.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -1612,7 +1612,7 @@
         - ReagentId: Heroin # Goobstation
           Quantity: 2
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/poppy.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/poppy.rsi
   - type: Produce
     seedId: poppy
   - type: Extractable
@@ -1645,7 +1645,7 @@
         - ReagentId: StypticPowder
           Quantity: 20
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/lily.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/lily.rsi
   - type: Produce
     seedId: lily
   - type: Extractable
@@ -1678,7 +1678,7 @@
         - ReagentId: Epinephrine
           Quantity: 20
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/lingzhi.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/lingzhi.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -1714,7 +1714,7 @@
         - ReagentId: Vitamin
           Quantity: 2
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/ambrosia_vulgaris.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/ambrosia_vulgaris.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -1722,7 +1722,7 @@
   - type: Extractable
     grindableSolutionName: food
   - type: Clothing
-    sprite: Objects/Specific/Hydroponics/ambrosia_vulgaris.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/ambrosia_vulgaris.rsi
     slots:
     - HEAD
   - type: Tag
@@ -1755,7 +1755,7 @@
         - ReagentId: Nutriment
           Quantity: 2
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/ambrosia_deus.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/ambrosia_deus.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -1763,7 +1763,7 @@
   - type: Extractable
     grindableSolutionName: food
   - type: Clothing
-    sprite: Objects/Specific/Hydroponics/ambrosia_deus.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/ambrosia_deus.rsi
     slots:
     - HEAD
   - type: Tag
@@ -1791,7 +1791,7 @@
         - ReagentId: Stellibinin
           Quantity: 25
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/galaxythistle.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/galaxythistle.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -1815,7 +1815,7 @@
   components:
   - type: Item
     size: Small
-    sprite: Objects/Specific/Hydroponics/glasstle.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/glasstle.rsi
     heldPrefix: produce
   - type: FlavorProfile
     flavors:
@@ -1830,7 +1830,7 @@
         - ReagentId: Desoxyephedrine
           Quantity: 10
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/glasstle.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/glasstle.rsi
   - type: Produce
     seedId: glasstle
   - type: Extractable
@@ -1896,7 +1896,7 @@
         - ReagentId: Nutriment
           Quantity: 5
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/fly_amanita.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/fly_amanita.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -1931,7 +1931,7 @@
         - ReagentId: Sulfur
           Quantity: 5
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/gatfruit.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/gatfruit.rsi
   - type: Produce
     seedId: gatfruit
   - type: Edible
@@ -1968,7 +1968,7 @@
         - ReagentId: Sulfur
           Quantity: 5
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/capfruit.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/capfruit.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -2011,7 +2011,7 @@
   parent: ProduceBaseRuminant
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/rice.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/rice.rsi
   - type: Item
     heldPrefix: produce
   - type: SolutionContainerManager
@@ -2030,7 +2030,7 @@
   parent: ProduceBaseRuminant
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/soybeans.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/soybeans.rsi
   - type: SolutionContainerManager
     solutions:
       food:
@@ -2063,7 +2063,7 @@
     flavors:
       - violets
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/spacemans_trumpet.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/spacemans_trumpet.rsi
   - type: Item
     heldPrefix: produce
   - type: SolutionContainerManager
@@ -2094,7 +2094,7 @@
   parent: ProduceBaseRuminant
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/koibean.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/koibean.rsi
   - type: SolutionContainerManager
     solutions:
       food:
@@ -2143,7 +2143,7 @@
         - ReagentId: Water
           Quantity: 10
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/watermelon.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/watermelon.rsi
   - type: Produce
     seedId: watermelon
   - type: Extractable
@@ -2194,7 +2194,7 @@
     flavors:
       - watermelon
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/watermelon.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/watermelon.rsi
   - type: SolutionContainerManager
     solutions:
       food:
@@ -2246,7 +2246,7 @@
         - ReagentId: Holywater
           Quantity: 10
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/holymelon.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/holymelon.rsi
   - type: Produce
     seedId: watermelon
   - type: Extractable
@@ -2298,7 +2298,7 @@
       - holy
       - watermelon
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/holymelon.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/holymelon.rsi
   - type: SolutionContainerManager
     solutions:
       food:
@@ -2339,7 +2339,7 @@
         - ReagentId: Vitamin
           Quantity: 4
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/grape.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/grape.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -2372,7 +2372,7 @@
         - ReagentId: Vitamin
           Quantity: 4
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/berries.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/berries.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -2416,7 +2416,7 @@
         - ReagentId: Enzyme
           Quantity: 10
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/bungo.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/bungo.rsi
   - type: Produce
     seedId: bungo
   - type: Extractable
@@ -2438,7 +2438,7 @@
   id: FoodBungoPit
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/bungo.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/bungo.rsi
     state: pit
   - type: Tag
     tags:
@@ -2479,7 +2479,7 @@
         - ReagentId: Vitamin
           Quantity: 2
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/pea.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/pea.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -2513,7 +2513,7 @@
         - ReagentId: Pax
           Quantity: 2
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/world_pea.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/world_pea.rsi
   - type: Item
     heldPrefix: produce
   - type: Produce
@@ -2544,7 +2544,7 @@
         - ReagentId: Vitamin
           Quantity: 5
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/pumpkin.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/pumpkin.rsi
   - type: Produce
     seedId: pumpkin
   - type: Damageable
@@ -2601,7 +2601,7 @@
       - ReagentId: JuiceBluePumpkin
         Quantity: 10
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/blue_pumpkin.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/blue_pumpkin.rsi
   - type: Produce
     seedId: bluePumpkin
   - type: Damageable
@@ -2630,7 +2630,7 @@
   parent: FoodProduceBase
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/cotton.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/cotton.rsi
   - type: FlavorProfile
     flavors:
       - cotton
@@ -2662,7 +2662,7 @@
   parent: FoodProduceBase
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/pyrotton.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/pyrotton.rsi
   - type: FlavorProfile
     flavors:
       - pyrotton
@@ -2773,7 +2773,7 @@
     flavors:
       - strange
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/anomaly_berry.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/anomaly_berry.rsi
     state: produce
   - type: Item
     heldPrefix: produce
@@ -2811,11 +2811,11 @@
   - type: Sprite
     drawdepth: Items
     noRot: true
-    sprite: Objects/Specific/Hydroponics/bloonion.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/bloonion.rsi
     state: produce
   - type: Item
     size: Small
-    sprite: Objects/Specific/Hydroponics/bloonion.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/bloonion.rsi
     heldPrefix: produce
   - type: Produce
     seedId: bloonion

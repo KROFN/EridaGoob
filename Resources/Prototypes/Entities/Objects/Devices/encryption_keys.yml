@@ -9,9 +9,9 @@
   components:
   - type: EncryptionKey
   - type: Item
-    sprite: Objects/Devices/encryption_keys.rsi
+    sprite: _Erida/Objects/Devices/encryption_keys.rsi
   - type: Sprite
-    sprite: Objects/Devices/encryption_keys.rsi
+    sprite: _Erida/Objects/Devices/encryption_keys.rsi
 
 - type: entity
   parent: EncryptionKey

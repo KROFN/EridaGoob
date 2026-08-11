@@ -8,7 +8,7 @@
   suffix: Wall broken
   components:
     - type: Sprite
-      sprite: Structures/Machines/station_map.rsi
+      sprite: _Erida/Structures/Machines/station_map.rsi
       drawdepth: WallMountedItems
       layers:
         - state: station_map_broken
@@ -36,13 +36,13 @@
     - type: Appearance
     - type: StationMap
     - type: Sprite
-      sprite: Structures/Machines/station_map.rsi
+      sprite: _Erida/Structures/Machines/station_map.rsi
       layers:
       - state: station_map0
       - state: unshaded
         shader: unshaded
     - type: Icon
-      sprite: Structures/Machines/station_map.rsi
+      sprite: _Erida/Structures/Machines/station_map.rsi
       state: station_map0
     - type: ContainerFill
       containers:
@@ -107,7 +107,7 @@
   - type: WallMount
     arc: 360
   - type: Sprite
-    sprite: Structures/Machines/station_map.rsi
+    sprite: _Erida/Structures/Machines/station_map.rsi
     layers:
     - state: station_map_frame1
       map: [ "enum.ConstructionVisuals.Layer" ]

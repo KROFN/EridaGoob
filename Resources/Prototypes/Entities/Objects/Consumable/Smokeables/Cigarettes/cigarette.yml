@@ -7,7 +7,7 @@
   description: A roll of tobacco and nicotine.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Smokeables/Cigarettes/cigarette.rsi
+    sprite: _Erida/Objects/Consumable/Smokeables/Cigarettes/cigarette.rsi
     state: unlit-icon
   - type: Tag
     tags:
@@ -15,12 +15,12 @@
       - Trash
   - type: SpaceGarbage
   - type: Clothing
-    sprite: Objects/Consumable/Smokeables/Cigarettes/cigarette.rsi
+    sprite: _Erida/Objects/Consumable/Smokeables/Cigarettes/cigarette.rsi
     slots: [ mask ]
     equippedPrefix: unlit
   - type: Item
     size: Tiny
-    sprite: Objects/Consumable/Smokeables/Cigarettes/cigarette.rsi
+    sprite: _Erida/Objects/Consumable/Smokeables/Cigarettes/cigarette.rsi
     heldPrefix: unlit
   - type: Construction
     graph: smokeableCigarette
@@ -34,7 +34,7 @@
   description: A roll of tobacco and nicotine soaked in some chemical.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Smokeables/Cigarettes/cigarette.rsi
+    sprite: _Erida/Objects/Consumable/Smokeables/Cigarettes/cigarette.rsi
     state: unlit-icon
   - type: Tag
     tags:
@@ -42,7 +42,7 @@
       - Trash
   - type: SpaceGarbage
   - type: Clothing
-    sprite: Objects/Consumable/Smokeables/Cigarettes/cigarette.rsi
+    sprite: _Erida/Objects/Consumable/Smokeables/Cigarettes/cigarette.rsi
     slots: [ mask ]
     equippedPrefix: unlit
   - type: Item

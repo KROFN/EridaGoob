@@ -90,7 +90,7 @@
   id: TeslaCoilCircuitboard
   result: TeslaCoilCircuitboard
   icon:
-    sprite:  Structures/Power/Generation/Tesla/coil.rsi
+    sprite:  _Erida/Structures/Power/Generation/Tesla/coil.rsi
     state: coil
 
 - type: latheRecipe
@@ -112,7 +112,7 @@
   id: RadiationCollectorCircuitboard
   result: RadiationCollectorCircuitboard
   icon:
-    sprite:  Structures/Power/Generation/Singularity/collector.rsi
+    sprite:  _Erida/Structures/Power/Generation/Singularity/collector.rsi
     state: ca_on
 
 - type: latheRecipe
@@ -172,5 +172,5 @@
 - type: latheRecipe
   parent: [ BaseElectronicsRecipe, BaseCircuitryRecipeCategory ]
   id: CameraElectronics
-  icon: { sprite: Structures/Wallmounts/camera.rsi, state: cameracase }
+  icon: { sprite: _Erida/Structures/Wallmounts/camera.rsi, state: cameracase }
   result: CameraElectronics

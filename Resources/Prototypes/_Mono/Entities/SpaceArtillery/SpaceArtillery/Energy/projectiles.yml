@@ -51,7 +51,7 @@
         Heat: 250
         Ion: 100
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     layers:
     - state: omnilaser
   - type: Ammo

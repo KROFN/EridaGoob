@@ -91,7 +91,7 @@
   description: An illegally modified syringe gun that pierces the skin better and can fit in pockets.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Cannons/syringe_gun.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Cannons/syringe_gun.rsi
     layers:
     - state: syringe_gun
   - type: Item

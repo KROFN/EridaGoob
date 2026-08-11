@@ -48,7 +48,7 @@
   name: HECU ID card
   components:
   - type: Sprite
-    sprite: Objects/Misc/id_cards.rsi
+    sprite: _Erida/Objects/Misc/id_cards.rsi
     layers:
     - state: ert_security
   - type: IdCard
@@ -179,7 +179,7 @@
   name: Navy Captain's ID card
   components:
   - type: Sprite
-    sprite: Objects/Misc/id_cards.rsi
+    sprite: _Erida/Objects/Misc/id_cards.rsi
     layers:
     - state: ert_security
   - type: PresetIdCard
@@ -193,7 +193,7 @@
   name: Navy Officer's ID card
   components:
   - type: Sprite
-    sprite: Objects/Misc/id_cards.rsi
+    sprite: _Erida/Objects/Misc/id_cards.rsi
     layers:
     - state: ert_security
   - type: PresetIdCard
@@ -207,7 +207,7 @@
   name: Special Operations Officer's ID card
   components:
   - type: Sprite
-    sprite: Objects/Misc/id_cards.rsi
+    sprite: _Erida/Objects/Misc/id_cards.rsi
     layers:
     - state: ert_security
   - type: PresetIdCard
@@ -221,7 +221,7 @@
   name: inspector's ID card
   components:
   - type: Sprite
-    sprite: Objects/Misc/id_cards.rsi
+    sprite: _Erida/Objects/Misc/id_cards.rsi
     layers:
     - state: ert_security
   - type: PresetIdCard
@@ -235,7 +235,7 @@
   name: Diplomat's ID card
   components:
   - type: Sprite
-    sprite: Objects/Misc/id_cards.rsi
+    sprite: _Erida/Objects/Misc/id_cards.rsi
     layers:
     - state: ert_security
   - type: IdCard
@@ -362,7 +362,7 @@
   name: Outer Command ID card
   components:
     - type: Sprite
-      sprite: Objects/Misc/id_cards.rsi
+      sprite: _Erida/Objects/Misc/id_cards.rsi
       layers:
         - state: ert_security
     - type: IdCard

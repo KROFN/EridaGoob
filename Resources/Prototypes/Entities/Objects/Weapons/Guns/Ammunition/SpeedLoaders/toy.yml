@@ -40,4 +40,4 @@
   - type: BallisticAmmoProvider
     proto: CartridgeCap
   - type: Sprite
-    sprite: Objects/Fun/caps.rsi
+    sprite: _Erida/Objects/Fun/caps.rsi

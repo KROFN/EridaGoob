@@ -11,7 +11,7 @@
   - type: Physics
     bodyType: Static
   - type: Sprite
-    sprite: /Textures/Effects/mobspawn.rsi
+    sprite: /Textures/_Erida/Effects/mobspawn.rsi
     state: crab_quartz
   - type: Fixtures
     fixtures:
@@ -36,7 +36,7 @@
   categories: [ HideSpawnMenu, Spawner ]
   components:
   - type: Sprite
-    sprite: /Textures/Effects/mobspawn.rsi
+    sprite: /Textures/_Erida/Effects/mobspawn.rsi
     state: crab_iron
   - type: SpawnOnDespawn
     prototype: MobIronCrab
@@ -48,7 +48,7 @@
   categories: [ HideSpawnMenu, Spawner ]
   components:
   - type: Sprite
-    sprite: /Textures/Effects/mobspawn.rsi
+    sprite: /Textures/_Erida/Effects/mobspawn.rsi
     state: crab_coal
   - type: SpawnOnDespawn
     prototype: MobCoalCrab
@@ -60,7 +60,7 @@
   categories: [ HideSpawnMenu, Spawner ]
   components:
   - type: Sprite
-    sprite: /Textures/Effects/mobspawn.rsi
+    sprite: /Textures/_Erida/Effects/mobspawn.rsi
     state: crab_silver
   - type: SpawnOnDespawn
     prototype: MobSilverCrab
@@ -72,7 +72,7 @@
   categories: [ HideSpawnMenu, Spawner ]
   components:
   - type: Sprite
-    sprite: /Textures/Effects/mobspawn.rsi
+    sprite: /Textures/_Erida/Effects/mobspawn.rsi
     state: crab_gold
   - type: SpawnOnDespawn
     prototype: MobGoldCrab
@@ -84,7 +84,7 @@
   categories: [ HideSpawnMenu, Spawner ]
   components:
   - type: Sprite
-    sprite: /Textures/Effects/mobspawn.rsi
+    sprite: /Textures/_Erida/Effects/mobspawn.rsi
     state: crab_uranium
   - type: SpawnOnDespawn
     prototype: MobUraniumCrab
@@ -96,7 +96,7 @@
   categories: [ HideSpawnMenu, Spawner ]
   components:
   - type: Sprite
-    sprite: /Textures/Effects/mobspawn.rsi
+    sprite: /Textures/_Erida/Effects/mobspawn.rsi
     state: crab_bananium
   - type: SpawnOnDespawn
     prototype: MobBananiumCrab
@@ -113,7 +113,7 @@
     layers:
       - shader: unshaded
         map: ["enum.EffectLayers.Unshaded"]
-        sprite: Effects/emp.rsi
+        sprite: _Erida/Effects/emp.rsi
         state: emp_disable
   - type: EffectVisuals
   - type: Tag

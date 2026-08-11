@@ -108,7 +108,7 @@
     weightedRandomId: RandomFillStrangePill
 # RandomSprite does not work with pill component
   # - type: Sprite
-  #   sprite: Objects/Specific/Chemistry/pills.rsi
+  #   sprite: _Erida/Objects/Specific/Chemistry/pills.rsi
   #   layers:
   #   - state: pill1
   #     map: [ "enum.DamageStateVisualLayers.Base" ]

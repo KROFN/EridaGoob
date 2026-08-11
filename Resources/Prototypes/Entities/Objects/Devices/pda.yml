@@ -13,7 +13,7 @@
        !type:String
        pda
   - type: Sprite
-    sprite: Objects/Devices/pda.rsi
+    sprite: _Erida/Objects/Devices/pda.rsi
     layers:
     - map: [ "enum.PdaVisualLayers.Base" ]
       state: "pda"
@@ -28,7 +28,7 @@
     - state: "insert_overlay" # Goob
       map: [ "enum.PdaVisualLayers.Pen" ]
   - type: Icon
-    sprite: Objects/Devices/pda.rsi
+    sprite: _Erida/Objects/Devices/pda.rsi
     state: pda
   - type: Pda
     paiSlot:
@@ -143,7 +143,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Objects/Devices/pda.rsi
+    sprite: _Erida/Objects/Devices/pda.rsi
     layers:
     - map: [ "enum.PdaVisualLayers.Base" ]
       state: "pda"

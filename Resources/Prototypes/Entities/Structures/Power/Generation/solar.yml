@@ -32,7 +32,7 @@
         layer:
         - MidImpassable, LowImpassable, BulletImpassable
   - type: Sprite
-    sprite: Structures/Power/Generation/solar_panel.rsi
+    sprite: _Erida/Structures/Power/Generation/solar_panel.rsi
     state: solar_panel_glass
   - type: NodeContainer
     examinable: true
@@ -43,7 +43,7 @@
   - type: PowerMonitoringDevice
     group: Generator
     loadNode: output
-    sprite: Structures/Power/Generation/solar_panel.rsi
+    sprite: _Erida/Structures/Power/Generation/solar_panel.rsi
     state: solar_panel_glass
     collectionName: SolarPanel
   - type: Anchorable
@@ -71,7 +71,7 @@
   - type: SolarPanel
     maxSupply: 2000 #Goob
   - type: Sprite
-    sprite: Structures/Power/Generation/solar_panel.rsi
+    sprite: _Erida/Structures/Power/Generation/solar_panel.rsi
     state: solar_panel_plasma
   - type: Destructible
     thresholds:
@@ -111,7 +111,7 @@
   - type: SolarPanel
     maxSupply: 3000 #Goob
   - type: Sprite
-    sprite: Structures/Power/Generation/solar_panel.rsi
+    sprite: _Erida/Structures/Power/Generation/solar_panel.rsi
     state: solar_panel_uranium
   - type: Destructible
     thresholds:
@@ -317,7 +317,7 @@
         layer:
         - MachineLayer
   - type: Sprite
-    sprite: Structures/Power/Generation/solar_panel.rsi
+    sprite: _Erida/Structures/Power/Generation/solar_panel.rsi
     state: solar_assembly
   - type: Transform
     anchored: true
@@ -372,7 +372,7 @@
         layer:
         - MachineLayer
   - type: Sprite
-    sprite: Structures/Power/Generation/solar_panel.rsi
+    sprite: _Erida/Structures/Power/Generation/solar_panel.rsi
     state: solar_tracker
   - type: Transform
     anchored: true

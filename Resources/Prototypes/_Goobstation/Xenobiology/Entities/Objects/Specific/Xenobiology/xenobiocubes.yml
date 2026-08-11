@@ -10,7 +10,7 @@
       - id: SlimeCubeWrapped
         amount: 9
   - type: Sprite
-    sprite: Objects/Misc/monkeycube.rsi
+    sprite: _Erida/Objects/Misc/monkeycube.rsi
     state: box_variant
     
 - type: entity

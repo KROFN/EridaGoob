@@ -9,11 +9,11 @@
   - type: Edible
     utensil: Spoon
   - type: Sprite
-    sprite: Objects/Tools/bucket.rsi
+    sprite: _Erida/Objects/Tools/bucket.rsi
   - type: Item
     size: Normal
   - type: Clothing
-    sprite: Objects/Tools/bucket.rsi
+    sprite: _Erida/Objects/Tools/bucket.rsi
     slots:
     - HEAD
     quickEquip: false

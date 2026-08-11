@@ -49,7 +49,7 @@
           store: board
           name: construction-graph-tag-camera-electronics
           icon:
-            sprite: "Objects/Misc/module.rsi"
+            sprite: "_Erida/Objects/Misc/module.rsi"
             state: "door_electronics" # goida
           doAfter: 1
     # </Goob>

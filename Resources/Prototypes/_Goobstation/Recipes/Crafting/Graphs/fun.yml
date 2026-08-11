@@ -10,7 +10,7 @@
             - tag: SnapPop
               name: construction-graph-tag-snap-pop
               icon:
-                sprite: Objects/Fun/snap_pops.rsi
+                sprite: _Erida/Objects/Fun/snap_pops.rsi
                 state: icon
               doAfter: 1
             - tag: MailCapsule

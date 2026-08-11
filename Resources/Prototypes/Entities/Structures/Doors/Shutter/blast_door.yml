@@ -9,7 +9,7 @@
   - type: AccessReader
     containerAccessProvider: board
   - type: Sprite
-    sprite: Structures/Doors/Shutters/blastdoor.rsi
+    sprite: _Erida/Structures/Doors/Shutters/blastdoor.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -79,7 +79,7 @@
   description: This one says 'BLAST DONGER'.
   components:
   - type: Sprite
-    sprite: Structures/Doors/Shutters/blastdoor.rsi
+    sprite: _Erida/Structures/Doors/Shutters/blastdoor.rsi
     state: assembly
   - type: InteractionOutline
   - type: Damageable
@@ -122,7 +122,7 @@
   description: Don't lose an arm!
   components:
   - type: Sprite
-    sprite: Structures/Doors/Shutters/xeno_blastdoor.rsi
+    sprite: _Erida/Structures/Doors/Shutters/xeno_blastdoor.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]
@@ -164,7 +164,7 @@
   description: This one says 'BLAST DONGER'.
   components:
   - type: Sprite
-    sprite: Structures/Doors/Shutters/xeno_blastdoor.rsi
+    sprite: _Erida/Structures/Doors/Shutters/xeno_blastdoor.rsi
     state: assembly
   - type: InteractionOutline
   - type: Damageable
@@ -207,7 +207,7 @@
   description: Don't lose a head!
   components:
   - type: Sprite
-    sprite: Structures/Doors/Shutters/xenoborg_blastdoor.rsi
+    sprite: _Erida/Structures/Doors/Shutters/xenoborg_blastdoor.rsi
     layers:
     - state: closed
       map: ["enum.DoorVisualLayers.Base"]

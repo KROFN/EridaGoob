@@ -13,7 +13,7 @@
     - 0,0,1,0
     storedOffset: 0,-2
   - type: Sprite
-    sprite: Objects/Consumable/Food/skewer.rsi
+    sprite: _Erida/Objects/Consumable/Food/skewer.rsi
     state:
     layers:
     - state: skewer

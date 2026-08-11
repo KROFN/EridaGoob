@@ -8,7 +8,7 @@
   suffix: Always Powered
   components:
   - type: Sprite
-    sprite: Objects/Specific/Mining/mineral_scanner.rsi
+    sprite: _Erida/Objects/Specific/Mining/mineral_scanner.rsi
     layers:
     - state: icon
     - state: icon-o

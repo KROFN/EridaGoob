@@ -44,13 +44,13 @@
   id: C4
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Bombs/c4.rsi
+    sprite: _Erida/Objects/Weapons/Bombs/c4.rsi
     state: icon
     layers:
     - state: icon
       map: ["base"]
   - type: Clothing
-    sprite: Objects/Weapons/Bombs/c4.rsi
+    sprite: _Erida/Objects/Weapons/Bombs/c4.rsi
     slots:
     - HEAD
     quickEquip: false
@@ -118,7 +118,7 @@
       - FestiveSeason
   - type: HolidayRsiSwap
     sprite:
-      festive: Objects/Weapons/Bombs/c4gift.rsi
+      festive: _Erida/Objects/Weapons/Bombs/c4gift.rsi
   - type: StaticPrice
     price: 625 # 5000 for a bundle of 8
 
@@ -129,7 +129,7 @@
   id: SeismicCharge
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Bombs/seismic.rsi
+    sprite: _Erida/Objects/Weapons/Bombs/seismic.rsi
     state: icon
     layers:
     - state: icon

@@ -10,7 +10,7 @@
   - type: Physics
     bodyType: Static
   - type: Sprite
-    sprite: /Textures/Effects/rockspawn.rsi
+    sprite: /Textures/_Erida/Effects/rockspawn.rsi
     state: asteroid
   - type: Fixtures
     fixtures:

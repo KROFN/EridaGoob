@@ -6,7 +6,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Structures/Wallmounts/posters.rsi
+    sprite: _Erida/Structures/Wallmounts/posters.rsi
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: Card
@@ -45,7 +45,7 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: Structures/Wallmounts/posters.rsi
+    sprite: _Erida/Structures/Wallmounts/posters.rsi
     state: poster_broken
   - type: Destructible
     thresholds:

@@ -7,7 +7,7 @@
   description: Formally known as the Particle Focusing EM Lens. This uses electromagnetic waves to focus the Alpha-Particles.
   components:
   - type: Sprite
-    sprite: Structures/Power/Generation/PA/power_box.rsi
+    sprite: _Erida/Structures/Power/Generation/PA/power_box.rsi
   - type: ParticleAcceleratorPowerBox
   - type: PowerConsumer
     voltage: Medium
@@ -29,7 +29,7 @@
   description: Formally known as the Particle Focusing EM Lens. This uses electromagnetic waves to focus the Alpha-Particles. It looks unfinished.
   components:
   - type: Sprite
-    sprite: Structures/Power/Generation/PA/power_box.rsi
+    sprite: _Erida/Structures/Power/Generation/PA/power_box.rsi
   - type: Construction
     graph: ParticleAcceleratorPowerBox
   - type: MultipartMachinePart

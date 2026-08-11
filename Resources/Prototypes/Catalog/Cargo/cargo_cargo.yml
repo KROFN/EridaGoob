@@ -4,7 +4,7 @@
 #- type: cargoProduct
 #  id: CargoOreBox
 #  icon:
-#    sprite:  /Textures/Structures/Storage/orebox.rsi
+#    sprite:  /Textures/_Erida/Structures/Storage/orebox.rsi
 #    state: orebox
 #  product: OreBox
 #  cost: 500
@@ -15,7 +15,7 @@
 - type: cargoProduct
   id: CargoLuxuryHardsuit
   icon:
-    sprite: Clothing/Head/Hardsuits/luxury.rsi
+    sprite: _Erida/Clothing/Head/Hardsuits/luxury.rsi
     state: icon
   product: CrateCargoLuxuryHardsuit
   cost: 15000
@@ -25,7 +25,7 @@
 - type: cargoProduct
   id: CargoParcelWrap
   icon:
-    sprite: Objects/Misc/ParcelWrap/parcel_wrap.rsi
+    sprite: _Erida/Objects/Misc/ParcelWrap/parcel_wrap.rsi
     state: brown
   product: CrateCargoParcelWrap
   cost: 750
@@ -35,7 +35,7 @@
 - type: cargoProduct
   id: CargoCrusherDagger
   icon:
-    sprite: Objects/Weapons/Melee/crusher_dagger.rsi
+    sprite: _Erida/Objects/Weapons/Melee/crusher_dagger.rsi
     state: icon
   product: CrateCrusherDagger
   cost: 2500
@@ -45,7 +45,7 @@
 - type: cargoProduct
   id: CargoMailCart
   icon:
-      sprite: Objects/Specific/Cargo/mailcart.rsi
+      sprite: _Erida/Objects/Specific/Cargo/mailcart.rsi
       state: icon
   product: MailCart
   cost: 300

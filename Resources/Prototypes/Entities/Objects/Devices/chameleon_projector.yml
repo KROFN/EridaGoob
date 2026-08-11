@@ -7,7 +7,7 @@
   description: Holoparasite technology used to create a hard-light replica of any object around you. Disguise is destroyed when picked up or deactivated.
   components:
   - type: Sprite
-    sprite: /Textures/Objects/Devices/chameleon_projector.rsi
+    sprite: /Textures/_Erida/Objects/Devices/chameleon_projector.rsi
     layers:
     - state: icon
     - state: powered
@@ -112,7 +112,7 @@
   components:
   - type: Action
     icon:
-      sprite: Objects/Tools/wrench.rsi
+      sprite: _Erida/Objects/Tools/wrench.rsi
       state: icon
     itemIconStyle: BigAction
   - type: InstantAction

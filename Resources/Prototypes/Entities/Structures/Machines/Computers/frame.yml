@@ -38,7 +38,7 @@
     visuals:
       enum.EdgeConnectionVisuals.ConnectionMask:
         computerLayerBody:
-          None: { state: broken, sprite: Structures/Machines/computers.rsi }
+          None: { state: broken, sprite: _Erida/Structures/Machines/computers.rsi }
           West: { state: computer_r-broken, sprite: _Orion/Structures/Machines/computers.rsi }
           East: { state: computer_l-broken, sprite: _Orion/Structures/Machines/computers.rsi }
           East, West: { state: computer_l_r-broken, sprite: _Orion/Structures/Machines/computers.rsi }
@@ -67,7 +67,7 @@
   description: A computer under construction.
   components:
   - type: Sprite
-    sprite: Structures/Machines/parts.rsi
+    sprite: _Erida/Structures/Machines/parts.rsi
     layers:
     - state: 0
       map: [ "enum.ConstructionVisuals.Layer" ]
@@ -92,7 +92,7 @@
     graph: Computer
     node: monitorBroken
   - type: Sprite
-    sprite: Structures/Machines/computers.rsi
+    sprite: _Erida/Structures/Machines/computers.rsi
     drawdepth: Objects
     state: broken
   - type: Destructible

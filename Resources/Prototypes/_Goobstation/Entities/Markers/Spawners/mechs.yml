@@ -8,7 +8,7 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Objects/Specific/Mech/mecha.rsi
+      - sprite: _Erida/Objects/Specific/Mech/mecha.rsi
         state: ripleymkii
   - type: ConditionalSpawner
     prototypes:
@@ -23,7 +23,7 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Objects/Specific/Mech/mecha.rsi
+      - sprite: _Erida/Objects/Specific/Mech/mecha.rsi
         state: honker
   - type: ConditionalSpawner
     prototypes:
@@ -37,7 +37,7 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Objects/Specific/Mech/mecha.rsi
+      - sprite: _Erida/Objects/Specific/Mech/mecha.rsi
         state: clarke
   - type: ConditionalSpawner
     prototypes:
@@ -51,7 +51,7 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Objects/Specific/Mech/mecha.rsi
+      - sprite: _Erida/Objects/Specific/Mech/mecha.rsi
         state: gygax
   - type: ConditionalSpawner
     prototypes:
@@ -65,7 +65,7 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Objects/Specific/Mech/mecha.rsi
+      - sprite: _Erida/Objects/Specific/Mech/mecha.rsi
         state: durand
   - type: ConditionalSpawner
     prototypes:
@@ -79,7 +79,7 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Objects/Specific/Mech/mecha.rsi
+      - sprite: _Erida/Objects/Specific/Mech/mecha.rsi
         state: marauder
   - type: ConditionalSpawner
     prototypes:
@@ -94,7 +94,7 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Objects/Specific/Mech/mecha.rsi
+      - sprite: _Erida/Objects/Specific/Mech/mecha.rsi
         state: marauder
   - type: ConditionalSpawner
     prototypes:
@@ -108,7 +108,7 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Objects/Specific/Mech/mecha.rsi
+      - sprite: _Erida/Objects/Specific/Mech/mecha.rsi
         state: seraph
   - type: ConditionalSpawner
     prototypes:
@@ -123,7 +123,7 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Objects/Specific/Mech/mecha.rsi
+      - sprite: _Erida/Objects/Specific/Mech/mecha.rsi
         state: seraph
   - type: ConditionalSpawner
     prototypes:
@@ -137,7 +137,7 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Objects/Specific/Mech/mecha.rsi
+      - sprite: _Erida/Objects/Specific/Mech/mecha.rsi
         state: darkgygax
   - type: ConditionalSpawner
     prototypes:
@@ -152,7 +152,7 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Objects/Specific/Mech/mecha.rsi
+      - sprite: _Erida/Objects/Specific/Mech/mecha.rsi
         state: darkgygax
   - type: ConditionalSpawner
     prototypes:
@@ -166,7 +166,7 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Objects/Specific/Mech/mecha.rsi
+      - sprite: _Erida/Objects/Specific/Mech/mecha.rsi
         state: mauler
   - type: ConditionalSpawner
     prototypes:
@@ -181,7 +181,7 @@
   - type: Sprite
     layers:
       - state: green
-      - sprite: Objects/Specific/Mech/mecha.rsi
+      - sprite: _Erida/Objects/Specific/Mech/mecha.rsi
         state: mauler
   - type: ConditionalSpawner
     prototypes:

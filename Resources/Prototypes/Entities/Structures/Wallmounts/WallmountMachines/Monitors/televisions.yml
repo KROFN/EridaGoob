@@ -9,7 +9,7 @@
     graph: WallmountTelevision
     node: Television
   - type: Sprite
-    sprite: Structures/Wallmounts/flatscreentv.rsi
+    sprite: _Erida/Structures/Wallmounts/flatscreentv.rsi
     layers:
       - map: ["computerLayerBody"]
         state: television_wall
@@ -69,7 +69,7 @@
     node: TelevisionFrame
   - type: Sprite
     drawdepth: WallMountedItems
-    sprite: Structures/Wallmounts/flatscreentv.rsi
+    sprite: _Erida/Structures/Wallmounts/flatscreentv.rsi
     layers:
       - map: ["computerLayerBody"]
         state: television_wall

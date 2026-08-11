@@ -7,7 +7,7 @@
   description: A traditional spooky decoration.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/pumpkin.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/pumpkin.rsi
     state: carved
   - type: Item
     size: Normal

@@ -10,7 +10,7 @@
     storedRotation: -90
     size: Ginormous
   - type: Sprite
-    sprite: Objects/Specific/Mech/mecha_equipment.rsi
+    sprite: _Erida/Objects/Specific/Mech/mecha_equipment.rsi
     state: mecha_camera
   - type: StaticPrice
     price: 100

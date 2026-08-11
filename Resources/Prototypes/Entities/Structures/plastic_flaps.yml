@@ -12,7 +12,7 @@
     - Anchorable
   - type: Rotatable
   - type: Sprite
-    sprite: Structures/plastic_flaps.rsi
+    sprite: _Erida/Structures/plastic_flaps.rsi
     state: plasticflaps
     drawdepth: Mobs
   - type: Physics

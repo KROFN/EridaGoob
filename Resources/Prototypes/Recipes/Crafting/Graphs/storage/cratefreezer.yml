@@ -16,7 +16,7 @@
       - tag: FreezerElectronics
         name: construction-graph-tag-freezer-electronics
         icon:
-          sprite: Objects/Misc/module.rsi
+          sprite: _Erida/Objects/Misc/module.rsi
           state: door_electronics
   - node: done
     entity: CrateFreezer

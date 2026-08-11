@@ -53,7 +53,7 @@
 - type: cargoProduct
   id: RadioAdsCrateCargo
   icon:
-    sprite: Objects/Misc/cd.rsi
+    sprite: _Erida/Objects/Misc/cd.rsi
     state: icon
   product: CrateRadioStationAds
   cost: 3000
@@ -73,7 +73,7 @@
 - type: cargoProduct
   id: ServiceHolySupplies
   icon:
-    sprite: Objects/Specific/Chapel/bible.rsi
+    sprite: _Erida/Objects/Specific/Chapel/bible.rsi
     state: icon
   product: CrateHolySupplies
   cost: 2000

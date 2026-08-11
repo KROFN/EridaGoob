@@ -7,7 +7,7 @@
   description: A handheld device used for detecting and measuring radiation pulses.
   components:
   - type: Sprite
-    sprite: Objects/Tools/geiger.rsi
+    sprite: _Erida/Objects/Tools/geiger.rsi
     layers:
       - state: geiger_base
       - state: geiger_on_idle
@@ -15,7 +15,7 @@
         shader: unshaded
         visible: false
   - type: Item
-    sprite: Objects/Tools/geiger.rsi
+    sprite: _Erida/Objects/Tools/geiger.rsi
   - type: Geiger
     showControl: true
     showExamine: true

@@ -8,7 +8,7 @@
   components:
   - type: Sprite
     noRot: true
-    sprite: Structures/Machines/tech_disk_printer.rsi
+    sprite: _Erida/Structures/Machines/tech_disk_printer.rsi
     layers:
     - map: ["computerLayerBody"]
       state: icon
@@ -19,10 +19,10 @@
     visuals:
       enum.EdgeConnectionVisuals.ConnectionMask:
         computerLayerBody:
-          None: { state: icon, sprite: Structures/Machines/tech_disk_printer.rsi }
-          East: { state: icon, sprite: Structures/Machines/tech_disk_printer.rsi }
-          West: { state: icon, sprite: Structures/Machines/tech_disk_printer.rsi }
-          East, West: { state: icon, sprite: Structures/Machines/tech_disk_printer.rsi }
+          None: { state: icon, sprite: _Erida/Structures/Machines/tech_disk_printer.rsi }
+          East: { state: icon, sprite: _Erida/Structures/Machines/tech_disk_printer.rsi }
+          West: { state: icon, sprite: _Erida/Structures/Machines/tech_disk_printer.rsi }
+          East, West: { state: icon, sprite: _Erida/Structures/Machines/tech_disk_printer.rsi }
   # Orion end
   - type: DiskConsole
   - type: ResearchClient

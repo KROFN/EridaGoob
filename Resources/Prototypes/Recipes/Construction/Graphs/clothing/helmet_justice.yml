@@ -11,7 +11,7 @@
       - tag: SecurityHelmet
         name: construction-graph-tag-security-helmet
         icon:
-          sprite: Clothing/Head/Helmets/security.rsi
+          sprite: _Erida/Clothing/Head/Helmets/security.rsi
           state: icon
       - material: Cable
         amount: 2
@@ -20,7 +20,7 @@
       - tag: LightBulb
         name: construction-graph-tag-light-bulb
         icon:
-          sprite: Objects/Power/light_bulb.rsi
+          sprite: _Erida/Objects/Power/light_bulb.rsi
           state: normal
         doAfter: 5
   - node: helmet

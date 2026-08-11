@@ -49,7 +49,7 @@
             - component: DoorElectronics
               name: construction-graph-component-door-electronics-circuit-board
               icon:
-                sprite: "Objects/Misc/module.rsi"
+                sprite: "_Erida/Objects/Misc/module.rsi"
                 state: "door_electronics"
         - to: frame1
           completed:

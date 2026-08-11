@@ -11,7 +11,7 @@
     layers:
     - shader: unshaded
       map: ["enum.EffectLayers.Unshaded"]
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles.rsi
       state: muzzle_bullet
   - type: EffectVisuals
   - type: Tag
@@ -30,7 +30,7 @@
     layers:
     - shader: unshaded
       map: ["enum.EffectLayers.Unshaded"]
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
       state: omnilaser_flash
 
 - type: entity
@@ -44,7 +44,7 @@
     layers:
     - shader: unshaded
       map: ["enum.EffectLayers.Unshaded"]
-      sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
       state: heavylaser_flash
 
 # One bullet to bring them all into the darkness and bind them
@@ -59,7 +59,7 @@
   - type: Clickable
   - type: Sprite
     noRot: false
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
     - state: bullet
       shader: unshaded
@@ -127,7 +127,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
     - state: practice
   - type: Projectile
@@ -161,7 +161,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
     - state: piercing
   - type: Projectile
@@ -177,7 +177,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
     - state: uranium
       shader: unshaded
@@ -204,7 +204,7 @@
         volume: 5
   - type: Sprite
     noRot: true
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     color: "#ffff33"
     layers:
     - state: spark
@@ -254,7 +254,7 @@
   components:
   - type: Sprite
     noRot: true
-    sprite: Structures/Power/Generation/Tesla/energy_miniball.rsi
+    sprite: _Erida/Structures/Power/Generation/Tesla/energy_miniball.rsi
     color: "#ffff33"
     layers:
     - state: tesla_projectile
@@ -289,7 +289,7 @@
       params:
         volume: 5
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     layers:
     - state: omnilaser
       shader: unshaded
@@ -331,7 +331,7 @@
       params:
         volume: 5
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     layers:
     - state: omnilaser
       shader: unshaded
@@ -368,7 +368,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Structures/Power/Generation/Singularity/emitter.rsi
+    sprite: _Erida/Structures/Power/Generation/Singularity/emitter.rsi
     layers:
     - state: projectile
       shader: unshaded
@@ -414,7 +414,7 @@
       params:
         volume: 5
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     layers:
     - state: omnilaser
       shader: unshaded
@@ -471,7 +471,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     layers:
     - state: omnilaser_greyscale
       shader: unshaded
@@ -517,7 +517,7 @@
       params:
         volume: 5
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     layers:
     - state: ice
       shader: unshaded
@@ -557,7 +557,7 @@
 #    - NonEnergy
 #  - type: Sprite
 #    noRot: false
-#    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
+#    sprite: _Erida/Objects/Weapons/Guns/Projectiles/magic.rsi
 #    layers:
 #    - state: chronobolt
 #      shader: unshaded
@@ -579,7 +579,7 @@
 #  components:
 #  - type: Sprite
 #    noRot: false
-#    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
+#    sprite: _Erida/Objects/Weapons/Guns/Projectiles/magic.rsi
 #    layers:
 #    - state: chronobolt
 #      shader: unshaded
@@ -611,7 +611,7 @@
 #    - NonEnergy
 #  - type: Sprite
 #    noRot: false
-#    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
+#    sprite: _Erida/Objects/Weapons/Guns/Projectiles/magic.rsi
 #    layers:
 #    - state: chronobolt
 #      shader: unshaded
@@ -656,7 +656,7 @@
   name: singularity buster rocket
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
     - state: buster
   - type: SinguloFood
@@ -683,7 +683,7 @@
   - type: AnomalousParticle
     particleType: Delta
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/magic.rsi
     layers:
     - state: magicm_red
       shader: unshaded
@@ -800,7 +800,7 @@
     radius: 2.0
     energy: 7.0
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/magic.rsi
     layers:
     - state: magicm_green
       shader: unshaded
@@ -855,7 +855,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
     - state: frag
   - type: ExplodeOnTrigger
@@ -878,7 +878,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
     - state: frag
   - type: ExplodeOnTrigger
@@ -901,7 +901,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
     - state: grenade
   - type: Projectile
@@ -923,7 +923,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
     - state: grenade
   - type: ExplodeOnTrigger
@@ -942,7 +942,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
     - state: grenade
   - type: FlashOnTrigger
@@ -961,7 +961,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
     - state: grenade
   - type: ExplodeOnTrigger
@@ -987,7 +987,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
     - state: cleanade
   - type: SmokeOnTrigger
@@ -1017,7 +1017,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
     - state: frag
   - type: EmpOnTrigger
@@ -1039,7 +1039,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Fun/capgun.rsi
+    sprite: _Erida/Objects/Fun/capgun.rsi
     layers:
     - state: capbullet
   - type: Projectile
@@ -1060,7 +1060,7 @@
       types:
         Caustic: 5
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/xeno_toxic.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/xeno_toxic.rsi
     layers:
     - state: xeno_toxic
   - type: Ammo
@@ -1084,7 +1084,7 @@
       types:
         Blunt: 0 #it's just water, bro
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/water_shot.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/water_shot.rsi
     layers:
     - state: icon
       map: ["enum.VaporVisualLayers.Base"]
@@ -1129,7 +1129,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
     - state: ball
   - type: ExplodeOnTrigger
@@ -1156,7 +1156,7 @@
     - type: InteractionOutline
     - type: Sprite
       noRot: false
-      sprite: Objects/Weapons/Guns/Launchers/grappling_gun.rsi
+      sprite: _Erida/Objects/Weapons/Guns/Launchers/grappling_gun.rsi
       layers:
         - state: hook
     - type: Physics
@@ -1188,7 +1188,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Launchers/sticky_hand.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Launchers/sticky_hand.rsi
   - type: Ammo
     muzzleFlash: null
 
@@ -1207,7 +1207,7 @@
       params:
         volume: 5
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     layers:
     - state: omnilaser
       shader: unshaded
@@ -1252,7 +1252,7 @@
       params:
         volume: 5
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     layers:
     - state: heavylaser
       shader: unshaded
@@ -1278,7 +1278,7 @@
   - type: Ammo
     muzzleFlash: MuzzleFlashEffectHeavyLaser
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     layers:
     - state: heavylaser
       shader: unshaded
@@ -1297,7 +1297,7 @@
   - type: Ammo
     muzzleFlash: MuzzleFlashEffectOmnilaser
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     layers:
     - state: omnilaser
       shader: unshaded
@@ -1321,7 +1321,7 @@
   - type: TimedDespawn
     lifetime: 5
   - type: Sprite
-    sprite: Structures/Power/Generation/Tesla/energy_miniball.rsi
+    sprite: _Erida/Structures/Power/Generation/Tesla/energy_miniball.rsi
     layers:
     - state: tesla_projectile
       shader: unshaded
@@ -1363,7 +1363,7 @@
       params:
         volume: 5
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     layers:
     - state: heavylaser
       shader: unshaded
@@ -1427,7 +1427,7 @@
   parent: BulletLaser
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles_magnum.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles_magnum.rsi
     layers:
     - state: magnum
       shader: unshaded
@@ -1447,7 +1447,7 @@
   parent: BulletLaser
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles_magnum.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles_magnum.rsi
     layers:
     - state: magnum_piercing
       shader: unshaded
@@ -1482,7 +1482,7 @@
   - type: Ammo
     muzzleFlash: null
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
     - state: crossbowbolt
       shader: unshaded

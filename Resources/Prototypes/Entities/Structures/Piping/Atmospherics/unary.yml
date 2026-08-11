@@ -49,10 +49,10 @@
       - enum.SubfloorLayers.FirstLayer
     - type: Sprite
       drawdepth: FloorObjects
-      sprite: Structures/Piping/Atmospherics/vent.rsi
+      sprite: _Erida/Structures/Piping/Atmospherics/vent.rsi
       noRot: true
       layers:
-        - sprite: Structures/Piping/Atmospherics/pipe.rsi
+        - sprite: _Erida/Structures/Piping/Atmospherics/pipe.rsi
           state: pipeUnaryConnectors
           map: [ "enum.PipeVisualLayers.Pipe" ]
         - state: vent_off
@@ -101,10 +101,10 @@
       - enum.SubfloorLayers.FirstLayer
     - type: Sprite
       drawdepth: FloorObjects
-      sprite: Structures/Piping/Atmospherics/vent.rsi
+      sprite: _Erida/Structures/Piping/Atmospherics/vent.rsi
       noRot: true
       layers:
-        - sprite: Structures/Piping/Atmospherics/pipe.rsi
+        - sprite: _Erida/Structures/Piping/Atmospherics/pipe.rsi
           state: pipeUnaryConnectors
           map: [ "enum.PipeVisualLayers.Pipe" ]
         - state: vent_passive
@@ -156,10 +156,10 @@
       - enum.SubfloorLayers.FirstLayer
     - type: Sprite
       drawdepth: FloorObjects
-      sprite: Structures/Piping/Atmospherics/scrubber.rsi
+      sprite: _Erida/Structures/Piping/Atmospherics/scrubber.rsi
       noRot: true
       layers:
-        - sprite: Structures/Piping/Atmospherics/pipe.rsi
+        - sprite: _Erida/Structures/Piping/Atmospherics/pipe.rsi
           state: pipeUnaryConnectors
           map: [ "enum.PipeVisualLayers.Pipe" ]
         - state: scrub_off
@@ -205,10 +205,10 @@
   components:
     - type: Sprite
       drawdepth: FloorObjects
-      sprite: Structures/Piping/Atmospherics/outletinjector.rsi
+      sprite: _Erida/Structures/Piping/Atmospherics/outletinjector.rsi
       layers:
         - state: pipeUnaryConnectors
-          sprite: Structures/Piping/Atmospherics/pipe.rsi
+          sprite: _Erida/Structures/Piping/Atmospherics/pipe.rsi
           map: [ "enum.PipeVisualLayers.Pipe" ]
         - state: injector
           map: [ "enum.SubfloorLayers.FirstLayer" ]
@@ -256,7 +256,7 @@
     mode: SnapgridCenter
   components:
     - type: Sprite
-      sprite: Structures/Piping/Atmospherics/thermomachine.rsi
+      sprite: _Erida/Structures/Piping/Atmospherics/thermomachine.rsi
       snapCardinals: true
     - type: Appearance
     - type: PipeColorVisuals
@@ -266,9 +266,9 @@
     - type: AtmosPipeLayers
       spriteLayersRsiPaths:
         enum.PipeVisualLayers.Pipe:
-          Primary: Structures/Piping/Atmospherics/thermomachine.rsi
-          Secondary: Structures/Piping/Atmospherics/thermomachine_alt1.rsi
-          Tertiary: Structures/Piping/Atmospherics/thermomachine_alt2.rsi
+          Primary: _Erida/Structures/Piping/Atmospherics/thermomachine.rsi
+          Secondary: _Erida/Structures/Piping/Atmospherics/thermomachine_alt1.rsi
+          Tertiary: _Erida/Structures/Piping/Atmospherics/thermomachine_alt2.rsi
     - type: AtmosDevice
     - type: UserInterface
       interfaces:
@@ -399,7 +399,7 @@
   description: An advanced machine that cools gas in connected pipes. Has the side effect of chilling the surrounding area. Cold as Hell!
   components:
   - type: Sprite
-    sprite: Structures/Piping/Atmospherics/hellfirethermomachine.rsi
+    sprite: _Erida/Structures/Piping/Atmospherics/hellfirethermomachine.rsi
   - type: GasThermoMachine
     minTemperature: 23.15
     heatCapacity: 40000
@@ -414,7 +414,7 @@
   description: An advanced machine that heats gas in connected pipes. Has the side effect of leaking heat into the surrounding area. Hot as Hell!
   components:
   - type: Sprite
-    sprite: Structures/Piping/Atmospherics/hellfirethermomachine.rsi
+    sprite: _Erida/Structures/Piping/Atmospherics/hellfirethermomachine.rsi
   - type: GasThermoMachine
     maxTemperature: 1193.15
     heatCapacity: 40000
@@ -431,7 +431,7 @@
     mode: SnapgridCenter
   components:
   - type: Sprite
-    sprite: Structures/Piping/Atmospherics/condenser.rsi
+    sprite: _Erida/Structures/Piping/Atmospherics/condenser.rsi
     snapCardinals: true
     granularLayersRendering: true
     layers:
@@ -463,9 +463,9 @@
   - type: AtmosPipeLayers
     spriteLayersRsiPaths:
       enum.PipeVisualLayers.Pipe:
-        Primary: Structures/Piping/Atmospherics/condenser.rsi
-        Secondary: Structures/Piping/Atmospherics/condenser_alt1.rsi
-        Tertiary: Structures/Piping/Atmospherics/condenser_alt2.rsi
+        Primary: _Erida/Structures/Piping/Atmospherics/condenser.rsi
+        Secondary: _Erida/Structures/Piping/Atmospherics/condenser_alt1.rsi
+        Tertiary: _Erida/Structures/Piping/Atmospherics/condenser_alt2.rsi
   - type: AtmosDevice
   - type: PipeRestrictOverlap
   - type: ApcPowerReceiver

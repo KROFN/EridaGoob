@@ -6,7 +6,7 @@
   parent: [BaseItem, BaseMagicalContraband] # Goob edit
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Basic/wands.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Basic/wands.rsi
   - type: Item
     heldPrefix: wand
     size: Normal

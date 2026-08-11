@@ -51,7 +51,7 @@
   description: Nothing to see here, please disperse.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Grenades/stingergrenade.rsi
+    sprite: _Erida/Objects/Weapons/Grenades/stingergrenade.rsi
     layers:
     - state: icon
       map: ["enum.TriggerVisualLayers.Base"]
@@ -86,7 +86,7 @@
   description: Guaranteed to light up the mood.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Grenades/pyrogrenade.rsi
+    sprite: _Erida/Objects/Weapons/Grenades/pyrogrenade.rsi
     layers:
     - state: icon
       map: ["enum.TriggerVisualLayers.Base"]
@@ -119,7 +119,7 @@
   description: Releases a deadly spray of shrapnel that causes severe bleeding.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Grenades/shrapnelgrenade.rsi
+    sprite: _Erida/Objects/Weapons/Grenades/shrapnelgrenade.rsi
     layers:
     - state: icon
       map: ["enum.TriggerVisualLayers.Base"]

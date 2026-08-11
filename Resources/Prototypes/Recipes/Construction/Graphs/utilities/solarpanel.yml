@@ -26,7 +26,7 @@
             - tag: SolarAssemblyFlatpack
               name: construction-graph-tag-solar-assembly-parts
               icon:
-                sprite: Objects/Devices/flatpack.rsi
+                sprite: _Erida/Objects/Devices/flatpack.rsi
                 state: solar-assembly-part
               doAfter: 1
 
@@ -76,7 +76,7 @@
             - tag: SolarTrackerElectronics
               name: construction-graph-tag-solar-tracker-electronics
               icon:
-                sprite: Objects/Misc/module.rsi
+                sprite: _Erida/Objects/Misc/module.rsi
                 state: engineering
               doAfter: 1
             - material: Glass

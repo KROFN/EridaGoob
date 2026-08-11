@@ -6,7 +6,7 @@
   description: Three pairs of tiny mopshoes, perfectly fit for a moproach.
   components:
   - type: Sprite
-    sprite: Objects/Misc/moproach_shoes.rsi
+    sprite: _Erida/Objects/Misc/moproach_shoes.rsi
     state: mopshoes
   - type: Construction
     graph: MoproachShoes

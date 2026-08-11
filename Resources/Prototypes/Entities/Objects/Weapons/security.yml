@@ -10,7 +10,7 @@
     tags:
     - Stunbaton
   - type: Sprite
-    sprite: Objects/Weapons/Melee/stunbaton.rsi
+    sprite: _Erida/Objects/Weapons/Melee/stunbaton.rsi
     layers:
     - state: stunbaton_off
       map: [ "enum.ToggleableVisuals.Layer" ]
@@ -69,7 +69,7 @@
     heldPrefix: off
     size: Normal
   - type: Clothing
-    sprite: Objects/Weapons/Melee/stunbaton.rsi
+    sprite: _Erida/Objects/Weapons/Melee/stunbaton.rsi
     quickEquip: false
     slots:
     - Belt
@@ -114,7 +114,7 @@
   description: A rigid, steel-studded baton, meant to harm.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/truncheon.rsi
+    sprite: _Erida/Objects/Weapons/Melee/truncheon.rsi
     state: icon
   - type: MeleeWeapon
     animationRotation: -45 # WWDP
@@ -131,7 +131,7 @@
     tags:
     - Truncheon
   - type: Clothing
-    sprite: Objects/Weapons/Melee/truncheon.rsi
+    sprite: _Erida/Objects/Weapons/Melee/truncheon.rsi
     quickEquip: false
     slots:
     - Belt
@@ -164,7 +164,7 @@
         path: /Audio/_Goobstation/Items/handling/component_drop.ogg
     # Goobstation edit end
     - type: Sprite
-      sprite: Objects/Weapons/Melee/flash.rsi
+      sprite: _Erida/Objects/Weapons/Melee/flash.rsi
       layers:
       - state: flash
         map: [ "enum.FlashVisualLayers.BaseLayer" ]
@@ -183,7 +183,7 @@
       angle: 10
     - type: Item
       size: Small
-      sprite: Objects/Weapons/Melee/flash.rsi
+      sprite: _Erida/Objects/Weapons/Melee/flash.rsi
     - type: UseDelay
       delay: 4 # has to be the same as the FlashingTime datafield in FlashComponent
     - type: UseDelayOnMeleeHit
@@ -236,7 +236,7 @@
           radius: 2
       repeating: true
     - type: Sprite
-      sprite: Objects/Weapons/pflash.rsi
+      sprite: _Erida/Objects/Weapons/pflash.rsi
       layers:
         - state: "off"
           map: ["enum.ProximityTriggerVisualLayers.Base"]

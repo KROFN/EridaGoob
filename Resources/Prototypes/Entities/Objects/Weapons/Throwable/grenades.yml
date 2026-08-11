@@ -30,7 +30,7 @@
   id: GrenadeFlashBang
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Grenades/flashbang.rsi
+    sprite: _Erida/Objects/Weapons/Grenades/flashbang.rsi
   - type: FlashOnTrigger
     keysIn:
     - timer
@@ -86,7 +86,7 @@
   id: SyndieMiniBomb
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Grenades/syndgrenade.rsi
+    sprite: _Erida/Objects/Weapons/Grenades/syndgrenade.rsi
   - type: ExplosionResistance
     damageCoefficient: 0.1
   - type: TimerTrigger
@@ -214,7 +214,7 @@
   id: WhiteholeGrenade
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Grenades/whiteholegrenade.rsi
+    sprite: _Erida/Objects/Weapons/Grenades/whiteholegrenade.rsi
   - type: TimerTrigger
     delay: 3
     beepInterval: 0.69
@@ -274,7 +274,7 @@
   id: NuclearGrenade
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Grenades/nukenade.rsi
+    sprite: _Erida/Objects/Weapons/Grenades/nukenade.rsi
   - type: TimerTrigger
     delay: 5
   - type: ExplodeOnTrigger
@@ -307,7 +307,7 @@
   id: ModularGrenade
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Grenades/modular.rsi
+    sprite: _Erida/Objects/Weapons/Grenades/modular.rsi
     layers:
     - state: empty
       map: [ "enum.ConstructionVisuals.Layer" ]
@@ -355,7 +355,7 @@
   id: EmpGrenade
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Grenades/empgrenade.rsi
+    sprite: _Erida/Objects/Weapons/Grenades/empgrenade.rsi
   - type: EmpOnTrigger
     keysIn:
     - timer
@@ -378,7 +378,7 @@
   id: HolyHandGrenade
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Grenades/holyhandgrenade.rsi
+    sprite: _Erida/Objects/Weapons/Grenades/holyhandgrenade.rsi
   - type: ExplodeOnTrigger
     keysIn:
     - timer
@@ -409,7 +409,7 @@
   id: GrenadeDummy
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Grenades/grenade.rsi
+    sprite: _Erida/Objects/Weapons/Grenades/grenade.rsi
   - type: DeleteOnTrigger
     keysIn:
     - timer
@@ -436,7 +436,7 @@
   id: SyndieTrickyBomb
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Grenades/syndgrenade.rsi
+    sprite: _Erida/Objects/Weapons/Grenades/syndgrenade.rsi
   - type: TimerTrigger
     delay: 5
   - type: EmitSoundOnTrigger

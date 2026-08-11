@@ -6,7 +6,7 @@
   description: Finally, some decent reception around here...
   components:
   - type: Sprite
-    sprite: Structures/Machines/computers.rsi
+    sprite: _Erida/Structures/Machines/computers.rsi
     layers:
       - map: ["computerLayerBody"]
         state: telescreen_frame
@@ -56,7 +56,7 @@
     graph: WallmountTelescreen
     node: TelescreenFrame
   - type: Sprite
-    sprite: Structures/Machines/computers.rsi
+    sprite: _Erida/Structures/Machines/computers.rsi
     layers:
       - map: ["computerLayerBody"]
         state: telescreen_frame

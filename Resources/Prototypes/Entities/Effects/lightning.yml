@@ -6,7 +6,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: /Textures/Effects/lightning.rsi
+    sprite: /Textures/_Erida/Effects/lightning.rsi
     drawdepth: Effects
     layers:
     - state: "lightning_1"
@@ -47,7 +47,7 @@
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
-      sprite: /Textures/Effects/lightning.rsi
+      sprite: /Textures/_Erida/Effects/lightning.rsi
       drawdepth: Effects
       layers:
         - state: "lightning_3"
@@ -74,7 +74,7 @@
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
-      sprite: /Textures/Effects/lightning.rsi
+      sprite: /Textures/_Erida/Effects/lightning.rsi
       drawdepth: Effects
       layers:
         - state: "blue_lightning"
@@ -93,7 +93,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: /Textures/Effects/lightning.rsi
+    sprite: /Textures/_Erida/Effects/lightning.rsi
     drawdepth: Effects
     layers:
     - state: "lightning_1"
@@ -120,7 +120,7 @@
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
-      sprite: /Textures/Effects/lightning.rsi
+      sprite: /Textures/_Erida/Effects/lightning.rsi
       drawdepth: Effects
       layers:
         - state: "yellow_lightning"
@@ -146,7 +146,7 @@
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
-      sprite: /Textures/Effects/lightning.rsi
+      sprite: /Textures/_Erida/Effects/lightning.rsi
       drawdepth: Effects
       layers:
         - state: "red_lightning"

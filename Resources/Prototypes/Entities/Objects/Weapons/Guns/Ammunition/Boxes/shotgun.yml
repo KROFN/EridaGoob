@@ -11,7 +11,7 @@
   - type: Item
     size: Normal
   - type: Sprite
-    sprite: Objects/Storage/boxes.rsi
+    sprite: _Erida/Objects/Storage/boxes.rsi
 
 - type: entity
   abstract: true

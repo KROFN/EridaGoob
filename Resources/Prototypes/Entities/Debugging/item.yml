@@ -8,7 +8,7 @@
   suffix: DEBUG
   components:
   - type: Sprite
-    sprite: Objects/Misc/skub.rsi
+    sprite: _Erida/Objects/Misc/skub.rsi
     state: icon
   - type: Item
     size: Tiny

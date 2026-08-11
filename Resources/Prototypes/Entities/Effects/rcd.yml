@@ -11,7 +11,7 @@
     snapCardinals: true
     noRot: true
     drawdepth: Effects
-    sprite: /Textures/Effects/rcd.rsi
+    sprite: /Textures/_Erida/Effects/rcd.rsi
     state: construct0
   - type: Tag
     tags:

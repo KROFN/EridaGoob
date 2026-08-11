@@ -31,7 +31,7 @@
           position: "0,-0.5"
         hard: false
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/shuttle.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Standard/shuttle.rsi
     snapCardinals: false
     layers:
     - state: closed
@@ -56,7 +56,7 @@
       visible: false
       map: ["enum.ElectrifiedLayers.HUD"]
     - state: electrified
-      sprite: Effects/electricity.rsi
+      sprite: _Erida/Effects/electricity.rsi
       shader: unshaded
       visible: false
       map: ["enum.ElectrifiedLayers.Sparks"]
@@ -97,7 +97,7 @@
   suffix: Glass, Docking
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/shuttle.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Glass/shuttle.rsi
   - type: Occluder
     enabled: false
   - type: Door
@@ -120,7 +120,7 @@
     noRot: false
   - type: Rotatable
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/shuttle.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Glass/shuttle.rsi
     state: closed
     snapCardinals: false
   - type: Construction
@@ -132,18 +132,18 @@
   parent: AirlockGlassShuttle
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Glass/shuttle_syndicate.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Glass/shuttle_syndicate.rsi
 
 - type: entity
   parent: AirlockShuttle
   id: AirlockShuttleSyndicate
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/shuttle_syndicate.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Standard/shuttle_syndicate.rsi
 
 - type: entity
   parent: AirlockShuttle
   id: AirlockShuttleXenoborg
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/shuttle_xenoborg.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Standard/shuttle_xenoborg.rsi

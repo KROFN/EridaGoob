@@ -7,7 +7,7 @@
   name: pellet (.50 slug)
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     state: slug
   - type: Projectile
     damage:
@@ -23,7 +23,7 @@
   name: beanbag (.50)
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
     - state: bullet #just reapplying to here so it can be shaded
   - type: Projectile
@@ -109,7 +109,7 @@
   name: improvised pellet
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
     - state: shard
       shader: unshaded
@@ -166,7 +166,7 @@
         mask:
           - BulletImpassable
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     state: buckshot-flare
   - type: IgnitionSource
     ignited: true
@@ -224,7 +224,7 @@
   components:
   - type: Sprite
     noRot: false
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
     - state: grapeshot
       shader: unshaded
@@ -254,7 +254,7 @@
   components:
   - type: Sprite
     noRot: false
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles2.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles2.rsi
     layers:
     - state: shard
   - type: EmbeddableProjectile

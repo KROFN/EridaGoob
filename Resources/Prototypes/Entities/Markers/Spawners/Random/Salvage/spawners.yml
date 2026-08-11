@@ -43,7 +43,7 @@
   - type: Sprite
     layers:
     - state: pink
-    - sprite: Objects/Materials/Scrap/generic.rsi
+    - sprite: _Erida/Objects/Materials/Scrap/generic.rsi
       state: metal-1
   - type: EntityTableSpawner
     offset: 0.4
@@ -104,7 +104,7 @@
   - type: Sprite
     layers:
     - state: pink
-    - sprite: Objects/Materials/Scrap/generic.rsi
+    - sprite: _Erida/Objects/Materials/Scrap/generic.rsi
       state: junk-airlock-1
   - type: EntityTableSpawner
     offset: 0.4
@@ -180,7 +180,7 @@
   - type: Sprite
     layers:
     - state: pink
-    - sprite: Objects/Materials/materials.rsi
+    - sprite: _Erida/Objects/Materials/materials.rsi
       state: diamond
   - type: EntityTableSpawner
     offset: 0.4
@@ -249,7 +249,7 @@
   - type: Sprite
     layers:
     - state: pink
-    - sprite: Objects/Materials/materials.rsi
+    - sprite: _Erida/Objects/Materials/materials.rsi
       state: diamond
   - type: EntityTableSpawner
     offset: 0.4
@@ -308,7 +308,7 @@
   - type: Sprite
     layers:
     - state: pink
-    - sprite: Objects/Devices/communication.rsi
+    - sprite: _Erida/Objects/Devices/communication.rsi
       state: walkietalkie
   - type: EntityTableSpawner
     offset: 0.4
@@ -373,7 +373,7 @@
   - type: Sprite
     layers:
     - state: pink
-    - sprite: Objects/Devices/communication.rsi
+    - sprite: _Erida/Objects/Devices/communication.rsi
       state: walkietalkie
   - type: EntityTableSpawner
     offset: 0.4
@@ -389,7 +389,7 @@
   - type: Sprite
     layers:
     - state: pink
-    - sprite: Structures/Storage/canister.rsi
+    - sprite: _Erida/Structures/Storage/canister.rsi
       state: blue
   - type: EntityTableSpawner
     table: !type:GroupSelector
@@ -481,7 +481,7 @@
   - type: Sprite
     layers:
     - state: green
-    - sprite: Structures/Storage/tanks.rsi
+    - sprite: _Erida/Structures/Storage/tanks.rsi
       state: fueltank-2
   - type: EntityTableSpawner
     table: !type:GroupSelector

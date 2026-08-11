@@ -60,11 +60,11 @@
     - map: [ "pocket2" ]
     - map: ["enum.HumanoidVisualLayers.Handcuffs"]
       color: "#ffffff"
-      sprite: Objects/Misc/handcuffs.rsi
+      sprite: _Erida/Objects/Misc/handcuffs.rsi
       state: body-overlay-2
       visible: false
     - map: [ "clownedon" ] # Dynamically generated
-      sprite: "Effects/creampie.rsi"
+      sprite: "_Erida/Effects/creampie.rsi"
       state: "creampie_human"
       visible: false
   - type: Carriable

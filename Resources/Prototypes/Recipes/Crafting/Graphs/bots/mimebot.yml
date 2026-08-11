@@ -10,23 +10,23 @@
       steps:
       - tag: MimeHappyHonk
         icon:
-          sprite: Objects/Storage/Happyhonk/mime.rsi
+          sprite: _Erida/Objects/Storage/Happyhonk/mime.rsi
           state: box
         name: construction-graph-tag-mime-meal
       - tag: MimeBelt
         icon:
-            sprite: Clothing/Belt/suspenders_red.rsi
+            sprite: _Erida/Clothing/Belt/suspenders_red.rsi
             state: icon
         name: construction-graph-tag-suspenders
         doAfter: 2
       - tag: ProximitySensor
         icon:
-          sprite: Objects/Misc/proximity_sensor.rsi
+          sprite: _Erida/Objects/Misc/proximity_sensor.rsi
           state: icon
         name: construction-graph-tag-proximity-sensor
       - tag: BorgHead
         icon:
-          sprite: Objects/Specific/Robotics/cyborg_parts.rsi
+          sprite: _Erida/Objects/Specific/Robotics/cyborg_parts.rsi
           state: borg_head
         name: construction-graph-tag-borg-head
         doAfter: 2

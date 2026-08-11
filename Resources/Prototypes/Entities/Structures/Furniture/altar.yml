@@ -35,10 +35,10 @@
   name: nanotrasen altar
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Gods/nanotrasen.rsi
     state: nanotrasen
   - type: Icon
-    sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Gods/nanotrasen.rsi
     state: nanotrasen
   - type: Construction
     graph: AltarsGraph
@@ -54,10 +54,10 @@
   name: chaos altar
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Gods/nanotrasen.rsi
     state: chaos
   - type: Icon
-    sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Gods/nanotrasen.rsi
     state: chaos
   - type: PointLight
     radius: 1.5
@@ -77,10 +77,10 @@
   name: druid altar
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Gods/nanotrasen.rsi
     state: druid
   - type: Icon
-    sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Gods/nanotrasen.rsi
     state: druid
   - type: AltarSource
     rodProto: MonkStaff
@@ -96,10 +96,10 @@
   name: toolbox altar
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Gods/nanotrasen.rsi
     state: toolbox
   - type: Icon
-    sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Gods/nanotrasen.rsi
     state: toolbox
   - type: AltarSource
     rodProto: HolyChainsaw # Shitchap
@@ -115,13 +115,13 @@
   name: space-Christian altar
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Gods/nanotrasen.rsi
     layers:
     - state: space-christian
     - state: space-christian_lightning
       shader: unshaded
   - type: Icon
-    sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Gods/nanotrasen.rsi
     state: space-christian
   - type: PointLight
     radius: 1.5
@@ -141,13 +141,13 @@
   name: satanic altar
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Gods/nanotrasen.rsi
     layers:
     - state: satana
     - state: satana_lightning
       shader: unshaded
   - type: Icon
-    sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Gods/nanotrasen.rsi
     state: satana
   - type: PointLight
     radius: 1.5
@@ -160,13 +160,13 @@
   name: technology altar
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Gods/nanotrasen.rsi
     layers:
     - state: technology
     - state: technology_lightning
       shader: unshaded
   - type: Icon
-    sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Gods/nanotrasen.rsi
     state: technology
   - type: PointLight
     radius: 1.5
@@ -186,10 +186,10 @@
   name: festival altar
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Gods/convertaltar.rsi
     state: festival
   - type: Icon
-    sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Gods/convertaltar.rsi
     state: festival
   - type: Tag
     tags:
@@ -226,13 +226,13 @@
   name: blue altar
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Gods/convertaltar.rsi
     layers:
     - state: blue
     - state: lightning
       shader: unshaded
   - type: Icon
-    sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Gods/convertaltar.rsi
     state: blue
   - type: PointLight
     radius: 1.5
@@ -252,13 +252,13 @@
   name: burden altar
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Gods/convertaltar.rsi
     layers:
     - state: convertaltar
     - state: lightning
       shader: unshaded
   - type: Icon
-    sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Gods/convertaltar.rsi
     state: convertaltar
   - type: PointLight
     radius: 1.5
@@ -271,13 +271,13 @@
   name: convert altar
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Gods/convertaltar.rsi
     layers:
     - state: convertaltar
     - state: lightning
       shader: unshaded
   - type: Icon
-    sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Gods/convertaltar.rsi
     state: convertaltar
   - type: PointLight
     radius: 1.5
@@ -293,13 +293,13 @@
   name: orange altar
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Gods/convertaltar.rsi
     layers:
     - state: orange
     - state: lightning
       shader: unshaded
   - type: Icon
-    sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Gods/convertaltar.rsi
     state: orange
   - type: PointLight
     radius: 1.5
@@ -312,13 +312,13 @@
   name: red altar
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Gods/convertaltar.rsi
     layers:
     - state: red
     - state: lightning
       shader: unshaded
   - type: Icon
-    sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Gods/convertaltar.rsi
     state: red
   - type: PointLight
     radius: 1.5
@@ -331,13 +331,13 @@
   name: white altar
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Gods/convertaltar.rsi
     layers:
     - state: white
     - state: lightning
       shader: unshaded
   - type: Icon
-    sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Gods/convertaltar.rsi
     state: white
   - type: PointLight
     radius: 1.5
@@ -350,13 +350,13 @@
   name: yellow altar
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Gods/convertaltar.rsi
     layers:
     - state: yellow
     - state: lightning
       shader: unshaded
   - type: Icon
-    sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Gods/convertaltar.rsi
     state: yellow
   - type: PointLight
     radius: 1.5
@@ -369,13 +369,13 @@
   name: heaven altar
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Altars/Cults/heaven.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Cults/heaven.rsi
     layers:
     - state: full
     - state: blood
       shader: unshaded
   - type: Icon
-    sprite: Structures/Furniture/Altars/Cults/heaven.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Cults/heaven.rsi
     state: full
   - type: Construction
     graph: AltarsGraph
@@ -395,9 +395,9 @@
   name: fanged altar
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Altars/Cults/fangs.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Cults/fangs.rsi
   - type: Icon
-    sprite: Structures/Furniture/Altars/Cults/fangs.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Cults/fangs.rsi
   - type: AltarSource
     rodProto: ArrythmicKnife # Shitchap
     effectProto: EffectSpark
@@ -413,7 +413,7 @@
   description: A bananium altar dedicated to the honkmother.
   components:
   - type: Sprite
-    sprite: Structures/Furniture/Altars/Cults/bananium.rsi
+    sprite: _Erida/Structures/Furniture/Altars/Cults/bananium.rsi
     state: full
   - type: Construction
     graph: AltarsGraph

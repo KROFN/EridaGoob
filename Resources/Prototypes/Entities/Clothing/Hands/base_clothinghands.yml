@@ -81,7 +81,7 @@
   - type: Clothing
     slots: [ gloves, neck ]
   - type: Sprite
-    sprite: Clothing/Hands/Rings/basic.rsi
+    sprite: _Erida/Clothing/Hands/Rings/basic.rsi
   - type: Appearance
   - type: Item
     size: Tiny

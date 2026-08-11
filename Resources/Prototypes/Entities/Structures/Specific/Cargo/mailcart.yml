@@ -7,7 +7,7 @@
   components:
     - type: Sprite
       noRot: true
-      sprite: Objects/Specific/Cargo/mailcart.rsi
+      sprite: _Erida/Objects/Specific/Cargo/mailcart.rsi
       layers:
         - state: mailcart_base
     - type: InteractionOutline
@@ -82,7 +82,7 @@
         package_8:
           minCount: 8
           whitelist: *PackageWhitelist
-      sprite: Objects/Specific/Cargo/mailcart.rsi
+      sprite: _Erida/Objects/Specific/Cargo/mailcart.rsi
     - type: Appearance
     - type: UserInterface
       interfaces:

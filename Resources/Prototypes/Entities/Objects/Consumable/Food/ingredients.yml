@@ -12,7 +12,7 @@
   id: ReagentContainerBase
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Food/ingredients.rsi
+    sprite: _Erida/Objects/Consumable/Food/ingredients.rsi
   - type: SolutionContainerManager
     solutions:
       food:
@@ -321,7 +321,7 @@
   description: Used in various recipes.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Food/ingredients.rsi
+    sprite: _Erida/Objects/Consumable/Food/ingredients.rsi
   - type: SolutionContainerManager
     solutions:
       food:
@@ -962,7 +962,7 @@
     flavors:
       - chocolate
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/cocoa.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/cocoa.rsi
     state: produce-beans
   - type: SolutionContainerManager
     solutions:

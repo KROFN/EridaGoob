@@ -7,7 +7,7 @@
   description: Old fashioned game of dice and pieces.
   components:
   - type: Sprite
-    sprite: Objects/Fun/Tabletop/backgammon.rsi
+    sprite: _Erida/Objects/Fun/Tabletop/backgammon.rsi
     state: board
   - type: TabletopGame
     boardName: tabletop-backgammon-board-name
@@ -23,5 +23,5 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: Objects/Fun/Tabletop/backgammon_tabletop.rsi
+    sprite: _Erida/Objects/Fun/Tabletop/backgammon_tabletop.rsi
     state: backgammonBoard

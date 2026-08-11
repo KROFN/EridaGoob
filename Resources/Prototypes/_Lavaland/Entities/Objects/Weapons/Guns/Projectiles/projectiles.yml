@@ -12,7 +12,7 @@
     - NonEnergy
   - type: Sprite
     noRot: false
-    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/magic.rsi
     layers:
     - state: chronobolt
       shader: unshaded
@@ -33,7 +33,7 @@
   components:
   - type: Sprite
     noRot: false
-    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/magic.rsi
     layers:
     - state: chronobolt
       shader: unshaded
@@ -102,7 +102,7 @@
     - NonEnergy
   - type: Sprite
     noRot: false
-    sprite: Objects/Weapons/Guns/Projectiles/magic.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/magic.rsi
     layers:
     - state: chronobolt
       shader: unshaded

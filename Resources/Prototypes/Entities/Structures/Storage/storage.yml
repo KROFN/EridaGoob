@@ -18,7 +18,7 @@
   - type: InteractionOutline
   - type: PlaceableSurface
   - type: Sprite
-    sprite: Structures/Furniture/furniture.rsi
+    sprite: _Erida/Structures/Furniture/furniture.rsi
     state: rack
     snapCardinals: true
   - type: Fixtures

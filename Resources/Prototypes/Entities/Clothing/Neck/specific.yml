@@ -12,9 +12,9 @@
       - ClothMade
       - Recyclable
     - type: Sprite
-      sprite: Clothing/Neck/Scarfs/red.rsi
+      sprite: _Erida/Clothing/Neck/Scarfs/red.rsi
     - type: Clothing
-      sprite: Clothing/Neck/Scarfs/red.rsi
+      sprite: _Erida/Clothing/Neck/Scarfs/red.rsi
     - type: ChameleonClothing
       slot: [NECK]
       default: ClothingNeckScarfStripedRed

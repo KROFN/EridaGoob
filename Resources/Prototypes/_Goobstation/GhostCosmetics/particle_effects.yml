@@ -131,7 +131,7 @@
 - type: particleEffect
   id: GhostParticlesGloom
   sprite:
-    sprite: Effects/chemsmoke.rsi
+    sprite: _Erida/Effects/chemsmoke.rsi
     state: chemsmoke
   startColor: "#4B2D6BAA"
   endColor: "#1A0F2E00"

@@ -46,7 +46,7 @@
   physicalDesc: reagent-physical-desc-magical
   flavor: tea
   metamorphicSprite:
-    sprite: Objects/Consumable/Drinks/greenteaglass.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/greenteaglass.rsi
     state: icon_empty
   metamorphicMaxFillLevels: 4
   metamorphicFillBaseName: fill-

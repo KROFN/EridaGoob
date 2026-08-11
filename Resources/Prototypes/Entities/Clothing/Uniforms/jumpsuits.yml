@@ -7,9 +7,9 @@
   description: Advanced armored jumpsuit used by special forces in special operations.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/deathsquad.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/deathsquad.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/deathsquad.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/deathsquad.rsi
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag
 
@@ -43,9 +43,9 @@
   description: A decent jacket, for a decent monkey.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/punpun.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/punpun.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/punpun.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/punpun.rsi
   - type: SuitSensor
     controlsLocked: false
     randomMode: false
@@ -58,9 +58,9 @@
   description: A special purple outfit to serve drinks.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/bartender_purple.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/bartender_purple.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/bartender_purple.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/bartender_purple.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, BaseCommandContraband] # Goob
@@ -117,9 +117,9 @@
   description: A yellow turtleneck designed specifically for work in conditions of the engineering department.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/ce_turtle.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/ce_turtle.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/ce_turtle.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/ce_turtle.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -128,9 +128,9 @@
   description: It's a black jumpsuit, often worn by religious folk.
   components:
     - type: Sprite
-      sprite: Clothing/Uniforms/Jumpsuit/chaplain.rsi
+      sprite: _Erida/Clothing/Uniforms/Jumpsuit/chaplain.rsi
     - type: Clothing
-      sprite: Clothing/Uniforms/Jumpsuit/chaplain.rsi
+      sprite: _Erida/Clothing/Uniforms/Jumpsuit/chaplain.rsi
 
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
@@ -139,9 +139,9 @@
   description: A suit worn by CentComm's legal team. Smells of burnt coffee.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/centcom_agent.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/centcom_agent.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/centcom_agent.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/centcom_agent.rsi
 
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
@@ -150,9 +150,9 @@
   description: It's a jumpsuit worn by CentComm's officials.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/centcom_official.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/centcom_official.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/centcom_official.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/centcom_official.rsi
 
 - type: entity
   parent: [ ClothingUniformBase, BaseCentcommContraband ]
@@ -161,9 +161,9 @@
   description: It's a jumpsuit worn by CentComm Officers.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/centcom_officer.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/centcom_officer.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/centcom_officer.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/centcom_officer.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase] # Goob
@@ -214,9 +214,9 @@
   description: HONK!
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/clown.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/clown.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/clown.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/clown.rsi
   - type: Tag
     tags:
     - ClownSuit
@@ -228,9 +228,9 @@
   name: banana clown suit
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/clown_banana.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/clown_banana.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/clown_banana.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/clown_banana.rsi
   - type: Construction
     graph: BananaClownJumpsuit
     node: jumpsuit
@@ -251,18 +251,18 @@
   description: A jolly dress, well suited to entertain your master, nuncle.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/jester.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/jester.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/jester.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/jester.rsi
 
 - type: entity
   parent: ClothingUniformJumpsuitJester
   id: ClothingUniformJumpsuitJesterAlt
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/jester2.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/jester2.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/jester2.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/jester2.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, BaseCommandContraband] # Goob
@@ -280,9 +280,9 @@
   description: It's a turtleneck worn by those with the experience to be Chief Medical Officer. It provides minor biological protection.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/cmo_turtle.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/cmo_turtle.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/cmo_turtle.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/cmo_turtle.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, BaseSecurityContraband] # Goob
@@ -396,9 +396,9 @@
   description: A male head of security's luxury-wear, for special occasions.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/hos_parade.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/hos_parade.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/hos_parade.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/hos_parade.rsi
 
 - type: entity
   parent: [ ClothingUniformBase, BaseCommandContraband ]
@@ -407,9 +407,9 @@
   description: A generic Command-colored jumpsuit not associated with any particular department.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/commandgeneric.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/commandgeneric.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/commandgeneric.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/commandgeneric.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase] # Goob
@@ -486,9 +486,9 @@
   description: This uniform is issued to qualified personnel who have been trained. No one cares that the training took half a day.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/brigmedic.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/brigmedic.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/brigmedic.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/brigmedic.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase] # Goob
@@ -570,9 +570,9 @@
   description: Inspired by the quartermasters of military's past, the perfect outfit for supplying a formal occasion.
   components:
     - type: Sprite
-      sprite: Clothing/Uniforms/Jumpsuit/qmformal.rsi
+      sprite: _Erida/Clothing/Uniforms/Jumpsuit/qmformal.rsi
     - type: Clothing
-      sprite: Clothing/Uniforms/Jumpsuit/qmformal.rsi
+      sprite: _Erida/Clothing/Uniforms/Jumpsuit/qmformal.rsi
 
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
@@ -601,9 +601,9 @@
   description: A uniform for sophisticated scientists, best worn with its matching tie.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/scientist_formal.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/scientist_formal.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/scientist_formal.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/scientist_formal.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase] # Goob
@@ -644,9 +644,9 @@
   description: I'm a little busy right now, Calhoun.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/security_blue.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/security_blue.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/security_blue.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/security_blue.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, BaseSecurityContraband] # Goob
@@ -666,9 +666,9 @@
   description: A formal uniform issued to the Nanotrasen Troopers, usually it comes with a car.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/security_trooper.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/security_trooper.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/security_trooper.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/security_trooper.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, BaseSecurityContraband] # Goob
@@ -700,9 +700,9 @@
   description: Great for working outdoors.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/overalls.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/overalls.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/overalls.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/overalls.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -711,9 +711,9 @@
   description: A cosy green jumper fit for a curator of books.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/librarian.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/librarian.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/librarian.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/librarian.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -722,9 +722,9 @@
   description: It's sensible. Too sensible...
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/curator.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/curator.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/curator.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/curator.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -733,9 +733,9 @@
   description: A flashy red suit worn by lawyers and show-offs.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/lawyerred.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/lawyerred.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/lawyerred.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/lawyerred.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -744,9 +744,9 @@
   description: A flashy blue suit worn by lawyers and show-offs.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/lawyerblue.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/lawyerblue.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/lawyerblue.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/lawyerblue.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -755,9 +755,9 @@
   description: A subtle black suit worn by lawyers and gangsters.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/lawyerblack.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/lawyerblack.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/lawyerblack.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/lawyerblack.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -766,9 +766,9 @@
   description: A stylish purple piece worn by lawyers and show people.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/lawyerpurple.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/lawyerpurple.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/lawyerpurple.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/lawyerpurple.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -777,9 +777,9 @@
   description: A tacky suit perfect for a CRIMINAL lawyer!
   components:
     - type: Sprite
-      sprite: Clothing/Uniforms/Jumpsuit/lawyergood.rsi
+      sprite: _Erida/Clothing/Uniforms/Jumpsuit/lawyergood.rsi
     - type: Clothing
-      sprite: Clothing/Uniforms/Jumpsuit/lawyergood.rsi
+      sprite: _Erida/Clothing/Uniforms/Jumpsuit/lawyergood.rsi
 
 - type: entity
   parent: [UnsensoredClothingUniformBase, BaseSyndicateContraband]
@@ -788,9 +788,9 @@
   description: For those long nights in perma.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/pyjamasyndicateblack.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/pyjamasyndicateblack.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/pyjamasyndicateblack.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/pyjamasyndicateblack.rsi
   - type: ScannableForPoints # goob edit
     points: 1
 
@@ -801,9 +801,9 @@
   description: For those long nights in perma.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/pyjamasyndicatepink.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/pyjamasyndicatepink.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/pyjamasyndicatepink.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/pyjamasyndicatepink.rsi
   - type: ScannableForPoints # goob edit
     points: 1
 
@@ -814,9 +814,9 @@
   description: For those long nights in perma.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/pyjamasyndicatered.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/pyjamasyndicatered.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/pyjamasyndicatered.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/pyjamasyndicatered.rsi
   - type: ScannableForPoints # goob edit
     points: 1
 
@@ -827,9 +827,9 @@
   description: A stately blue jumpsuit to represent NanoTrasen.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/nanotrasen.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/nanotrasen.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/nanotrasen.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/nanotrasen.rsi
 
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
@@ -838,9 +838,9 @@
   description: A suit for special occasions.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/capformal.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/capformal.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/capformal.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/capformal.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -849,9 +849,9 @@
   description: A suit for special occasions.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/centcomformal.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/centcomformal.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/centcomformal.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/centcomformal.rsi
 
 - type: entity
   parent: [ClothingUniformBase, BaseCommandContraband]
@@ -860,9 +860,9 @@
   description: A suit for special occasions.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/hosformal.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/hosformal.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/hosformal.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/hosformal.rsi
 
 - type: entity
   parent: [UnsensoredClothingUniformBase, ClothingUniformFoldableBase, BaseSyndicateContraband] # Goob
@@ -884,9 +884,9 @@
   description: Uniform for subpar operative LARPers performing tactical insulated glove theft in deep space.
   components:
     - type: Sprite
-      sprite: Clothing/Uniforms/Jumpsuit/tacticool.rsi
+      sprite: _Erida/Clothing/Uniforms/Jumpsuit/tacticool.rsi
     - type: Clothing
-      sprite: Clothing/Uniforms/Jumpsuit/tacticool.rsi
+      sprite: _Erida/Clothing/Uniforms/Jumpsuit/tacticool.rsi
     # Too cool for sensors to be on
     - type: SuitSensor
       randomMode: false
@@ -910,9 +910,9 @@
   description: Comfortable ninja suit, for convenience when relaxing and when you need to practice.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/ninja.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/ninja.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/ninja.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/ninja.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase] # Goob
@@ -930,7 +930,7 @@
   description: Might as well relax with a job as easy as yours.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/atmos_casual.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/atmos_casual.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase] # Goob
@@ -950,9 +950,9 @@
   description: A good reporter remains a skeptic all their life.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/reporter.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/reporter.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/reporter.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/reporter.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -961,9 +961,9 @@
   description: Perfect for a jungle excursion.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/safari.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/safari.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/safari.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/safari.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -972,9 +972,9 @@
   description: If journalism is good, it is controversial, by nature.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/journalist.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/journalist.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/journalist.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/journalist.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -983,9 +983,9 @@
   description: It's a dark robe, often worn by religious folk.
   components:
     - type: Sprite
-      sprite: Clothing/Uniforms/Jumpsuit/monastic_robe_dark.rsi
+      sprite: _Erida/Clothing/Uniforms/Jumpsuit/monastic_robe_dark.rsi
     - type: Clothing
-      sprite: Clothing/Uniforms/Jumpsuit/monastic_robe_dark.rsi
+      sprite: _Erida/Clothing/Uniforms/Jumpsuit/monastic_robe_dark.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -994,9 +994,9 @@
   description: It's a light robe, often worn by religious folk.
   components:
     - type: Sprite
-      sprite: Clothing/Uniforms/Jumpsuit/monastic_robe_light.rsi
+      sprite: _Erida/Clothing/Uniforms/Jumpsuit/monastic_robe_light.rsi
     - type: Clothing
-      sprite: Clothing/Uniforms/Jumpsuit/monastic_robe_light.rsi
+      sprite: _Erida/Clothing/Uniforms/Jumpsuit/monastic_robe_light.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -1005,9 +1005,9 @@
   description: A fancy tuxedo for the musically inclined.  Perfect for any lounge act!
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/musician.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/musician.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/musician.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/musician.rsi
 
 - type: entity
   parent: [ BaseCentcommContraband, ClothingUniformBase ]
@@ -1016,9 +1016,9 @@
   description: A special suit made for Central Command's elite chaplain corps.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/ert_chaplain.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/ert_chaplain.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/ert_chaplain.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/ert_chaplain.rsi
 
 - type: entity
   parent: [ BaseCentcommContraband, ClothingUniformBase ]
@@ -1027,9 +1027,9 @@
   description: A special suit made for the elite engineers under CentComm.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/ert_engineer.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/ert_engineer.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/ert_engineer.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/ert_engineer.rsi
 
 - type: entity
   parent: [ BaseCentcommContraband, ClothingUniformBase ]
@@ -1038,9 +1038,9 @@
   description: A special suit made for the elite janitors under CentComm.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/ert_janitor.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/ert_janitor.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/ert_janitor.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/ert_janitor.rsi
 
 - type: entity
   parent: [ BaseCentcommContraband, ClothingUniformBase ]
@@ -1049,9 +1049,9 @@
   description: A special suit made for the best of the elites under CentComm.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/ert_leader.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/ert_leader.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/ert_leader.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/ert_leader.rsi
 
 - type: entity
   parent: [ BaseCentcommContraband, ClothingUniformBase ]
@@ -1060,9 +1060,9 @@
   description: A special suit made for the elite medics under CentComm.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/ert_medic.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/ert_medic.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/ert_medic.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/ert_medic.rsi
 
 - type: entity
   parent: [ BaseCentcommContraband, ClothingUniformBase ]
@@ -1071,9 +1071,9 @@
   description: A special suit made for the elite security under CentComm.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/ert_security.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/ert_security.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/ert_security.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/ert_security.rsi
 
 - type: entity
   parent: ClothingUniformJumpsuitClown
@@ -1083,9 +1083,9 @@
   description: Cursed cluwne suit.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/cluwne.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/cluwne.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/cluwne.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/cluwne.rsi
   - type: Unremoveable
 
 - type: entity
@@ -1095,9 +1095,9 @@
   description: Baka mitai...
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/damedaneoutfit.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/damedaneoutfit.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/damedaneoutfit.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/damedaneoutfit.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -1106,9 +1106,9 @@
   description: A pirate variation of a space sailor's jumpsuit.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/pirate.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/pirate.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/pirate.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/pirate.rsi
   - type: AddAccentClothing
     accent: PirateAccent
 
@@ -1119,9 +1119,9 @@
   description: The good old pants and brigantine.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/cossack.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/cossack.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/cossack.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/cossack.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -1130,9 +1130,9 @@
   description: Black as a starry night.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/hawaiblack.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/hawaiblack.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/hawaiblack.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/hawaiblack.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -1141,9 +1141,9 @@
   description: Blue as a huge ocean.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/hawaiblue.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/hawaiblue.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/hawaiblue.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/hawaiblue.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -1152,9 +1152,9 @@
   description: Red as a juicy watermelons.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/hawaired.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/hawaired.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/hawaired.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/hawaired.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -1163,9 +1163,9 @@
   description: Yellow as a bright sun.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/hawaiyellow.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/hawaiyellow.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/hawaiyellow.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/hawaiyellow.rsi
 
 - type: entity
   parent: [ClothingUniformBase, BaseSyndicateContraband]
@@ -1174,9 +1174,9 @@
   description: "The syndicate's uniform is made in an elegant style, it's even a pity to do dirty tricks in this."
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/syndieformal.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/syndieformal.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/syndieformal.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/syndieformal.rsi
 
 - type: entity
   parent:  ClothingUniformBase
@@ -1185,9 +1185,9 @@
   description: Smells like someones been grillin'.
   components:
     - type: Sprite
-      sprite: Clothing/Uniforms/Jumpsuit/flannel.rsi
+      sprite: _Erida/Clothing/Uniforms/Jumpsuit/flannel.rsi
     - type: Clothing
-      sprite: Clothing/Uniforms/Jumpsuit/flannel.rsi
+      sprite: _Erida/Clothing/Uniforms/Jumpsuit/flannel.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase] # Goob
@@ -1240,9 +1240,9 @@
   description: Makes it clear that you are one with the webs.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/web.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/web.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/web.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/web.rsi
   - type: Butcherable
     butcheringType: Knife
     spawned:
@@ -1271,9 +1271,9 @@
   description: A long stretch of fabric that wraps around your body for comfort.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/loungewear.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/loungewear.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/loungewear.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/loungewear.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -1282,9 +1282,9 @@
   description: Made for true gladiators (or Ash Walkers).
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/gladiator.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/gladiator.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/gladiator.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/gladiator.rsi
 
 - type: entity
   parent: ClothingUniformBase
@@ -1293,7 +1293,7 @@
   description: A loose worn blue shirt with a grey pants, perfect for someone looking to relax.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/casual.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/casual.rsi
     layers:
     - state: icon-jumpsuit
     - state: icon-shirt
@@ -1309,7 +1309,7 @@
       - state: inhand-right-shirt
         color: "#134fc1"
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/casual.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/casual.rsi
     clothingVisuals:
       jumpsuit:
       - state: equipped-INNERCLOTHING-jumpsuit
@@ -1323,7 +1323,7 @@
   description: A loose worn purple shirt with a grey pants, perfect for someone looking to relax.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/casual.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/casual.rsi
     layers:
     - state: icon-jumpsuit
     - state: icon-shirt
@@ -1339,7 +1339,7 @@
       - state: inhand-right-shirt
         color: "#9c0dff"
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/casual.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/casual.rsi
     clothingVisuals:
       jumpsuit:
       - state: equipped-INNERCLOTHING-jumpsuit
@@ -1353,7 +1353,7 @@
   description: A loose worn red shirt with a grey pants, perfect for someone looking to relax.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/casual.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/casual.rsi
     layers:
     - state: icon-jumpsuit
     - state: icon-shirt
@@ -1369,7 +1369,7 @@
       - state: inhand-right-shirt
         color: "#b30000"
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/casual.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/casual.rsi
     clothingVisuals:
       jumpsuit:
       - state: equipped-INNERCLOTHING-jumpsuit
@@ -1383,7 +1383,7 @@
   description: A loose worn green shirt with a grey pants, perfect for someone looking to relax.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/casual.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/casual.rsi
     layers:
     - state: icon-jumpsuit
     - state: icon-shirt
@@ -1399,7 +1399,7 @@
       - state: inhand-right-shirt
         color: "#00661D"
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/casual.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/casual.rsi
     clothingVisuals:
       jumpsuit:
       - state: equipped-INNERCLOTHING-jumpsuit
@@ -1413,6 +1413,6 @@
   description: Makes you remember the time you did something funny.
   components:
   - type: Sprite
-    sprite: Clothing/Uniforms/Jumpsuit/familiar_garbs.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/familiar_garbs.rsi
   - type: Clothing
-    sprite: Clothing/Uniforms/Jumpsuit/familiar_garbs.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/familiar_garbs.rsi

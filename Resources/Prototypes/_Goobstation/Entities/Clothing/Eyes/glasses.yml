@@ -21,9 +21,9 @@
   description: Your insurance doesn't cover these. Don't lose them.
   components:
     - type: Sprite
-      sprite: Clothing/Eyes/Glasses/glasses.rsi
+      sprite: _Erida/Clothing/Eyes/Glasses/glasses.rsi
     - type: Clothing
-      sprite: Clothing/Eyes/Glasses/glasses.rsi
+      sprite: _Erida/Clothing/Eyes/Glasses/glasses.rsi
     - type: VisionCorrection
     - type: Damageable
       damageContainer: Inorganic

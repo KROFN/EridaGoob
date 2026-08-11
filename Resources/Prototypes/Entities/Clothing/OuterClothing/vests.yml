@@ -10,9 +10,9 @@
   description: A synthetic armor vest. This one has added webbing and ballistic plates.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Vests/webvest.rsi
+    sprite: _Erida/Clothing/OuterClothing/Vests/webvest.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Vests/webvest.rsi
+    sprite: _Erida/Clothing/OuterClothing/Vests/webvest.rsi
   - type: Armor
     traumaDeductions:
       Dismemberment: 0.3
@@ -45,9 +45,9 @@
   description: A synthetic armor vest. This one has added webbing and heat resistant fibers.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Vests/elitevest.rsi
+    sprite: _Erida/Clothing/OuterClothing/Vests/elitevest.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Vests/elitevest.rsi
+    sprite: _Erida/Clothing/OuterClothing/Vests/elitevest.rsi
   - type: TemperatureProtection
     heatingCoefficient: 0.1
     coolingCoefficient: 0.1
@@ -87,9 +87,9 @@
   description: A high-quality armored vest made from a hard synthetic material. It's surprisingly flexible and light, despite formidable armor plating.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Vests/mercwebvest.rsi
+    sprite: _Erida/Clothing/OuterClothing/Vests/mercwebvest.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Vests/mercwebvest.rsi
+    sprite: _Erida/Clothing/OuterClothing/Vests/mercwebvest.rsi
   - type: Armor
     traumaDeductions:
       Dismemberment: 0.2
@@ -121,9 +121,9 @@
   description: A hard-boiled private investigator's armored vest.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Vests/detvest.rsi
+    sprite: _Erida/Clothing/OuterClothing/Vests/detvest.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Vests/detvest.rsi
+    sprite: _Erida/Clothing/OuterClothing/Vests/detvest.rsi
 
 #Hazard vest
 - type: entity
@@ -133,7 +133,7 @@
   description: A high-visibility vest used in work zones.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Vests/hazard.rsi
+    sprite: _Erida/Clothing/OuterClothing/Vests/hazard.rsi
     layers:
     - state: icon
     - state: icon-unshaded
@@ -144,7 +144,7 @@
       #Alpha doesn't work for unshaded, but for *shaded* it does, and by putting a shaded texture infront of the unshaded, we can dim the unshaded texture, effectively allowing brightness control.
       #I go further indepth on this in my PR, https://github.com/space-wizards/space-station-14/pull/37869
   - type: Clothing
-    sprite: Clothing/OuterClothing/Vests/hazard.rsi
+    sprite: _Erida/Clothing/OuterClothing/Vests/hazard.rsi
     clothingVisuals:
       outerClothing:
       - state: equipped-OUTERCLOTHING
@@ -171,9 +171,9 @@
   description: A thick vest with a rubbery, water-resistant shell.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Vests/vest.rsi
+    sprite: _Erida/Clothing/OuterClothing/Vests/vest.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Vests/vest.rsi
+    sprite: _Erida/Clothing/OuterClothing/Vests/vest.rsi
 
 #Tank Harness
 - type: entity
@@ -183,9 +183,9 @@
   description: A simple harness that can hold a gas tank.
   components:
   - type: Sprite
-    sprite: Clothing/OuterClothing/Vests/tankharness.rsi
+    sprite: _Erida/Clothing/OuterClothing/Vests/tankharness.rsi
   - type: Clothing
-    sprite: Clothing/OuterClothing/Vests/tankharness.rsi
+    sprite: _Erida/Clothing/OuterClothing/Vests/tankharness.rsi
   - type: Item
     size: Normal # Make smaller than typical outer clothing
     shape:

@@ -7,10 +7,10 @@
   description: A refined bag to carry your own library.
   components:
     - type: Sprite
-      sprite: Objects/Specific/Library/Equipment/books_bag.rsi
+      sprite: _Erida/Objects/Specific/Library/Equipment/books_bag.rsi
       state: icon
     - type: Clothing
-      sprite: Objects/Specific/Library/Equipment/books_bag.rsi
+      sprite: _Erida/Objects/Specific/Library/Equipment/books_bag.rsi
       quickEquip: false
       slots:
         - belt

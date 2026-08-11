@@ -44,7 +44,7 @@
   - type: ClusterGrenadeVisuals
     state: base
   - type: Sprite
-    sprite: Objects/Weapons/Grenades/clusterbang.rsi
+    sprite: _Erida/Objects/Weapons/Grenades/clusterbang.rsi
     state: base-0
 
 - type: entity
@@ -55,7 +55,7 @@
   suffix: Full
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Grenades/clusterbang.rsi
+    sprite: _Erida/Objects/Weapons/Grenades/clusterbang.rsi
     layers:
     - state: icon
       map: ["enum.TriggerVisualLayers.Base"]
@@ -89,7 +89,7 @@
   description: Why use one grenade when you can use three at once!
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Grenades/clusterbomb.rsi
+    sprite: _Erida/Objects/Weapons/Grenades/clusterbomb.rsi
     layers:
     - state: icon
       map: ["enum.TriggerVisualLayers.Base"]
@@ -119,7 +119,7 @@
   description: Splits into 6 explosive banana peels after throwing, guaranteed fun!
   components:
   - type: Sprite
-    sprite: Objects/Specific/Hydroponics/banana.rsi
+    sprite: _Erida/Objects/Specific/Hydroponics/banana.rsi
     state: produce
   - type: ScatteringGrenade
     fillPrototype: TrashBananaPeelExplosive
@@ -144,7 +144,7 @@
   description: Spreads small pieces of syndicate soap over an area upon landing on the floor.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Janitorial/soap.rsi
+    sprite: _Erida/Objects/Specific/Janitorial/soap.rsi
     layers:
     - state: syndie-4
       map: ["enum.SolutionContainerLayers.Fill"]

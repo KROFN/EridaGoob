@@ -27,7 +27,7 @@
     - type: ExplosionResistance
       damageCoefficient: 0.3
     - type: FireVisuals
-      sprite: Effects/fire.rsi
+      sprite: _Erida/Effects/fire.rsi
       normalState: 1
     - type: Damageable
       damageContainer: Blob

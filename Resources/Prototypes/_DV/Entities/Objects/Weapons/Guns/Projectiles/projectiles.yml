@@ -15,7 +15,7 @@
       params:
         volume: 5
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     layers:
     - state: heavylaser
       shader: unshaded
@@ -53,7 +53,7 @@
       params:
         volume: 5
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Projectiles/projectiles_tg.rsi
     layers:
     - state: omnilaser_greyscale
       shader: unshaded

@@ -3,7 +3,7 @@
 - type: alert
   id: Magboots
   icons:
-  - sprite: /Textures/Clothing/Shoes/Boots/magboots.rsi
+  - sprite: /Textures/_Erida/Clothing/Shoes/Boots/magboots.rsi
     state: icon-on
   name: alerts-magboots-name
   description: alerts-magboots-desc

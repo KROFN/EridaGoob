@@ -19,7 +19,7 @@
       drink:
         maxVol: 100
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/alco-bottle.rsi # fallback
+    sprite: _Erida/Objects/Consumable/Drinks/alco-bottle.rsi # fallback
   - type: Tool
     qualities:
     - Rolling
@@ -66,7 +66,7 @@
   - type: Item
     size: Small
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/beer.rsi # fallback
+    sprite: _Erida/Objects/Consumable/Drinks/beer.rsi # fallback
   - type: FitsInDispenser
     solution: drink
 
@@ -87,7 +87,7 @@
   - type: Label
     currentLabel: reagent-name-absinthe
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/absinthebottle.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/absinthebottle.rsi
 
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
@@ -104,7 +104,7 @@
   - type: Label
     currentLabel: reagent-name-blue-curacao
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/alco-bottle.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/alco-bottle.rsi
     layers:
       - state: icon_empty
         map: ["enum.OpenableVisuals.Layer"]
@@ -128,7 +128,7 @@
   - type: Label
     currentLabel: reagent-name-nothing
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/bottleofnothing.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/bottleofnothing.rsi
 
 - type: entity
   parent: [DrinkVisualsOpenable, DrinkBottleGlassBaseFull]
@@ -145,7 +145,7 @@
   - type: Label
     currentLabel: reagent-name-champagne
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/champagnebottle.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/champagnebottle.rsi
   - type: Openable
     closeable: false # Champagne corks are fat. Not worth the effort.
   - type: Sealable
@@ -166,7 +166,7 @@
   - type: Label
     currentLabel: reagent-name-cognac
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/cognacbottle.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/cognacbottle.rsi
 
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
@@ -183,7 +183,7 @@
   - type: Label
     currentLabel: reagent-name-grenadine
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/grenadinebottle.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/grenadinebottle.rsi
     layers:
     - state: icon_empty
       map: ["enum.OpenableVisuals.Layer"]
@@ -207,7 +207,7 @@
   - type: Label
     currentLabel: reagent-name-gin
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/ginbottle.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/ginbottle.rsi
 
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
@@ -224,7 +224,7 @@
   - type: Label
     currentLabel: reagent-name-gildlager
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/gildlagerbottle.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/gildlagerbottle.rsi
 
 - type: entity
   parent: [DrinkVisualsOpenable, DrinkBottleGlassBaseFull]
@@ -241,7 +241,7 @@
   - type: Label
     currentLabel: reagent-name-coffeeliqueur
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/coffeeliqueurbottle.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/coffeeliqueurbottle.rsi
 
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
@@ -258,7 +258,7 @@
   - type: Label
     currentLabel: reagent-name-melon-liquor
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/alco-bottle.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/alco-bottle.rsi
     layers:
       - state: icon_empty
         map: ["enum.OpenableVisuals.Layer"]
@@ -282,7 +282,7 @@
   - type: Label
     currentLabel: reagent-name-patron
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/patronbottle.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/patronbottle.rsi
 
 - type: entity
   parent: [DrinkVisualsOpenable, DrinkBottleGlassBaseFull]
@@ -297,7 +297,7 @@
         - ReagentId: PoisonWine
           Quantity: 100
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/pwinebottle.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/pwinebottle.rsi
   - type: Tag
     tags:
     - Wine
@@ -318,7 +318,7 @@
   - type: Label
     currentLabel: reagent-name-rum
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/rumbottle.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/rumbottle.rsi
 
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
@@ -335,7 +335,7 @@
   - type: Label
     currentLabel: reagent-name-tequila
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/tequillabottle.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/tequillabottle.rsi
 
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
@@ -352,7 +352,7 @@
   - type: Label
     currentLabel: reagent-name-vermouth
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/vermouthbottle.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/vermouthbottle.rsi
 
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
@@ -369,7 +369,7 @@
   - type: Label
     currentLabel: reagent-name-vodka
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/vodkabottle.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/vodkabottle.rsi
 
 - type: entity
   parent: [DrinkVisualsAllFilled, DrinkBottleGlassBaseFull]
@@ -386,7 +386,7 @@
   - type: Label
     currentLabel: reagent-name-whiskey
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/whiskeybottle.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/whiskeybottle.rsi
 
 - type: entity
   parent: [DrinkVisualsOpenable, DrinkBottleGlassBaseFull]
@@ -403,7 +403,7 @@
   - type: Label
     currentLabel: reagent-name-wine
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/winebottle.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/winebottle.rsi
   - type: Tag
     tags:
     - Wine
@@ -427,7 +427,7 @@
   - type: Label
     currentLabel: reagent-name-beer
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/beer.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/beer.rsi
   - type: Openable
     closeable: false # sprite is just a beer bottle, but this should be removed when there's a more appropriate sprite
   - type: Sealable
@@ -453,7 +453,7 @@
   - type: Label
     currentLabel: reagent-name-ale
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/alebottle.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/alebottle.rsi
   - type: Openable
     closeable: false # sprite is just a beer bottle, but this should be removed when there's a more appropriate sprite
   - type: Sealable
@@ -477,7 +477,7 @@
   - type: Label
     currentLabel: reagent-name-beer
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/beer.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/beer.rsi
   - type: Openable
     closeable: false # can't put the cap back on
   - type: Sealable
@@ -501,7 +501,7 @@
   - type: Label
     currentLabel: reagent-name-ale
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/alebottle.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/alebottle.rsi
   - type: Openable
     closeable: false # can't put the cap back on
   - type: Sealable
@@ -522,4 +522,4 @@
   - type: Label
     currentLabel: reagent-name-sake
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/sakebottle.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/sakebottle.rsi

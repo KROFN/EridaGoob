@@ -11,7 +11,7 @@
     flavors:
       - sweet
   - type: Sprite
-    sprite: Objects/Consumable/Food/Baked/cake.rsi
+    sprite: _Erida/Objects/Consumable/Food/Baked/cake.rsi
   - type: SolutionContainerManager
     solutions:
       food:

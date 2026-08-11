@@ -31,7 +31,7 @@
         friction: 0.2
   - type: Sharp
   - type: Sprite
-    sprite: Objects/Weapons/Melee/spear.rsi
+    sprite: _Erida/Objects/Weapons/Melee/spear.rsi
     layers:
     - state: spear
     - state: spear1
@@ -142,7 +142,7 @@
   description: A spear with a reinforced glass shard as a tip.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/reinforced_spear.rsi
+    sprite: _Erida/Objects/Weapons/Melee/reinforced_spear.rsi
   - type: MeleeWeapon
     animationRotation: -135 # WWDP
     wideAnimationRotation: -135
@@ -163,7 +163,7 @@
   description: A spear with a plasma shard as a tip.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/plasma_spear.rsi
+    sprite: _Erida/Objects/Weapons/Melee/plasma_spear.rsi
   - type: MeleeWeapon
     animationRotation: -135 # WWDP
     wideAnimationRotation: -135
@@ -184,7 +184,7 @@
   description: A spear with a uranium shard as a tip.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/uranium_spear.rsi
+    sprite: _Erida/Objects/Weapons/Melee/uranium_spear.rsi
   - type: MeleeWeapon
     animationRotation: -135 # WWDP
     wideAnimationRotation: -135
@@ -207,7 +207,7 @@
   description: A spear made of bones.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/bone_spear.rsi
+    sprite: _Erida/Objects/Weapons/Melee/bone_spear.rsi
   - type: Construction
     graph: SpearBone
   - type: Destructible
@@ -242,7 +242,7 @@
   description: A spear with a sharkminnow tooth as a tip.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Melee/sharkminnow_spear.rsi
+    sprite: _Erida/Objects/Weapons/Melee/sharkminnow_spear.rsi
   - type: MeleeWeapon
     wideAnimationRotation: -135
     damage:

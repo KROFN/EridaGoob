@@ -115,7 +115,7 @@
   id: DrinkBottleNTCahors
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/ntcahors.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/ntcahors.rsi
 
 - type: entity
   parent: [DrinkBottleBaseEmpty, DrinkPatronBottleFull]

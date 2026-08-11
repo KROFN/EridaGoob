@@ -50,7 +50,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Objects/Fun/crayons.rsi
+      sprite: _Erida/Objects/Fun/crayons.rsi
       state: rainbow
 
 - type: entity
@@ -61,7 +61,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Clothing/Head/Hats/comcap.rsi
+      sprite: _Erida/Clothing/Head/Hats/comcap.rsi
       state: icon
 
 - type: entity
@@ -72,7 +72,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Objects/Tiles/tile.rsi
+      sprite: _Erida/Objects/Tiles/tile.rsi
       state: carpet-blue
 
 - type: entity
@@ -83,7 +83,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Objects/Specific/Medical/Morgue/bodybags.rsi
+      sprite: _Erida/Objects/Specific/Medical/Morgue/bodybags.rsi
       state: bag
 
 - type: entity
@@ -94,7 +94,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Objects/Specific/Medical/Morgue/bodybags.rsi
+      sprite: _Erida/Objects/Specific/Medical/Morgue/bodybags.rsi
       state: bag
 
 - type: entity
@@ -105,7 +105,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Objects/Consumable/Food/meat.rsi
+      sprite: _Erida/Objects/Consumable/Food/meat.rsi
       state: plain-cooked
 
 - type: entity
@@ -116,7 +116,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Objects/Specific/Hydroponics/cannabis.rsi
+      sprite: _Erida/Objects/Specific/Hydroponics/cannabis.rsi
       state: produce
 
 - type: entity
@@ -127,7 +127,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Structures/Wallmounts/camera.rsi
+      sprite: _Erida/Structures/Wallmounts/camera.rsi
       state: cameracase
 
 - type: entity
@@ -138,7 +138,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Structures/Machines/computers.rsi
+      sprite: _Erida/Structures/Machines/computers.rsi
       state: avionics-systems
 
 - type: entity
@@ -149,7 +149,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Structures/Machines/arcade.rsi
+      sprite: _Erida/Structures/Machines/arcade.rsi
       state: icon
 
 - type: entity
@@ -171,7 +171,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Objects/Fun/Instruments/guitar.rsi
+      sprite: _Erida/Objects/Fun/Instruments/guitar.rsi
       state: icon
 
 - type: entity
@@ -182,7 +182,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Objects/Misc/folders.rsi
+      sprite: _Erida/Objects/Misc/folders.rsi
       state: folder-colormap
 
 - type: entity
@@ -193,7 +193,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Structures/Wallmounts/camera.rsi
+      sprite: _Erida/Structures/Wallmounts/camera.rsi
       state: cameracase
 
 - type: entity
@@ -204,7 +204,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Objects/Misc/books.rsi
+      sprite: _Erida/Objects/Misc/books.rsi
       state: book_icon
 
 - type: entity
@@ -215,7 +215,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Structures/Storage/Crates/coffin.rsi
+      sprite: _Erida/Structures/Storage/Crates/coffin.rsi
       state: base
 
 - type: entity
@@ -226,7 +226,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Objects/Consumable/Drinks/beer.rsi
+      sprite: _Erida/Objects/Consumable/Drinks/beer.rsi
       state: icon
 
 - type: entity
@@ -270,7 +270,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Clothing/Eyes/Glasses/sunglasses.rsi
+      sprite: _Erida/Clothing/Eyes/Glasses/sunglasses.rsi
       state: icon
 
 # Annoying Objectives
@@ -283,7 +283,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Clothing/Neck/Medals/gold.rsi
+      sprite: _Erida/Clothing/Neck/Medals/gold.rsi
       state: icon
 
 - type: entity
@@ -294,7 +294,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Objects/Power/power_cells.rsi
+      sprite: _Erida/Objects/Power/power_cells.rsi
       state: antique
 
 - type: entity
@@ -305,7 +305,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Objects/Tools/rcd.rsi
+      sprite: _Erida/Objects/Tools/rcd.rsi
       state: icon
 
 - type: entity
@@ -316,7 +316,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Structures/Shuttles/gyroscope.rsi
+      sprite: _Erida/Structures/Shuttles/gyroscope.rsi
       state: base
 
 - type: entity
@@ -338,7 +338,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Clothing/Shoes/color.rsi
+      sprite: _Erida/Clothing/Shoes/color.rsi
       state: icon
 
 - type: entity
@@ -349,7 +349,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Clothing/Mask/clown.rsi
+      sprite: _Erida/Clothing/Mask/clown.rsi
       state: icon
 
 - type: entity
@@ -371,7 +371,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Objects/Tools/scissors.rsi
+      sprite: _Erida/Objects/Tools/scissors.rsi
       state: icon
 
 # Harmful Objectives
@@ -384,7 +384,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Structures/Walls/solid.rsi
+      sprite: _Erida/Structures/Walls/solid.rsi
       state: rgeneric
 
 - type: entity
@@ -395,7 +395,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Objects/Weapons/Melee/baseball_bat.rsi
+      sprite: _Erida/Objects/Weapons/Melee/baseball_bat.rsi
       state: icon
 
 - type: entity
@@ -409,7 +409,7 @@
     - AtmosphericTechnician # It would be too free for atmos techs :) CE is fair game though.
   - type: Objective
     icon:
-      sprite: Objects/Tanks/oxygen.rsi
+      sprite: _Erida/Objects/Tanks/oxygen.rsi
       state: icon
 
 - type: entity
@@ -420,7 +420,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Structures/Furniture/chairs.rsi
+      sprite: _Erida/Structures/Furniture/chairs.rsi
       state: shuttle
   - type: EscapeShuttleCondition
 
@@ -432,7 +432,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Structures/Machines/cloning.rsi
+      sprite: _Erida/Structures/Machines/cloning.rsi
       state: pod_g
 
 - type: entity
@@ -443,7 +443,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Objects/Weapons/Melee/baseball_bat.rsi
+      sprite: _Erida/Objects/Weapons/Melee/baseball_bat.rsi
       state: icon
 
 - type: entity
@@ -454,7 +454,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Structures/Machines/computers.rsi
+      sprite: _Erida/Structures/Machines/computers.rsi
       state: avionics-systems
 
 - type: entity
@@ -465,7 +465,7 @@
   components:
   - type: Objective
     icon:
-      sprite: Objects/Specific/Medical/defib.rsi
+      sprite: _Erida/Objects/Specific/Medical/defib.rsi
       state: icon
 
 - type: entity

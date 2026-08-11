@@ -6,7 +6,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Structures/Wallmounts/walldispenser.rsi
+    sprite: _Erida/Structures/Wallmounts/walldispenser.rsi
   - type: Appearance
   - type: Destructible
     thresholds:
@@ -54,7 +54,7 @@
   description: Wallmount Space Cleaner dispenser.
   components:
   - type: Sprite
-    sprite: Structures/Wallmounts/walldispenser.rsi
+    sprite: _Erida/Structures/Wallmounts/walldispenser.rsi
     layers:
     - state: cleanerdispenser
     - state: fill-1

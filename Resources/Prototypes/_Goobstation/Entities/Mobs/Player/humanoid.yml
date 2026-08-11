@@ -8,7 +8,7 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Objects/Tools/appraisal-tool.rsi
+        - sprite: _Erida/Objects/Tools/appraisal-tool.rsi
           state: icon
     - type: RandomSpawner
       prototypes:
@@ -20,7 +20,7 @@
   name: lost salvager ghost role
   components:
     - type: Sprite
-      sprite: Objects/Tools/appraisal-tool.rsi
+      sprite: _Erida/Objects/Tools/appraisal-tool.rsi
       state: icon
     - type: RandomHumanoidSpawner
       settings: LostFrontierSalvager

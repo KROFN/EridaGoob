@@ -7,7 +7,7 @@
   description: A hand-held environmental scanner which reports current gas levels.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Atmos/gasanalyzer.rsi
+    sprite: _Erida/Objects/Specific/Atmos/gasanalyzer.rsi
     layers:
       - state: icon
         map: ["analyzer"]

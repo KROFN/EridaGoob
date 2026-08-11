@@ -10,9 +10,9 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: Clothing/Neck/Misc/pins.rsi
+    sprite: _Erida/Clothing/Neck/Misc/pins.rsi
   - type: Clothing
-    sprite: Clothing/Neck/Misc/pins.rsi
+    sprite: _Erida/Clothing/Neck/Misc/pins.rsi
 
 - type: entity
   parent: ClothingNeckPinBase
@@ -273,11 +273,11 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: Clothing/Neck/Misc/pins.rsi
+    sprite: _Erida/Clothing/Neck/Misc/pins.rsi
     state: flower
   - type: Clothing
     equippedPrefix: flower
-    sprite: Clothing/Neck/Misc/pins.rsi
+    sprite: _Erida/Clothing/Neck/Misc/pins.rsi
     quickEquip: true
     slots:
     - neck

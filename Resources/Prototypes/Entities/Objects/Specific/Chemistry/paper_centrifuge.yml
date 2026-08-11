@@ -36,7 +36,7 @@
   description: A small portable makeshift centrifuge. Works by rotating the paper sheets when its cords are pulled.
   components:
   - type: Sprite
-    sprite: Objects/Specific/Chemistry/paper_centrifuge.rsi
+    sprite: _Erida/Objects/Specific/Chemistry/paper_centrifuge.rsi
     layers:
     - state: icon
     - state: fill-1

@@ -7,7 +7,7 @@
   parent: [ Incorporeal, BaseMob ]
   components:
   - type: Sprite
-    sprite: Structures/Specific/Anomalies/Cores/flesh_core.rsi
+    sprite: _Erida/Structures/Specific/Anomalies/Cores/flesh_core.rsi
     state: core
   - type: MovementSpeedModifier
     baseSprintSpeed: 12

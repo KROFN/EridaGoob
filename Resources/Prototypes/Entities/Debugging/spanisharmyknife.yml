@@ -8,10 +8,10 @@
   suffix: DEBUG
   components:
   - type: Sprite
-    sprite: Objects/Tools/debug.rsi
+    sprite: _Erida/Objects/Tools/debug.rsi
     state: icon
   - type: Clothing
-    sprite: Objects/Tools/debug.rsi
+    sprite: _Erida/Objects/Tools/debug.rsi
     quickEquip: false
     slots:
       - Belt

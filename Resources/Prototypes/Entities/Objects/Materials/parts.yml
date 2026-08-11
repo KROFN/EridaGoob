@@ -6,10 +6,10 @@
   id: PartBase
   components:
   - type: Sprite
-    sprite: Objects/Materials/parts.rsi
+    sprite: _Erida/Objects/Materials/parts.rsi
     state: rods
   - type: Item
-    sprite: Objects/Materials/parts.rsi
+    sprite: _Erida/Objects/Materials/parts.rsi
   - type: Damageable
     damageContainer: Inorganic
     damageModifierSet: FlimsyMetallic

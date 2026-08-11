@@ -9,7 +9,7 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Structures/Furniture/Altars/Gods/nanotrasen.rsi
+        - sprite: _Erida/Structures/Furniture/Altars/Gods/nanotrasen.rsi
           state: nanotrasen
     - type: RandomSpawner
       prototypes:
@@ -36,7 +36,7 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Structures/Furniture/Altars/Gods/convertaltar.rsi
+        - sprite: _Erida/Structures/Furniture/Altars/Gods/convertaltar.rsi
           state: convertaltar
     - type: RandomSpawner
       prototypes:
@@ -51,7 +51,7 @@
     - type: Sprite
       layers:
         - state: red
-        - sprite: Structures/Furniture/Altars/Cults/fangs.rsi
+        - sprite: _Erida/Structures/Furniture/Altars/Cults/fangs.rsi
           state: full
     - type: RandomSpawner
       prototypes:

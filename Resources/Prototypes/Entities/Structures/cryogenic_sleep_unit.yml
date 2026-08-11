@@ -12,7 +12,7 @@
   - type: Rotatable
   - type: Sprite
     noRot: true
-    sprite: Structures/cryostorage.rsi
+    sprite: _Erida/Structures/cryostorage.rsi
     layers:
     - state: sleeper_0
       map: ["base"]

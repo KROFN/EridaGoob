@@ -43,7 +43,7 @@
         store: board
         name: construction-graph-tag-intercom-electronics
         icon:
-          sprite: "Objects/Misc/module.rsi"
+          sprite: "_Erida/Objects/Misc/module.rsi"
           state: "id_mod"
         doAfter: 1
     - to: assembly

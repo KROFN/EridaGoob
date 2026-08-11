@@ -8,7 +8,7 @@
   description: An industrial grade chemical dispenser.
   components:
   - type: Sprite
-    sprite: Structures/dispensers.rsi
+    sprite: _Erida/Structures/dispensers.rsi
     state: industrial-working
     snapCardinals: true
   - type: Storage

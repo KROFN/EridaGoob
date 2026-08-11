@@ -7,7 +7,7 @@
   description: Ding ding!
   components:
   - type: Sprite
-    sprite: Structures/Wallmounts/bell.rsi
+    sprite: _Erida/Structures/Wallmounts/bell.rsi
     layers:
     - state: bell
   - type: InteractionPopup

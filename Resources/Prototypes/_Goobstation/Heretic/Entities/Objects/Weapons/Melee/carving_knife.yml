@@ -11,7 +11,7 @@
     sprite: _Goobstation/Heretic/items.rsi
     state: rune_carver
   - type: Item
-    sprite: Objects/Weapons/Melee/combat_knife.rsi
+    sprite: _Erida/Objects/Weapons/Melee/combat_knife.rsi
     size: Small
     storedRotation: -45
   - type: MeleeWeapon

@@ -137,4 +137,4 @@
   id: AirlockMaintJournalismLocked
   components:
   - type: Sprite
-    sprite: Structures/Doors/Airlocks/Standard/maint.rsi
+    sprite: _Erida/Structures/Doors/Airlocks/Standard/maint.rsi

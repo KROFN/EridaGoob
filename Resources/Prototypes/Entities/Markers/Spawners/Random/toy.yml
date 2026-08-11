@@ -412,7 +412,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: Objects/Fun/bikehorn.rsi
+    - sprite: _Erida/Objects/Fun/bikehorn.rsi
       state: icon
   - type: EntityTableSpawner
     table: !type:NestedSelector
@@ -428,7 +428,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: Objects/Fun/Plushies/bee.rsi
+    - sprite: _Erida/Objects/Fun/Plushies/bee.rsi
       state: icon
   - type: EntityTableSpawner
     table: !type:NestedSelector
@@ -444,7 +444,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: Objects/Fun/figurines.rsi
+    - sprite: _Erida/Objects/Fun/figurines.rsi
       state: figurine_spawner
   - type: EntityTableSpawner
     table: !type:NestedSelector
@@ -460,7 +460,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: Objects/Fun/mech_figurines.rsi
+    - sprite: _Erida/Objects/Fun/mech_figurines.rsi
       state: ripley
   - type: EntityTableSpawner
     table: !type:NestedSelector
@@ -476,7 +476,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: Objects/Fun/rubber_hammer.rsi
+    - sprite: _Erida/Objects/Fun/rubber_hammer.rsi
       state: icon
   - type: EntityTableSpawner
     table: !type:NestedSelector
@@ -492,7 +492,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: Objects/Fun/capgun.rsi
+    - sprite: _Erida/Objects/Fun/capgun.rsi
       state: base
   - type: EntityTableSpawner
     table: !type:NestedSelector
@@ -508,7 +508,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: Objects/Fun/Balloons/nanotrasen.rsi
+    - sprite: _Erida/Objects/Fun/Balloons/nanotrasen.rsi
       state: icon
   - type: EntityTableSpawner
     table: !type:NestedSelector
@@ -524,7 +524,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: Objects/Fun/rubber_chicken.rsi
+    - sprite: _Erida/Objects/Fun/rubber_chicken.rsi
       state: icon
   - type: EntityTableSpawner
     table: !type:NestedSelector
@@ -540,7 +540,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: Objects/Fun/crayons.rsi
+    - sprite: _Erida/Objects/Fun/crayons.rsi
       state: rainbow
   - type: EntityTableSpawner
     table: !type:GroupSelector

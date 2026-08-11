@@ -6,7 +6,7 @@
   tags: ["station", "dirty"]
   defaultCleanable: true
   sprite:
-    sprite: Decals/dirty.rsi
+    sprite: _Erida/Decals/dirty.rsi
     state: dirt
 
 - type: decal
@@ -14,7 +14,7 @@
   tags: ["station", "dirty"]
   defaultCleanable: true
   sprite:
-    sprite: Decals/dirty.rsi
+    sprite: _Erida/Decals/dirty.rsi
     state: dirtlight
 
 - type: decal
@@ -22,7 +22,7 @@
   tags: ["station", "dirty"]
   defaultCleanable: true
   sprite:
-    sprite: Decals/dirty.rsi
+    sprite: _Erida/Decals/dirty.rsi
     state: dirtmedium
 
 - type: decal
@@ -30,7 +30,7 @@
   tags: ["station", "dirty"]
   defaultCleanable: true
   sprite:
-    sprite: Decals/dirty.rsi
+    sprite: _Erida/Decals/dirty.rsi
     state: dirtheavy
 
 - type: decal
@@ -38,7 +38,7 @@
   tags: ["station", "dirty"]
   defaultCleanable: true
   sprite:
-    sprite: Decals/dirty.rsi
+    sprite: _Erida/Decals/dirty.rsi
     state: dirtheavy-mono
 
 - type: decal
@@ -46,7 +46,7 @@
   tags: ["station", "dirty"]
   defaultCleanable: true
   sprite:
-    sprite: Decals/dirty.rsi
+    sprite: _Erida/Decals/dirty.rsi
     state: damaged
 
 - type: decal
@@ -54,7 +54,7 @@
   tags: ["station", "dirty"]
   defaultCleanable: true
   sprite:
-    sprite: Decals/dirty.rsi
+    sprite: _Erida/Decals/dirty.rsi
     state: remains
 
 - type: decal
@@ -62,6 +62,6 @@
   tags: ["station", "dirty"]
   defaultCleanable: true
   sprite:
-    sprite: Decals/dirty.rsi
+    sprite: _Erida/Decals/dirty.rsi
     state: rust
 

@@ -12,7 +12,7 @@
   - type: Physics
     bodyType: Static
   - type: Sprite
-    sprite: Structures/Piping/Atmospherics/tinyfan.rsi
+    sprite: _Erida/Structures/Piping/Atmospherics/tinyfan.rsi
     state: icon
   - type: Fixtures
     fixtures:
@@ -39,7 +39,7 @@
   - type: Physics
     bodyType: Static
   - type: Sprite
-    sprite: Structures/Piping/Atmospherics/directionalfan.rsi
+    sprite: _Erida/Structures/Piping/Atmospherics/directionalfan.rsi
     state: icon
   - type: Fixtures
     fixtures:

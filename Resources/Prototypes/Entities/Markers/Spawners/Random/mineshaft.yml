@@ -8,7 +8,7 @@
   - type: Sprite
     layers:
       - state: red
-      - sprite: Objects/Decoration/mines.rsi
+      - sprite: _Erida/Objects/Decoration/mines.rsi
         state: support
   - type: RandomSpawner
     prototypes:
@@ -26,7 +26,7 @@
   - type: Sprite
     layers:
       - state: red
-      - sprite: Objects/Decoration/mines.rsi
+      - sprite: _Erida/Objects/Decoration/mines.rsi
         state: support_wall
   - type: RandomSpawner
     prototypes:
@@ -42,7 +42,7 @@
   - type: Sprite
     layers:
       - state: red
-      - sprite: Objects/Decoration/Flora/flora_stalagmite.rsi
+      - sprite: _Erida/Objects/Decoration/Flora/flora_stalagmite.rsi
         state: stalagmite2
   - type: RandomSpawner
     offset: 0.3
@@ -60,7 +60,7 @@
   - type: Sprite
     layers:
       - state: red
-      - sprite: Objects/Decoration/Flora/flora_stalagmite.rsi
+      - sprite: _Erida/Objects/Decoration/Flora/flora_stalagmite.rsi
         state: stalagmite2
   - type: RandomSpawner
     offset: 0.3
@@ -76,7 +76,7 @@
   - type: Sprite
     layers:
       - state: red
-      - sprite: Objects/Decoration/Flora/flora_stalagmite.rsi
+      - sprite: _Erida/Objects/Decoration/Flora/flora_stalagmite.rsi
         state: grey_stalagmite3
   - type: RandomSpawner
     offset: 0.3

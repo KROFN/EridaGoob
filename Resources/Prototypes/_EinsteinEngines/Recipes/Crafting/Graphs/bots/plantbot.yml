@@ -10,12 +10,12 @@
       steps:
       - tag: Bucket
         icon:
-          sprite: Objects/Tools/bucket.rsi
+          sprite: _Erida/Objects/Tools/bucket.rsi
           state: icon
         name: construction-graph-tag-bucket
       - tag: ProximitySensor
         icon:
-          sprite: Objects/Misc/proximity_sensor.rsi
+          sprite: _Erida/Objects/Misc/proximity_sensor.rsi
           state: icon
         name: construction-graph-tag-proximity-sensor
         doAfter: 2
@@ -26,7 +26,7 @@
         name: construction-graph-tag-borg-arm
       - tag: HydroponicsToolClippers
         icon:
-          sprite: Objects/Tools/Hydroponics/clippers.rsi
+          sprite: _Erida/Objects/Tools/Hydroponics/clippers.rsi
           state: icon
         name: construction-graph-tag-plant-clipper
         doAfter: 2

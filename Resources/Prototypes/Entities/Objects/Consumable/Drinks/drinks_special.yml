@@ -13,7 +13,7 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/shotglass.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/shotglass.rsi
   - type: SolutionContainerVisuals
     maxFillLevels: 2
     inHandsMaxFillLevels: 1
@@ -33,7 +33,7 @@
         - ReagentId: Ice
           Quantity: 200
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/icebucket.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/icebucket.rsi
     state: icon
   - type: PhysicalComposition
     materialComposition:
@@ -53,7 +53,7 @@
         - ReagentId: Tea
           Quantity: 100
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/teapot.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/teapot.rsi
   - type: FitsInDispenser
     solution: drink
 
@@ -65,7 +65,7 @@
   name: 6pack
   components:
   - type: Sprite
-    sprite: Objects/Misc/6pack.rsi
+    sprite: _Erida/Objects/Misc/6pack.rsi
     layers:
     - state: plastic-thingy
     - state: 6pack1
@@ -124,10 +124,10 @@
   - type: ExaminableSolution
     heldOnly: true # Opaque, can't see inside from a distance
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/shaker.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/shaker.rsi
     state: icon
   - type: Item
-    sprite: Objects/Consumable/Drinks/shaker.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/shaker.rsi
   - type: PhysicalComposition
     materialComposition:
       Steel: 50
@@ -144,9 +144,9 @@
   description: A gold-plated shaker given as a token of appreciation for years of service. It doesn't make the drinks taste any different.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/shaker_gold.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/shaker_gold.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/shaker_gold.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/shaker_gold.rsi
   - type: PhysicalComposition
     materialComposition:
       Gold: 10 # Gold plated, not solid gold
@@ -172,7 +172,7 @@
     heldOnly: true
     exactVolume: true
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/jigger.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/jigger.rsi
     state: icon
   - type: PhysicalComposition
     materialComposition:
@@ -189,7 +189,7 @@
       drink:
         maxVol: 60
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/pitcher.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/pitcher.rsi
   - type: SolutionContainerVisuals
     maxFillLevels: 6
     inHandsMaxFillLevels: 2
@@ -215,7 +215,7 @@
   name: blue milkshake
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/shake-blue.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/shake-blue.rsi
 
 - type: entity
   parent: DrinkShakeBase
@@ -223,7 +223,7 @@
   name: shakeempty
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/shake-empty.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/shake-empty.rsi
 
 - type: entity
   parent: DrinkShakeBase
@@ -231,7 +231,7 @@
   name: meat shake
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/shake-meat.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/shake-meat.rsi
 
 - type: entity
   parent: DrinkShakeBase
@@ -239,7 +239,7 @@
   name: robo shake
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/shake-robo.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/shake-robo.rsi
 
 - type: entity
   parent: DrinkShakeBase
@@ -247,7 +247,7 @@
   name: white shake
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/shake-white.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/shake-white.rsi
 
 - type: entity
   name: bluespace shaker

@@ -10,12 +10,12 @@
       sound:
         path: /Audio/Items/multitool_drop.ogg
     - type: Sprite
-      sprite: Objects/Tools/access_configurator.rsi
+      sprite: _Erida/Objects/Tools/access_configurator.rsi
       state: icon
     - type: Item
       size: Small
     - type: Clothing
-      sprite: Objects/Tools/access_configurator.rsi
+      sprite: _Erida/Objects/Tools/access_configurator.rsi
       quickEquip: false
       slots:
         - Belt
@@ -89,9 +89,9 @@
   description: A modified access configurator used only by the mythical Administrator.
   components:
   - type: Sprite
-    sprite: Objects/Tools/universal_access_configurator.rsi
+    sprite: _Erida/Objects/Tools/universal_access_configurator.rsi
   - type: Clothing
-    sprite: Objects/Tools/universal_access_configurator.rsi
+    sprite: _Erida/Objects/Tools/universal_access_configurator.rsi
   - type: AccessOverrider
     accessLevels:
     - Armory
@@ -160,9 +160,9 @@
   description: A modified access configurator used by the xenoborgs.
   components:
   - type: Sprite
-    sprite: Objects/Tools/access_configurator.rsi
+    sprite: _Erida/Objects/Tools/access_configurator.rsi
   - type: Clothing
-    sprite: Objects/Tools/access_configurator.rsi
+    sprite: _Erida/Objects/Tools/access_configurator.rsi
   - type: AccessOverrider
     showPrivilegedId: false
     accessLevels:

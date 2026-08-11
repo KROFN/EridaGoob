@@ -13,7 +13,7 @@
     rows: 2
   - type: Sprite
     drawdepth: WallMountedItems
-    sprite: Structures/Wallmounts/screen.rsi
+    sprite: _Erida/Structures/Wallmounts/screen.rsi
     state: screen
     noRot: true
   - type: Appearance

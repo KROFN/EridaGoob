@@ -11,7 +11,7 @@
     noRot: True
   - type: Sprite
     noRot: True
-    sprite: Objects/Devices/pinpointer.rsi
+    sprite: _Erida/Objects/Devices/pinpointer.rsi
     layers:
     - state: pinpointer
       map: ["enum.PinpointerLayers.Base"]
@@ -20,10 +20,10 @@
       shader: unshaded
       visible: false
   - type: Icon
-    sprite: Objects/Devices/pinpointer.rsi
+    sprite: _Erida/Objects/Devices/pinpointer.rsi
     state: pinpointer
   - type: Item
-    sprite: Objects/Devices/pinpointer.rsi
+    sprite: _Erida/Objects/Devices/pinpointer.rsi
   - type: Pinpointer
   - type: Appearance
   - type: GenericVisualizer
@@ -146,7 +146,7 @@
   description: A piece of a core pinpointer. You need four pieces to repair it.
   components:
   - type: Sprite
-    sprite: Objects/Devices/pinpointer.rsi
+    sprite: _Erida/Objects/Devices/pinpointer.rsi
     layers:
     - state: pinpointer-xenoborg-piece-1
       map: [ "base" ]

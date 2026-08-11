@@ -61,7 +61,7 @@
         Cellular: 50 # NotGoobstation its 50 genetic to prevent you from randomly extracting implants.
         Heat: 10
   - type: Sprite
-    sprite: Objects/Specific/Medical/implanter.rsi
+    sprite: _Erida/Objects/Specific/Medical/implanter.rsi
     state: implanter0
     layers:
     - state: implanter0
@@ -71,7 +71,7 @@
       map: [ "implantFull" ]
       visible: false
   - type: Item
-    sprite: Objects/Specific/Medical/implanter.rsi
+    sprite: _Erida/Objects/Specific/Medical/implanter.rsi
     heldPrefix: implanter
     size: Small
   - type: Appearance
@@ -123,7 +123,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Objects/Specific/Medical/implanter.rsi
+    sprite: _Erida/Objects/Specific/Medical/implanter.rsi
     state: implanter0
     layers:
     - state: implanter1
@@ -143,10 +143,10 @@
   abstract: true
   components:
   - type: Item
-    sprite: Objects/Specific/Medical/syndi_implanter.rsi
+    sprite: _Erida/Objects/Specific/Medical/syndi_implanter.rsi
     heldPrefix: implanter
   - type: Sprite
-    sprite: Objects/Specific/Medical/syndi_implanter.rsi
+    sprite: _Erida/Objects/Specific/Medical/syndi_implanter.rsi
     state: implanter1
     layers:
     - state: implanter0

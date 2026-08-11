@@ -13,9 +13,9 @@
   - type: ExaminableSolution
     solution: food
   - type: Sprite
-    sprite: Objects/Consumable/Food/condiments.rsi
+    sprite: _Erida/Objects/Consumable/Food/condiments.rsi
   - type: Icon
-    sprite: Objects/Consumable/Food/condiments.rsi
+    sprite: _Erida/Objects/Consumable/Food/condiments.rsi
   - type: TrashOnSolutionEmpty
     solution: food
   - type: SpaceGarbage

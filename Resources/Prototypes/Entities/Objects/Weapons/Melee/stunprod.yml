@@ -10,7 +10,7 @@
     tags:
     - Stunbaton
   - type: Sprite
-    sprite: Objects/Weapons/Melee/stunprod.rsi
+    sprite: _Erida/Objects/Weapons/Melee/stunprod.rsi
     layers:
     - state: stunprod_off
       map: [ "enum.ToggleableVisuals.Layer" ]
@@ -64,7 +64,7 @@
     heldPrefix: off
     size: Normal
   - type: Clothing
-    sprite: Objects/Weapons/Melee/stunprod.rsi
+    sprite: _Erida/Objects/Weapons/Melee/stunprod.rsi
     quickEquip: false
     slots:
     - back

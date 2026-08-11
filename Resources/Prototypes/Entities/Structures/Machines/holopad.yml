@@ -22,7 +22,7 @@
     range: 1
     needsAnchoring: true
   - type: Sprite
-    sprite: Structures/Machines/holopad.rsi
+    sprite: _Erida/Structures/Machines/holopad.rsi
     drawdepth: HighFloorObjects
     snapCardinals: true
     layers:
@@ -165,7 +165,7 @@
     speechSounds: Borg
     speechBubbleOffset: 0.45
   - type: HolopadHologram
-    rsiPath: Structures/Machines/holopad.rsi
+    rsiPath: _Erida/Structures/Machines/holopad.rsi
     rsiState: icon_in_call
     shaderName: Hologram
     color1: "#65b8e2"

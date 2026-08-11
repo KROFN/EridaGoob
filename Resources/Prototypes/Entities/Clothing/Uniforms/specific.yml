@@ -29,7 +29,7 @@
           color: "#3f3f3f"
 
     - type: Clothing
-      sprite: Clothing/Shoes/color.rsi
+      sprite: _Erida/Clothing/Shoes/color.rsi
       clothingVisuals:
         shoes:
         - state: equipped-FEET

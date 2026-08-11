@@ -54,7 +54,7 @@
               store: board
               name: construction-graph-tag-firelock-electronics-circuit-board
               icon:
-                sprite: "Objects/Misc/module.rsi"
+                sprite: "_Erida/Objects/Misc/module.rsi"
                 state: "mainboard"
 
         - to: frame1

@@ -39,7 +39,7 @@
   description: A mug.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/mug.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/mug.rsi
   - type: SolutionContainerVisuals
     maxFillLevels: 3
     inHandsFillBaseName: null
@@ -53,7 +53,7 @@
   description: A golden cup.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/golden_cup.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/golden_cup.rsi
   - type: StaticPrice
     price: 125
 
@@ -64,7 +64,7 @@
   description: A plain white porcelain teacup.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/teacup.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/teacup.rsi
   - type: SolutionContainerVisuals
     maxFillLevels: 4
 
@@ -75,7 +75,7 @@
   description: A classic thin neck coupe glass, the icon of fragile labels on crates around the galaxy.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/glass_coupe_shape.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/glass_coupe_shape.rsi
   - type: SolutionContainerVisuals
     inHandsMaxFillLevels: 1
 
@@ -92,7 +92,7 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/water_cup.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/water_cup.rsi
   - type: SolutionContainerVisuals
     maxFillLevels: 1
     inHandsFillBaseName: null
@@ -108,7 +108,7 @@
     slots:
     - HEAD
     quickEquip: false
-    sprite: Clothing/Head/Hats/party_water_cup.rsi
+    sprite: _Erida/Clothing/Head/Hats/party_water_cup.rsi
   - type: SpillWhenWorn
     solution: drink
   - type: PhysicalComposition #Goobstation - Recycle update
@@ -123,7 +123,7 @@
   description: A plain white mug.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/mug.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/mug.rsi
 
 - type: entity
   parent: DrinkBaseMug
@@ -132,7 +132,7 @@
   description: A sleek black mug.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/mug_black.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/mug_black.rsi
 
 - type: entity
   parent: DrinkBaseMug
@@ -141,7 +141,7 @@
   description: A blue and black mug.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/mug_blue.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/mug_blue.rsi
 
 - type: entity
   parent: DrinkBaseMug
@@ -150,7 +150,7 @@
   description: A pale green and pink mug.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/mug_green.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/mug_green.rsi
 
 - type: entity
   parent: DrinkBaseMug
@@ -159,7 +159,7 @@
   description: It looks like a cartoon beagle.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/mug_dog.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/mug_dog.rsi
 
 - type: entity
   parent: DrinkBaseMug
@@ -168,7 +168,7 @@
   description: A white mug, it prominently features a red heart.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/mug_heart.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/mug_heart.rsi
 
 - type: entity
   parent: [DrinkBaseMaterialMetal, DrinkBaseMug]
@@ -177,7 +177,7 @@
   description: A metal mug. You're not sure which metal.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/mug_metal.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/mug_metal.rsi
   - type: PhysicalComposition #Goobstation - Recycle update
     materialComposition:
       Steel: 25
@@ -189,7 +189,7 @@
   description: A mug with a Moebius Laboratories logo on it. Not even your morning coffee is safe from corporate advertising.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/mug_moebius.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/mug_moebius.rsi
 
 - type: entity
   parent: DrinkBaseMug
@@ -198,7 +198,7 @@
   description: "A white mug, it prominently features a #1."
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/mug_one.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/mug_one.rsi
 
 - type: entity
   parent: DrinkBaseMug
@@ -207,7 +207,7 @@
   description: A rainbow mug. The colors are almost as blinding as a welder.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/mug_rainbow.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/mug_rainbow.rsi
 
 - type: entity
   parent: DrinkBaseMug
@@ -216,7 +216,7 @@
   description: A red and black mug.
   components:
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/mug_red.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/mug_red.rsi
 
 ## Filled
 
@@ -234,7 +234,7 @@
         - ReagentId: HotCocoa
           Quantity: 20
   - type: Icon
-    sprite: Objects/Consumable/Drinks/mug.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/mug.rsi
     state: icon-vend-brown
   - type: Sprite
     layers:
@@ -258,7 +258,7 @@
         - ReagentId: Coffee
           Quantity: 20
   - type: Icon
-    sprite: Objects/Consumable/Drinks/mug.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/mug.rsi
     state: icon-vend-brown
   - type: Sprite
     layers:
@@ -282,10 +282,10 @@
         - ReagentId: CafeLatte
           Quantity: 20
   - type: Icon
-    sprite: Objects/Consumable/Drinks/cafe_latte.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/cafe_latte.rsi
     state: icon-vend
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/cafe_latte.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/cafe_latte.rsi
     layers:
     - state: icon
     - state: fill-1
@@ -308,7 +308,7 @@
         - ReagentId: Tea
           Quantity: 20
   - type: Icon
-    sprite: Objects/Consumable/Drinks/teacup.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/teacup.rsi
     state: icon-vend-tea
   - type: TrashOnSolutionEmpty
     solution: drink
@@ -325,7 +325,7 @@
         - ReagentId: GreenTea
           Quantity: 20
   - type: Icon
-    sprite: Objects/Consumable/Drinks/teacup.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/teacup.rsi
     state: icon-vend-green-tea
   - type: TrashOnSolutionEmpty
     solution: drink
@@ -344,9 +344,9 @@
         - ReagentId: JuiceGrape
           Quantity: 20
   - type: Sprite
-    sprite: Objects/Consumable/Drinks/lean.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/lean.rsi
   - type: Item
-    sprite: Objects/Consumable/Drinks/lean.rsi
+    sprite: _Erida/Objects/Consumable/Drinks/lean.rsi
   - type: TrashOnSolutionEmpty
     solution: drink
 

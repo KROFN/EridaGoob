@@ -23,7 +23,7 @@
   - type: ExtensionCableReceiver
   - type: ActivatableUIRequiresPower
   - type: Sprite
-    sprite: Structures/Machines/computers.rsi
+    sprite: _Erida/Structures/Machines/computers.rsi
     layers:
     - map: ["computerLayerBody"]
       state: computer
@@ -52,7 +52,7 @@
       # Orion-Start
       enum.EdgeConnectionVisuals.ConnectionMask:
         computerLayerBody:
-          None: { state: computer, sprite: Structures/Machines/computers.rsi }
+          None: { state: computer, sprite: _Erida/Structures/Machines/computers.rsi }
           West: { state: computer_r, sprite: _Orion/Structures/Machines/computers.rsi }
           East: { state: computer_l, sprite: _Orion/Structures/Machines/computers.rsi }
           East, West: { state: computer_l_r, sprite: _Orion/Structures/Machines/computers.rsi }

@@ -15,7 +15,7 @@
     shape:
     - 0,0,1,0
   - type: Sprite
-    sprite: Objects/Consumable/Food/meals.rsi
+    sprite: _Erida/Objects/Consumable/Food/meals.rsi
   - type: SolutionContainerManager
     solutions:
       food:

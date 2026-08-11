@@ -42,7 +42,7 @@
     priority: -1
     useDelay: 30
     icon:
-      sprite: Structures/Walls/solid.rsi
+      sprite: _Erida/Structures/Walls/solid.rsi
       state: full
   - type: InstantAction
     event: !type:InvisibleWallActionEvent

@@ -13,7 +13,7 @@
     - state: base
       map: ["enum.SolutionContainerLayers.Fill"]
   - type: Item
-    sprite: Objects/Specific/Medical/medipen.rsi
+    sprite: _Erida/Objects/Specific/Medical/medipen.rsi
     inhandVisuals:
       left:
       - state: base-needle-inhand-left

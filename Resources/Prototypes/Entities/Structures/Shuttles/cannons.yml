@@ -47,7 +47,7 @@
   categories: [ DoNotMap ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Shuttles/laser.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Shuttles/laser.rsi
     layers:
     - state: lse-400c
     - state: mag-unshaded-9
@@ -107,7 +107,7 @@
   categories: [ DoNotMap ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Shuttles/laser.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Shuttles/laser.rsi
     layers:
     - state: lse-1200c
     - state: mag-unshaded-9
@@ -167,7 +167,7 @@
   categories: [ DoNotMap ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Shuttles/launcher.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Shuttles/launcher.rsi
     layers:
     - state: exp-320g
     - state: mag-7
@@ -221,7 +221,7 @@
   categories: [ DoNotMap ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Shuttles/launcher.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Shuttles/launcher.rsi
     layers:
     - state: exp-2100g
     - state: mag-7
@@ -295,7 +295,7 @@
         - !type:DoActsBehavior
           acts: ["Destruction"]
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Shuttles/pirate_cannon.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Shuttles/pirate_cannon.rsi
     layers:
     - state: base
   - type: Gun
@@ -319,7 +319,7 @@
   categories: [ DoNotMap ]
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Shuttles/kinetic.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Shuttles/kinetic.rsi
     layers:
     - state: ptk-800
     - state: mag-7
@@ -386,7 +386,7 @@
   description: An ancient ship gun, utilizing biomechanical systems to store and release energy. While unique in its design, it has been rendered obsolete due to its inferior charging and firing speed compared to mechanical constructions.
   components:
   - type: Sprite
-    sprite: Objects/Weapons/Guns/Shuttles/xeno.rsi
+    sprite: _Erida/Objects/Weapons/Guns/Shuttles/xeno.rsi
     layers:
     - state: rail
   - type: Destructible

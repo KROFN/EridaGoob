@@ -13,7 +13,7 @@
         volume: -3
   - type: Sharp
   - type: Sprite
-    sprite: Objects/Weapons/Melee/chainsaw.rsi
+    sprite: _Erida/Objects/Weapons/Melee/chainsaw.rsi
     state: icon
   - type: MeleeWeapon
     heavyStaminaCost: 10 # goob edit
@@ -40,7 +40,7 @@
         Structural: 4
   - type: Item
     size: Normal
-    sprite: Objects/Weapons/Melee/chainsaw.rsi
+    sprite: _Erida/Objects/Weapons/Melee/chainsaw.rsi
   - type: DisarmMalus
   - type: RefillableSolution
     solution: Welder

@@ -10,7 +10,7 @@
   - type: Sprite
     layers:
       - state: red
-      - sprite: Objects/Specific/Research/anomalyscanner.rsi
+      - sprite: _Erida/Objects/Specific/Research/anomalyscanner.rsi
         state: icon
   - type: RandomSpawner
     rarePrototypes:
@@ -85,7 +85,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: Objects/Specific/Research/researchdisk.rsi
+    - sprite: _Erida/Objects/Specific/Research/researchdisk.rsi
       state: icon
   - type: EntityTableSpawner
     table: !type:NestedSelector
@@ -102,7 +102,7 @@
   - type: Sprite
     layers:
     - state: red
-    - sprite: Objects/Specific/Robotics/borgmodule.rsi
+    - sprite: _Erida/Objects/Specific/Robotics/borgmodule.rsi
       state: generic
   - type: RandomSpawner
     rarePrototypes:

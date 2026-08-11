@@ -8,7 +8,7 @@
   description: The HT-451, a torque rotation-based, waste disposal unit for small matter. This one seems remarkably clean.
   components:
   - type: Sprite
-    sprite: Structures/Furniture/toilet.rsi
+    sprite: _Erida/Structures/Furniture/toilet.rsi
     layers:
     - state: condisposal
       map: [ "enum.DisposalUnitVisualLayers.Unanchored" ]
@@ -199,7 +199,7 @@
   suffix: Empty
   components:
   - type: Sprite
-    sprite: Structures/Furniture/golden_toilet.rsi
+    sprite: _Erida/Structures/Furniture/golden_toilet.rsi
   - type: StaticPrice
     price: 1500
   - type: Destructible

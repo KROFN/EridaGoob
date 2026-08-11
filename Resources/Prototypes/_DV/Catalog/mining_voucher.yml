@@ -5,7 +5,7 @@
   name: mining-voucher-extraction-name
   description: mining-voucher-extraction-description
   sprite:
-    sprite: Clothing/Belt/salvagewebbing.rsi
+    sprite: _Erida/Clothing/Belt/salvagewebbing.rsi
     state: icon
   content:
   - Fulton
@@ -41,7 +41,7 @@
   name: mining-voucher-medical-name
   description: mining-voucher-medical-description
   sprite:
-    sprite: Objects/Specific/Medical/firstaidkits.rsi
+    sprite: _Erida/Objects/Specific/Medical/firstaidkits.rsi
     state: brutekit
   content:
   - MedkitBruteFilled

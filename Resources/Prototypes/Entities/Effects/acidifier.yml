@@ -11,7 +11,7 @@
   - type: Physics
     bodyType: Static
   - type: Sprite
-    sprite: /Textures/Effects/acidifier.rsi
+    sprite: /Textures/_Erida/Effects/acidifier.rsi
     state: acid
   - type: Fixtures
     fixtures:

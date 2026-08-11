@@ -8,7 +8,7 @@
   components:
     - type: ComputerBoard
     - type: Sprite
-      sprite: Objects/Misc/module.rsi
+      sprite: _Erida/Objects/Misc/module.rsi
       state: cpuboard
     - type: Item
       storedRotation: -90

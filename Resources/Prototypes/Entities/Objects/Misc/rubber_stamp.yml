@@ -17,7 +17,7 @@
         volume: -2
         maxDistance: 5
   - type: Sprite
-    sprite: Objects/Misc/stamps.rsi
+    sprite: _Erida/Objects/Misc/stamps.rsi
     state: stamp-mime
   - type: Item
     size: Tiny

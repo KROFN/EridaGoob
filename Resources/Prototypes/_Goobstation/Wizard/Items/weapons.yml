@@ -299,7 +299,7 @@
   - type: Item
     #storedSprite:
     #  state: storage
-    #  sprite: Objects/Weapons/Melee/katana_storage_64x.rsi #Done in 64x64 because it looks way too puny in 32x32
+    #  sprite: _Erida/Objects/Weapons/Melee/katana_storage_64x.rsi #Done in 64x64 because it looks way too puny in 32x32
     inhandVisuals:
       left:
       - state: handle-inhand-left

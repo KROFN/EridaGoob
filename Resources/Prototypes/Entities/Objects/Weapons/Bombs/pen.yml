@@ -47,7 +47,7 @@
   - type: Item
     size: Tiny
   - type: Sprite
-    sprite: Objects/Storage/penbox.rsi
+    sprite: _Erida/Objects/Storage/penbox.rsi
     state: exploding_pen
   - type: SpawnItemsOnUse
     items:

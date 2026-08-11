@@ -11,7 +11,7 @@
   - type: Sprite
     layers:
       - state: red
-      - sprite: Objects/Consumable/Food/snacks.rsi
+      - sprite: _Erida/Objects/Consumable/Food/snacks.rsi
         state: cheesiehonkers
   - type: EntityTableSpawner
     table: !type:NestedSelector

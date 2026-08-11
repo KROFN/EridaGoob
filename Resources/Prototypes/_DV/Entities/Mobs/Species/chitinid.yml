@@ -95,7 +95,7 @@
       - map: [ "enum.HumanoidVisualLayers.RFoot" ]
       - map: [ "enum.HumanoidVisualLayers.Handcuffs" ]
         color: "#ffffff"
-        sprite: Objects/Misc/handcuffs.rsi
+        sprite: _Erida/Objects/Misc/handcuffs.rsi
         state: body-overlay-2
         visible: false
       - map: [ "gloves" ]
@@ -117,7 +117,7 @@
       - map: [ "pocket1" ]
       - map: [ "pocket2" ]
       - map: [ "clownedon" ] # Dynamically generated
-        sprite: "Effects/creampie.rsi"
+        sprite: "_Erida/Effects/creampie.rsi"
         state: "creampie_moth"
         visible: false
   - type: Chitinid

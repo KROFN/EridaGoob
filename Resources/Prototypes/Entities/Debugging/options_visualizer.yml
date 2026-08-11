@@ -5,7 +5,7 @@
   suffix: DEBUG
   components:
   - type: Sprite
-    sprite: Effects/optionsvisualizertest.rsi
+    sprite: _Erida/Effects/optionsvisualizertest.rsi
     layers:
     - state: none
       map: [ "layer" ]

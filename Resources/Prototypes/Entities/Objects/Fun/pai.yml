@@ -28,7 +28,7 @@
         type: StationMapBoundUserInterface
         requireInputValidation: false
   - type: Sprite
-    sprite: Objects/Fun/pai.rsi
+    sprite: _Erida/Objects/Fun/pai.rsi
     layers:
     - state: pai-base
     - state: pai-off-overlay
@@ -165,7 +165,7 @@
   description: Your Syndicate pal who's fun to be with!
   components:
   - type: Sprite
-    sprite: Objects/Fun/pai.rsi
+    sprite: _Erida/Objects/Fun/pai.rsi
     layers:
     - state: pai-base
     - state: syndicate-pai-off-overlay
@@ -204,7 +204,7 @@
   description: Your electronic pal who's fun to be with! Special golden edition!
   components:
   - type: Sprite
-    sprite: Objects/Fun/pai.rsi
+    sprite: _Erida/Objects/Fun/pai.rsi
     layers:
     - state: golden-pai-base
     - state: pai-off-overlay
@@ -219,7 +219,7 @@
   description: It's a potato. You forced it to be sentient, you monster.
   components:
   - type: Sprite
-    sprite: Objects/Fun/pai.rsi
+    sprite: _Erida/Objects/Fun/pai.rsi
     layers:
     - state: potato-base
     - state: potato-off-overlay

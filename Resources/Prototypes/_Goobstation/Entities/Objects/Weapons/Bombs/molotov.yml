@@ -73,7 +73,7 @@
       types:
         Heat: 1
   - type: FireVisuals
-    sprite: Effects/fire.rsi
+    sprite: _Erida/Effects/fire.rsi
     normalState: fire
   - type: Destructible
     thresholds:
@@ -128,7 +128,7 @@
     energy: 3
     color: "#FFC90C"
   - type: Sprite
-    sprite: Effects/fire.rsi
+    sprite: _Erida/Effects/fire.rsi
     layers:
     - state: 1
   - type: Transform

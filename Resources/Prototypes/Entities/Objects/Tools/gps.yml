@@ -7,12 +7,12 @@
   description: Helping lost spacemen find their way through the planets since 2016.
   components:
   - type: Sprite
-    sprite: Objects/Devices/gps.rsi
+    sprite: _Erida/Objects/Devices/gps.rsi
     layers:
     - state: icon
     - state: active
   - type: Item
-    sprite: Objects/Devices/gps.rsi
+    sprite: _Erida/Objects/Devices/gps.rsi
   - type: GPS # Goob Station - what if gps didnt suck doo doo balls
   - type: PhysicalComposition #Goobstation - Recycle update
     materialComposition:

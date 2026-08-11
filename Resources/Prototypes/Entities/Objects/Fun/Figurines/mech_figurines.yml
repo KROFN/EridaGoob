@@ -9,7 +9,7 @@
   id: BaseFigurineMech
   components:
   - type: Sprite
-    sprite: Objects/Fun/mech_figurines.rsi
+    sprite: _Erida/Objects/Fun/mech_figurines.rsi
   - type: SpeakOnTrigger
     pack: FigurinesMechGeneric
 

@@ -69,7 +69,7 @@
       - tag: DiscreteHealthAnalyzer
         name: construction-graph-tag-health-analyzer
         icon:
-          sprite: Objects/Specific/Medical/healthanalyzer.rsi
+          sprite: _Erida/Objects/Specific/Medical/healthanalyzer.rsi
           state: analyzer
         doAfter: 2
       - material: Cable
@@ -83,7 +83,7 @@
       - tag: Handcuffs # need cuffs to detect cuffs :)
         name: construction-graph-tag-cuffs
         icon:
-          sprite: Objects/Misc/cablecuffs.rsi
+          sprite: _Erida/Objects/Misc/cablecuffs.rsi
           state: cuff
           color: red
         doAfter: 2

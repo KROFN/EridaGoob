@@ -8,7 +8,7 @@
   description: A cluster of wild mushrooms that likes to grow in dark, moist environments.
   components:
     - type: Sprite
-      sprite: Objects/Misc/spaceshroom.rsi
+      sprite: _Erida/Objects/Misc/spaceshroom.rsi
       state: structure
     - type: Transform
       anchored: true
@@ -52,7 +52,7 @@
   components:
   - type: Produce
   - type: Sprite
-    sprite: Objects/Misc/spaceshroom.rsi
+    sprite: _Erida/Objects/Misc/spaceshroom.rsi
     state: object
   - type: FlavorProfile
     flavors:
@@ -147,7 +147,7 @@
         - ReagentId: Vitamin
           Quantity: 5
   - type: Sprite
-    sprite: Objects/Misc/spaceshroom.rsi
+    sprite: _Erida/Objects/Misc/spaceshroom.rsi
     state: spaceshroom_cooked
   - type: Produce
   - type: StaticPrice

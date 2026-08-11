@@ -76,7 +76,7 @@
   id: UplinkEsword
   name: uplink-esword-name
   description: uplink-esword-desc
-  icon: { sprite: /Textures/Objects/Weapons/Melee/e_sword.rsi, state: icon }
+  icon: { sprite: /Textures/_Erida/Objects/Weapons/Melee/e_sword.rsi, state: icon }
   productEntity: EnergySword
   cost:
     Telecrystal: 37 # goob - desword is 74
@@ -94,7 +94,7 @@
   id: UplinkEnergyDagger
   name: uplink-edagger-name
   description: uplink-edagger-desc
-  icon: { sprite: /Textures/Objects/Weapons/Melee/e_dagger.rsi, state: icon }
+  icon: { sprite: /Textures/_Erida/Objects/Weapons/Melee/e_dagger.rsi, state: icon }
   productEntity: EnergyDaggerBox
   cost:
     Telecrystal: 10 # goob
@@ -128,7 +128,7 @@
   id: UplinkThrowingKnivesKit
   name: uplink-knives-kit-name
   description: uplink-knives-kit-desc
-  icon: { sprite: /Textures/Objects/Storage/boxicons.rsi, state: throwing_knives }
+  icon: { sprite: /Textures/_Erida/Objects/Storage/boxicons.rsi, state: throwing_knives }
   productEntity: ThrowingKnivesKit
   cost:
     Telecrystal: 20 # goob - Pretty weak, but resusable ranged crit potential shouldn't be less.
@@ -181,7 +181,7 @@
   id: UplinkEshield
   name: uplink-eshield-name
   description: uplink-eshield-desc
-  icon: { sprite: /Textures/Objects/Weapons/Melee/e_shield.rsi, state: eshield-on }
+  icon: { sprite: /Textures/_Erida/Objects/Weapons/Melee/e_shield.rsi, state: eshield-on }
   productEntity: EnergyShield
   cost:
     Telecrystal: 15 # goob
@@ -193,7 +193,7 @@
   id: UplinkSniperBundle
   name: uplink-sniper-bundle-name
   description: uplink-sniper-bundle-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Snipers/heavy_sniper.rsi, state: base }
+  icon: { sprite: /Textures/_Erida/Objects/Weapons/Guns/Snipers/heavy_sniper.rsi, state: base }
   productEntity: BriefcaseSyndieSniperBundleFilled
   cost:
     Telecrystal: 75 # goob
@@ -211,7 +211,7 @@
   id: UplinkHushpup
   name: uplink-hushpup-name
   description: uplink-hushpup-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Shotguns/hushpup.rsi, state: icon }
+  icon: { sprite: /Textures/_Erida/Objects/Weapons/Guns/Shotguns/hushpup.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateFilledHushpup
   #discountCategory: rareDiscounts
   #discountDownTo:
@@ -225,7 +225,7 @@
   id: UplinkC20R #goob
   name: uplink-c20r-name #goob
   description: uplink-c20r-desc #goob
-  icon: { sprite: /Textures/Objects/Weapons/Guns/SMGs/c20r.rsi, state: icon }
+  icon: { sprite: /Textures/_Erida/Objects/Weapons/Guns/SMGs/c20r.rsi, state: icon }
   productEntity: WeaponSubMachineGunC20r #Goob unbundle update
   cost:
     Telecrystal: 50 # goob unbunde update
@@ -242,7 +242,7 @@
   id: UplinkEstoc # goob unbundle
   name: uplink-estoc-name # goob unbundle
   description: uplink-estoc-desc # goob unbundle
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Rifles/estoc.rsi, state: icon }
+  icon: { sprite: /Textures/_Erida/Objects/Weapons/Guns/Rifles/estoc.rsi, state: icon }
   productEntity: WeaponRifleEstoc # goob unbundle
   cost:
     Telecrystal: 60 # goob unbundle
@@ -259,7 +259,7 @@
   id: UplinkBulldog #goob
   name: uplink-buldog-name #goob
   description: uplink-buldog-desc #goob
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Shotguns/bulldog.rsi, state: icon }
+  icon: { sprite: /Textures/_Erida/Objects/Weapons/Guns/Shotguns/bulldog.rsi, state: icon }
   productEntity: WeaponShotgunBulldog
   cost:
     Telecrystal: 60 # goob
@@ -277,7 +277,7 @@
   id: UplinkGrenadeLauncherBundle
   name: uplink-grenade-launcher-bundle-name
   description: uplink-grenade-launcher-bundle-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Launchers/china_lake.rsi, state: icon }
+  icon: { sprite: /Textures/_Erida/Objects/Weapons/Guns/Launchers/china_lake.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateFilledGrenadeLauncher
   cost:
     Telecrystal: 150 # goob
@@ -295,7 +295,7 @@
   id: UplinkL6Saw #goob
   name: uplink-l6-saw-name #goob
   description: uplink-l6-saw-desc #goob
-  icon: { sprite: /Textures/Objects/Weapons/Guns/LMGs/l6.rsi, state: icon }
+  icon: { sprite: /Textures/_Erida/Objects/Weapons/Guns/LMGs/l6.rsi, state: icon }
   productEntity: WeaponLightMachineGunL6
   cost:
     Telecrystal: 100 # goob
@@ -494,7 +494,7 @@
   id: UplinkExplodingPen
   name: uplink-exploding-pen-name
   description: uplink-exploding-pen-desc
-  icon: { sprite: /Textures/Objects/Misc/pens.rsi, state: pen }
+  icon: { sprite: /Textures/_Erida/Objects/Misc/pens.rsi, state: pen }
   productEntity: PenExplodingBox
   cost:
     Telecrystal: 12 # goob
@@ -603,7 +603,7 @@
   id: UplinkPistol9mmMagazine
   name: uplink-pistol-magazine-name
   description: uplink-pistol-magazine-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_high_capacity_mag.rsi, state: base-icon }
+  icon: { sprite: /Textures/_Erida/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/pistol_high_capacity_mag.rsi, state: base-icon }
   productEntity: MagazinePistolHighCapacity
   cost:
     Telecrystal: 2 # goob - Ammo should be cheap.
@@ -621,7 +621,7 @@
   id: UplinkMagazinePistolSubMachineGun
   name: uplink-pistol-magazine-c20r-name
   description: uplink-pistol-magazine-c20r-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/smg_mag.rsi, state: red-icon }
+  icon: { sprite: /Textures/_Erida/Objects/Weapons/Guns/Ammunition/Magazine/Pistol/smg_mag.rsi, state: red-icon }
   productEntity: MagazinePistolSubMachineGun
   cost:
     Telecrystal: 5 # goob - Ammo should be cheap. 96 dmg per TC.
@@ -639,7 +639,7 @@
   id: UplinkMagazinePistolCaselessRifle
   name: uplink-pistol-magazine-caseless-name
   description: uplink-pistol-magazine-caseless-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_pistol_mag.rsi, state: red-icon }
+  icon: { sprite: /Textures/_Erida/Objects/Weapons/Guns/Ammunition/Magazine/CaselessRifle/caseless_pistol_mag.rsi, state: red-icon }
   productEntity: MagazinePistolCaselessRifle
   cost:
     Telecrystal: 3 # goob
@@ -657,7 +657,7 @@
   id: UplinkSpeedLoaderMagnumAP
   name: uplink-speedloader-magnum-name
   description: uplink-speedloader-magnu-desc
-  icon: { sprite: /Textures/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi, state: icon }
+  icon: { sprite: /Textures/_Erida/Objects/Weapons/Guns/Ammunition/SpeedLoaders/Magnum/magnum_speed_loader.rsi, state: icon }
   productEntity: SpeedLoaderMagnumAP
   cost:
     Telecrystal: 3 # goob - AP, but only 6 bullets in speedloader
@@ -746,7 +746,7 @@
   id: UplinkHypopen
   name: uplink-hypopen-name
   description: uplink-hypopen-desc
-  icon: { sprite: /Textures/Objects/Misc/pens.rsi, state: pen }
+  icon: { sprite: /Textures/_Erida/Objects/Misc/pens.rsi, state: pen }
   productEntity: HypopenBox
   cost:
     Telecrystal: 30 # goob
@@ -758,7 +758,7 @@
   id: UplinkHypoDart
   name: uplink-hypodart-name
   description: uplink-hypodart-desc
-  icon: { sprite: /Textures/Objects/Fun/Darts/dart_red.rsi, state: icon }
+  icon: { sprite: /Textures/_Erida/Objects/Fun/Darts/dart_red.rsi, state: icon }
   productEntity: HypoDartBox
   cost:
     Telecrystal: 5 # goob
@@ -770,7 +770,7 @@
   id: UplinkChemistryKitBundle
   name: uplink-chemistry-kit-name
   description: uplink-chemistry-kit-desc
-  icon: { sprite: /Textures/Objects/Storage/boxicons.rsi, state: vials }
+  icon: { sprite: /Textures/_Erida/Objects/Storage/boxicons.rsi, state: vials }
   productEntity: ChemicalSynthesisKit
   #discountCategory: usualDiscounts
   #discountDownTo:
@@ -792,7 +792,7 @@
 #  id: UplinkZombieBundle
 #  name: uplink-zombie-bundle-name
 #  description: uplink-zombie-bundle-desc
-#  icon: { sprite: /Textures/Structures/Wallmounts/signs.rsi, state: bio }
+#  icon: { sprite: /Textures/_Erida/Structures/Wallmounts/signs.rsi, state: bio }
 #  productEntity: ClothingBackpackDuffelZombieBundle
 #  cost:
 #    Telecrystal: 200 # goob
@@ -949,7 +949,7 @@
   id: UplinkHeadsetEncryptionKey
   name: uplink-encryption-key-name
   description: uplink-encryption-key-desc
-  icon: { sprite: /Textures/Objects/Devices/encryption_keys.rsi, state: synd_label }
+  icon: { sprite: /Textures/_Erida/Objects/Devices/encryption_keys.rsi, state: synd_label }
   productEntity: EncryptionKeySyndie # One for the price of one, but cheaper
   cost:
     Telecrystal: 3 # goob
@@ -966,7 +966,7 @@
 #  id: UplinkBinaryTranslatorKey
 #  name: uplink-binary-translator-key-name
 #  description: uplink-binary-translator-key-desc
-#  icon: { sprite: /Textures/Objects/Devices/encryption_keys.rsi, state: ai_label }
+#  icon: { sprite: /Textures/_Erida/Objects/Devices/encryption_keys.rsi, state: ai_label }
 #  productEntity: EncryptionKeyBinarySyndicate
 #  cost:
 #    Telecrystal: 5 # goob
@@ -1037,7 +1037,7 @@
   id: UplinkDecoyKit
   name: uplink-decoy-kit-name
   description: uplink-decoy-kit-desc
-  icon: { sprite: /Textures/Objects/Tools/Decoys/operative_decoy.rsi, state: folded }
+  icon: { sprite: /Textures/_Erida/Objects/Tools/Decoys/operative_decoy.rsi, state: folded }
   productEntity: ClothingBackpackDuffelSyndicateDecoyKitFilled
   cost:
     Telecrystal: 20 # goob - total meme item.
@@ -1135,7 +1135,7 @@
   name: uplink-syndicate-martyr-module-name
   description: uplink-syndicate-martyr-module-desc
   productEntity: BorgModuleMartyr
-  icon: { sprite: /Textures/Objects/Specific/Robotics/borgmodule.rsi, state: syndicateborgbomb }
+  icon: { sprite: /Textures/_Erida/Objects/Specific/Robotics/borgmodule.rsi, state: syndicateborgbomb }
   cost:
     Telecrystal: 20 # goob
   categories:
@@ -1354,7 +1354,7 @@
   id: UplinkHoloparaKit
   name: uplink-holopara-kit-name
   description: uplink-holopara-kit-desc
-  icon: { sprite: /Textures/Objects/Misc/guardian_info.rsi, state: icon }
+  icon: { sprite: /Textures/_Erida/Objects/Misc/guardian_info.rsi, state: icon }
   productEntity: BoxHoloparasite
   cost:
     Telecrystal: 60 # goob
@@ -1373,7 +1373,7 @@
   name: uplink-reinforcement-radio-name
   description: uplink-reinforcement-radio-traitor-desc
   productEntity: ReinforcementRadioSyndicate
-  icon: { sprite: Objects/Devices/communication.rsi, state: old-radio-urist }
+  icon: { sprite: _Erida/Objects/Devices/communication.rsi, state: old-radio-urist }
   cost:
     Telecrystal: 70 # goob
   categories:
@@ -1393,7 +1393,7 @@
   name: uplink-reinforcement-radio-nukeops-name
   description: uplink-reinforcement-radio-nukeops-desc
   productEntity: ReinforcementRadioSyndicateNukeops
-  icon: { sprite: Objects/Devices/communication.rsi, state: old-radio-nukeop }
+  icon: { sprite: _Erida/Objects/Devices/communication.rsi, state: old-radio-nukeop }
   cost:
     Telecrystal: 125 # goob
   categories:
@@ -1413,7 +1413,7 @@
   name:  uplink-reinforcement-radio-cyborg-assault-name
   description: uplink-reinforcement-radio-cyborg-assault-desc
   productEntity: ReinforcementRadioSyndicateCyborgAssault
-  icon: { sprite: Objects/Devices/communication.rsi, state: old-radio-borg-assault }
+  icon: { sprite: _Erida/Objects/Devices/communication.rsi, state: old-radio-borg-assault }
   cost:
     Telecrystal: 375 # goob
   categories:
@@ -1433,7 +1433,7 @@
   name: uplink-reinforcement-radio-ancestor-name
   description: uplink-reinforcement-radio-ancestor-desc
   productEntity: ReinforcementRadioSyndicateAncestor
-  icon: { sprite: Objects/Devices/communication.rsi, state: old-radio-ancestor }
+  icon: { sprite: _Erida/Objects/Devices/communication.rsi, state: old-radio-ancestor }
   cost:
     Telecrystal: 30 # goob
   categories:
@@ -1451,7 +1451,7 @@
   name: uplink-reinforcement-radio-ancestor-name
   description: uplink-reinforcement-radio-ancestor-desc
   productEntity: ReinforcementRadioSyndicateAncestorNukeops
-  icon: { sprite: Objects/Devices/communication.rsi, state: old-radio-ancestor }
+  icon: { sprite: _Erida/Objects/Devices/communication.rsi, state: old-radio-ancestor }
   cost:
     Telecrystal: 40 # goob - Nuke ops have a lot of free gear, and synd eva a common one has been buffed so these need to cost more
   categories:
@@ -1488,7 +1488,7 @@
   id: UplinkMobCatMicrobomb
   name: uplink-mobcat-microbomb-name
   description: uplink-mobcat-microbomb-desc
-  icon: { sprite: Objects/Devices/communication.rsi, state: old-radio-syndicat }
+  icon: { sprite: _Erida/Objects/Devices/communication.rsi, state: old-radio-syndicat }
   productEntity: ReinforcementRadioSyndicateSyndiCat
   cost:
     Telecrystal: 30 # goob
@@ -1507,7 +1507,7 @@
   id: UplinkSyndicatePersonalAI
   name: uplink-syndicate-pai-name
   description: uplink-syndicate-pai-desc
-  icon: { sprite: /Textures/Objects/Fun/pai.rsi, state: syndicate-icon-pai-off }
+  icon: { sprite: /Textures/_Erida/Objects/Fun/pai.rsi, state: syndicate-icon-pai-off }
   productEntity: SyndicatePersonalAI
   cost:
     Telecrystal: 5 # goob
@@ -1528,7 +1528,7 @@
   id: UplinkStorageImplanter
   name: uplink-storage-implanter-name
   description: uplink-storage-implanter-desc
-  icon: { sprite: /Textures/Clothing/Back/Backpacks/backpack.rsi, state: icon }
+  icon: { sprite: /Textures/_Erida/Clothing/Back/Backpacks/backpack.rsi, state: icon }
   productEntity: StorageImplanter
   cost:
     Telecrystal: 40 # goob
@@ -1557,7 +1557,7 @@
   id: UplinkScramImplanter
   name: uplink-scram-implanter-name
   description: uplink-scram-implanter-desc
-  icon: { sprite: /Textures/Structures/Specific/anomaly.rsi, state: anom4 }
+  icon: { sprite: /Textures/_Erida/Structures/Specific/anomaly.rsi, state: anom4 }
   productEntity: ScramImplanter
   cost:
     Telecrystal: 15 # goob - can be useful, but does nothing on its own
@@ -1581,7 +1581,7 @@
   id: UplinkEmpImplanter
   name: uplink-emp-implanter-name
   description: uplink-emp-implanter-desc
-  icon: { sprite: /Textures/Objects/Magic/magicactions.rsi, state: shield }
+  icon: { sprite: /Textures/_Erida/Objects/Magic/magicactions.rsi, state: shield }
   productEntity: EmpImplanter
   cost:
     Telecrystal: 10 # goob
@@ -1592,7 +1592,7 @@
   id: UplinkRadioImplanter
   name: uplink-radio-implanter-name
   description: uplink-radio-implanter-desc
-  icon: { sprite: /Textures/Objects/Devices/encryption_keys.rsi, state: synd_label }
+  icon: { sprite: /Textures/_Erida/Objects/Devices/encryption_keys.rsi, state: synd_label }
   productEntity: RadioImplanter
   cost:
     Telecrystal: 7 # goob - Syndicate Radio Price Adjust
@@ -1672,7 +1672,7 @@
   id: UplinkDeathAcidifierImplanter
   name: uplink-death-acidifier-implant-name
   description: uplink-death-acidifier-implant-desc
-  icon: { sprite: /Textures/Objects/Magic/magicactions.rsi, state: gib }
+  icon: { sprite: /Textures/_Erida/Objects/Magic/magicactions.rsi, state: gib }
   productEntity: DeathAcidifierImplanter
   cost:
     Telecrystal: 20 # goob # goob - traitor suicide implants
@@ -1695,7 +1695,7 @@
   id: UplinkUplinkImplanter # uplink uplink real
   name: uplink-uplink-implanter-name
   description: uplink-uplink-implanter-desc
-  icon: { sprite: /Textures/Objects/Devices/communication.rsi, state: radio }
+  icon: { sprite: /Textures/_Erida/Objects/Devices/communication.rsi, state: radio }
   productEntity: UplinkImplanter
   cost:
     Telecrystal: 10 # goob
@@ -1876,7 +1876,7 @@
   id: UplinkEVASyndie
   name: uplink-eva-syndie-name
   description: uplink-eva-syndie-desc
-  icon: { sprite: /Textures/Clothing/OuterClothing/Suits/eva_syndicate.rsi, state: icon }
+  icon: { sprite: /Textures/_Erida/Clothing/OuterClothing/Suits/eva_syndicate.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateEVABundle
   cost:
     Telecrystal: 20 # goob - Meh protection no slowdown. Can definitely take a hit or two extra however.
@@ -1888,7 +1888,7 @@
   id: UplinkHardsuitCarp
   name: uplink-hardsuit-carp-name
   description: uplink-hardsuit-carp-desc
-  icon: { sprite: /Textures/Clothing/OuterClothing/Suits/carpsuit.rsi, state: icon }
+  icon: { sprite: /Textures/_Erida/Clothing/OuterClothing/Suits/carpsuit.rsi, state: icon }
   productEntity: ClothingOuterHardsuitCarp
   cost:
     Telecrystal: 20 # goob
@@ -1906,7 +1906,7 @@
   id: UplinkHardsuitSyndie
   name: uplink-hardsuit-syndie-name
   description: uplink-hardsuit-syndie-desc
-  icon: { sprite: /Textures/Clothing/OuterClothing/Hardsuits/syndicate.rsi, state: icon }
+  icon: { sprite: /Textures/_Erida/Clothing/OuterClothing/Hardsuits/syndicate.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateHardsuitBundle
   cost:
     Telecrystal: 50 # goob
@@ -1924,7 +1924,7 @@
   id: UplinkClothingOuterArmorRaid
   name: uplink-syndie-raid-name
   description: uplink-syndie-raid-desc
-  icon: { sprite: /Textures/Clothing/OuterClothing/Armor/syndie-raid.rsi, state: icon }
+  icon: { sprite: /Textures/_Erida/Clothing/OuterClothing/Armor/syndie-raid.rsi, state: icon }
   productEntity: ClothingBackpackSyndicateRaidBundle
   cost:
     Telecrystal: 50 # goob
@@ -1941,7 +1941,7 @@
   id: UplinkHardsuitSyndieElite
   name: uplink-hardsuit-syndieelite-name
   description: uplink-hardsuit-syndieelite-desc
-  icon: { sprite: /Textures/Clothing/OuterClothing/Hardsuits/syndieelite.rsi, state: icon }
+  icon: { sprite: /Textures/_Erida/Clothing/OuterClothing/Hardsuits/syndieelite.rsi, state: icon }
   productEntity: ClothingBackpackDuffelSyndicateEliteHardsuitBundle
   cost:
     Telecrystal: 75 # goob
@@ -1964,7 +1964,7 @@
   id: UplinkClothingOuterHardsuitJuggernaut
   name: uplink-clothing-outer-hardsuit-juggernaut-name
   description: uplink-clothing-outer-hardsuit-juggernaut-desc
-  icon: { sprite: /Textures/Clothing/OuterClothing/Hardsuits/cybersun.rsi, state: icon } # goobstation - duke nukies
+  icon: { sprite: /Textures/_Erida/Clothing/OuterClothing/Hardsuits/cybersun.rsi, state: icon } # goobstation - duke nukies
   productEntity: CrateCybersunJuggernautBundle
   cost:
     Telecrystal: 75 # goob
@@ -2274,7 +2274,7 @@
   id: uplinkBananaPeelExplosive
   name: uplink-banana-peel-explosive-name
   description: uplink-banana-peel-explosive-desc
-  icon: { sprite: Objects/Specific/Hydroponics/banana.rsi, state: peel }
+  icon: { sprite: _Erida/Objects/Specific/Hydroponics/banana.rsi, state: peel }
   productEntity: TrashBananaPeelExplosiveUnarmed
   cost:
     Telecrystal: 8 # goob
@@ -2305,7 +2305,7 @@
   id: UplinkHoloclownKit
   name: uplink-holoclown-kit-name
   description: uplink-holoclown-kit-desc
-  icon: { sprite: /Textures/Objects/Fun/figurines.rsi, state: holoclown }
+  icon: { sprite: /Textures/_Erida/Objects/Fun/figurines.rsi, state: holoclown }
   productEntity: BoxHoloclown
   cost:
     Telecrystal: 60 # goob
@@ -2373,7 +2373,7 @@
   id: UplinkSyndicateSpongeBox
   name: uplink-syndicate-sponge-box-name
   description: uplink-syndicate-sponge-box-desc
-  icon: { sprite:  Objects/Misc/monkeycube.rsi, state: box}
+  icon: { sprite:  _Erida/Objects/Misc/monkeycube.rsi, state: box}
   productEntity: SyndicateSpongeBox
   cost:
     Telecrystal: 35 # goob
@@ -2391,7 +2391,7 @@
   id: UplinkCaneBlade
   name: uplink-cane-blade-name
   description: uplink-cane-blade-desc
-  icon: { sprite:  Objects/Weapons/Melee/cane.rsi, state: cane}
+  icon: { sprite:  _Erida/Objects/Weapons/Melee/cane.rsi, state: cane}
   productEntity: CaneSheathFilled
   cost:
     Telecrystal: 40 # E-sword sidegrade - goob
@@ -2411,7 +2411,7 @@
   id: UplinkCombatBakery
   name: uplink-combat-bakery-name
   description: uplink-combat-bakery-desc
-  icon: { sprite:  Objects/Consumable/Food/Baked/bread.rsi, state: baguette}
+  icon: { sprite:  _Erida/Objects/Consumable/Food/Baked/bread.rsi, state: baguette}
   productEntity: CombatBakeryKit
   cost:
     Telecrystal: 20 # goob
@@ -2427,7 +2427,7 @@
   id: UplinkContrabandLighter
   name: uplink-contraband-lighter-name
   description: uplink-contraband-lighter-desc
-  icon: { sprite:  Objects/Tools/Lighters/syndielighter.rsi, state: icon}
+  icon: { sprite:  _Erida/Objects/Tools/Lighters/syndielighter.rsi, state: icon}
   productEntity: UplinkLighterBox
   cost:
     Telecrystal: 1
@@ -2448,7 +2448,7 @@
   id: UplinkAcolyteArmor
   name: uplink-acolyte-armor-name
   description: uplink-acolyte-armor-desc
-  icon: { sprite: Clothing/OuterClothing/Armor/cult_armour.rsi, state: icon}
+  icon: { sprite: _Erida/Clothing/OuterClothing/Armor/cult_armour.rsi, state: icon}
   productEntity: ClothingBackpackDuffelAcolyteBundle
   cost:
     Telecrystal: 20 # Goobstation
@@ -2463,7 +2463,7 @@
   id: UplinkSawAdvanced
   name: uplink-saw-advanced-name
   description: uplink-saw-advanced-desc
-  icon: { sprite:  Objects/Specific/Medical/Surgery/saw.rsi, state: advanced}
+  icon: { sprite:  _Erida/Objects/Specific/Medical/Surgery/saw.rsi, state: advanced}
   productEntity: SawAdvanced
   #discountCategory: rareDiscounts
   #discountDownTo:

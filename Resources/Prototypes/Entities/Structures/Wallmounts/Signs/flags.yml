@@ -6,7 +6,7 @@
   abstract: true
   components:
   - type: Sprite
-    sprite: Structures/Wallmounts/flags.rsi
+    sprite: _Erida/Structures/Wallmounts/flags.rsi
 
 - type: entity
   parent: BaseFlag

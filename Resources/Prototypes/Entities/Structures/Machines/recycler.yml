@@ -54,7 +54,7 @@
     noRot: false
   - type: Sprite
     drawdepth: Doors
-    sprite: Structures/Machines/recycling.rsi
+    sprite: _Erida/Structures/Machines/recycling.rsi
     layers:
     - state: grinder-o0
       map: ["enum.RecyclerVisualLayers.Main"]

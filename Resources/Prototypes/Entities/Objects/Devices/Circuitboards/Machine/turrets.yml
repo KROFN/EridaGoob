@@ -6,7 +6,7 @@
   description: A machine printed circuit board for a sentry turret.
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: _Erida/Objects/Misc/module.rsi
     state: security
   - type: MachineBoard
     prototype: WeaponEnergyTurretStation
@@ -30,7 +30,7 @@
   suffix: AI, Silicon
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: _Erida/Objects/Misc/module.rsi
     state: science
   - type: MachineBoard
     prototype: WeaponEnergyTurretAI
@@ -41,7 +41,7 @@
   suffix: Security
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: _Erida/Objects/Misc/module.rsi
     state: security
   - type: MachineBoard
     prototype: WeaponEnergyTurretSecurity
@@ -52,7 +52,7 @@
   suffix: Command
   components:
   - type: Sprite
-    sprite: Objects/Misc/module.rsi
+    sprite: _Erida/Objects/Misc/module.rsi
     state: command
   - type: MachineBoard
     prototype: WeaponEnergyTurretCommand

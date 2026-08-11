@@ -9,7 +9,7 @@
   - type: Clickable
   - type: InteractionOutline
   - type: Sprite
-    sprite: Objects/Misc/inflatable_wall.rsi
+    sprite: _Erida/Objects/Misc/inflatable_wall.rsi
     state: inflatable_wall
   - type: Physics
     bodyType: Static
@@ -52,7 +52,7 @@
   - type: Clickable
   - type: InteractionOutline
   - type: Sprite
-    sprite: Objects/Misc/inflatable_door.rsi
+    sprite: _Erida/Objects/Misc/inflatable_door.rsi
     state: closed
   - type: Physics
     bodyType: Static
