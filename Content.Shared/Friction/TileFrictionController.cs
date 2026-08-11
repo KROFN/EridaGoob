@@ -30,6 +30,7 @@ namespace Content.Shared.Friction
         [Dependency] private readonly SharedMoverController _mover = default!;
         [Dependency] private readonly SharedMapSystem _map = default!;
 
+        private EntityQuery<CanMoveInAirComponent> _canMoveInAirQuery;
         private EntityQuery<TileFrictionModifierComponent> _frictionQuery;
         private EntityQuery<PullerComponent> _pullerQuery;
         private EntityQuery<PullableComponent> _pullableQuery;
@@ -53,6 +54,7 @@ namespace Content.Shared.Friction
             Subs.CVar(_configManager, CCVars.AirFriction, value => _airDamping = value, true);
             Subs.CVar(_configManager, CCVars.OffgridFriction, value => _offGridDamping = value, true);
             _frictionQuery = GetEntityQuery<TileFrictionModifierComponent>();
+            _canMoveInAirQuery = GetEntityQuery<CanMoveInAirComponent>();
             _pullerQuery = GetEntityQuery<PullerComponent>();
             _pullableQuery = GetEntityQuery<PullableComponent>();
             _gridQuery = GetEntityQuery<MapGridComponent>();
@@ -81,8 +83,8 @@ namespace Content.Shared.Friction
                 float friction;
 
                 // If we're not touching the ground, don't use tileFriction.
-                // TODO: Make IsWeightless event-based; we already have grid traversals tracked so just raise events
-                if (body.BodyStatus == BodyStatus.InAir || _gravity.IsWeightless(uid) || !xform.Coordinates.IsValid(EntityManager))
+                if (body.BodyStatus != BodyStatus.OnGround && !_canMoveInAirQuery.HasComp(uid)
+                    || _gravity.IsWeightless(uid) || !xform.Coordinates.IsValid(EntityManager))
                     friction = xform.GridUid == null || !_gridQuery.HasComp(xform.GridUid) ? _offGridDamping : _airDamping;
                 else
                     friction = _frictionModifier * GetTileFriction(uid, body, xform);
