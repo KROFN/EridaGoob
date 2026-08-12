@@ -1,0 +1,57 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
+- type: body
+  name: "anthropomorph"
+  id: Anthropomorph
+  root: chest
+  slots:
+    head:
+      part: HeadAnthropomorph
+      connections:
+      - chest
+      organs:
+        brain: OrganHumanBrain
+        eyes: OrganHumanEyes
+    chest:
+      part: ChestAnthropomorph
+      connections:
+      - groin
+      - right arm
+      - left arm
+      - head
+      organs:
+        heart: OrganAnimalHeart
+        lungs: OrganHumanLungs
+    groin:
+      part: GroinAnthropomorph
+      connections:
+      - right leg
+      - left leg
+      organs:
+        stomach: OrganHumanStomach
+        liver: OrganHumanLiver
+        kidneys: OrganHumanKidneys
+    right arm:
+      part: RightArmAnthropomorph
+      connections:
+      - right hand
+    left arm:
+      part: LeftArmAnthropomorph
+      connections:
+      - left hand
+    right hand:
+      part: RightHandAnthropomorph
+    left hand:
+      part: LeftHandAnthropomorph
+    right leg:
+      part: RightLegAnthropomorph
+      connections:
+      - right foot
+    left leg:
+      part: LeftLegAnthropomorph
+      connections:
+      - left foot
+    right foot:
+      part: RightFootAnthropomorph
+    left foot:
+      part: LeftFootAnthropomorph

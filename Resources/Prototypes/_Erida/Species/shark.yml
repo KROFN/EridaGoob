@@ -1,0 +1,13 @@
+- type: species
+  id: Shark
+  name: species-name-demon
+  roundStart: false
+  prototype: MobDemon
+  sprites: MobDemonSprites
+  defaultSkinTone: "#34a223"
+  markingLimits: MobDemonMarkingLimits
+  dollPrototype: MobDemonDummy
+  skinColoration: Hues
+  maleFirstNames: NamesFirstMale
+  femaleFirstNames: NamesFirstFemale
+  lastNames: NamesLast
