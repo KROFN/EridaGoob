@@ -5,6 +5,10 @@
   name: roles-antag-devil-name
   antagonist: true
   setPreference: true
+  category: Solo
+  icon:
+    sprite: _Goobstation/Actions/devil.rsi
+    state: base-devil-icon
   objective: roles-antag-devil-description
   guides: [ Devil ]
   requirements:

@@ -5,6 +5,10 @@
   name: roles-antag-blob-name
   antagonist: true
   setPreference: true
+  category: Solo
+  icon:
+    sprite: _Goobstation/Blob/Mobs/blob.rsi
+    state: blob
   objective: roles-antag-blob-objective
   guides: [ Blob ]
   requirements:

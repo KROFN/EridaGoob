@@ -6,5 +6,9 @@
   name: roles-antag-corporate-agent-name
   antagonist: true
   setPreference: true
+  category: Solo
+  icon:
+    sprite: _Funkystation/Interface/Lobby/AntagCards.rsi
+    state: sleeperagent
   objective: roles-antag-corporate-agent-description
   guides: [ CorporateAgents ]

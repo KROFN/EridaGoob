@@ -5,6 +5,10 @@
   name: roles-antag-rev-head-name
   antagonist: true
   setPreference: true
+  category: Team
+  icon:
+    sprite: Objects/Weapons/Melee/flash.rsi
+    state: flash
   objective: roles-antag-rev-head-objective
   requirements:
   - !type:DepartmentTimeRequirement # was  - !type:OverallPlaytimeRequirement, Goob change

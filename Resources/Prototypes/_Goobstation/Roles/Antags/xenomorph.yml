@@ -3,6 +3,10 @@
   name: roles-antag-xenomorph-name
   antagonist: true
   setPreference: true
+  category: Team
+  icon:
+    sprite: _White/Interface/Actions/xenomorph.rsi
+    state: egg
   objective: roles-antag-xenomorph-objective
   guides: [ Xenomorphs ]
   requirements:

@@ -33,19 +33,35 @@ public sealed class AirlockSystem : SharedAirlockSystem
             door.ClosedSpriteStates.Add((DoorVisualLayers.BaseUnlit, comp.ClosedSpriteState));
         }
 
-        ((Animation)door.OpeningAnimation).AnimationTracks.Add(new AnimationTrackSpriteFlick()
+        // erida edit
+        var openingUnlitTrack = new AnimationTrackSpriteFlick
         {
             LayerKey = DoorVisualLayers.BaseUnlit,
             KeyFrames = { new AnimationTrackSpriteFlick.KeyFrame(comp.OpeningSpriteState, 0f) },
-        }
-        );
+        };
 
-        ((Animation)door.ClosingAnimation).AnimationTracks.Add(new AnimationTrackSpriteFlick()
+        var closingUnlitTrack = new AnimationTrackSpriteFlick
         {
             LayerKey = DoorVisualLayers.BaseUnlit,
             KeyFrames = { new AnimationTrackSpriteFlick.KeyFrame(comp.ClosingSpriteState, 0f) },
+        };
+
+        if (comp.OpenUnlitVisible)
+        {
+            openingUnlitTrack.KeyFrames.Add(
+                new AnimationTrackSpriteFlick.KeyFrame(
+                    comp.OpenSpriteState,
+                    (float)(door.OpenTimeOne + door.OpenTimeTwo).TotalSeconds));
+
+            closingUnlitTrack.KeyFrames.Add(
+                new AnimationTrackSpriteFlick.KeyFrame(
+                    comp.ClosedSpriteState,
+                    (float)(door.CloseTimeOne + door.CloseTimeTwo).TotalSeconds));
         }
-        );
+
+        ((Animation)door.OpeningAnimation).AnimationTracks.Add(openingUnlitTrack);
+        ((Animation)door.ClosingAnimation).AnimationTracks.Add(closingUnlitTrack);
+        // erida edit end
 
         door.DenyingAnimation = new Animation()
         {
@@ -100,7 +116,8 @@ public sealed class AirlockSystem : SharedAirlockSystem
                 ||  state == DoorState.Opening
                 ||  state == DoorState.Denying
                 || (state == DoorState.Open && comp.OpenUnlitVisible)
-                || (_appearanceSystem.TryGetData<bool>(uid, DoorVisuals.ClosedLights, out var closedLights, args.Component) && closedLights))
+                || (state == DoorState.Closed && comp.OpenUnlitVisible) // erida edit
+                || (_appearanceSystem.TryGetData<bool>(uid, DoorVisuals.ClosedLights, out var closedLights, args.Component) && closedLights)) // erida edit
                     && !boltedVisible && !emergencyLightsVisible;
         }
 
@@ -122,11 +139,11 @@ public sealed class AirlockSystem : SharedAirlockSystem
         switch (state)
         {
             case DoorState.Open:
-                _sprite.LayerSetRsiState((uid, args.Sprite), DoorVisualLayers.BaseUnlit, comp.ClosingSpriteState);
+                _sprite.LayerSetRsiState((uid, args.Sprite), DoorVisualLayers.BaseUnlit, comp.OpenSpriteState); // erida edit
                 _sprite.LayerSetAnimationTime((uid, args.Sprite), DoorVisualLayers.BaseUnlit, 0);
                 break;
             case DoorState.Closed:
-                _sprite.LayerSetRsiState((uid, args.Sprite), DoorVisualLayers.BaseUnlit, comp.OpeningSpriteState);
+                _sprite.LayerSetRsiState((uid, args.Sprite), DoorVisualLayers.BaseUnlit, comp.ClosedSpriteState); // erida edit
                 _sprite.LayerSetAnimationTime((uid, args.Sprite), DoorVisualLayers.BaseUnlit, 0);
                 break;
         }

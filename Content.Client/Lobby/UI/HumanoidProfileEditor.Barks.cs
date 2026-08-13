@@ -31,7 +31,7 @@ public sealed partial class HumanoidProfileEditor
             .Where(o => o.RoundStart &&
                         (o.SpeciesWhitelist is null ||
                          o.SpeciesWhitelist.Contains(Profile.Species)))
-            .OrderBy(o => Loc.GetString(o.ID))
+            .OrderBy(o => Loc.TryGetString(o.ID, out var localizedId) ? localizedId : o.ID)
             .ToList();
 
         BarkVoiceButton.Clear();
@@ -43,7 +43,8 @@ public sealed partial class HumanoidProfileEditor
             if (bark == Profile.BarkVoice)
                 selectedBarkId = i;
 
-            BarkVoiceButton.AddItem(Loc.GetString(bark.Name), i);
+            // erida edit - avoid unknown messageId warnings for barks without localization
+            BarkVoiceButton.AddItem(Loc.TryGetString(bark.Name, out var barkName) ? barkName : bark.Name, i);
         }
 
         if (selectedBarkId == -1)

@@ -85,6 +85,9 @@ humanoid-profile-editor-traits-tab = Traits
 humanoid-profile-editor-no-traits = No traits available
 
 humanoid-profile-editor-trait-count-hint = Points available: [{$current}/{$max}]
+humanoid-profile-editor-guidebook-button = Guidebook
+humanoid-profile-editor-is-custom-species-button = Custom
+humanoid-profile-editor-custom-species-label = Custom species:
 
 # DeltaV - Custom traits; Moved to _DV to be next to the description
 #trait-category-disabilities = Disabilities

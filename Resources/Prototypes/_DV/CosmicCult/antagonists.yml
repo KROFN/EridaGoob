@@ -3,6 +3,11 @@
   name: roles-antag-cosmiccult-name
   antagonist: true
   setPreference: true
+  category: Team
+  featured: true
+  icon:
+    sprite: _Funkystation/Interface/Lobby/AntagCards.rsi
+    state: cosmiccult
   objective: roles-antag-cosmiccult-description
   requirements:
   - !type:OverallPlaytimeRequirement

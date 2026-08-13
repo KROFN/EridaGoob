@@ -5,6 +5,10 @@
   name: roles-antag-heretic-name
   antagonist: true
   setPreference: true
+  category: Solo
+  icon:
+    sprite: _Funkystation/Interface/Lobby/AntagCards.rsi
+    state: heretic
   objective: roles-antag-heretic-description
   requirements:
   - !type:OverallPlaytimeRequirement

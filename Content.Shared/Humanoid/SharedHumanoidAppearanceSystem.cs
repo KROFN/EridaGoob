@@ -22,6 +22,8 @@ using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization.Manager;
 using Robust.Shared.Serialization.Markdown;
+using Robust.Shared.Serialization.Markdown.Mapping;
+using Robust.Shared.Serialization.Markdown.Sequence;
 using Robust.Shared.Utility;
 using YamlDotNet.RepresentationModel;
 using Robust.Shared.Enums;
@@ -90,7 +92,11 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
         yamlStream.Load(reader);
 
         var root = yamlStream.Documents[0].RootNode;
-        var export = _serManager.Read<HumanoidProfileExport>(root.ToDataNode(), notNullableOverride: true);
+        var dataNode = root.ToDataNode();
+        if (dataNode is MappingDataNode mapping)
+            NormalizeEridaProfile(mapping); // Erida - Profile import compat
+
+        var export = _serManager.Read<HumanoidProfileExport>(dataNode, notNullableOverride: true);
 
         /*
          * Add custom handling here for forks / version numbers if you care.
@@ -101,6 +107,58 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
         profile.EnsureValid(session, collection!);
         return profile;
     }
+
+    // Erida - Profile import compat. Erida exports profiles with a nested
+    // markings structure (organ -> layer -> markings) and flavor text fields
+    // with different casing, both of which WGoob cannot deserialize directly.
+    private static void NormalizeEridaProfile(MappingDataNode root)
+    {
+        if (!root.TryGet("profile", out var profileNode) || profileNode is not MappingDataNode profile)
+            return;
+
+        if (profile.TryGet("appearance", out var appearanceNode) && appearanceNode is MappingDataNode appearance
+            && appearance.TryGet("markings", out var markingsNode) && markingsNode is MappingDataNode markings)
+        {
+            var flat = new SequenceDataNode();
+            foreach (var pair in markings)
+            {
+                if (pair.Value is not MappingDataNode organ)
+                    continue;
+
+                foreach (var layerPair in organ)
+                {
+                    if (layerPair.Value is not SequenceDataNode layer)
+                        continue;
+
+                    foreach (var marking in layer)
+                        flat.Add(marking);
+                }
+            }
+
+            appearance["markings"] = flat;
+        }
+
+        foreach (var (eridaKey, wgoobKey) in FlavorTextKeyMap)
+        {
+            if (profile.TryGet(eridaKey, out var value))
+            {
+                profile.Remove(eridaKey);
+                profile.Add(wgoobKey, value);
+            }
+        }
+    }
+
+    // Erida - Profile import compat. Erida's flavor text fields use
+    // property-name casing (oOCFlavorText, nSFWFlavorText, ...) while
+    // WGoob's DataFields deserialize with camelCase names.
+    private static readonly Dictionary<string, string> FlavorTextKeyMap = new()
+    {
+        ["oOCFlavorText"] = "oocFlavorText",
+        ["nSFWFlavorText"] = "nsfwFlavorText",
+        ["nSFWOOCFlavorText"] = "nsfwOOCFlavorText",
+        ["nSFWLinksFlavorText"] = "nsfwLinksFlavorText",
+        ["nSFWTagsFlavorText"] = "nsfwTagsFlavorText",
+    };
 
     private void OnInit(EntityUid uid, HumanoidAppearanceComponent humanoid, ComponentInit args)
     {

@@ -5,6 +5,10 @@
   name: roles-antag-initial-infected-name
   antagonist: true
   setPreference: true
+  category: Team
+  icon:
+    sprite: Structures/Wallmounts/signs.rsi
+    state: biohazard
   objective: roles-antag-initial-infected-objective
   requirements:
   - !type:OverallPlaytimeRequirement

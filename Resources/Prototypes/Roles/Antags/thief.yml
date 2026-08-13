@@ -5,6 +5,10 @@
   name: roles-antag-thief-name
   antagonist: true
   setPreference: true
+  category: Solo
+  icon:
+    sprite: Clothing/Back/Satchels/smuggler.rsi
+    state: icon
   objective: roles-antag-thief-objective
   guides: [ Thieves ]
   requirements:

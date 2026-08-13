@@ -19,6 +19,8 @@ portable-generator-start-fail = You tug the cord, but it didn't start.
 portable-generator-start-success = You tug the cord, and it whirrs to life.
 
 portable-generator-ui-title = Portable Generator
+portable-generator-ui-power-switch = Power switch
+portable-generator-ui-switch = Output switch
 portable-generator-ui-status-stopped = Stopped:
 portable-generator-ui-status-starting = Starting:
 portable-generator-ui-status-running = Running:

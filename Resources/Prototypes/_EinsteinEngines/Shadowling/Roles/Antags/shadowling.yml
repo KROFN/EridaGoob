@@ -3,6 +3,10 @@
   name: roles-antag-shadowling-name
   antagonist: true
   setPreference: true
+  category: Team
+  icon:
+    sprite: _EinsteinEngines/Mobs/shadowling_ascend.rsi
+    state: shadowling_ascend
   objective: roles-antag-shadowling-description
   requirements:
   - !type:OverallPlaytimeRequirement

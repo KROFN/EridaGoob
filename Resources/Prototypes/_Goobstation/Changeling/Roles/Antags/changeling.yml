@@ -5,6 +5,10 @@
   name: roles-antag-changeling-name
   antagonist: true
   setPreference: true
+  category: Solo
+  icon:
+    sprite: Objects/Weapons/Melee/armblade.rsi
+    state: icon
   objective: roles-antag-changeling-description
   requirements:
   - !type:OverallPlaytimeRequirement

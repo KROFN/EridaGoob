@@ -3,6 +3,10 @@
   name: roles-antag-mothership-core-name
   antagonist: true
   setPreference: true
+  category: Team
+  icon:
+    sprite: Mobs/Silicon/chassis.rsi
+    state: huborg
   objective: roles-antag-mothership-core-objective
   requirements:
   - !type:RoleTimeRequirement
@@ -15,6 +19,10 @@
   name: roles-antag-xenoborg-name
   antagonist: true
   setPreference: true
+  category: Team
+  icon:
+    sprite: Mobs/Silicon/chassis.rsi
+    state: xenoborg_engi
   objective: roles-antag-xenoborg-objective
   requirements:
   - !type:RoleTimeRequirement

@@ -27,6 +27,10 @@
   name: roles-antag-wizard-name
   antagonist: true
   setPreference: true
+  category: Solo
+  icon:
+    sprite: _Funkystation/Interface/Lobby/AntagCards.rsi
+    state: wizard
   objective: roles-antag-wizard-description
   requirements:
   - !type:OverallPlaytimeRequirement

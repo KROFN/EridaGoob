@@ -498,11 +498,14 @@ namespace Content.Client.Lobby.UI
             _jobCategories = new Dictionary<string, BoxContainer>();
 
             RefreshAntags();
+            AntagScroll.OnResized += ReflowAntagGrids; // erida edit
             RefreshJobs();
 
             #endregion Jobs
 
             TabContainer.SetTabTitle(2, Loc.GetString("humanoid-profile-editor-antags-tab"));
+
+            TabContainer.SetTabTitle(3, Loc.GetString("humanoid-profile-editor-traits-tab")); // erida edit
 
             // RefreshTraits(); // DeltaV
 
@@ -906,6 +909,8 @@ namespace Content.Client.Lobby.UI
         //         TraitsList.AddChild(new Label
         //         {
         //             Text = Loc.GetString("humanoid-profile-editor-no-traits"),
+
+
         //             FontColorOverride = Color.Gray,
         //         });
         //         return;
@@ -1046,93 +1051,203 @@ namespace Content.Client.Lobby.UI
 
         public void RefreshAntags()
         {
-            AntagList.RemoveAllChildren();
-            var items = new[]
+            AntagList.DisposeAllChildren();
+            _antagGrids.Clear();
+
+            // Group antags by category prototype
+            var antagGroups = _prototypeManager.EnumeratePrototypes<AntagPrototype>()
+                .Where(a => a.SetPreference)
+                .OrderBy(a => Loc.TryGetString(a.Name, out var antagName) ? antagName : a.Name)
+                .GroupBy(a => a.Category ?? "Default")
+                .OrderBy(g => g.Key);
+
+            foreach (var group in antagGroups)
             {
-                ("humanoid-profile-editor-antag-preference-yes-button", 0),
-                ("humanoid-profile-editor-antag-preference-no-button", 1)
+                var categoryId = group.Key;
+                var categoryAntags = group.ToList();
+
+                string categoryName;
+                if (categoryId == "Default")
+                {
+                    categoryName = "Uncategorized";
+                }
+                else if (_prototypeManager.TryIndex<AntagCategoryPrototype>(categoryId, out var categoryProto))
+                {
+                    categoryName = Loc.TryGetString(categoryProto.Name, out var localizedCategoryName) ? localizedCategoryName : categoryProto.Name;
+                }
+                else
+                {
+                    categoryName = categoryId;
+                }
+
+                // Create category header
+                var headerButton = new ContainerButton
+                {
+                    HorizontalExpand = true,
+                    Margin = new Thickness(0, 10, 0, 5)
+                };
+                var headerPanel = new PanelContainer
+                {
+                    PanelOverride = new StyleBoxFlat
+                    {
+                        BackgroundColor = Color.FromHex("#202028"),
+                        ContentMarginLeftOverride = 8,
+                        ContentMarginRightOverride = 8,
+                        ContentMarginTopOverride = 4,
+                        ContentMarginBottomOverride = 4,
+                        BorderThickness = new Thickness(0)
+                    },
+                    HorizontalExpand = true
+                };
+                headerPanel.AddChild(new Label
+                {
+                    Text = categoryName,
+                    HorizontalAlignment = HAlignment.Center,
+                    StyleClasses = { "LabelHeadingBigger" }
+                });
+                headerButton.AddChild(headerPanel);
+                AntagList.AddChild(headerButton);
+
+                // Collapsible container for cards
+                var categoryContainer = new BoxContainer
+                {
+                    Orientation = LayoutOrientation.Vertical,
+                    HorizontalExpand = true
+                };
+                headerButton.OnPressed += _ =>
+                {
+                    categoryContainer.Visible = !categoryContainer.Visible;
+                };
+
+                // Featured (full-width) cards go first
+                var featuredAntags = categoryAntags.Where(a => a.Featured).ToList();
+                var regularAntags = categoryAntags.Where(a => !a.Featured).ToList();
+
+                if (featuredAntags.Count > 0)
+                {
+                    var featuredGrid = new GridContainer
+                    {
+                        Columns = 1,
+                        HorizontalExpand = true,
+                        Margin = new Thickness(0, 0, 0, 10)
+                    };
+                    foreach (var antag in featuredAntags)
+                    {
+                        var card = BuildAntagCard(antag);
+                        card.SetFeatured(true);
+                        card.HorizontalExpand = true;
+                        featuredGrid.AddChild(card);
+                    }
+                    categoryContainer.AddChild(featuredGrid);
+                }
+
+                if (regularAntags.Count == 0)
+                {
+                    AntagList.AddChild(categoryContainer);
+                    continue;
+                }
+
+                // Fixed GridContainer for cards
+                var grid = new GridContainer
+                {
+                    Columns = 3,
+                    HorizontalExpand = true,
+                    Margin = new Thickness(0, 0, 0, 10)
+                };
+                _antagGrids.Add(grid);
+                foreach (var antag in regularAntags)
+                {
+                    grid.AddChild(BuildAntagCard(antag));
+                }
+                categoryContainer.AddChild(grid);
+                AntagList.AddChild(categoryContainer);
+            }
+
+            ReflowAntagGrids();
+        }
+
+        private AntagSelector BuildAntagCard(AntagPrototype antag) // erida edit
+        {
+            var antagSelector = new AntagSelector();
+            antagSelector.SetName(Loc.TryGetString(antag.Name, out var localizedAntagName) ? localizedAntagName : antag.Name);
+            antagSelector.SetDescription(Loc.TryGetString(antag.Objective, out var localizedAntagObjective) ? localizedAntagObjective : antag.Objective);
+            antagSelector.OnGuidebookClicked += () => OnOpenGuidebook?.Invoke(antag.Guides ?? new());
+
+            // Set icon with fallback
+            Texture? iconTexture = null;
+            if (antag.Icon != null)
+            {
+                try { iconTexture = _sprite.Frame0(antag.Icon); } catch { }
+            }
+            if (iconTexture != null)
+                antagSelector.SetIcon(iconTexture);
+
+            // Preference toggle
+            var isEnabled = Profile?.AntagPreferences.Contains(antag.ID) == true;
+            var toggleButton = new Button
+            {
+                Text = isEnabled ? Loc.GetString("humanoid-profile-editor-antag-preference-yes-button") : Loc.GetString("humanoid-profile-editor-antag-preference-no-button"),
+                ToggleMode = true,
+                Pressed = isEnabled,
+                VerticalAlignment = VAlignment.Center,
+                HorizontalExpand = true,
+                MinWidth = 80
+            };
+            toggleButton.OnToggled += args =>
+            {
+                toggleButton.Text = args.Pressed ? Loc.GetString("humanoid-profile-editor-antag-preference-yes-button") : Loc.GetString("humanoid-profile-editor-antag-preference-no-button");
+                Profile = Profile?.WithAntagPreference(antag.ID, args.Pressed);
+                ReloadPreview();
+                SetDirty();
             };
 
-            AntagList.AddChild(new Label { Text = Loc.GetString("humanoid-profile-editor-antag-roll-before-jobs") }); // Goobstation
-
-            foreach (var antag in _prototypeManager.EnumeratePrototypes<AntagPrototype>().OrderBy(a => Loc.GetString(a.Name)))
+            // erida edit: antag loadouts
+            var loadoutWindowBtn = new Button()
             {
-                if (!antag.SetPreference)
-                    continue;
+                Text = Loc.GetString("loadout-window"),
+                VerticalAlignment = VAlignment.Center,
+                HorizontalExpand = true,
+            };
 
-                var antagContainer = new BoxContainer()
+            if (!_prototypeManager.TryIndex<RoleLoadoutPrototype>(LoadoutSystem.GetAntagPrototype(antag.ID), out var roleLoadoutProto))
+            {
+                loadoutWindowBtn.Disabled = true;
+            }
+            else
+            {
+                loadoutWindowBtn.OnPressed += _ =>
                 {
-                    Orientation = LayoutOrientation.Horizontal,
-                };
+                    RoleLoadout? loadout = null;
 
-                var selector = new RequirementsSelector()
-                {
-                    Margin = new Thickness(3f, 3f, 3f, 0f),
-                };
-                selector.OnOpenGuidebook += OnOpenGuidebook;
+                    Profile?.Loadouts.TryGetValue(LoadoutSystem.GetAntagPrototype(antag.ID), out loadout);
+                    loadout = loadout?.Clone();
 
-                var title = Loc.GetString(antag.Name);
-                var description = Loc.GetString(antag.Objective);
-                selector.Setup(items, title, 250, description, guides: antag.Guides);
-                selector.Select(Profile?.AntagPreferences.Contains(antag.ID) == true ? 0 : 1);
-
-                if (!_requirements.IsAllowed(
-                        antag,
-                        (HumanoidCharacterProfile?) _preferencesManager.Preferences?.SelectedCharacter,
-                        out var reason))
-                {
-                    selector.LockRequirements(reason);
-                    Profile = Profile?.WithAntagPreference(antag.ID, false);
-                    SetDirty();
-                }
-                else
-                {
-                    selector.UnlockRequirements();
-                }
-
-                selector.OnSelected += preference =>
-                {
-                    Profile = Profile?.WithAntagPreference(antag.ID, preference == 0);
-                    SetDirty();
-                };
-
-                antagContainer.AddChild(selector);
-
-                var loadoutWindowBtn = new Button()
-                {
-                    Text = Loc.GetString("loadout-window"),
-                    HorizontalAlignment = HAlignment.Right,
-                    Margin = new Thickness(3f, 0f, 0f, 0f),
-                };
-
-                // Goob start
-                if (!_prototypeManager.TryIndex<RoleLoadoutPrototype>(LoadoutSystem.GetAntagPrototype(antag.ID), out var roleLoadoutProto))
-                {
-                    loadoutWindowBtn.Disabled = true;
-                }
-                else
-                {
-                    loadoutWindowBtn.OnPressed += _ =>
+                    if (loadout == null)
                     {
-                        RoleLoadout? loadout = null;
+                        loadout = new RoleLoadout(roleLoadoutProto.ID);
+                        loadout.SetDefault(Profile, _playerManager.LocalSession, _prototypeManager);
+                    }
 
-                        Profile?.Loadouts.TryGetValue(LoadoutSystem.GetAntagPrototype(antag.ID), out loadout);
-                        loadout = loadout?.Clone();
+                    OpenLoadout(null, loadout, roleLoadoutProto, Loc.TryGetString(antag.Name, out var localizedLoadoutAntagName) ? localizedLoadoutAntagName : antag.Name);
+                };
+            }
+            antagSelector.SetLoadoutButton(loadoutWindowBtn);
+            antagSelector.SetPreferenceSelector(toggleButton);
+            return antagSelector;
+        }
 
-                        if (loadout == null)
-                        {
-                            loadout = new RoleLoadout(roleLoadoutProto.ID);
-                            loadout.SetDefault(Profile, _playerManager.LocalSession, _prototypeManager);
-                        }
+        private readonly List<GridContainer> _antagGrids = new(); // erida edit
 
-                        OpenLoadout(null, loadout, roleLoadoutProto, Loc.GetString(antag.Name));
-                    };
-                }
+        private void ReflowAntagGrids() // erida edit
+        {
+            var viewWidth = AntagScroll.Width;
+            if (viewWidth <= 0)
+                return;
 
-                antagContainer.AddChild(loadoutWindowBtn);
-                // Goob end
-
-                AntagList.AddChild(antagContainer);
+            var columns = Math.Max(1, (int) (viewWidth / 360.0f));
+            foreach (var grid in _antagGrids)
+            {
+                grid.Columns = columns;
             }
         }
 

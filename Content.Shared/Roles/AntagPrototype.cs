@@ -3,6 +3,7 @@
 using Content.Shared.Guidebook;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
+using Robust.Shared.Utility;
 
 namespace Content.Shared.Roles;
 
@@ -39,6 +40,24 @@ public sealed partial class AntagPrototype : IPrototype
     /// </summary>
     [DataField("antagonist")]
     public bool Antagonist { get; private set; }
+
+    /// <summary> // erida edit
+    ///     Icon to display in the antag preference menu.
+    /// </summary>
+    [DataField]
+    public SpriteSpecifier? Icon { get; private set; }
+
+    /// <summary> // erida edit
+    ///     The category prototype ID for this antag.
+    /// </summary>
+    [DataField("category")]
+    public string? Category { get; private set; }
+
+    /// <summary> // erida edit
+    ///     Whether this antag gets a full-width card in the antag preference menu.
+    /// </summary>
+    [DataField]
+    public bool Featured { get; private set; }
 
     /// <summary>
     ///     Whether or not the player can set the antag role in antag preferences.
