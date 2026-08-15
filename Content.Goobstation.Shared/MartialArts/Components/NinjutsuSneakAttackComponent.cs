@@ -43,10 +43,10 @@ public sealed partial class NinjutsuSneakAttackComponent : Component
 
     // This should be LocId but combos names don't use locale anyway
     [DataField]
-    public string AssassinateComboName = "Assassinate";
+    public string AssassinateComboName = "martial-arts-combo-Assassinate";
 
     [DataField]
-    public string TakedownComboName = "Ninjutsu Takedown";
+    public string TakedownComboName = "martial-arts-combo-Ninjutsu-Takedown";
 
     [DataField]
     public ProtoId<AlertPrototype> Alert = "SneakAttack";

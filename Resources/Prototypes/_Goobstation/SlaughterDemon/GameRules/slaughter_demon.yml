@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: AGPL-3.0-or-later
+﻿# SPDX-License-Identifier: AGPL-3.0-or-later
 
 # major
 - type: entity
@@ -91,9 +91,9 @@
   - type: AntagSpawner
     prototype: MobLesserSlaughterDemon
   - type: StationEvent
-    weight: 1
+    weight: 0.2 # Erida edit
     earliestStart: 30
-    minimumPlayers: 50
+    minimumPlayers: 60 # Erida edit
     duration: null
     maxOccurrences: 1
     chaos:

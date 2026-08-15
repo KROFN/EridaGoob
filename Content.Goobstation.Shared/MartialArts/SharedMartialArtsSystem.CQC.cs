@@ -141,7 +141,7 @@ public partial class SharedMartialArtsSystem
                         break;
 
                     _trauma.ApplyDamageToBone(bone, boneComp.BoneIntegrity, boneComp);
-                    ComboPopup(ent, args.Target, "Neck Snap");
+                    ComboPopup(ent, args.Target, "martial-arts-combo-NeckSnap");
                     break;
                 }
 
@@ -157,7 +157,7 @@ public partial class SharedMartialArtsSystem
 
                 _standingState.Stand(ent.Owner);
                 _stun.TryKnockdown(args.Target, TimeSpan.FromSeconds(5), true);
-                ComboPopup(ent, args.Target, "Leg Sweep");
+                ComboPopup(ent, args.Target, "martial-arts-combo-LegSweep");
                 break;
         }
     }
