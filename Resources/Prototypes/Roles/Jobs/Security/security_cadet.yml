@@ -8,10 +8,6 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 10h
-    - !type:DepartmentTimeRequirement
-      department: Security
-      time: 10h # Goobstation
-      inverted: true # stop playing intern if you're good at security!
   startingGear: SecurityCadetGear
   icon: "JobIconSecurityCadet"
   supervisors: job-supervisors-security

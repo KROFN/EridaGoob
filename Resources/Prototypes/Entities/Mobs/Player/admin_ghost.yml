@@ -126,6 +126,13 @@
     allowedVerbs: []
   - type: ExplosionResistance
     damageCoefficient: 0
+  # Erida start
+  - type: ShowMindShieldIcons
+  - type: ShowJobIcons
+  - type: ShowHealthBars
+  - type: ShowCriminalRecordIcons
+  - type: UniversalLanguageSpeaker
+  # Erida end
 
 - type: entity
   abstract: true

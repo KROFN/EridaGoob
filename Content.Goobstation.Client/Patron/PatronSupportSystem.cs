@@ -49,6 +49,8 @@ public sealed class PatronSupportUIController : UIController, IOnStateEntered<Lo
 
     private void ShowSupportWindow()
     {
+        return; // TODO enable it
+
         if (_supportWindow != null)
             return;
 

@@ -8,10 +8,6 @@
   requirements:
     - !type:OverallPlaytimeRequirement
       time: 2h # Goobstation
-    - !type:DepartmentTimeRequirement
-      department: Engineering
-      time: 10h # Goobstation
-      inverted: true # stop playing intern if you're good at engineering!
   startingGear: TechnicalAssistantGear
   icon: "JobIconTechnicalAssistant"
   supervisors: job-supervisors-engineering

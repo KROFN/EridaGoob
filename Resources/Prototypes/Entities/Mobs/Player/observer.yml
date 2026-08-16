@@ -89,6 +89,9 @@
         type: RevivalContractBoundUserInterface
         requireInputValidation: false
   - type: Sprinter # Goob Change
+  - type: MovementSpeedModifier # Erida
+    baseWalkSpeed : 22
+    baseSprintSpeed : 12
 
 # proto for player ghosts specifically
 - type: entity
