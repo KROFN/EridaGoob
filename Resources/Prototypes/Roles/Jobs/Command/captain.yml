@@ -30,9 +30,6 @@
     #   hairColorSaturation: 0.30
   guides: # goobstation
   - Command
-  - Succession
-  - StandardProceduresSOP
-  - CaptainSOP
   goobcoins: 50 #Goob content
   weight: 20
   startingGear: CaptainGear

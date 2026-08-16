@@ -27,8 +27,6 @@
   antagAdvantage: 75 # Goobstation
   guides: # goobstation
   - Cargo
-  - QuartermasterSOP
-  - CargoSOP
   - Command
   goobcoins: 40 #Goob content
   access:

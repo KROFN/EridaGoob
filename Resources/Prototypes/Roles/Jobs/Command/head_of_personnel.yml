@@ -27,9 +27,6 @@
       - Felinid
   guides: # goobstation
   - Command
-  - Succession
-  - StandardProceduresSOP
-  - HeadOfPersonnelSOP
   - Writing
   goobcoins: 40 #Goob content
   weight: 20

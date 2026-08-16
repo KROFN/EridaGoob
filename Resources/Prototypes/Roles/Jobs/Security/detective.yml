@@ -15,8 +15,6 @@
   canBeAntag: false
   guides: # goobstation
   - Forensics
-  - Security
-  - DetectiveSOP
   goobcoins: 30 #Goob content
   access:
   - Security
