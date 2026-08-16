@@ -49,54 +49,53 @@
 
 - type: markingPoints
   id: MobArachnidMarkingLimits
-  onlyWhitelisted: true
   points:
     Hair:
-      points: 1
+      points: 10
       required: false
     Tail:
-      points: 1
+      points: 10
       required: true
       defaultMarkings: [ ArachnidAppendagesDefault ]
     HeadTop:
-      points: 6
+      points: 10
       required: false
     HeadSide:
-      points: 3
+      points: 10
       required: true
       defaultMarkings: [ ArachnidCheliceraeDownwards ]
     Chest:
-      points: 10
+      points: 100
       required: false
     UndergarmentBottom:
-      points: 1
+      points: 10
       required: false
     UndergarmentTop:
-      points: 1
+      points: 10
       required: false
     RightLeg:
-      points: 2
+      points: 10
       required: false
     RightFoot:
-      points: 2
+      points: 10
       required: false
     LeftLeg:
-      points: 2
+      points: 10
       required: false
     LeftFoot:
-      points: 2
+      points: 10
       required: false
     RightArm:
-      points: 2
+      points: 10
       required: false
     RightHand:
-      points: 3
+      points: 10
       required: false
     LeftArm:
-      points: 2
+      points: 10
       required: false
     LeftHand:
-      points: 3
+      points: 10
       required: false
 
 - type: humanoidBaseSprite

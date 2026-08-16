@@ -43,51 +43,51 @@
   id: MobVulpkaninMarkingLimits
   points:
     Hair:
-      points: 1
+      points: 10
       required: false
     FacialHair:
-      points: 1
+      points: 10
       required: false
     Tail:
-      points: 1
+      points: 10
       required: true
       defaultMarkings: [ VulpTail ]
     RightLeg:
-      points: 2
+      points: 10
       required: false
     RightFoot:
-      points: 2
+      points: 10
       required: false
     LeftLeg:
-      points: 2
+      points: 10
       required: false
     LeftFoot:
-      points: 2
+      points: 10
       required: false
     RightArm:
-      points: 2
+      points: 10
       required: false
     RightHand:
-      points: 3
+      points: 10
       required: false
     LeftArm:
-      points: 2
+      points: 10
       required: false
     LeftHand:
-      points: 3
+      points: 10
       required: false
     Snout:
-      points: 1
+      points: 10
       required: false
     HeadTop:
-      points: 3
+      points: 10
       required: true
       defaultMarkings: [ VulpEar ]
     HeadSide:
-      points: 2
+      points: 10
       required: false
     Overlay:
-      points: 2
+      points: 10
       required: false
 
 - type: humanoidBaseSprite

@@ -39,45 +39,45 @@
   id: MobFeroxiMarkingLimits
   points:
     Hair:
-      points: 1
+      points: 10
       required: false
     FacialHair:
-      points: 1
+      points: 10
       required: false
     Head:
-      points: 3
+      points: 10
       required: false
     HeadTop:
-      points: 1
+      points: 10
       required: true
       defaultMarkings: [ FeroxiEars ]
     Snout:
-      points: 1
+      points: 10
       required: true
       defaultMarkings: [ FeroxiSnout ]
     Chest:
-      points: 3
+      points: 10
       required: false
     Arms:
-      points: 4
+      points: 10
       required: false
     Legs:
-      points: 4
+      points: 10
       required: false
     RightHand:
-      points: 2
+      points: 10
       required: false
     LeftHand:
-      points: 2
+      points: 10
       required: false
     RightFoot:
-      points: 2
+      points: 10
       required: false
     LeftFoot:
-      points: 2
+      points: 10
       required: false
     Tail:
-      points: 1
+      points: 10
       required: true
       defaultMarkings: [ FeroxiTailAndDorsal ]
 

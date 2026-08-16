@@ -42,64 +42,63 @@
 
 - type: markingPoints
   id: MobVoxMarkingLimits
-  onlyWhitelisted: true
   points:
     Hair:
-      points: 1
+      points: 10
       required: false
     FacialHair:
-      points: 1
+      points: 10
       required: false
     Head:
-      points: 4
+      points: 10
       required: true
     Snout:
-      points: 1
+      points: 10
       required: true
       defaultMarkings: [ VoxBeak ]
     SnoutCover:
-      points: 1
+      points: 10
       required: false
     Arms:
-      points: 4
+      points: 10
       required: true
       defaultMarkings: [ VoxLArmScales, VoxRArmScales, VoxRHandScales, VoxLHandScales ]
     Legs:
-      points: 4
+      points: 10
       required: true
       defaultMarkings: [ VoxLLegScales, VoxRLegScales, VoxRFootScales, VoxLFootScales ]
     UndergarmentTop:
-      points: 1
+      points: 10
       required: false
     UndergarmentBottom:
-      points: 1
+      points: 10
       required: false
     Chest:
-      points: 1
+      points: 10
       required: false
     RightLeg:
-      points: 2
+      points: 10
       required: false
     RightFoot:
-      points: 2
+      points: 10
       required: false
     LeftLeg:
-      points: 2
+      points: 10
       required: false
     LeftFoot:
-      points: 2
+      points: 10
       required: false
     RightArm:
-      points: 2
+      points: 10
       required: false
     RightHand:
-      points: 2
+      points: 10
       required: false
     LeftArm:
-      points: 2
+      points: 10
       required: false
     LeftHand:
-      points: 2
+      points: 10
       required: false
 
 - type: humanoidBaseSprite

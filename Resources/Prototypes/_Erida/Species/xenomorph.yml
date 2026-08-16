@@ -45,33 +45,32 @@
 
 - type: markingPoints
   id: MobHumanoidXenoMarkingLimits
-  onlyWhitelisted: true
   points:
     Hair:
-      points: 0
+      points: 10
       required: false
     FacialHair:
-      points: 0
+      points: 10
       required: false
     Tail:
-      points: 1
+      points: 10
       required: true
       defaultMarkings: [ HumanoidXenoTailDrone ]
     Head:
-      points: 1
+      points: 10
       required: true
       defaultMarkings: [ HumanoidXenoHeadDrone ]
     HeadTop:
-      points: 1
+      points: 10
       required: false
     Chest:
-      points: 1
+      points: 10
       required: false
     Legs:
-      points: 1
+      points: 10
       required: false
     Arms:
-      points: 1
+      points: 10
       required: false
 
 - type: humanoidBaseSprite
