@@ -470,10 +470,10 @@ namespace Content.Server.Database
         public string Sex { get; set; } = null!;
         public string Gender { get; set; } = null!;
         public string Species { get; set; } = null!;
+        [Column("ttsvoice")] public string TTSVoice { get; set; } = null!; // CorvaxGoob-TTS
         public string CustomSpecies { get; set; } = null!; // Erida edit
         public float Height { get; set; } = 1f; // Goobstation: port EE height/width sliders
         public float Width { get; set; } = 1f; // Goobstation: port EE height/width sliders
-        public string Voice { get; set; } = null!; // Corvax-TTS
         public string BarkVoice { get; set; } = null!; // Goob Station - Barks
         [Column(TypeName = "jsonb")] public JsonDocument? Markings { get; set; } = null!;
         public string HairName { get; set; } = null!;

@@ -52,6 +52,7 @@
 using System.Linq;
 using System.Text.RegularExpressions;
 using Content.Shared.CCVar;
+using Content.Shared._CorvaxGoob.TTS;
 using Content.Shared.Dataset;
 using Content.Shared.GameTicking;
 using Content.Shared.Humanoid;
@@ -72,7 +73,6 @@ using Robust.Shared.Utility;
 using Robust.Shared;
 using YamlDotNet.RepresentationModel;
 using Content.Shared._DV.Traits; // DeltaV - Traits rework
-using Content.Shared._Erida.TTS;
 
 namespace Content.Shared.Preferences
 {
@@ -167,10 +167,10 @@ namespace Content.Shared.Preferences
         [DataField]
         public ProtoId<SpeciesPrototype> Species { get; set; } = SharedHumanoidAppearanceSystem.DefaultSpecies;
 
-        // Erida start
+        // CorvaxGoob-TTS-Start
         [DataField]
-        public string Voice { get; set; } = SharedHumanoidAppearanceSystem.DefaultVoice; // Corvax-TTS
-        // Erida end
+        public string TTSVoice { get; set; } = SharedHumanoidAppearanceSystem.DefaultVoice;
+        // CorvaxGoob-TTS-End
 
         [DataField] // Goob Station - Barks
         public ProtoId<BarkPrototype> BarkVoice { get; set; } = SharedHumanoidAppearanceSystem.DefaultBarkVoice; // Goob Station - Barks
@@ -254,7 +254,7 @@ namespace Content.Shared.Preferences
             float height, // Goobstation: port EE height/width sliders
             float width, // Goobstation: port EE height/width sliders
             string customspecies, // Erida edit
-            string voice, // Corvax-TTS
+            string ttsVoice, // CorvaxGoob-TTS
             int age,
             Sex sex,
             Gender gender,
@@ -286,7 +286,7 @@ namespace Content.Shared.Preferences
             Height = height; // Goobstation: port EE height/width sliders
             Width = width; // Goobstation: port EE height/width sliders
             CustomSpecies = customspecies; // Erida edit
-            Voice = voice; // Corvax-TTS
+            TTSVoice = ttsVoice; // CorvaxGoob-TTS
             Age = age;
             Sex = sex;
             Gender = gender;
@@ -335,7 +335,7 @@ namespace Content.Shared.Preferences
                 other.Height, // Goobstation: port EE height/width sliders
                 other.Width, // Goobstation: port EE height/width sliders
                 other.CustomSpecies, // Erida edit
-                other.Voice, // Corvax-TTS
+                other.TTSVoice, // CorvaxGoob-TTS
                 other.Age,
                 other.Sex,
                 other.Gender,
@@ -409,6 +409,13 @@ namespace Content.Shared.Preferences
                 width = random.NextFloat(speciesPrototype.MinWidth, speciesPrototype.MaxWidth); // Goobstation: port EE height/width sliders
             }
 
+            // CorvaxGoob-TTS-Start
+            var voiceId = random.Pick(prototypeManager
+                .EnumeratePrototypes<TTSVoicePrototype>()
+                .Where(o => CanHaveVoice(o, sex)).ToArray()
+            ).ID;
+            // CorvaxGoob-TTS-End
+
             // Goob Station - Barks Start
             var barkvoiceId = random.Pick(prototypeManager
                 .EnumeratePrototypes<BarkPrototype>()
@@ -416,14 +423,6 @@ namespace Content.Shared.Preferences
                 .ToArray()
             );
             //  Goob Station - Barks End
-
-            // Corvax-TTS-Start
-            var voiceId = random.Pick(prototypeManager
-                .EnumeratePrototypes<TTSVoicePrototype>()
-                .Where(x => x.RoundStart)
-                .Where(o => CanHaveVoice(o, sex)).ToArray()
-            ).ID;
-            // Corvax-TTS-End
 
             var gender = Gender.Epicene;
 
@@ -447,9 +446,9 @@ namespace Content.Shared.Preferences
                 Age = age,
                 Gender = gender,
                 Species = species,
-                Voice = voiceId, // Corvax-TTS
                 Width = width, // Goobstation: port EE height/width sliders
                 Height = height, // Goobstation: port EE height/width sliders
+                TTSVoice = voiceId, // CorvaxGoob-TTS
                 Appearance = HumanoidCharacterAppearance.Random(species, sex),
                 BarkVoice = barkvoiceId, // Goob Station - Barks
             };
@@ -577,13 +576,6 @@ namespace Content.Shared.Preferences
         }
         // Goob Station - Barks End
 
-        // Corvax-TTS-Start
-        public HumanoidCharacterProfile WithVoice(string voice)
-        {
-            return new(this) { Voice = voice };
-        }
-        // Corvax-TTS-End
-
         public HumanoidCharacterProfile WithJobPriorities(IEnumerable<KeyValuePair<ProtoId<JobPrototype>, JobPriority>> jobPriorities)
         {
             var dictionary = new Dictionary<ProtoId<JobPrototype>, JobPriority>(jobPriorities);
@@ -668,6 +660,13 @@ namespace Content.Shared.Preferences
             };
         }
 
+        // CorvaxGoob-TTS-Start
+        public HumanoidCharacterProfile WithVoice(string voice)
+        {
+            return new(this) { TTSVoice = voice };
+        }
+        // CorvaxGoob-TTS-End
+
         public HumanoidCharacterProfile WithTraitPreference(ProtoId<TraitPrototype> traitId, IPrototypeManager protoManager)
         {
             // null category is assumed to be default.
@@ -741,11 +740,11 @@ namespace Content.Shared.Preferences
             if (Name != other.Name) return false;
             if (Age != other.Age) return false;
             if (Sex != other.Sex) return false;
+            if (TTSVoice != other.TTSVoice) return false; // CorvaxGoob-TTS
             if (Gender != other.Gender) return false;
             if (Species != other.Species) return false;
             if (Height != other.Height) return false; // Goobstation: port EE height/width sliders
             if (Width != other.Width) return false; // Goobstation: port EE height/width sliders
-            if (Voice != other.Voice) return false; // Corvax-TTS
             if (BarkVoice != other.BarkVoice) return false; // Goob Station - Barks
             if (CustomSpecies != other.CustomSpecies) return false; // Erida edit
             if (PreferenceUnavailable != other.PreferenceUnavailable) return false;
@@ -1042,12 +1041,6 @@ namespace Content.Shared.Preferences
                          .Where(prototypeManager.HasIndex)
                          .ToList();
 
-            // Corvax-TTS-Start
-            prototypeManager.TryIndex<TTSVoicePrototype>(Voice, out var voice);
-            if (voice is null || !CanHaveVoice(voice, Sex))
-                Voice = SharedHumanoidAppearanceSystem.DefaultSexVoice[sex];
-            // Corvax-TTS-End
-
             Name = name;
             FlavorText = flavortext;
             // Orion-Start
@@ -1086,6 +1079,12 @@ namespace Content.Shared.Preferences
 
             _traitPreferences.Clear();
             _traitPreferences.UnionWith(GetValidTraits(traits, prototypeManager));
+
+            // CorvaxGoob-TTS-Start
+            prototypeManager.TryIndex<TTSVoicePrototype>(TTSVoice, out var ttsVoice);
+            if (ttsVoice is null || !CanHaveVoice(ttsVoice, Sex))
+                TTSVoice = SharedHumanoidAppearanceSystem.DefaultSexVoice[sex];
+            // CorvaxGoob-TTS-End
 
             // Checks prototypes exist for all loadouts and dump / set to default if not.
             var toRemove = new ValueList<string>();
@@ -1149,6 +1148,13 @@ namespace Content.Shared.Preferences
             return result;
         }
 
+        // CorvaxGoob-TTS-Start
+        // SHOULD BE NOT PUBLIC, BUT....
+        public static bool CanHaveVoice(TTSVoicePrototype voice, Sex sex)
+        {
+            return voice.RoundStart && sex == Sex.Unsexed || (voice.Sex == sex || voice.Sex == Sex.Unsexed);
+        }
+        // CorvaxGoob-TTS-End
         public ICharacterProfile Validated(ICommonSession session, IDependencyCollection collection)
         {
             var profile = new HumanoidCharacterProfile(this);
@@ -1202,9 +1208,9 @@ namespace Content.Shared.Preferences
             hashCode.Add(Height); // Goobstation: port EE height/width sliders
             hashCode.Add(Width); // Goobstation: port EE height/width sliders
             hashCode.Add(CustomSpecies); // Erida edit
-            hashCode.Add(Voice); // Corvax-TTS
             hashCode.Add(Age);
             hashCode.Add((int) Sex);
+            hashCode.Add(TTSVoice); // CorvaxGoob-TTS
             hashCode.Add((int) Gender);
             hashCode.Add(Appearance);
             hashCode.Add(BarkVoice); // Goob Station - Barks
@@ -1283,13 +1289,5 @@ namespace Content.Shared.Preferences
         {
             return new HumanoidCharacterProfile(this);
         }
-
-        // Corvax-TTS-Start
-        // SHOULD BE NOT PUBLIC, BUT....
-        public static bool CanHaveVoice(TTSVoicePrototype voice, Sex sex)
-        {
-            return voice.RoundStart && sex == Sex.Unsexed || (voice.Sex == sex || voice.Sex == Sex.Unsexed);
-        }
-        // Corvax-TTS-End
     }
 }

@@ -1,10 +1,5 @@
-﻿using Robust.Shared.Configuration;
+using Robust.Shared.Configuration;
 
-/// <summary>
-///     Corvax modules console variables
-/// </summary>
-
-// ReSharper disable once InconsistentNaming
 namespace Content.Shared.CCVar;
 
 public sealed partial class CCVars
@@ -13,19 +8,19 @@ public sealed partial class CCVars
     /// URL of the TTS server API.
     /// </summary>
     public static readonly CVarDef<bool> TTSEnabled =
-        CVarDef.Create("tts.enabled", false, CVar.SERVER | CVar.REPLICATED | CVar.ARCHIVE);
+        CVarDef.Create("tts.enabled", true, CVar.SERVER | CVar.REPLICATED | CVar.ARCHIVE);
 
     /// <summary>
     /// URL of the TTS server API.
     /// </summary>
     public static readonly CVarDef<string> TTSApiUrl =
-        CVarDef.Create("tts.api_url", "", CVar.SERVERONLY | CVar.ARCHIVE);
+        CVarDef.Create("tts.api_url", "test", CVar.SERVERONLY | CVar.ARCHIVE);
 
     /// <summary>
     /// Auth token of the TTS server API.
     /// </summary>
     public static readonly CVarDef<string> TTSApiToken =
-        CVarDef.Create("tts.api_token", "", CVar.SERVERONLY | CVar.CONFIDENTIAL);
+        CVarDef.Create("tts.api_token", "test", CVar.SERVERONLY | CVar.CONFIDENTIAL);
 
     /// <summary>
     /// Amount of seconds before timeout for API
@@ -46,17 +41,6 @@ public sealed partial class CCVars
         CVarDef.Create("tts.max_cache", 250, CVar.SERVERONLY | CVar.ARCHIVE);
 
     /// <summary>
-    /// VoiceId for Announcement TTS
-    /// </summary>
-    public static readonly CVarDef<string> TTSAnnounceVoiceId =
-        CVarDef.Create("tts.announce_voice", "Announcer", CVar.SERVERONLY | CVar.ARCHIVE);
-
-    /// <summary>
-    /// Default volume setting of TTS Announce sound
-    /// </summary>
-    public static readonly CVarDef<float> TTSAnnounceVolume =
-        CVarDef.Create("tts.announce_volume", 0f, CVar.CLIENTONLY | CVar.ARCHIVE);
-
     /// Tts rate limit values are accounted in periods of this size (seconds).
     /// After the period has passed, the count resets.
     /// </summary>
@@ -68,4 +52,8 @@ public sealed partial class CCVars
     /// </summary>
     public static readonly CVarDef<int> TTSRateLimitCount =
         CVarDef.Create("tts.rate_limit_count", 3, CVar.SERVERONLY);
+
+    /// </summary>
+    public static readonly CVarDef<float> AnnouncementsSound =
+        CVarDef.Create("audio.announcements_volume", 0.5f, CVar.CLIENTONLY | CVar.ARCHIVE);
 }

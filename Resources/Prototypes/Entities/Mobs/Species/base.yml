@@ -353,6 +353,7 @@
     - Parasite
   - type: ObraDinnBody # Goobstation
   # </Goobstation>
+  - type: TTS # Erida 
 
 - type: entity
   save: false
@@ -431,4 +432,3 @@
     interfaces:
       enum.HumanoidMarkingModifierKey.Key: # sure, this can go here too
         type: HumanoidMarkingModifierBoundUserInterface
-  - type: TTS # Erida-TTS-Edit

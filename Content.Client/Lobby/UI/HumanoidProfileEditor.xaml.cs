@@ -42,7 +42,8 @@ using Content.Goobstation.Common.CCVar; // Goob Station - Barks
 using Content.Goobstation.Common.Barks; // Goob Station - Barks
 using Robust.Shared.Physics.Systems;
 using Robust.Shared.Physics;
-using Content.Shared._DV.Traits; // DV - Traits
+using Content.Shared._DV.Traits;
+using Content.Client._CorvaxGoob.TTS; // DV - Traits
 
 namespace Content.Client.Lobby.UI
 {
@@ -66,7 +67,7 @@ namespace Content.Client.Lobby.UI
         private int _maxNameLength;
         private int _maxCustomSpeciesLength; // Erida
         private bool _allowFlavorText;
-
+        private TTSTab? _ttsTab;// CorvaxGoob-TTS
         private FlavorText.FlavorText? _flavorText;
         private TextEdit? _flavorTextEdit;
         // Orion-Start
@@ -448,18 +449,6 @@ namespace Content.Client.Lobby.UI
 
             #endregion SpawnPriority
 
-            // Corvax-TTS-Start
-            #region Voice
-
-            if (configurationManager.GetCVar(CCVars.TTSEnabled))
-            {
-                TTSContainer.Visible = true;
-                InitializeVoice();
-            }
-
-            #endregion
-            // Corvax-TTS-End
-
             #region Eyes
 
             EyeColorPicker.OnEyeColorPicked += newColor =>
@@ -521,6 +510,8 @@ namespace Content.Client.Lobby.UI
             #endregion Markings
 
             RefreshFlavorText();
+
+            RefreshVoiceTab(); // CorvaxGoob-TTS
 
             #region Dummy
 
@@ -601,6 +592,56 @@ namespace Content.Client.Lobby.UI
             Traits.UpdateConditions(Profile.Species.Id);
         }
         // End DeltaV - Traits Integration
+
+        //CorvaxGoob-TTS-Start
+        #region Voice
+
+        private void RefreshVoiceTab()
+        {
+            if (!_cfgManager.GetCVar(CCVars.TTSEnabled))
+                return;
+
+            _ttsTab = new TTSTab();
+            var children = new List<Control>();
+            foreach (var child in TabContainer.Children)
+                children.Add(child);
+
+            TabContainer.RemoveAllChildren();
+
+            for (int i = 0; i < children.Count; i++)
+            {
+                if (i == 1) // Set the tab to the 2nd place.
+                {
+                    TabContainer.AddChild(_ttsTab);
+                }
+                TabContainer.AddChild(children[i]);
+            }
+
+            TabContainer.SetTabTitle(1, Loc.GetString("humanoid-profile-editor-voice-tab"));
+
+            _ttsTab.OnVoiceSelected += voiceId =>
+            {
+                SetVoice(voiceId);
+                _ttsTab.SetSelectedVoice(voiceId);
+            };
+
+            _ttsTab.OnPreviewRequested += voiceId =>
+            {
+                _entManager.System<TTSSystem>().RequestPreviewTTS(voiceId);
+            };
+        }
+
+        private void UpdateTTSVoicesControls()
+        {
+            if (Profile is null || _ttsTab is null)
+                return;
+
+            _ttsTab.UpdateControls(Profile, Profile.Sex);
+            _ttsTab.SetSelectedVoice(Profile.TTSVoice);
+        }
+
+        #endregion
+        // CorvaxGoob-TTS-End
 
         /// <summary>
         /// Refreshes the flavor text editor status.
@@ -1329,6 +1370,7 @@ namespace Content.Client.Lobby.UI
             UpdateEyePickers();
             UpdateSaveButton();
             UpdateMarkings();
+            UpdateTTSVoicesControls(); // CorvaxGoob-TTS
             UpdateBarkVoice(); // Goob Station - Barks
             UpdateHairPickers();
             UpdateCMarkingsHair();
@@ -1849,6 +1891,14 @@ namespace Content.Client.Lobby.UI
             Profile = Profile?.WithGender(newGender);
             ReloadPreview();
         }
+
+        // CorvaxGoob-TTS-Start
+        private void SetVoice(string newVoice)
+        {
+            Profile = Profile?.WithVoice(newVoice);
+            IsDirty = true;
+        }
+        // CorvaxGoob-TTS-End
 
         private void SetSpecies(string newSpecies)
         {
@@ -2451,18 +2501,5 @@ namespace Content.Client.Lobby.UI
             ImportButton.Disabled = false;
             ExportButton.Disabled = false;
         }
-
-        // Corvax-TTS-Start
-        private void SetVoice(string newVoice)
-        {
-            // Erida start
-            if (Profile?.Voice == newVoice)
-                return;
-            // Erida end
-
-            Profile = Profile?.WithVoice(newVoice);
-            SetDirty(); // Erida edit
-        }
-        // Corvax-TTS-End
     }
 }

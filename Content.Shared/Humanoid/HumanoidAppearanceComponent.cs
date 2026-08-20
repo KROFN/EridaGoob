@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 
-using Content.Goobstation.Common.Barks; // Goob Station - Barks
-using Content.Shared._Erida.TTS;
+using Content.Goobstation.Common.Barks;
+using Content.Shared._CorvaxGoob.TTS;
 using Content.Shared.DisplacementMap;
 using Content.Shared.Humanoid.Markings;
 using Content.Shared.Humanoid.Prototypes;
@@ -44,14 +44,6 @@ public sealed partial class HumanoidAppearanceComponent : Component
     [DataField] // Goob Station - Barks
     public ProtoId<BarkPrototype> BarkVoice { get; set; } = SharedHumanoidAppearanceSystem.DefaultBarkVoice; // Goob Station - Barks
 
-    // Corvax-TTS-Start
-    /// <summary>
-    ///     Current voice. Used for correct cloning.
-    /// </summary>
-    [DataField("voice")]
-    public ProtoId<TTSVoicePrototype> Voice { get; set; } = SharedHumanoidAppearanceSystem.DefaultVoice;
-    // Corvax-TTS-End
-
     /// <summary>
     ///     Any custom base layers this humanoid might have. See:
     ///     limb transplants (potentially), robotic arms, etc.
@@ -67,6 +59,14 @@ public sealed partial class HumanoidAppearanceComponent : Component
     /// </summary>
     [DataField(required: true), AutoNetworkedField]
     public ProtoId<SpeciesPrototype> Species { get; set; }
+
+    // CorvaxGoob-TTS-Start
+    /// <summary>
+    ///     Current voice. Used for correct cloning.
+    /// </summary>
+    [DataField("voice")]
+    public ProtoId<TTSVoicePrototype> Voice { get; set; } = SharedHumanoidAppearanceSystem.DefaultVoice;
+    // CorvaxGoob-TTS-End
 
     /// <summary>
     ///     The initial profile and base layers to apply to this humanoid.
