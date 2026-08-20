@@ -1242,3 +1242,12 @@ Entries:
   url: https://github.com/dead-space-server/space-erida-14/pull/431
   avatar_url: https://avatars.githubusercontent.com/u/289052288?v=4
   title: Minor tasks
+- author: Lytheriia
+  changes:
+    - type: Fix
+      message: TTS вновь с нами
+  id: 104
+  time: '2026-08-20T23:00:46.0000000+00:00'
+  url: https://github.com/dead-space-server/EridaGoob/pull/28
+  avatar_url: https://avatars.githubusercontent.com/u/289052288?v=4
+  title: Tts
