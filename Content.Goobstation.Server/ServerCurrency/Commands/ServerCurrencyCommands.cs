@@ -27,7 +27,8 @@ namespace Content.Goobstation.Server.ServerCurrency.Commands
                 return;
             }
 
-            if(shell.Player is not { } player){
+            if (shell.Player is not { } player)
+            {
                 shell.WriteError(Loc.GetString("shell-cannot-run-command-from-server"));
                 return;
             }
@@ -58,7 +59,8 @@ namespace Content.Goobstation.Server.ServerCurrency.Commands
                 return;
             }
 
-            if(shell.Player is not { } player){
+            if (shell.Player is not { } player)
+            {
                 shell.WriteError(Loc.GetString("shell-cannot-run-command-from-server"));
                 return;
             }
@@ -68,7 +70,8 @@ namespace Content.Goobstation.Server.ServerCurrency.Commands
             {
                 shell.WriteError(Loc.GetString("server-currency-command-error-1"));
                 return;
-            } else if (targetPlayer == shell.Player.UserId)
+            }
+            else if (targetPlayer == shell.Player.UserId)
             {
                 shell.WriteError(Loc.GetString("server-currency-gift-command-error-1"));
                 return;
@@ -85,7 +88,8 @@ namespace Content.Goobstation.Server.ServerCurrency.Commands
             if (amount == 0)
                 amount = 1; // Trolled
 
-            if (!_currencyMan.CanAfford(shell.Player.UserId, amount, out int balance)){
+            if (!_currencyMan.CanAfford(shell.Player.UserId, amount, out int balance))
+            {
                 shell.WriteError(Loc.GetString("server-currency-gift-command-error-2", ("balance", balance)));
                 return;
             }
@@ -95,7 +99,7 @@ namespace Content.Goobstation.Server.ServerCurrency.Commands
             var giver = Loc.GetString("server-currency-gift-command-giver", ("player", args[0]), ("amount", _currencyMan.Stringify(amount)));
             var reciever = Loc.GetString("server-currency-gift-command-reciever", ("player", shell.Player.Name), ("amount", _currencyMan.Stringify(amount)));
 
-            if(plyMgr.TryGetSessionById(targetPlayer, out var targetPlayerSession))
+            if (plyMgr.TryGetSessionById(targetPlayer, out var targetPlayerSession))
                 _chatManager.ChatMessageToOne(ChatChannel.Local, reciever, reciever, EntityUid.Invalid, false, targetPlayerSession.Channel);
             _chatManager.ChatMessageToOne(ChatChannel.Local, giver, giver, EntityUid.Invalid, false, shell.Player.Channel);
 
@@ -113,7 +117,7 @@ namespace Content.Goobstation.Server.ServerCurrency.Commands
         }
     }
 
-    [AdminCommand(AdminFlags.Host)]
+    [AdminCommand(AdminFlags.Balance)]
     public sealed class AddServerCurrencyCommand : IConsoleCommand
     {
         [Dependency] private readonly ICommonCurrencyManager _currencyMan = default!;
@@ -158,7 +162,7 @@ namespace Content.Goobstation.Server.ServerCurrency.Commands
         }
     }
 
-    [AdminCommand(AdminFlags.Host)]
+    [AdminCommand(AdminFlags.Balance)]
     public sealed class RemoveServerCurrencyCommand : IConsoleCommand
     {
         [Dependency] private readonly ICommonCurrencyManager _currencyMan = default!;
@@ -203,7 +207,7 @@ namespace Content.Goobstation.Server.ServerCurrency.Commands
         }
     }
 
-    [AdminCommand(AdminFlags.Host)]
+    [AdminCommand(AdminFlags.Balance)]
     public sealed class SetServerCurrencyCommand : IConsoleCommand
     {
         [Dependency] private readonly ICommonCurrencyManager _currencyMan = default!;
@@ -249,7 +253,7 @@ namespace Content.Goobstation.Server.ServerCurrency.Commands
         }
     }
 
-    [AdminCommand(AdminFlags.Host)]
+    [AdminCommand(AdminFlags.Balance)]
     public sealed class GetServerCurrencyCommand : IConsoleCommand
     {
         [Dependency] private readonly ICommonCurrencyManager _currencyMan = default!;

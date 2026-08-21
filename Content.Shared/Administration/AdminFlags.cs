@@ -137,6 +137,11 @@ namespace Content.Shared.Administration
         Polls = 1 << 24, // Erida 23 >> 24
 
         /// <summary>
+        ///     Lets you change player balance
+        /// </summary>
+        Balance = 1 << 25,
+
+        /// <summary>
         ///     Dangerous host permissions like scsi.
         /// </summary>
         Host = 1u << 31,
