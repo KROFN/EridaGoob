@@ -625,11 +625,6 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
 
         SetScale(uid, new Vector2(species.DefaultWidth, species.DefaultHeight), true, humanoid);
 
-        // Erida start
-        humanoid.Height = profile.Height;
-        humanoid.Width = profile.Width;
-        // Erida end
-
         _heightAdjust.SetScale(uid, new Vector2(humanoid.Width, humanoid.Height));
         // end Goobstation: port EE height/width sliders
 
