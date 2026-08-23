@@ -1,7 +1,9 @@
 // SPDX-License-Identifier: MIT
 
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Numerics;
+using Robust.Shared.Toolshed.Commands.Values;
 
 namespace Content.Shared.Administration
 {
@@ -90,6 +92,22 @@ namespace Content.Shared.Administration
         {
             return NameFlagsMap[name];
         }
+
+        // Erida start
+        public static bool TryNameToFlag(string name, [NotNullWhen(true)] out AdminFlags? adminFlags)
+        {
+            var lowName = name.ToLower();
+            adminFlags = null;
+
+            if (NameFlagsMap.ContainsKey(lowName))
+            {
+                adminFlags = NameFlagsMap[lowName];
+                return true;
+            }
+
+            return false;
+        }
+        // Erida end
 
         /// <summary>
         ///     Converts a bitfield of admin flags to an array of all the flag names set.
