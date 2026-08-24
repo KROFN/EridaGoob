@@ -1262,3 +1262,14 @@ Entries:
   url: https://github.com/dead-space-server/EridaGoob/pull/30
   avatar_url: https://avatars.githubusercontent.com/u/289052288?v=4
   title: Bug fixes
+- author: Lytheriia
+  changes:
+    - type: Add
+      message: Феленидов вновь можно выбрать как рассу
+    - type: Fix
+      message: Исправлены баги роста
+  id: 106
+  time: '2026-08-24T12:06:54.0000000+00:00'
+  url: https://github.com/dead-space-server/EridaGoob/pull/32
+  avatar_url: https://avatars.githubusercontent.com/u/289052288?v=4
+  title: '[Fix] Bug fixes'
