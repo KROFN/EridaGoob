@@ -70,7 +70,13 @@ namespace Content.Shared.Administration
             {
                 if (!NameFlagsMap.TryGetValue(name, out var value))
                 {
-                    throw new ArgumentException($"Invalid admin flag name: {name}");
+                    // Erida start
+                    if (!NameFlagsMap.TryGetValue(name.ToUpper(), out var value2))
+                        throw new ArgumentException($"Invalid admin flag name: {name}");
+
+                    flags |= value2;
+                    continue;
+                    // Erida end
                 }
 
                 flags |= value;
