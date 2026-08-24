@@ -44,6 +44,12 @@
     HeadSide:
       points: 10
       required: false
+    HeadTop: # erida edit
+      points: 10
+      required: false
+    Tail: # erida edit
+      points: 10
+      required: false
     FacialHair:
       points: 10
       required: false

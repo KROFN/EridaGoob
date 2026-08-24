@@ -1,8 +1,8 @@
-# Худ гостов
-thunderdome-ghost-button = Грозовой Ринг
-thunderdome-ghost-button-default = Грозовой Ринг
+﻿# Худ гостов
+thunderdome-ghost-button = РДМ арена
+thunderdome-ghost-button-default = РДМ арена
 # Окно лодаутов
-thunderdome-loadout-title = Снаряжение Грозового Ринга
+thunderdome-loadout-title = Снаряжение РДМ арены
 thunderdome-loadout-players = игроков на арене: { $count }
 thunderdome-loadout-subtitle = Выбери свой комплект оружия
 thunderdome-loadout-confirm = Зайти на арену
@@ -54,6 +54,6 @@ thunderdome-revival-offer = Ваше первоначальное тело во�
 thunderdome-revival-accept = Вернуться в тело
 thunderdome-revival-decline = Остаться на арене
 # Чат/сообщения
-thunderdome-join = { $player } вошёл на Грозовой ринг!
-thunderdome-leave = { $player } покинул Грозовой ринг.
+thunderdome-join = { $player } вошёл на РДМ арена!
+thunderdome-leave = { $player } покинул РДМ арена.
 thunderdome-leave-01 = { $user } исчезает, устав убивать.

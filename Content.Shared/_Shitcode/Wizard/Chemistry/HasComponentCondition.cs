@@ -31,11 +31,6 @@ public sealed partial class HasComponentConditionSystem : EntityConditionSystem<
 
         var hasComp = entHasComp || mindEntHasComp;
 
-        // erida debug start
-        Logger.WarningS("heretic.flask",
-            $"flask-cond: target={target} checkMind={args.Condition.CheckMind} entHasComp={entHasComp} mindEntHasComp={mindEntHasComp} hasComp={hasComp} inverted={args.Condition.Inverted}");
-        // erida debug end
-
         args.Result = hasComp; // erida edit
     }
 }

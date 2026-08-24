@@ -1,0 +1,486 @@
+﻿# erida edit
+
+- type: traitCategory
+  id: Species
+  name: trait-category-species
+  priority: 10
+  accentColor: "#f97316"
+
+- type: trait
+  id: VulpJumpAbility
+  name: trait-VulpJumpAbility-name
+  description: trait-VulpJumpAbility-desc
+  category: Species
+  conditions:
+  - !type:IsSpeciesCondition
+    species: Anthropomorph
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: JumpAbility
+      action: ActionVulpkaninGravityJump
+      canCollide: true
+      jumpDistance: 3
+      jumpSound:
+        path: /Audio/Weapons/punchmiss.ogg
+        params:
+          pitch: 1.33
+          volume: -5
+          variation: 0.05
+
+- type: trait # erida edit - IPCs can't have biological traits
+  id: CatLigaments
+  name: trait-catligaments-name
+  description: trait-catligaments-desc
+  category: Medical
+  conditions:
+  - !type:IsSpeciesCondition
+    species: IPC
+    invert: true
+  effects:
+  - !type:AddCompsEffect
+    removeExisting: true
+    components:
+     - type: Vocal
+       sounds:
+         Male: MaleFelinid
+         Female: FemaleFelinid
+         Unsexed: MaleFelinid
+     - type: Speech
+       allowedEmotes: [ 'Mew', 'Meow', 'Purr', 'Hiss' ]
+       speechSounds: Alto
+
+- type: trait # erida edit - IPCs can't have biological traits
+  id: dogpLigaments
+  name: trait-dogligaments-name
+  description: trait-dogligments-desc
+  category: Medical
+  conditions:
+  - !type:IsSpeciesCondition
+    species: IPC
+    invert: true
+  effects:
+  - !type:AddCompsEffect
+    removeExisting: true
+    components:
+     - type: MessyDrinker
+       spillChance: 0.33
+     - type: Speech
+       speechSounds: Vulpkanin
+       speechVerb: Vulpkanin
+       allowedEmotes: [ 'Bark', 'Snarl', 'Whine', 'Howl', 'Growl' ]
+     - type: Vocal
+       sounds:
+         Male: MaleVulpkanin
+         Female: FemaleVulpkanin
+         Unsexed: MaleVulpkanin
+
+- type: trait
+  id: StreetRebelAccent
+  name: trait-street-rebel-name
+  description: trait-street-rebel-desc
+  category: Accents
+  cost: 0
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: StreetRebelAccent
+
+- type: trait
+  id: Roar
+  name: trait-roar-name
+  description: trait-roar-desc
+  category: Accents
+  cost: 0
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: RoarAccent
+
+- type: trait
+  id: Medieval
+  name: trait-medieval-name
+  description: trait-medieval-desc
+  category: Accents
+  cost: 0
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: MedievalAccent
+
+- type: trait
+  id: OwOAccent
+  name: trait-owo-accent-name
+  description: trait-owo-accent-desc
+  category: Accents
+  cost: 0
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: OwOAccent
+
+- type: traitCategory
+  id: Language
+  name: trait-category-language
+  priority: 15
+  accentColor: "#84cc16"
+
+- type: traitCategory
+  id: Meta
+  name: trait-category-meta
+  priority: 50
+  accentColor: "#64748b"
+
+# erida edit
+- type: trait
+  id: Nekomimetic
+  name: trait-language-nekomimetic-name
+  description: trait-language-nekomimetic-desc
+  category: Language
+  cost: 2
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: LanguageOnSpawn
+      languages:
+      - Nekomimetic
+
+- type: trait
+  id: Mar
+  name: trait-language-mar-name
+  description: trait-language-mar-desc
+  category: Language
+  cost: 2
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: LanguageOnSpawn
+      languages:
+      - Marish
+
+- type: trait
+  id: Demonic
+  name: trait-language-demonic-name
+  description: trait-language-demonic-desc
+  category: Language
+  cost: 2
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: LanguageOnSpawn
+      languages:
+      - Demonic
+
+- type: trait
+  id: Shark
+  name: trait-language-shark-name
+  description: trait-language-shark-desc
+  category: Language
+  cost: 2
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: LanguageOnSpawn
+      languages:
+      - Shark
+
+- type: trait
+  id: Canilunzt
+  name: trait-language-canilunzt-name
+  description: trait-language-canilunzt-desc
+  category: Language
+  cost: 2
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: LanguageOnSpawn
+      languages:
+      - Canilunzt
+
+- type: trait
+  id: Spider
+  name: trait-language-spider-name
+  description: trait-language-spider-desc
+  category: Language
+  cost: 2
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: LanguageOnSpawn
+      languages:
+      - Spider
+
+- type: trait
+  id: RootSpeak
+  name: trait-language-rootspeak-name
+  description: trait-language-rootspeak-desc
+  category: Language
+  cost: 2
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: LanguageOnSpawn
+      languages:
+      - RootSpeak
+
+- type: trait
+  id: Dwarven
+  name: trait-language-dwarven-name
+  description: trait-language-dwarven-desc
+  category: Language
+  cost: 2
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: LanguageOnSpawn
+      languages:
+      - Dwarven
+
+- type: trait
+  id: Moffic
+  name: trait-language-moffic-name
+  description: trait-language-moffic-desc
+  category: Language
+  cost: 2
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: LanguageOnSpawn
+      languages:
+      - Moffic
+
+- type: trait
+  id: Dragon
+  name: trait-language-dragon-name
+  description: trait-language-dragon-desc
+  category: Language
+  cost: 2
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: LanguageOnSpawn
+      languages:
+      - Draconic
+
+- type: trait
+  id: Slime
+  name: trait-language-slime-name
+  description: trait-language-slime-desc
+  category: Language
+  cost: 2
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: LanguageOnSpawn
+      languages:
+      - Bubblish
+
+- type: trait
+  id: Freespeak
+  name: trait-language-freespeak-name
+  description: trait-language-freespeak-desc
+  category: Language
+  cost: 2
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: LanguageOnSpawn
+      languages:
+      - Freespeak
+
+# erida edit
+- type: trait
+  id: Dysgraphia
+  name: trait-dysgraphia-name
+  description: trait-dysgraphia-desc
+  category: Disabilities
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: BlockWriting
+
+- type: trait
+  id: PainNumbness
+  name: trait-painnumbness-name
+  description: trait-painnumbness-desc
+  category: Disabilities
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: PainNumbnessStatusEffect
+
+- type: trait
+  id: Hemophilia
+  name: trait-hemophilia-name
+  description: trait-hemophilia-desc
+  category: Disabilities
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: HemophiliaStatusEffect
+
+# erida edit
+- type: trait
+  id: PirateAccent
+  name: trait-pirate-accent-name
+  description: trait-pirate-accent-desc
+  category: Accents
+  cost: 2
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: PirateAccent
+
+- type: trait
+  id: SouthernAccent
+  name: trait-southern-name
+  description: trait-southern-desc
+  category: Accents
+  cost: 2
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: SouthernAccent
+
+- type: trait
+  id: CowboyAccent
+  name: trait-cowboy-name
+  description: trait-cowboy-desc
+  category: Accents
+  cost: 2
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: ReplacementAccent
+      accent: cowboy
+
+- type: trait
+  id: ItalianAccent
+  name: trait-italian-name
+  description: trait-italian-desc
+  category: Accents
+  cost: 2
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: ReplacementAccent
+      accent: italian
+
+- type: trait
+  id: Muted
+  name: trait-muted-name
+  description: trait-muted-desc
+  category: Accents
+  cost: 2
+  conditions:
+  - !type:HasCompCondition
+    component: BorgChassis
+    invert: true
+    tooltip: trait-condition-borg-not
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: Muted
+
+- type: trait
+  id: FrenchAccent
+  name: trait-french-name
+  description: trait-french-desc
+  category: Accents
+  cost: 0
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: FrenchAccent
+
+- type: trait
+  id: SpanishAccent
+  name: trait-spanish-name
+  description: trait-spanish-desc
+  category: Accents
+  cost: 0
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: SpanishAccent
+
+- type: trait
+  id: MobsterAccent
+  name: trait-mobster-accent-name
+  description: trait-mobster-accent-desc
+  category: Accents
+  cost: 0
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: MobsterAccent
+
+- type: trait
+  id: Accentless
+  name: trait-accentless-name
+  description: trait-accentless-desc
+  category: Accents
+  cost: 0
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: Accentless
+      removes:
+      - type: LizardAccent
+      - type: MothAccent
+      - type: OwOAccent
+      - type: ReplacementAccent
+        accent: scottish
+
+- type: trait
+  id: SocialAnxiety
+  name: trait-socialanxiety-name
+  description: trait-socialanxiety-desc
+  category: Accents
+  cost: 0
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: StutteringAccent
+      matchRandomProb: 0.1
+      fourRandomProb: 0
+      threeRandomProb: 0
+      cutRandomProb: 0
+
+- type: trait
+  id: FrontalLisp
+  name: trait-frontal-lisp-name
+  description: trait-frontal-lisp-desc
+  category: Accents
+  cost: 0
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: FrontalLisp
+
+- type: trait
+  id: Hushed
+  name: trait-hushed-name
+  description: trait-hushed-desc
+  category: Accents
+  cost: 0
+  conditions:
+  - !type:HasCompCondition
+    component: BorgChassis
+    invert: true
+    tooltip: trait-condition-borg-not
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: Hushed
+
+# erida edit
+- type: trait
+  id: NoParadoxClone
+  name: trait-no-paradox-clone-name
+  description: trait-no-paradox-clone-desc
+  category: Meta
+  effects:
+  - !type:AddCompsEffect
+    components:
+    - type: NoParadoxClone

@@ -76,7 +76,7 @@ loadout-group-warden-envirohelm = Экошлем смотрителя
 loadout-group-warden-envirosuit = Экокостюм смотрителя
 loadout-group-warden-envirogloves = Экоперчатки смотрителя
 # Head of Personnel
-loadout-group-hop-envirohelm = ГП
+loadout-group-hop-envirohelm = Экошлем-ГП
 loadout-group-hop-envirosuit = Экокостюм ГП
 loadout-group-hop-envirogloves = Экоперчатки ГП
 loadout-group-hop-gloves = ГП, перчатки

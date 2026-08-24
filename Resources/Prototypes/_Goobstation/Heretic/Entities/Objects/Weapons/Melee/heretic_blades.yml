@@ -57,7 +57,7 @@
   id: HereticBladeAsh
   name: ashen blade
   description: Molten and unwrought, a hunk of metal warped to cinders and slag. Unmade, it aspires to be more than it is, and shears soot-filled wounds with a blunt edge.
-  suffix: Ash
+  suffix: Heretic (Пепел) # erida edit
   components:
   - type: HereticBlade
     path: Ash
@@ -74,7 +74,7 @@
   id: HereticBladeBlade
   name: sundered blade
   description: A galliant blade, sundered and torn. Furiously, the blade cuts. Silver scars bind it forever to its dark purpose.
-  suffix: Blade
+  suffix: Heretic (Клинок) # erida edit
   components:
   - type: HereticBlade
     path: Blade
@@ -113,7 +113,7 @@
   id: HereticBladeFleshGhoul
   name: ghoul blade
   description: A crescent blade born from a fleshwarped creature. Keenly aware, it seeks to spread to others the suffering it has endured from its dreadful origins.
-  suffix: Flesh ghoul
+  suffix: Heretic (Гуль) # erida edit
   components:
   - type: HereticBlade
     path: Flesh
@@ -127,14 +127,14 @@
   parent: [HereticBladeFleshGhoul, BaseRandomTeleportBlade]
   id: HereticBladeFlesh
   name: bloody blade
-  suffix: Flesh
+  suffix: Heretic (Плоть) # erida edit
 
 - type: entity
   parent: HereticBladeBase
   id: HereticBladeLock
   name: key blade
   description: A blade and a key, a key to what? What grand gates does it open?
-  suffix: Lock
+  suffix: Heretic (Замок) # erida edit
   components:
   - type: HereticBlade
     path: Lock
@@ -149,7 +149,7 @@
   id: HereticBladeRust
   name: rusted blade
   description: This crescent blade is decrepit, wasting to rust. Yet still it bites, ripping flesh and bone with jagged, rotten teeth.
-  suffix: Rust
+  suffix: Heretic (Ржавчина) # erida edit
   components:
   - type: HereticBlade
     path: Rust
@@ -164,7 +164,7 @@
   id: HereticBladeVoid
   name: void blade
   description: Devoid of any substance, this blade reflects nothingness. It is a real depiction of purity, and chaos that ensues after its implementation.
-  suffix: Void
+  suffix: Heretic (Пустота) # erida edit
   components:
   - type: HereticBlade
     path: Void
@@ -179,7 +179,7 @@
   id: HereticBladeCosmos
   name: cosmic blade
   description: A mote of celestial resonance, shaped into a star-woven blade. An iridescent exile, carving radiant trails, desperately seeking unification.
-  suffix: Cosmos
+  suffix: Heretic (Космос) # erida edit
   components:
   - type: HereticBlade
     path: Cosmos

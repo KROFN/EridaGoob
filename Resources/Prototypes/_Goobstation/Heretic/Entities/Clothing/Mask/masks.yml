@@ -3,6 +3,7 @@
 - type: entity
   parent: [ ClothingMaskBase, BaseMagicalContraband ]
   id: ClothingMaskMadHeretic
+  suffix: Heretic # erida edit
   name: abyssal mask
   description: A mask created from suffering. When you look into its eyes, it looks back.
   components:

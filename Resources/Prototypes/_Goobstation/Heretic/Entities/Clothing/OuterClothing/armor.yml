@@ -3,6 +3,7 @@
 - type: entity
   parent: [ ClothingOuterStorageToggleableBase, AllowSuitStorageClothing, BaseMagicalContraband ]
   id: ClothingOuterArmorHeretic
+  suffix: Heretic # erida edit
   name: ominous armor
   description: A ragged, dusty set of robes. Strange eyes line the inside.
   components:
@@ -57,7 +58,7 @@
 - type: entity
   parent: ClothingOuterArmorHeretic
   id: ClothingOuterArmorHereticVoid
-  suffix: Void
+  suffix: Heretic (Пустота) # erida edit
   components:
   - type: Sprite
     sprite: _Goobstation/Heretic/Clothing/OuterClothing/void_armor.rsi
@@ -71,7 +72,7 @@
 - type: entity
   parent: ClothingOuterArmorHeretic
   id: ClothingOuterArmorHereticAsh
-  suffix: Ash
+  suffix: Heretic (Пепел) # erida edit
   components:
   - type: Sprite
     sprite: _Goobstation/Heretic/Clothing/OuterClothing/ashen_armor.rsi
@@ -85,7 +86,7 @@
 - type: entity
   parent: ClothingOuterArmorHeretic
   id: ClothingOuterArmorHereticFlesh
-  suffix: Flesh
+  suffix: Heretic (Плоть) # erida edit
   components:
   - type: Sprite
     sprite: _Goobstation/Heretic/Clothing/OuterClothing/flesh_armor.rsi
@@ -99,7 +100,7 @@
 - type: entity
   parent: ClothingOuterArmorHeretic
   id: ClothingOuterArmorHereticBlade
-  suffix: Blade
+  suffix: Heretic (Клинок) # erida edit
   components:
   - type: Sprite
     sprite: _Goobstation/Heretic/Clothing/OuterClothing/blade_armor.rsi
@@ -113,7 +114,7 @@
 - type: entity
   parent: ClothingOuterArmorHeretic
   id: ClothingOuterArmorHereticCosmos
-  suffix: Cosmos
+  suffix: Heretic (Космос) # erida edit
   components:
   - type: Sprite
     sprite: _Goobstation/Heretic/Clothing/OuterClothing/cosmos_armor.rsi
@@ -127,6 +128,7 @@
 - type: entity
   parent: [ ClothingOuterBaseMedium, ClothingOuterStorageToggleableBase, AllowSuitStorageClothing, BaseMagicalContraband ]
   id: ClothingOuterArmorCloakVoid
+  suffix: Heretic # erida edit
   name: void cloak
   description: Black like tar, reflecting no light. Runic symbols line the outside. With each flash you lose comprehension of what you are seeing.
   components:

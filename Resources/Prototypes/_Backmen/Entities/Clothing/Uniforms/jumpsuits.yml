@@ -7,9 +7,9 @@
   description: A jumpsuit specifically for a Blueshield officers.
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Uniforms/jumpsuit/bluesuit.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/bluesuit.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Uniforms/jumpsuit/bluesuit.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/bluesuit.rsi
 
 - type: entity
   parent: [ClothingUniformBase, BaseBlueShieldContraband]
@@ -18,6 +18,6 @@
   description: A turtleneck specifically for a Blueshield officers.
   components:
   - type: Sprite
-    sprite: _Erida/Clothing/Uniforms/jumpsuit/bluesuit-alt.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/bluesuit-alt.rsi
   - type: Clothing
-    sprite: _Erida/Clothing/Uniforms/jumpsuit/bluesuit-alt.rsi
+    sprite: _Erida/Clothing/Uniforms/Jumpsuit/bluesuit-alt.rsi

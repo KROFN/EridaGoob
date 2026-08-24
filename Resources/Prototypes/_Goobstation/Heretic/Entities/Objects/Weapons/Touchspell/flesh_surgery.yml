@@ -1,5 +1,6 @@
 - type: entity
   id: TouchSpellFleshSurgery
+  suffix: Heretic # erida edit
   name: knit flesh
   description: Let's go practice medicine.
   categories: [ HideSpawnMenu ]

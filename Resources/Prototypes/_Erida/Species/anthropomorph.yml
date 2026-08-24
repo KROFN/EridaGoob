@@ -24,6 +24,8 @@
     HeadSide: MobHumanoidAnyMarking
     Tail: MobHumanoidAnyMarking
     Eyes: MobHumanoidEyes
+    UndergarmentTop: MobHumanoidAnyMarking # erida edit
+    UndergarmentBottom: MobHumanoidAnyMarking # erida edit
     LArm: MobAnthropomorphLArm
     RArm: MobAnthropomorphRArm
     LHand: MobAnthropomorphLHand
@@ -55,6 +57,12 @@
       points: 10
       required: false
     Snout:
+      points: 10
+      required: false
+    UndergarmentTop: # erida edit
+      points: 10
+      required: false
+    UndergarmentBottom: # erida edit
       points: 10
       required: false
     Legs:

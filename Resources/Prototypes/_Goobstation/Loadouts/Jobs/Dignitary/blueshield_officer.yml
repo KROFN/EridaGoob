@@ -1,5 +1,27 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
+# erida edit
+- type: loadout
+  id: BlueshieldOfficerPresetCustom
+  dummyEntity: BlueshieldPresetCustomIcon
+  effects:
+  - !type:PresetMarkerEffect
+    preset: custom
+
+- type: loadout
+  id: BlueshieldOfficerPresetErida
+  dummyEntity: BlueshieldPresetEridaIcon
+  effects:
+  - !type:PresetMarkerEffect
+    preset: erida
+
+- type: loadout
+  id: BlueshieldOfficerPresetGoob
+  dummyEntity: BlueshieldPresetGoobIcon
+  effects:
+  - !type:PresetMarkerEffect
+    preset: goob
+
 - type: loadoutEffectGroup
   id: SeniorBlueshieldOfficer
   effects:

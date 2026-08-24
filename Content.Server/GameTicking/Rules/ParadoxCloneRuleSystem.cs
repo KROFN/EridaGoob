@@ -11,6 +11,7 @@ using Content.Shared.GameTicking.Components;
 using Content.Shared.Gibbing.Components;
 using Content.Shared.Medical.SuitSensor;
 using Content.Shared.Mind;
+using Content.Shared._DV.Traits.Assorted;
 using Content.Shared.Whitelist;
 using Robust.Shared.Random;
 
@@ -39,7 +40,8 @@ public sealed class ParadoxCloneRuleSystem : GameRuleSystem<ParadoxCloneRuleComp
 
         // check if we got enough potential cloning targets, otherwise cancel the gamerule so that the ghost role does not show up
         var allHumans = _mind.GetAliveHumans();
-        allHumans.RemoveWhere(human => _whitelist.IsWhitelistPass(component.TargetBlacklist, human)); // Goobstation
+        allHumans.RemoveWhere(human => _whitelist.IsWhitelistPass(component.TargetBlacklist, human) || // Goobstation
+            (human.Comp.OwnedEntity is { } entity1 && HasComp<NoParadoxCloneComponent>(entity1))); // erida edit
 
         if (allHumans.Count == 0)
         {
@@ -67,7 +69,8 @@ public sealed class ParadoxCloneRuleSystem : GameRuleSystem<ParadoxCloneRuleComp
         {
             // get possible targets
             var allAliveHumanoids = _mind.GetAliveHumans();
-            allAliveHumanoids.RemoveWhere(human => _whitelist.IsWhitelistPass(ent.Comp.TargetBlacklist, human)); // Goobstation
+            allAliveHumanoids.RemoveWhere(human => _whitelist.IsWhitelistPass(ent.Comp.TargetBlacklist, human) || // Goobstation
+                (human.Comp.OwnedEntity is { } entity2 && HasComp<NoParadoxCloneComponent>(entity2))); // erida edit
 
             // we already checked when starting the gamerule, but someone might have died since then.
             if (allAliveHumanoids.Count == 0)

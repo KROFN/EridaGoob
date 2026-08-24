@@ -1,5 +1,6 @@
 // SPDX-License-Identifier: MIT
 
+using System.Linq;
 using Content.Shared.Construction.Prototypes;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization;
@@ -43,7 +44,9 @@ namespace Content.Shared.Preferences
         /// <summary>
         ///     The currently selected character.
         /// </summary>
-        public ICharacterProfile SelectedCharacter => Characters[SelectedCharacterIndex];
+        public ICharacterProfile SelectedCharacter => Characters.TryGetValue(SelectedCharacterIndex, out var profile)
+            ? profile
+            : Characters.Values.FirstOrDefault() ?? HumanoidCharacterProfile.DefaultWithSpecies();
 
         public Color AdminOOCColor { get; set; }
 

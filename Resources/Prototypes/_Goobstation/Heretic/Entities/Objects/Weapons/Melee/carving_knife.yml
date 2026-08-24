@@ -5,6 +5,7 @@
   description: A small knife made of cold steel, pure and perfect. Its sharpness can carve into titanium itself - but only few can evoke the dangers that lurk beneath reality.
   parent: [ BaseKnife, BaseMagicalContraband ]
   id: CarvingKnife
+  suffix: Heretic # erida edit
   components:
   - type: UnholyItem
   - type: Sprite

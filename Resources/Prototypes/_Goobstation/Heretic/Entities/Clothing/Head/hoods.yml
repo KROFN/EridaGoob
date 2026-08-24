@@ -3,6 +3,7 @@
 - type: entity
   parent: [ ClothingHeadBase, BaseMagicalContraband ]
   id: ClothingHeadHatHoodHeretic
+  suffix: Heretic # erida edit
   name: ominous hood
   description: A torn, dust-caked hood. Strange eyes line the inside.
   components:
@@ -94,6 +95,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatHoodVoidCloakHeretic
+  suffix: Heretic # erida edit
   name: void hood
   description: Black like tar, reflecting no light. Runic symbols line the outside. With each flash you lose comprehension of what you are seeing.
   components:

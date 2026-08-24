@@ -30,6 +30,7 @@
     possibleSets:
     - UTAPMk1Set
     - ShotgunGuardian17Set
+    - EG4RevolverSet # erida edit
 
 - type: thiefBackpackSet
   id: UTAPMk1Set
@@ -44,6 +45,7 @@
   - MagazineRifle
   - MagazineRifle
   - MagazineRifle
+  - TruncheonDT3Zlodey # erida edit
 
 - type: thiefBackpackSet
   id: ShotgunGuardian17Set
@@ -56,3 +58,63 @@
   - WeaponShotgunGuardian
   - BoxLethalshot
   - BoxLethalshot
+
+
+# erida edit
+- type: entity
+  name: дубинка DT-3 «Злодей»
+  parent: [Truncheon, BaseBlueShieldContraband]
+  id: TruncheonDT3Zlodey
+  description: Телескопическая дубинка DT-3 «Злодей» — личное оружие офицера «Синего Щита».
+  components:
+  - type: Sprite
+    sprite: _Erida/Objects/Weapons/Melee/truncheon.rsi
+    state: icon
+  - type: Clothing
+    sprite: _Erida/Objects/Weapons/Melee/truncheon.rsi
+    quickEquip: false
+    slots:
+    - Belt
+
+- type: thiefBackpackSet
+  id: EG4RevolverSet
+  name: duffel-category-eg4-name
+  description: duffel-category-eg4-description
+  sprite:
+    sprite: _Goobstation/Objects/Weapons/Guns/Battery/erevolver.rsi
+    state: icon
+  content:
+  - Flash
+  - WeaponEnergyRevolver
+  - EnergySpeedloaderLethal
+  - EnergySpeedloaderLethal
+  - EnergySpeedloaderDisabler
+  - TruncheonDT3Zlodey
+
+# erida edit
+- type: entity
+  id: BlueshieldPresetCustomIcon
+  name: "Blueshield preset: custom"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _Corvax/Back/Duffels/military.rsi
+    state: icon
+
+- type: entity
+  id: BlueshieldPresetEridaIcon
+  name: "Blueshield preset: Erida"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _Corvax/Back/Duffels/military.rsi
+    state: icon
+
+- type: entity
+  id: BlueshieldPresetGoobIcon
+  name: "Blueshield preset: Goob"
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _Corvax/Back/Duffels/military.rsi
+    state: icon

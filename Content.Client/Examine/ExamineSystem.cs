@@ -240,7 +240,16 @@ namespace Content.Client.Examine
 
             if (knowTarget)
             {
-                var itemName = FormattedMessage.EscapeText(Identity.Name(target, EntityManager, player));
+                string itemName;
+                try
+                {
+                    itemName = FormattedMessage.EscapeText(Identity.Name(target, EntityManager, player)); // erida edit
+                }
+                catch
+                {
+                    itemName = FormattedMessage.EscapeText(MetaData(target).EntityName);
+                }
+
                 var labelMessage = FormattedMessage.FromMarkupPermissive($"[bold]{itemName}[/bold]");
                 var label = new RichTextLabel();
                 label.SetMessage(labelMessage);

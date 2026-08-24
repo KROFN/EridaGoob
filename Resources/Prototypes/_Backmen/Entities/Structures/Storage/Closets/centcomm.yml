@@ -1,0 +1,47 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+# erida edit
+
+- type: entity
+  id: LockerBlueShield
+  parent: LockerBase
+  name: officer "Blueshield"'s locker
+  components:
+  - type: Sprite
+    sprite: _Backmen/Structures/Storage/blue.rsi
+    noRot: true
+    layers:
+    - state: egov
+      map: ["enum.StorageVisualLayers.Base"]
+    - state: egov_door
+      map: ["enum.StorageVisualLayers.Door"]
+    - state: locked
+      map: ["enum.LockVisualLayers.Lock"]
+      shader: unshaded
+    - state: welded
+      visible: false
+      map: ["enum.WeldableLayers.BaseWelded"]
+  - type: EntityStorageVisuals
+    stateBaseClosed: egov
+    stateDoorOpen: egov_open
+    stateDoorClosed: egov_door
+  - type: AccessReader
+    access: [ [ "CentralCommand" ] ]
+
+- type: entity
+  id: LockerBlueShieldFilled
+  parent: LockerBlueShield
+  suffix: Filled
+  components:
+  - type: StorageFill
+    contents:
+        - id: ClothingHeadHatBlackBeretBlueShield
+        - id: ClothingHeadHatLightBeretBlueShield
+        - id: ClothingOuterCoatArmorBlueShield
+        - id: ClothingOuterArmorBlueshield
+        - id: FlashlightSeclite
+        - id: PowerCellHigh
+        - id: MedkitCombatFilled
+        - id: HandheldCrewMonitor
+        - id: BoxZiptie
+        - id: DefibrillatorCompact
+        - id: PistolBlueShield

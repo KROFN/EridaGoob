@@ -61,7 +61,7 @@
     gloves: ClothingHandsGlovesCombat
     id: BlueshieldPDA
     ears: ClothingHeadsetAltBlueshield
-    belt: ClothingBeltMilitaryWebbingFilled
+    belt: ClothingBeltBlueshieldWebbingFilled
     pocket1: UniqueBlueshieldOfficerLockerTeleporter
     back: ClothingBackpackBlueshield
     shoes: ClothingShoesBootsCombat
@@ -69,11 +69,8 @@
     back:
     - Flash
     - ClothingBSOMaskGasSwat
-    - CombatKnife
-    - BoxSurvival
     - BlueShieldSetLoadouts
     - CombatKnifeSpetsnaz
-    - ClothingBeltBlueshieldWebbingFilled
 
 - type: chameleonOutfit
   id: BlueshieldOfficerChameleonOutfit

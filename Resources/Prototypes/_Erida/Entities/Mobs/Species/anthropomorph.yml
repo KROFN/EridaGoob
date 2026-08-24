@@ -74,6 +74,8 @@
       - map: [ "enum.HumanoidVisualLayers.RLeg" ]
       - map: [ "enum.HumanoidVisualLayers.LLeg" ]
       # Erida start
+      - map: [ "enum.HumanoidVisualLayers.UndergarmentBottom" ] # erida edit
+      - map: [ "enum.HumanoidVisualLayers.UndergarmentTop" ] # erida edit
       - map: [ "underpants" ]
       - map: [ "undershirt" ]
       - map: [ "enum.HumanoidVisualLayers.LFoot" ]

@@ -11,6 +11,9 @@
       "name": "icon"
     },
     {
+      "name": "orebag_on"
+    },
+    {
       "name": "equipped-BELT",
       "directions": 4
     },

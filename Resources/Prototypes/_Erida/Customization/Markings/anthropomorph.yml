@@ -114,6 +114,10 @@
   id: AnthropomorphShoutFox
   bodyPart: Snout
   markingCategory: Snout
+  coloring: # erida edit
+    default:
+      type:
+        !type:SkinColoring
   sprites:
   - sprite: _Orion/Mobs/Customization/Anthropomorph/mam_snouts.rsi
     state: snout_fox

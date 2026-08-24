@@ -149,3 +149,12 @@
   sprites:
     - sprite: _ADT/Customization/Markings/hair.rsi
       state: shaved_unisex
+
+# erida edit
+- type: marking
+  id: dave
+  bodyPart: Hair
+  markingCategory: Hair
+  sprites:
+    - sprite: _Orion/Mobs/Customization/human_hair.rsi
+      state: hair_dave

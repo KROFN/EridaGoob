@@ -14,8 +14,13 @@ public sealed partial class AddCompsEffect : BaseTraitEffect
     [DataField(required: true)]
     public ComponentRegistry Components = new();
 
+    // Erida start
+    [DataField(required: false)]
+    public bool RemoveExisting = false;
+    // Erida end
+
     public override void Apply(TraitEffectContext ctx)
     {
-        ctx.EntMan.AddComponents(ctx.Player, Components, removeExisting: false);
+        ctx.EntMan.AddComponents(ctx.Player, Components, removeExisting: RemoveExisting); // Erida edit
     }
 }

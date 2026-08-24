@@ -34,16 +34,19 @@
     - BorgChassis
   chatMessages: [meows.]
   chatTriggers:
-    - meow
-    - meows
-    - meowing
-    - meowed
-    - miau
-    - miaus
-    - nya
-    - nyas
-    - mraow
-    - mraows
+    - Meows
+    - Meows.
+    - Meows!
+    - Meow
+    - Meow.
+    - Meow!
+    - мяу
+    - мяу.
+    - мяу!
+    - мяукает
+    - мяукает.
+    - мяукает!
+
 
 - type: emote
   id: Mew
@@ -60,9 +63,14 @@
   chatMessages: [mews.]
   chatTriggers:
     - mew
+    - mew.
+    - mew!
     - mews
-    - mewing
-    - mewed
+    - mews.
+    - mews!
+    - мя
+    - мя.
+    - мя!
 
 - type: emote
   id: Growl
@@ -97,7 +105,9 @@
     - BorgChassis
   chatMessages: [purrs.]
   chatTriggers:
-    - purr
-    - purrs
-    - purring
-    - purred
+    - мурчит
+    - мурчит.
+    - мурчит!
+    - Purrs
+    - Purrs.
+    - Purrs!
