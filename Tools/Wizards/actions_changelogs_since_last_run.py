@@ -439,8 +439,8 @@ def send_changelog(
     entries: list[ChangelogEntry],
     publish_context: dict[str, Any] | None,
 ) -> None:
-    header_embed = create_header_embed(entries, publish_context)
-    send_discord_webhook(header_embed, "Erida changelog header")
+    # header_embed = create_header_embed(entries, publish_context)
+    # send_discord_webhook(header_embed, "Erida changelog header")
     time.sleep(DISCORD_MESSAGE_DELAY_SECONDS)
 
     for index, embed in enumerate(embeds, start=1):
