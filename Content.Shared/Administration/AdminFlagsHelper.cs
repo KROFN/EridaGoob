@@ -68,7 +68,7 @@ namespace Content.Shared.Administration
             var flags = AdminFlags.None;
             foreach (var name in names)
             {
-                if (!NameFlagsMap.TryGetValue(name, out var value))
+                if (!NameFlagsMap.TryGetValue(name.ToLower(), out var value)) // Erida
                 {
                     throw new ArgumentException($"Invalid admin flag name: {name}");
                 }
