@@ -239,7 +239,7 @@
   - type: CartridgeAmmo
     proto: BulletGrenadeToy
   - type: Sprite
-    sprite: _Erida/Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi
+    sprite: Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi
     layers:
     - state: frag
       map: ["enum.AmmoVisualLayers.Base"]

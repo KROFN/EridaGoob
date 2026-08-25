@@ -1201,7 +1201,7 @@
   id: UplinkGrenadeBlast
   name: uplink-blast-grenade-name
   description: uplink-blast-grenade-desc
-  icon: { sprite: /Textures/_Erida/Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi, state: blast }
+  icon: { sprite: Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi, state: blast }
   productEntity: GrenadeBlast
   cost:
     Telecrystal: 12 # Buying granades this way is ~14% cheaper than getting them from china-lake bundles
@@ -1217,7 +1217,7 @@
   id: UplinkGrenadeFrag
   name: uplink-frag-grenade-name
   description: uplink-frag-grenade-desc
-  icon: { sprite: /Textures/_Erida/Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi, state: frag }
+  icon: { sprite: Objects/Weapons/Guns/Ammunition/Explosives/explosives.rsi, state: frag }
   productEntity: GrenadeFrag
   cost:
     Telecrystal: 12 # Buying granades this way is ~14% cheaper than getting them from china-lake bundles
