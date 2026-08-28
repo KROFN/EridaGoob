@@ -1,0 +1,90 @@
+[
+  {
+    "thread_id": "1366944185495584768",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Low",
+    "severity": "S3",
+    "complexity": "M",
+    "cluster_hint": null,
+    "root_cause_short": "Image-only report (root msg empty); TrayScanner/SubFloor system reveals-hides entities, no item-loss code path found; aghost prototype not located.",
+    "evidence": [
+      "Content.Shared/SubFloor/TrayScannerComponent.cs:TrayScannerComponent",
+      "Content.Server/SubFloor/TrayScannerSystem.cs:TrayScannerSystem",
+      "Content.Shared/SubFloor/TrayScannerUserComponent.cs:TrayScannerUserComponent"
+    ],
+    "dossier": ".ai-triage/bugs/1366944185495584768.md"
+  },
+  {
+    "thread_id": "1370100957861511299",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Medium",
+    "severity": "S4",
+    "complexity": "S",
+    "cluster_hint": "intek-agent",
+    "root_cause_short": "Custom 'InteQ agent' mob prototype not found under intek/inteq naming; lava-walk/chem-resistance likely deliberate content design (community: lava still deals reduced damage).",
+    "evidence": [
+      "Resources/Locale/ru-RU/_Erida/accent/streetrebel.ftl:accent-streetrebel-words-45",
+      "Resources/Changelog/EridaChangelog.yml:539",
+      "Content.Client/_Orion/DetailExaminableWindow.xaml:inteq"
+    ],
+    "dossier": ".ai-triage/bugs/1370100957861511299.md"
+  },
+  {
+    "thread_id": "1370101954591719424",
+    "verdict": "CONFIG_OR_CONTENT_ISSUE",
+    "confidence": "Medium",
+    "severity": "S3",
+    "complexity": "S",
+    "cluster_hint": null,
+    "root_cause_short": "togglelight/toggleshadows gated by DEBUG flag in engineCommandPerms.yml (32/34) -> denied for aghost admin w/o DEBUG; button pressed-state only synced once in SandboxUIController.EnsureWindow (TODO).",
+    "evidence": [
+      "Content.Client/UserInterface/Systems/Sandbox/Windows/SandboxWindow.xaml:ToggleLightButton,ToggleShadowsButton",
+      "Resources/Locale/ru-RU/sandbox/sandbox-manager.ftl:sandbox-window-toggle-shadows-button",
+      "Content.Client/UserInterface/Systems/Sandbox/SandboxUIController.cs:EnsureWindow",
+      "Content.Client/Sandbox/SandboxSystem.cs:ToggleLight,ToggleShadows",
+      "Resources/engineCommandPerms.yml:DEBUG group (togglelight/toggleshadows)"
+    ],
+    "dossier": ".ai-triage/bugs/1370101954591719424.md"
+  },
+  {
+    "thread_id": "1370486618670104757",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Low",
+    "severity": "S4",
+    "complexity": "S",
+    "cluster_hint": "intek-agent",
+    "root_cause_short": "Same unlocatable Intek agent prototype; 'forever full' stomach fits Hunger decay ~0 / huge capacity custom config, unproven.",
+    "evidence": [
+      "Resources/Locale/ru-RU/_Erida/accent/streetrebel.ftl:accent-streetrebel-words-45",
+      "Resources/Changelog/EridaChangelog.yml:539"
+    ],
+    "dossier": ".ai-triage/bugs/1370486618670104757.md"
+  },
+  {
+    "thread_id": "1379763108184330361",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Low",
+    "severity": "S4",
+    "complexity": "M",
+    "cluster_hint": null,
+    "root_cause_short": "Rant contradicted in-thread (melee dismemberment/decapitation confirmed working); likely armor/stamina/pain-shock balance perception, no code evidence gathered.",
+    "evidence": [
+      ".ai-triage/data/threads/1379763108184330361.json:Boroven/Yosif replies"
+    ],
+    "dossier": ".ai-triage/bugs/1379763108184330361.md"
+  },
+  {
+    "thread_id": "1531399705743855658",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Medium",
+    "severity": "S2",
+    "complexity": "M",
+    "cluster_hint": "lava-content",
+    "root_cause_short": "Lava-location 'headcrab-infested scientists' content not found in repo; invisible/invincible/impassable mobs fit spawned mobs with missing RSI + degenerate thresholds; boss-spawner items likely lack Deconstruct.",
+    "evidence": [
+      "Resources/Prototypes/_Goobstation/Changeling/Entities/Mobs/headcrab.yml:headcrab (only headcrab in repo, unrelated)",
+      "Resources/Prototypes/_Erida/Voice/tts-voices.yml (no lava prototypes in _Erida)"
+    ],
+    "dossier": ".ai-triage/bugs/1531399705743855658.md"
+  }
+]

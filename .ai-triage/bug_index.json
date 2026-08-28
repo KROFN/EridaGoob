@@ -14,15 +14,15 @@
   "threads_with_external_media": 3,
   "external_media_files": 5,
   "VERDICTS": {
-   "USER_ERROR_OR_NOT_BUG": 8,
-   "ALREADY_FIXED_IN_CURRENT_FORK": 29,
-   "CANNOT_VERIFY": 41,
-   "LIKELY_CURRENT_BUG": 31,
-   "CONFIG_OR_CONTENT_ISSUE": 30,
-   "CONFIRMED_CURRENT_BUG": 10,
+   "USER_ERROR_OR_NOT_BUG": 9,
+   "ALREADY_FIXED_IN_CURRENT_FORK": 30,
+   "CANNOT_VERIFY": 51,
+   "CONFIRMED_CURRENT_BUG": 13,
+   "LIKELY_CURRENT_BUG": 35,
+   "CONFIG_OR_CONTENT_ISSUE": 35,
    "DUPLICATE": 2
   },
-  "VERDICT_COVERAGE": 151
+  "VERDICT_COVERAGE": 175
  },
  "threads": [
   {
@@ -934,9 +934,16 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "USER_ERROR_OR_NOT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1364963068475342878.md",
+   "confidence": "High",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "Жалоба на монетизацию сервера (платная кастомизация через донат) — осознанное решение проекта по словам staff ('за плюшки решает глава проекта', 'жди ввода спонсорки'); вне игрового кода",
+   "evidence": [
+    ".ai-triage/data/threads/1364963068475342878.json:replies (Kat_L, TREST)"
+   ]
   },
   {
    "thread_id": "1364965405730275458",
@@ -2385,9 +2392,18 @@
    "mentions": [
     "TTC"
    ],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CONFIRMED_CURRENT_BUG",
+   "cluster": "tts-voice-availability",
+   "dossier": ".ai-triage/bugs/1365367741560913970.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "Патронских («подписочных») TTS-голосов и лимита персонажей не существует: TTSTab.UpdateResults показывает все ttsVoice без гейтинга (Disabled=false), CanHaveVoice проверяет только пол; подтверждено ответом разработчика «не успели сделать».",
+   "evidence": [
+    "Content.Client/_CorvaxGoob/TTS/TTSTab.xaml.cs:TTSTab.UpdateResults",
+    "Content.Shared/_CorvaxGoob/TTS/TTSVoicePrototype.cs:[Prototype(\"ttsVoice\")]",
+    "Content.Shared/Preferences/HumanoidCharacterProfile.cs:CanHaveVoice"
+   ]
   },
   {
    "thread_id": "1365383882765242488",
@@ -2549,9 +2565,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1365393402589614209.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "L",
+   "root_cause_short": "Ролевого вайтлиста в форке не существует вообще (нет JobWhitelist/WhitelistSystem в C#, в yml только EntityWhitelist предметов) — заявленная блокировка 'роли требуют WL' из кода необъяснима; фактически это запрос на внедрение фичи ('В процессе' по словам staff)",
+   "evidence": [
+    "Content.Server (rg 'Whitelist' -g '*.cs'): только labeler/trait/chat/objectives hits",
+    "Resources/Prototypes/_Erida (rg 'whitelist' -g '*.yml'): только item EntityWhitelist",
+    ".ai-triage/data/threads/1365393402589614209.json:replies ('ждать надо', 'В процессе')"
+   ]
   },
   {
    "thread_id": "1365408109719457812",
@@ -4924,9 +4949,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "LIKELY_CURRENT_BUG",
+   "cluster": "spawn-point-no-map-filter",
+   "dossier": ".ai-triage/bugs/1366802698430578818.md",
+   "confidence": "Medium",
+   "severity": "S2",
+   "complexity": "M",
+   "root_cause_short": "Выбор точки лейтджойна/job в SpawnPointSystem идёт по всем SpawnPointComponent мира без фильтра по карте станции; при пустом наборе fallback кладёт игрока на первый попавшийся спавн-маркер любого грида (ЦК/шаттл у ЦК) —logfile 'Unable to pick a valid spawn point'",
+   "evidence": [
+    "Content.Server/Spawners/EntitySystems/SpawnPointSystem.cs:37-59 (query без MapID + backup любой SpawnPointComponent)",
+    "Content.Server/Spawners/EntitySystems/ContainerSpawnPointSystem.cs:58-64 (тот же паттерн для «юнитов»)",
+    "Resources/Maps/centcomm.yml (SpawnPoint/Visitor-маркеров нет; git log -S'SpawnPoint' — никогда не было)",
+    "Content.Server/Shuttles/Systems/ArrivalsSystem.cs:365 (там фильтр MapID есть — контраст)"
+   ]
   },
   {
    "thread_id": "1366944185495584768",
@@ -5073,9 +5108,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1366944185495584768.md",
+   "confidence": "Low",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "Image-only report (root msg empty); TrayScanner/SubFloor system reveals-hides entities, no item-loss code path found; aghost prototype not located.",
+   "evidence": [
+    "Content.Shared/SubFloor/TrayScannerComponent.cs:TrayScannerComponent",
+    "Content.Server/SubFloor/TrayScannerSystem.cs:TrayScannerSystem",
+    "Content.Shared/SubFloor/TrayScannerUserComponent.cs:TrayScannerUserComponent"
+   ]
   },
   {
    "thread_id": "1366962720901038151",
@@ -5600,9 +5644,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1367643283735576606.md",
+   "confidence": "Low",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "HYPOTHESIS: либо клики/драг UI-окна проваливаются в мир (персонажа утаскивает от РнД-консоли), либо окно улетает за экран (движок Robust, исходники недоступны); «откатик» может быть серверным роллбэком; видео не проанализировано, рекомендованная в треде настройка drag-окон в клиенте не существует",
+   "evidence": [
+    ".ai-triage/data/threads/1367643283735576606.json (root+replies: настройка из совета no_mad не найдена автором)",
+    "Content.Client/Preferences (rg -i 'drag' → пусто; опции drag-окон в форке нет)",
+    "RobustToolbox/ (каталог пуст, сабмодуль не выкачен — код перетаскивания окон непроверяем)",
+    "Content.Client/Research/UI/ResearchConsoleBoundUserInterface.cs (стандартный BUI, «выталкивания» нет)"
+   ]
   },
   {
    "thread_id": "1367646136298504222",
@@ -9226,9 +9280,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CANNOT_VERIFY",
+   "cluster": "intek-agent",
+   "dossier": ".ai-triage/bugs/1370100957861511299.md",
+   "confidence": "Medium",
+   "severity": "S4",
+   "complexity": "S",
+   "root_cause_short": "Custom 'InteQ agent' mob prototype not found under intek/inteq naming; lava-walk/chem-resistance likely deliberate content design (community: lava still deals reduced damage).",
+   "evidence": [
+    "Resources/Locale/ru-RU/_Erida/accent/streetrebel.ftl:accent-streetrebel-words-45",
+    "Resources/Changelog/EridaChangelog.yml:539",
+    "Content.Client/_Orion/DetailExaminableWindow.xaml:inteq"
+   ]
   },
   {
    "thread_id": "1370101954591719424",
@@ -9287,9 +9350,20 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1370101954591719424.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "S",
+   "root_cause_short": "togglelight/toggleshadows gated by DEBUG flag in engineCommandPerms.yml (32/34) -> denied for aghost admin w/o DEBUG; button pressed-state only synced once in SandboxUIController.EnsureWindow (TODO).",
+   "evidence": [
+    "Content.Client/UserInterface/Systems/Sandbox/Windows/SandboxWindow.xaml:ToggleLightButton,ToggleShadowsButton",
+    "Resources/Locale/ru-RU/sandbox/sandbox-manager.ftl:sandbox-window-toggle-shadows-button",
+    "Content.Client/UserInterface/Systems/Sandbox/SandboxUIController.cs:EnsureWindow",
+    "Content.Client/Sandbox/SandboxSystem.cs:ToggleLight,ToggleShadows",
+    "Resources/engineCommandPerms.yml:DEBUG group (togglelight/toggleshadows)"
+   ]
   },
   {
    "thread_id": "1370361618478927964",
@@ -9828,9 +9902,17 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CANNOT_VERIFY",
+   "cluster": "intek-agent",
+   "dossier": ".ai-triage/bugs/1370486618670104757.md",
+   "confidence": "Low",
+   "severity": "S4",
+   "complexity": "S",
+   "root_cause_short": "Same unlocatable Intek agent prototype; 'forever full' stomach fits Hunger decay ~0 / huge capacity custom config, unproven.",
+   "evidence": [
+    "Resources/Locale/ru-RU/_Erida/accent/streetrebel.ftl:accent-streetrebel-words-45",
+    "Resources/Changelog/EridaChangelog.yml:539"
+   ]
   },
   {
    "thread_id": "1371049112593764362",
@@ -10019,9 +10101,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1371049112593764362.md",
+   "confidence": "Medium",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "Репорт (11.05) старше порта шадоукинов fa46b517e0 (22.05); в текущем дереве MobShadowkinBase владеет Marish ('Spoken by Shadowkins', слоги mar/mwrrr = 'мра мамм') и полная EE language-система (C#) присутствует",
+   "evidence": [
+    "Resources/Prototypes/_EinsteinEngines/Entities/Mobs/Species/shadowkin.yml:MobShadowkinBase-LanguageKnowledge",
+    "Resources/Prototypes/_EinsteinEngines/Language/Species-Specific/marish.yml:Marish-obfuscation",
+    "Content.Shared/_EinsteinEngines/Language/Systems/SharedLanguageSystem.cs"
+   ]
   },
   {
    "thread_id": "1371221329704914994",
@@ -12505,9 +12596,16 @@
    "mentions": [
     "UPD"
    ],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1379763108184330361.md",
+   "confidence": "Low",
+   "severity": "S4",
+   "complexity": "M",
+   "root_cause_short": "Rant contradicted in-thread (melee dismemberment/decapitation confirmed working); likely armor/stamina/pain-shock balance perception, no code evidence gathered.",
+   "evidence": [
+    ".ai-triage/data/threads/1379763108184330361.json:Boroven/Yosif replies"
+   ]
   },
   {
    "thread_id": "1379904937223520296",
@@ -15770,9 +15868,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "LIKELY_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1392793334594015354.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "Экран раунденда/манифеста отсутствует или показывает старые данные: ShowRoundEndScoreboard/RoundEndSummaryWindow зависят от данных правила раунда; в крупных RDM/соло-antag режимах секция манифеста не генерируется либо окно не сбрасывает состояние.",
+   "evidence": [
+    "Content.Server/GameTicking/GameTicker.RoundFlow.cs:ShowRoundEndScoreboard",
+    "Content.Client/RoundEnd/RoundEndSummaryWindow.cs",
+    "Content.Client/RoundEnd/RoundEndSummaryUIController.cs"
+   ]
   },
   {
    "thread_id": "1392895660189286440",
@@ -16951,9 +17058,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1413573454245925025.md",
+   "confidence": "Low",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "Unnamed+ duplicated craft entries reported; only identifier is an unexamined screenshot — no test-named nodes, no duplicate recipe ids/targetNodes found in construction prototypes",
+   "evidence": [
+    ".ai-triage/data/threads/1413573454245925025.json:root_message",
+    "Resources/Prototypes/Recipes/Construction/Graphs (rg test|placeholder|debug = 0 hits)",
+    "Resources/Prototypes/Recipes/Construction/*.yml (python dup scan: DUP_IDS=[], DUP_TARGETNODES=[])"
+   ]
   },
   {
    "thread_id": "1413576057843613776",
@@ -17346,9 +17462,17 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1413579782691753994.md",
+   "confidence": "Low",
+   "severity": "S2",
+   "complexity": "M",
+   "root_cause_short": "Мега-тред из ~8 разных дефектов; dev Vecortys заявил 06.09 'все баги исправлены' (корень: 'путь до файла криво указал'), но sha-доказательств фикс-коммитов в логе 05-08.09 не найдено; по-пунктная верификация невозможна без repro",
+   "evidence": [
+    ".ai-triage/data/threads/1413579782691753994.json:replies (Vecortys 1413851178290118788, 1413924550160416879)",
+    "git log --since=2025-09-05 --until=2025-09-11: нет совпадающих фикс-коммитов"
+   ]
   },
   {
    "thread_id": "1413579800483860560",
@@ -19524,9 +19648,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CANNOT_VERIFY",
+   "cluster": "tts-voice-availability",
+   "dossier": ".ai-triage/bugs/1414388215669981324.md",
+   "confidence": "Low",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "Механика «рандомный TTS каждый раунд» не локализована: серверный fallback в ServerDbBase детерминирован (DefaultSexVoice), серверный код выдачи голоса в репо не найден; тело треда пустое, скриншоты не интерпретированы.",
+   "evidence": [
+    "Content.Server/Database/ServerDbBase.cs:232-234",
+    "Content.Shared/Preferences/HumanoidCharacterProfile.cs:EnsureValid",
+    "Content.Shared/_Erida/CCVar/CCVars.TTS.cs:CCVars.TTSApiUrl"
+   ]
   },
   {
    "thread_id": "1414517676541349909",
@@ -20696,9 +20829,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
+   "cluster": "secret-antag-density",
+   "dossier": ".ai-triage/bugs/1417112501325398128.md",
+   "confidence": "High",
+   "severity": "S2",
+   "complexity": "S",
+   "root_cause_short": "Secret берёт один preset по весам (secret_weights.yml, Wizard 0.25 'TEMP INCREASE FROM 10'), а midround-правила (SkeletonMidround weight 5/minPlayers 15/maxOcc 2, TraitorMidround) стакаются поверх без cross-rule несовместимостей (incompatibleModes есть только у GameDirector)",
+   "evidence": [
+    "Content.Server/GameTicking/Rules/SecretRuleSystem.cs:TryPickPreset",
+    "Resources/Prototypes/secret_weights.yml:Secret-weights",
+    "Resources/Prototypes/_Goobstation/GameRules/midround.yml:SkeletonMidround",
+    "Resources/Prototypes/_Goobstation/GameRules/gamedirector_weights.yml:incompatibleModes"
+   ]
   },
   {
    "thread_id": "1417509566299766916",
@@ -20869,9 +21012,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1417509566299766916.md",
+   "confidence": "High",
+   "severity": "S4",
+   "complexity": "M",
+   "root_cause_short": "Роль бригмеда никогда не существовала в отрядном/ERT-ростере (в humanoid.yml есть только ERTMedical* и т.п.); предметы и локаль бригмеда есть — это контент-запрос на добавление слота, staff в треде обещали 'добавят по ходу развития'",
+   "evidence": [
+    "Resources/Prototypes/Entities/Mobs/Player/humanoid.yml:ERTMedical",
+    "Resources/Prototypes/Recipes/Lathes/clothing.yml:ClothingUniformJumpsuitBrigmedic",
+    "Resources/Locale/en-US/job/job-names.ftl:brigmedic"
+   ]
   },
   {
    "thread_id": "1417926890823356699",
@@ -21319,9 +21471,18 @@
    "mentions": [
     "Amber"
    ],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
+   "cluster": "missing-printer-content",
+   "dossier": ".ai-triage/bugs/1419457062882250874.md",
+   "confidence": "High",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "PrinterDoc (принтер документов) отсутствует в текущем контенте: прототип потерян при ре-базе (осталась только осиротевшая ru-локаль _corvaxgoob/printer.ftl), ни одна карта в Resources/Maps его не содержит; Amber вдобавок закомментирована в Pools/default.yml",
+   "evidence": [
+    "Resources/Locale/ru-RU/ss14-ru/prototypes/_corvaxgoob/entities/structures/machines/printer.ftl:ent-PrinterDoc",
+    "Resources/Maps/_Goobstation/box.yml:FaxMachineBase (PrinterDoc отсутствует, rg -l 'PrinterDoc' Resources/Maps → пусто)",
+    "Resources/Prototypes/Maps/Pools/default.yml:7 (#- Amber kil by upstream ... testfails)"
+   ]
   },
   {
    "thread_id": "1419998003447468153",
@@ -21700,9 +21861,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
+   "cluster": "tts-voice-availability",
+   "dossier": ".ai-triage/bugs/1421828766404972624.md",
+   "confidence": "Medium",
+   "severity": "S4",
+   "complexity": "S",
+   "root_cause_short": "Голос «Рита» отсутствует в Resources/Prototypes/_Erida/Voice/tts-voices.yml (выбранное подмножество после переработки Tts #28/#9), пикер TTSTab показывает только ttsVoice-прототипы; спец-голос медборгов — заявленное намерение («ТТС бывает специализированный»).",
+   "evidence": [
+    "Resources/Prototypes/_Erida/Voice/tts-voices.yml:ttsVoice",
+    "Content.Client/_CorvaxGoob/TTS/TTSTab.xaml.cs:TTSTab.LoadVoices",
+    "git -S'Rita': 5aa9874e56 Tts (#9)"
+   ]
   },
   {
    "thread_id": "1421848934644449382",
@@ -21740,9 +21910,18 @@
    },
    "replies": [],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "LIKELY_CURRENT_BUG",
+   "cluster": "tts-volume-mute",
+   "dossier": ".ai-triage/bugs/1421848934644449382.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "S",
+   "root_cause_short": "TTS нельзя заглушить до тишины: TTSSystem.AdjustVolume добавляет фиксированную базу -10 дБ, оповещения усредняются с announcements-громкостью, а UI-привязка ползунка к tts.volume в настройках не найдена.",
+   "evidence": [
+    "Content.Client/_CorvaxGoob/TTS/TTSSystem.cs:AdjustVolume,MinimalVolume",
+    "Content.Client/_CorvaxGoob/TTS/TTSSystem.Announcements.cs:PlayTTS",
+    "Content.Client/Options/UI/Tabs/AudioTab.xaml.cs:AddOptionPercentSlider"
+   ]
   },
   {
    "thread_id": "1422108565522350170",
@@ -36212,9 +36391,20 @@
    },
    "replies": [],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CONFIRMED_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1473337621521367151.md",
+   "confidence": "High",
+   "severity": "S3",
+   "complexity": "XS",
+   "root_cause_short": "Construction recipes UraniumWindowDirectional/UraniumReinforcedWindowDirectional missing from structures.yml while graph WindowDirectional nodes, materials and entities all exist — menu lists recipes, so items never appear",
+   "evidence": [
+    "Resources/Prototypes/Recipes/Construction/structures.yml:444-499 (all WindowDirectional recipes, no uranium)",
+    "Resources/Prototypes/Recipes/Construction/Graphs/structures/windowdirectional.yml:33-43,141,160 (nodes exist)",
+    "Resources/Prototypes/Entities/Structures/Windows/uranium.yml:62",
+    "Resources/Prototypes/Entities/Structures/Windows/ruranium.yml:61",
+    "Resources/Prototypes/Recipes/Construction/structures.yml:537-555 + Resources/Locale/ru-RU/construction/recipes/structures.ftl:7-8 (diagonal precedent)"
+   ]
   },
   {
    "thread_id": "1473371598605254880",
@@ -37738,9 +37928,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "LIKELY_CURRENT_BUG",
+   "cluster": "tts-volume-mute",
+   "dossier": ".ai-triage/bugs/1480519345594568866.md",
+   "confidence": "Medium",
+   "severity": "S2",
+   "complexity": "S",
+   "root_cause_short": "Первичный тред кластера «не отключается TTS»: формула AdjustVolume (база -10 дБ) + усреднение объявлений + отсутствие привязки ползунков к CCVars.TTSVolume/AnnouncementsSound — «оба ползунка на нуле» не дают mute.",
+   "evidence": [
+    "Content.Client/_CorvaxGoob/TTS/TTSSystem.cs:AdjustVolume",
+    "Content.Client/_CorvaxGoob/TTS/TTSSystem.Announcements.cs:PlayTTS",
+    "Content.Shared/_Erida/CCVar/CCVars.TTS.cs:CCVars.TTSVolume"
+   ]
   },
   {
    "thread_id": "1480543465203826956",
@@ -49956,9 +50155,17 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CANNOT_VERIFY",
+   "cluster": "lava-content",
+   "dossier": ".ai-triage/bugs/1531399705743855658.md",
+   "confidence": "Medium",
+   "severity": "S2",
+   "complexity": "M",
+   "root_cause_short": "Lava-location 'headcrab-infested scientists' content not found in repo; invisible/invincible/impassable mobs fit spawned mobs with missing RSI + degenerate thresholds; boss-spawner items likely lack Deconstruct.",
+   "evidence": [
+    "Resources/Prototypes/_Goobstation/Changeling/Entities/Mobs/headcrab.yml:headcrab (only headcrab in repo, unrelated)",
+    "Resources/Prototypes/_Erida/Voice/tts-voices.yml (no lava prototypes in _Erida)"
+   ]
   },
   {
    "thread_id": "1531689725554069685",
@@ -50885,9 +51092,20 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CONFIRMED_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1534609752284463224.md",
+   "confidence": "High",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "NuclearFabricator machine prototype was never ported — only a dead ru-RU locale key exists; no entity, machine board, lathe recipe or storage/cargo entry, so the machine is unobtainable anywhere",
+   "evidence": [
+    "Resources/Locale/ru-RU/_CorvaxGoob/fission-generator/entities.ftl:247 (ent-NuclearFabricator, sole repo-wide hit)",
+    "git log --all -S'NuclearFabricator' → 4cf391efb1 only (locale added, prototype never)",
+    "Resources/Prototypes/_CorvaxGoob/Entities/Structures/Power/Generation/FissionGenerator/ (siblings ported, fabricator absent)",
+    "Resources/Prototypes/Recipes/Lathes/machine_boards.yml (no NuclearFabricator board)",
+    "git aa7019dedd '[Port] Reactor (#20)'"
+   ]
   },
   {
    "thread_id": "1535027750082056404",

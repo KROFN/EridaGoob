@@ -1,0 +1,92 @@
+[
+  {
+    "thread_id": "1365367741560913970",
+    "verdict": "CONFIRMED_CURRENT_BUG",
+    "confidence": "Medium",
+    "severity": "S3",
+    "complexity": "M",
+    "cluster_hint": "tts-voice-availability",
+    "root_cause_short": "Патронских («подписочных») TTS-голосов и лимита персонажей не существует: TTSTab.UpdateResults показывает все ttsVoice без гейтинга (Disabled=false), CanHaveVoice проверяет только пол; подтверждено ответом разработчика «не успели сделать».",
+    "evidence": [
+      "Content.Client/_CorvaxGoob/TTS/TTSTab.xaml.cs:TTSTab.UpdateResults",
+      "Content.Shared/_CorvaxGoob/TTS/TTSVoicePrototype.cs:[Prototype(\"ttsVoice\")]",
+      "Content.Shared/Preferences/HumanoidCharacterProfile.cs:CanHaveVoice"
+    ],
+    "dossier": ".ai-triage/bugs/1365367741560913970.md"
+  },
+  {
+    "thread_id": "1414388215669981324",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Low",
+    "severity": "S3",
+    "complexity": "M",
+    "cluster_hint": "tts-voice-availability",
+    "root_cause_short": "Механика «рандомный TTS каждый раунд» не локализована: серверный fallback в ServerDbBase детерминирован (DefaultSexVoice), серверный код выдачи голоса в репо не найден; тело треда пустое, скриншоты не интерпретированы.",
+    "evidence": [
+      "Content.Server/Database/ServerDbBase.cs:232-234",
+      "Content.Shared/Preferences/HumanoidCharacterProfile.cs:EnsureValid",
+      "Content.Shared/_Erida/CCVar/CCVars.TTS.cs:CCVars.TTSApiUrl"
+    ],
+    "dossier": ".ai-triage/bugs/1414388215669981324.md"
+  },
+  {
+    "thread_id": "1421828766404972624",
+    "verdict": "CONFIG_OR_CONTENT_ISSUE",
+    "confidence": "Medium",
+    "severity": "S4",
+    "complexity": "S",
+    "cluster_hint": "tts-voice-availability",
+    "root_cause_short": "Голос «Рита» отсутствует в Resources/Prototypes/_Erida/Voice/tts-voices.yml (выбранное подмножество после переработки Tts #28/#9), пикер TTSTab показывает только ttsVoice-прототипы; спец-голос медборгов — заявленное намерение («ТТС бывает специализированный»).",
+    "evidence": [
+      "Resources/Prototypes/_Erida/Voice/tts-voices.yml:ttsVoice",
+      "Content.Client/_CorvaxGoob/TTS/TTSTab.xaml.cs:TTSTab.LoadVoices",
+      "git -S'Rita': 5aa9874e56 Tts (#9)"
+    ],
+    "dossier": ".ai-triage/bugs/1421828766404972624.md"
+  },
+  {
+    "thread_id": "1421848934644449382",
+    "verdict": "LIKELY_CURRENT_BUG",
+    "confidence": "Medium",
+    "severity": "S3",
+    "complexity": "S",
+    "cluster_hint": "tts-volume-mute",
+    "root_cause_short": "TTS нельзя заглушить до тишины: TTSSystem.AdjustVolume добавляет фиксированную базу -10 дБ, оповещения усредняются с announcements-громкостью, а UI-привязка ползунка к tts.volume в настройках не найдена.",
+    "evidence": [
+      "Content.Client/_CorvaxGoob/TTS/TTSSystem.cs:AdjustVolume,MinimalVolume",
+      "Content.Client/_CorvaxGoob/TTS/TTSSystem.Announcements.cs:PlayTTS",
+      "Content.Client/Options/UI/Tabs/AudioTab.xaml.cs:AddOptionPercentSlider"
+    ],
+    "dossier": ".ai-triage/bugs/1421848934644449382.md"
+  },
+  {
+    "thread_id": "1480519345594568866",
+    "verdict": "LIKELY_CURRENT_BUG",
+    "confidence": "Medium",
+    "severity": "S2",
+    "complexity": "S",
+    "cluster_hint": "tts-volume-mute",
+    "root_cause_short": "Первичный тред кластера «не отключается TTS»: формула AdjustVolume (база -10 дБ) + усреднение объявлений + отсутствие привязки ползунков к CCVars.TTSVolume/AnnouncementsSound — «оба ползунка на нуле» не дают mute.",
+    "evidence": [
+      "Content.Client/_CorvaxGoob/TTS/TTSSystem.cs:AdjustVolume",
+      "Content.Client/_CorvaxGoob/TTS/TTSSystem.Announcements.cs:PlayTTS",
+      "Content.Shared/_Erida/CCVar/CCVars.TTS.cs:CCVars.TTSVolume"
+    ],
+    "dossier": ".ai-triage/bugs/1480519345594568866.md"
+  },
+  {
+    "thread_id": "1392793334594015354",
+    "verdict": "LIKELY_CURRENT_BUG",
+    "confidence": "Medium",
+    "severity": "S3",
+    "complexity": "M",
+    "cluster_hint": null,
+    "root_cause_short": "Экран раунденда/манифеста отсутствует или показывает старые данные: ShowRoundEndScoreboard/RoundEndSummaryWindow зависят от данных правила раунда; в крупных RDM/соло-antag режимах секция манифеста не генерируется либо окно не сбрасывает состояние.",
+    "evidence": [
+      "Content.Server/GameTicking/GameTicker.RoundFlow.cs:ShowRoundEndScoreboard",
+      "Content.Client/RoundEnd/RoundEndSummaryWindow.cs",
+      "Content.Client/RoundEnd/RoundEndSummaryUIController.cs"
+    ],
+    "dossier": ".ai-triage/bugs/1392793334594015354.md"
+  }
+]

@@ -1,0 +1,90 @@
+[
+ {
+  "thread_id": "1371049112593764362",
+  "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+  "confidence": "Medium",
+  "severity": "S4",
+  "complexity": "XS",
+  "cluster_hint": null,
+  "root_cause_short": "Репорт (11.05) старше порта шадоукинов fa46b517e0 (22.05); в текущем дереве MobShadowkinBase владеет Marish ('Spoken by Shadowkins', слоги mar/mwrrr = 'мра мамм') и полная EE language-система (C#) присутствует",
+  "evidence": [
+   "Resources/Prototypes/_EinsteinEngines/Entities/Mobs/Species/shadowkin.yml:MobShadowkinBase-LanguageKnowledge",
+   "Resources/Prototypes/_EinsteinEngines/Language/Species-Specific/marish.yml:Marish-obfuscation",
+   "Content.Shared/_EinsteinEngines/Language/Systems/SharedLanguageSystem.cs"
+  ],
+  "dossier": ".ai-triage/bugs/1371049112593764362.md"
+ },
+ {
+  "thread_id": "1417112501325398128",
+  "verdict": "CONFIG_OR_CONTENT_ISSUE",
+  "confidence": "High",
+  "severity": "S2",
+  "complexity": "S",
+  "cluster_hint": "secret-antag-density",
+  "root_cause_short": "Secret берёт один preset по весам (secret_weights.yml, Wizard 0.25 'TEMP INCREASE FROM 10'), а midround-правила (SkeletonMidround weight 5/minPlayers 15/maxOcc 2, TraitorMidround) стакаются поверх без cross-rule несовместимостей (incompatibleModes есть только у GameDirector)",
+  "evidence": [
+   "Content.Server/GameTicking/Rules/SecretRuleSystem.cs:TryPickPreset",
+   "Resources/Prototypes/secret_weights.yml:Secret-weights",
+   "Resources/Prototypes/_Goobstation/GameRules/midround.yml:SkeletonMidround",
+   "Resources/Prototypes/_Goobstation/GameRules/gamedirector_weights.yml:incompatibleModes"
+  ],
+  "dossier": ".ai-triage/bugs/1417112501325398128.md"
+ },
+ {
+  "thread_id": "1417509566299766916",
+  "verdict": "CONFIG_OR_CONTENT_ISSUE",
+  "confidence": "High",
+  "severity": "S4",
+  "complexity": "M",
+  "cluster_hint": null,
+  "root_cause_short": "Роль бригмеда никогда не существовала в отрядном/ERT-ростере (в humanoid.yml есть только ERTMedical* и т.п.); предметы и локаль бригмеда есть — это контент-запрос на добавление слота, staff в треде обещали 'добавят по ходу развития'",
+  "evidence": [
+   "Resources/Prototypes/Entities/Mobs/Player/humanoid.yml:ERTMedical",
+   "Resources/Prototypes/Recipes/Lathes/clothing.yml:ClothingUniformJumpsuitBrigmedic",
+   "Resources/Locale/en-US/job/job-names.ftl:brigmedic"
+  ],
+  "dossier": ".ai-triage/bugs/1417509566299766916.md"
+ },
+ {
+  "thread_id": "1365393402589614209",
+  "verdict": "CANNOT_VERIFY",
+  "confidence": "Medium",
+  "severity": "S3",
+  "complexity": "L",
+  "cluster_hint": null,
+  "root_cause_short": "Ролевого вайтлиста в форке не существует вообще (нет JobWhitelist/WhitelistSystem в C#, в yml только EntityWhitelist предметов) — заявленная блокировка 'роли требуют WL' из кода необъяснима; фактически это запрос на внедрение фичи ('В процессе' по словам staff)",
+  "evidence": [
+   "Content.Server (rg 'Whitelist' -g '*.cs'): только labeler/trait/chat/objectives hits",
+   "Resources/Prototypes/_Erida (rg 'whitelist' -g '*.yml'): только item EntityWhitelist",
+   ".ai-triage/data/threads/1365393402589614209.json:replies ('ждать надо', 'В процессе')"
+  ],
+  "dossier": ".ai-triage/bugs/1365393402589614209.md"
+ },
+ {
+  "thread_id": "1364963068475342878",
+  "verdict": "USER_ERROR_OR_NOT_BUG",
+  "confidence": "High",
+  "severity": "S4",
+  "complexity": "XS",
+  "cluster_hint": null,
+  "root_cause_short": "Жалоба на монетизацию сервера (платная кастомизация через донат) — осознанное решение проекта по словам staff ('за плюшки решает глава проекта', 'жди ввода спонсорки'); вне игрового кода",
+  "evidence": [
+   ".ai-triage/data/threads/1364963068475342878.json:replies (Kat_L, TREST)"
+  ],
+  "dossier": ".ai-triage/bugs/1364963068475342878.md"
+ },
+ {
+  "thread_id": "1413579782691753994",
+  "verdict": "CANNOT_VERIFY",
+  "confidence": "Low",
+  "severity": "S2",
+  "complexity": "M",
+  "cluster_hint": null,
+  "root_cause_short": "Мега-тред из ~8 разных дефектов; dev Vecortys заявил 06.09 'все баги исправлены' (корень: 'путь до файла криво указал'), но sha-доказательств фикс-коммитов в логе 05-08.09 не найдено; по-пунктная верификация невозможна без repro",
+  "evidence": [
+   ".ai-triage/data/threads/1413579782691753994.json:replies (Vecortys 1413851178290118788, 1413924550160416879)",
+   "git log --since=2025-09-05 --until=2025-09-11: нет совпадающих фикс-коммитов"
+  ],
+  "dossier": ".ai-triage/bugs/1413579782691753994.md"
+ }
+]

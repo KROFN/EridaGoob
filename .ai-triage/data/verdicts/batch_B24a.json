@@ -1,0 +1,49 @@
+[
+ {
+  "thread_id": "1419457062882250874",
+  "verdict": "CONFIG_OR_CONTENT_ISSUE",
+  "confidence": "High",
+  "severity": "S3",
+  "complexity": "M",
+  "cluster_hint": "missing-printer-content",
+  "root_cause_short": "PrinterDoc (принтер документов) отсутствует в текущем контенте: прототип потерян при ре-базе (осталась только осиротевшая ru-локаль _corvaxgoob/printer.ftl), ни одна карта в Resources/Maps его не содержит; Amber вдобавок закомментирована в Pools/default.yml",
+  "evidence": [
+   "Resources/Locale/ru-RU/ss14-ru/prototypes/_corvaxgoob/entities/structures/machines/printer.ftl:ent-PrinterDoc",
+   "Resources/Maps/_Goobstation/box.yml:FaxMachineBase (PrinterDoc отсутствует, rg -l 'PrinterDoc' Resources/Maps → пусто)",
+   "Resources/Prototypes/Maps/Pools/default.yml:7 (#- Amber kil by upstream ... testfails)"
+  ],
+  "dossier": ".ai-triage/bugs/1419457062882250874.md"
+ },
+ {
+  "thread_id": "1366802698430578818",
+  "verdict": "LIKELY_CURRENT_BUG",
+  "confidence": "Medium",
+  "severity": "S2",
+  "complexity": "M",
+  "cluster_hint": "spawn-point-no-map-filter",
+  "root_cause_short": "Выбор точки лейтджойна/job в SpawnPointSystem идёт по всем SpawnPointComponent мира без фильтра по карте станции; при пустом наборе fallback кладёт игрока на первый попавшийся спавн-маркер любого грида (ЦК/шаттл у ЦК) —logfile 'Unable to pick a valid spawn point'",
+  "evidence": [
+   "Content.Server/Spawners/EntitySystems/SpawnPointSystem.cs:37-59 (query без MapID + backup любой SpawnPointComponent)",
+   "Content.Server/Spawners/EntitySystems/ContainerSpawnPointSystem.cs:58-64 (тот же паттерн для «юнитов»)",
+   "Resources/Maps/centcomm.yml (SpawnPoint/Visitor-маркеров нет; git log -S'SpawnPoint' — никогда не было)",
+   "Content.Server/Shuttles/Systems/ArrivalsSystem.cs:365 (там фильтр MapID есть — контраст)"
+  ],
+  "dossier": ".ai-triage/bugs/1366802698430578818.md"
+ },
+ {
+  "thread_id": "1367643283735576606",
+  "verdict": "CANNOT_VERIFY",
+  "confidence": "Low",
+  "severity": "S3",
+  "complexity": "M",
+  "cluster_hint": null,
+  "root_cause_short": "HYPOTHESIS: либо клики/драг UI-окна проваливаются в мир (персонажа утаскивает от РнД-консоли), либо окно улетает за экран (движок Robust, исходники недоступны); «откатик» может быть серверным роллбэком; видео не проанализировано, рекомендованная в треде настройка drag-окон в клиенте не существует",
+  "evidence": [
+   ".ai-triage/data/threads/1367643283735576606.json (root+replies: настройка из совета no_mad не найдена автором)",
+   "Content.Client/Preferences (rg -i 'drag' → пусто; опции drag-окон в форке нет)",
+   "RobustToolbox/ (каталог пуст, сабмодуль не выкачен — код перетаскивания окон непроверяем)",
+   "Content.Client/Research/UI/ResearchConsoleBoundUserInterface.cs (стандартный BUI, «выталкивания» нет)"
+  ],
+  "dossier": ".ai-triage/bugs/1367643283735576606.md"
+ }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "thread_id": "1413573454245925025",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Low",
+    "severity": "S4",
+    "complexity": "XS",
+    "cluster_hint": null,
+    "root_cause_short": "Unnamed+ duplicated craft entries reported; only identifier is an unexamined screenshot — no test-named nodes, no duplicate recipe ids/targetNodes found in construction prototypes",
+    "evidence": [
+      ".ai-triage/data/threads/1413573454245925025.json:root_message",
+      "Resources/Prototypes/Recipes/Construction/Graphs (rg test|placeholder|debug = 0 hits)",
+      "Resources/Prototypes/Recipes/Construction/*.yml (python dup scan: DUP_IDS=[], DUP_TARGETNODES=[])"
+    ],
+    "dossier": ".ai-triage/bugs/1413573454245925025.md"
+  },
+  {
+    "thread_id": "1473337621521367151",
+    "verdict": "CONFIRMED_CURRENT_BUG",
+    "confidence": "High",
+    "severity": "S3",
+    "complexity": "XS",
+    "cluster_hint": null,
+    "root_cause_short": "Construction recipes UraniumWindowDirectional/UraniumReinforcedWindowDirectional missing from structures.yml while graph WindowDirectional nodes, materials and entities all exist — menu lists recipes, so items never appear",
+    "evidence": [
+      "Resources/Prototypes/Recipes/Construction/structures.yml:444-499 (all WindowDirectional recipes, no uranium)",
+      "Resources/Prototypes/Recipes/Construction/Graphs/structures/windowdirectional.yml:33-43,141,160 (nodes exist)",
+      "Resources/Prototypes/Entities/Structures/Windows/uranium.yml:62",
+      "Resources/Prototypes/Entities/Structures/Windows/ruranium.yml:61",
+      "Resources/Prototypes/Recipes/Construction/structures.yml:537-555 + Resources/Locale/ru-RU/construction/recipes/structures.ftl:7-8 (diagonal precedent)"
+    ],
+    "dossier": ".ai-triage/bugs/1473337621521367151.md"
+  },
+  {
+    "thread_id": "1534609752284463224",
+    "verdict": "CONFIRMED_CURRENT_BUG",
+    "confidence": "High",
+    "severity": "S3",
+    "complexity": "M",
+    "cluster_hint": null,
+    "root_cause_short": "NuclearFabricator machine prototype was never ported — only a dead ru-RU locale key exists; no entity, machine board, lathe recipe or storage/cargo entry, so the machine is unobtainable anywhere",
+    "evidence": [
+      "Resources/Locale/ru-RU/_CorvaxGoob/fission-generator/entities.ftl:247 (ent-NuclearFabricator, sole repo-wide hit)",
+      "git log --all -S'NuclearFabricator' → 4cf391efb1 only (locale added, prototype never)",
+      "Resources/Prototypes/_CorvaxGoob/Entities/Structures/Power/Generation/FissionGenerator/ (siblings ported, fabricator absent)",
+      "Resources/Prototypes/Recipes/Lathes/machine_boards.yml (no NuclearFabricator board)",
+      "git aa7019dedd '[Port] Reactor (#20)'"
+    ],
+    "dossier": ".ai-triage/bugs/1534609752284463224.md"
+  }
+]

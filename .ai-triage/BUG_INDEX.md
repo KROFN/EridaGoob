@@ -19,13 +19,13 @@ Source: Google Drive archive `1TlOjsaTn_iuKc26S7amk3q1qhkirNol7`.
 | attachment_files_on_disk | 294 |
 | threads_with_external_media | 3 |
 | external_media_files | 5 |
-| VERDICT_COVERAGE | 151 |
-| verdict:CANNOT_VERIFY | 41 |
-| verdict:LIKELY_CURRENT_BUG | 31 |
-| verdict:CONFIG_OR_CONTENT_ISSUE | 30 |
-| verdict:ALREADY_FIXED_IN_CURRENT_FORK | 29 |
-| verdict:CONFIRMED_CURRENT_BUG | 10 |
-| verdict:USER_ERROR_OR_NOT_BUG | 8 |
+| VERDICT_COVERAGE | 175 |
+| verdict:CANNOT_VERIFY | 51 |
+| verdict:LIKELY_CURRENT_BUG | 35 |
+| verdict:CONFIG_OR_CONTENT_ISSUE | 35 |
+| verdict:ALREADY_FIXED_IN_CURRENT_FORK | 30 |
+| verdict:CONFIRMED_CURRENT_BUG | 13 |
+| verdict:USER_ERROR_OR_NOT_BUG | 9 |
 | verdict:DUPLICATE | 2 |
 
 ## Index (all threads)
@@ -40,7 +40,7 @@ Source: Google Drive archive `1TlOjsaTn_iuKc26S7amk3q1qhkirNol7`.
 | 1364957478210633761 | Маленький визуальный баг. | 2025-04-24 | Исправлено | A | 12 | 3 | SKIP_RESOLVED | — | — | — | — | — | — |
 | 1364960599544561746 | Текстуры | 2025-04-24 | — | A | 5 | 0 | NEEDS_TRIAGE | ALREADY_FIXED_IN_CURRENT_FORK | Medium | S3 | XS | — | .ai-triage/bugs/1364960599544561746.md |
 | 1364961369350213754 | Визуальный Хвост | 2025-04-24 | Исправлено | A | 4 | 1 | SKIP_RESOLVED | — | — | — | — | — | — |
-| 1364963068475342878 | Донат за протезы | 2025-04-24 | В процессе | A | 10 | 0 | NEEDS_TRIAGE | — | — | — | — | — | — |
+| 1364963068475342878 | Донат за протезы | 2025-04-24 | В процессе | A | 10 | 0 | NEEDS_TRIAGE | USER_ERROR_OR_NOT_BUG | High | S4 | XS | — | .ai-triage/bugs/1364963068475342878.md |
 | 1364965405730275458 | Арканы знают язык свой и ПЫВА | 2025-04-24 | Исправлено | A | 6 | 0 | SKIP_RESOLVED | — | — | — | — | — | — |
 | 1364967063822532628 | персонажа нельзя выбрать | 2025-04-24 | Исправлено, unknown_tag_1365427630660128861 | A | 3 | 1 | SKIP_RESOLVED | — | — | — | — | — | — |
 | 1364967964230811698 | переход на другие сервера | 2025-04-24 | unknown_tag_1365427630660128861 | A | 2 | 1 | NEEDS_TRIAGE | CANNOT_VERIFY | Low | S3 | M | — | .ai-triage/bugs/1364967964230811698.md |
@@ -55,9 +55,9 @@ Source: Google Drive archive `1TlOjsaTn_iuKc26S7amk3q1qhkirNol7`.
 | 1365350238667280396 | Две хуйнюшки с безделушками у инженера | 2025-04-25 | В процессе | A | 1 | 1 | NEEDS_TRIAGE | ALREADY_FIXED_IN_CURRENT_FORK | Medium | S4 | XS | duplicate-loadout-group-labels | .ai-triage/bugs/1365350238667280396.md |
 | 1365351859774165133 | Сервер не полон, все равно нельзя зайти. | 2025-04-25 | Исправлено | A | 12 | 2 | SKIP_RESOLVED | — | — | — | — | — | — |
 | 1365364175785693225 | Белье поверх всей одежды в редакторе | 2025-04-25 | Исправлено, unknown_tag_1365427630660128861 | A | 2 | 0 | SKIP_RESOLVED | — | — | — | — | — | — |
-| 1365367741560913970 | ТТС и кол-во персонажей | 2025-04-25 | В процессе | A | 3 | 2 | NEEDS_TRIAGE | — | — | — | — | — | — |
+| 1365367741560913970 | ТТС и кол-во персонажей | 2025-04-25 | В процессе | A | 3 | 2 | NEEDS_TRIAGE | CONFIRMED_CURRENT_BUG | Medium | S3 | M | tts-voice-availability | .ai-triage/bugs/1365367741560913970.md |
 | 1365383882765242488 | Пауки-вампиры | 2025-04-25 | Не баг | A | 5 | 0 | SKIP_NOT_BUG | — | — | — | — | — | — |
-| 1365393402589614209 | WL без WL | 2025-04-25 | В процессе | A | 4 | 1 | NEEDS_TRIAGE | — | — | — | — | — | — |
+| 1365393402589614209 | WL без WL | 2025-04-25 | В процессе | A | 4 | 1 | NEEDS_TRIAGE | CANNOT_VERIFY | Medium | S3 | L | — | .ai-triage/bugs/1365393402589614209.md |
 | 1365408109719457812 | Невозможно открыть кпк когда лежишь | 2025-04-25 | Исправлено, unknown_tag_1365427630660128861 | A | 2 | 0 | SKIP_RESOLVED | — | — | — | — | — | — |
 | 1365481390363115561 | Отсутствующая технология | 2025-04-26 | — | A | 7 | 0 | NEEDS_TRIAGE | CANNOT_VERIFY | Medium | S3 | M | — | .ai-triage/bugs/1365481390363115561.md |
 | 1365548709525585950 | Одежда на одежде | 2025-04-26 | Исправлено | A | 5 | 1 | SKIP_RESOLVED | — | — | — | — | — | — |
@@ -83,13 +83,13 @@ Source: Google Drive archive `1TlOjsaTn_iuKc26S7amk3q1qhkirNol7`.
 | 1366482327479259278 | Наложение нижнего белья. | 2025-04-28 | Исправлено | A | 3 | 1 | SKIP_RESOLVED | — | — | — | — | — | — |
 | 1366681937032511539 | Мой ноут не микроволновка | 2025-04-29 | — | A | 5 | 1 | NEEDS_TRIAGE | USER_ERROR_OR_NOT_BUG | Medium | S4 | XS | — | .ai-triage/bugs/1366681937032511539.md |
 | 1366747516258881536 | Раздвижные окна | 2025-04-29 | — | A | 1 | 0 | NEEDS_TRIAGE | LIKELY_CURRENT_BUG | Medium | S3 | S | windoor-close-blocked | .ai-triage/bugs/1366747516258881536.md |
-| 1366802698430578818 | Спавн в ЦК | 2025-04-29 | — | A | 3 | 2 | NEEDS_TRIAGE | — | — | — | — | — | — |
-| 1366944185495584768 | Агост, тлучевой сканнер - пропажа всех предметов агоста | 2025-04-30 | unknown_tag_1365427630660128861 | A | 10 | 2 | NEEDS_TRIAGE | — | — | — | — | — | — |
+| 1366802698430578818 | Спавн в ЦК | 2025-04-29 | — | A | 3 | 2 | NEEDS_TRIAGE | LIKELY_CURRENT_BUG | Medium | S2 | M | spawn-point-no-map-filter | .ai-triage/bugs/1366802698430578818.md |
+| 1366944185495584768 | Агост, тлучевой сканнер - пропажа всех предметов агоста | 2025-04-30 | unknown_tag_1365427630660128861 | A | 10 | 2 | NEEDS_TRIAGE | CANNOT_VERIFY | Low | S3 | M | — | .ai-triage/bugs/1366944185495584768.md |
 | 1366962720901038151 | На карте The Hive нет шаттла на лаву | 2025-04-30 | — | A | 5 | 1 | NEEDS_TRIAGE | CANNOT_VERIFY | Medium | S3 | M | — | .ai-triage/bugs/1366962720901038151.md |
 | 1367123372160323656 | Most critical bug ever! (Не критично.) | 2025-04-30 | — | A | 3 | 1 | NEEDS_TRIAGE | CANNOT_VERIFY | Medium | S4 | XS | — | .ai-triage/bugs/1367123372160323656.md |
 | 1367396276349698049 | Куча ошибок | 2025-05-01 | — | A | 5 | 1 | NEEDS_TRIAGE | ALREADY_FIXED_IN_CURRENT_FORK | Medium | S3 | XS | — | .ai-triage/bugs/1367396276349698049.md |
 | 1367513774440972329 | Ревенант | 2025-05-01 | Не баг | A | 8 | 0 | SKIP_NOT_BUG | — | — | — | — | — | — |
-| 1367643283735576606 | Окно консоли | 2025-05-01 | На рассмотрении | A | 10 | 1 | NEEDS_TRIAGE | — | — | — | — | — | — |
+| 1367643283735576606 | Окно консоли | 2025-05-01 | На рассмотрении | A | 10 | 1 | NEEDS_TRIAGE | CANNOT_VERIFY | Low | S3 | M | — | .ai-triage/bugs/1367643283735576606.md |
 | 1367646136298504222 | Скорее всего баг с хирургией | 2025-05-01 | — | A | 4 | 2 | NEEDS_TRIAGE | LIKELY_CURRENT_BUG | Medium | S2 | M | rebell-burnt-part-surgery | .ai-triage/bugs/1367646136298504222.md |
 | 1367781435938832436 | Нечувствительность не работает в настроении | 2025-05-02 | unknown_tag_1365427630660128861 | A | 5 | 0 | NEEDS_TRIAGE | LIKELY_CURRENT_BUG | Medium | S3 | S | pain-numbness-mood | .ai-triage/bugs/1367781435938832436.md |
 | 1367843022061965395 | Баг с целями | 2025-05-02 | — | A | 3 | 1 | NEEDS_TRIAGE | CONFIG_OR_CONTENT_ISSUE | Medium | S3 | S | — | .ai-triage/bugs/1367843022061965395.md |
@@ -121,14 +121,14 @@ Source: Google Drive archive `1TlOjsaTn_iuKc26S7amk3q1qhkirNol7`.
 | 1369921569094369280 | При одетом скафе нельзя снимать с других что либо | 2025-05-08 | Не баг | A | 17 | 1 | SKIP_NOT_BUG | — | — | — | — | — | — |
 | 1369925757610233887 | Каким образом.. существа живут с 0-30% крови.... | 2025-05-08 | unknown_tag_1365427630660128861 | A | 4 | 1 | NEEDS_TRIAGE | CONFIG_OR_CONTENT_ISSUE | Medium | S3 | S | bloodloss-lethality | .ai-triage/bugs/1369925757610233887.md |
 | 1369983616511119382 | сообщение через " :р " не работает | 2025-05-08 | Не баг | A | 11 | 2 | SKIP_NOT_BUG | — | — | — | — | — | — |
-| 1370100957861511299 | Ходить по лаве | 2025-05-08 | — | A | 6 | 1 | NEEDS_TRIAGE | — | — | — | — | — | — |
-| 1370101954591719424 | Админ баги | 2025-05-08 | На рассмотрении | A | 3 | 0 | NEEDS_TRIAGE | — | — | — | — | — | — |
+| 1370100957861511299 | Ходить по лаве | 2025-05-08 | — | A | 6 | 1 | NEEDS_TRIAGE | CANNOT_VERIFY | Medium | S4 | S | intek-agent | .ai-triage/bugs/1370100957861511299.md |
+| 1370101954591719424 | Админ баги | 2025-05-08 | На рассмотрении | A | 3 | 0 | NEEDS_TRIAGE | CONFIG_OR_CONTENT_ISSUE | Medium | S3 | S | — | .ai-triage/bugs/1370101954591719424.md |
 | 1370361618478927964 | Баг с винтовкой | 2025-05-09 | Исправлено | A | 4 | 3 | SKIP_RESOLVED | — | — | — | — | — | — |
 | 1370366183689293944 | пнв | 2025-05-09 | unknown_tag_1365427630660128861, В процессе | A | 19 | 2 | NEEDS_TRIAGE | LIKELY_CURRENT_BUG | Low | S4 | M | — | .ai-triage/bugs/1370366183689293944.md |
 | 1370396275329073172 | Я умер насмерть. | 2025-05-09 | unknown_tag_1365427630660128861, В процессе | A | 4 | 0 | NEEDS_TRIAGE | LIKELY_CURRENT_BUG | Medium | S1 | L | rebell-death-model | .ai-triage/bugs/1370396275329073172.md |
 | 1370482031624061070 | Летаем. Мусор. Летаем | 2025-05-09 | unknown_tag_1365427630660128861, В процессе | A | 2 | 2 | NEEDS_TRIAGE | LIKELY_CURRENT_BUG | Medium | S3 | M | stale-weightless-items | .ai-triage/bugs/1370482031624061070.md |
-| 1370486618670104757 | Ужин отменяется | 2025-05-09 | — | A | 4 | 0 | NEEDS_TRIAGE | — | — | — | — | — | — |
-| 1371049112593764362 | арамра | 2025-05-11 | В процессе | A | 22 | 1 | NEEDS_TRIAGE | — | — | — | — | — | — |
+| 1370486618670104757 | Ужин отменяется | 2025-05-09 | — | A | 4 | 0 | NEEDS_TRIAGE | CANNOT_VERIFY | Low | S4 | S | intek-agent | .ai-triage/bugs/1370486618670104757.md |
+| 1371049112593764362 | арамра | 2025-05-11 | В процессе | A | 22 | 1 | NEEDS_TRIAGE | ALREADY_FIXED_IN_CURRENT_FORK | Medium | S4 | XS | — | .ai-triage/bugs/1371049112593764362.md |
 | 1371221329704914994 | Следы, швабра, нет воды. | 2025-05-11 | Исправлено | A | 9 | 1 | SKIP_RESOLVED | — | — | — | — | — | — |
 | 1371329391862349947 | Ипучий посох хиерофанта. | 2025-05-12 | Исправлено, В процессе | A | 11 | 4 | SKIP_RESOLVED | — | — | — | — | — | — |
 | 1371405608086929509 | Крайне странный баг | 2025-05-12 | — | A | 2 | 1 | NEEDS_TRIAGE | CANNOT_VERIFY | Low | S4 | XS | — | .ai-triage/bugs/1371405608086929509.md |
@@ -147,7 +147,7 @@ Source: Google Drive archive `1TlOjsaTn_iuKc26S7amk3q1qhkirNol7`.
 | 1376295371873189918 | Нельзя прожимать способности. | 2025-05-25 | unknown_tag_1365427630660128861 | A | 11 | 0 | NEEDS_TRIAGE | CANNOT_VERIFY | Medium | S2 | M | — | .ai-triage/bugs/1376295371873189918.md |
 | 1379120791253418124 | Хвост хаски в лобби | 2025-06-02 | В процессе | A | 9 | 1 | NEEDS_TRIAGE | CONFIRMED_CURRENT_BUG | High | S4 | S | sprite-layer-order | .ai-triage/bugs/1379120791253418124.md |
 | 1379189259877093508 | Аннигиляция из вселенной | 2025-06-02 | unknown_tag_1365427630660128861 | A | 4 | 0 | NEEDS_TRIAGE | DUPLICATE | High | S1 | M | vampire-polymorph-revert | .ai-triage/bugs/1379189259877093508.md |
-| 1379763108184330361 | Боёвка | 2025-06-04 | На рассмотрении | A | 16 | 0 | NEEDS_TRIAGE | — | — | — | — | — | — |
+| 1379763108184330361 | Боёвка | 2025-06-04 | На рассмотрении | A | 16 | 0 | NEEDS_TRIAGE | CANNOT_VERIFY | Low | S4 | M | — | .ai-triage/bugs/1379763108184330361.md |
 | 1379904937223520296 | Баг с юбкой-комбинезоном и хвостами | 2025-06-04 | В процессе | A | 14 | 2 | NEEDS_TRIAGE | CONFIRMED_CURRENT_BUG | High | S4 | S | sprite-layer-order | .ai-triage/bugs/1379904937223520296.md |
 | 1380108603725447290 | Ахуенный супер комп | 2025-06-05 | Исправлено | A | 6 | 2 | SKIP_RESOLVED | — | — | — | — | — | — |
 | 1380911822634225724 | Что за фиговая система урона. | 2025-06-07 | unknown_tag_1365427630660128861 | A | 32 | 1 | NEEDS_TRIAGE | CONFIG_OR_CONTENT_ISSUE | High | S2 | S | rebell-headshot-lethality | .ai-triage/bugs/1380911822634225724.md |
@@ -175,7 +175,7 @@ Source: Google Drive archive `1TlOjsaTn_iuKc26S7amk3q1qhkirNol7`.
 | 1391191286165540995 | Следы поскальзывают | 2025-07-05 | — | A | 6 | 0 | NEEDS_TRIAGE | LIKELY_CURRENT_BUG | Medium | S3 | M | footprint-cleaning | .ai-triage/bugs/1391191286165540995.md |
 | 1391687746484965376 | Вампиры хрень | 2025-07-07 | — | A | 1 | 0 | NEEDS_TRIAGE | CANNOT_VERIFY | Medium | S2 | M | — | .ai-triage/bugs/1391687746484965376.md |
 | 1391702186244706354 | Лампа шахтеров | 2025-07-07 | — | A | 9 | 2 | NEEDS_TRIAGE | — | — | — | — | — | — |
-| 1392793334594015354 | Манифест конца игры | 2025-07-10 | — | A | 20 | 1 | NEEDS_TRIAGE | — | — | — | — | — | — |
+| 1392793334594015354 | Манифест конца игры | 2025-07-10 | — | A | 20 | 1 | NEEDS_TRIAGE | LIKELY_CURRENT_BUG | Medium | S3 | M | — | .ai-triage/bugs/1392793334594015354.md |
 | 1392895660189286440 | Да как открыть эту ДНКа?. | 2025-07-10 | — | A | 4 | 1 | NEEDS_TRIAGE | CONFIG_OR_CONTENT_ISSUE | High | S4 | XS | — | .ai-triage/bugs/1392895660189286440.md |
 | 1393135432060899379 | Носки и ящеры с антропоморфами | 2025-07-11 | — | A | 17 | 0 | NEEDS_TRIAGE | CONFIG_OR_CONTENT_ISSUE | Medium | S4 | S | underwear-sprite-fit | .ai-triage/bugs/1393135432060899379.md |
 | 1394565743768768653 | Буэ | 2025-07-15 | — | A | 2 | 1 | NEEDS_TRIAGE | ALREADY_FIXED_IN_CURRENT_FORK | Medium | S4 | S | marking-rendering-family | .ai-triage/bugs/1394565743768768653.md |
@@ -188,10 +188,10 @@ Source: Google Drive archive `1TlOjsaTn_iuKc26S7amk3q1qhkirNol7`.
 | 1406900824109481994 | Шеф Виктор Петрович Баринов в гневе | 2025-08-18 | — | A | 5 | 0 | NEEDS_TRIAGE | CONFIG_OR_CONTENT_ISSUE | High | S4 | XS | — | .ai-triage/bugs/1406900824109481994.md |
 | 1413573121369444403 | Верните ОСЩ трусы | 2025-09-05 | В процессе | A | 5 | 0 | NEEDS_TRIAGE | CONFIG_OR_CONTENT_ISSUE | High | S3 | XS | goobstation-role-loadout-erida-content-gap | .ai-triage/bugs/1413573121369444403.md |
 | 1413573325749485629 | Обделенные тех. ассистенты | 2025-09-05 | В процессе | A | 6 | 0 | NEEDS_TRIAGE | ALREADY_FIXED_IN_CURRENT_FORK | Medium | S3 | S | — | .ai-triage/bugs/1413573325749485629.md |
-| 1413573454245925025 | Может тест? | 2025-09-05 | В процессе | A | 2 | 1 | NEEDS_TRIAGE | — | — | — | — | — | — |
+| 1413573454245925025 | Может тест? | 2025-09-05 | В процессе | A | 2 | 1 | NEEDS_TRIAGE | CANNOT_VERIFY | Low | S4 | XS | — | .ai-triage/bugs/1413573454245925025.md |
 | 1413576057843613776 | Утильский скаф | 2025-09-05 | Исправлено | A | 3 | 2 | SKIP_RESOLVED | — | — | — | — | — | — |
 | 1413578353155379241 | ЧЕ НАХУЙ | 2025-09-05 | — | A | 4 | 0 | NEEDS_TRIAGE | USER_ERROR_OR_NOT_BUG | High | — | — | — | .ai-triage/bugs/1413578353155379241.md |
-| 1413579782691753994 | Тред баг репортов ИСа | 2025-09-05 | — | A | 62 | 7 | NEEDS_TRIAGE | — | — | — | — | — | — |
+| 1413579782691753994 | Тред баг репортов ИСа | 2025-09-05 | — | A | 62 | 7 | NEEDS_TRIAGE | CANNOT_VERIFY | Low | S2 | M | — | .ai-triage/bugs/1413579782691753994.md |
 | 1413579800483860560 | Не баг, а фича | 2025-09-05 | Не баг | A | 6 | 0 | SKIP_NOT_BUG | — | — | — | — | — | — |
 | 1413583722833383484 | Пропали частоты. | 2025-09-05 | Исправлено | A | 3 | 1 | SKIP_RESOLVED | — | — | — | — | — | — |
 | 1413584643302887555 | Венты шаттловские | 2025-09-05 | Не баг | A | 3 | 2 | SKIP_NOT_BUG | — | — | — | — | — | — |
@@ -212,7 +212,7 @@ Source: Google Drive archive `1TlOjsaTn_iuKc26S7amk3q1qhkirNol7`.
 | 1414063684765880360 | Трейд не замечает заказ | 2025-09-07 | — | A | 12 | 1 | NEEDS_TRIAGE | CANNOT_VERIFY | Medium | S3 | M | cargo-trade-orders | .ai-triage/bugs/1414063684765880360.md |
 | 1414150369054822491 | Красивый UTAP-1 | 2025-09-07 | — | A | 3 | 1 | NEEDS_TRIAGE | ALREADY_FIXED_IN_CURRENT_FORK | Medium | S4 | S | utap-sprite | .ai-triage/bugs/1414150369054822491.md |
 | 1414255102075863221 | Стан мета... | 2025-09-07 | — | A | 5 | 0 | NEEDS_TRIAGE | CONFIG_OR_CONTENT_ISSUE | High | S4 | XS | — | .ai-triage/bugs/1414255102075863221.md |
-| 1414388215669981324 | Рандомный ттс каждый раунд | 2025-09-07 | unknown_tag_1414266059208265799 | A | 3 | 2 | NEEDS_TRIAGE | — | — | — | — | — | — |
+| 1414388215669981324 | Рандомный ттс каждый раунд | 2025-09-07 | unknown_tag_1414266059208265799 | A | 3 | 2 | NEEDS_TRIAGE | CANNOT_VERIFY | Low | S3 | M | tts-voice-availability | .ai-triage/bugs/1414388215669981324.md |
 | 1414517676541349909 | Экспедиции сломаны | 2025-09-08 | unknown_tag_1414266059208265799 | A | 19 | 0 | NEEDS_TRIAGE | — | — | — | — | — | — |
 | 1414901824212697190 | Спрайт аномальных способностей в хотбаре | 2025-09-09 | Исправлено, unknown_tag_1414266059208265799 | A | 11 | 1 | SKIP_RESOLVED | — | — | — | — | — | — |
 | 1415300392614629427 | лОКОл ло локо ло кал короче | 2025-09-10 | unknown_tag_1414266059208265799 | A | 2 | 1 | NEEDS_TRIAGE | LIKELY_CURRENT_BUG | Medium | S4 | S | — | .ai-triage/bugs/1415300392614629427.md |
@@ -222,17 +222,17 @@ Source: Google Drive archive `1TlOjsaTn_iuKc26S7amk3q1qhkirNol7`.
 | 1416168662695546921 | Ии и голопад | 2025-09-12 | unknown_tag_1414266059208265799 | A | 1 | 1 | NEEDS_TRIAGE | CANNOT_VERIFY | Low | S3 | M | — | .ai-triage/bugs/1416168662695546921.md |
 | 1416386325006778440 | Алё АВД? Чего? мы вас не слышим | 2025-09-13 | unknown_tag_1414266059208265799 | A | 8 | 1 | NEEDS_TRIAGE | CONFIG_OR_CONTENT_ISSUE | High | S3 | S | per-map-device-content-gaps | .ai-triage/bugs/1416386325006778440.md |
 | 1417098657832112220 | Проблемы шаттла карго | 2025-09-15 | unknown_tag_1414266059208265799 | A | 2 | 0 | NEEDS_TRIAGE | CANNOT_VERIFY | Low | S4 | XS | cargo-dock-fans | .ai-triage/bugs/1417098657832112220.md |
-| 1417112501325398128 | Спам Геймрулами в Секрет | 2025-09-15 | unknown_tag_1414266059208265799 | A | 31 | 0 | NEEDS_TRIAGE | — | — | — | — | — | — |
-| 1417509566299766916 | Отряд не заметил потери бойца | 2025-09-16 | unknown_tag_1414266059208265799 | A | 13 | 1 | NEEDS_TRIAGE | — | — | — | — | — | — |
+| 1417112501325398128 | Спам Геймрулами в Секрет | 2025-09-15 | unknown_tag_1414266059208265799 | A | 31 | 0 | NEEDS_TRIAGE | CONFIG_OR_CONTENT_ISSUE | High | S2 | S | secret-antag-density | .ai-triage/bugs/1417112501325398128.md |
+| 1417509566299766916 | Отряд не заметил потери бойца | 2025-09-16 | unknown_tag_1414266059208265799 | A | 13 | 1 | NEEDS_TRIAGE | CONFIG_OR_CONTENT_ISSUE | High | S4 | M | — | .ai-triage/bugs/1417509566299766916.md |
 | 1417926890823356699 | Когнизин не дает общего языка | 2025-09-17 | unknown_tag_1414266059208265799 | A | 7 | 0 | NEEDS_TRIAGE | CONFIRMED_CURRENT_BUG | High | S3 | S | language-knowledge-migration | .ai-triage/bugs/1417926890823356699.md |
 | 1419081445091184815 | скаф СИ | 2025-09-20 | unknown_tag_1414266059208265799 | A | 6 | 3 | NEEDS_TRIAGE | CANNOT_VERIFY | Medium | S4 | S | — | .ai-triage/bugs/1419081445091184815.md |
 | 1419456892413022248 | Баг с "взять на руки" | 2025-09-21 | unknown_tag_1414266059208265799 | A | 7 | 0 | NEEDS_TRIAGE | — | — | — | — | — | — |
-| 1419457062882250874 | Отсутствие принтеров на большинстве станций | 2025-09-21 | unknown_tag_1414266059208265799 | A | 8 | 0 | NEEDS_TRIAGE | — | — | — | — | — | — |
+| 1419457062882250874 | Отсутствие принтеров на большинстве станций | 2025-09-21 | unknown_tag_1414266059208265799 | A | 8 | 0 | NEEDS_TRIAGE | CONFIG_OR_CONTENT_ISSUE | High | S3 | M | missing-printer-content | .ai-triage/bugs/1419457062882250874.md |
 | 1419998003447468153 | Конвейеры и таскание на руках | 2025-09-23 | unknown_tag_1414266059208265799 | A | 6 | 1 | NEEDS_TRIAGE | CONFIRMED_CURRENT_BUG | High | S3 | S | — | .ai-triage/bugs/1419998003447468153.md |
 | 1420093168627748997 | Баг за феленидов | 2025-09-23 | unknown_tag_1414266059208265799 | A | 5 | 1 | NEEDS_TRIAGE | CONFIG_OR_CONTENT_ISSUE | High | S3 | S | — | .ai-triage/bugs/1420093168627748997.md |
 | 1420383751082344479 | Маг | 2025-09-24 | unknown_tag_1414266059208265799 | A | 6 | 0 | NEEDS_TRIAGE | LIKELY_CURRENT_BUG | Medium | S3 | M | actionbar-reset-mind-transfer | .ai-triage/bugs/1420383751082344479.md |
-| 1421828766404972624 | ТТС рита | 2025-09-28 | unknown_tag_1414266059208265799 | A | 3 | 1 | NEEDS_TRIAGE | — | — | — | — | — | — |
-| 1421848934644449382 | ТТС | 2025-09-28 | unknown_tag_1414266059208265799 | A | 1 | 0 | NEEDS_TRIAGE | — | — | — | — | — | — |
+| 1421828766404972624 | ТТС рита | 2025-09-28 | unknown_tag_1414266059208265799 | A | 3 | 1 | NEEDS_TRIAGE | CONFIG_OR_CONTENT_ISSUE | Medium | S4 | S | tts-voice-availability | .ai-triage/bugs/1421828766404972624.md |
+| 1421848934644449382 | ТТС | 2025-09-28 | unknown_tag_1414266059208265799 | A | 1 | 0 | NEEDS_TRIAGE | LIKELY_CURRENT_BUG | Medium | S3 | S | tts-volume-mute | .ai-triage/bugs/1421848934644449382.md |
 | 1422108565522350170 | Маг юнит | 2025-09-29 | unknown_tag_1414266059208265799, Не баг | A | 70 | 0 | SKIP_NOT_BUG | — | — | — | — | — | — |
 | 1422135237755932723 | Лодаут шадовкинов | 2025-09-29 | unknown_tag_1414266059208265799 | A | 2 | 0 | NEEDS_TRIAGE | ALREADY_FIXED_IN_CURRENT_FORK | Medium | S2 | M | species-survival-box-loadout-effects | .ai-triage/bugs/1422135237755932723.md |
 | 1423043057112322058 | Багуля на карте Box, связанная целью вернуться свободны | 2025-10-01 | unknown_tag_1414266059208265799 | A | 18 | 1 | NEEDS_TRIAGE | — | — | — | — | — | — |
@@ -357,7 +357,7 @@ Source: Google Drive archive `1TlOjsaTn_iuKc26S7amk3q1qhkirNol7`.
 | 1471669260089819258 | Убрать пометку "контрабанда Интек" у гиперзина | 2026-02-13 | Исправлено, unknown_tag_1414266059208265799 | A | 3 | 0 | SKIP_RESOLVED | — | — | — | — | — | — |
 | 1471816052282363904 | Суперматерия и Диоксид углерода | 2026-02-13 | unknown_tag_1414266059208265799, Не баг | A | 2 | 0 | SKIP_NOT_BUG | — | — | — | — | — | — |
 | 1472290678150004756 | При чем тут красный? | 2026-02-14 | Исправлено, unknown_tag_1414266059208265799 | A | 5 | 0 | SKIP_RESOLVED | — | — | — | — | — | — |
-| 1473337621521367151 | Нет направленных урановых стекол в меню крафта | 2026-02-17 | unknown_tag_1414266059208265799 | A | 1 | 0 | NEEDS_TRIAGE | — | — | — | — | — | — |
+| 1473337621521367151 | Нет направленных урановых стекол в меню крафта | 2026-02-17 | unknown_tag_1414266059208265799 | A | 1 | 0 | NEEDS_TRIAGE | CONFIRMED_CURRENT_BUG | High | S3 | XS | — | .ai-triage/bugs/1473337621521367151.md |
 | 1473371598605254880 | баг эмоутов? | 2026-02-17 | Не баг | A | 2 | 1 | SKIP_NOT_BUG | — | — | — | — | — | — |
 | 1477283459956211895 | Гениальные инженерные системы Аспида | 2026-02-28 | Исправлено, unknown_tag_1414266059208265799 | A | 19 | 3 | SKIP_RESOLVED | — | — | — | — | — | — |
 | 1477755379625758884 | Импорт персов - всё?!?! | 2026-03-01 | unknown_tag_1414266059208265799 | A | 7 | 0 | NEEDS_TRIAGE | — | — | — | — | — | — |
@@ -367,7 +367,7 @@ Source: Google Drive archive `1TlOjsaTn_iuKc26S7amk3q1qhkirNol7`.
 | 1479939209883160776 | Ревенант и агост | 2026-03-07 | Визден-Баг, unknown_tag_1414266059208265799 | A | 2 | 0 | NEEDS_TRIAGE | — | — | — | — | — | — |
 | 1479958139813232742 | уже несколько дней | 2026-03-07 | Исправлено, unknown_tag_1414266059208265799 | A | 27 | 3 | SKIP_RESOLVED | — | — | — | — | — | — |
 | 1479980307917836522 | не меняется голос | 2026-03-07 | Исправлено, unknown_tag_1414266059208265799 | A | 8 | 0 | SKIP_RESOLVED | — | — | — | — | — | — |
-| 1480519345594568866 | Невозможно отключить звук TTS. | 2026-03-09 | Серьёзный, unknown_tag_1414266059208265799 | A | 9 | 1 | NEEDS_TRIAGE | — | — | — | — | — | — |
+| 1480519345594568866 | Невозможно отключить звук TTS. | 2026-03-09 | Серьёзный, unknown_tag_1414266059208265799 | A | 9 | 1 | NEEDS_TRIAGE | LIKELY_CURRENT_BUG | Medium | S2 | S | tts-volume-mute | .ai-triage/bugs/1480519345594568866.md |
 | 1480543465203826956 | Баг с картами | 2026-03-09 | Исправлено, unknown_tag_1414266059208265799 | A | 3 | 1 | SKIP_RESOLVED | — | — | — | — | — | — |
 | 1480945804482052258 | фильтры газов | 2026-03-10 | Исправлено, unknown_tag_1414266059208265799 | A | 2 | 0 | SKIP_RESOLVED | — | — | — | — | — | — |
 | 1481136745973158009 | Биоперераб | 2026-03-11 | Не баг | A | 8 | 0 | SKIP_NOT_BUG | — | — | — | — | — | — |
@@ -469,14 +469,14 @@ Source: Google Drive archive `1TlOjsaTn_iuKc26S7amk3q1qhkirNol7`.
 | 1530719598255800533 | Все баги грабов | 2026-07-25 | Исправлено, Разработка | A | 28 | 0 | SKIP_RESOLVED | — | — | — | — | — | — |
 | 1530943805065527386 | голопроектор | 2026-07-26 | Разработка, Не баг | A | 5 | 0 | SKIP_NOT_BUG | — | — | — | — | — | — |
 | 1531332202141450258 | у унатхов снова отвалились звуки на эмоутах | 2026-07-27 | Исправлено | act | 2 | 1 | SKIP_RESOLVED | — | — | — | — | — | — |
-| 1531399705743855658 | Все баги лавы | 2026-07-27 | Разработка | act | 3 | 0 | NEEDS_TRIAGE | — | — | — | — | — | — |
+| 1531399705743855658 | Все баги лавы | 2026-07-27 | Разработка | act | 3 | 0 | NEEDS_TRIAGE | CANNOT_VERIFY | Medium | S2 | M | lava-content | .ai-triage/bugs/1531399705743855658.md |
 | 1531689725554069685 | огнетушитель дельта вондер | 2026-07-28 | Маппинг | A | 3 | 2 | NEEDS_TRIAGE | LIKELY_CURRENT_BUG | Medium | S3 | XS | — | .ai-triage/bugs/1531689725554069685.md |
 | 1532120324504682557 | озвучка | 2026-07-29 | Исправлено | act | 14 | 1 | SKIP_RESOLVED | — | — | — | — | — | — |
 | 1532607747986558977 | КПБ и стекло. | 2026-07-31 | Разработка | act | 52 | 4 | NEEDS_TRIAGE | LIKELY_CURRENT_BUG | Low | S3 | M | ipc-stamina | .ai-triage/bugs/1532607747986558977.md |
 | 1533372731817594991 | брух | 2026-08-02 | Разработка | act | 5 | 1 | NEEDS_TRIAGE | — | — | — | — | — | — |
 | 1534207157308756059 | Не сбросилось время (((0((( | 2026-08-04 | Разработка | act | 3 | 0 | NEEDS_TRIAGE | USER_ERROR_OR_NOT_BUG | Medium | S4 | XS | — | .ai-triage/bugs/1534207157308756059.md |
 | 1534480920327880776 | Наплак на еретика | 2026-08-05 | Разработка | act | 44 | 2 | NEEDS_TRIAGE | LIKELY_CURRENT_BUG | Medium | S3 | M | — | .ai-triage/bugs/1534480920327880776.md |
-| 1534609752284463224 | Ядерный Фабрикатор | 2026-08-05 | Разработка | act | 2 | 1 | NEEDS_TRIAGE | — | — | — | — | — | — |
+| 1534609752284463224 | Ядерный Фабрикатор | 2026-08-05 | Разработка | act | 2 | 1 | NEEDS_TRIAGE | CONFIRMED_CURRENT_BUG | High | S3 | M | — | .ai-triage/bugs/1534609752284463224.md |
 | 1535027750082056404 | Чемодан | 2026-08-06 | Разработка | act | 2 | 2 | NEEDS_TRIAGE | LIKELY_CURRENT_BUG | Medium | S4 | XS | inhand-sprite-content | .ai-triage/bugs/1535027750082056404.md |
 | 1535329639197704202 | Описание кукол | 2026-08-07 | Разработка | act | 4 | 0 | NEEDS_TRIAGE | — | — | — | — | — | — |
 | 1535333849515692155 | Описание эссенции | 2026-08-07 | Разработка | act | 5 | 2 | NEEDS_TRIAGE | — | — | — | — | — | — |
