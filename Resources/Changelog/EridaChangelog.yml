@@ -1303,3 +1303,12 @@ Entries:
   url: https://github.com/dead-space-server/EridaGoob/pull/34
   avatar_url: https://avatars.githubusercontent.com/u/53963119?v=4
   title: NoInstigator
+- author: Lytheriia
+  changes:
+    - type: Tweak
+      message: Слот машина квартирмейстера теперь принимает любые суммы
+  id: 109
+  time: '2026-08-28T07:47:32.0000000+00:00'
+  url: https://github.com/dead-space-server/EridaGoob/pull/35
+  avatar_url: https://avatars.githubusercontent.com/u/289052288?v=4
+  title: '[Tweak] Qm slot machine'
