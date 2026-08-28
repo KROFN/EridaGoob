@@ -1,0 +1,1463 @@
+{
+ "generated_at": "2026-08-28T21:57:43Z",
+ "analyzed_head": "511cc23b7c596bdd2e12a3a12236db15a18ef309",
+ "current_upstream_head": "28d0c86f9d2e2a502dfb422f5b2fd9eaa7df5a53",
+ "frozen_triage_branch": "origin/ai/discord-bug-triage",
+ "delta": {
+  "commit_count": "2",
+  "changed_file_count": 614
+ },
+ "classification_rules": {
+  "REVALIDATION_REQUIRED": "direct evidence file modified in delta",
+  "ARCHITECTURE_CHANGED": "evidence file deleted/renamed",
+  "SUBSYSTEM_TOUCHED": "ancestor directory (<=3 levels) contains changed files",
+  "UNCHANGED_SINCE_TRIAGE": "no referenced path touched (does NOT prove bug still exists)"
+ },
+ "dossiers": [
+  {
+   "thread_id": "1365367741560913970",
+   "title": "ТТС и кол-во персонажей",
+   "verdict": "CONFIRMED_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Client/_CorvaxGoob/TTS/TTSTab.xaml.cs",
+    "Content.Server/Database/ServerDbBase.cs",
+    "Content.Shared/Preferences/HumanoidCharacterProfile.cs",
+    "Content.Shared/_CorvaxGoob/TTS/TTSVoicePrototype.cs",
+    "Resources/Prototypes/_Erida/Voice/tts-voices.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Prototypes/_Erida/Voice/tts-voices.yml"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1366747516258881536",
+   "title": "Раздвижные окна",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Shared/Doors/Systems/SharedDoorSystem.cs",
+    "Resources/Locale/ru-RU/ss14-ru/prototypes/entities/structures/doors/windoors/windoor.ftl",
+    "Resources/Prototypes/Entities/Structures/Doors/Windoors/windoor.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Locale/ru-RU/ss14-ru/prototypes/entities/structures/doors/windoors/windoor.ftl",
+    "Resources/Prototypes/Entities/Structures/Doors/Windoors/windoor.yml"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1366802698430578818",
+   "title": "Спавн в ЦК",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Server/GameTicking/Rules/RuleGridsSystem.cs",
+    "Content.Server/Shuttles/Systems/ArrivalsSystem.cs",
+    "Content.Server/Spawners/EntitySystems/ContainerSpawnPointSystem.cs",
+    "Content.Server/Spawners/EntitySystems/SpawnPointSystem.cs",
+    "Resources/Maps/centcomm.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [],
+   "inline_changed": [],
+   "status": "REVALIDATED_STILL_PRESENT",
+   "lead_revalidation": {
+    "status": "REVALIDATED_STILL_PRESENT",
+    "note": "SpawnPointSystem.cs: main loop has station filter, but empty-result fallback (world-wide 'picking random spawner' branch) remains unfiltered -> CC spawn path intact.",
+    "head": "28d0c86f9d2e2a502dfb422f5b2fd9eaa7df5a53"
+   }
+  },
+  {
+   "thread_id": "1367646136298504222",
+   "title": "Скорее всего баг с хирургией",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Content.Shared/_Shitmed/Surgery/Consciousness/Systems/ConsciousnessSystem.Helpers.cs (inline)"
+   ],
+   "inline_changed": [
+    "Content.Shared/_Shitmed/Surgery/SharedSurgerySystem.Steps.cs",
+    "Content.Shared/_Shitmed/Surgery/Wounds/Systems/WoundSystem.Destruction.cs",
+    "Resources/Prototypes/_Shitmed/Entities/Surgery/surgery_steps.yml"
+   ],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1367781435938832436",
+   "title": "Нечувствительность не работает в настроении",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Shared/Traits/Assorted/PainNumbnessSystem.cs",
+    "Resources/Locale/ru-RU/traits/traits.ftl",
+    "Resources/Prototypes/_Erida/Traits/erida_traits.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Locale/ru-RU/traits/traits.ftl",
+    "Resources/Prototypes/_Erida/Traits/erida_traits.yml"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1368389636531163186",
+   "title": "что такое жажда?",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Shared/Nutrition/EntitySystems/ThirstSystem.cs",
+    "Resources/Prototypes/_Erida/Species/shark.yml"
+   ],
+   "evidence_dirs": [
+    "Resources/Prototypes/_Erida/Body"
+   ],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Locale/ru-RU/_backmen/body/parts/shark.ftl (inline)",
+    "Resources/Prototypes/_Erida/Species/shark.yml"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1368541575902265365",
+   "title": "Прицеливание",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Client/Camera/CameraRecoilSystem.cs",
+    "Content.Client/Options/UI/Tabs/AccessibilityTab.xaml.cs"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [],
+   "inline_changed": [],
+   "status": "UNCHANGED_SINCE_TRIAGE"
+  },
+  {
+   "thread_id": "1368606729440333845",
+   "title": "А на цк НЕ РАБОТАЕТ",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Server/Cargo/Systems/CargoSystem.Orders.cs",
+    "Content.Server/Cargo/Systems/CargoSystem.Shuttle.cs",
+    "Resources/Locale/ru-RU/navmap-beacons/station-beacons.ftl",
+    "Resources/Prototypes/Entities/Stations/base.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Locale/ru-RU/navmap-beacons/station-beacons.ftl",
+    "Resources/Prototypes/Entities/Stations/base.yml"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1368875720373309480",
+   "title": "Баг на следы от жидкостей",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Goobstation.Server/Footprints/FootprintSystem.cs",
+    "Resources/Prototypes/_White/Entities/Effects/puddle.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [
+    "Content.Shared/Standing/StandingStateSystem.cs — не прочитан"
+   ],
+   "direct_changed": [
+    "Resources/Prototypes/_White/Entities/Effects/puddle.yml"
+   ],
+   "architecture_changed": [],
+   "subsystem_touched": [],
+   "inline_changed": [],
+   "status": "REVALIDATION_REQUIRED"
+  },
+  {
+   "thread_id": "1369541733196496936",
+   "title": "Дальнозоркость цИИ или почему цИИ фиксирует датчики с сЦК",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Server/Medical/CrewMonitoring/CrewMonitoringConsoleSystem.cs"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [
+    "Content.Server/DeviceNetwork/Systems/SingletonDeviceNetServerSystem.cs — \"Keeps one active server entity per station\"",
+    "Content.Server/Medical/CrewMonitoring/CrewMonitoringServerSystem.cs — BroadcastSensorStatus sends the whole SensorStatus dict to the frequency with no map filter"
+   ],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Content.Server/Medical/CrewMonitoring/CrewMonitoringConsoleSystem.cs",
+    "Content.Server/Medical/CrewMonitoring/CrewMonitoringServerSystem.cs (inline)"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1370366183689293944",
+   "title": "пнв",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Goobstation.Client/Overlays/BaseSwitchableOverlay.cs",
+    "Content.Goobstation.Client/Overlays/NightVisionSystem.cs",
+    "Content.Goobstation.Shared/Overlays/NightVisionComponent.cs",
+    "Content.Goobstation.Shared/Overlays/SharedNightVisionSystem.cs",
+    "Resources/Prototypes/_Goobstation/Entities/Clothing/OuterClothing/hardsuits.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Prototypes/_Goobstation/Entities/Clothing/OuterClothing/hardsuits.yml",
+    "Resources/Prototypes/_White/Shaders/shaders.yml (inline)"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1370396275329073172",
+   "title": "Я умер насмерть.",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Content.Shared/_Shitmed/Surgery/Consciousness/Systems/ConsciousnessSystem.Helpers.cs (inline)",
+    "Resources/Prototypes/Entities/Mobs/base.yml (inline)"
+   ],
+   "inline_changed": [
+    "Content.Shared/_Shitmed/Surgery/Pain/Systems/PainSystem.Damage.cs",
+    "Content.Shared/_Shitmed/Surgery/Traumas/Systems/TraumaSystem.Bones.cs"
+   ],
+   "status": "REVALIDATED_STILL_PRESENT",
+   "lead_revalidation": {
+    "status": "REVALIDATED_STILL_PRESENT",
+    "note": "Cluster member of rebell-death-model; same disabled UpdateMobState mechanism verified on current HEAD.",
+    "head": "28d0c86f9d2e2a502dfb422f5b2fd9eaa7df5a53"
+   }
+  },
+  {
+   "thread_id": "1370482031624061070",
+   "title": "Летаем. Мусор. Летаем",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Server/Materials/MaterialReclaimerSystem.cs",
+    "Content.Server/Physics/Controllers/ConveyorController.cs",
+    "Content.Shared/Gravity/SharedGravitySystem.cs",
+    "Content.Shared/Physics/Controllers/SharedConveyorController.cs"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Content.Server/Materials/MaterialReclaimerSystem.cs"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1372567955899940864",
+   "title": "Киберпанк 1984",
+   "verdict": "CONFIRMED_CURRENT_BUG",
+   "evidence_files": [],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Content.Shared/Body/Part/BodyPartComponent.cs (inline)",
+    "Resources/Prototypes/_Shitmed/Body/Parts/cybernetic.yml (inline)",
+    "Resources/Prototypes/_Shitmed/Recipes/Lathes/robotics.yml (inline)"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1375074483001491557",
+   "title": "Бесмертие(конечно пока твою голову не раздавят)",
+   "verdict": "CONFIRMED_CURRENT_BUG",
+   "evidence_files": [],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Content.Server/_Shitmed/DelayedDeath/DelayedDeathSystem.cs (inline)",
+    "Content.Shared/_Shitmed/Surgery/Consciousness/Systems/ConsciousnessSystem.Helpers.cs (inline)",
+    "Resources/Prototypes/Entities/Mobs/base.yml (inline)"
+   ],
+   "inline_changed": [
+    "Content.Shared/Body/Systems/SharedBloodstreamSystem.cs"
+   ],
+   "status": "REVALIDATED_STILL_PRESENT",
+   "lead_revalidation": {
+    "status": "REVALIDATED_STILL_PRESENT",
+    "note": "ConsciousnessSystem.Helpers.cs:155-161 — UpdateMobState body still commented out on current HEAD; signature intact.",
+    "head": "28d0c86f9d2e2a502dfb422f5b2fd9eaa7df5a53"
+   }
+  },
+  {
+   "thread_id": "1379120791253418124",
+   "title": "Хвост хаски в лобби",
+   "verdict": "CONFIRMED_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Client/Humanoid/HumanoidAppearanceSystem.cs",
+    "Resources/Prototypes/Entities/Mobs/Species/base.yml",
+    "Resources/Prototypes/_Erida/Customization/Markings/anthropomorph.yml",
+    "Resources/Prototypes/_Erida/Entities/Mobs/Species/anthropomorph.yml",
+    "Resources/Prototypes/_Erida/Species/anthropomorph.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Prototypes/Entities/Mobs/Species/base.yml",
+    "Resources/Prototypes/_Erida/Customization/Markings/anthropomorph.yml",
+    "Resources/Prototypes/_Erida/Entities/Mobs/Species/anthropomorph.yml",
+    "Resources/Prototypes/_Erida/Species/anthropomorph.yml"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1379904937223520296",
+   "title": "Баг с юбкой-комбинезоном и хвостами",
+   "verdict": "CONFIRMED_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Client/Humanoid/HumanoidAppearanceSystem.cs",
+    "Resources/Prototypes/_Erida/Customization/Markings/anthropomorph.yml",
+    "Resources/Prototypes/_Erida/Entities/Mobs/Species/anthropomorph.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Prototypes/_Erida/Customization/Markings/anthropomorph.yml",
+    "Resources/Prototypes/_Erida/Entities/Mobs/Species/anthropomorph.yml"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1382299238423068682",
+   "title": "Хвост кицунэ.",
+   "verdict": "CONFIRMED_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Client/Hands/Systems/HandsSystem.cs",
+    "Content.Client/Humanoid/HumanoidAppearanceSystem.cs",
+    "Resources/Prototypes/_Erida/Customization/Markings/anthropomorph.yml",
+    "Resources/Prototypes/_Erida/Entities/Mobs/Species/anthropomorph.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Prototypes/_Erida/Customization/Markings/anthropomorph.yml",
+    "Resources/Prototypes/_Erida/Entities/Mobs/Species/anthropomorph.yml"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1382754417589358672",
+   "title": "Арахны",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Resources/Prototypes/Body/Prototypes/arachnid.yml",
+    "Resources/Prototypes/Entities/Mobs/Species/arachnid.yml",
+    "Resources/Prototypes/Species/arachnid.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [
+    "Commit 0572564025"
+   ],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Prototypes/Body/Prototypes/arachnid.yml",
+    "Resources/Prototypes/Entities/Mobs/Species/arachnid.yml",
+    "Resources/Prototypes/Species/arachnid.yml"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1388575425562673282",
+   "title": "Баг со столами и закрытыми кнопками",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Server/DeviceLinking/Systems/SignalSwitchSystem.cs",
+    "Content.Shared/Mobs/Systems/MobStateSystem.Subscribers.cs",
+    "Resources/Prototypes/Entities/Structures/Doors/Windoors/windoor.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [
+    "Content.Shared/Slippery/SlidingComponent.cs, SlidingSystem.cs"
+   ],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Prototypes/Entities/Structures/Doors/Windoors/windoor.yml"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1389672150151200924",
+   "title": "грузчик цк",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Resources/Locale/en-US/preferences/loadout-groups.ftl",
+    "Resources/Prototypes/Loadouts/loadout_groups.yml",
+    "Resources/Prototypes/Loadouts/role_loadouts.yml",
+    "Resources/Prototypes/_Goobstation/Loadouts/Jobs/Cargo/cargo_technician.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Locale/en-US/preferences/loadout-groups.ftl",
+    "Resources/Prototypes/Loadouts/loadout_groups.yml",
+    "Resources/Prototypes/Loadouts/role_loadouts.yml",
+    "Resources/Prototypes/_Goobstation/Loadouts/Jobs/Cargo/cargo_technician.yml"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1391191286165540995",
+   "title": "Следы поскальзывают",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Goobstation.Server/Footprints/FootprintSystem.cs",
+    "Content.Server/Fluids/EntitySystems/PuddleSystem.cs",
+    "Resources/Prototypes/Entities/Effects/puddle.yml",
+    "Resources/Prototypes/Reagents/cleaning.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Prototypes/Entities/Effects/puddle.yml",
+    "Resources/Prototypes/Reagents/cleaning.yml"
+   ],
+   "inline_changed": [
+    "Resources/Prototypes/_White/Entities/Effects/puddle.yml"
+   ],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1392793334594015354",
+   "title": "Манифест конца игры",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Client/RoundEnd/RoundEndSummaryUIController.cs",
+    "Content.Client/RoundEnd/RoundEndSummaryWindow.cs",
+    "Content.Server/CrewManifest/CrewManifestSystem.cs",
+    "Content.Server/GameTicking/GameTicker.RoundFlow.cs",
+    "Content.Shared/CrewManifest/SharedCrewManifestSystem.cs"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [],
+   "inline_changed": [],
+   "status": "UNCHANGED_SINCE_TRIAGE"
+  },
+  {
+   "thread_id": "1394835847324504235",
+   "title": "На манекен нельзя напялить очки, маску и шапку.",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Resources/Prototypes/Entities/Structures/Decoration/mannequin.yml",
+    "Resources/Prototypes/InventoryTemplates/inventorybase.yml",
+    "Resources/Prototypes/InventoryTemplates/mannequin_inventory_template.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Prototypes/Entities/Structures/Decoration/mannequin.yml",
+    "Resources/Prototypes/InventoryTemplates/inventorybase.yml",
+    "Resources/Prototypes/InventoryTemplates/mannequin_inventory_template.yml"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1413877633594163270",
+   "title": "Языки у существ",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Shared/_EinsteinEngines/Language/Events/DetermineEntityLanguagesEvent.cs",
+    "Resources/Prototypes/Entities/Mobs/NPCs/animals.yml",
+    "Resources/Prototypes/Entities/Mobs/NPCs/revenant.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [
+    "Resources/Prototypes/Entities/Mobs/NPCs/animals.yml"
+   ],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Prototypes/Entities/Mobs/NPCs/revenant.yml"
+   ],
+   "inline_changed": [],
+   "status": "REVALIDATION_REQUIRED"
+  },
+  {
+   "thread_id": "1414517676541349909",
+   "title": "Экспедиции сломаны",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Server/Salvage/SalvageSystem.Expeditions.cs",
+    "Content.Server/Salvage/SalvageSystem.Runner.cs",
+    "Content.Server/Salvage/SpawnSalvageMissionJob.cs",
+    "Resources/Locale/ru-RU/procedural/expeditions.ftl"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Locale/ru-RU/procedural/expeditions.ftl"
+   ],
+   "inline_changed": [],
+   "status": "REVALIDATED_STILL_PRESENT",
+   "lead_revalidation": {
+    "status": "REVALIDATED_STILL_PRESENT",
+    "note": "SalvageSystem.Expeditions.cs removes job on JobStatus.Finished without exception/outcome check; failed dungeon gen still yields live-but-empty expedition.",
+    "head": "28d0c86f9d2e2a502dfb422f5b2fd9eaa7df5a53"
+   }
+  },
+  {
+   "thread_id": "1415300392614629427",
+   "title": "лОКОл ло локо ло кал короче",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [],
+   "inline_changed": [],
+   "status": "UNCHANGED_SINCE_TRIAGE"
+  },
+  {
+   "thread_id": "1417926890823356699",
+   "title": "Когнизин не дает общего языка",
+   "verdict": "CONFIRMED_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Server/EntityEffects/Effects/MakeSentientEntityEffectSystem.cs",
+    "Content.Server/_EinsteinEngines/Language/LanguageKnowledgeComponent.cs",
+    "Content.Shared/EntityEffects/Effects/MakeSentientEntityEffect.cs",
+    "Resources/Prototypes/Entities/Mobs/NPCs/animals.yml"
+   ],
+   "evidence_dirs": [
+    "Content.Shared/_EinsteinEngines/Language"
+   ],
+   "unresolved_refs": [],
+   "direct_changed": [
+    "Resources/Prototypes/Entities/Mobs/NPCs/animals.yml"
+   ],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Content.Shared/EntityEffects/Effects/MakeSentientEntityEffect.cs"
+   ],
+   "inline_changed": [],
+   "status": "REVALIDATION_REQUIRED"
+  },
+  {
+   "thread_id": "1419456892413022248",
+   "title": "Баг с \"взять на руки\"",
+   "verdict": "CONFIRMED_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Shared/_DV/Carrying/CarryingSystem.cs"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [],
+   "inline_changed": [],
+   "status": "REVALIDATED_STILL_PRESENT",
+   "lead_revalidation": {
+    "status": "REVALIDATED_STILL_PRESENT",
+    "note": "CarryingSystem.Drop() still unconditionally RemComp<KnockedDownComponent> + _standingState.Stand() on current HEAD; no SleepingComponent guard.",
+    "head": "28d0c86f9d2e2a502dfb422f5b2fd9eaa7df5a53"
+   }
+  },
+  {
+   "thread_id": "1419998003447468153",
+   "title": "Конвейеры и таскание на руках",
+   "verdict": "CONFIRMED_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Shared/Physics/Controllers/SharedConveyorController.cs",
+    "Content.Shared/_DV/Carrying/CarryingSystem.cs"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [],
+   "inline_changed": [],
+   "status": "UNCHANGED_SINCE_TRIAGE"
+  },
+  {
+   "thread_id": "1420383751082344479",
+   "title": "Маг",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Server/_DV/CosmicCult/Abilities/CosmicReturnSystem.cs",
+    "Content.Server/_Shitcode/Wizard/Systems/SpellsGrantSystem.cs",
+    "Resources/Prototypes/_Goobstation/Wizard/spellbook_catalog.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Content.Server/_Shitcode/Wizard/Systems/SpellsGrantSystem.cs",
+    "Resources/Prototypes/_Goobstation/Wizard/spellbook_catalog.yml"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1421848934644449382",
+   "title": "ТТС",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Client/Options/UI/Tabs/AudioTab.xaml.cs",
+    "Content.Client/_CorvaxGoob/TTS/TTSSystem.Announcements.cs",
+    "Content.Client/_CorvaxGoob/TTS/TTSSystem.cs",
+    "Content.Shared/_Erida/CCVar/CCVars.TTS.cs"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [],
+   "inline_changed": [],
+   "status": "UNCHANGED_SINCE_TRIAGE"
+  },
+  {
+   "thread_id": "1424014048726351937",
+   "title": "Не работает вентилятор",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Resources/Maps/_Goobstation/box.yml",
+    "Resources/Prototypes/Entities/Structures/Piping/Atmospherics/special.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Prototypes/Entities/Structures/Piping/Atmospherics/special.yml"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1430774622957338646",
+   "title": "Косой Эсток",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Locale/ru-RU/ss14-ru/prototypes/entities/objects/weapons/guns/rifles/rifles.ftl (inline)",
+    "Resources/Prototypes/Entities/Objects/Weapons/Guns/Rifles/rifles.yml (inline)"
+   ],
+   "inline_changed": [
+    "Resources/Prototypes/Entities/Objects/Weapons/Guns/Shotguns/shotguns.yml"
+   ],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1431376123060555828",
+   "title": "Как рулить",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Resources/Maps/_Goobstation/Nonstations/nukieplanet.yml",
+    "Resources/Prototypes/_Goobstation/GameRules/roundstart.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Prototypes/GameRules/roundstart.yml (inline)",
+    "Resources/Prototypes/_Goobstation/GameRules/roundstart.yml"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1432159035876053103",
+   "title": "Вы не сможете переварить мышь!",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Shared/Body/Components/StomachComponent.cs",
+    "Content.Shared/Nutrition/EntitySystems/IngestionSystem.Blockers.cs",
+    "Content.Shared/Nutrition/EntitySystems/IngestionSystem.cs",
+    "Resources/Prototypes/Body/Organs/reptilian.yml",
+    "Resources/Prototypes/Entities/Mobs/NPCs/animals.yml",
+    "Resources/Prototypes/Entities/Mobs/Player/dragon.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [
+    "Resources/Prototypes/Entities/Mobs/NPCs/animals.yml"
+   ],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Content.Shared/Body/Components/StomachComponent.cs",
+    "Resources/Locale/ru-RU/nutrition/components/ingestion-system.ftl (inline)",
+    "Resources/Prototypes/Body/Organs/reptilian.yml",
+    "Resources/Prototypes/Entities/Mobs/Player/dragon.yml"
+   ],
+   "inline_changed": [],
+   "status": "REVALIDATION_REQUIRED"
+  },
+  {
+   "thread_id": "1432362211908653066",
+   "title": "Воксы языки",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Resources/Locale/en-US/_EinsteinEngines/language/languages.ftl",
+    "Resources/Locale/ru-RU/_EinsteinEngines/chat/managers/chat-language.ftl",
+    "Resources/Locale/ru-RU/_EinsteinEngines/language/languages.ftl",
+    "Resources/Prototypes/_EinsteinEngines/Language/Species-Specific/vox.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Locale/en-US/_EinsteinEngines/language/languages.ftl",
+    "Resources/Locale/ru-RU/_EinsteinEngines/chat/managers/chat-language.ftl",
+    "Resources/Locale/ru-RU/_EinsteinEngines/language/languages.ftl",
+    "Resources/Prototypes/_EinsteinEngines/Language/Species-Specific/vox.yml"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1438072028904030238",
+   "title": "Диагональные стены.",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Server/Construction/Commands/TileWallsCommand.cs",
+    "Resources/Prototypes/Recipes/Construction/structures.yml"
+   ],
+   "evidence_dirs": [
+    "Content.Server/Construction",
+    "Content.Shared/Construction"
+   ],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Prototypes/Recipes/Construction/structures.yml"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1446843043180318743",
+   "title": "Экипаж VS зомби",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Resources/Changelog/GoobChangelog.yml",
+    "Resources/migration.yml"
+   ],
+   "evidence_dirs": [
+    "Content.Shared/Mech"
+   ],
+   "unresolved_refs": [],
+   "direct_changed": [
+    "Resources/Changelog/GoobChangelog.yml",
+    "Resources/migration.yml"
+   ],
+   "architecture_changed": [],
+   "subsystem_touched": [],
+   "inline_changed": [],
+   "status": "REVALIDATED_STILL_PRESENT",
+   "lead_revalidation": {
+    "status": "REVALIDATED_STILL_PRESENT",
+    "note": "SharedMechSystem.cs has no Dead/MobState handling; zombie pilot path unchanged.",
+    "head": "28d0c86f9d2e2a502dfb422f5b2fd9eaa7df5a53"
+   }
+  },
+  {
+   "thread_id": "1448396633736741045",
+   "title": "Направленные окна и плитка",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Resources/Prototypes/Entities/Structures/Windows/window.yml"
+   ],
+   "evidence_dirs": [
+    "Content.Server/Construction",
+    "Content.Shared/Construction"
+   ],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Prototypes/Entities/Structures/Windows/window.yml"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1449508411325677692",
+   "title": "Noclip",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Shared/Weapons/Misc/SharedGrapplingGunSystem.cs",
+    "Content.Shared/Weapons/Ranged/Components/GrapplingGunComponent.cs"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [
+    "Content.Shared/Physics/…"
+   ],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [],
+   "inline_changed": [],
+   "status": "REVALIDATED_STILL_PRESENT",
+   "lead_revalidation": {
+    "status": "REVALIDATED_STILL_PRESENT",
+    "note": "SharedGrapplingGunSystem.cs:236 joint.MinLength=1f wall-only protection unchanged; windoor tunneling path intact.",
+    "head": "28d0c86f9d2e2a502dfb422f5b2fd9eaa7df5a53"
+   }
+  },
+  {
+   "thread_id": "1449885909653651496",
+   "title": "Некорректное отображение",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Client/Items/Systems/ItemSystem.cs",
+    "Resources/Locale/ru-RU/_Erida/accent/streetrebel.ftl"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Locale/ru-RU/_Erida/accent/streetrebel.ftl"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1451208282411761756",
+   "title": "Призрак коробки",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Server/CardboardBox/CardboardBoxSystem.cs",
+    "Content.Shared/CardboardBox/SharedCardboardBoxSystem.cs",
+    "Resources/Prototypes/Entities/Mobs/Player/jaunt_mobs.yml",
+    "Resources/Prototypes/Entities/Objects/Devices/desynchronizer.yml",
+    "Resources/Prototypes/Polymorphs/polymorph.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Prototypes/Entities/Mobs/Player/jaunt_mobs.yml",
+    "Resources/Prototypes/Entities/Objects/Devices/desynchronizer.yml",
+    "Resources/Prototypes/Polymorphs/polymorph.yml"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1452510092305104927",
+   "title": "У унатхов нет волос.",
+   "verdict": "CONFIRMED_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Shared/Humanoid/SharedHumanoidAppearanceSystem.cs",
+    "Resources/Prototypes/Species/human.yml",
+    "Resources/Prototypes/Species/reptilian.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Prototypes/Species/human.yml",
+    "Resources/Prototypes/Species/reptilian.yml"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1455157816800317595",
+   "title": "Нет, я не буду блобом сейчас Уолтер",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Resources/Locale/ru-RU/ss14-ru/prototypes/_goobstation/blob/blob_mobs.ftl",
+    "Resources/Prototypes/_Goobstation/Blob/blob_mobs.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Locale/ru-RU/ss14-ru/prototypes/_goobstation/blob/blob_mobs.ftl",
+    "Resources/Prototypes/_Goobstation/Blob/blob_mobs.yml"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1458439379457675374",
+   "title": "Когда госты открывают документ, то окружающие это слышат",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Shared/Paper/PaperComponent.cs",
+    "Content.Shared/Paper/PaperSystem.cs"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [],
+   "inline_changed": [],
+   "status": "UNCHANGED_SINCE_TRIAGE"
+  },
+  {
+   "thread_id": "1459054342719148285",
+   "title": "Кофемашина выдаёт кофе раньше, чем анимация закончится",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Resources/Prototypes/Entities/Structures/Machines/vending_machines.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Prototypes/Entities/Structures/Machines/vending_machines.yml"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1463805725422911500",
+   "title": "Пироги и их отображение на лице",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Client/Nutrition/EntitySystems/CreamPiedSystem.cs",
+    "Content.Server/Nutrition/EntitySystems/CreamPieSystem.cs",
+    "Content.Shared/EntityEffects/Effects/WashCreamPieEntityEffectSystem.cs",
+    "Content.Shared/Nutrition/EntitySystems/SharedCreamPieSystem.cs"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Content.Shared/EntityEffects/Effects/WashCreamPieEntityEffectSystem.cs"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1471561763647389861",
+   "title": "Мышиный хвост отображается спереди так же как и сзади",
+   "verdict": "CONFIRMED_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Client/Humanoid/HumanoidAppearanceSystem.cs",
+    "Resources/Prototypes/_DV/Entities/Mobs/Customization/Markings/rodentia.yml",
+    "Resources/Prototypes/_DV/Entities/Mobs/Species/rodentia.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Prototypes/_DV/Entities/Mobs/Customization/Markings/rodentia.yml",
+    "Resources/Prototypes/_DV/Entities/Mobs/Species/rodentia.yml"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1473337621521367151",
+   "title": "Нет направленных урановых стекол в меню крафта",
+   "verdict": "CONFIRMED_CURRENT_BUG",
+   "evidence_files": [],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Prototypes/Entities/Structures/Windows/uranium.yml (inline)",
+    "Resources/Prototypes/Recipes/Construction/Graphs/structures/windowdirectional.yml (inline)",
+    "Resources/Prototypes/Recipes/Construction/structures.yml (inline)"
+   ],
+   "inline_changed": [],
+   "status": "REVALIDATED_STILL_PRESENT",
+   "lead_revalidation": {
+    "status": "REVALIDATED_STILL_PRESENT",
+    "note": "structures.yml untouched by delta; uranium directional ConstructionPrototype entries still absent; entities+graph nodes exist (verified in PR1 gate).",
+    "head": "28d0c86f9d2e2a502dfb422f5b2fd9eaa7df5a53"
+   }
+  },
+  {
+   "thread_id": "1477755379625758884",
+   "title": "Импорт персов - всё?!?!",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Client/Lobby/UI/HumanoidProfileEditor.xaml.cs"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [
+    "Content.Client/Humanoid/Systems/HumanoidAppearanceSystem.cs"
+   ],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [],
+   "inline_changed": [],
+   "status": "UNCHANGED_SINCE_TRIAGE"
+  },
+  {
+   "thread_id": "1479939209883160776",
+   "title": "Ревенант и агост",
+   "verdict": "CONFIRMED_CURRENT_BUG",
+   "evidence_files": [
+    "Resources/Prototypes/Entities/Mobs/NPCs/revenant.yml",
+    "Resources/Prototypes/Entities/Mobs/Player/observer.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Prototypes/Entities/Mobs/NPCs/revenant.yml",
+    "Resources/Prototypes/Entities/Mobs/Player/observer.yml"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1480519345594568866",
+   "title": "Невозможно отключить звук TTS.",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Client/Options/UI/Tabs/AudioTab.xaml.cs",
+    "Content.Client/_CorvaxGoob/TTS/TTSSystem.Announcements.cs",
+    "Content.Client/_CorvaxGoob/TTS/TTSSystem.cs",
+    "Content.Shared/_Erida/CCVar/CCVars.TTS.cs"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [],
+   "inline_changed": [],
+   "status": "REVALIDATED_STILL_PRESENT",
+   "lead_revalidation": {
+    "status": "REVALIDATED_STILL_PRESENT",
+    "note": "TTSSystem.cs MinimalVolume = -10f unchanged; slider-CCVar binding absent.",
+    "head": "28d0c86f9d2e2a502dfb422f5b2fd9eaa7df5a53"
+   }
+  },
+  {
+   "thread_id": "1492169522671653104",
+   "title": "Невозможность респавна после крио",
+   "verdict": "CONFIRMED_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Client/UserInterface/Systems/Ghost/GhostUIController.cs",
+    "Content.Client/UserInterface/Systems/Ghost/Widgets/GhostGui.xaml.cs",
+    "Content.Client/_NF/UserInterface/Systems/Ghost/Controls/GhostRespawnRulesWindow.xaml.cs",
+    "Content.Server/_Corvax/Respawn/RespawnSystem.cs",
+    "Content.Server/_NF/Commands/GhostRespawnCommand.cs"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Content.Client/UserInterface/Systems/Ghost/GhostUIController.cs",
+    "Content.Client/UserInterface/Systems/Ghost/Widgets/GhostGui.xaml.cs",
+    "Resources/Locale/ru-RU/_DV/respawn-system.ftl (inline)"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1497719978088992919",
+   "title": "Все действия в космосе прерываются если летишь по инерции",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Shared/Strip/SharedStrippableSystem.cs"
+   ],
+   "evidence_dirs": [
+    "Content.Shared/DoAfter"
+   ],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [],
+   "inline_changed": [],
+   "status": "UNCHANGED_SINCE_TRIAGE"
+  },
+  {
+   "thread_id": "1498713547704631360",
+   "title": "Возгорание",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Server/Atmos/EntitySystems/FlammableSystem.cs",
+    "Content.Shared/Atmos/Components/FlammableComponent.cs"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [],
+   "inline_changed": [],
+   "status": "REVALIDATED_STILL_PRESENT",
+   "lead_revalidation": {
+    "status": "REVALIDATED_STILL_PRESENT",
+    "note": "FlammableSystem.cs OnStartCollide contact spread still checks only FireSpread flags of both sides; victim protection not consulted.",
+    "head": "28d0c86f9d2e2a502dfb422f5b2fd9eaa7df5a53"
+   }
+  },
+  {
+   "thread_id": "1499505469025419389",
+   "title": "Минус юбка",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Client/Humanoid/HumanoidAppearanceSystem.cs",
+    "Content.Shared/Humanoid/HumanoidVisualLayers.cs",
+    "Resources/Prototypes/_Goobstation/Entities/Mobs/Customization/Markings/human_hair.yml",
+    "Resources/Textures/_Goobstation/Mobs/Customization/human_hair.rsi/meta.json"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Prototypes/_Goobstation/Entities/Mobs/Customization/Markings/human_hair.yml",
+    "Resources/Textures/_Goobstation/Mobs/Customization/human_hair.rsi/meta.json"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1499778816216797236",
+   "title": "сумка",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [],
+   "inline_changed": [],
+   "status": "UNCHANGED_SINCE_TRIAGE"
+  },
+  {
+   "thread_id": "1499847578563510303",
+   "title": "OWO акцент",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Server/GameTicking/GameTicker.Spawning.cs",
+    "Content.Server/Speech/EntitySystems/OwOAccentSystem.cs",
+    "Resources/Prototypes/Nyanotrasen/Entities/Mobs/Species/felinid.yml",
+    "Resources/Prototypes/Traits/speech.yml",
+    "Resources/Prototypes/_Erida/Traits/erida_traits.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Prototypes/Entities/Clothing/Head/misc.yml (inline)",
+    "Resources/Prototypes/Nyanotrasen/Entities/Mobs/Species/felinid.yml",
+    "Resources/Prototypes/Traits/speech.yml",
+    "Resources/Prototypes/_Erida/Traits/erida_traits.yml"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1500984548438179910",
+   "title": "Скованная кукла, превращенная в зомби не может расковаться",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Server/Zombies/ZombieSystem.cs",
+    "Content.Shared/EntityEffects/Effects/ZombieEntityEffectsSystem.cs",
+    "Resources/Locale/ru-RU/ss14-ru/prototypes/entities/objects/misc/handcuffs.ftl",
+    "Resources/Prototypes/Entities/Objects/Misc/handcuffs.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Content.Shared/EntityEffects/Effects/ZombieEntityEffectsSystem.cs",
+    "Resources/Locale/ru-RU/ss14-ru/prototypes/entities/objects/misc/handcuffs.ftl",
+    "Resources/Prototypes/Entities/Objects/Misc/handcuffs.yml"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1509558404778295347",
+   "title": "Багуля",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Resources/Maps/_Goobstation/bagel.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [],
+   "inline_changed": [],
+   "status": "UNCHANGED_SINCE_TRIAGE"
+  },
+  {
+   "thread_id": "1531689725554069685",
+   "title": "огнетушитель дельта вондер",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Resources/Maps/_Goobstation/delta.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Prototypes/_Goobstation/Maps/delta.yml (inline)"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1532607747986558977",
+   "title": "КПБ и стекло.",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Resources/Prototypes/Entities/Objects/Materials/shards.yml",
+    "Resources/Prototypes/_EinsteinEngines/Entities/Mobs/Player/ipc.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [
+    "Content.Shared/_EinsteinEngines/**"
+   ],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Prototypes/Entities/Objects/Materials/shards.yml",
+    "Resources/Prototypes/_EinsteinEngines/Entities/Mobs/Player/ipc.yml"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1534480920327880776",
+   "title": "Наплак на еретика",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Shared/_Shitcode/Heretic/Components/HereticCloakedStatusEffectComponent.cs",
+    "Content.Shared/_Shitcode/Heretic/Systems/Abilities/SharedHereticAbilitySystem.Void.cs",
+    "Content.Shared/_Shitcode/Heretic/Systems/HereticCloakSystem.cs",
+    "Content.Shared/_Shitcode/Heretic/Systems/SharedShadowCloakSystem.cs"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Content.Shared/_Shitcode/Heretic/Components/HereticCloakedStatusEffectComponent.cs",
+    "Content.Shared/_Shitcode/Heretic/Systems/Abilities/SharedHereticAbilitySystem.Void.cs",
+    "Content.Shared/_Shitcode/Heretic/Systems/HereticCloakSystem.cs",
+    "Content.Shared/_Shitcode/Heretic/Systems/SharedShadowCloakSystem.cs"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1534609752284463224",
+   "title": "Ядерный Фабрикатор",
+   "verdict": "CONFIRMED_CURRENT_BUG",
+   "evidence_files": [
+    "Resources/Locale/ru-RU/_CorvaxGoob/fission-generator/entities.ftl"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Locale/ru-RU/_CorvaxGoob/fission-generator/entities.ftl",
+    "Resources/Prototypes/Recipes/Lathes/machine_boards.yml (inline)"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1535027750082056404",
+   "title": "Чемодан",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Client/Items/Systems/ItemSystem.cs",
+    "Resources/Prototypes/Entities/Objects/Misc/briefcases.yml",
+    "Resources/Textures/_Erida/Objects/Storage/Briefcases/briefcase_brown.rsi/meta.json"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Prototypes/Entities/Objects/Misc/briefcases.yml",
+    "Resources/Textures/_Erida/Objects/Storage/Briefcases/briefcase_brown.rsi/meta.json"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1536503382355746886",
+   "title": "еретик с путем пепла",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Shared/_Shitcode/Heretic/Heretic.Abilites.cs"
+   ],
+   "evidence_dirs": [
+    "Content.Shared/_Shitcode/Heretic/Systems/Abilities"
+   ],
+   "unresolved_refs": [
+    "Resources/Locale/ru-RU/_Goobstation/Heretic/store/heretic-catalog-ash.ftl"
+   ],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Content.Shared/_Shitcode/Heretic/Heretic.Abilites.cs"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1537354952094257172",
+   "title": "баг с лечением кпб",
+   "verdict": "CONFIRMED_CURRENT_BUG",
+   "evidence_files": [
+    "Resources/Locale/ru-RU/_EinsteinEngines/species/species.ftl",
+    "Resources/ServerInfo/Guidebook/Mobs/IPCs.xml"
+   ],
+   "evidence_dirs": [
+    "Content.Shared/_Shitmed"
+   ],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Content.Shared/_Shitmed/",
+    "Resources/Locale/ru-RU/_EinsteinEngines/species/species.ftl"
+   ],
+   "inline_changed": [],
+   "status": "ARCHITECTURE_CHANGED",
+   "lead_revalidation": {
+    "status": "ARCHITECTURE_CHANGED",
+    "note": "Wound/trauma subsystem rewritten by upstream sync: C# treatable-classification model (old root cause, commit 8706b5039e) is gone; wounds/treatments now YAML-driven (trauma_types.yml, wounds.yml). Caustic wound entity exists again; Caustic-healing reagents exist (_Goobstation/Reagents/medicine.yml). Old Proposed fix STALE — do not implement; full current-HEAD causal re-investigation (incl. mechanical woundable healing loop) required before any future fix.",
+    "head": "28d0c86f9d2e2a502dfb422f5b2fd9eaa7df5a53"
+   }
+  },
+  {
+   "thread_id": "1540061285029257266",
+   "title": "Баги перехода на губы",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Server.Database/Migrations/Postgres/20251222125459_CharacterSize.cs",
+    "Content.Shared/_DV/CosmicCult/Components/CosmicCenserComponent.cs",
+    "Resources/Prototypes/_DV/CosmicCult/Objects/censer.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Content.Client/_Shitmed/Antags/Abductor/AbductorCameraConsoleWindow.xaml.cs (inline)",
+    "Resources/Prototypes/_DV/CosmicCult/Objects/censer.yml"
+   ],
+   "inline_changed": [],
+   "status": "SUBSYSTEM_TOUCHED"
+  },
+  {
+   "thread_id": "1542496476415000757",
+   "title": "Дюп пособников по Кунг-Фу на ОСЩ.",
+   "verdict": "LIKELY_CURRENT_BUG",
+   "evidence_files": [
+    "Content.Goobstation.Shared/MartialArts/Components/GrantMartialArtKnowledgeComponent.cs",
+    "Content.Server/Station/Systems/StationSpawningSystem.cs",
+    "Content.Shared/Preferences/Loadouts/RoleLoadout.cs",
+    "Resources/Prototypes/_Goobstation/MartialArts/dragonkungfu.yml"
+   ],
+   "evidence_dirs": [],
+   "unresolved_refs": [],
+   "direct_changed": [],
+   "architecture_changed": [],
+   "subsystem_touched": [
+    "Resources/Prototypes/_Goobstation/MartialArts/dragonkungfu.yml"
+   ],
+   "inline_changed": [],
+   "status": "REVALIDATED_STILL_PRESENT",
+   "lead_revalidation": {
+    "status": "REVALIDATED_STILL_PRESENT",
+    "note": "RoleLoadout.cs:129 clamp + :302 add-path clamp still present; server-side dedup still not evidenced.",
+    "head": "28d0c86f9d2e2a502dfb422f5b2fd9eaa7df5a53"
+   }
+  }
+ ],
+ "status_summary": {
+  "SUBSYSTEM_TOUCHED": 44,
+  "REVALIDATED_STILL_PRESENT": 11,
+  "UNCHANGED_SINCE_TRIAGE": 10,
+  "REVALIDATION_REQUIRED": 4,
+  "ARCHITECTURE_CHANGED": 1
+ }
+}
