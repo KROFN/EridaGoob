@@ -15,13 +15,13 @@
   "external_media_files": 5,
   "VERDICTS": {
    "USER_ERROR_OR_NOT_BUG": 7,
-   "ALREADY_FIXED_IN_CURRENT_FORK": 6,
+   "ALREADY_FIXED_IN_CURRENT_FORK": 12,
    "CANNOT_VERIFY": 6,
    "CONFIRMED_CURRENT_BUG": 5,
    "LIKELY_CURRENT_BUG": 4,
    "CONFIG_OR_CONTENT_ISSUE": 8
   },
-  "VERDICT_COVERAGE": 36
+  "VERDICT_COVERAGE": 42
  },
  "threads": [
   {
@@ -2043,9 +2043,18 @@
    },
    "replies": [],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+   "cluster": "duplicate-loadout-group-labels",
+   "dossier": ".ai-triage/bugs/1365350238667280396.md",
+   "confidence": "Medium",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "Две loadout-группы безделушек (Trinkets + StationEngineerJobTrinkets) имели одинаковое отображаемое имя; теперь имена разделены (Trinkets / Job trinkets, loadout-groups.ftl:26-27)",
+   "evidence": [
+    "Resources/Prototypes/Loadouts/role_loadouts.yml:JobStationEngineer",
+    "Resources/Locale/en-US/preferences/loadout-groups.ftl:26",
+    "commit 12766fe6e3 Loadouts redux (#25715)"
+   ]
   },
   {
    "thread_id": "1365351859774165133",
@@ -4286,9 +4295,17 @@
    },
    "replies": [],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+   "cluster": "duplicate-loadout-group-labels",
+   "dossier": ".ai-triage/bugs/1366049076361166888.md",
+   "confidence": "Medium",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "Trinkets + TechnicalAssistantJobTrinkets с одинаковым именем в старом лайнадже; сейчас имена различны",
+   "evidence": [
+    "Resources/Prototypes/Loadouts/role_loadouts.yml:JobTechnicalAssistant",
+    "Resources/Locale/en-US/preferences/loadout-groups.ftl:27"
+   ]
   },
   {
    "thread_id": "1366108916475363378",
@@ -6484,9 +6501,17 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+   "cluster": "security-duty-weapon-removed",
+   "dossier": ".ai-triage/bugs/1368872733877731388.md",
+   "confidence": "High",
+   "severity": "S3",
+   "complexity": "XS",
+   "root_cause_short": "Группа «Табельное оружие» с 5×unknown существовала в старом лайнадже; в текущем fork группа полностью удалена",
+   "evidence": [
+    "rg -i duty Resources/Prototypes/**/Loadouts/** → 0",
+    "attachments/1368872733877731388/1368872734255349770_image.png"
+   ]
   },
   {
    "thread_id": "1368875720373309480",
@@ -8030,9 +8055,17 @@
    },
    "replies": [],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+   "cluster": "security-duty-weapon-removed",
+   "dossier": ".ai-triage/bugs/1369663765662007297.md",
+   "confidence": "High",
+   "severity": "S3",
+   "complexity": "XS",
+   "root_cause_short": "То же повреждение группы «табельного оружия» (ГСБ/смотритель/офицер); группа удалена целиком",
+   "evidence": [
+    "Resources/Prototypes/Loadouts/role_loadouts.yml:JobSecurityOfficer",
+    "rg -i duty → 0"
+   ]
   },
   {
    "thread_id": "1369677670853644399",
@@ -10685,9 +10718,17 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+   "cluster": "security-duty-weapon-removed",
+   "dossier": ".ai-triage/bugs/1372221903489732679.md",
+   "confidence": "High",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "Предмет «шляпа патрульного» (дублировавший спрайт кепки СБ) удалён из текущего fork",
+   "evidence": [
+    "rg -i patrol Resources/Prototypes -g '*.yml' → 0 релевантных",
+    "attachments/1372221903489732679/1372221903665762324_Screenshot_4904.png"
+   ]
   },
   {
    "thread_id": "1372567955899940864",
@@ -14504,9 +14545,17 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+   "cluster": "duplicate-loadout-group-labels",
+   "dossier": ".ai-triage/bugs/1388579384419553460.md",
+   "confidence": "Medium",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "В текущем fork у психолога одна группа униформы (PsychologistJumpsuit); дубль существовал в старом лайнадже",
+   "evidence": [
+    "Resources/Prototypes/Loadouts/role_loadouts.yml:JobPsychologist",
+    "Resources/Prototypes/Loadouts/loadout_groups.yml:1784"
+   ]
   },
   {
    "thread_id": "1388579548357984378",
