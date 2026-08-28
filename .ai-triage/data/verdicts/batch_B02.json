@@ -1,0 +1,93 @@
+[
+  {
+    "thread_id": "1366681937032511539",
+    "verdict": "USER_ERROR_OR_NOT_BUG",
+    "confidence": "Medium",
+    "severity": "S4",
+    "complexity": "XS",
+    "cluster_hint": null,
+    "root_cause_short": "Нагрев ноутбука — аппаратное; спам ошибок — клиентский Log.Error из-за отсутствующего GuideEntryPrototype RulesBackmen (Backmen-эпоха), устранён обновлением по словам автора",
+    "evidence": [
+      "Content.Client/UserInterface/Systems/Info/InfoUIController.cs:97:GetCoreRuleEntry",
+      "Content.Shared/CCVar/CCVars.Server.cs:23:RulesFile",
+      "attachments/1366681937032511539/1366681937212608576_IMG_20250429_184247_876.jpg:OCR RulesBackmen spam"
+    ],
+    "dossier": ".ai-triage/bugs/1366681937032511539.md"
+  },
+  {
+    "thread_id": "1367396276349698049",
+    "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+    "confidence": "Medium",
+    "severity": "S3",
+    "complexity": "XS",
+    "cluster_hint": null,
+    "root_cause_short": "Старый Backmen-деплой: PsionicItemsSystem.OnTinfoilEquipped добавлял PsionicInsulation при выключенной псионики (+ клиентский race ResetPredictedEntities); в текущем Goob-форке символы отсутствуют",
+    "evidence": [
+      "video OCR /tmp/frames_1367396276349698049:OnTinfoilEquipped @ Content.Shared/Backmen/Abilities/Psionics/Items/PsionicItemsSystem.cs:29",
+      "video OCR:ClientGameStateManager.ResetPredictedEntities InvalidOperationException",
+      "rg PsionicInsulation -> 0 hits in current repo",
+      "discord reply TREST 2025-05-01: 'исправлю'"
+    ],
+    "dossier": ".ai-triage/bugs/1367396276349698049.md"
+  },
+  {
+    "thread_id": "1371405608086929509",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Low",
+    "severity": "S4",
+    "complexity": "XS",
+    "cluster_hint": null,
+    "root_cause_short": "Недоописанный отчёт: скриншот health-анализатора без ожидаемого поведения; единственная подсказка 'клеточные были'",
+    "evidence": [
+      "Resources/Locale/ru-RU/medical/components/health-analyzer-component.ftl:11:health-analyzer-window-entity-damage-total-text",
+      "Resources/Prototypes/Damage/modifier_sets.yml:Cellular",
+      "attachments/1371405608086929509/1371405608326135809_image.png:OCR"
+    ],
+    "dossier": ".ai-triage/bugs/1371405608086929509.md"
+  },
+  {
+    "thread_id": "1404116006984618024",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Low",
+    "severity": "S4",
+    "complexity": "XS",
+    "cluster_hint": null,
+    "root_cause_short": "Зависание загрузки контента — сетевая/лаунчерная проблема окружения (сообщество советует VPN); код загрузки контента в Content-репо отсутствует",
+    "evidence": [
+      "RobustToolbox submodule uninitialized: launcher/engine content-download code not in repo",
+      "discord replies 1404123587106967693/1404124260406132850: 'Ван'/'Впн'",
+      "attachments/1404116006984618024/EeMs4Z2qryoyN4BBsFHMp9RZyL5gCyTu9TdZwbuzGlB4Mg__7De6pYi7ADriErIAgjY6BcUVqhjes2OA9RQBZqad.png:OCR non-diagnostic"
+    ],
+    "dossier": ".ai-triage/bugs/1404116006984618024.md"
+  },
+  {
+    "thread_id": "1534207157308756059",
+    "verdict": "USER_ERROR_OR_NOT_BUG",
+    "confidence": "Medium",
+    "severity": "S4",
+    "complexity": "XS",
+    "cluster_hint": null,
+    "root_cause_short": "Playtime хранится в БД; кодового массового сброса нет (только add/get/save/flush) — обнуление было ручной DB-операцией, строка этого аккаунта не обработана",
+    "evidence": [
+      "Content.Server/Administration/Commands/PlayTimeCommands.cs:PlayTimeAddOverallCommand/PlayTimeGetOverallCommand",
+      "Content.Server/Players/PlayTimeTracking/PlayTimeTrackingManager.cs:242:SaveSession",
+      "Content.Server/_Erida/Discord/EridaWebhook.Playtime.cs:SendTimeChangedMessage"
+    ],
+    "dossier": ".ai-triage/bugs/1534207157308756059.md"
+  },
+  {
+    "thread_id": "1513668580212871330",
+    "verdict": "USER_ERROR_OR_NOT_BUG",
+    "confidence": "High",
+    "severity": "S3",
+    "complexity": "XS",
+    "cluster_hint": null,
+    "root_cause_short": "Panic bunker отказывает, т.к. в серверной БД нет Overall playtime после падения БД (персонал подтвердил); gate работает как закодирован, обход — whitelist",
+    "evidence": [
+      "Content.Server/Connection/ConnectionManager.cs:272:GetPlayTimes",
+      "Content.Server/Connection/ConnectionManager.cs:256:BypassBunkerWhitelist",
+      "Resources/Locale/ru-RU/connection-messages.ftl:22:panic-bunker-account-denied"
+    ],
+    "dossier": ".ai-triage/bugs/1513668580212871330.md"
+  }
+]

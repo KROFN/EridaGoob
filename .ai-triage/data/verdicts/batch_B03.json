@@ -1,0 +1,97 @@
+[
+  {
+    "thread_id": "1379120791253418124",
+    "verdict": "CONFIRMED_CURRENT_BUG",
+    "confidence": "High",
+    "severity": "S4",
+    "complexity": "S",
+    "cluster_hint": "sprite-layer-order",
+    "root_cause_short": "Species-порядок слоёв ставит HumanoidVisualLayers.Tail после jumpsuit/shoes; ApplyMarking вставляет marking на Tail+1; front-кадры mam_tails.rsi перекрывают торс — хвост над телом/одеждой (в т.ч. в лобби)",
+    "evidence": [
+      "Resources/Prototypes/_Erida/Entities/Mobs/Species/anthropomorph.yml:109:enum.HumanoidVisualLayers.Tail",
+      "Resources/Prototypes/Entities/Mobs/Species/base.yml:57/420:BaseMobSpeciesOrganic/BaseSpeciesDummy layers",
+      "Content.Client/Humanoid/HumanoidAppearanceSystem.cs:ApplyMarking:AddLayer(targetLayer+1)",
+      "Resources/Prototypes/_Erida/Customization/Markings/anthropomorph.yml:AnthropomorphTailHusky/Otie/Deer (без layering, _Orion mam_tails.rsi)"
+    ],
+    "dossier": ".ai-triage/bugs/1379120791253418124.md"
+  },
+  {
+    "thread_id": "1379904937223520296",
+    "verdict": "CONFIRMED_CURRENT_BUG",
+    "confidence": "High",
+    "severity": "S4",
+    "complexity": "S",
+    "cluster_hint": "sprite-layer-order",
+    "root_cause_short": "Тот же корень: слой Tail вида после jumpsuit → юбка-комбинезон всегда под хвостом; запрошенное «одежда поверх хвоста» отсутствует в контенте (нет layering у markings)",
+    "evidence": [
+      "Resources/Prototypes/_Erida/Entities/Mobs/Species/anthropomorph.yml:109:enum.HumanoidVisualLayers.Tail",
+      "Content.Client/Humanoid/HumanoidAppearanceSystem.cs:ApplyMarking",
+      "Resources/Prototypes/_Erida/Customization/Markings/anthropomorph.yml:AnthropomorphTailFox/Kisune (без layering)"
+    ],
+    "dossier": ".ai-triage/bugs/1379904937223520296.md"
+  },
+  {
+    "thread_id": "1382299238423068682",
+    "verdict": "CONFIRMED_CURRENT_BUG",
+    "confidence": "High",
+    "severity": "S4",
+    "complexity": "S",
+    "cluster_hint": "sprite-layer-order",
+    "root_cause_short": "Хвост кицунэ над одеждой на side-left/back (Tail-слой после одежды + ApplyMarking); вторично: hand-визуалы через LayerMapReserve добавляются в конец спрайта — над хвостом",
+    "evidence": [
+      "Resources/Prototypes/_Erida/Entities/Mobs/Species/anthropomorph.yml:109:enum.HumanoidVisualLayers.Tail",
+      "Content.Client/Humanoid/HumanoidAppearanceSystem.cs:ApplyMarking",
+      "Content.Client/Hands/Systems/HandsSystem.cs:342:LayerMapReserve",
+      "Resources/Prototypes/_Erida/Customization/Markings/anthropomorph.yml:AnthropomorphTailKisune (mam_tails.rsi#tail_kitsune, без layering)"
+    ],
+    "dossier": ".ai-triage/bugs/1382299238423068682.md"
+  },
+  {
+    "thread_id": "1471561763647389861",
+    "verdict": "CONFIRMED_CURRENT_BUG",
+    "confidence": "High",
+    "severity": "S4",
+    "complexity": "S",
+    "cluster_hint": "sprite-layer-order",
+    "root_cause_short": "У rodentia слой Tail (rodentia.yml:91) после jumpsuit/shoes + ApplyMarking; front-кадр tail_markings.rsi#mouse содержит полосу пикселей (y14–17) — «шишка» над комбинезоном спереди",
+    "evidence": [
+      "Resources/Prototypes/_DV/Entities/Mobs/Species/rodentia.yml:91:enum.HumanoidVisualLayers.Tail",
+      "Resources/Prototypes/_DV/Entities/Mobs/Customization/Markings/rodentia.yml:RodentiaTailDefault (без layering)",
+      "Content.Client/Humanoid/HumanoidAppearanceSystem.cs:ApplyMarking"
+    ],
+    "dossier": ".ai-triage/bugs/1471561763647389861.md"
+  },
+  {
+    "thread_id": "1393135432060899379",
+    "verdict": "CONFIG_OR_CONTENT_ISSUE",
+    "confidence": "Medium",
+    "severity": "S4",
+    "complexity": "S",
+    "cluster_hint": "underwear-sprite-fit",
+    "root_cause_short": "Порядок socks→jumpsuit→shoes корректен; причина контентная: универсальные спрайты носков не подогнаны под виды + у reptilian нет socks-displacement (признано разработчиком Yosif в треде)",
+    "evidence": [
+      "Resources/Prototypes/Entities/Mobs/Species/reptilian.yml:Inventory displacements (jumpsuit/shoes, socks отсутствует)",
+      "Resources/Prototypes/Entities/Clothing/Under/under.yml:ClothingUnderSocksBee/Coder (ClothingShoesBase, универсальные спрайты)",
+      "Resources/Prototypes/InventoryTemplates/human_inventory_template.yml:159:slot socks (slotFlags SOCKS)",
+      "Resources/Prototypes/_Erida/Entities/Clothing/Underwear/socks.yml:9ebb47b00c [Add] Underwear (#23, 2026-08-16)"
+    ],
+    "dossier": ".ai-triage/bugs/1393135432060899379.md"
+  },
+  {
+    "thread_id": "1453499614710857729",
+    "verdict": "CONFIG_OR_CONTENT_ISSUE",
+    "confidence": "Medium",
+    "severity": "S4",
+    "complexity": "S",
+    "cluster_hint": "underwear-sprite-fit",
+    "root_cause_short": "UndergarmentBottom-марки (универсальные человеческие спрайты underwear.rsi, без moth-вариантов) рисуются ApplyMarking без displacement, тогда как jumpsuit/shoes мола подгоняются displacement-картами — пиксели белья выглядывают из-под комбинезона и ботинок",
+    "evidence": [
+      "Resources/Prototypes/Entities/Mobs/Customization/Markings/underwear.yml:UnderwearDefault/Briefs/Lowriders/Satin/Tanga (speciesRestriction: Moth на дату репорта 6342e20f0a)",
+      "Resources/Prototypes/Entities/Mobs/Species/moth.yml:175-200:Inventory displacements (jumpsuit/shoes, для белья нет)",
+      "Content.Client/Clothing/ClientClothingSystem.cs:287-296,355:DisplacementMapSystem.TryAddDisplacement (только слоты одежды)",
+      "Content.Client/Humanoid/HumanoidAppearanceSystem.cs:373:ApplyMarking (без displacement)",
+      "Resources/Textures/Mobs/Customization/undergarments.rsi:варианты только base/_reptilian/_vox, _moth нет"
+    ],
+    "dossier": ".ai-triage/bugs/1453499614710857729.md"
+  }
+]

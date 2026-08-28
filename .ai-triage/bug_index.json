@@ -12,7 +12,15 @@
   "threads_with_media_on_disk": 135,
   "attachment_files_on_disk": 294,
   "threads_with_external_media": 3,
-  "external_media_files": 5
+  "external_media_files": 5,
+  "VERDICTS": {
+   "USER_ERROR_OR_NOT_BUG": 7,
+   "ALREADY_FIXED_IN_CURRENT_FORK": 1,
+   "CANNOT_VERIFY": 4,
+   "CONFIRMED_CURRENT_BUG": 4,
+   "CONFIG_OR_CONTENT_ISSUE": 2
+  },
+  "VERDICT_COVERAGE": 18
  },
  "threads": [
   {
@@ -47,9 +55,16 @@
    },
    "replies": [],
    "mentions": [],
-   "verdict": null,
+   "verdict": "USER_ERROR_OR_NOT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1363943524676010095.md",
+   "confidence": "High",
+   "severity": null,
+   "complexity": null,
+   "root_cause_short": "Не баг: закреплённая инструкция канала багрепортов (форумный мета), дефект не заявлен",
+   "evidence": [
+    ".ai-triage/data/threads/1363943524676010095.json:root_message.content"
+   ]
   },
   {
    "thread_id": "1364949692739358750",
@@ -4024,9 +4039,21 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "USER_ERROR_OR_NOT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1365705684582404157.md",
+   "confidence": "Medium",
+   "severity": null,
+   "complexity": null,
+   "root_cause_short": "Спам ошибок правил из-за чужого прототипа RulesBackmen (отсутствует в репо и git-истории) — замусоренный/чужой контент лаунчера у клиента, не баг форка",
+   "evidence": [
+    "Content.Client/UserInterface/Systems/Info/InfoUIController.cs:InfoUIController.RulesEntryId/DefaultRuleset/OnRulesInformationMessage",
+    "Content.Server/Info/RulesManager.cs:RulesManager (CoreRules = CCVars.RulesFile)",
+    "Content.Shared/CCVar/CCVars.Server.cs:CCVars.RulesFile (server.rules_file)",
+    "Resources/Prototypes/_Erida/Guidebook/rules.yml:CoreRules/RuleEridaC0-C8",
+    "export/attachments/1365705684582404157/1365705685018476584_image.png (OCR: 'Couldn't find the following prototype: RulesBackmen')",
+    "git log -S'RulesBackmen' --all (пусто)"
+   ]
   },
   {
    "thread_id": "1365718886585991330",
@@ -4654,9 +4681,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "USER_ERROR_OR_NOT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1366681937032511539.md",
+   "confidence": "Medium",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "Нагрев ноутбука — аппаратное; спам ошибок — клиентский Log.Error из-за отсутствующего GuideEntryPrototype RulesBackmen (Backmen-эпоха), устранён обновлением по словам автора",
+   "evidence": [
+    "Content.Client/UserInterface/Systems/Info/InfoUIController.cs:97:GetCoreRuleEntry",
+    "Content.Shared/CCVar/CCVars.Server.cs:23:RulesFile",
+    "attachments/1366681937032511539/1366681937212608576_IMG_20250429_184247_876.jpg:OCR RulesBackmen spam"
+   ]
   },
   {
    "thread_id": "1366747516258881536",
@@ -5162,9 +5198,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1367396276349698049.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "XS",
+   "root_cause_short": "Старый Backmen-деплой: PsionicItemsSystem.OnTinfoilEquipped добавлял PsionicInsulation при выключенной псионики (+ клиентский race ResetPredictedEntities); в текущем Goob-форке символы отсутствуют",
+   "evidence": [
+    "video OCR /tmp/frames_1367396276349698049:OnTinfoilEquipped @ Content.Shared/Backmen/Abilities/Psionics/Items/PsionicItemsSystem.cs:29",
+    "video OCR:ClientGameStateManager.ResetPredictedEntities InvalidOperationException",
+    "rg PsionicInsulation -> 0 hits in current repo",
+    "discord reply TREST 2025-05-01: 'исправлю'"
+   ]
   },
   {
    "thread_id": "1367513774440972329",
@@ -9982,9 +10028,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1371405608086929509.md",
+   "confidence": "Low",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "Недоописанный отчёт: скриншот health-анализатора без ожидаемого поведения; единственная подсказка 'клеточные были'",
+   "evidence": [
+    "Resources/Locale/ru-RU/medical/components/health-analyzer-component.ftl:11:health-analyzer-window-entity-damage-total-text",
+    "Resources/Prototypes/Damage/modifier_sets.yml:Cellular",
+    "attachments/1371405608086929509/1371405608326135809_image.png:OCR"
+   ]
   },
   {
    "thread_id": "1371726298703204383",
@@ -11760,9 +11815,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CONFIRMED_CURRENT_BUG",
+   "cluster": "sprite-layer-order",
+   "dossier": ".ai-triage/bugs/1379120791253418124.md",
+   "confidence": "High",
+   "severity": "S4",
+   "complexity": "S",
+   "root_cause_short": "Species-порядок слоёв ставит HumanoidVisualLayers.Tail после jumpsuit/shoes; ApplyMarking вставляет marking на Tail+1; front-кадры mam_tails.rsi перекрывают торс — хвост над телом/одеждой (в т.ч. в лобби)",
+   "evidence": [
+    "Resources/Prototypes/_Erida/Entities/Mobs/Species/anthropomorph.yml:109:enum.HumanoidVisualLayers.Tail",
+    "Resources/Prototypes/Entities/Mobs/Species/base.yml:57/420:BaseMobSpeciesOrganic/BaseSpeciesDummy layers",
+    "Content.Client/Humanoid/HumanoidAppearanceSystem.cs:ApplyMarking:AddLayer(targetLayer+1)",
+    "Resources/Prototypes/_Erida/Customization/Markings/anthropomorph.yml:AnthropomorphTailHusky/Otie/Deer (без layering, _Orion mam_tails.rsi)"
+   ]
   },
   {
    "thread_id": "1379189259877093508",
@@ -12204,9 +12269,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CONFIRMED_CURRENT_BUG",
+   "cluster": "sprite-layer-order",
+   "dossier": ".ai-triage/bugs/1379904937223520296.md",
+   "confidence": "High",
+   "severity": "S4",
+   "complexity": "S",
+   "root_cause_short": "Тот же корень: слой Tail вида после jumpsuit → юбка-комбинезон всегда под хвостом; запрошенное «одежда поверх хвоста» отсутствует в контенте (нет layering у markings)",
+   "evidence": [
+    "Resources/Prototypes/_Erida/Entities/Mobs/Species/anthropomorph.yml:109:enum.HumanoidVisualLayers.Tail",
+    "Content.Client/Humanoid/HumanoidAppearanceSystem.cs:ApplyMarking",
+    "Resources/Prototypes/_Erida/Customization/Markings/anthropomorph.yml:AnthropomorphTailFox/Kisune (без layering)"
+   ]
   },
   {
    "thread_id": "1380108603725447290",
@@ -12928,9 +13002,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CONFIRMED_CURRENT_BUG",
+   "cluster": "sprite-layer-order",
+   "dossier": ".ai-triage/bugs/1382299238423068682.md",
+   "confidence": "High",
+   "severity": "S4",
+   "complexity": "S",
+   "root_cause_short": "Хвост кицунэ над одеждой на side-left/back (Tail-слой после одежды + ApplyMarking); вторично: hand-визуалы через LayerMapReserve добавляются в конец спрайта — над хвостом",
+   "evidence": [
+    "Resources/Prototypes/_Erida/Entities/Mobs/Species/anthropomorph.yml:109:enum.HumanoidVisualLayers.Tail",
+    "Content.Client/Humanoid/HumanoidAppearanceSystem.cs:ApplyMarking",
+    "Content.Client/Hands/Systems/HandsSystem.cs:342:LayerMapReserve",
+    "Resources/Prototypes/_Erida/Customization/Markings/anthropomorph.yml:AnthropomorphTailKisune (mam_tails.rsi#tail_kitsune, без layering)"
+   ]
   },
   {
    "thread_id": "1382754417589358672",
@@ -15369,9 +15453,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
+   "cluster": "underwear-sprite-fit",
+   "dossier": ".ai-triage/bugs/1393135432060899379.md",
+   "confidence": "Medium",
+   "severity": "S4",
+   "complexity": "S",
+   "root_cause_short": "Порядок socks→jumpsuit→shoes корректен; причина контентная: универсальные спрайты носков не подогнаны под виды + у reptilian нет socks-displacement (признано разработчиком Yosif в треде)",
+   "evidence": [
+    "Resources/Prototypes/Entities/Mobs/Species/reptilian.yml:Inventory displacements (jumpsuit/shoes, socks отсутствует)",
+    "Resources/Prototypes/Entities/Clothing/Under/under.yml:ClothingUnderSocksBee/Coder (ClothingShoesBase, универсальные спрайты)",
+    "Resources/Prototypes/InventoryTemplates/human_inventory_template.yml:159:slot socks (slotFlags SOCKS)",
+    "Resources/Prototypes/_Erida/Entities/Clothing/Underwear/socks.yml:9ebb47b00c [Add] Underwear (#23, 2026-08-16)"
+   ]
   },
   {
    "thread_id": "1394565743768768653",
@@ -15726,9 +15820,18 @@
     "occured",
     "server"
    ],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1400493654493233195.md",
+   "confidence": "Medium",
+   "severity": null,
+   "complexity": null,
+   "root_cause_short": "«Unknown server error occured during handshake» — ошибка уровня лаунчера/движка/инфраструктуры; строки нет в контент-репо, логов нет",
+   "evidence": [
+    ".ai-triage/data/threads/1400493654493233195.json:root_message.content",
+    "rg 'during handshake' Content.Client Content.Server (пусто — строка не из контента)",
+    "RobustToolbox (пустой сабмодуль)"
+   ]
   },
   {
    "thread_id": "1403428173705646140",
@@ -15870,9 +15973,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1404116006984618024.md",
+   "confidence": "Low",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "Зависание загрузки контента — сетевая/лаунчерная проблема окружения (сообщество советует VPN); код загрузки контента в Content-репо отсутствует",
+   "evidence": [
+    "RobustToolbox submodule uninitialized: launcher/engine content-download code not in repo",
+    "discord replies 1404123587106967693/1404124260406132850: 'Ван'/'Впн'",
+    "attachments/1404116006984618024/EeMs4Z2qryoyN4BBsFHMp9RZyL5gCyTu9TdZwbuzGlB4Mg__7De6pYi7ADriErIAgjY6BcUVqhjes2OA9RQBZqad.png:OCR non-diagnostic"
+   ]
   },
   {
    "thread_id": "1406900824109481994",
@@ -16331,9 +16443,17 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "USER_ERROR_OR_NOT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1413578353155379241.md",
+   "confidence": "High",
+   "severity": null,
+   "complexity": null,
+   "root_cause_short": "Чистый форумный мета: «перекинь в мою ветку… всё от админки собирать»; звуки подбора названы разрабом заявленной фичей",
+   "evidence": [
+    ".ai-triage/data/threads/1413578353155379241.json:root_message.content",
+    ".ai-triage/data/threads/1413578353155379241.json:replies[0] (Yosif: 'звуки подбора предметов это фича')"
+   ]
   },
   {
    "thread_id": "1413579782691753994",
@@ -23219,9 +23339,17 @@
    },
    "replies": [],
    "mentions": [],
-   "verdict": null,
+   "verdict": "USER_ERROR_OR_NOT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1431179805415575662.md",
+   "confidence": "Medium",
+   "severity": null,
+   "complexity": null,
+   "root_cause_short": "Внешняя вики (статья «Восстание 407») устарела под текущий лор — документация вне репозитория и кодовой области",
+   "evidence": [
+    ".ai-triage/data/threads/1431179805415575662.json:root_message.content",
+    "Resources/ServerInfo (rg 'Восстание|407' — нет статьи; вики вне репо)"
+   ]
   },
   {
    "thread_id": "1431376123060555828",
@@ -26367,9 +26495,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1447290973259436264.md",
+   "confidence": "Low",
+   "severity": null,
+   "complexity": null,
+   "root_cause_short": "Деградация клиентского FPS (120→90, до 10 в движении); без логов/билда/профилировки причина не локализуется; гипотеза разраба — перенос компонентов в shared (апстрим)",
+   "evidence": [
+    ".ai-triage/data/threads/1447290973259436264.json:root_message + replies[0] (Yosif: не знает причину, нет разницы с wizden-билдом)",
+    "git log --since=2025-11-01 --until=2026-01-10 -- Content.Shared (массовые апстрим-синхронизации; виновник не идентифицирован)",
+    "RobustToolbox (пустой сабмодуль — движковый слой недоступен)"
+   ]
   },
   {
    "thread_id": "1447294706781393027",
@@ -30265,9 +30402,20 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
+   "cluster": "underwear-sprite-fit",
+   "dossier": ".ai-triage/bugs/1453499614710857729.md",
+   "confidence": "Medium",
+   "severity": "S4",
+   "complexity": "S",
+   "root_cause_short": "UndergarmentBottom-марки (универсальные человеческие спрайты underwear.rsi, без moth-вариантов) рисуются ApplyMarking без displacement, тогда как jumpsuit/shoes мола подгоняются displacement-картами — пиксели белья выглядывают из-под комбинезона и ботинок",
+   "evidence": [
+    "Resources/Prototypes/Entities/Mobs/Customization/Markings/underwear.yml:UnderwearDefault/Briefs/Lowriders/Satin/Tanga (speciesRestriction: Moth на дату репорта 6342e20f0a)",
+    "Resources/Prototypes/Entities/Mobs/Species/moth.yml:175-200:Inventory displacements (jumpsuit/shoes, для белья нет)",
+    "Content.Client/Clothing/ClientClothingSystem.cs:287-296,355:DisplacementMapSystem.TryAddDisplacement (только слоты одежды)",
+    "Content.Client/Humanoid/HumanoidAppearanceSystem.cs:373:ApplyMarking (без displacement)",
+    "Resources/Textures/Mobs/Customization/undergarments.rsi:варианты только base/_reptilian/_vox, _moth нет"
+   ]
   },
   {
    "thread_id": "1455105829282779270",
@@ -34793,9 +34941,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CONFIRMED_CURRENT_BUG",
+   "cluster": "sprite-layer-order",
+   "dossier": ".ai-triage/bugs/1471561763647389861.md",
+   "confidence": "High",
+   "severity": "S4",
+   "complexity": "S",
+   "root_cause_short": "У rodentia слой Tail (rodentia.yml:91) после jumpsuit/shoes + ApplyMarking; front-кадр tail_markings.rsi#mouse содержит полосу пикселей (y14–17) — «шишка» над комбинезоном спереди",
+   "evidence": [
+    "Resources/Prototypes/_DV/Entities/Mobs/Species/rodentia.yml:91:enum.HumanoidVisualLayers.Tail",
+    "Resources/Prototypes/_DV/Entities/Mobs/Customization/Markings/rodentia.yml:RodentiaTailDefault (без layering)",
+    "Content.Client/Humanoid/HumanoidAppearanceSystem.cs:ApplyMarking"
+   ]
   },
   {
    "thread_id": "1471669260089819258",
@@ -46857,9 +47014,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "USER_ERROR_OR_NOT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1513668580212871330.md",
+   "confidence": "High",
+   "severity": "S3",
+   "complexity": "XS",
+   "root_cause_short": "Panic bunker отказывает, т.к. в серверной БД нет Overall playtime после падения БД (персонал подтвердил); gate работает как закодирован, обход — whitelist",
+   "evidence": [
+    "Content.Server/Connection/ConnectionManager.cs:272:GetPlayTimes",
+    "Content.Server/Connection/ConnectionManager.cs:256:BypassBunkerWhitelist",
+    "Resources/Locale/ru-RU/connection-messages.ftl:22:panic-bunker-account-denied"
+   ]
   },
   {
    "thread_id": "1514984863562727596",
@@ -49292,9 +49458,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "USER_ERROR_OR_NOT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1534207157308756059.md",
+   "confidence": "Medium",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "Playtime хранится в БД; кодового массового сброса нет (только add/get/save/flush) — обнуление было ручной DB-операцией, строка этого аккаунта не обработана",
+   "evidence": [
+    "Content.Server/Administration/Commands/PlayTimeCommands.cs:PlayTimeAddOverallCommand/PlayTimeGetOverallCommand",
+    "Content.Server/Players/PlayTimeTracking/PlayTimeTrackingManager.cs:242:SaveSession",
+    "Content.Server/_Erida/Discord/EridaWebhook.Playtime.cs:SendTimeChangedMessage"
+   ]
   },
   {
    "thread_id": "1534480920327880776",

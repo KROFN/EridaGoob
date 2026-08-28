@@ -1,0 +1,91 @@
+[
+ {
+  "thread_id": "1363943524676010095",
+  "verdict": "USER_ERROR_OR_NOT_BUG",
+  "confidence": "High",
+  "severity": null,
+  "complexity": null,
+  "cluster_hint": null,
+  "root_cause_short": "Не баг: закреплённая инструкция канала багрепортов (форумный мета), дефект не заявлен",
+  "evidence": [
+   ".ai-triage/data/threads/1363943524676010095.json:root_message.content"
+  ],
+  "dossier": ".ai-triage/bugs/1363943524676010095.md"
+ },
+ {
+  "thread_id": "1365705684582404157",
+  "verdict": "USER_ERROR_OR_NOT_BUG",
+  "confidence": "Medium",
+  "severity": null,
+  "complexity": null,
+  "cluster_hint": null,
+  "root_cause_short": "Спам ошибок правил из-за чужого прототипа RulesBackmen (отсутствует в репо и git-истории) — замусоренный/чужой контент лаунчера у клиента, не баг форка",
+  "evidence": [
+   "Content.Client/UserInterface/Systems/Info/InfoUIController.cs:InfoUIController.RulesEntryId/DefaultRuleset/OnRulesInformationMessage",
+   "Content.Server/Info/RulesManager.cs:RulesManager (CoreRules = CCVars.RulesFile)",
+   "Content.Shared/CCVar/CCVars.Server.cs:CCVars.RulesFile (server.rules_file)",
+   "Resources/Prototypes/_Erida/Guidebook/rules.yml:CoreRules/RuleEridaC0-C8",
+   "export/attachments/1365705684582404157/1365705685018476584_image.png (OCR: 'Couldn't find the following prototype: RulesBackmen')",
+   "git log -S'RulesBackmen' --all (пусто)"
+  ],
+  "dossier": ".ai-triage/bugs/1365705684582404157.md"
+ },
+ {
+  "thread_id": "1413578353155379241",
+  "verdict": "USER_ERROR_OR_NOT_BUG",
+  "confidence": "High",
+  "severity": null,
+  "complexity": null,
+  "cluster_hint": null,
+  "root_cause_short": "Чистый форумный мета: «перекинь в мою ветку… всё от админки собирать»; звуки подбора названы разрабом заявленной фичей",
+  "evidence": [
+   ".ai-triage/data/threads/1413578353155379241.json:root_message.content",
+   ".ai-triage/data/threads/1413578353155379241.json:replies[0] (Yosif: 'звуки подбора предметов это фича')"
+  ],
+  "dossier": ".ai-triage/bugs/1413578353155379241.md"
+ },
+ {
+  "thread_id": "1431179805415575662",
+  "verdict": "USER_ERROR_OR_NOT_BUG",
+  "confidence": "Medium",
+  "severity": null,
+  "complexity": null,
+  "cluster_hint": null,
+  "root_cause_short": "Внешняя вики (статья «Восстание 407») устарела под текущий лор — документация вне репозитория и кодовой области",
+  "evidence": [
+   ".ai-triage/data/threads/1431179805415575662.json:root_message.content",
+   "Resources/ServerInfo (rg 'Восстание|407' — нет статьи; вики вне репо)"
+  ],
+  "dossier": ".ai-triage/bugs/1431179805415575662.md"
+ },
+ {
+  "thread_id": "1447290973259436264",
+  "verdict": "CANNOT_VERIFY",
+  "confidence": "Low",
+  "severity": null,
+  "complexity": null,
+  "cluster_hint": null,
+  "root_cause_short": "Деградация клиентского FPS (120→90, до 10 в движении); без логов/билда/профилировки причина не локализуется; гипотеза разраба — перенос компонентов в shared (апстрим)",
+  "evidence": [
+   ".ai-triage/data/threads/1447290973259436264.json:root_message + replies[0] (Yosif: не знает причину, нет разницы с wizden-билдом)",
+   "git log --since=2025-11-01 --until=2026-01-10 -- Content.Shared (массовые апстрим-синхронизации; виновник не идентифицирован)",
+   "RobustToolbox (пустой сабмодуль — движковый слой недоступен)"
+  ],
+  "dossier": ".ai-triage/bugs/1447290973259436264.md"
+ },
+ {
+  "thread_id": "1400493654493233195",
+  "verdict": "CANNOT_VERIFY",
+  "confidence": "Medium",
+  "severity": null,
+  "complexity": null,
+  "cluster_hint": null,
+  "root_cause_short": "«Unknown server error occured during handshake» — ошибка уровня лаунчера/движка/инфраструктуры; строки нет в контент-репо, логов нет",
+  "evidence": [
+   ".ai-triage/data/threads/1400493654493233195.json:root_message.content",
+   "rg 'during handshake' Content.Client Content.Server (пусто — строка не из контента)",
+   "RobustToolbox (пустой сабмодуль)"
+  ],
+  "dossier": ".ai-triage/bugs/1400493654493233195.md"
+ }
+]
