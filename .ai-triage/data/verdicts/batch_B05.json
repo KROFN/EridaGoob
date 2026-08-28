@@ -1,0 +1,90 @@
+[
+  {
+    "thread_id": "1499505469025419389",
+    "verdict": "LIKELY_CURRENT_BUG",
+    "confidence": "Medium",
+    "severity": "S4",
+    "complexity": "XS",
+    "cluster_hint": "worn-sprite-layering",
+    "root_cause_short": "Полноростовoй hair-спрайт state `mermaid` (human_hair.rsi) рендерится на слое Hair выше одежды и перекрывает юбки.",
+    "evidence": [
+      "Resources/Prototypes/_Goobstation/Entities/Mobs/Customization/Markings/human_hair.yml:HumanHairMermaid",
+      "Resources/Textures/_Goobstation/Mobs/Customization/human_hair.rsi:mermaid",
+      "Content.Shared/Humanoid/HumanoidVisualLayers.cs:Hair",
+      "Content.Client/Humanoid/HumanoidAppearanceSystem.cs:ApplyMarkingSet/AddLayer"
+    ],
+    "dossier": ".ai-triage/bugs/1499505469025419389.md"
+  },
+  {
+    "thread_id": "1501936787692589197",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Low",
+    "severity": "S4",
+    "complexity": "XS",
+    "cluster_hint": null,
+    "root_cause_short": "HYPOTHESIS: спрайт headaug-маркинга `Terminator` нарисован на левой стороне лица вместо правой (контент RSI); текущие файлы перезаведены после репорта (Species #12, 2026-08-12).",
+    "evidence": [
+      "Resources/Prototypes/_Erida/Entities/Mobs/Customization/Markings/headaugs.yml:Terminator",
+      "Resources/Textures/_Erida/Customization/Markings/headaugs.rsi/meta.json:terminator"
+    ],
+    "dossier": ".ai-triage/bugs/1501936787692589197.md"
+  },
+  {
+    "thread_id": "1463159948962955356",
+    "verdict": "CONFIG_OR_CONTENT_ISSUE",
+    "confidence": "Medium",
+    "severity": "S4",
+    "complexity": "XS",
+    "cluster_hint": "attachment-offsets",
+    "root_cause_short": "Хомяк Hamlet имеет head/mask-слоты (hamster inventoryTemplate) без attachment-оффсетов под маленький спрайт — шляпы/противогазы рендерятся на дефолтной позиции и «висят в воздухе».",
+    "evidence": [
+      "Resources/Prototypes/InventoryTemplates/hamster_inventory_template.yml:hamster",
+      "Resources/Prototypes/Entities/Mobs/NPCs/pets.yml:MobHamsterHamlet",
+      "Content.Client/Items/Systems/ItemSystem.cs:OnEquipped/OnUnequipped"
+    ],
+    "dossier": ".ai-triage/bugs/1463159948962955356.md"
+  },
+  {
+    "thread_id": "1535027750082056404",
+    "verdict": "LIKELY_CURRENT_BUG",
+    "confidence": "Medium",
+    "severity": "S4",
+    "complexity": "XS",
+    "cluster_hint": "inhand-sprite-content",
+    "root_cause_short": "Крупные 32x32 боковые inhand-left/right состояния briefcase_brown.rsi рендерятся на held-слое носителя без оффсетов и пересекают ноги унатха.",
+    "evidence": [
+      "Resources/Prototypes/Entities/Objects/Misc/briefcases.yml:BriefcaseBase/BriefcaseBrown",
+      "Resources/Textures/_Erida/Objects/Storage/Briefcases/briefcase_brown.rsi/meta.json:inhand-left/inhand-right",
+      "Content.Client/Items/Systems/ItemSystem.cs:OnGetVisuals/TryGetDefaultVisuals"
+    ],
+    "dossier": ".ai-triage/bugs/1535027750082056404.md"
+  },
+  {
+    "thread_id": "1449885909653651496",
+    "verdict": "LIKELY_CURRENT_BUG",
+    "confidence": "Medium",
+    "severity": "S4",
+    "complexity": "S",
+    "cluster_hint": "inhand-sprite-content",
+    "root_cause_short": "У RSI интековского ПП / mg-90l отсутствует state `inhand-right` (вторая рука) — ItemSystem.OnGetVisuals/TryGetDefaultVisuals не находят состояние и рука рендерится пустой.",
+    "evidence": [
+      "Content.Client/Items/Systems/ItemSystem.cs:OnGetVisuals/TryGetDefaultVisuals (defaultKey inhand-left/right)",
+      "Resources/Locale/ru-RU/_Erida/accent/streetrebel.ftl:147 (интековцы)"
+    ],
+    "dossier": ".ai-triage/bugs/1449885909653651496.md"
+  },
+  {
+    "thread_id": "1493928380247179324",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Low",
+    "severity": "S4",
+    "complexity": "S",
+    "cluster_hint": null,
+    "root_cause_short": "HYPOTHESIS: при смене/снятии носимого предмета слой предыдущего предмета не снимается на клиенте; репро/слот неизвестны, скриншот недоступен.",
+    "evidence": [
+      "Content.Client/Items/Systems/ItemSystem.cs:OnEquipped/OnUnequipped (SetVisible toggle)",
+      "Content.Client/Humanoid/HumanoidAppearanceSystem.cs:UpdateLayers"
+    ],
+    "dossier": ".ai-triage/bugs/1493928380247179324.md"
+  }
+]
