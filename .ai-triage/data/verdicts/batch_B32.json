@@ -1,0 +1,68 @@
+[
+  {
+    "thread_id": "1432362211908653066",
+    "verdict": "LIKELY_CURRENT_BUG",
+    "confidence": "Medium",
+    "severity": "S4",
+    "complexity": "XS",
+    "cluster_hint": null,
+    "root_cause_short": "Vox language (NewKinPidgin, _EinsteinEngines/Language/Species-Specific/vox.yml) has no name/desc datafields; ru-RU loc key language-NewKinPidgin-description empty + Floof-port name 'Ка'ракк' mismatch",
+    "evidence": ["Resources/Prototypes/_EinsteinEngines/Language/Species-Specific/vox.yml:NewKinPidgin", "Resources/Locale/ru-RU/_EinsteinEngines/language/languages.ftl:103-104", "Resources/Locale/en-US/_EinsteinEngines/language/languages.ftl:198-199"],
+    "dossier": ".ai-triage/bugs/1432362211908653066.md"
+  },
+  {
+    "thread_id": "1446843043180318743",
+    "verdict": "LIKELY_CURRENT_BUG",
+    "confidence": "Medium",
+    "severity": "S2",
+    "complexity": "M",
+    "cluster_hint": "mech-pilot-death",
+    "root_cause_short": "Mech pilot not tied to alive-state (no Dead/Death handling in Content.Shared/Mech) -> dead/infected zombie pilot keeps driving Ripley; speed part is Goob-intended balance (changelog 15153)",
+    "evidence": ["Content.Shared/Mech:grep Dead|Death|Infectious -> no matches", "Resources/Changelog/GoobChangelog.yml:2739,5460,15153", "Resources/migration.yml:939,981"],
+    "dossier": ".ai-triage/bugs/1446843043180318743.md"
+  },
+  {
+    "thread_id": "1448396633736741045",
+    "verdict": "LIKELY_CURRENT_BUG",
+    "confidence": "Medium",
+    "severity": "S3",
+    "complexity": "S",
+    "cluster_hint": null,
+    "root_cause_short": "WizDen directional-window stacking fix made WindowDirectional an anchored snapping structure; tile-pry now refuses tiles with the anchored window (pry-blocker code not located in budget)",
+    "evidence": ["Resources/Prototypes/Entities/Structures/Windows/window.yml:146-238 WindowDirectional", "git log window.yml (219092b209 Re-anchorable structures #39542, dP series)"],
+    "dossier": ".ai-triage/bugs/1448396633736741045.md"
+  },
+  {
+    "thread_id": "1451208282411761756",
+    "verdict": "LIKELY_CURRENT_BUG",
+    "confidence": "Medium",
+    "severity": "S3",
+    "complexity": "S",
+    "cluster_hint": null,
+    "root_cause_short": "Desynchronizer polymorph (DesynchronizedPocket, polymorph.yml:253-266) + CardboardBoxSystem controller assignment without ghost/desync check -> pocket 'ghost' drives box with priority over real occupant",
+    "evidence": ["Content.Server/CardboardBox/CardboardBoxSystem.cs:21-45", "Content.Shared/CardboardBox/SharedCardboardBoxSystem.cs:5-8 (empty)", "Resources/Prototypes/Polymorphs/polymorph.yml:253-266", "Resources/Prototypes/Entities/Objects/Devices/desynchronizer.yml:2-8"],
+    "dossier": ".ai-triage/bugs/1451208282411761756.md"
+  },
+  {
+    "thread_id": "1458439379457675374",
+    "verdict": "LIKELY_CURRENT_BUG",
+    "confidence": "Medium",
+    "severity": "S3",
+    "complexity": "XS",
+    "cluster_hint": null,
+    "root_cause_short": "Paper scribble sound broadcast via AudioSystem.PlayPvs at paper entity (PaperSystem.cs:212) gated only by PaperWriteAttemptEvent, ghosts not visibly excluded -> ghost document interaction audible nearby",
+    "evidence": ["Content.Shared/Paper/PaperSystem.cs:189-217 (PlayPvs:212)", "Content.Shared/Paper/PaperComponent.cs:32-35 PaperScribbles", "Content.Shared/Paper/PaperSystem.cs:173 (contrast PlayPredicted)"],
+    "dossier": ".ai-triage/bugs/1458439379457675374.md"
+  },
+  {
+    "thread_id": "1438072028904030238",
+    "verdict": "LIKELY_CURRENT_BUG",
+    "confidence": "Low",
+    "severity": "S3",
+    "complexity": "M",
+    "cluster_hint": null,
+    "root_cause_short": "Diagonal construction variants (DiagonalTag special-casing in admin commands only) get fixed orientation from generic placement path ignoring player facing; no diagonal-orientation code in construction systems",
+    "evidence": ["Resources/Prototypes/Recipes/Construction/structures.yml:173-420 (WindowDiagonal/GrilleDiagonal/DiagonalShuttleWall)", "Content.Server/Construction/Commands/FixRotationsCommand.cs:21,99-100", "Content.Server/Construction/Commands/TileWallsCommand.cs:28,89"],
+    "dossier": ".ai-triage/bugs/1438072028904030238.md"
+  }
+]

@@ -1,0 +1,68 @@
+[
+ {
+  "thread_id": "1497719978088992919",
+  "verdict": "LIKELY_CURRENT_BUG",
+  "confidence": "Medium",
+  "severity": "S3",
+  "complexity": "M",
+  "cluster_hint": null,
+  "root_cause_short": "Стрипп/вставка-патронов DoAfter имеют BreakOnMove=true (SharedStrippableSystem.cs:229/332/436/546) и отменяются инерционным дрейфом в космосе; лечение без BreakOnMove работает.",
+  "evidence": ["Content.Shared/Strip/SharedStrippableSystem.cs:BreakOnMove=true x4", "Content.Shared/DoAfter:BreakOnMove-cancel [INFER]"],
+  "dossier": ".ai-triage/bugs/1497719978088992919.md"
+ },
+ {
+  "thread_id": "1497884085656485989",
+  "verdict": "CANNOT_VERIFY",
+  "confidence": "Medium",
+  "severity": "S3",
+  "complexity": "M",
+  "cluster_hint": null,
+  "root_cause_short": "Система акимбо отсутствует в текущем дереве репозитория (case-insensitive поиск 'akimbo' -> 0 файлов); код не локализовать, дев говорил о переписи (2026-05-23), игрок подтверждал баг 2026-07-28 — нужен ретест.",
+  "evidence": ["repo-wide grep -i akimbo: no files", "git log -i -S akimbo: only triage commits [HIST]"],
+  "dossier": ".ai-triage/bugs/1497884085656485989.md"
+ },
+ {
+  "thread_id": "1498713547704631360",
+  "verdict": "LIKELY_CURRENT_BUG",
+  "confidence": "Medium",
+  "severity": "S2",
+  "complexity": "S",
+  "cluster_hint": null,
+  "root_cause_short": "Contact-spread в FlammableSystem.OnStartCollide передаёт firestacks при касании горящего NPC, не проверяя огнезащиту жертвы; firestack heat-урон (GoobCVars.FireStackHeat) бьёт мимо брони.",
+  "evidence": ["Content.Server/Atmos/EntitySystems/FlammableSystem.cs:OnStartCollide/FireSpread (245-260)", "Content.Server/Atmos/EntitySystems/FlammableSystem.cs:GoobCVars.FireStackHeat:105", "Content.Shared/Atmos/Components/FlammableComponent.cs:FireSpread"],
+  "dossier": ".ai-triage/bugs/1498713547704631360.md"
+ },
+ {
+  "thread_id": "1499778816216797236",
+  "verdict": "LIKELY_CURRENT_BUG",
+  "confidence": "Low",
+  "severity": "S3",
+  "complexity": "M",
+  "cluster_hint": null,
+  "root_cause_short": "HYPOTHESIS (механизм от дева alexfire): клиентский drag внутри storage UI не освобождает исходную ячейку ghost-а — прежняя клетка 'всё ещё занята', перетаскивание/поворот блокируются; код в бюджете не локализован [?].",
+  "evidence": ["thread reply alexfire (mechanism)", "Content.*/Storage drag/rotate search: no matches within budget [?]"],
+  "dossier": ".ai-triage/bugs/1499778816216797236.md"
+ },
+ {
+  "thread_id": "1500984548438179910",
+  "verdict": "LIKELY_CURRENT_BUG",
+  "confidence": "Medium",
+  "severity": "S3",
+  "complexity": "M",
+  "cluster_hint": null,
+  "root_cause_short": "Зомбификация не трогает Cuffable/strap-состояние, ZombieSystem не переопределяет блокировку атак у скованных (укус ZombieSystem.cs:339 недостижим в смирительной рубашке) — зомби не может ни расковаться, ни укусить.",
+  "evidence": ["Content.Server/Zombies/ZombieSystem.cs:339 HealingOnBite", "rg Cuff|Unstrap|Incapacit in ZombieSystem: no hits", "Content.Shared/Zombies/ZombifyOnDeathComponent.cs"],
+  "dossier": ".ai-triage/bugs/1500984548438179910.md"
+ },
+ {
+  "thread_id": "1542496476415000757",
+  "verdict": "LIKELY_CURRENT_BUG",
+  "confidence": "Medium",
+  "severity": "S2",
+  "complexity": "M",
+  "cluster_hint": null,
+  "root_cause_short": "Эксклюзивная группа лоадаута (MaxLimit=1) клампится только в клиентском VerifyValid (RoleLoadout.cs:129/302); серверный apply + повторное 'Подтвердить' без MaxLimit/dedup-проверки -> выдается лишь кунг-фу, UI лагает, спам даёт бесконечные книги.",
+  "evidence": ["Content.Shared/Preferences/Loadouts/RoleLoadout.cs:129,299-302", "Content.Goobstation.Shared/MartialArts/Components/GrantMartialArtKnowledgeComponent.cs", "Content.Server/Station/Systems/StationSpawningSystem.cs:apply-loadout [?]"],
+  "dossier": ".ai-triage/bugs/1542496476415000757.md"
+ }
+]

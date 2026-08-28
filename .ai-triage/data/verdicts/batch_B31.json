@@ -1,0 +1,106 @@
+[
+  {
+    "thread_id": "1391702186244706354",
+    "verdict": "USER_ERROR_OR_NOT_BUG",
+    "confidence": "High",
+    "severity": "S4",
+    "complexity": "XS",
+    "cluster_hint": null,
+    "root_cause_short": "Contraband LampInterrogator (Flash component) mistaken for the miner lamp; current fork sets flashOnUse:false; thread self-resolved as not a bug.",
+    "evidence": [
+      "Resources/Prototypes/Entities/Objects/Misc/fluff_lights.yml:LampInterrogator",
+      "Content.Shared/Flash/Components/FlashComponent.cs:FlashOnUse"
+    ],
+    "dossier": ".ai-triage/bugs/1391702186244706354.md"
+  },
+  {
+    "thread_id": "1414517676541349909",
+    "verdict": "LIKELY_CURRENT_BUG",
+    "confidence": "Medium",
+    "severity": "S2",
+    "complexity": "M",
+    "cluster_hint": null,
+    "root_cause_short": "SpawnSalvageMissionJob fails (empty dungeon -> return false) after FTL destination/expedition component exist; job failure ignored in UpdateExpeditions -> live empty expedition map, DungeonLocation never set (no direction announce), no mobs/loot.",
+    "evidence": [
+      "Content.Server/Salvage/SpawnSalvageMissionJob.cs:dungeon.Rooms.Count==0-return-false",
+      "Content.Server/Salvage/SalvageSystem.Expeditions.cs:UpdateExpeditions-JobStatus.Finished-ignored",
+      "Content.Server/Salvage/SalvageSystem.Runner.cs:OnFTLCompleted-dungeon-announce-guard",
+      "Resources/Locale/ru-RU/procedural/expeditions.ftl:salvage-expedition-announcement-dungeon"
+    ],
+    "dossier": ".ai-triage/bugs/1414517676541349909.md"
+  },
+  {
+    "thread_id": "1423043057112322058",
+    "verdict": "CONFIG_OR_CONTENT_ISSUE",
+    "confidence": "High",
+    "severity": "S4",
+    "complexity": "S",
+    "cluster_hint": null,
+    "root_cause_short": "Escape objective counts only grids with EmergencyShuttleComponent after evac arrives; escape pods deliberately excluded (code comment 'but not pods').",
+    "evidence": [
+      "Content.Server/Objectives/Systems/EscapeShuttleConditionSystem.cs:GetProgress-L39",
+      "Content.Server/Shuttles/Systems/EmergencyShuttleSystem.cs:IsTargetEscaping-L654",
+      "Resources/Prototypes/_Goobstation/Objectives/corporageagent.yml:EscapeShuttleCondition-L54"
+    ],
+    "dossier": ".ai-triage/bugs/1423043057112322058.md"
+  },
+  {
+    "thread_id": "1426262637389283370",
+    "verdict": "USER_ERROR_OR_NOT_BUG",
+    "confidence": "Medium",
+    "severity": "S4",
+    "complexity": "XS",
+    "cluster_hint": null,
+    "root_cause_short": "At 100% charge DragonRiftSystem removes DamageableComponent making the rift invulnerable; reported break must have happened pre-charge (examine % rounds up) or via intended kill-the-dragon flow.",
+    "evidence": [
+      "Content.Server/Dragon/DragonRiftSystem.cs:Update-RemComp<DamageableComponent>-L69",
+      "Resources/Prototypes/Entities/Structures/Specific/dragon.yml:Destructible-300"
+    ],
+    "dossier": ".ai-triage/bugs/1426262637389283370.md"
+  },
+  {
+    "thread_id": "1429111124636340244",
+    "verdict": "USER_ERROR_OR_NOT_BUG",
+    "confidence": "High",
+    "severity": "S4",
+    "complexity": "XS",
+    "cluster_hint": null,
+    "root_cause_short": "mapping is an admin command ([AdminCommand(Server|Mapping)]); users without the mapper/host flag see 'unknown command'; menu additionally host-only.",
+    "evidence": [
+      "Content.Server/Mapping/MappingCommand.cs:AdminCommand-L17",
+      "Content.Server/Mapping/MappingManager.cs:Host-check-L48",
+      "Content.Client/Mapping/MappingState.cs:Host-check-L752"
+    ],
+    "dossier": ".ai-triage/bugs/1429111124636340244.md"
+  },
+  {
+    "thread_id": "1429385681876025414",
+    "verdict": "CONFIG_OR_CONTENT_ISSUE",
+    "confidence": "High",
+    "severity": "S4",
+    "complexity": "XS",
+    "cluster_hint": null,
+    "root_cause_short": "Vox PassiveDamage regen exists (Poison -0.2/tick, Heat -0.07, Brute -0.07) but is gated by damageCap:20 — no regen at total damage >=20; wiki omits the cap.",
+    "evidence": [
+      "Resources/Prototypes/Entities/Mobs/Species/vox.yml:PassiveDamage-L86",
+      "Content.Shared/Damage/Components/PassiveDamageComponent.cs:DamageCap"
+    ],
+    "dossier": ".ai-triage/bugs/1429385681876025414.md"
+  },
+  {
+    "thread_id": "1432041966081671240",
+    "verdict": "CONFIG_OR_CONTENT_ISSUE",
+    "confidence": "Medium",
+    "severity": "S3",
+    "complexity": "S",
+    "cluster_hint": null,
+    "root_cause_short": "Box map has only generic FaxMachineBase + FaxMachineCaptain (no CMO/'ГВ' fax identity exists); 'СИ'-labeled fax in CMO office is a map placement/copy-paste artifact; reportedly fixed on mapper branch.",
+    "evidence": [
+      "Resources/Maps/.box.yml:FaxMachineBase-L86956",
+      "Resources/Maps/.box.yml:FaxMachineCaptain-L87063",
+      "Resources/Prototypes/Entities/Structures/Machines/fax_machine.yml:FaxMachine.name",
+      "Resources/Locale/ru-RU/holopad/holopad.ftl:holopad-command-cmo/ce"
+    ],
+    "dossier": ".ai-triage/bugs/1432041966081671240.md"
+  }
+]

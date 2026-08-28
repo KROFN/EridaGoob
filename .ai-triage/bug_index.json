@@ -14,15 +14,15 @@
   "threads_with_external_media": 3,
   "external_media_files": 5,
   "VERDICTS": {
-   "USER_ERROR_OR_NOT_BUG": 9,
-   "ALREADY_FIXED_IN_CURRENT_FORK": 30,
-   "CANNOT_VERIFY": 51,
-   "CONFIRMED_CURRENT_BUG": 13,
-   "LIKELY_CURRENT_BUG": 35,
-   "CONFIG_OR_CONTENT_ISSUE": 35,
+   "USER_ERROR_OR_NOT_BUG": 12,
+   "ALREADY_FIXED_IN_CURRENT_FORK": 32,
+   "CANNOT_VERIFY": 53,
+   "CONFIRMED_CURRENT_BUG": 16,
+   "LIKELY_CURRENT_BUG": 52,
+   "CONFIG_OR_CONTENT_ISSUE": 39,
    "DUPLICATE": 2
   },
-  "VERDICT_COVERAGE": 175
+  "VERDICT_COVERAGE": 206
  },
  "threads": [
   {
@@ -15347,9 +15347,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "LIKELY_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1389672150151200924.md",
+   "confidence": "Medium",
+   "severity": "S2",
+   "complexity": "M",
+   "root_cause_short": "Cargo tech loadout groups contain captain-derived copy-paste artifacts: skirt jumpsuit entity fails to equip/preview (naked in lobby) + mislabeled bag group + captain cloak entry",
+   "evidence": [
+    "Resources/Prototypes/Loadouts/loadout_groups.yml:CargoTechnicianJumpsuit(872-880)",
+    "Resources/Prototypes/Loadouts/role_loadouts.yml:JobCargoTechnician(364-414)",
+    "Resources/Locale/en-US/preferences/loadout-groups.ftl:49:loadout-group-captain-backpack",
+    "Resources/Prototypes/_Goobstation/Loadouts/Jobs/Cargo/cargo_technician.yml:CargoTechnicianJumpskirtMail"
+   ]
   },
   {
    "thread_id": "1390810959177711626",
@@ -15681,9 +15691,17 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "USER_ERROR_OR_NOT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1391702186244706354.md",
+   "confidence": "High",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "Contraband LampInterrogator (Flash component) mistaken for the miner lamp; current fork sets flashOnUse:false; thread self-resolved as not a bug.",
+   "evidence": [
+    "Resources/Prototypes/Entities/Objects/Misc/fluff_lights.yml:LampInterrogator",
+    "Content.Shared/Flash/Components/FlashComponent.cs:FlashOnUse"
+   ]
   },
   {
    "thread_id": "1392793334594015354",
@@ -16281,9 +16299,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "LIKELY_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1394835847324504235.md",
+   "confidence": "Low",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "Mannequin is a bare StripableInventoryBase structure with no dressing system in code (rg mannequin *.cs rc=1); generic strip/equip path fails for EYES/MASK/HEAD slots although YAML slots+layers exist",
+   "evidence": [
+    "Resources/Prototypes/Entities/Structures/Decoration/mannequin.yml:Mannequin(layers 14-24)",
+    "Resources/Prototypes/InventoryTemplates/mannequin_inventory_template.yml:mannequin",
+    "Resources/Prototypes/InventoryTemplates/inventorybase.yml:StripableInventoryBase"
+   ]
   },
   {
    "thread_id": "1395874643985829938",
@@ -19838,9 +19865,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "LIKELY_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1414517676541349909.md",
+   "confidence": "Medium",
+   "severity": "S2",
+   "complexity": "M",
+   "root_cause_short": "SpawnSalvageMissionJob fails (empty dungeon -> return false) after FTL destination/expedition component exist; job failure ignored in UpdateExpeditions -> live empty expedition map, DungeonLocation never set (no direction announce), no mobs/loot.",
+   "evidence": [
+    "Content.Server/Salvage/SpawnSalvageMissionJob.cs:dungeon.Rooms.Count==0-return-false",
+    "Content.Server/Salvage/SalvageSystem.Expeditions.cs:UpdateExpeditions-JobStatus.Finished-ignored",
+    "Content.Server/Salvage/SalvageSystem.Runner.cs:OnFTLCompleted-dungeon-announce-guard",
+    "Resources/Locale/ru-RU/procedural/expeditions.ftl:salvage-expedition-announcement-dungeon"
+   ]
   },
   {
    "thread_id": "1414901824212697190",
@@ -21358,9 +21395,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CONFIRMED_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1419456892413022248.md",
+   "confidence": "High",
+   "severity": "S2",
+   "complexity": "S",
+   "root_cause_short": "CarryingSystem.Drop() unconditionally RemComp<KnockedDownComponent> + Stand() on drop, erasing sleep-induced knockdown while SleepingComponent persists -> sleeper regains movement",
+   "evidence": [
+    "Content.Shared/_DV/Carrying/CarryingSystem.cs:Drop(325-332)",
+    "Content.Shared/_DV/Carrying/CarryingSystem.cs:Carry(284 EnsureComp KnockedDownComponent)",
+    "Content.Shared/_DV/Carrying/CarryingSystem.cs:Update(375-399)"
+   ]
   },
   {
    "thread_id": "1419457062882250874",
@@ -22357,9 +22403,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1423043057112322058.md",
+   "confidence": "High",
+   "severity": "S4",
+   "complexity": "S",
+   "root_cause_short": "Escape objective counts only grids with EmergencyShuttleComponent after evac arrives; escape pods deliberately excluded (code comment 'but not pods').",
+   "evidence": [
+    "Content.Server/Objectives/Systems/EscapeShuttleConditionSystem.cs:GetProgress-L39",
+    "Content.Server/Shuttles/Systems/EmergencyShuttleSystem.cs:IsTargetEscaping-L654",
+    "Resources/Prototypes/_Goobstation/Objectives/corporageagent.yml:EscapeShuttleCondition-L54"
+   ]
   },
   {
    "thread_id": "1423308226568650835",
@@ -23257,9 +23312,17 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "USER_ERROR_OR_NOT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1426262637389283370.md",
+   "confidence": "Medium",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "At 100% charge DragonRiftSystem removes DamageableComponent making the rift invulnerable; reported break must have happened pre-charge (examine % rounds up) or via intended kill-the-dragon flow.",
+   "evidence": [
+    "Content.Server/Dragon/DragonRiftSystem.cs:Update-RemComp<DamageableComponent>-L69",
+    "Resources/Prototypes/Entities/Structures/Specific/dragon.yml:Destructible-300"
+   ]
   },
   {
    "thread_id": "1426918934656843776",
@@ -23881,9 +23944,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "USER_ERROR_OR_NOT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1429111124636340244.md",
+   "confidence": "High",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "mapping is an admin command ([AdminCommand(Server|Mapping)]); users without the mapper/host flag see 'unknown command'; menu additionally host-only.",
+   "evidence": [
+    "Content.Server/Mapping/MappingCommand.cs:AdminCommand-L17",
+    "Content.Server/Mapping/MappingManager.cs:Host-check-L48",
+    "Content.Client/Mapping/MappingState.cs:Host-check-L752"
+   ]
   },
   {
    "thread_id": "1429385681876025414",
@@ -23974,9 +24046,17 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1429385681876025414.md",
+   "confidence": "High",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "Vox PassiveDamage regen exists (Poison -0.2/tick, Heat -0.07, Brute -0.07) but is gated by damageCap:20 — no regen at total damage >=20; wiki omits the cap.",
+   "evidence": [
+    "Resources/Prototypes/Entities/Mobs/Species/vox.yml:PassiveDamage-L86",
+    "Content.Shared/Damage/Components/PassiveDamageComponent.cs:DamageCap"
+   ]
   },
   {
    "thread_id": "1430687005423173793",
@@ -25134,9 +25214,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1432041966081671240.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "S",
+   "root_cause_short": "Box map has only generic FaxMachineBase + FaxMachineCaptain (no CMO/'ГВ' fax identity exists); 'СИ'-labeled fax in CMO office is a map placement/copy-paste artifact; reportedly fixed on mapper branch.",
+   "evidence": [
+    "Resources/Maps/.box.yml:FaxMachineBase-L86956",
+    "Resources/Maps/.box.yml:FaxMachineCaptain-L87063",
+    "Resources/Prototypes/Entities/Structures/Machines/fax_machine.yml:FaxMachine.name",
+    "Resources/Locale/ru-RU/holopad/holopad.ftl:holopad-command-cmo/ce"
+   ]
   },
   {
    "thread_id": "1432159035876053103",
@@ -25325,9 +25415,18 @@
    },
    "replies": [],
    "mentions": [],
-   "verdict": null,
+   "verdict": "LIKELY_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1432362211908653066.md",
+   "confidence": "Medium",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "Vox language (NewKinPidgin, _EinsteinEngines/Language/Species-Specific/vox.yml) has no name/desc datafields; ru-RU loc key language-NewKinPidgin-description empty + Floof-port name 'Ка'ракк' mismatch",
+   "evidence": [
+    "Resources/Prototypes/_EinsteinEngines/Language/Species-Specific/vox.yml:NewKinPidgin",
+    "Resources/Locale/ru-RU/_EinsteinEngines/language/languages.ftl:103-104",
+    "Resources/Locale/en-US/_EinsteinEngines/language/languages.ftl:198-199"
+   ]
   },
   {
    "thread_id": "1432793824714952744",
@@ -26157,9 +26256,18 @@
    },
    "replies": [],
    "mentions": [],
-   "verdict": null,
+   "verdict": "LIKELY_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1438072028904030238.md",
+   "confidence": "Low",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "Diagonal construction variants (DiagonalTag special-casing in admin commands only) get fixed orientation from generic placement path ignoring player facing; no diagonal-orientation code in construction systems",
+   "evidence": [
+    "Resources/Prototypes/Recipes/Construction/structures.yml:173-420 (WindowDiagonal/GrilleDiagonal/DiagonalShuttleWall)",
+    "Content.Server/Construction/Commands/FixRotationsCommand.cs:21,99-100",
+    "Content.Server/Construction/Commands/TileWallsCommand.cs:28,89"
+   ]
   },
   {
    "thread_id": "1438087430594101279",
@@ -27166,9 +27274,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "LIKELY_CURRENT_BUG",
+   "cluster": "mech-pilot-death",
+   "dossier": ".ai-triage/bugs/1446843043180318743.md",
+   "confidence": "Medium",
+   "severity": "S2",
+   "complexity": "M",
+   "root_cause_short": "Mech pilot not tied to alive-state (no Dead/Death handling in Content.Shared/Mech) -> dead/infected zombie pilot keeps driving Ripley; speed part is Goob-intended balance (changelog 15153)",
+   "evidence": [
+    "Content.Shared/Mech:grep Dead|Death|Infectious -> no matches",
+    "Resources/Changelog/GoobChangelog.yml:2739,5460,15153",
+    "Resources/migration.yml:939,981"
+   ]
   },
   {
    "thread_id": "1447204789799882752",
@@ -28228,9 +28345,17 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "LIKELY_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1448396633736741045.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "S",
+   "root_cause_short": "WizDen directional-window stacking fix made WindowDirectional an anchored snapping structure; tile-pry now refuses tiles with the anchored window (pry-blocker code not located in budget)",
+   "evidence": [
+    "Resources/Prototypes/Entities/Structures/Windows/window.yml:146-238 WindowDirectional",
+    "git log window.yml (219092b209 Re-anchorable structures #39542, dP series)"
+   ]
   },
   {
    "thread_id": "1449092323349627080",
@@ -29560,9 +29685,17 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1449455266885144617.md",
+   "confidence": "Low",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "Item/slot system 'ХАРМПАКА' unidentifiable in repo (0 hits); AKMS/energy shield exist in Goob prototypes; invisible-in-extra-slots mechanism (missing slot visualizer layer) unproven",
+   "evidence": [
+    "Resources/Prototypes/_Goobstation/Catalog/selectable_sets.yml:WeaponRifleAKMS|EnergyShield",
+    "Resources/Prototypes/_Goobstation/Entities/Markers/Spawners/Random/evil.yml"
+   ]
   },
   {
    "thread_id": "1449459756879188138",
@@ -30891,9 +31024,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "LIKELY_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1451208282411761756.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "S",
+   "root_cause_short": "Desynchronizer polymorph (DesynchronizedPocket, polymorph.yml:253-266) + CardboardBoxSystem controller assignment without ghost/desync check -> pocket 'ghost' drives box with priority over real occupant",
+   "evidence": [
+    "Content.Server/CardboardBox/CardboardBoxSystem.cs:21-45",
+    "Content.Shared/CardboardBox/SharedCardboardBoxSystem.cs:5-8 (empty)",
+    "Resources/Prototypes/Polymorphs/polymorph.yml:253-266",
+    "Resources/Prototypes/Entities/Objects/Devices/desynchronizer.yml:2-8"
+   ]
   },
   {
    "thread_id": "1452510092305104927",
@@ -33126,9 +33269,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "LIKELY_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1458439379457675374.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "XS",
+   "root_cause_short": "Paper scribble sound broadcast via AudioSystem.PlayPvs at paper entity (PaperSystem.cs:212) gated only by PaperWriteAttemptEvent, ghosts not visibly excluded -> ghost document interaction audible nearby",
+   "evidence": [
+    "Content.Shared/Paper/PaperSystem.cs:189-217 (PlayPvs:212)",
+    "Content.Shared/Paper/PaperComponent.cs:32-35 PaperScribbles",
+    "Content.Shared/Paper/PaperSystem.cs:173 (contrast PlayPredicted)"
+   ]
   },
   {
    "thread_id": "1458606904719970448",
@@ -33675,9 +33827,17 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "LIKELY_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1459054342719148285.md",
+   "confidence": "Medium",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "VendingMachineCoffee ejectDelay:5 shorter than custom _Erida coffee.rsi eject-unshaded animation -> cup dispenses while animation still playing",
+   "evidence": [
+    "Resources/Prototypes/Entities/Structures/Machines/vending_machines.yml:VendingMachineCoffee(506-545,ejectDelay:522)",
+    "_Erida/Structures/Machines/VendingMachines/coffee.rsi"
+   ]
   },
   {
    "thread_id": "1459483591590547583",
@@ -34960,9 +35120,19 @@
    },
    "replies": [],
    "mentions": [],
-   "verdict": null,
+   "verdict": "LIKELY_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1463805725422911500.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "S",
+   "root_cause_short": "Wash removes CreamPiedComponent server-side but client face overlay has no removal path for already-connected clients -> stale pie overlay until relogin",
+   "evidence": [
+    "Content.Client/Nutrition/EntitySystems/CreamPiedSystem.cs:empty subclass",
+    "Content.Shared/Nutrition/EntitySystems/SharedCreamPieSystem.cs",
+    "Content.Shared/EntityEffects/Effects/WashCreamPieEntityEffectSystem.cs",
+    "Content.Shared/Nutrition/Components/CreamPiedComponent.cs"
+   ]
   },
   {
    "thread_id": "1465054225447784448",
@@ -36771,9 +36941,17 @@
    "mentions": [
     "yml"
    ],
-   "verdict": null,
+   "verdict": "LIKELY_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1477755379625758884.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "S",
+   "root_cause_short": "HumanoidProfileEditor.ImportProfile молча проглатывает исключение HumanoidAppearanceSystem.FromStream (несовместимый/устаревший yml-профиль) — без UI-фидбека редактор выглядит 'ничего не происходит'.",
+   "evidence": [
+    "Content.Client/Lobby/UI/HumanoidProfileEditor.xaml.cs:2428 ImportProfile catch->_sawmill.Error",
+    "Content.Client/Humanoid/Systems/HumanoidAppearanceSystem.cs:FromStream"
+   ]
   },
   {
    "thread_id": "1477769256765751307",
@@ -37475,9 +37653,17 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CONFIRMED_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1479939209883160776.md",
+   "confidence": "High",
+   "severity": "S4",
+   "complexity": "S",
+   "root_cause_short": "MobRevenant и aghost (MobObserverBase) наследуют из abstract Incorporeal один фиксчер layer:GhostImpassable — общая коллизия позволяет aghost расталкивать ревенанта.",
+   "evidence": [
+    "Resources/Prototypes/Entities/Mobs/Player/observer.yml:Incorporeal Fixtures.fix1 layer:[GhostImpassable]",
+    "Resources/Prototypes/Entities/Mobs/NPCs/revenant.yml:MobRevenant parent Incorporeal"
+   ]
   },
   {
    "thread_id": "1479958139813232742",
@@ -38320,9 +38506,19 @@
    },
    "replies": [],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1481337244923990027.md",
+   "confidence": "High",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "У вида Moth ('Ниан') в Resources/Prototypes/Species/moth.yml нет weightless MovementSpeedModifier — ожидаемый баф скорости в невесомости отсутствует в контенте; луноходы (AntiGravityClothing) работают корректно.",
+   "evidence": [
+    "Resources/Prototypes/Species/moth.yml (нет MovementSpeedModifier/Weightless)",
+    "Resources/Prototypes/Entities/Clothing/Shoes/misc.yml:189 ClothingShoesBootsMoon AntiGravityClothing",
+    "Content.Shared/Clothing/EntitySystems/AntiGravityClothingSystem.cs:OnIsWeightless",
+    "Resources/Locale/ru-RU/species/species.ftl:9 species-name-moth=Ниан"
+   ]
   },
   {
    "thread_id": "1481656518918013018",
@@ -39701,9 +39897,17 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1483498644257640691.md",
+   "confidence": "Medium",
+   "severity": "S4",
+   "complexity": "S",
+   "root_cause_short": "До bc02215fde клиентский AirlockSystem.OnAppearanceChange ставил на DoorVisualLayers.BaseUnlit OpeningSpriteState при DoorState.Closed — после релогина двери 'постоянно открываются' (зелёные огоньки); фикс bc02215fde (2026-08-14) мапит Open/Closed на правильные спрайты.",
+   "evidence": [
+    "Content.Client/Doors/AirlockSystem.cs:OnAppearanceChange switch(state) BaseUnlit",
+    "commit bc02215fde content port (#15) diff AirlockSystem.cs"
+   ]
   },
   {
    "thread_id": "1483862998366945360",
@@ -42345,9 +42549,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CONFIRMED_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1492169522671653104.md",
+   "confidence": "High",
+   "severity": "S3",
+   "complexity": "S",
+   "root_cause_short": "GhostRespawnCommand при активном respawn-таймере отвечает только shell.WriteLine (в консоль, невидимо игроку), окно правил не показывает остаток таймера, RespawnResetEvent доходит до GUI по сути лишь после релогина.",
+   "evidence": [
+    "Content.Server/_NF/Commands/GhostRespawnCommand.cs:Execute shell.WriteLine('You haven't been dead long enough...')",
+    "Content.Client/_NF/UserInterface/Systems/Ghost/Controls/GhostRespawnRulesWindow.xaml.cs:RespawnButton -> Close()",
+    "Content.Client/UserInterface/Systems/Ghost/GhostUIController.cs:GuiOnGhostRespawnPressed ExecuteCommand('ghostrespawn')",
+    "Content.Server/_Corvax/Respawn/RespawnSystem.cs:SetRespawnTime/PlayerStatusChanged RespawnResetEvent"
+   ]
   },
   {
    "thread_id": "1492169908891418745",
@@ -43559,9 +43773,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1496225961996193902.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "Пункт 'нельзя выбрать конфиг устройств' исправлен b54bf7cec1 (stack atmos devices in different configs, Issue #6851), 'неправильная установка' — 4d254ce565 (ротация до Spawn); анкеринг перекрёстных труб не подтверждён (PARTIAL).",
+   "evidence": [
+    "commit b54bf7cec1 [Fix] Stack atmos devices in different configs (RCDSystem.cs, rpd.yml)",
+    "commit 4d254ce565 Fix (#31) diff Content.Shared/RCD/Systems/RCDSystem.cs FinalizeRCDOperation",
+    "Content.Client/RCD/RCDMenuBoundUserInterface.cs radial categories Piping/AtmosphericUtility"
+   ]
   },
   {
    "thread_id": "1496234748199309364",
@@ -43998,9 +44221,17 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "LIKELY_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1497719978088992919.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "Стрипп/вставка-патронов DoAfter имеют BreakOnMove=true (SharedStrippableSystem.cs:229/332/436/546) и отменяются инерционным дрейфом в космосе; лечение без BreakOnMove работает.",
+   "evidence": [
+    "Content.Shared/Strip/SharedStrippableSystem.cs:BreakOnMove=true x4",
+    "Content.Shared/DoAfter:BreakOnMove-cancel [INFER]"
+   ]
   },
   {
    "thread_id": "1497884085656485989",
@@ -44179,9 +44410,17 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1497884085656485989.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "Система акимбо отсутствует в текущем дереве репозитория (case-insensitive поиск 'akimbo' -> 0 файлов); код не локализовать, дев говорил о переписи (2026-05-23), игрок подтверждал баг 2026-07-28 — нужен ретест.",
+   "evidence": [
+    "repo-wide grep -i akimbo: no files",
+    "git log -i -S akimbo: only triage commits [HIST]"
+   ]
   },
   {
    "thread_id": "1497957002188427264",
@@ -44832,9 +45071,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "LIKELY_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1498713547704631360.md",
+   "confidence": "Medium",
+   "severity": "S2",
+   "complexity": "S",
+   "root_cause_short": "Contact-spread в FlammableSystem.OnStartCollide передаёт firestacks при касании горящего NPC, не проверяя огнезащиту жертвы; firestack heat-урон (GoobCVars.FireStackHeat) бьёт мимо брони.",
+   "evidence": [
+    "Content.Server/Atmos/EntitySystems/FlammableSystem.cs:OnStartCollide/FireSpread (245-260)",
+    "Content.Server/Atmos/EntitySystems/FlammableSystem.cs:GoobCVars.FireStackHeat:105",
+    "Content.Shared/Atmos/Components/FlammableComponent.cs:FireSpread"
+   ]
   },
   {
    "thread_id": "1499083790977470505",
@@ -45373,9 +45621,17 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "LIKELY_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1499778816216797236.md",
+   "confidence": "Low",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "HYPOTHESIS (механизм от дева alexfire): клиентский drag внутри storage UI не освобождает исходную ячейку ghost-а — прежняя клетка 'всё ещё занята', перетаскивание/поворот блокируются; код в бюджете не локализован [?].",
+   "evidence": [
+    "thread reply alexfire (mechanism)",
+    "Content.*/Storage drag/rotate search: no matches within budget [?]"
+   ]
   },
   {
    "thread_id": "1499847578563510303",
@@ -45563,9 +45819,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "LIKELY_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1500984548438179910.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "Зомбификация не трогает Cuffable/strap-состояние, ZombieSystem не переопределяет блокировку атак у скованных (укус ZombieSystem.cs:339 недостижим в смирительной рубашке) — зомби не может ни расковаться, ни укусить.",
+   "evidence": [
+    "Content.Server/Zombies/ZombieSystem.cs:339 HealingOnBite",
+    "rg Cuff|Unstrap|Incapacit in ZombieSystem: no hits",
+    "Content.Shared/Zombies/ZombifyOnDeathComponent.cs"
+   ]
   },
   {
    "thread_id": "1501521382570328156",
@@ -53029,9 +53294,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "LIKELY_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1542496476415000757.md",
+   "confidence": "Medium",
+   "severity": "S2",
+   "complexity": "M",
+   "root_cause_short": "Эксклюзивная группа лоадаута (MaxLimit=1) клампится только в клиентском VerifyValid (RoleLoadout.cs:129/302); серверный apply + повторное 'Подтвердить' без MaxLimit/dedup-проверки -> выдается лишь кунг-фу, UI лагает, спам даёт бесконечные книги.",
+   "evidence": [
+    "Content.Shared/Preferences/Loadouts/RoleLoadout.cs:129,299-302",
+    "Content.Goobstation.Shared/MartialArts/Components/GrantMartialArtKnowledgeComponent.cs",
+    "Content.Server/Station/Systems/StationSpawningSystem.cs:apply-loadout [?]"
+   ]
   }
  ]
 }

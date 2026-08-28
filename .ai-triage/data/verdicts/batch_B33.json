@@ -1,0 +1,91 @@
+[
+  {
+    "thread_id": "1477755379625758884",
+    "verdict": "LIKELY_CURRENT_BUG",
+    "confidence": "Medium",
+    "severity": "S3",
+    "complexity": "S",
+    "cluster_hint": null,
+    "root_cause_short": "HumanoidProfileEditor.ImportProfile молча проглатывает исключение HumanoidAppearanceSystem.FromStream (несовместимый/устаревший yml-профиль) — без UI-фидбека редактор выглядит 'ничего не происходит'.",
+    "evidence": [
+      "Content.Client/Lobby/UI/HumanoidProfileEditor.xaml.cs:2428 ImportProfile catch->_sawmill.Error",
+      "Content.Client/Humanoid/Systems/HumanoidAppearanceSystem.cs:FromStream"
+    ],
+    "dossier": ".ai-triage/bugs/1477755379625758884.md"
+  },
+  {
+    "thread_id": "1479939209883160776",
+    "verdict": "CONFIRMED_CURRENT_BUG",
+    "confidence": "High",
+    "severity": "S4",
+    "complexity": "S",
+    "cluster_hint": null,
+    "root_cause_short": "MobRevenant и aghost (MobObserverBase) наследуют из abstract Incorporeal один фиксчер layer:GhostImpassable — общая коллизия позволяет aghost расталкивать ревенанта.",
+    "evidence": [
+      "Resources/Prototypes/Entities/Mobs/Player/observer.yml:Incorporeal Fixtures.fix1 layer:[GhostImpassable]",
+      "Resources/Prototypes/Entities/Mobs/NPCs/revenant.yml:MobRevenant parent Incorporeal"
+    ],
+    "dossier": ".ai-triage/bugs/1479939209883160776.md"
+  },
+  {
+    "thread_id": "1481337244923990027",
+    "verdict": "CONFIG_OR_CONTENT_ISSUE",
+    "confidence": "High",
+    "severity": "S4",
+    "complexity": "XS",
+    "cluster_hint": null,
+    "root_cause_short": "У вида Moth ('Ниан') в Resources/Prototypes/Species/moth.yml нет weightless MovementSpeedModifier — ожидаемый баф скорости в невесомости отсутствует в контенте; луноходы (AntiGravityClothing) работают корректно.",
+    "evidence": [
+      "Resources/Prototypes/Species/moth.yml (нет MovementSpeedModifier/Weightless)",
+      "Resources/Prototypes/Entities/Clothing/Shoes/misc.yml:189 ClothingShoesBootsMoon AntiGravityClothing",
+      "Content.Shared/Clothing/EntitySystems/AntiGravityClothingSystem.cs:OnIsWeightless",
+      "Resources/Locale/ru-RU/species/species.ftl:9 species-name-moth=Ниан"
+    ],
+    "dossier": ".ai-triage/bugs/1481337244923990027.md"
+  },
+  {
+    "thread_id": "1483498644257640691",
+    "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+    "confidence": "Medium",
+    "severity": "S4",
+    "complexity": "S",
+    "cluster_hint": null,
+    "root_cause_short": "До bc02215fde клиентский AirlockSystem.OnAppearanceChange ставил на DoorVisualLayers.BaseUnlit OpeningSpriteState при DoorState.Closed — после релогина двери 'постоянно открываются' (зелёные огоньки); фикс bc02215fde (2026-08-14) мапит Open/Closed на правильные спрайты.",
+    "evidence": [
+      "Content.Client/Doors/AirlockSystem.cs:OnAppearanceChange switch(state) BaseUnlit",
+      "commit bc02215fde content port (#15) diff AirlockSystem.cs"
+    ],
+    "dossier": ".ai-triage/bugs/1483498644257640691.md"
+  },
+  {
+    "thread_id": "1492169522671653104",
+    "verdict": "CONFIRMED_CURRENT_BUG",
+    "confidence": "High",
+    "severity": "S3",
+    "complexity": "S",
+    "cluster_hint": null,
+    "root_cause_short": "GhostRespawnCommand при активном respawn-таймере отвечает только shell.WriteLine (в консоль, невидимо игроку), окно правил не показывает остаток таймера, RespawnResetEvent доходит до GUI по сути лишь после релогина.",
+    "evidence": [
+      "Content.Server/_NF/Commands/GhostRespawnCommand.cs:Execute shell.WriteLine('You haven't been dead long enough...')",
+      "Content.Client/_NF/UserInterface/Systems/Ghost/Controls/GhostRespawnRulesWindow.xaml.cs:RespawnButton -> Close()",
+      "Content.Client/UserInterface/Systems/Ghost/GhostUIController.cs:GuiOnGhostRespawnPressed ExecuteCommand('ghostrespawn')",
+      "Content.Server/_Corvax/Respawn/RespawnSystem.cs:SetRespawnTime/PlayerStatusChanged RespawnResetEvent"
+    ],
+    "dossier": ".ai-triage/bugs/1492169522671653104.md"
+  },
+  {
+    "thread_id": "1496225961996193902",
+    "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+    "confidence": "Medium",
+    "severity": "S3",
+    "complexity": "M",
+    "cluster_hint": null,
+    "root_cause_short": "Пункт 'нельзя выбрать конфиг устройств' исправлен b54bf7cec1 (stack atmos devices in different configs, Issue #6851), 'неправильная установка' — 4d254ce565 (ротация до Spawn); анкеринг перекрёстных труб не подтверждён (PARTIAL).",
+    "evidence": [
+      "commit b54bf7cec1 [Fix] Stack atmos devices in different configs (RCDSystem.cs, rpd.yml)",
+      "commit 4d254ce565 Fix (#31) diff Content.Shared/RCD/Systems/RCDSystem.cs FinalizeRCDOperation",
+      "Content.Client/RCD/RCDMenuBoundUserInterface.cs radial categories Piping/AtmosphericUtility"
+    ],
+    "dossier": ".ai-triage/bugs/1496225961996193902.md"
+  }
+]
