@@ -1,0 +1,97 @@
+[
+  {
+    "thread_id": "1366003106860634223",
+    "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+    "confidence": "Medium",
+    "severity": "S4",
+    "complexity": "S",
+    "cluster_hint": null,
+    "root_cause_short": "Legacy launch-era fridge (no longer in tree) swallowed the botanist bag; current SmartFridge whitelist (DoInsert CheckBoth) + UI retrieval make it impossible.",
+    "evidence": [
+      "Resources/Prototypes/Entities/Structures/Machines/smartfridge.yml:SmartFridge (whitelist Edible/FitsInDispenser/Pill/Produce/Seed)",
+      "Content.Shared/SmartFridge/SharedSmartFridgeSystem.cs:DoInsert:59 (_whitelist.CheckBoth)",
+      "git: 0e2c9e9307 2025-07-20 'Implement SmartFridge functionality (#38648)' (system replaced after 2025-04-27 report)"
+    ],
+    "dossier": ".ai-triage/bugs/1366003106860634223.md"
+  },
+  {
+    "thread_id": "1413891452001583227",
+    "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+    "confidence": "High",
+    "severity": "S4",
+    "complexity": "XS",
+    "cluster_hint": null,
+    "root_cause_short": "OnItemRemoved prunes only ContainedEntries, leaves key in Entries forever; manual removal of empty entries added later by f74fe5cc75 (#39195).",
+    "evidence": [
+      "Content.Shared/SmartFridge/SharedSmartFridgeSystem.cs:OnItemRemoved:100-109, OnRemoveEntry:172-186",
+      "Content.Shared/SmartFridge/SmartFridgeComponent.cs:Entries/ContainedEntries",
+      "git: f74fe5cc75 2026-01-09 'feat: allow removing empty smart fridge entries (#39195)'"
+    ],
+    "dossier": ".ai-triage/bugs/1413891452001583227.md"
+  },
+  {
+    "thread_id": "1406900824109481994",
+    "verdict": "CONFIG_OR_CONTENT_ISSUE",
+    "confidence": "High",
+    "severity": "S4",
+    "complexity": "XS",
+    "cluster_hint": null,
+    "root_cause_short": "CreateCakeBatter works as coded (Flour 15 + Egg 12 + Sugar 5 + Milk 5, unchanged since 2021); complaint is that in-game guidance omits the milk requirement.",
+    "evidence": [
+      "Resources/Prototypes/Recipes/Reactions/food.yml:93-109 (CreateCakeBatter -> FoodCakeBatter, Milk 5)",
+      "Resources/Prototypes/Recipes/Cooking/meal_recipes.yml:1640-1647 (RecipeCake)",
+      "Resources/ServerInfo/Guidebook/Service/CakeRecipes.xml:GuideMicrowaveGroupEmbed Group=\"Cake\" (no batter reaction shown)",
+      "git: 61423be24e 2021-11-27 'Add cheese & dough reactions (#5547)'"
+    ],
+    "dossier": ".ai-triage/bugs/1406900824109481994.md"
+  },
+  {
+    "thread_id": "1426918934656843776",
+    "verdict": "CONFIG_OR_CONTENT_ISSUE",
+    "confidence": "Medium",
+    "severity": "S4",
+    "complexity": "XS",
+    "cluster_hint": null,
+    "root_cause_short": "BaseTowel carries a legacy 'food' solution (30u Fiber, Hitchhiker's Guide reference); nutrition-stack Edible migration (41af08625f / #40276, Sep 2025) made such items edible — intended upstream content.",
+    "evidence": [
+      "Resources/Prototypes/Entities/Clothing/Multiple/towel.yml:26-32 (solution food: 30 Fiber)",
+      "Content.Shared/Nutrition/Components/EdibleComponent.cs:22 (Solution = \"food\")",
+      "Content.Shared/Nutrition/EntitySystems/IngestionSystem.cs:70-91 (AddEdibleVerbs, OnUseEdibleInHand)",
+      "git: 79cc8aa952 2025-09-25 'Edible Plushies and Clothes (#40276)', 41af08625f 2025-09-13 EdibleComponent migration"
+    ],
+    "dossier": ".ai-triage/bugs/1426918934656843776.md"
+  },
+  {
+    "thread_id": "1432159035876053103",
+    "verdict": "LIKELY_CURRENT_BUG",
+    "confidence": "Medium",
+    "severity": "S3",
+    "complexity": "S",
+    "cluster_hint": null,
+    "root_cause_short": "MobMouse is Edible but has no Meat/ReptilianFood tag; reptile stomach (OrganReptilianStomach, inherited exclusive SpecialDigestible, IsSpecialDigestibleExclusive default true) rejects it -> ingestion-cant-digest popup; no Devourer on Reptilian.",
+    "evidence": [
+      "Resources/Prototypes/Entities/Mobs/NPCs/animals.yml:1877-2007 (MobMouse, - type: Edible, no Tag component)",
+      "Resources/Prototypes/Body/Organs/reptilian.yml:4-14 (OrganReptilianStomach, specialDigestible commented out 'WWDP-Remove')",
+      "Content.Shared/Body/Components/StomachComponent.cs:63-70 (IsSpecialDigestibleExclusive = true default)",
+      "Content.Shared/Nutrition/EntitySystems/IngestionSystem.cs:182-239 (IsDigestibleBy -> ingestion-cant-digest)",
+      "Resources/Prototypes/Entities/Mobs/Player/dragon.yml (only Devourer carrier)"
+    ],
+    "dossier": ".ai-triage/bugs/1432159035876053103.md"
+  },
+  {
+    "thread_id": "1465054225447784448",
+    "verdict": "CONFIG_OR_CONTENT_ISSUE",
+    "confidence": "High",
+    "severity": "S4",
+    "complexity": "M",
+    "cluster_hint": null,
+    "root_cause_short": "Works as coded: breeding costs 75 hunger from both parents and requires Hunger>=Okay, NPC animals have no self-feeding AI -> one brood per manual feeding; config values match admin screenshots exactly.",
+    "evidence": [
+      "Content.Server/Nutrition/EntitySystems/AnimalHusbandrySystem.cs:126-127 (ModifyHunger -HungerPerBirth both parents), :153 (hunger < Okay blocks), :229 (45-60s attempts)",
+      "Content.Shared/Nutrition/AnimalHusbandry/ReproductiveComponent.cs:89 (HungerPerBirth = 75)",
+      "Resources/Prototypes/Entities/Mobs/NPCs/animals.yml:252-262 (MobChicken Reproductive), :927-933 (MobCow Reproductive)",
+      "Content.Shared/Nutrition/AnimalHusbandry/InfantComponent.cs:20 (InfantDuration 3 min)"
+    ],
+    "dossier": ".ai-triage/bugs/1465054225447784448.md"
+  }
+]

@@ -1,0 +1,93 @@
+[
+ {
+  "thread_id": "1365556630636204154",
+  "verdict": "CANNOT_VERIFY",
+  "confidence": "Low",
+  "severity": "S3",
+  "complexity": "XS",
+  "cluster_hint": null,
+  "root_cause_short": "Bandana cargo order = BountyBandana (7 items, tag Bandana) which trivially fits any crate; no code path blocking insertion found; screenshots unviewable, symptom not reproducible from data",
+  "evidence": [
+   "Resources/Prototypes/Catalog/Bounties/bounties.yml:BountyBandana (amount 7, tag Bandana)",
+   "Resources/Prototypes/Entities/Clothing/Masks/bandanas.yml:34 (Bandana tag applied)",
+   "Resources/Prototypes/tags.yml:61 (Bandana tag id)"
+  ],
+  "dossier": ".ai-triage/bugs/1365556630636204154.md"
+ },
+ {
+  "thread_id": "1368606729440333845",
+  "verdict": "LIKELY_CURRENT_BUG",
+  "confidence": "Medium",
+  "severity": "S3",
+  "complexity": "M",
+  "cluster_hint": "cc-trade-money-routing",
+  "root_cause_short": "CC cargo is wired to trade-station/shipyard infra: sell proceeds land in the 'Верфь'/trade-station account (thread-confirmed partial payout) and the CC goods-order console has no working order/trade-station linkage",
+  "evidence": [
+   "Content.Server/Cargo/Systems/CargoSystem.Shuttle.cs:80 (EnsureComp<TradeStationComponent> on spawned grids, Sell/Buy pallet split)",
+   "Resources/Prototypes/Entities/Stations/base.yml:63-73 (trade GridSpawn → trading_outpost.yml, TradeStationComponent)",
+   "Resources/Locale/ru-RU/navmap-beacons/station-beacons.ftl:105 (station-beacon-shipyard = «Верфь»)",
+   "Content.Server/Cargo/Systems/CargoSystem.Orders.cs:305-349 (TryFulfillOrder/GetTradeStations — orders depend on trade stations)"
+  ],
+  "dossier": ".ai-triage/bugs/1368606729440333845.md"
+ },
+ {
+  "thread_id": "1387130822607507568",
+  "verdict": "CANNOT_VERIFY",
+  "confidence": "Medium",
+  "severity": "S3",
+  "complexity": "S",
+  "cluster_hint": null,
+  "root_cause_short": "Hypothesis: 2025-06 lottery spawned a non-SpaceCash cash entity named «Воксель» that ATM rejected; current LotteryCashEntityTable pays only SpaceCash (кредиты) and no Voxel symbol exists anywhere in the fork",
+  "evidence": [
+   "Resources/Prototypes/Catalog/Fills/Crates/cargo.yml:56-73 (LotteryCashEntityTable = SpaceCash* only)",
+   "Resources/Locale/ru-RU/ss14-ru/prototypes/entities/objects/misc/space_cash.ftl:1 (ent-SpaceCash = кредиты)",
+   "repo-wide rg 'Voxel|Воксел' → no currency prototype/locale (only IPC name dataset)"
+  ],
+  "dossier": ".ai-triage/bugs/1387130822607507568.md"
+ },
+ {
+  "thread_id": "1414063684765880360",
+  "verdict": "CANNOT_VERIFY",
+  "confidence": "Medium",
+  "severity": "S3",
+  "complexity": "M",
+  "cluster_hint": "cargo-trade-orders",
+  "root_cause_short": "Hypothesis: trade order completeness check mismatches the PriceGun appraisal (stack-count vs discrete entities or ore-prototype whitelist, e.g. 45 OreSilver); the actual judging code path is not locatable in fork cargo code",
+  "evidence": [
+   "Content.Server/Cargo/Systems/CargoSystem.Shuttle.cs:85-169 (Sell pallets only compute price, no request validation)",
+   "Content.Server/Cargo/Systems/CargoSystem.Orders.cs:305-349 (TryFulfillOrder only delivers player-purchased orders)",
+   "Content.Shared/Cargo/Components/PriceGunComponent.cs + Events/CargoPalletAppraiseMessage.cs (appraisal view, no matching completeness judge)"
+  ],
+  "dossier": ".ai-triage/bugs/1414063684765880360.md"
+ },
+ {
+  "thread_id": "1537542182934675607",
+  "verdict": "CONFIG_OR_CONTENT_ISSUE",
+  "confidence": "High",
+  "severity": "S4",
+  "complexity": "XS",
+  "cluster_hint": null,
+  "root_cause_short": "Equal price of mini and full-size fission reactor/turbine is an intentional balance/content decision confirmed by maintainers; mini units are functionally complete machines; no pricing error in YAML (no price:25000, no cargo products)",
+  "evidence": [
+   "Content.Server/_CorvaxGoob/PowerGeneration/FissionGenerator/ (NuclearReactorSystem.cs, TurbineSystem.cs — full implementations)",
+   "git commit aa7019dedd 2026-08-16 '[Port] Reactor (#20)' (3 days after report)",
+   "rg 'price: 25000' Resources/Prototypes → only katanas.yml:146, Wizard misc.yml:185, memorial.yml:73; rg 'reactor|turbine' Catalog/Cargo → none"
+  ],
+  "dossier": ".ai-triage/bugs/1537542182934675607.md"
+ },
+ {
+  "thread_id": "1540089010599366757",
+  "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+  "confidence": "High",
+  "severity": "S3",
+  "complexity": "XS",
+  "cluster_hint": null,
+  "root_cause_short": "MolotovConstruction graph step 1 requires tag MolotovConstruction which no entity carried; the tag carrier was added to DrinkBottle base by commit 0572564025 (2026-08-24), 4 days after the report",
+  "evidence": [
+   "Resources/Prototypes/_Goobstation/Recipes/Construction/Graphs/weapons/molotov.yml:14 (- tag: MolotovConstruction)",
+   "Resources/Prototypes/Entities/Objects/Consumable/Drinks/drinks_bottles_plastic.yml:26 (+ MolotovConstruction # Erida)",
+   "git show 0572564025 (2026-08-24 '[Fix] Bug fixes (#32)': +    - MolotovConstruction # Erida)"
+  ],
+  "dossier": ".ai-triage/bugs/1540089010599366757.md"
+ }
+]

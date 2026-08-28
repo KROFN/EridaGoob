@@ -15,13 +15,13 @@
   "external_media_files": 5,
   "VERDICTS": {
    "USER_ERROR_OR_NOT_BUG": 7,
-   "ALREADY_FIXED_IN_CURRENT_FORK": 15,
-   "CANNOT_VERIFY": 10,
-   "LIKELY_CURRENT_BUG": 6,
+   "ALREADY_FIXED_IN_CURRENT_FORK": 18,
+   "CANNOT_VERIFY": 13,
+   "LIKELY_CURRENT_BUG": 8,
    "CONFIRMED_CURRENT_BUG": 5,
-   "CONFIG_OR_CONTENT_ISSUE": 11
+   "CONFIG_OR_CONTENT_ISSUE": 15
   },
-  "VERDICT_COVERAGE": 54
+  "VERDICT_COVERAGE": 66
  },
  "threads": [
   {
@@ -2921,9 +2921,18 @@
    },
    "replies": [],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1365556630636204154.md",
+   "confidence": "Low",
+   "severity": "S3",
+   "complexity": "XS",
+   "root_cause_short": "Bandana cargo order = BountyBandana (7 items, tag Bandana) which trivially fits any crate; no code path blocking insertion found; screenshots unviewable, symptom not reproducible from data",
+   "evidence": [
+    "Resources/Prototypes/Catalog/Bounties/bounties.yml:BountyBandana (amount 7, tag Bandana)",
+    "Resources/Prototypes/Entities/Clothing/Masks/bandanas.yml:34 (Bandana tag applied)",
+    "Resources/Prototypes/tags.yml:61 (Bandana tag id)"
+   ]
   },
   {
    "thread_id": "1365564567941419048",
@@ -4200,9 +4209,18 @@
    "mentions": [
     "Alt"
    ],
-   "verdict": null,
+   "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1366003106860634223.md",
+   "confidence": "Medium",
+   "severity": "S4",
+   "complexity": "S",
+   "root_cause_short": "Legacy launch-era fridge (no longer in tree) swallowed the botanist bag; current SmartFridge whitelist (DoInsert CheckBoth) + UI retrieval make it impossible.",
+   "evidence": [
+    "Resources/Prototypes/Entities/Structures/Machines/smartfridge.yml:SmartFridge (whitelist Edible/FitsInDispenser/Pill/Produce/Seed)",
+    "Content.Shared/SmartFridge/SharedSmartFridgeSystem.cs:DoInsert:59 (_whitelist.CheckBoth)",
+    "git: 0e2c9e9307 2025-07-20 'Implement SmartFridge functionality (#38648)' (system replaced after 2025-04-27 report)"
+   ]
   },
   {
    "thread_id": "1366046616569647155",
@@ -6357,9 +6375,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "LIKELY_CURRENT_BUG",
+   "cluster": "cc-trade-money-routing",
+   "dossier": ".ai-triage/bugs/1368606729440333845.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "CC cargo is wired to trade-station/shipyard infra: sell proceeds land in the 'Верфь'/trade-station account (thread-confirmed partial payout) and the CC goods-order console has no working order/trade-station linkage",
+   "evidence": [
+    "Content.Server/Cargo/Systems/CargoSystem.Shuttle.cs:80 (EnsureComp<TradeStationComponent> on spawned grids, Sell/Buy pallet split)",
+    "Resources/Prototypes/Entities/Stations/base.yml:63-73 (trade GridSpawn → trading_outpost.yml, TradeStationComponent)",
+    "Resources/Locale/ru-RU/navmap-beacons/station-beacons.ftl:105 (station-beacon-shipyard = «Верфь»)",
+    "Content.Server/Cargo/Systems/CargoSystem.Orders.cs:305-349 (TryFulfillOrder/GetTradeStations — orders depend on trade stations)"
+   ]
   },
   {
    "thread_id": "1368659829916434494",
@@ -14349,9 +14377,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1387130822607507568.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "S",
+   "root_cause_short": "Hypothesis: 2025-06 lottery spawned a non-SpaceCash cash entity named «Воксель» that ATM rejected; current LotteryCashEntityTable pays only SpaceCash (кредиты) and no Voxel symbol exists anywhere in the fork",
+   "evidence": [
+    "Resources/Prototypes/Catalog/Fills/Crates/cargo.yml:56-73 (LotteryCashEntityTable = SpaceCash* only)",
+    "Resources/Locale/ru-RU/ss14-ru/prototypes/entities/objects/misc/space_cash.ftl:1 (ent-SpaceCash = кредиты)",
+    "repo-wide rg 'Voxel|Воксел' → no currency prototype/locale (only IPC name dataset)"
+   ]
   },
   {
    "thread_id": "1387820219191394314",
@@ -16215,9 +16252,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1406900824109481994.md",
+   "confidence": "High",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "CreateCakeBatter works as coded (Flour 15 + Egg 12 + Sugar 5 + Milk 5, unchanged since 2021); complaint is that in-game guidance omits the milk requirement.",
+   "evidence": [
+    "Resources/Prototypes/Recipes/Reactions/food.yml:93-109 (CreateCakeBatter -> FoodCakeBatter, Milk 5)",
+    "Resources/Prototypes/Recipes/Cooking/meal_recipes.yml:1640-1647 (RecipeCake)",
+    "Resources/ServerInfo/Guidebook/Service/CakeRecipes.xml:GuideMicrowaveGroupEmbed Group=\"Cake\" (no batter reaction shown)",
+    "git: 61423be24e 2021-11-27 'Add cheese & dough reactions (#5547)'"
+   ]
   },
   {
    "thread_id": "1413573121369444403",
@@ -18178,9 +18225,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1413891452001583227.md",
+   "confidence": "High",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "OnItemRemoved prunes only ContainedEntries, leaves key in Entries forever; manual removal of empty entries added later by f74fe5cc75 (#39195).",
+   "evidence": [
+    "Content.Shared/SmartFridge/SharedSmartFridgeSystem.cs:OnItemRemoved:100-109, OnRemoveEntry:172-186",
+    "Content.Shared/SmartFridge/SmartFridgeComponent.cs:Entries/ContainedEntries",
+    "git: f74fe5cc75 2026-01-09 'feat: allow removing empty smart fridge entries (#39195)'"
+   ]
   },
   {
    "thread_id": "1413914903651160177",
@@ -18766,9 +18822,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CANNOT_VERIFY",
+   "cluster": "cargo-trade-orders",
+   "dossier": ".ai-triage/bugs/1414063684765880360.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "Hypothesis: trade order completeness check mismatches the PriceGun appraisal (stack-count vs discrete entities or ore-prototype whitelist, e.g. 45 OreSilver); the actual judging code path is not locatable in fork cargo code",
+   "evidence": [
+    "Content.Server/Cargo/Systems/CargoSystem.Shuttle.cs:85-169 (Sell pallets only compute price, no request validation)",
+    "Content.Server/Cargo/Systems/CargoSystem.Orders.cs:305-349 (TryFulfillOrder only delivers player-purchased orders)",
+    "Content.Shared/Cargo/Components/PriceGunComponent.cs + Events/CargoPalletAppraiseMessage.cs (appraisal view, no matching completeness judge)"
+   ]
   },
   {
    "thread_id": "1414150369054822491",
@@ -22548,9 +22613,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1426918934656843776.md",
+   "confidence": "Medium",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "BaseTowel carries a legacy 'food' solution (30u Fiber, Hitchhiker's Guide reference); nutrition-stack Edible migration (41af08625f / #40276, Sep 2025) made such items edible — intended upstream content.",
+   "evidence": [
+    "Resources/Prototypes/Entities/Clothing/Multiple/towel.yml:26-32 (solution food: 30 Fiber)",
+    "Content.Shared/Nutrition/Components/EdibleComponent.cs:22 (Solution = \"food\")",
+    "Content.Shared/Nutrition/EntitySystems/IngestionSystem.cs:70-91 (AddEdibleVerbs, OnUseEdibleInHand)",
+    "git: 79cc8aa952 2025-09-25 'Edible Plushies and Clothes (#40276)', 41af08625f 2025-09-13 EdibleComponent migration"
+   ]
   },
   {
    "thread_id": "1427975660046913536",
@@ -24385,9 +24460,20 @@
    },
    "replies": [],
    "mentions": [],
-   "verdict": null,
+   "verdict": "LIKELY_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1432159035876053103.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "S",
+   "root_cause_short": "MobMouse is Edible but has no Meat/ReptilianFood tag; reptile stomach (OrganReptilianStomach, inherited exclusive SpecialDigestible, IsSpecialDigestibleExclusive default true) rejects it -> ingestion-cant-digest popup; no Devourer on Reptilian.",
+   "evidence": [
+    "Resources/Prototypes/Entities/Mobs/NPCs/animals.yml:1877-2007 (MobMouse, - type: Edible, no Tag component)",
+    "Resources/Prototypes/Body/Organs/reptilian.yml:4-14 (OrganReptilianStomach, specialDigestible commented out 'WWDP-Remove')",
+    "Content.Shared/Body/Components/StomachComponent.cs:63-70 (IsSpecialDigestibleExclusive = true default)",
+    "Content.Shared/Nutrition/EntitySystems/IngestionSystem.cs:182-239 (IsDigestibleBy -> ingestion-cant-digest)",
+    "Resources/Prototypes/Entities/Mobs/Player/dragon.yml (only Devourer carrier)"
+   ]
   },
   {
    "thread_id": "1432170711081816174",
@@ -34256,9 +34342,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1465054225447784448.md",
+   "confidence": "High",
+   "severity": "S4",
+   "complexity": "M",
+   "root_cause_short": "Works as coded: breeding costs 75 hunger from both parents and requires Hunger>=Okay, NPC animals have no self-feeding AI -> one brood per manual feeding; config values match admin screenshots exactly.",
+   "evidence": [
+    "Content.Server/Nutrition/EntitySystems/AnimalHusbandrySystem.cs:126-127 (ModifyHunger -HungerPerBirth both parents), :153 (hunger < Okay blocks), :229 (45-60s attempts)",
+    "Content.Shared/Nutrition/AnimalHusbandry/ReproductiveComponent.cs:89 (HungerPerBirth = 75)",
+    "Resources/Prototypes/Entities/Mobs/NPCs/animals.yml:252-262 (MobChicken Reproductive), :927-933 (MobCow Reproductive)",
+    "Content.Shared/Nutrition/AnimalHusbandry/InfantComponent.cs:20 (InfantDuration 3 min)"
+   ]
   },
   {
    "thread_id": "1465359893425815632",
@@ -50975,9 +51071,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1537542182934675607.md",
+   "confidence": "High",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "Equal price of mini and full-size fission reactor/turbine is an intentional balance/content decision confirmed by maintainers; mini units are functionally complete machines; no pricing error in YAML (no price:25000, no cargo products)",
+   "evidence": [
+    "Content.Server/_CorvaxGoob/PowerGeneration/FissionGenerator/ (NuclearReactorSystem.cs, TurbineSystem.cs — full implementations)",
+    "git commit aa7019dedd 2026-08-16 '[Port] Reactor (#20)' (3 days after report)",
+    "rg 'price: 25000' Resources/Prototypes → only katanas.yml:146, Wizard misc.yml:185, memorial.yml:73; rg 'reactor|turbine' Catalog/Cargo → none"
+   ]
   },
   {
    "thread_id": "1537855953544675470",
@@ -51665,9 +51770,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1540089010599366757.md",
+   "confidence": "High",
+   "severity": "S3",
+   "complexity": "XS",
+   "root_cause_short": "MolotovConstruction graph step 1 requires tag MolotovConstruction which no entity carried; the tag carrier was added to DrinkBottle base by commit 0572564025 (2026-08-24), 4 days after the report",
+   "evidence": [
+    "Resources/Prototypes/_Goobstation/Recipes/Construction/Graphs/weapons/molotov.yml:14 (- tag: MolotovConstruction)",
+    "Resources/Prototypes/Entities/Objects/Consumable/Drinks/drinks_bottles_plastic.yml:26 (+ MolotovConstruction # Erida)",
+    "git show 0572564025 (2026-08-24 '[Fix] Bug fixes (#32)': +    - MolotovConstruction # Erida)"
+   ]
   },
   {
    "thread_id": "1542243553533501510",
