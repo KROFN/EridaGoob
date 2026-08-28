@@ -1,0 +1,1025 @@
+{
+ "B01": {
+  "topic": "meta/out-of-scope: report form, admin screens, wiki, FPS, server connect",
+  "threads": [
+   {
+    "num": "001",
+    "thread_id": "1363943524676010095"
+   },
+   {
+    "num": "014",
+    "thread_id": "1365705684582404157"
+   },
+   {
+    "num": "098",
+    "thread_id": "1413578353155379241"
+   },
+   {
+    "num": "134",
+    "thread_id": "1431179805415575662"
+   },
+   {
+    "num": "143",
+    "thread_id": "1447290973259436264"
+   },
+   {
+    "num": "091",
+    "thread_id": "1400493654493233195"
+   }
+  ]
+ },
+ "B02": {
+  "topic": "client/vague: laptop logs, video-only, vague, content download, clock reset, playtime gate",
+  "threads": [
+   {
+    "num": "018",
+    "thread_id": "1366681937032511539"
+   },
+   {
+    "num": "024",
+    "thread_id": "1367396276349698049"
+   },
+   {
+    "num": "053",
+    "thread_id": "1371405608086929509"
+   },
+   {
+    "num": "093",
+    "thread_id": "1404116006984618024"
+   },
+   {
+    "num": "198",
+    "thread_id": "1534207157308756059"
+   },
+   {
+    "num": "191",
+    "thread_id": "1513668580212871330"
+   }
+  ]
+ },
+ "B03": {
+  "topic": "sprites: tails/socks/underwear layering",
+  "threads": [
+   {
+    "num": "061",
+    "thread_id": "1379120791253418124"
+   },
+   {
+    "num": "086",
+    "thread_id": "1393135432060899379"
+   },
+   {
+    "num": "064",
+    "thread_id": "1379904937223520296"
+   },
+   {
+    "num": "067",
+    "thread_id": "1382299238423068682"
+   },
+   {
+    "num": "153",
+    "thread_id": "1453499614710857729"
+   },
+   {
+    "num": "166",
+    "thread_id": "1471561763647389861"
+   }
+  ]
+ },
+ "B04": {
+  "topic": "species markings/customization: ears, arachne, chest features, felinid, unathi hair, vox tails paint",
+  "threads": [
+   {
+    "num": "002",
+    "thread_id": "1364960599544561746"
+   },
+   {
+    "num": "068",
+    "thread_id": "1382754417589358672"
+   },
+   {
+    "num": "087",
+    "thread_id": "1394565743768768653"
+   },
+   {
+    "num": "120",
+    "thread_id": "1420093168627748997"
+   },
+   {
+    "num": "151",
+    "thread_id": "1452510092305104927"
+   },
+   {
+    "num": "182",
+    "thread_id": "1499138888588071022"
+   }
+  ]
+ },
+ "B05": {
+  "topic": "sprites: hair over skirts, terminator trait, gamley hats, suitcase layer, held-item display, previous held item",
+  "threads": [
+   {
+    "num": "183",
+    "thread_id": "1499505469025419389"
+   },
+   {
+    "num": "188",
+    "thread_id": "1501936787692589197"
+   },
+   {
+    "num": "160",
+    "thread_id": "1463159948962955356"
+   },
+   {
+    "num": "201",
+    "thread_id": "1535027750082056404"
+   },
+   {
+    "num": "149",
+    "thread_id": "1449885909653651496"
+   },
+   {
+    "num": "177",
+    "thread_id": "1493928380247179324"
+   }
+  ]
+ },
+ "B06": {
+  "topic": "loadout UI: trinket tabs, unknown item, duty weapon missing, patrol hat, psych duplicated sections",
+  "threads": [
+   {
+    "num": "007",
+    "thread_id": "1365350238667280396"
+   },
+   {
+    "num": "016",
+    "thread_id": "1366049076361166888"
+   },
+   {
+    "num": "036",
+    "thread_id": "1368872733877731388"
+   },
+   {
+    "num": "044",
+    "thread_id": "1369663765662007297"
+   },
+   {
+    "num": "054",
+    "thread_id": "1372221903489732679"
+   },
+   {
+    "num": "076",
+    "thread_id": "1388579384419553460"
+   }
+  ]
+ },
+ "B07": {
+  "topic": "loadout items missing: medals, emergency kits, OSSt underwear, tech assistant, thief bag, shadowkin loadout",
+  "threads": [
+   {
+    "num": "077",
+    "thread_id": "1388579548357984378"
+   },
+   {
+    "num": "078",
+    "thread_id": "1388579685453135994"
+   },
+   {
+    "num": "095",
+    "thread_id": "1413573121369444403"
+   },
+   {
+    "num": "096",
+    "thread_id": "1413573325749485629"
+   },
+   {
+    "num": "101",
+    "thread_id": "1413877351011450890"
+   },
+   {
+    "num": "124",
+    "thread_id": "1422135237755932723"
+   }
+  ]
+ },
+ "B08": {
+  "topic": "hardsuits/armor: suits for roles, SI helmet, PNV hiding suit, intek jacket stats, stamina resist, who ate stun resist",
+  "threads": [
+   {
+    "num": "141",
+    "thread_id": "1441067609826132048"
+   },
+   {
+    "num": "116",
+    "thread_id": "1419081445091184815"
+   },
+   {
+    "num": "048",
+    "thread_id": "1370366183689293944"
+   },
+   {
+    "num": "090",
+    "thread_id": "1398624534411612271"
+   },
+   {
+    "num": "106",
+    "thread_id": "1414255102075863221"
+   },
+   {
+    "num": "174",
+    "thread_id": "1485689007735312404"
+   }
+  ]
+ },
+ "B09": {
+  "topic": "weapons: RCBZ ammo, headzomba pistol, semicolon desc, UTAP, estok spread, shotgun instagib",
+  "threads": [
+   {
+    "num": "005",
+    "thread_id": "1364989871957217280"
+   },
+   {
+    "num": "040",
+    "thread_id": "1369105376288575589"
+   },
+   {
+    "num": "165",
+    "thread_id": "1470887025711513893"
+   },
+   {
+    "num": "105",
+    "thread_id": "1414150369054822491"
+   },
+   {
+    "num": "133",
+    "thread_id": "1430774622957338646"
+   },
+   {
+    "num": "065",
+    "thread_id": "1380911822634225724"
+   }
+  ]
+ },
+ "B10": {
+  "topic": "cargo/economy/craft: bandanas, CC cargo, lottery currency, trade console, mini reactor price, molotov",
+  "threads": [
+   {
+    "num": "011",
+    "thread_id": "1365556630636204154"
+   },
+   {
+    "num": "034",
+    "thread_id": "1368606729440333845"
+   },
+   {
+    "num": "072",
+    "thread_id": "1387130822607507568"
+   },
+   {
+    "num": "104",
+    "thread_id": "1414063684765880360"
+   },
+   {
+    "num": "207",
+    "thread_id": "1537542182934675607"
+   },
+   {
+    "num": "210",
+    "thread_id": "1540089010599366757"
+   }
+  ]
+ },
+ "B11": {
+  "topic": "kitchen/botany/food/animals: fridge+bag, smart fridge, cake dough, towel edible, mouse digest, breeding",
+  "threads": [
+   {
+    "num": "015",
+    "thread_id": "1366003106860634223"
+   },
+   {
+    "num": "103",
+    "thread_id": "1413891452001583227"
+   },
+   {
+    "num": "094",
+    "thread_id": "1406900824109481994"
+   },
+   {
+    "num": "130",
+    "thread_id": "1426918934656843776"
+   },
+   {
+    "num": "137",
+    "thread_id": "1432159035876053103"
+   },
+   {
+    "num": "162",
+    "thread_id": "1465054225447784448"
+   }
+  ]
+ },
+ "B12": {
+  "topic": "medical core: burnt torso surgery, blood 0-30, cant stand-die, jaw prosthesis, space immortality, rebbel pain",
+  "threads": [
+   {
+    "num": "026",
+    "thread_id": "1367646136298504222"
+   },
+   {
+    "num": "045",
+    "thread_id": "1369925757610233887"
+   },
+   {
+    "num": "049",
+    "thread_id": "1370396275329073172"
+   },
+   {
+    "num": "055",
+    "thread_id": "1372567955899940864"
+   },
+   {
+    "num": "058",
+    "thread_id": "1375074483001491557"
+   },
+   {
+    "num": "069",
+    "thread_id": "1383537990382649396"
+   }
+  ]
+ },
+ "B13": {
+  "topic": "medborg/surgery/blob/CPB: medcyborg op, med units op, FPV drones, MMI borg blind, two blobs, acid wounds",
+  "threads": [
+   {
+    "num": "041",
+    "thread_id": "1369257553430577222"
+   },
+   {
+    "num": "074",
+    "thread_id": "1388553983613730969"
+   },
+   {
+    "num": "056",
+    "thread_id": "1372947789419516014"
+   },
+   {
+    "num": "171",
+    "thread_id": "1481313276586496000"
+   },
+   {
+    "num": "092",
+    "thread_id": "1403428173705646140"
+   },
+   {
+    "num": "206",
+    "thread_id": "1537354952094257172"
+   }
+  ]
+ },
+ "B14": {
+  "topic": "medical misc: arkan HP HUD, pain insensitivity mood, vampire DNA scanner, CPB stamina crit, blind trait, blob cure drop",
+  "threads": [
+   {
+    "num": "033",
+    "thread_id": "1368604669160591390"
+   },
+   {
+    "num": "027",
+    "thread_id": "1367781435938832436"
+   },
+   {
+    "num": "085",
+    "thread_id": "1392895660189286440"
+   },
+   {
+    "num": "196",
+    "thread_id": "1532607747986558977"
+   },
+   {
+    "num": "211",
+    "thread_id": "1542243553533501510"
+   },
+   {
+    "num": "154",
+    "thread_id": "1455157816800317595"
+   }
+  ]
+ },
+ "B15": {
+  "topic": "shadowkin/vampire: free TP, tp no stamina cost, bound abilities, familiar spam, mouse transform, burns",
+  "threads": [
+   {
+    "num": "017",
+    "thread_id": "1366269075013111899"
+   },
+   {
+    "num": "059",
+    "thread_id": "1375435479725375538"
+   },
+   {
+    "num": "060",
+    "thread_id": "1376295371873189918"
+   },
+   {
+    "num": "057",
+    "thread_id": "1373596253383954522"
+   },
+   {
+    "num": "062",
+    "thread_id": "1379189259877093508"
+   },
+   {
+    "num": "082",
+    "thread_id": "1391687746484965376"
+   }
+  ]
+ },
+ "B16": {
+  "topic": "mage/heretic/antag: astral buttons, heretic cloak, ash path, agents late, agent goals, decline target checkbox",
+  "threads": [
+   {
+    "num": "121",
+    "thread_id": "1420383751082344479"
+   },
+   {
+    "num": "199",
+    "thread_id": "1534480920327880776"
+   },
+   {
+    "num": "204",
+    "thread_id": "1536503382355746886"
+   },
+   {
+    "num": "175",
+    "thread_id": "1489258968898469928"
+   },
+   {
+    "num": "028",
+    "thread_id": "1367843022061965395"
+   },
+   {
+    "num": "205",
+    "thread_id": "1536732595268747334"
+   }
+  ]
+ },
+ "B17": {
+  "topic": "access: lockable button, access console override, AVD accesses, genpop, ninja gloves lockers, passengers turrets",
+  "threads": [
+   {
+    "num": "042",
+    "thread_id": "1369302532916252772"
+   },
+   {
+    "num": "073",
+    "thread_id": "1387820219191394314"
+   },
+   {
+    "num": "080",
+    "thread_id": "1390810959177711626"
+   },
+   {
+    "num": "148",
+    "thread_id": "1449776134593056998"
+   },
+   {
+    "num": "128",
+    "thread_id": "1425261607369310339"
+   },
+   {
+    "num": "155",
+    "thread_id": "1455594512444555439"
+   }
+  ]
+ },
+ "B18": {
+  "topic": "comms/AI: invisible buttons, AVD freq dead, sCID sensors, borg laws english, AI holopad language, train cameras",
+  "threads": [
+   {
+    "num": "004",
+    "thread_id": "1364967964230811698"
+   },
+   {
+    "num": "111",
+    "thread_id": "1416386325006778440"
+   },
+   {
+    "num": "043",
+    "thread_id": "1369541733196496936"
+   },
+   {
+    "num": "109",
+    "thread_id": "1415300392614629427"
+   },
+   {
+    "num": "110",
+    "thread_id": "1416168662695546921"
+   },
+   {
+    "num": "192",
+    "thread_id": "1514984863562727596"
+   }
+  ]
+ },
+ "B19": {
+  "topic": "windows/collision: sliding windows block, tables+buttons slip through, grappling through windows, balls stuck, head bonk, crawl footprints",
+  "threads": [
+   {
+    "num": "019",
+    "thread_id": "1366747516258881536"
+   },
+   {
+    "num": "075",
+    "thread_id": "1388575425562673282"
+   },
+   {
+    "num": "147",
+    "thread_id": "1449508411325677692"
+   },
+   {
+    "num": "158",
+    "thread_id": "1459594107709292707"
+   },
+   {
+    "num": "089",
+    "thread_id": "1395874643985829938"
+   },
+   {
+    "num": "037",
+    "thread_id": "1368875720373309480"
+   }
+  ]
+ },
+ "B20": {
+  "topic": "cleaning/printers/masks: mop no clean, unkillable footprints, slippery footprints, stand bump head, doc printer vanish, mask sprite",
+  "threads": [
+   {
+    "num": "030",
+    "thread_id": "1368389167616098424"
+   },
+   {
+    "num": "039",
+    "thread_id": "1369020340520357968"
+   },
+   {
+    "num": "081",
+    "thread_id": "1391191286165540995"
+   },
+   {
+    "num": "038",
+    "thread_id": "1368929127822000138"
+   },
+   {
+    "num": "066",
+    "thread_id": "1382297503306743808"
+   },
+   {
+    "num": "035",
+    "thread_id": "1368659829916434494"
+   }
+  ]
+ },
+ "B21": {
+  "topic": "conveyor/gravity/shuttle physics: item gravity, trash on conveyor, carried rider conveyor, cargo fan, Box cargo fans, shuttles clip station",
+  "threads": [
+   {
+    "num": "029",
+    "thread_id": "1368366125208965151"
+   },
+   {
+    "num": "050",
+    "thread_id": "1370482031624061070"
+   },
+   {
+    "num": "119",
+    "thread_id": "1419998003447468153"
+   },
+   {
+    "num": "112",
+    "thread_id": "1417098657832112220"
+   },
+   {
+    "num": "127",
+    "thread_id": "1424014048726351937"
+   },
+   {
+    "num": "152",
+    "thread_id": "1452656751089418280"
+   }
+  ]
+ },
+ "B22": {
+  "topic": "maps/docking: aspid cargo dock, hive lava shuttle, nukie dock wall, federation box air, aspid kitchen lamp, road model",
+  "threads": [
+   {
+    "num": "012",
+    "thread_id": "1365588601169248336"
+   },
+   {
+    "num": "022",
+    "thread_id": "1366962720901038151"
+   },
+   {
+    "num": "135",
+    "thread_id": "1431376123060555828"
+   },
+   {
+    "num": "071",
+    "thread_id": "1386441724200616016"
+   },
+   {
+    "num": "023",
+    "thread_id": "1367123372160323656"
+   },
+   {
+    "num": "013",
+    "thread_id": "1365605529233391656"
+   }
+  ]
+ },
+ "B23": {
+  "topic": "maps misc: SCK hydroponics, Box double cargo console, delta psych buttons, delta park wiring, wonder fireext, bagel nanomed wall",
+  "threads": [
+   {
+    "num": "006",
+    "thread_id": "1365348238722600990"
+   },
+   {
+    "num": "159",
+    "thread_id": "1461342678351479021"
+   },
+   {
+    "num": "163",
+    "thread_id": "1467580254532141159"
+   },
+   {
+    "num": "164",
+    "thread_id": "1469658417814704128"
+   },
+   {
+    "num": "195",
+    "thread_id": "1531689725554069685"
+   },
+   {
+    "num": "190",
+    "thread_id": "1509558404778295347"
+   }
+  ]
+ },
+ "B24": {
+  "topic": "centcom/craft: Amber printers, CC passenger spawn, RND console window, test crafts, uranium glass craft, nuclear fabricator",
+  "threads": [
+   {
+    "num": "118",
+    "thread_id": "1419457062882250874"
+   },
+   {
+    "num": "020",
+    "thread_id": "1366802698430578818"
+   },
+   {
+    "num": "025",
+    "thread_id": "1367643283735576606"
+   },
+   {
+    "num": "097",
+    "thread_id": "1413573454245925025"
+   },
+   {
+    "num": "167",
+    "thread_id": "1473337621521367151"
+   },
+   {
+    "num": "200",
+    "thread_id": "1534609752284463224"
+   }
+  ]
+ },
+ "B25": {
+  "topic": "research/loc/sprites: long-barrel tech missing, hydroponics dup research, copier time, loc trade, #kits letters, airlock sprites, beaker liquid sprite",
+  "threads": [
+   {
+    "num": "010",
+    "thread_id": "1365481390363115561"
+   },
+   {
+    "num": "189",
+    "thread_id": "1502364788683046953"
+   },
+   {
+    "num": "146",
+    "thread_id": "1449459756879188138"
+   },
+   {
+    "num": "208",
+    "thread_id": "1537855953544675470"
+   },
+   {
+    "num": "126",
+    "thread_id": "1423308226568650835"
+   },
+   {
+    "num": "070",
+    "thread_id": "1385653292297617559"
+   },
+   {
+    "num": "138",
+    "thread_id": "1432170711081816174"
+   }
+  ]
+ },
+ "B26": {
+  "topic": "species traits/accents/emotes: palfeim thirst, moans loud, species tongues, cognizin, spanish accent, OWO accent",
+  "threads": [
+   {
+    "num": "031",
+    "thread_id": "1368389636531163186"
+   },
+   {
+    "num": "100",
+    "thread_id": "1413792059269320888"
+   },
+   {
+    "num": "102",
+    "thread_id": "1413877633594163270"
+   },
+   {
+    "num": "115",
+    "thread_id": "1417926890823356699"
+   },
+   {
+    "num": "184",
+    "thread_id": "1499505784931745963"
+   },
+   {
+    "num": "186",
+    "thread_id": "1499847578563510303"
+   }
+  ]
+ },
+ "B27": {
+  "topic": "shadowkin voice/game rules/meta: shadowkin silent, secret gamemode spam, no brigmed squad, WL roles, donate prostheses, IS bug thread",
+  "threads": [
+   {
+    "num": "052",
+    "thread_id": "1371049112593764362"
+   },
+   {
+    "num": "113",
+    "thread_id": "1417112501325398128"
+   },
+   {
+    "num": "114",
+    "thread_id": "1417509566299766916"
+   },
+   {
+    "num": "009",
+    "thread_id": "1365393402589614209"
+   },
+   {
+    "num": "003",
+    "thread_id": "1364963068475342878"
+   },
+   {
+    "num": "099",
+    "thread_id": "1413579782691753994"
+   }
+  ]
+ },
+ "B28": {
+  "topic": "TTS cluster + roundend manifest: subscribed voices, random tts, Rita, disabled still heard, cant disable, end manifest",
+  "threads": [
+   {
+    "num": "008",
+    "thread_id": "1365367741560913970"
+   },
+   {
+    "num": "107",
+    "thread_id": "1414388215669981324"
+   },
+   {
+    "num": "122",
+    "thread_id": "1421828766404972624"
+   },
+   {
+    "num": "123",
+    "thread_id": "1421848934644449382"
+   },
+   {
+    "num": "170",
+    "thread_id": "1480519345594568866"
+   },
+   {
+    "num": "084",
+    "thread_id": "1392793334594015354"
+   }
+  ]
+ },
+ "B29": {
+  "topic": "intek/expedition/lava/combat: agost scanner loss, intek agent lava walk, agost shadow buttons, intek stomach, melee system, lava headcrabs",
+  "threads": [
+   {
+    "num": "021",
+    "thread_id": "1366944185495584768"
+   },
+   {
+    "num": "046",
+    "thread_id": "1370100957861511299"
+   },
+   {
+    "num": "047",
+    "thread_id": "1370101954591719424"
+   },
+   {
+    "num": "051",
+    "thread_id": "1370486618670104757"
+   },
+   {
+    "num": "063",
+    "thread_id": "1379763108184330361"
+   },
+   {
+    "num": "194",
+    "thread_id": "1531399705743855658"
+   }
+  ]
+ },
+ "B30": {
+  "topic": "interactions: skirt job naked, mannequin dressup, sleeping picked up, HARMKAKA extra slots, coffee machine timing, pie on face",
+  "threads": [
+   {
+    "num": "079",
+    "thread_id": "1389672150151200924"
+   },
+   {
+    "num": "088",
+    "thread_id": "1394835847324504235"
+   },
+   {
+    "num": "117",
+    "thread_id": "1419456892413022248"
+   },
+   {
+    "num": "145",
+    "thread_id": "1449455266885144617"
+   },
+   {
+    "num": "157",
+    "thread_id": "1459054342719148285"
+   },
+   {
+    "num": "161",
+    "thread_id": "1463805725422911500"
+   }
+  ]
+ },
+ "B31": {
+  "topic": "misc: miner lamp flash, expeditions broken, box free-return goal, dragon rift, mapping command, vox poison regen, GW fax",
+  "threads": [
+   {
+    "num": "083",
+    "thread_id": "1391702186244706354"
+   },
+   {
+    "num": "108",
+    "thread_id": "1414517676541349909"
+   },
+   {
+    "num": "125",
+    "thread_id": "1423043057112322058"
+   },
+   {
+    "num": "129",
+    "thread_id": "1426262637389283370"
+   },
+   {
+    "num": "131",
+    "thread_id": "1429111124636340244"
+   },
+   {
+    "num": "132",
+    "thread_id": "1429385681876025414"
+   },
+   {
+    "num": "136",
+    "thread_id": "1432041966081671240"
+   }
+  ]
+ },
+ "B32": {
+  "topic": "misc: vox language name, zombie mecha, directional windows tiles, box ghost dimension, ghost doc sound, diagonal walls",
+  "threads": [
+   {
+    "num": "139",
+    "thread_id": "1432362211908653066"
+   },
+   {
+    "num": "142",
+    "thread_id": "1446843043180318743"
+   },
+   {
+    "num": "144",
+    "thread_id": "1448396633736741045"
+   },
+   {
+    "num": "150",
+    "thread_id": "1451208282411761756"
+   },
+   {
+    "num": "156",
+    "thread_id": "1458439379457675374"
+   },
+   {
+    "num": "140",
+    "thread_id": "1438072028904030238"
+   }
+  ]
+ },
+ "B33": {
+  "topic": "misc: char import, revenant agost push, lunar rovers, doors relogin, cryo respawn, atmos RCD",
+  "threads": [
+   {
+    "num": "168",
+    "thread_id": "1477755379625758884"
+   },
+   {
+    "num": "169",
+    "thread_id": "1479939209883160776"
+   },
+   {
+    "num": "172",
+    "thread_id": "1481337244923990027"
+   },
+   {
+    "num": "173",
+    "thread_id": "1483498644257640691"
+   },
+   {
+    "num": "176",
+    "thread_id": "1492169522671653104"
+   },
+   {
+    "num": "178",
+    "thread_id": "1496225961996193902"
+   }
+  ]
+ },
+ "B34": {
+  "topic": "misc: space action interrupts, akimbo, fire spread npc, bag drag, zombie straitjacket, kungfu dup OSSt",
+  "threads": [
+   {
+    "num": "179",
+    "thread_id": "1497719978088992919"
+   },
+   {
+    "num": "180",
+    "thread_id": "1497884085656485989"
+   },
+   {
+    "num": "181",
+    "thread_id": "1498713547704631360"
+   },
+   {
+    "num": "185",
+    "thread_id": "1499778816216797236"
+   },
+   {
+    "num": "187",
+    "thread_id": "1500984548438179910"
+   },
+   {
+    "num": "212",
+    "thread_id": "1542496476415000757"
+   }
+  ]
+ },
+ "B35": {
+  "topic": "misc: boot puncture, silly atmosphere vague, doll NSFW desc, essence desc, GUBS migration mega-thread, aiming jitter",
+  "threads": [
+   {
+    "num": "193",
+    "thread_id": "1529950769208623144"
+   },
+   {
+    "num": "197",
+    "thread_id": "1533372731817594991"
+   },
+   {
+    "num": "202",
+    "thread_id": "1535329639197704202"
+   },
+   {
+    "num": "203",
+    "thread_id": "1535333849515692155"
+   },
+   {
+    "num": "209",
+    "thread_id": "1540061285029257266"
+   },
+   {
+    "num": "032",
+    "thread_id": "1368541575902265365"
+   }
+  ]
+ }
+}
