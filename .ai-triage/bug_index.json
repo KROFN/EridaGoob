@@ -14,14 +14,14 @@
   "threads_with_external_media": 3,
   "external_media_files": 5,
   "VERDICTS": {
-   "USER_ERROR_OR_NOT_BUG": 7,
+   "USER_ERROR_OR_NOT_BUG": 8,
    "ALREADY_FIXED_IN_CURRENT_FORK": 18,
-   "CANNOT_VERIFY": 13,
-   "LIKELY_CURRENT_BUG": 8,
-   "CONFIRMED_CURRENT_BUG": 5,
-   "CONFIG_OR_CONTENT_ISSUE": 15
+   "CANNOT_VERIFY": 17,
+   "LIKELY_CURRENT_BUG": 10,
+   "CONFIG_OR_CONTENT_ISSUE": 17,
+   "CONFIRMED_CURRENT_BUG": 8
   },
-  "VERDICT_COVERAGE": 66
+  "VERDICT_COVERAGE": 78
  },
  "threads": [
   {
@@ -5603,9 +5603,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "LIKELY_CURRENT_BUG",
+   "cluster": "rebell-burnt-part-surgery",
+   "dossier": ".ai-triage/bugs/1367646136298504222.md",
+   "confidence": "Medium",
+   "severity": "S2",
+   "complexity": "M",
+   "root_cause_short": "Обугленное туловище деградирует до Mangled/Severed, валидация шагов блокирует разрез/извлечение мозга; repair burnt tissue не восстанавливает доступ к органам",
+   "evidence": [
+    "Content.Shared/_Shitmed/Surgery/Wounds/Systems/WoundSystem.Destruction.cs:43,185 (WoundableSeverity Severed/Mangled)",
+    "Content.Shared/_Shitmed/Surgery/SharedSurgerySystem.Steps.cs:195 (GetWoundableSeverityPoint валидация)",
+    "Resources/Prototypes/_Shitmed/Entities/Surgery/surgery_steps.yml:454 (SurgeryStepRepairBurnTissue)",
+    "Content.Shared/_Shitmed/Surgery/Consciousness/Systems/ConsciousnessSystem.Helpers.cs:194 (ForceDead только по required-частям)"
+   ]
   },
   {
    "thread_id": "1367781435938832436",
@@ -7685,9 +7695,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CANNOT_VERIFY",
+   "cluster": "silicon-surgery-ui",
+   "dossier": ".ai-triage/bugs/1369257553430577222.md",
+   "confidence": "Low",
+   "severity": "S2",
+   "complexity": "M",
+   "root_cause_short": "Мед-киборг не может открыть меню операции; в текущем коде блокера нет (SurgeryBui.RefreshUI гейтится SurgeryTargetComponent на ХИРУРГЕ — гипотеза), отчёты старше крупной переработки хирургии #4040",
+   "evidence": [
+    "Content.Shared/_Shitmed/Surgery/SharedSurgerySystem.Start.cs:AttemptStartSurgery",
+    "Content.Client/_Shitmed/Medical/Surgery/SurgeryBui.cs:270-320",
+    "git 1ce0c11d58 'fucking predict surgery' (#4040)"
+   ]
   },
   {
    "thread_id": "1369302532916252772",
@@ -8742,9 +8761,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
+   "cluster": "bloodloss-lethality",
+   "dossier": ".ai-triage/bugs/1369925757610233887.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "S",
+   "root_cause_short": "Смерть не привязана к % крови: ниже 0.9 лишь периодический Bloodloss-дамаг; значения bloodlossDamage у существ задаются контентом, дев анонсировал порог смерти ~40%",
+   "evidence": [
+    "Content.Shared/Body/Components/BloodstreamComponent.cs:80,87 (BloodlossThreshold=0.9, BloodlossDamage)",
+    "Content.Shared/Body/Systems/SharedBloodstreamSystem.cs:104-107 (amt = BloodlossDamage/(0.1+blood%))",
+    "Resources/Prototypes/Entities/Mobs/base.yml:280-285 (bloodlossDamage Bloodloss 0.5)",
+    "Resources/Prototypes/Entities/Mobs/NPCs/argocyte.yml:31-37 (переопределение у существ)"
+   ]
   },
   {
    "thread_id": "1369983616511119382",
@@ -9439,9 +9468,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "LIKELY_CURRENT_BUG",
+   "cluster": "rebell-death-model",
+   "dossier": ".ai-triage/bugs/1370396275329073172.md",
+   "confidence": "Medium",
+   "severity": "S1",
+   "complexity": "L",
+   "root_cause_short": "Смерть при вставании/мгновенная повторная смерть после ревайва: накопленный wound/trauma урон добивает MobThresholds, ревайв не чистит раны и PainShock-парализации",
+   "evidence": [
+    "Content.Shared/_Shitmed/Surgery/Pain/Systems/PainSystem.Damage.cs:818-835 (PainShock: TryUpdateParalyzeDuration, ForceConscious)",
+    "Content.Shared/_Shitmed/Surgery/Traumas/Systems/TraumaSystem.Bones.cs:370 (_standing.Down при переломах)",
+    "Content.Shared/_Shitmed/Surgery/Consciousness/Systems/ConsciousnessSystem.Helpers.cs:158-179 (UpdateMobState закомментирован)",
+    "Resources/Prototypes/Entities/Mobs/base.yml:132 (MobThresholds)"
+   ]
   },
   {
    "thread_id": "1370482031624061070",
@@ -10885,9 +10924,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CONFIRMED_CURRENT_BUG",
+   "cluster": "cybernetic-part-onadd-dead",
+   "dossier": ".ai-triage/bugs/1372567955899940864.md",
+   "confidence": "High",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "J.W.L рука вешает Prying через BodyPart.onAdd на part-сущность внутри тела; релея prying с частей тела в коде нет — протез-пустышка (дев-подтверждено)",
+   "evidence": [
+    "Resources/Prototypes/_Shitmed/Body/Parts/cybernetic.yml:182-201 (JawsOfLifeLeft/RightArm, BodyPart.onAdd: Prying)",
+    "Content.Shared/Body/Part/BodyPartComponent.cs:18 (ISurgeryToolComponent — единственный tool-интерфейс части тела)",
+    "search: Prying отсутствует в Content.Shared/Body, Content.Server/Body (нет релея)"
+   ]
   },
   {
    "thread_id": "1372947789419516014",
@@ -10998,9 +11046,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CANNOT_VERIFY",
+   "cluster": "silicon-surgery-ui",
+   "dossier": ".ai-triage/bugs/1372947789419516014.md",
+   "confidence": "Low",
+   "severity": "S2",
+   "complexity": "M",
+   "root_cause_short": "Мед FPV-дрон без limb-targeting/хирургии — часть кластера silicon-surgery-ui; доступы ЛКП/атмос для инж-дрона и WL-методичка — контентные решения",
+   "evidence": [
+    "Resources/Prototypes/_Imp/_Drone/drone.yml:body-Drone",
+    "Content.Shared/_Shitmed/Surgery/SurgeryUI.cs:SurgeryBuiState",
+    "Content.Shared/_Shitmed/Surgery/SharedSurgerySystem.Start.cs:AttemptStartSurgery"
+   ]
   },
   {
    "thread_id": "1373596253383954522",
@@ -11572,9 +11629,20 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CONFIRMED_CURRENT_BUG",
+   "cluster": "rebell-death-model",
+   "dossier": ".ai-triage/bugs/1375074483001491557.md",
+   "confidence": "High",
+   "severity": "S1",
+   "complexity": "XL",
+   "root_cause_short": "Бессмертие при 0 крови/макс. кровотечении: ReBell UpdateMobState закомментирован, смерть только по MobThresholds/ForceDead-мозгу/DelayedDeath (сердце+мозг), Bloodloss-урон перехватывается раневой моделью",
+   "evidence": [
+    "Content.Shared/_Shitmed/Surgery/Consciousness/Systems/ConsciousnessSystem.Helpers.cs:158-179 (UpdateMobState закомментирован)",
+    "Content.Server/_Shitmed/DelayedDeath/DelayedDeathSystem.cs:29-57 + HeartSystem.cs/DebrainedSystem.cs (подписанты)",
+    "Content.Shared/Body/Systems/SharedBloodstreamSystem.cs:104-107 (Bloodloss-дамаг)",
+    "Content.Shared/_Shitmed/Surgery/Wounds/Systems/WoundSystem.Wounding.cs:34,165 (перехват DamageChangedEvent в раны)",
+    "Resources/Prototypes/Entities/Mobs/base.yml:132 (MobThresholds)"
+   ]
   },
   {
    "thread_id": "1375435479725375538",
@@ -13528,9 +13596,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
+   "cluster": "rebell-pain-balance",
+   "dossier": ".ai-triage/bugs/1383537990382649396.md",
+   "confidence": "High",
+   "severity": "S2",
+   "complexity": "S",
+   "root_cause_short": "PainShock-парализации от накопленной боли мелких травм работают как задумано; вопрос баланса TraumasChances/порогов боли и traumadeductions у брони; связан с B09 1380911822634225724",
+   "evidence": [
+    "Content.Shared/_Shitmed/Surgery/Pain/Systems/PainSystem.Damage.cs:818-858 (PainShock/PainShockAndAgony paralyze)",
+    "Content.Shared/_Shitmed/Surgery/Traumas/Systems/TraumaSystem.Process.cs:286,481 (severity-порог + роллы TraumasChances; см. B09)",
+    "Content.Shared/_Shitmed/Surgery/Traumas/Components/TraumaInflicterComponent.cs:52 (TraumasChances)",
+    ".ai-triage/bugs/1380911822634225724.md (B09 primary, CONFIG_OR_CONTENT_ISSUE dev-confirmed)"
+   ]
   },
   {
    "thread_id": "1384308932146757724",
@@ -14468,9 +14546,18 @@
    },
    "replies": [],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CANNOT_VERIFY",
+   "cluster": "silicon-surgery-ui",
+   "dossier": ".ai-triage/bugs/1388553983613730969.md",
+   "confidence": "Low",
+   "severity": "S2",
+   "complexity": "M",
+   "root_cause_short": "Тот же кластер silicon-surgery-ui: заявленный запрет интерфейсов силиконам в текущем коде отсутствует; симптом совпадает с 1369257553430577222",
+   "evidence": [
+    "Content.Shared/_Shitmed/Surgery/SharedSurgerySystem.Start.cs:27-40",
+    "Content.Client/_Shitmed/Medical/Surgery/SurgeryBui.cs:276",
+    "Content.Shared/_Shitmed/Surgery/SurgeryTargetComponent.cs:CanOperate"
+   ]
   },
   {
    "thread_id": "1388575425562673282",
@@ -16097,9 +16184,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "USER_ERROR_OR_NOT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1403428173705646140.md",
+   "confidence": "High",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "Два блоба поддерживаются дизайном; строить можно только на тайлах своего ядра (tile.Comp.Core per-core владение), на тайлах первого игрока — нельзя",
+   "evidence": [
+    "Content.Goobstation.Server/Blob/BlobCoreSystem.cs:CheckValidBlobTile/TryGetTargetBlobTile",
+    "Content.Goobstation.Server/Blob/GameTicking/BlobRuleSystem.cs:MakeBlob/AppendRoundEndText",
+    "thread replies 'фича'"
+   ]
   },
   {
    "thread_id": "1404116006984618024",
@@ -37431,9 +37527,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1481313276586496000.md",
+   "confidence": "Low",
+   "severity": "S2",
+   "complexity": "M",
+   "root_cause_short": "Флапающая слепота MMI-борга (перезаход фиксит): в пути brain→MMI→шасси не копируются/не сбрасываются зрительные компоненты; гипотеза — клиентский рассинхрон vision-состояния при переносе разума",
+   "evidence": [
+    "Content.Shared/Silicons/Borgs/SharedBorgSystem.MMI.cs",
+    "Content.Shared/Silicons/Borgs/SharedBorgSystem.cs:204",
+    "thread reply 'Перезаход фиксит'"
+   ]
   },
   {
    "thread_id": "1481337244923990027",
@@ -50863,9 +50968,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CONFIRMED_CURRENT_BUG",
+   "cluster": "ipc-caustic-untreatable",
+   "dossier": ".ai-triage/bugs/1537354952094257172.md",
+   "confidence": "High",
+   "severity": "S2",
+   "complexity": "M",
+   "root_cause_short": "КПБ=IPC: регрессия Woundmed Port (#1859, 8706b5039e) удалила 'Caustic' из классификации лечимых ран механики Shitmed → кислотные повреждения КПБ не лечатся ничем",
+   "evidence": [
+    "git 8706b5039e (удаление {\"Caustic\", ...} и BurnDamageTypes={Heat,Shock,Cold,Caustic})",
+    "Content.Shared/_Shitmed (grep Caustic|Acid по *.cs = 0)",
+    "Resources/ServerInfo/Guidebook/Mobs/IPCs.xml:Ремонт",
+    "Resources/Locale/ru-RU/_EinsteinEngines/species/species.ftl:species-name-ipc=КПБ"
+   ]
   },
   {
    "thread_id": "1537542182934675607",

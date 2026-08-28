@@ -1,0 +1,93 @@
+[
+ {
+  "thread_id": "1369257553430577222",
+  "verdict": "CANNOT_VERIFY",
+  "confidence": "Low",
+  "severity": "S2",
+  "complexity": "M",
+  "cluster_hint": "silicon-surgery-ui",
+  "root_cause_short": "Мед-киборг не может открыть меню операции; в текущем коде блокера нет (SurgeryBui.RefreshUI гейтится SurgeryTargetComponent на ХИРУРГЕ — гипотеза), отчёты старше крупной переработки хирургии #4040",
+  "evidence": [
+   "Content.Shared/_Shitmed/Surgery/SharedSurgerySystem.Start.cs:AttemptStartSurgery",
+   "Content.Client/_Shitmed/Medical/Surgery/SurgeryBui.cs:270-320",
+   "git 1ce0c11d58 'fucking predict surgery' (#4040)"
+  ],
+  "dossier": ".ai-triage/bugs/1369257553430577222.md"
+ },
+ {
+  "thread_id": "1388553983613730969",
+  "verdict": "CANNOT_VERIFY",
+  "confidence": "Low",
+  "severity": "S2",
+  "complexity": "M",
+  "cluster_hint": "silicon-surgery-ui",
+  "root_cause_short": "Тот же кластер silicon-surgery-ui: заявленный запрет интерфейсов силиконам в текущем коде отсутствует; симптом совпадает с 1369257553430577222",
+  "evidence": [
+   "Content.Shared/_Shitmed/Surgery/SharedSurgerySystem.Start.cs:27-40",
+   "Content.Client/_Shitmed/Medical/Surgery/SurgeryBui.cs:276",
+   "Content.Shared/_Shitmed/Surgery/SurgeryTargetComponent.cs:CanOperate"
+  ],
+  "dossier": ".ai-triage/bugs/1388553983613730969.md"
+ },
+ {
+  "thread_id": "1372947789419516014",
+  "verdict": "CANNOT_VERIFY",
+  "confidence": "Low",
+  "severity": "S2",
+  "complexity": "M",
+  "cluster_hint": "silicon-surgery-ui",
+  "root_cause_short": "Мед FPV-дрон без limb-targeting/хирургии — часть кластера silicon-surgery-ui; доступы ЛКП/атмос для инж-дрона и WL-методичка — контентные решения",
+  "evidence": [
+   "Resources/Prototypes/_Imp/_Drone/drone.yml:body-Drone",
+   "Content.Shared/_Shitmed/Surgery/SurgeryUI.cs:SurgeryBuiState",
+   "Content.Shared/_Shitmed/Surgery/SharedSurgerySystem.Start.cs:AttemptStartSurgery"
+  ],
+  "dossier": ".ai-triage/bugs/1372947789419516014.md"
+ },
+ {
+  "thread_id": "1481313276586496000",
+  "verdict": "CANNOT_VERIFY",
+  "confidence": "Low",
+  "severity": "S2",
+  "complexity": "M",
+  "cluster_hint": null,
+  "root_cause_short": "Флапающая слепота MMI-борга (перезаход фиксит): в пути brain→MMI→шасси не копируются/не сбрасываются зрительные компоненты; гипотеза — клиентский рассинхрон vision-состояния при переносе разума",
+  "evidence": [
+   "Content.Shared/Silicons/Borgs/SharedBorgSystem.MMI.cs",
+   "Content.Shared/Silicons/Borgs/SharedBorgSystem.cs:204",
+   "thread reply 'Перезаход фиксит'"
+  ],
+  "dossier": ".ai-triage/bugs/1481313276586496000.md"
+ },
+ {
+  "thread_id": "1403428173705646140",
+  "verdict": "USER_ERROR_OR_NOT_BUG",
+  "confidence": "High",
+  "severity": "S4",
+  "complexity": "XS",
+  "cluster_hint": null,
+  "root_cause_short": "Два блоба поддерживаются дизайном; строить можно только на тайлах своего ядра (tile.Comp.Core per-core владение), на тайлах первого игрока — нельзя",
+  "evidence": [
+   "Content.Goobstation.Server/Blob/BlobCoreSystem.cs:CheckValidBlobTile/TryGetTargetBlobTile",
+   "Content.Goobstation.Server/Blob/GameTicking/BlobRuleSystem.cs:MakeBlob/AppendRoundEndText",
+   "thread replies 'фича'"
+  ],
+  "dossier": ".ai-triage/bugs/1403428173705646140.md"
+ },
+ {
+  "thread_id": "1537354952094257172",
+  "verdict": "CONFIRMED_CURRENT_BUG",
+  "confidence": "High",
+  "severity": "S2",
+  "complexity": "M",
+  "cluster_hint": "ipc-caustic-untreatable",
+  "root_cause_short": "КПБ=IPC: регрессия Woundmed Port (#1859, 8706b5039e) удалила 'Caustic' из классификации лечимых ран механики Shitmed → кислотные повреждения КПБ не лечатся ничем",
+  "evidence": [
+   "git 8706b5039e (удаление {\"Caustic\", ...} и BurnDamageTypes={Heat,Shock,Cold,Caustic})",
+   "Content.Shared/_Shitmed (grep Caustic|Acid по *.cs = 0)",
+   "Resources/ServerInfo/Guidebook/Mobs/IPCs.xml:Ремонт",
+   "Resources/Locale/ru-RU/_EinsteinEngines/species/species.ftl:species-name-ipc=КПБ"
+  ],
+  "dossier": ".ai-triage/bugs/1537354952094257172.md"
+ }
+]

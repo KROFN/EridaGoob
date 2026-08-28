@@ -1,0 +1,98 @@
+[
+  {
+    "thread_id": "1367646136298504222",
+    "verdict": "LIKELY_CURRENT_BUG",
+    "confidence": "Medium",
+    "severity": "S2",
+    "complexity": "M",
+    "cluster_hint": "rebell-burnt-part-surgery",
+    "root_cause_short": "Обугленное туловище деградирует до Mangled/Severed, валидация шагов блокирует разрез/извлечение мозга; repair burnt tissue не восстанавливает доступ к органам",
+    "evidence": [
+      "Content.Shared/_Shitmed/Surgery/Wounds/Systems/WoundSystem.Destruction.cs:43,185 (WoundableSeverity Severed/Mangled)",
+      "Content.Shared/_Shitmed/Surgery/SharedSurgerySystem.Steps.cs:195 (GetWoundableSeverityPoint валидация)",
+      "Resources/Prototypes/_Shitmed/Entities/Surgery/surgery_steps.yml:454 (SurgeryStepRepairBurnTissue)",
+      "Content.Shared/_Shitmed/Surgery/Consciousness/Systems/ConsciousnessSystem.Helpers.cs:194 (ForceDead только по required-частям)"
+    ],
+    "dossier": ".ai-triage/bugs/1367646136298504222.md"
+  },
+  {
+    "thread_id": "1369925757610233887",
+    "verdict": "CONFIG_OR_CONTENT_ISSUE",
+    "confidence": "Medium",
+    "severity": "S3",
+    "complexity": "S",
+    "cluster_hint": "bloodloss-lethality",
+    "root_cause_short": "Смерть не привязана к % крови: ниже 0.9 лишь периодический Bloodloss-дамаг; значения bloodlossDamage у существ задаются контентом, дев анонсировал порог смерти ~40%",
+    "evidence": [
+      "Content.Shared/Body/Components/BloodstreamComponent.cs:80,87 (BloodlossThreshold=0.9, BloodlossDamage)",
+      "Content.Shared/Body/Systems/SharedBloodstreamSystem.cs:104-107 (amt = BloodlossDamage/(0.1+blood%))",
+      "Resources/Prototypes/Entities/Mobs/base.yml:280-285 (bloodlossDamage Bloodloss 0.5)",
+      "Resources/Prototypes/Entities/Mobs/NPCs/argocyte.yml:31-37 (переопределение у существ)"
+    ],
+    "dossier": ".ai-triage/bugs/1369925757610233887.md"
+  },
+  {
+    "thread_id": "1370396275329073172",
+    "verdict": "LIKELY_CURRENT_BUG",
+    "confidence": "Medium",
+    "severity": "S1",
+    "complexity": "L",
+    "cluster_hint": "rebell-death-model",
+    "root_cause_short": "Смерть при вставании/мгновенная повторная смерть после ревайва: накопленный wound/trauma урон добивает MobThresholds, ревайв не чистит раны и PainShock-парализации",
+    "evidence": [
+      "Content.Shared/_Shitmed/Surgery/Pain/Systems/PainSystem.Damage.cs:818-835 (PainShock: TryUpdateParalyzeDuration, ForceConscious)",
+      "Content.Shared/_Shitmed/Surgery/Traumas/Systems/TraumaSystem.Bones.cs:370 (_standing.Down при переломах)",
+      "Content.Shared/_Shitmed/Surgery/Consciousness/Systems/ConsciousnessSystem.Helpers.cs:158-179 (UpdateMobState закомментирован)",
+      "Resources/Prototypes/Entities/Mobs/base.yml:132 (MobThresholds)"
+    ],
+    "dossier": ".ai-triage/bugs/1370396275329073172.md"
+  },
+  {
+    "thread_id": "1372567955899940864",
+    "verdict": "CONFIRMED_CURRENT_BUG",
+    "confidence": "High",
+    "severity": "S3",
+    "complexity": "M",
+    "cluster_hint": "cybernetic-part-onadd-dead",
+    "root_cause_short": "J.W.L рука вешает Prying через BodyPart.onAdd на part-сущность внутри тела; релея prying с частей тела в коде нет — протез-пустышка (дев-подтверждено)",
+    "evidence": [
+      "Resources/Prototypes/_Shitmed/Body/Parts/cybernetic.yml:182-201 (JawsOfLifeLeft/RightArm, BodyPart.onAdd: Prying)",
+      "Content.Shared/Body/Part/BodyPartComponent.cs:18 (ISurgeryToolComponent — единственный tool-интерфейс части тела)",
+      "search: Prying отсутствует в Content.Shared/Body, Content.Server/Body (нет релея)"
+    ],
+    "dossier": ".ai-triage/bugs/1372567955899940864.md"
+  },
+  {
+    "thread_id": "1375074483001491557",
+    "verdict": "CONFIRMED_CURRENT_BUG",
+    "confidence": "High",
+    "severity": "S1",
+    "complexity": "XL",
+    "cluster_hint": "rebell-death-model",
+    "root_cause_short": "Бессмертие при 0 крови/макс. кровотечении: ReBell UpdateMobState закомментирован, смерть только по MobThresholds/ForceDead-мозгу/DelayedDeath (сердце+мозг), Bloodloss-урон перехватывается раневой моделью",
+    "evidence": [
+      "Content.Shared/_Shitmed/Surgery/Consciousness/Systems/ConsciousnessSystem.Helpers.cs:158-179 (UpdateMobState закомментирован)",
+      "Content.Server/_Shitmed/DelayedDeath/DelayedDeathSystem.cs:29-57 + HeartSystem.cs/DebrainedSystem.cs (подписанты)",
+      "Content.Shared/Body/Systems/SharedBloodstreamSystem.cs:104-107 (Bloodloss-дамаг)",
+      "Content.Shared/_Shitmed/Surgery/Wounds/Systems/WoundSystem.Wounding.cs:34,165 (перехват DamageChangedEvent в раны)",
+      "Resources/Prototypes/Entities/Mobs/base.yml:132 (MobThresholds)"
+    ],
+    "dossier": ".ai-triage/bugs/1375074483001491557.md"
+  },
+  {
+    "thread_id": "1383537990382649396",
+    "verdict": "CONFIG_OR_CONTENT_ISSUE",
+    "confidence": "High",
+    "severity": "S2",
+    "complexity": "S",
+    "cluster_hint": "rebell-pain-balance",
+    "root_cause_short": "PainShock-парализации от накопленной боли мелких травм работают как задумано; вопрос баланса TraumasChances/порогов боли и traumadeductions у брони; связан с B09 1380911822634225724",
+    "evidence": [
+      "Content.Shared/_Shitmed/Surgery/Pain/Systems/PainSystem.Damage.cs:818-858 (PainShock/PainShockAndAgony paralyze)",
+      "Content.Shared/_Shitmed/Surgery/Traumas/Systems/TraumaSystem.Process.cs:286,481 (severity-порог + роллы TraumasChances; см. B09)",
+      "Content.Shared/_Shitmed/Surgery/Traumas/Components/TraumaInflicterComponent.cs:52 (TraumasChances)",
+      ".ai-triage/bugs/1380911822634225724.md (B09 primary, CONFIG_OR_CONTENT_ISSUE dev-confirmed)"
+    ],
+    "dossier": ".ai-triage/bugs/1383537990382649396.md"
+  }
+]
