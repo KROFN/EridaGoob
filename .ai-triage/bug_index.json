@@ -15,14 +15,14 @@
   "external_media_files": 5,
   "VERDICTS": {
    "USER_ERROR_OR_NOT_BUG": 8,
-   "ALREADY_FIXED_IN_CURRENT_FORK": 21,
-   "CANNOT_VERIFY": 22,
-   "LIKELY_CURRENT_BUG": 13,
-   "CONFIG_OR_CONTENT_ISSUE": 22,
-   "CONFIRMED_CURRENT_BUG": 8,
+   "ALREADY_FIXED_IN_CURRENT_FORK": 27,
+   "CANNOT_VERIFY": 28,
+   "LIKELY_CURRENT_BUG": 25,
+   "CONFIG_OR_CONTENT_ISSUE": 27,
+   "CONFIRMED_CURRENT_BUG": 9,
    "DUPLICATE": 2
   },
-  "VERDICT_COVERAGE": 96
+  "VERDICT_COVERAGE": 126
  },
  "threads": [
   {
@@ -1157,9 +1157,17 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1364967964230811698.md",
+   "confidence": "Low",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "Phantom invisible server-switch buttons in lobby job window; UI code not located within budget, screenshot not inspectable in triage context",
+   "evidence": [
+    "Content.Client/Lobby/UI/LobbyGui.xaml:ServerName/ServerInfo/ServerCurrency",
+    ".ai-triage/data/threads/1364967964230811698.json"
+   ]
   },
   {
    "thread_id": "1364986667265691729",
@@ -4794,9 +4802,18 @@
    },
    "replies": [],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "LIKELY_CURRENT_BUG",
+   "cluster": "windoor-close-blocked",
+   "dossier": ".ai-triage/bugs/1366747516258881536.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "S",
+   "root_cause_short": "SharedDoorSystem.CanClose->GetColliding блокирует закрытие windoor при любом пересечении фикстур на тайле двери — коллайдер стоящего вплотную игрока попадает в проверку",
+   "evidence": [
+    "Content.Shared/Doors/Systems/SharedDoorSystem.cs:CanClose(439-458)",
+    "Resources/Prototypes/Entities/Structures/Doors/Windoors/windoor.yml:Windoor",
+    "Resources/Locale/ru-RU/ss14-ru/prototypes/entities/structures/doors/windoors/windoor.ftl:ent-Windoor=раздвижное окно"
+   ]
   },
   {
    "thread_id": "1366802698430578818",
@@ -5704,9 +5721,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "LIKELY_CURRENT_BUG",
+   "cluster": "pain-numbness-mood",
+   "dossier": ".ai-triage/bugs/1367781435938832436.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "S",
+   "root_cause_short": "Трейт PainNumbness (_Erida traits) добавляет PainNumbnessStatusEffect, но PainNumbnessSystem не гейтит pain→mood модификаторы — настроение портится несмотря на нечувствительность; dev'ы заявили удаление трейта",
+   "evidence": [
+    "Resources/Prototypes/_Erida/Traits/erida_traits.yml:302-310",
+    "Content.Shared/Traits/Assorted/PainNumbnessSystem.cs:15-49",
+    "Resources/Prototypes/Traits/disabilities.yml:86-93 (upstream вырезан)"
+   ]
   },
   {
    "thread_id": "1367843022061965395",
@@ -5839,9 +5865,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1368366125208965151.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "Старая grid-based весомость давала предметам поведение невесомости; домен переписан event-based weightlessness (upstream #37971) после репорта",
+   "evidence": [
+    "Content.Shared/Gravity/SharedGravitySystem.cs:IsWeightless/GetWeightless",
+    "Content.Shared/Gravity/GravityAffectedComponent.cs",
+    "Content.Shared/Friction/TileFrictionController.cs:UpdateBeforeSolve",
+    "commit a76cd88d01 (2025-08-19) EVENT BASED WEIGHTLESSNESS (#37971)"
+   ]
   },
   {
    "thread_id": "1368375611302875308",
@@ -5985,9 +6021,21 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+   "cluster": "footprint-cleaning",
+   "dossier": ".ai-triage/bugs/1368389167616098424.md",
+   "confidence": "High",
+   "severity": "S3",
+   "complexity": "S",
+   "root_cause_short": "At report time mop had no footprint-cleaning path (no FloorCleaner component/system; dry mop only mopping-system-no-water); current fork scrubs footprints via FloorCleanerSystem",
+   "evidence": [
+    "Content.Goobstation.Shared/FloorCleaner/FloorCleanerSystem.cs:OnAfterInteract",
+    "Content.Goobstation.Server/Footprints/FootprintSystem.cs:OnFootprintClean",
+    "Content.Server/Chemistry/TileReactions/CleanTileReaction.cs:63-66",
+    "Resources/Prototypes/Entities/Objects/Specific/Janitorial/janitor.yml:MopItem",
+    "commit:cba03bc191",
+    "commit:71790ef585"
+   ]
   },
   {
    "thread_id": "1368389636531163186",
@@ -6217,9 +6265,19 @@
    },
    "replies": [],
    "mentions": [],
-   "verdict": null,
+   "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1368604669160591390.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "XS",
+   "root_cause_short": "Временный регресс лечения/HUD в переходном окне перед Woundmed Port (#1859, 2025-05-11); в текущем форке healing.yml и ShowHealthIcons/EntityHealthBarOverlay присутствуют, портовые фиксы #2742/#2746/#2761 вышли после отчёта",
+   "evidence": [
+    "Resources/Prototypes/Entities/Objects/Specific/Medical/healing.yml:type: Healing",
+    "Content.Client/Overlays/ShowHealthIconsSystem.cs",
+    "Content.Client/Overlays/EntityHealthBarOverlay.cs:138",
+    "git:8706b5039e/7e5bb8be72/3ce2ad136d/e6d2b49b31"
+   ]
   },
   {
    "thread_id": "1368606729440333845",
@@ -6501,9 +6559,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1368659829916434494.md",
+   "confidence": "High",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "MaskSystem toggled EquippedPrefix; re-equip rebuilt visuals from stale prefix so masks without a down-state RSI sprite rendered invisible but functional; fixed upstream SS14 #40332, merged via 2-july sync",
+   "evidence": [
+    "Content.Shared/Clothing/EntitySystems/MaskSystem.cs:SetToggled",
+    "Content.Shared/Clothing/Components/MaskComponent.cs:IsToggled",
+    "commit:e9266d9cdf",
+    "commit:68b7977bee"
+   ]
   },
   {
    "thread_id": "1368872733877731388",
@@ -6684,9 +6752,17 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "LIKELY_CURRENT_BUG",
+   "cluster": "head-bonk",
+   "dossier": ".ai-triage/bugs/1368875720373309480.md",
+   "confidence": "Low",
+   "severity": "S3",
+   "complexity": "S",
+   "root_cause_short": "Сущность Footprint — статическое физическое тело с фикстурой (не декаль); контакт ползущего тела с ней мешает вставанию на тайле со следами",
+   "evidence": [
+    "Resources/Prototypes/_White/Entities/Effects/puddle.yml:Footprint(Physics Static+Fixtures,17-30)",
+    "Content.Goobstation.Server/Footprints/FootprintSystem.cs:FootprintInteraction(188-193)"
+   ]
   },
   {
    "thread_id": "1368880663603843132",
@@ -6863,9 +6939,19 @@
    },
    "replies": [],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+   "cluster": "footprints-lube-slip",
+   "dossier": ".ai-triage/bugs/1368929127822000138.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "S",
+   "root_cause_short": "Crawling on lube bodyprint trail triggered slips pre-tweak; commit 8122b6a82b set SpaceLube sticksToSkin:false and requiredSlipSpeed 0.1 ('no crawling to avoid it') so lube bodyprints no longer form",
+   "evidence": [
+    "commit:8122b6a82b",
+    "Resources/Prototypes/Reagents/cleaning.yml:103-120",
+    "Content.Goobstation.Server/Footprints/FootprintSystem.cs:OnMove",
+    "Resources/Prototypes/_White/Entities/Effects/puddle.yml:Footprint"
+   ]
   },
   {
    "thread_id": "1368971544977739826",
@@ -7060,9 +7146,20 @@
    },
    "replies": [],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+   "cluster": "footprint-cleaning",
+   "dossier": ".ai-triage/bugs/1369020340520357968.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "S",
+   "root_cause_short": "Report-era mop without FloorCleaner could not erase footprints; 'no water' vs 'mop full' popups stem from UseAbsorberSolution counting only Water as mopping ammo while reservoir fills with contaminants",
+   "evidence": [
+    "Content.Shared/Fluids/SharedAbsorbentSystem.cs:301-307",
+    "Content.Shared/Fluids/SharedAbsorbentSystem.cs:250",
+    "Content.Goobstation.Shared/FloorCleaner/FloorCleanerSystem.cs:StartCleaning",
+    "commit:54ce591914",
+    "commit:cba03bc191"
+   ]
   },
   {
    "thread_id": "1369022065528799292",
@@ -8088,9 +8185,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "LIKELY_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1369541733196496936.md",
+   "confidence": "Medium",
+   "severity": "S2",
+   "complexity": "M",
+   "root_cause_short": "AI built-in crew monitoring resolves as command-only (CrewMonitorScanningComponent/IsCommandTracker) plus unfiltered cross-station server broadcasts and full ConnectedSensors replacement -> shows CC crew instead of local station",
+   "evidence": [
+    "Content.Server/Medical/CrewMonitoring/CrewMonitoringConsoleSystem.cs:OnPacketReceived/UpdateUserInterface (GoobStation filter)",
+    "Content.Server/Medical/CrewMonitoring/CrewMonitoringServerSystem.cs:BroadcastSensorStatus",
+    "Content.Server/DeviceNetwork/Systems/SingletonDeviceNetServerSystem.cs:one active server per station"
+   ]
   },
   {
    "thread_id": "1369663765662007297",
@@ -9579,9 +9685,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "LIKELY_CURRENT_BUG",
+   "cluster": "stale-weightless-items",
+   "dossier": ".ai-triage/bugs/1370482031624061070.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "TryConvey ранний return при IsWeightless: мусор со stale Weightless=true не подхватывается лентой и не доезжает до reclaimer; ручной InteractUsing работает",
+   "evidence": [
+    "Content.Shared/Physics/Controllers/SharedConveyorController.cs:TryConvey (l.234-238)",
+    "Content.Shared/Gravity/SharedGravitySystem.cs:GetWeightless/OnEntParentChanged",
+    "Content.Server/Materials/MaterialReclaimerSystem.cs:OnInteractUsing (l.72-93)",
+    "Content.Server/Physics/Controllers/ConveyorController.cs:SetState (l.99-116)"
+   ]
   },
   {
    "thread_id": "1370486618670104757",
@@ -12966,9 +13082,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1382297503306743808.md",
+   "confidence": "Low",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "HYPOTHESIS: hand-assembly construction graph of the doc printer lacks a deconstruct edge/material drop for the final node, so screwdriver on the finished machine deletes it; prototype/graph file not located within search budget",
+   "evidence": [
+    "Resources/Locale/ru-RU/_Corvax/paper/doc-printer.ftl",
+    "commit:0ddb58f4e0",
+    "thread reply 2025-09-12:still-reproduces"
+   ]
   },
   {
    "thread_id": "1382298274798768169",
@@ -14733,9 +14858,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "LIKELY_CURRENT_BUG",
+   "cluster": "windoor-phasing",
+   "dossier": ".ai-triage/bugs/1388575425562673282.md",
+   "confidence": "Medium",
+   "severity": "S2",
+   "complexity": "M",
+   "root_cause_short": "Падение со стола в downed-состоянии (eject-импульс + SlidingSystem) протыкает тонкую фикстуру закрытого windoor (дискретная физика, tunneling); под-баг с кнопкой/доступом не локализован",
+   "evidence": [
+    "Content.Shared/Slippery/SlidingSystem.cs:SlidingComponent",
+    "Content.Shared/Mobs/Systems/MobStateSystem.Subscribers.cs:EnsureComp<CollisionWakeComponent>(128)",
+    "Resources/Prototypes/Entities/Structures/Doors/Windoors/windoor.yml:BaseWindoor"
+   ]
   },
   {
    "thread_id": "1388579384419553460",
@@ -15171,9 +15305,20 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "LIKELY_CURRENT_BUG",
+   "cluster": "footprint-cleaning",
+   "dossier": ".ai-triage/bugs/1391191286165540995.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "Cleaning a footprint re-spills its solution as a puddle (FootprintCleanEvent->ToPuddle) and 50u tile overflow spawns real slippery puddles; non-evaporating lube makes trails effectively unerasesble while slipping cancels the mop DoAfter",
+   "evidence": [
+    "Content.Goobstation.Server/Footprints/FootprintSystem.cs:ToPuddle",
+    "Content.Goobstation.Server/Footprints/FootprintSystem.cs:MaxFootprintVolumeOnTile",
+    "Resources/Prototypes/Entities/Effects/puddle.yml:156-162",
+    "Resources/Prototypes/Reagents/cleaning.yml:SpaceLube",
+    "Resources/Prototypes/_White/Entities/Effects/puddle.yml:Footprint"
+   ]
   },
   {
    "thread_id": "1391687746484965376",
@@ -15624,9 +15769,17 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1392895660189286440.md",
+   "confidence": "High",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "Намеренное контент-решение: показ ДНК вампира убран как анти-легкое раскрытие (подтверждено админами в треде); символа Vampire в *.cs форка нет вовсе",
+   "evidence": [
+    "grep Vampire *.cs = 0 matches",
+    "threads/1392895660189286440.json:replies (Фобос, czurka)"
+   ]
   },
   {
    "thread_id": "1393135432060899379",
@@ -16010,9 +16163,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
+   "cluster": "head-bonk",
+   "dossier": ".ai-triage/bugs/1395874643985829938.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "XS",
+   "root_cause_short": "Bonk — спроектированное поведение: ClumsySystem.OnBeforeClimbEvent (при game.table_bonk=true шанс-ролл пропускается) + Bonkable столов Blunt 4; жалоба на баланс/тюнинг",
+   "evidence": [
+    "Content.Shared/Clumsy/ClumsySystem.cs:OnBeforeClimbEvent(144-188),HitHeadClumsy(196-208)",
+    "Content.Shared/CCVar/CCVars.Game.cs:GameTableBonk(318-319)",
+    "Resources/Prototypes/Entities/Structures/Furniture/Tables/base_structuretables.yml:Bonkable(35-38)"
+   ]
   },
   {
    "thread_id": "1398624534411612271",
@@ -19655,9 +19817,17 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "LIKELY_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1415300392614629427.md",
+   "confidence": "Medium",
+   "severity": "S4",
+   "complexity": "S",
+   "root_cause_short": "ru-RU locale missing silicon-law FTL keys (or English raw law strings) -> mixed RU/EN borg laws via en-US fallback",
+   "evidence": [
+    "Resources/Locale/ru-RU/connection-messages.ftl (ru locale tree exists)",
+    ".ai-triage/data/threads/1415300392614629427.json"
+   ]
   },
   {
    "thread_id": "1415398726029152346",
@@ -20046,9 +20216,17 @@
    },
    "replies": [],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1416168662695546921.md",
+   "confidence": "Low",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "Hypothesis: speech relayed through spawned holopad hologram is language-checked on the hologram entity, which lacks the AI's understood languages",
+   "evidence": [
+    "Content.Server/Holopad/HolopadSystem.cs:Spawn(HologramProtoId)/LinkHolopadToUser/Einstein Engines language using",
+    ".ai-triage/data/threads/1416168662695546921.json"
+   ]
   },
   {
    "thread_id": "1416386325006778440",
@@ -20167,9 +20345,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
+   "cluster": "per-map-device-content-gaps",
+   "dossier": ".ai-triage/bugs/1416386325006778440.md",
+   "confidence": "High",
+   "severity": "S3",
+   "complexity": "S",
+   "root_cause_short": "Maps lack telecom servers carrying the law-department encryption key, so the law radio frequency is relayed nowhere (dev-confirmed in thread)",
+   "evidence": [
+    "Resources/Prototypes/radio_channels.yml:type: radioChannel",
+    "Resources/Prototypes/_Goobstation/radio_channels.yml:type: radioChannel",
+    ".ai-triage/data/threads/1416386325006778440.json:Vecortys dev reply"
+   ]
   },
   {
    "thread_id": "1417098657832112220",
@@ -20218,9 +20405,17 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CANNOT_VERIFY",
+   "cluster": "cargo-dock-fans",
+   "dossier": ".ai-triage/bugs/1417098657832112220.md",
+   "confidence": "Low",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "Саркастичный однострочник без карты/медиа; кодово у AtmosDeviceFanDirectional нет зависимости от света/питания — вероятна маппинговая проблема как в 1424014048726351937",
+   "evidence": [
+    "Resources/Prototypes/Entities/Structures/Piping/Atmospherics/special.yml:AtmosDeviceFanDirectional (l.31-57)",
+    "Content.Shared/_DV/Whitelist/HolofanComponent.cs"
+   ]
   },
   {
    "thread_id": "1417112501325398128",
@@ -21116,9 +21311,17 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CONFIRMED_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1419998003447468153.md",
+   "confidence": "High",
+   "severity": "S3",
+   "complexity": "S",
+   "root_cause_short": "Conveyor не исключает BeingCarriedComponent: несомый игрок сохраняет собственное Dynamic-тело, контактирует с fixture ленты и разгоняется ею, пока носитель идёт против конвейера",
+   "evidence": [
+    "Content.Shared/Physics/Controllers/SharedConveyorController.cs:OnConveyorStartCollide (l.116-124), UpdateBeforeSolve (l.126-199)",
+    "Content.Shared/_DV/Carrying/CarryingSystem.cs:Carry (l.267-295), Update/SetLocalPosition (l.375-399)"
+   ]
   },
   {
    "thread_id": "1420093168627748997",
@@ -22235,9 +22438,18 @@
    "mentions": [
     "Box"
    ],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "LIKELY_CURRENT_BUG",
+   "cluster": "cargo-dock-fans",
+   "dossier": ".ai-triage/bugs/1424014048726351937.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "S",
+   "root_cause_short": "Вентилятор карго-дока на Box (box.yml uid 831, AtmosDeviceFanDirectional) не перекрывает проём — маппинговая неисправность (тайл/поворот/anchor), подтверждена маппером",
+   "evidence": [
+    "Resources/Maps/_Goobstation/box.yml:l.15421-15427 (proto: AtmosDeviceFanDirectional, pos 56.5,-79.5)",
+    "Resources/Prototypes/Entities/Structures/Piping/Atmospherics/special.yml:AtmosDeviceFanDirectional (Airtight, airBlockedDirection South)",
+    "commit 261d8a51f6 Box update (#5837) — после репорта"
+   ]
   },
   {
    "thread_id": "1425197082456756354",
@@ -29251,9 +29463,17 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "LIKELY_CURRENT_BUG",
+   "cluster": "windoor-phasing",
+   "dossier": ".ai-triage/bugs/1449508411325677692.md",
+   "confidence": "Medium",
+   "severity": "S2",
+   "complexity": "S",
+   "root_cause_short": "Гарпун не встраивается в закрытый windoor, а reel-joint (MinLength=1 защищает только стены) волочит игрока сквозь windoor — проверки препятствий между точками нет",
+   "evidence": [
+    "Content.Shared/Weapons/Misc/SharedGrapplingGunSystem.cs:OnGrappleCollide(227-240,MinLength комментарий)",
+    "Content.Shared/Weapons/Misc/SharedGrapplingGunSystem.cs:Update/reel(160-205)"
+   ]
   },
   {
    "thread_id": "1449567571954241757",
@@ -30644,9 +30864,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1452656751089418280.md",
+   "confidence": "Low",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "Интермитентное лёгкое пересечение раундстартовых шаттлов со станцией: гипотеза — docking-выравнивание GridFill/PriorityDock без проверки overlap; кодовый путь не верифицирован",
+   "evidence": [
+    "Content.Server/Shuttles/Systems/DockingSystem.Shuttle.cs [?]",
+    "Content.Server/Shuttles/Systems/ShuttleSystem.GridFill.cs [?]",
+    "commit 05f517fa05 FTL arrival effect fix (#41951) — не docking-геометрия"
+   ]
   },
   {
    "thread_id": "1452687761545887806",
@@ -31194,9 +31423,17 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "LIKELY_CURRENT_BUG",
+   "cluster": "blob-pod-carry",
+   "dossier": ".ai-triage/bugs/1455157816800317595.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "S",
+   "root_cause_short": "MobBlobPod («капля») — моб с Clothing/несибельностью без защиты от самоснятия: carry-верб снимает каплю с жертвы и обнуляет заражение; dev в треде подтверждает «это компоненты, надо поменять»",
+   "evidence": [
+    "Resources/Prototypes/_Goobstation/Blob/blob_mobs.yml:4,24-40 (Clothing+BlobPod)",
+    "Resources/Locale/ru-RU/ss14-ru/prototypes/_goobstation/blob/blob_mobs.ftl:1 (ent-MobBlobPod=Блоб-капля)"
+   ]
   },
   {
    "thread_id": "1455157973608435714",
@@ -33473,9 +33710,17 @@
    },
    "replies": [],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1459594107709292707.md",
+   "confidence": "Low",
+   "severity": "S4",
+   "complexity": "S",
+   "root_cause_short": "Гипотеза: заклинивание брошенного мяча (малая круглая фикстура) в шве между стеночными фикстурами при остановке/скольжении; медиа недоступно, точный механизм не найден",
+   "evidence": [
+    "Resources/Prototypes/Entities/Objects/Fun/sports.yml:спортивные мячи",
+    "Content.Shared/Throwing/ThrowingSystem.cs:бросок/скольжение"
+   ]
   },
   {
    "thread_id": "1460788450742632602",
@@ -47823,9 +48068,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
+   "cluster": "per-map-device-content-gaps",
+   "dossier": ".ai-triage/bugs/1514984863562727596.md",
+   "confidence": "High",
+   "severity": "S3",
+   "complexity": "S",
+   "root_cause_short": "Train map camera entities exist (156 SurveillanceCamera occurrences) but are not linked to the SB surveillance camera server, so SB monitor lists nothing (mapper-confirmed)",
+   "evidence": [
+    "Resources/Maps/_Goobstation/train.yml:SurveillanceCamera (156)",
+    "Resources/Prototypes/Maps/train.yml",
+    ".ai-triage/data/threads/1514984863562727596.json:mangust2211 reply"
+   ]
   },
   {
    "thread_id": "1517204502527213829",
@@ -49973,9 +50227,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "LIKELY_CURRENT_BUG",
+   "cluster": "ipc-stamina",
+   "dossier": ".ai-triage/bugs/1532607747986558977.md",
+   "confidence": "Low",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "Стекло (shards.yml Slash 3.5, без Stamina) → woundmed-пайплайн механического woundable КПБ транслирует рану/боль в стамина-урон → стамина-крит; связующее звено wound→stamina не доказано построчно [INFER]",
+   "evidence": [
+    "Resources/Prototypes/Entities/Objects/Materials/shards.yml:6,25-27,100",
+    "Resources/Prototypes/_EinsteinEngines/Entities/Mobs/Player/ipc.yml",
+    "Content.Shared/_EinsteinEngines/Contests/ContestsSystem.cs:179-195"
+   ]
   },
   {
    "thread_id": "1533372731817594991",
@@ -52201,9 +52464,17 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1542243553533501510.md",
+   "confidence": "Medium",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "Перк PoorVision = PermanentBlindness(4) + обычные ClothingEyesGlasses (_DV-реализация) — очки/пересадка по дизайну не лечат; goob-вариант с рецептурными очками закомментирован",
+   "evidence": [
+    "Resources/Prototypes/_DV/Traits/disabilities.yml:19-31",
+    "Resources/Prototypes/Traits/disabilities.yml:20-23 (traitGear ClothingEyesPrescriptionGlasses закомментирован)"
+   ]
   },
   {
    "thread_id": "1542496476415000757",

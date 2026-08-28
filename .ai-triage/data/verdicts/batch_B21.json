@@ -1,0 +1,92 @@
+[
+ {
+  "thread_id": "1368366125208965151",
+  "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+  "confidence": "Medium",
+  "severity": "S3",
+  "complexity": "M",
+  "cluster_hint": null,
+  "root_cause_short": "Старая grid-based весомость давала предметам поведение невесомости; домен переписан event-based weightlessness (upstream #37971) после репорта",
+  "evidence": [
+   "Content.Shared/Gravity/SharedGravitySystem.cs:IsWeightless/GetWeightless",
+   "Content.Shared/Gravity/GravityAffectedComponent.cs",
+   "Content.Shared/Friction/TileFrictionController.cs:UpdateBeforeSolve",
+   "commit a76cd88d01 (2025-08-19) EVENT BASED WEIGHTLESSNESS (#37971)"
+  ],
+  "dossier": ".ai-triage/bugs/1368366125208965151.md"
+ },
+ {
+  "thread_id": "1370482031624061070",
+  "verdict": "LIKELY_CURRENT_BUG",
+  "confidence": "Medium",
+  "severity": "S3",
+  "complexity": "M",
+  "cluster_hint": "stale-weightless-items",
+  "root_cause_short": "TryConvey ранний return при IsWeightless: мусор со stale Weightless=true не подхватывается лентой и не доезжает до reclaimer; ручной InteractUsing работает",
+  "evidence": [
+   "Content.Shared/Physics/Controllers/SharedConveyorController.cs:TryConvey (l.234-238)",
+   "Content.Shared/Gravity/SharedGravitySystem.cs:GetWeightless/OnEntParentChanged",
+   "Content.Server/Materials/MaterialReclaimerSystem.cs:OnInteractUsing (l.72-93)",
+   "Content.Server/Physics/Controllers/ConveyorController.cs:SetState (l.99-116)"
+  ],
+  "dossier": ".ai-triage/bugs/1370482031624061070.md"
+ },
+ {
+  "thread_id": "1419998003447468153",
+  "verdict": "CONFIRMED_CURRENT_BUG",
+  "confidence": "High",
+  "severity": "S3",
+  "complexity": "S",
+  "cluster_hint": null,
+  "root_cause_short": "Conveyor не исключает BeingCarriedComponent: несомый игрок сохраняет собственное Dynamic-тело, контактирует с fixture ленты и разгоняется ею, пока носитель идёт против конвейера",
+  "evidence": [
+   "Content.Shared/Physics/Controllers/SharedConveyorController.cs:OnConveyorStartCollide (l.116-124), UpdateBeforeSolve (l.126-199)",
+   "Content.Shared/_DV/Carrying/CarryingSystem.cs:Carry (l.267-295), Update/SetLocalPosition (l.375-399)"
+  ],
+  "dossier": ".ai-triage/bugs/1419998003447468153.md"
+ },
+ {
+  "thread_id": "1417098657832112220",
+  "verdict": "CANNOT_VERIFY",
+  "confidence": "Low",
+  "severity": "S4",
+  "complexity": "XS",
+  "cluster_hint": "cargo-dock-fans",
+  "root_cause_short": "Саркастичный однострочник без карты/медиа; кодово у AtmosDeviceFanDirectional нет зависимости от света/питания — вероятна маппинговая проблема как в 1424014048726351937",
+  "evidence": [
+   "Resources/Prototypes/Entities/Structures/Piping/Atmospherics/special.yml:AtmosDeviceFanDirectional (l.31-57)",
+   "Content.Shared/_DV/Whitelist/HolofanComponent.cs"
+  ],
+  "dossier": ".ai-triage/bugs/1417098657832112220.md"
+ },
+ {
+  "thread_id": "1424014048726351937",
+  "verdict": "LIKELY_CURRENT_BUG",
+  "confidence": "Medium",
+  "severity": "S3",
+  "complexity": "S",
+  "cluster_hint": "cargo-dock-fans",
+  "root_cause_short": "Вентилятор карго-дока на Box (box.yml uid 831, AtmosDeviceFanDirectional) не перекрывает проём — маппинговая неисправность (тайл/поворот/anchor), подтверждена маппером",
+  "evidence": [
+   "Resources/Maps/_Goobstation/box.yml:l.15421-15427 (proto: AtmosDeviceFanDirectional, pos 56.5,-79.5)",
+   "Resources/Prototypes/Entities/Structures/Piping/Atmospherics/special.yml:AtmosDeviceFanDirectional (Airtight, airBlockedDirection South)",
+   "commit 261d8a51f6 Box update (#5837) — после репорта"
+  ],
+  "dossier": ".ai-triage/bugs/1424014048726351937.md"
+ },
+ {
+  "thread_id": "1452656751089418280",
+  "verdict": "CANNOT_VERIFY",
+  "confidence": "Low",
+  "severity": "S3",
+  "complexity": "M",
+  "cluster_hint": null,
+  "root_cause_short": "Интермитентное лёгкое пересечение раундстартовых шаттлов со станцией: гипотеза — docking-выравнивание GridFill/PriorityDock без проверки overlap; кодовый путь не верифицирован",
+  "evidence": [
+   "Content.Server/Shuttles/Systems/DockingSystem.Shuttle.cs [?]",
+   "Content.Server/Shuttles/Systems/ShuttleSystem.GridFill.cs [?]",
+   "commit 05f517fa05 FTL arrival effect fix (#41951) — не docking-геометрия"
+  ],
+  "dossier": ".ai-triage/bugs/1452656751089418280.md"
+ }
+]

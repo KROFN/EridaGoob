@@ -1,0 +1,89 @@
+[
+  {
+    "thread_id": "1364967964230811698",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Low",
+    "severity": "S3",
+    "complexity": "M",
+    "cluster_hint": null,
+    "root_cause_short": "Phantom invisible server-switch buttons in lobby job window; UI code not located within budget, screenshot not inspectable in triage context",
+    "evidence": [
+      "Content.Client/Lobby/UI/LobbyGui.xaml:ServerName/ServerInfo/ServerCurrency",
+      ".ai-triage/data/threads/1364967964230811698.json"
+    ],
+    "dossier": ".ai-triage/bugs/1364967964230811698.md"
+  },
+  {
+    "thread_id": "1416386325006778440",
+    "verdict": "CONFIG_OR_CONTENT_ISSUE",
+    "confidence": "High",
+    "severity": "S3",
+    "complexity": "S",
+    "cluster_hint": "per-map-device-content-gaps",
+    "root_cause_short": "Maps lack telecom servers carrying the law-department encryption key, so the law radio frequency is relayed nowhere (dev-confirmed in thread)",
+    "evidence": [
+      "Resources/Prototypes/radio_channels.yml:type: radioChannel",
+      "Resources/Prototypes/_Goobstation/radio_channels.yml:type: radioChannel",
+      ".ai-triage/data/threads/1416386325006778440.json:Vecortys dev reply"
+    ],
+    "dossier": ".ai-triage/bugs/1416386325006778440.md"
+  },
+  {
+    "thread_id": "1369541733196496936",
+    "verdict": "LIKELY_CURRENT_BUG",
+    "confidence": "Medium",
+    "severity": "S2",
+    "complexity": "M",
+    "cluster_hint": null,
+    "root_cause_short": "AI built-in crew monitoring resolves as command-only (CrewMonitorScanningComponent/IsCommandTracker) plus unfiltered cross-station server broadcasts and full ConnectedSensors replacement -> shows CC crew instead of local station",
+    "evidence": [
+      "Content.Server/Medical/CrewMonitoring/CrewMonitoringConsoleSystem.cs:OnPacketReceived/UpdateUserInterface (GoobStation filter)",
+      "Content.Server/Medical/CrewMonitoring/CrewMonitoringServerSystem.cs:BroadcastSensorStatus",
+      "Content.Server/DeviceNetwork/Systems/SingletonDeviceNetServerSystem.cs:one active server per station"
+    ],
+    "dossier": ".ai-triage/bugs/1369541733196496936.md"
+  },
+  {
+    "thread_id": "1415300392614629427",
+    "verdict": "LIKELY_CURRENT_BUG",
+    "confidence": "Medium",
+    "severity": "S4",
+    "complexity": "S",
+    "cluster_hint": null,
+    "root_cause_short": "ru-RU locale missing silicon-law FTL keys (or English raw law strings) -> mixed RU/EN borg laws via en-US fallback",
+    "evidence": [
+      "Resources/Locale/ru-RU/connection-messages.ftl (ru locale tree exists)",
+      ".ai-triage/data/threads/1415300392614629427.json"
+    ],
+    "dossier": ".ai-triage/bugs/1415300392614629427.md"
+  },
+  {
+    "thread_id": "1416168662695546921",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Low",
+    "severity": "S3",
+    "complexity": "M",
+    "cluster_hint": null,
+    "root_cause_short": "Hypothesis: speech relayed through spawned holopad hologram is language-checked on the hologram entity, which lacks the AI's understood languages",
+    "evidence": [
+      "Content.Server/Holopad/HolopadSystem.cs:Spawn(HologramProtoId)/LinkHolopadToUser/Einstein Engines language using",
+      ".ai-triage/data/threads/1416168662695546921.json"
+    ],
+    "dossier": ".ai-triage/bugs/1416168662695546921.md"
+  },
+  {
+    "thread_id": "1514984863562727596",
+    "verdict": "CONFIG_OR_CONTENT_ISSUE",
+    "confidence": "High",
+    "severity": "S3",
+    "complexity": "S",
+    "cluster_hint": "per-map-device-content-gaps",
+    "root_cause_short": "Train map camera entities exist (156 SurveillanceCamera occurrences) but are not linked to the SB surveillance camera server, so SB monitor lists nothing (mapper-confirmed)",
+    "evidence": [
+      "Resources/Maps/_Goobstation/train.yml:SurveillanceCamera (156)",
+      "Resources/Prototypes/Maps/train.yml",
+      ".ai-triage/data/threads/1514984863562727596.json:mangust2211 reply"
+    ],
+    "dossier": ".ai-triage/bugs/1514984863562727596.md"
+  }
+]

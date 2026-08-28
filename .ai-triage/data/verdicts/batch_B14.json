@@ -1,0 +1,68 @@
+[
+ {
+  "thread_id": "1368604669160591390",
+  "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+  "confidence": "Medium",
+  "severity": "S3",
+  "complexity": "XS",
+  "cluster_hint": null,
+  "root_cause_short": "Временный регресс лечения/HUD в переходном окне перед Woundmed Port (#1859, 2025-05-11); в текущем форке healing.yml и ShowHealthIcons/EntityHealthBarOverlay присутствуют, портовые фиксы #2742/#2746/#2761 вышли после отчёта",
+  "evidence": ["Resources/Prototypes/Entities/Objects/Specific/Medical/healing.yml:type: Healing", "Content.Client/Overlays/ShowHealthIconsSystem.cs", "Content.Client/Overlays/EntityHealthBarOverlay.cs:138", "git:8706b5039e/7e5bb8be72/3ce2ad136d/e6d2b49b31"],
+  "dossier": ".ai-triage/bugs/1368604669160591390.md"
+ },
+ {
+  "thread_id": "1367781435938832436",
+  "verdict": "LIKELY_CURRENT_BUG",
+  "confidence": "Medium",
+  "severity": "S3",
+  "complexity": "S",
+  "cluster_hint": "pain-numbness-mood",
+  "root_cause_short": "Трейт PainNumbness (_Erida traits) добавляет PainNumbnessStatusEffect, но PainNumbnessSystem не гейтит pain→mood модификаторы — настроение портится несмотря на нечувствительность; dev'ы заявили удаление трейта",
+  "evidence": ["Resources/Prototypes/_Erida/Traits/erida_traits.yml:302-310", "Content.Shared/Traits/Assorted/PainNumbnessSystem.cs:15-49", "Resources/Prototypes/Traits/disabilities.yml:86-93 (upstream вырезан)"],
+  "dossier": ".ai-triage/bugs/1367781435938832436.md"
+ },
+ {
+  "thread_id": "1392895660189286440",
+  "verdict": "CONFIG_OR_CONTENT_ISSUE",
+  "confidence": "High",
+  "severity": "S4",
+  "complexity": "XS",
+  "cluster_hint": null,
+  "root_cause_short": "Намеренное контент-решение: показ ДНК вампира убран как анти-легкое раскрытие (подтверждено админами в треде); символа Vampire в *.cs форка нет вовсе",
+  "evidence": ["grep Vampire *.cs = 0 matches", "threads/1392895660189286440.json:replies (Фобос, czurka)"],
+  "dossier": ".ai-triage/bugs/1392895660189286440.md"
+ },
+ {
+  "thread_id": "1532607747986558977",
+  "verdict": "LIKELY_CURRENT_BUG",
+  "confidence": "Low",
+  "severity": "S3",
+  "complexity": "M",
+  "cluster_hint": "ipc-stamina",
+  "root_cause_short": "Стекло (shards.yml Slash 3.5, без Stamina) → woundmed-пайплайн механического woundable КПБ транслирует рану/боль в стамина-урон → стамина-крит; связующее звено wound→stamina не доказано построчно [INFER]",
+  "evidence": ["Resources/Prototypes/Entities/Objects/Materials/shards.yml:6,25-27,100", "Resources/Prototypes/_EinsteinEngines/Entities/Mobs/Player/ipc.yml", "Content.Shared/_EinsteinEngines/Contests/ContestsSystem.cs:179-195"],
+  "dossier": ".ai-triage/bugs/1532607747986558977.md"
+ },
+ {
+  "thread_id": "1542243553533501510",
+  "verdict": "CONFIG_OR_CONTENT_ISSUE",
+  "confidence": "Medium",
+  "severity": "S4",
+  "complexity": "XS",
+  "cluster_hint": null,
+  "root_cause_short": "Перк PoorVision = PermanentBlindness(4) + обычные ClothingEyesGlasses (_DV-реализация) — очки/пересадка по дизайну не лечат; goob-вариант с рецептурными очками закомментирован",
+  "evidence": ["Resources/Prototypes/_DV/Traits/disabilities.yml:19-31", "Resources/Prototypes/Traits/disabilities.yml:20-23 (traitGear ClothingEyesPrescriptionGlasses закомментирован)"],
+  "dossier": ".ai-triage/bugs/1542243553533501510.md"
+ },
+ {
+  "thread_id": "1455157816800317595",
+  "verdict": "LIKELY_CURRENT_BUG",
+  "confidence": "Medium",
+  "severity": "S3",
+  "complexity": "S",
+  "cluster_hint": "blob-pod-carry",
+  "root_cause_short": "MobBlobPod («капля») — моб с Clothing/несибельностью без защиты от самоснятия: carry-верб снимает каплю с жертвы и обнуляет заражение; dev в треде подтверждает «это компоненты, надо поменять»",
+  "evidence": ["Resources/Prototypes/_Goobstation/Blob/blob_mobs.yml:4,24-40 (Clothing+BlobPod)", "Resources/Locale/ru-RU/ss14-ru/prototypes/_goobstation/blob/blob_mobs.ftl:1 (ent-MobBlobPod=Блоб-капля)"],
+  "dossier": ".ai-triage/bugs/1455157816800317595.md"
+ }
+]

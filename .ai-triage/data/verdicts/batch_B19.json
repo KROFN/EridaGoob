@@ -1,0 +1,68 @@
+[
+ {
+  "thread_id": "1366747516258881536",
+  "verdict": "LIKELY_CURRENT_BUG",
+  "confidence": "Medium",
+  "severity": "S3",
+  "complexity": "S",
+  "cluster_hint": "windoor-close-blocked",
+  "root_cause_short": "SharedDoorSystem.CanClose->GetColliding блокирует закрытие windoor при любом пересечении фикстур на тайле двери — коллайдер стоящего вплотную игрока попадает в проверку",
+  "evidence": ["Content.Shared/Doors/Systems/SharedDoorSystem.cs:CanClose(439-458)", "Resources/Prototypes/Entities/Structures/Doors/Windoors/windoor.yml:Windoor", "Resources/Locale/ru-RU/ss14-ru/prototypes/entities/structures/doors/windoors/windoor.ftl:ent-Windoor=раздвижное окно"],
+  "dossier": ".ai-triage/bugs/1366747516258881536.md"
+ },
+ {
+  "thread_id": "1388575425562673282",
+  "verdict": "LIKELY_CURRENT_BUG",
+  "confidence": "Medium",
+  "severity": "S2",
+  "complexity": "M",
+  "cluster_hint": "windoor-phasing",
+  "root_cause_short": "Падение со стола в downed-состоянии (eject-импульс + SlidingSystem) протыкает тонкую фикстуру закрытого windoor (дискретная физика, tunneling); под-баг с кнопкой/доступом не локализован",
+  "evidence": ["Content.Shared/Slippery/SlidingSystem.cs:SlidingComponent", "Content.Shared/Mobs/Systems/MobStateSystem.Subscribers.cs:EnsureComp<CollisionWakeComponent>(128)", "Resources/Prototypes/Entities/Structures/Doors/Windoors/windoor.yml:BaseWindoor"],
+  "dossier": ".ai-triage/bugs/1388575425562673282.md"
+ },
+ {
+  "thread_id": "1449508411325677692",
+  "verdict": "LIKELY_CURRENT_BUG",
+  "confidence": "Medium",
+  "severity": "S2",
+  "complexity": "S",
+  "cluster_hint": "windoor-phasing",
+  "root_cause_short": "Гарпун не встраивается в закрытый windoor, а reel-joint (MinLength=1 защищает только стены) волочит игрока сквозь windoor — проверки препятствий между точками нет",
+  "evidence": ["Content.Shared/Weapons/Misc/SharedGrapplingGunSystem.cs:OnGrappleCollide(227-240,MinLength комментарий)", "Content.Shared/Weapons/Misc/SharedGrapplingGunSystem.cs:Update/reel(160-205)"],
+  "dossier": ".ai-triage/bugs/1449508411325677692.md"
+ },
+ {
+  "thread_id": "1459594107709292707",
+  "verdict": "CANNOT_VERIFY",
+  "confidence": "Low",
+  "severity": "S4",
+  "complexity": "S",
+  "cluster_hint": null,
+  "root_cause_short": "Гипотеза: заклинивание брошенного мяча (малая круглая фикстура) в шве между стеночными фикстурами при остановке/скольжении; медиа недоступно, точный механизм не найден",
+  "evidence": ["Resources/Prototypes/Entities/Objects/Fun/sports.yml:спортивные мячи", "Content.Shared/Throwing/ThrowingSystem.cs:бросок/скольжение"],
+  "dossier": ".ai-triage/bugs/1459594107709292707.md"
+ },
+ {
+  "thread_id": "1395874643985829938",
+  "verdict": "CONFIG_OR_CONTENT_ISSUE",
+  "confidence": "Medium",
+  "severity": "S3",
+  "complexity": "XS",
+  "cluster_hint": "head-bonk",
+  "root_cause_short": "Bonk — спроектированное поведение: ClumsySystem.OnBeforeClimbEvent (при game.table_bonk=true шанс-ролл пропускается) + Bonkable столов Blunt 4; жалоба на баланс/тюнинг",
+  "evidence": ["Content.Shared/Clumsy/ClumsySystem.cs:OnBeforeClimbEvent(144-188),HitHeadClumsy(196-208)", "Content.Shared/CCVar/CCVars.Game.cs:GameTableBonk(318-319)", "Resources/Prototypes/Entities/Structures/Furniture/Tables/base_structuretables.yml:Bonkable(35-38)"],
+  "dossier": ".ai-triage/bugs/1395874643985829938.md"
+ },
+ {
+  "thread_id": "1368875720373309480",
+  "verdict": "LIKELY_CURRENT_BUG",
+  "confidence": "Low",
+  "severity": "S3",
+  "complexity": "S",
+  "cluster_hint": "head-bonk",
+  "root_cause_short": "Сущность Footprint — статическое физическое тело с фикстурой (не декаль); контакт ползущего тела с ней мешает вставанию на тайле со следами",
+  "evidence": ["Resources/Prototypes/_White/Entities/Effects/puddle.yml:Footprint(Physics Static+Fixtures,17-30)", "Content.Goobstation.Server/Footprints/FootprintSystem.cs:FootprintInteraction(188-193)"],
+  "dossier": ".ai-triage/bugs/1368875720373309480.md"
+ }
+]
