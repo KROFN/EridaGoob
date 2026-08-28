@@ -1,0 +1,92 @@
+[
+  {
+    "thread_id": "1365588601169248336",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Medium",
+    "severity": "S3",
+    "complexity": "M",
+    "cluster_hint": null,
+    "root_cause_short": "Aspid cargo dock approach: карта Aspid отсутствует в текущем дереве/истории репо (удалена b59950d461 2024-01-30, WizDen-карты в cold storage 7531aa31a7) — геометрию дока проверить не по чему.",
+    "evidence": [
+      "git: Resources/Maps/aspid.yml удалён в b59950d461 (2024-01-30), не восстановлен",
+      "git: 7531aa31a7 (2025-05-10) Moved wizden maps back to cold storage",
+      "git ls-tree e7be57d85f (2025-04-26): aspid.yml отсутствует"
+    ],
+    "dossier": ".ai-triage/bugs/1365588601169248336.md"
+  },
+  {
+    "thread_id": "1366962720901038151",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Medium",
+    "severity": "S3",
+    "complexity": "M",
+    "cluster_hint": null,
+    "root_cause_short": "The Hive (старая кастомная карта, в репо никогда не существовала): отсутствие lavaland-шаттла и почтового спавна — контент-разрыв приватной карты; админы подтверждают «карта старая».",
+    "evidence": [
+      "git log --all -- Resources/Maps/ | rg hive: пусто (карта никогда не была в репо)",
+      "Resources/Prototypes/Maps/*.yml + _Goobstation/Maps/*.yml: карты Hive нет",
+      "thread replies: abama «Наверное потомучто карта старая»"
+    ],
+    "dossier": ".ai-triage/bugs/1366962720901038151.md"
+  },
+  {
+    "thread_id": "1431376123060555828",
+    "verdict": "LIKELY_CURRENT_BUG",
+    "confidence": "Medium",
+    "severity": "S3",
+    "complexity": "S",
+    "cluster_hint": null,
+    "root_cause_short": "Nukie shuttle dock-порт ориентирован в стену базы на nukieplanet.yml; маппер Cat_L признал («Будет исправлено»), фикс-коммитов по доку после 2025-10-24 в репо нет.",
+    "evidence": [
+      "Resources/Prototypes/_Goobstation/GameRules/roundstart.yml:138 mapPath /Maps/_Goobstation/Nonstations/nukieplanet.yml",
+      "Resources/Maps/_Goobstation/Nonstations/nukieplanet.yml: нет правок dock после 2025-10-24",
+      "thread replies: «Будет исправлено» (Cat_L)"
+    ],
+    "dossier": ".ai-triage/bugs/1431376123060555828.md"
+  },
+  {
+    "thread_id": "1386441724200616016",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Medium",
+    "severity": "S2",
+    "complexity": "S",
+    "cluster_hint": null,
+    "root_cause_short": "Federation Box: атмосферный гэп у первых внешних шлюзов; maintainer Yosif заявил «Оно уже исправлено. Жди апстрим» (2025-06-22), но карта-вариация в этом репо отсутствует (box.yml скрыт в cold storage) и фикс-коммит не идентифицируется.",
+    "evidence": [
+      "Resources/Maps/.box.yml (7531aa31a7, 2025-05-10 — box скрыт из серверного набора)",
+      "git: d49b626b09 (2025-06-19) upstream sync #3794 — правка могла приехать синком, sha не подтверждён",
+      "thread replies: Yosif «Оно уже исправлено»"
+    ],
+    "dossier": ".ai-triage/bugs/1386441724200616016.md"
+  },
+  {
+    "thread_id": "1367123372160323656",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Medium",
+    "severity": "S4",
+    "complexity": "XS",
+    "cluster_hint": null,
+    "root_cause_short": "Aspid kitchen lamp: fixture у стойки вместо стены — карта Aspid отсутствует в репо (см. b59950d461/cold storage), позицию лампы проверить не по чему; maintainer объявил «интенциональным».",
+    "evidence": [
+      "git: Resources/Maps/aspid.yml отсутствует в дереве HEAD a671a91188",
+      "thread replies: Yosif «Так это специально…»",
+      "git ls-tree e7be57d85f (2025-04-26): aspid.yml нет"
+    ],
+    "dossier": ".ai-triage/bugs/1367123372160323656.md"
+  },
+  {
+    "thread_id": "1365605529233391656",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Low",
+    "severity": "S4",
+    "complexity": "XS",
+    "cluster_hint": null,
+    "root_cause_short": "«Моделька под дорогой»: road-тайлы/карта с дорогами отсутствуют в репо (rg road по Tiles — 0), медиа не рендерится в контексте; сцена — приватный/старый контент Erida.",
+    "evidence": [
+      "git grep -il road Resources/Prototypes/Tiles*: пусто",
+      "git log --all -- Resources/Maps/: карт с дорогами/домиками нет",
+      "attachments: скриншот не читается в суб-агент контексте; gif — REACTION_MEME"
+    ],
+    "dossier": ".ai-triage/bugs/1365605529233391656.md"
+  }
+]

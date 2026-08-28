@@ -15,14 +15,14 @@
   "external_media_files": 5,
   "VERDICTS": {
    "USER_ERROR_OR_NOT_BUG": 8,
-   "ALREADY_FIXED_IN_CURRENT_FORK": 27,
-   "CANNOT_VERIFY": 28,
-   "LIKELY_CURRENT_BUG": 25,
-   "CONFIG_OR_CONTENT_ISSUE": 27,
-   "CONFIRMED_CURRENT_BUG": 9,
+   "ALREADY_FIXED_IN_CURRENT_FORK": 29,
+   "CANNOT_VERIFY": 41,
+   "LIKELY_CURRENT_BUG": 31,
+   "CONFIG_OR_CONTENT_ISSUE": 30,
+   "CONFIRMED_CURRENT_BUG": 10,
    "DUPLICATE": 2
   },
-  "VERDICT_COVERAGE": 126
+  "VERDICT_COVERAGE": 151
  },
  "threads": [
   {
@@ -2012,9 +2012,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1365348238722600990.md",
+   "confidence": "Low",
+   "severity": "S4",
+   "complexity": "S",
+   "root_cause_short": "Карта ЦК (СЦК) текущего форка вообще не содержит HydroponicsTray (ни в HEAD, ни на дату репорта) — воспроизвести нечего; фикс существовал в форке Backmen, перенос в git Erida не найден",
+   "evidence": [
+    "Resources/Maps/centcomm.yml:HydroponicsTray=0",
+    "git log -S HydroponicsTray --all -- 'Resources/Maps/*entcomm*' = empty",
+    "Resources/Locale/ru-RU/_CorvaxGoob/guidebook/SOP/centcomm.ftl: СЦК=ЦК"
+   ]
   },
   {
    "thread_id": "1365350238667280396",
@@ -2694,9 +2703,19 @@
    "mentions": [
     "P.s"
    ],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1365481390363115561.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "Ветка 'длинноствольное вооружение' не сопоставляется с HEAD; текущее дерево Arsenal (arsenal.yml + _Goobstation/Research/arsenal.yml) полно и все technologyPrerequisites резолвятся",
+   "evidence": [
+    "Resources/Prototypes/Research/arsenal.yml:technology ids SalvageWeapons..AdvancedShuttleWeapon",
+    "Resources/Prototypes/_Goobstation/Research/arsenal.yml:WeaponLaserCellRevolverTech..BlueSpaceMunitions",
+    "Resources/Prototypes/_White/Research/experimental.yml:20:ThermalVisionTech",
+    "Resources/Locale/ru-RU/research/technologies.ftl:26-43"
+   ]
   },
   {
    "thread_id": "1365548709525585950",
@@ -3134,9 +3153,18 @@
    },
    "replies": [],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1365588601169248336.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "Aspid cargo dock approach: карта Aspid отсутствует в текущем дереве/истории репо (удалена b59950d461 2024-01-30, WizDen-карты в cold storage 7531aa31a7) — геометрию дока проверить не по чему.",
+   "evidence": [
+    "git: Resources/Maps/aspid.yml удалён в b59950d461 (2024-01-30), не восстановлен",
+    "git: 7531aa31a7 (2025-05-10) Moved wizden maps back to cold storage",
+    "git ls-tree e7be57d85f (2025-04-26): aspid.yml отсутствует"
+   ]
   },
   {
    "thread_id": "1365595458499510314",
@@ -3437,9 +3465,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1365605529233391656.md",
+   "confidence": "Low",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "«Моделька под дорогой»: road-тайлы/карта с дорогами отсутствуют в репо (rg road по Tiles — 0), медиа не рендерится в контексте; сцена — приватный/старый контент Erida.",
+   "evidence": [
+    "git grep -il road Resources/Prototypes/Tiles*: пусто",
+    "git log --all -- Resources/Maps/: карт с дорогами/домиками нет",
+    "attachments: скриншот не читается в суб-агент контексте; gif — REACTION_MEME"
+   ]
   },
   {
    "thread_id": "1365617219895169044",
@@ -5125,9 +5162,18 @@
    "mentions": [
     "Hive"
    ],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1366962720901038151.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "The Hive (старая кастомная карта, в репо никогда не существовала): отсутствие lavaland-шаттла и почтового спавна — контент-разрыв приватной карты; админы подтверждают «карта старая».",
+   "evidence": [
+    "git log --all -- Resources/Maps/ | rg hive: пусто (карта никогда не была в репо)",
+    "Resources/Prototypes/Maps/*.yml + _Goobstation/Maps/*.yml: карты Hive нет",
+    "thread replies: abama «Наверное потомучто карта старая»"
+   ]
   },
   {
    "thread_id": "1367123372160323656",
@@ -5196,9 +5242,18 @@
    "mentions": [
     "Aspid"
    ],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1367123372160323656.md",
+   "confidence": "Medium",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "Aspid kitchen lamp: fixture у стойки вместо стены — карта Aspid отсутствует в репо (см. b59950d461/cold storage), позицию лампы проверить не по чему; maintainer объявил «интенциональным».",
+   "evidence": [
+    "git: Resources/Maps/aspid.yml отсутствует в дереве HEAD a671a91188",
+    "thread replies: Yosif «Так это специально…»",
+    "git ls-tree e7be57d85f (2025-04-26): aspid.yml нет"
+   ]
   },
   {
    "thread_id": "1367396276349698049",
@@ -6152,9 +6207,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "LIKELY_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1368389636531163186.md",
+   "confidence": "Medium",
+   "severity": "S2",
+   "complexity": "M",
+   "root_cause_short": "Вид Shark(плафейм) — заглушка (species prototype копирует MobDemon); тело/органы не обеспечивают ingest, ThirstComponent при этом работает.",
+   "evidence": [
+    "Resources/Prototypes/_Erida/Species/shark.yml:species Shark (prototype: MobDemon, roundStart: false)",
+    "Resources/Locale/ru-RU/_backmen/body/parts/shark.ftl:PartShark 'плафейм'",
+    "Content.Shared/Nutrition/EntitySystems/ThirstSystem.cs:ThirstSystem"
+   ]
   },
   {
    "thread_id": "1368541575902265365",
@@ -14138,9 +14202,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1385653292297617559.md",
+   "confidence": "Low",
+   "severity": "S4",
+   "complexity": "S",
+   "root_cause_short": "Разностилевые стейты шлюза (закрыт/открыт) правдоподобны как смесь спрайт-паков; тип шлюза не идентифицирован, скриншоты непросматриваемы",
+   "evidence": [
+    "attachments/1385653292297617559/1385653292503400549_2025-06-20_183952.png",
+    "attachments/1385653292297617559/1385653292775899256_2025-06-20_184009.png",
+    "git log Resources/Textures/_Erida/Structures/Doors (пусто 2025-05-20..2025-07-20)"
+   ]
   },
   {
    "thread_id": "1386441724200616016",
@@ -14233,9 +14306,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1386441724200616016.md",
+   "confidence": "Medium",
+   "severity": "S2",
+   "complexity": "S",
+   "root_cause_short": "Federation Box: атмосферный гэп у первых внешних шлюзов; maintainer Yosif заявил «Оно уже исправлено. Жди апстрим» (2025-06-22), но карта-вариация в этом репо отсутствует (box.yml скрыт в cold storage) и фикс-коммит не идентифицируется.",
+   "evidence": [
+    "Resources/Maps/.box.yml (7531aa31a7, 2025-05-10 — box скрыт из серверного набора)",
+    "git: d49b626b09 (2025-06-19) upstream sync #3794 — правка могла приехать синком, sha не подтверждён",
+    "thread replies: Yosif «Оно уже исправлено»"
+   ]
   },
   {
    "thread_id": "1386460678142955671",
@@ -18183,9 +18265,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1413792059269320888.md",
+   "confidence": "Medium",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "Аудио-баланс стонов: эмоут/звуки moan в репо отсутствуют; dev в треде признал громкость и обещал понизить.",
+   "evidence": [
+    "Resources/Prototypes/Voice/speech_emotes.yml:emote registry (no moan)",
+    "rg -il moan -> только verbs.ftl:chat-speech-verb-dead-7",
+    "Resources/Audio/Voice/Misc:нет moan-файлов"
+   ]
   },
   {
    "thread_id": "1413832454569066518",
@@ -18489,9 +18580,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "LIKELY_CURRENT_BUG",
+   "cluster": "language-knowledge-migration",
+   "dossier": ".ai-triage/bugs/1413877633594163270.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "Миграция на язык-систему Einstein Engines неполная: речь есть (LanguageSpeaker/акценты), но LanguageKnowledge (понимание) у нимф/слаймов/ЦИИ ограничен animal; UniversalLanguageSpeaker ревенанта не покрывает ожидания.",
+   "evidence": [
+    "Resources/Prototypes/Entities/Mobs/NPCs/revenant.yml:87-88 LanguageSpeaker+UniversalLanguageSpeaker",
+    "Resources/Prototypes/Entities/Mobs/NPCs/animals.yml:MobDionaNymph (нет Language-компонентов)",
+    "Content.Shared/_EinsteinEngines/Language/:LanguagePrototype/SharedLanguageSystem"
+   ]
   },
   {
    "thread_id": "1413891452001583227",
@@ -20870,9 +20970,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CONFIRMED_CURRENT_BUG",
+   "cluster": "language-knowledge-migration",
+   "dossier": ".ai-triage/bugs/1417926890823356699.md",
+   "confidence": "High",
+   "severity": "S3",
+   "complexity": "S",
+   "root_cause_short": "MakeSentient (когнизин) только удаляет ReplacementAccent/MonkeyAccent и не добавляет знание общих языков в системе Einstein Engines.",
+   "evidence": [
+    "Content.Server/EntityEffects/Effects/MakeSentientEntityEffectSystem.cs:21-26 AllowSpeech RemComp only",
+    "Content.Shared/EntityEffects/Effects/MakeSentientEntityEffect.cs:AllowSpeech",
+    "Resources/Prototypes/Entities/Mobs/NPCs/animals.yml:LanguageKnowledge"
+   ]
   },
   {
    "thread_id": "1419081445091184815",
@@ -22275,9 +22384,17 @@
     "discord.com",
     "https"
    ],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1423308226568650835.md",
+   "confidence": "Low",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "Высмеянная буква в 'наборах' не локализована: скриншот непросматриваем, строк 'Наборы' в лодаут-локали нет",
+   "evidence": [
+    "attachments/1423308226568650835/1423308226891481119_Screenshot_6076.png",
+    "Resources/Locale/ru-RU/preferences/loadout-groups.ftl"
+   ]
   },
   {
    "thread_id": "1424014048726351937",
@@ -24250,9 +24367,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "LIKELY_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1431376123060555828.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "S",
+   "root_cause_short": "Nukie shuttle dock-порт ориентирован в стену базы на nukieplanet.yml; маппер Cat_L признал («Будет исправлено»), фикс-коммитов по доку после 2025-10-24 в репо нет.",
+   "evidence": [
+    "Resources/Prototypes/_Goobstation/GameRules/roundstart.yml:138 mapPath /Maps/_Goobstation/Nonstations/nukieplanet.yml",
+    "Resources/Maps/_Goobstation/Nonstations/nukieplanet.yml: нет правок dock после 2025-10-24",
+    "thread replies: «Будет исправлено» (Cat_L)"
+   ]
   },
   {
    "thread_id": "1431650154225729617",
@@ -24962,9 +25088,17 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1432170711081816174.md",
+   "confidence": "Medium",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "Странный спрайт жидкости мензурки — намеренная отсылка к серии 'Запретный плод' Смешариков (по реплике в треде), контент-выбор, а не устаревший ассет",
+   "evidence": [
+    "Resources/Locale/ru-RU/ss14-ru/prototypes/entities/objects/specific/chemistry.ftl:7:ent-Beaker = мензурка",
+    "attachments/1432170711081816174/1432177852874489856_image.png"
+   ]
   },
   {
    "thread_id": "1432362211908653066",
@@ -29340,9 +29474,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1449459756879188138.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "Неверное время на копиях — по персоналу известный баг WizDen/движка (не только копиры); код копира в снапшоте не локализован (нет CopySystem/Photocopier символов)",
+   "evidence": [
+    "Content.Shared/Paper/PaperSystem.cs:252:CopyStamps",
+    "Resources/Locale/ru-RU/_Corvax/paper/doc-printer.ftl",
+    "attachments/1449459756879188138/1449459757726568619_2025-12-13_20-53-54.mp4"
+   ]
   },
   {
    "thread_id": "1449508411325677692",
@@ -33878,9 +34021,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1461342678351479021.md",
+   "confidence": "High",
+   "severity": "S3",
+   "complexity": "XS",
+   "root_cause_short": "Ошибка маппинга Box: в бриге стояла вторая консоль закупок вместо консоли камер; убрана маппером, консоли перестроены в Box update 261d8a51f6 (2026-03-18)",
+   "evidence": [
+    "Resources/Maps/_Goobstation/box.yml:69340 ComputerCargoOrdersSecurity (1 шт)",
+    "Resources/Maps/_Goobstation/box.yml:69702 ComputerSurveillanceCameraMonitor (uids 10898/10899)",
+    "git 261d8a51f6 Box update (#5837)"
+   ]
   },
   {
    "thread_id": "1461982061169475668",
@@ -34982,9 +35134,18 @@
    },
    "replies": [],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1467580254532141159.md",
+   "confidence": "Low",
+   "severity": "S3",
+   "complexity": "S",
+   "root_cause_short": "Нет репро/деталей: кнопки у психиатра на Delta не локализованы в текущей карте (рядом с псих-районом кнопок нет), район перестроен b30f161365 после репорта",
+   "evidence": [
+    "Resources/Maps/_Goobstation/delta.yml:219014 SpawnPointPsychologist pos 15.5,-50.5",
+    "Resources/Maps/_Goobstation/delta.yml:212635 SignalButton 41.5,-64.5 (далеко)",
+    "git b30f161365 delta mapping #6307"
+   ]
   },
   {
    "thread_id": "1467636907226697918",
@@ -35319,9 +35480,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1469658417814704128.md",
+   "confidence": "Low",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "Проводка парка/бани на Delta: точечный фикс в git не найден (kote19 08.02 «должно быть исправлено», 10.02 всё ещё сломано), район перестроен b30f161365; по именам «Парк/баня» в карте не находится",
+   "evidence": [
+    "Resources/Maps/_Goobstation/delta.yml: 0 совпадений Парк/баня/Sauna",
+    "git b487128a54 (2026-02-11) — только SmartFridgeMedical",
+    "git b30f161365 delta mapping #6307"
+   ]
   },
   {
    "thread_id": "1469744255714197554",
@@ -44934,9 +45104,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
+   "cluster": "accent-localization-ru",
+   "dossier": ".ai-triage/bugs/1499505784931745963.md",
+   "confidence": "High",
+   "severity": "S3",
+   "complexity": "S",
+   "root_cause_short": "SpanishAccent умеет только s→es (латиница) и ¿/¡-пунктуацию; словаря словесных замен нет — для русского текста трейт инертен (контент/локализация).",
+   "evidence": [
+    "Content.Server/Speech/EntitySystems/SpanishAccentSystem.cs:InsertS/ReplacePunctuation",
+    "Content.Server/Speech/Components/SpanishAccentComponent.cs",
+    "Content.Server/Speech/EntitySystems/OwOAccentSystem.cs:SpecialWords (прецедент RU-локализации)"
+   ]
   },
   {
    "thread_id": "1499778816216797236",
@@ -45057,9 +45236,19 @@
    "mentions": [
     "OWO"
    ],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "LIKELY_CURRENT_BUG",
+   "cluster": "accent-localization-ru",
+   "dossier": ".ai-triage/bugs/1499847578563510303.md",
+   "confidence": "Medium",
+   "severity": "S4",
+   "complexity": "S",
+   "root_cause_short": "Трейт 'отсутствие акцента' не содержит OwOAccent в removes-списке (канонический Accentless закомментирован); OwO фелинидам приходит из трейта/хэтов, плюс пасхалка GameTicker вешает OwOAccent после трейтов.",
+   "evidence": [
+    "Resources/Prototypes/Traits/speech.yml:8-22 Accentless закомментирован (removes без OwO)",
+    "Resources/Prototypes/_Erida/Traits/erida_traits.yml:111-120 trait OwOAccent",
+    "Resources/Prototypes/Nyanotrasen/Entities/Mobs/Species/felinid.yml:78 OwOAccent закомментирован",
+    "Content.Server/GameTicking/GameTicker.Spawning.cs:286-289 AddComp<OwOAccentComponent>"
+   ]
   },
   {
    "thread_id": "1500453279392600235",
@@ -45388,9 +45577,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1502364788683046953.md",
+   "confidence": "Low",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "Дублирование теха 'Гидропоника' в списке принтера схем не воспроизводится по HEAD: прототип единственный; единственный кандидат — строковая коллизия id с Access-уровнем 'Hydroponics'",
+   "evidence": [
+    "Resources/Prototypes/Research/civilianservices.yml:5:id Hydroponics",
+    "Resources/Prototypes/Access/service.yml:12:id Hydroponics",
+    "Resources/Prototypes/Entities/Structures/Machines/lathe.yml:306:producingSound circuitprinter.ogg"
+   ]
   },
   {
    "thread_id": "1504114898353917963",
@@ -47040,9 +47238,17 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "LIKELY_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1509558404778295347.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "XS",
+   "root_cause_short": "VendingMachineWallMedical у бригмеда на Bagel замаплен без rot (юг/в стену); после перехода на направленную выдачу настенных автоматов предметы выходят в стену",
+   "evidence": [
+    "Resources/Maps/_Goobstation/bagel.yml:140271 VendingMachineWallMedical uid 21136 pos 33.5,-8.5 rot отсутствует",
+    "git: bagel.yml после 2026-05-28 правок наномеда нет"
+   ]
   },
   {
    "thread_id": "1511706772887310467",
@@ -49829,9 +50035,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "LIKELY_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1531689725554069685.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "XS",
+   "root_cause_short": "Огнетушители Delta замаплены свободными сущностями без FireExtinguisherCabinet (0 шкафов на карте); пара в СБ размещена в труднодоступном месте; также сломаны линки кнопок КПП/ставней СБ",
+   "evidence": [
+    "Resources/Maps/_Goobstation/delta.yml:134580 FireExtinguisher uid 18277 pos -44.57,-22.52",
+    "Resources/Maps/_Goobstation/delta.yml:134589-134596 uid 18278/18279 pos -34.77/-34.32,-55.43",
+    "grep FireExtinguisherCabinet delta.yml = 0"
+   ]
   },
   {
    "thread_id": "1532120324504682557",
@@ -51789,9 +52004,18 @@
     "hijack_beacon.ftl",
     "uplink-catalog.ftl"
    ],
-   "verdict": null,
+   "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1537855953544675470.md",
+   "confidence": "Medium",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "Все репорченные опечатки (Торговово/востановлена/анулирована/перезорядке/искуственный) отсутствуют в текущей ru-RU локали — устранены реструктуризацией",
+   "evidence": [
+    "rg 'Торговово|востановлена|анулирована|перезорядке|искуственный' Resources = 0",
+    "Resources/Locale/ru-RU/_Goobstation/store/uplink-catalog.ftl",
+    "git 4cf391efb1 'The beginning of success (#4)'"
+   ]
   },
   {
    "thread_id": "1540061285029257266",

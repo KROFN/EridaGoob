@@ -1,0 +1,106 @@
+[
+  {
+    "thread_id": "1365481390363115561",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Medium",
+    "severity": "S3",
+    "complexity": "M",
+    "cluster_hint": null,
+    "root_cause_short": "Ветка 'длинноствольное вооружение' не сопоставляется с HEAD; текущее дерево Arsenal (arsenal.yml + _Goobstation/Research/arsenal.yml) полно и все technologyPrerequisites резолвятся",
+    "evidence": [
+      "Resources/Prototypes/Research/arsenal.yml:technology ids SalvageWeapons..AdvancedShuttleWeapon",
+      "Resources/Prototypes/_Goobstation/Research/arsenal.yml:WeaponLaserCellRevolverTech..BlueSpaceMunitions",
+      "Resources/Prototypes/_White/Research/experimental.yml:20:ThermalVisionTech",
+      "Resources/Locale/ru-RU/research/technologies.ftl:26-43"
+    ],
+    "dossier": ".ai-triage/bugs/1365481390363115561.md"
+  },
+  {
+    "thread_id": "1502364788683046953",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Low",
+    "severity": "S3",
+    "complexity": "M",
+    "cluster_hint": null,
+    "root_cause_short": "Дублирование теха 'Гидропоника' в списке принтера схем не воспроизводится по HEAD: прототип единственный; единственный кандидат — строковая коллизия id с Access-уровнем 'Hydroponics'",
+    "evidence": [
+      "Resources/Prototypes/Research/civilianservices.yml:5:id Hydroponics",
+      "Resources/Prototypes/Access/service.yml:12:id Hydroponics",
+      "Resources/Prototypes/Entities/Structures/Machines/lathe.yml:306:producingSound circuitprinter.ogg"
+    ],
+    "dossier": ".ai-triage/bugs/1502364788683046953.md"
+  },
+  {
+    "thread_id": "1449459756879188138",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Medium",
+    "severity": "S3",
+    "complexity": "M",
+    "cluster_hint": null,
+    "root_cause_short": "Неверное время на копиях — по персоналу известный баг WizDen/движка (не только копиры); код копира в снапшоте не локализован (нет CopySystem/Photocopier символов)",
+    "evidence": [
+      "Content.Shared/Paper/PaperSystem.cs:252:CopyStamps",
+      "Resources/Locale/ru-RU/_Corvax/paper/doc-printer.ftl",
+      "attachments/1449459756879188138/1449459757726568619_2025-12-13_20-53-54.mp4"
+    ],
+    "dossier": ".ai-triage/bugs/1449459756879188138.md"
+  },
+  {
+    "thread_id": "1537855953544675470",
+    "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+    "confidence": "Medium",
+    "severity": "S4",
+    "complexity": "XS",
+    "cluster_hint": null,
+    "root_cause_short": "Все репорченные опечатки (Торговово/востановлена/анулирована/перезорядке/искуственный) отсутствуют в текущей ru-RU локали — устранены реструктуризацией",
+    "evidence": [
+      "rg 'Торговово|востановлена|анулирована|перезорядке|искуственный' Resources = 0",
+      "Resources/Locale/ru-RU/_Goobstation/store/uplink-catalog.ftl",
+      "git 4cf391efb1 'The beginning of success (#4)'"
+    ],
+    "dossier": ".ai-triage/bugs/1537855953544675470.md"
+  },
+  {
+    "thread_id": "1423308226568650835",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Low",
+    "severity": "S4",
+    "complexity": "XS",
+    "cluster_hint": null,
+    "root_cause_short": "Высмеянная буква в 'наборах' не локализована: скриншот непросматриваем, строк 'Наборы' в лодаут-локали нет",
+    "evidence": [
+      "attachments/1423308226568650835/1423308226891481119_Screenshot_6076.png",
+      "Resources/Locale/ru-RU/preferences/loadout-groups.ftl"
+    ],
+    "dossier": ".ai-triage/bugs/1423308226568650835.md"
+  },
+  {
+    "thread_id": "1385653292297617559",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Low",
+    "severity": "S4",
+    "complexity": "S",
+    "cluster_hint": null,
+    "root_cause_short": "Разностилевые стейты шлюза (закрыт/открыт) правдоподобны как смесь спрайт-паков; тип шлюза не идентифицирован, скриншоты непросматриваемы",
+    "evidence": [
+      "attachments/1385653292297617559/1385653292503400549_2025-06-20_183952.png",
+      "attachments/1385653292297617559/1385653292775899256_2025-06-20_184009.png",
+      "git log Resources/Textures/_Erida/Structures/Doors (пусто 2025-05-20..2025-07-20)"
+    ],
+    "dossier": ".ai-triage/bugs/1385653292297617559.md"
+  },
+  {
+    "thread_id": "1432170711081816174",
+    "verdict": "CONFIG_OR_CONTENT_ISSUE",
+    "confidence": "Medium",
+    "severity": "S4",
+    "complexity": "XS",
+    "cluster_hint": null,
+    "root_cause_short": "Странный спрайт жидкости мензурки — намеренная отсылка к серии 'Запретный плод' Смешариков (по реплике в треде), контент-выбор, а не устаревший ассет",
+    "evidence": [
+      "Resources/Locale/ru-RU/ss14-ru/prototypes/entities/objects/specific/chemistry.ftl:7:ent-Beaker = мензурка",
+      "attachments/1432170711081816174/1432177852874489856_image.png"
+    ],
+    "dossier": ".ai-triage/bugs/1432170711081816174.md"
+  }
+]
