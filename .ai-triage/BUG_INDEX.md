@@ -19,12 +19,12 @@ Source: Google Drive archive `1TlOjsaTn_iuKc26S7amk3q1qhkirNol7`.
 | attachment_files_on_disk | 294 |
 | threads_with_external_media | 3 |
 | external_media_files | 5 |
-| VERDICT_COVERAGE | 33 |
+| VERDICT_COVERAGE | 36 |
+| verdict:CONFIG_OR_CONTENT_ISSUE | 8 |
 | verdict:USER_ERROR_OR_NOT_BUG | 7 |
 | verdict:ALREADY_FIXED_IN_CURRENT_FORK | 6 |
 | verdict:CANNOT_VERIFY | 6 |
-| verdict:CONFIG_OR_CONTENT_ISSUE | 6 |
-| verdict:CONFIRMED_CURRENT_BUG | 4 |
+| verdict:CONFIRMED_CURRENT_BUG | 5 |
 | verdict:LIKELY_CURRENT_BUG | 4 |
 
 ## Index (all threads)
@@ -228,7 +228,7 @@ Source: Google Drive archive `1TlOjsaTn_iuKc26S7amk3q1qhkirNol7`.
 | 1419456892413022248 | Баг с "взять на руки" | 2025-09-21 | unknown_tag_1414266059208265799 | A | 7 | 0 | NEEDS_TRIAGE | — | — | — | — | — | — |
 | 1419457062882250874 | Отсутствие принтеров на большинстве станций | 2025-09-21 | unknown_tag_1414266059208265799 | A | 8 | 0 | NEEDS_TRIAGE | — | — | — | — | — | — |
 | 1419998003447468153 | Конвейеры и таскание на руках | 2025-09-23 | unknown_tag_1414266059208265799 | A | 6 | 1 | NEEDS_TRIAGE | — | — | — | — | — | — |
-| 1420093168627748997 | Баг за феленидов | 2025-09-23 | unknown_tag_1414266059208265799 | A | 5 | 1 | NEEDS_TRIAGE | — | — | — | — | — | — |
+| 1420093168627748997 | Баг за феленидов | 2025-09-23 | unknown_tag_1414266059208265799 | A | 5 | 1 | NEEDS_TRIAGE | CONFIG_OR_CONTENT_ISSUE | High | S3 | S | — | .ai-triage/bugs/1420093168627748997.md |
 | 1420383751082344479 | Маг | 2025-09-24 | unknown_tag_1414266059208265799 | A | 6 | 0 | NEEDS_TRIAGE | — | — | — | — | — | — |
 | 1421828766404972624 | ТТС рита | 2025-09-28 | unknown_tag_1414266059208265799 | A | 3 | 1 | NEEDS_TRIAGE | — | — | — | — | — | — |
 | 1421848934644449382 | ТТС | 2025-09-28 | unknown_tag_1414266059208265799 | A | 1 | 0 | NEEDS_TRIAGE | — | — | — | — | — | — |
@@ -312,7 +312,7 @@ Source: Google Drive archive `1TlOjsaTn_iuKc26S7amk3q1qhkirNol7`.
 | 1450868586863394988 | Скаф осща | 2025-12-17 | Исправлено, unknown_tag_1414266059208265799 | A | 20 | 2 | SKIP_RESOLVED | — | — | — | — | — | — |
 | 1451089522313003019 | Баг или не баг? Криостазис не замедляет метаболизм для  | 2025-12-18 | unknown_tag_1414266059208265799, Не баг | A | 6 | 2 | SKIP_NOT_BUG | — | — | — | — | — | — |
 | 1451208282411761756 | Призрак коробки | 2025-12-18 | Незначительный, Визден-Баг, unknown_tag_1414266059208265799 | A | 3 | 0 | NEEDS_TRIAGE | — | — | — | — | — | — |
-| 1452510092305104927 | У унатхов нет волос. | 2025-12-22 | Незначительный, В процессе, unknown_tag_1414266059208265799 | A | 14 | 1 | NEEDS_TRIAGE | — | — | — | — | — | — |
+| 1452510092305104927 | У унатхов нет волос. | 2025-12-22 | Незначительный, В процессе, unknown_tag_1414266059208265799 | A | 14 | 1 | NEEDS_TRIAGE | CONFIRMED_CURRENT_BUG | High | S3 | S | — | .ai-triage/bugs/1452510092305104927.md |
 | 1452656751089418280 | Корабли | 2025-12-22 | Визден-Баг, unknown_tag_1414266059208265799 | A | 4 | 3 | NEEDS_TRIAGE | — | — | — | — | — | — |
 | 1452687761545887806 | Метаболизм нитриума | 2025-12-22 | Исправлено | A | 4 | 1 | SKIP_RESOLVED | — | — | — | — | — | — |
 | 1452982344985219186 | Дайте шипеть на великом могучем | 2025-12-23 | Исправлено, unknown_tag_1414266059208265799 | A | 24 | 1 | SKIP_RESOLVED | — | — | — | — | — | — |
@@ -426,7 +426,7 @@ Source: Google Drive archive `1TlOjsaTn_iuKc26S7amk3q1qhkirNol7`.
 | 1498421398446538955 | Привет, я хочу не чувствовать боль. | 2026-04-27 | Исправлено | A | 2 | 2 | SKIP_RESOLVED | — | — | — | — | — | — |
 | 1498713547704631360 | Возгорание | 2026-04-28 | Дискорд-Бот | A | 5 | 1 | NEEDS_TRIAGE | — | — | — | — | — | — |
 | 1499083790977470505 | ОБР резоми. | 2026-04-29 | Исправлено | A | 6 | 1 | SKIP_RESOLVED | — | — | — | — | — | — |
-| 1499138888588071022 | Хвосты воксов | 2026-04-29 | Дискорд-Бот | A | 5 | 3 | NEEDS_TRIAGE | — | — | — | — | — | — |
+| 1499138888588071022 | Хвосты воксов | 2026-04-29 | Дискорд-Бот | A | 5 | 3 | NEEDS_TRIAGE | CONFIG_OR_CONTENT_ISSUE | Medium | S4 | S | — | .ai-triage/bugs/1499138888588071022.md |
 | 1499162324261666937 | Датчики комбинезона ведущего ученого | 2026-04-29 | Не баг | A | 4 | 0 | SKIP_NOT_BUG | — | — | — | — | — | — |
 | 1499505469025419389 | Минус юбка | 2026-04-30 | Незначительный, Дискорд-Бот | A | 1 | 2 | NEEDS_TRIAGE | LIKELY_CURRENT_BUG | Medium | S4 | XS | worn-sprite-layering | .ai-triage/bugs/1499505469025419389.md |
 | 1499505784931745963 | Нерабочий испанский акцент | 2026-04-30 | Дискорд-Бот | A | 8 | 0 | NEEDS_TRIAGE | — | — | — | — | — | — |

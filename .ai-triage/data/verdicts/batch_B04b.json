@@ -1,0 +1,50 @@
+[
+  {
+    "thread_id": "1420093168627748997",
+    "verdict": "CONFIG_OR_CONTENT_ISSUE",
+    "confidence": "High",
+    "severity": "S3",
+    "complexity": "S",
+    "cluster_hint": null,
+    "root_cause_short": "MobFelinidMarkingLimits не содержит категорий Head/Overlay/HeadSide (лицевые шрамы, повязки-gauze), а маркировок markingCategory: Eyes в репо нет вовсе — редактор показывает только то, что есть в вайдлисте markingPoints.",
+    "evidence": [
+      "Resources/Prototypes/Nyanotrasen/Species/felinid.yml:MobFelinidMarkingLimits",
+      "Resources/Prototypes/Entities/Mobs/Customization/Markings/gauze.yml:markingCategory Overlay",
+      "Resources/Prototypes/Entities/Mobs/Customization/Markings/scars.yml:ScarEye*/ScarNeck Head",
+      "Content.Client/Humanoid/MarkingPicker.xaml.cs:84,197"
+    ],
+    "dossier": ".ai-triage/bugs/1420093168627748997.md"
+  },
+  {
+    "thread_id": "1452510092305104927",
+    "verdict": "CONFIRMED_CURRENT_BUG",
+    "confidence": "High",
+    "severity": "S3",
+    "complexity": "S",
+    "cluster_hint": null,
+    "root_cause_short": "У Reptilian markingPoints разрешают Hair/FacialHair, но в speciesBaseSprites MobReptilianSprites отсутствуют слои Hair/FacialHair (есть у MobHumanSprites) — выбранные волосы не рендерятся; мейнтейнер признал 'не добавил лейер', фикс так и не попал в репо.",
+    "evidence": [
+      "Resources/Prototypes/Species/reptilian.yml:MobReptilianSprites",
+      "Resources/Prototypes/Species/reptilian.yml:MobReptilianMarkingLimits",
+      "Resources/Prototypes/Species/human.yml:MobHumanSprites",
+      "git log -S 'Hair: MobHumanoidAnyMarking' -- reptilian.yml (пусто)"
+    ],
+    "dossier": ".ai-triage/bugs/1452510092305104927.md"
+  },
+  {
+    "thread_id": "1499138888588071022",
+    "verdict": "CONFIG_OR_CONTENT_ISSUE",
+    "confidence": "Medium",
+    "severity": "S4",
+    "complexity": "S",
+    "cluster_hint": null,
+    "root_cause_short": "Все VoxTail* и Vox*Scales имеют forcedColoring: true (чешуйки — фиксированный SimpleColoring #937e3d, хвосты — coloring отсутствует → белый fallback), поэтому MarkingPicker скрывает пикеры цвета; анимированные варианты вдобавок скрыты speciesRestriction: [] намеренно.",
+    "evidence": [
+      "Resources/Prototypes/Entities/Mobs/Customization/Markings/vox_parts.yml:172-287",
+      "Content.Client/Humanoid/MarkingPicker.xaml.cs:IsMarkingColorCustomizable",
+      "Content.Shared/Humanoid/SharedHumanoidAppearanceSystem.cs:560-608",
+      "Content.Shared/Humanoid/Markings/MarkingColoring.cs:FallbackColor"
+    ],
+    "dossier": ".ai-triage/bugs/1499138888588071022.md"
+  }
+]
