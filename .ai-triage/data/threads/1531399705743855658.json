@@ -1,0 +1,61 @@
+{
+ "thread_id": "1531399705743855658",
+ "title": "Все баги лавы",
+ "author": {
+  "id": "977695072910999582",
+  "username": "mokko1111",
+  "global_name": "Mokko",
+  "server_nick": null,
+  "display": "Mokko"
+ },
+ "created_at": "2026-07-27T20:35:41.880Z",
+ "archived": false,
+ "tags": [
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1507775251998838925"
+ ],
+ "message_count": 3,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1531399705743855658",
+  "date": "2026-07-27T20:35:41.880000+00:00",
+  "author": "Mokko",
+  "author_role": null,
+  "content": "На крупных локациях заражённых \"хедкрабами\" учёных, враги отсутствуют, вместо этого стоят неуязвимые, невидимые и непроходимые обьекты - предположительно это и есть враги, только в каком-то странном состоянии.\nТакже в игре отсутствует какие-либо гайды к найденному хламу, хотя бы как книжка на базе или в руководстве, поэтому ты лезешь в гитхаб, чтобы прочитать как сделать хев броню... а потом не понимаешь где тебе взять плату, и тогда-лие.\nТакже по-моему предметы для спавна босса (тоже с челов падают) сломанны, так как не разбираются на части отвёрткой, не позволяя собрать их запчасти.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1537165523408654416",
+   "date": "2026-08-12T18:26:59.935000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "пупупу",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1537356929465319424",
+   "date": "2026-08-13T07:07:34.695000+00:00",
+   "author": "rOmannn299",
+   "author_role": null,
+   "content": "Что такое тогда-лие...",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

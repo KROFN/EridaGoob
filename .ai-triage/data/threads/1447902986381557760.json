@@ -1,0 +1,121 @@
+{
+ "thread_id": "1447902986381557760",
+ "title": "Генокрад",
+ "author": {
+  "id": "535076336260349963",
+  "username": "stingray_jill",
+  "global_name": "Σ Ξ ✦ Jill Stingray",
+  "server_nick": null,
+  "display": "Σ Ξ ✦ Jill Stingray"
+ },
+ "created_at": "2025-12-09T10:49:32.690Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799",
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1414266059208265799",
+  "1377371306470801439"
+ ],
+ "message_count": 8,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1447902986381557760",
+  "date": "2025-12-09T10:49:32.690000+00:00",
+  "author": "Σ Ξ ✦ Jill Stingray",
+  "author_role": null,
+  "content": "На данный момент после апстрима Генокрад не работает, поскольку гении на визардах скорее всего сломали его код, потому требуется фикс.\n\nВ чём собственно проблема: когда игрок становится генокрадом, он же получает способность пожирать людей и копировать Гены. На данный момент генокрад не умеет использовать поглощённые ДНК ибо отсутствует интерфейс для выбора самого гена. Как пофиксить - хз.\n\nКогда нашли этот баг: как минимум вчера в районе 12:00 ночи по МСк либо позже.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1447904942374518835",
+   "date": "2025-12-09T10:57:19.035000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Генокрад же вроде вообще не готов у визов",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1447906338431696991",
+   "date": "2025-12-09T11:02:51.881000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "его компоненты рабочие были до апстрима, когда я ещё админом был",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1447906404714287328",
+   "date": "2025-12-09T11:03:07.684000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "сейчас же рабочее лишь его пожирание, но не более",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1447930342844399657",
+   "date": "2025-12-09T12:38:14.979000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "Чекну",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1448373548493045833",
+   "date": "2025-12-10T17:59:23.440000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "визы убрали ту фигню превращением и заменили таким имплантом так что пока что его использовать вместо прошлой версии, и то если повеселиться",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1448373548228939859",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1448373921328922674",
+   "date": "2025-12-10T18:00:52.331000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "пока что не баг, так что ждем пока выйдет из [WIP]",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1448390533977477342",
+   "date": "2025-12-10T19:06:53.095000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "мда уж.\nчто поделать.\nждём тогда..",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

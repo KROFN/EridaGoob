@@ -1,0 +1,133 @@
+{
+ "thread_id": "1480519345594568866",
+ "title": "Невозможно отключить звук TTS.",
+ "author": {
+  "id": "775932690079678464",
+  "username": "amanita_cult",
+  "global_name": "Мухоморный Культист",
+  "server_nick": null,
+  "display": "Мухоморный Культист"
+ },
+ "created_at": "2026-03-09T10:55:18.709Z",
+ "archived": true,
+ "tags": [
+  "Серьёзный",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1466802719284265234",
+  "1414266059208265799"
+ ],
+ "message_count": 9,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1480519345766404096_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1480519345594568866",
+  "date": "2026-03-09T10:55:18.709000+00:00",
+  "author": "Мухоморный Культист",
+  "author_role": null,
+  "content": "Сама по себе такая функция не по душе, так что я её всегда выключаю. На этом сервере так не получилось: даже при обоих ползунках на нуле озвучку как персонажей, так и оповещений слышно. \n Банальные советы на подобие \"перезайди\" или \"подвигай другие ползунки\" уже не сработали.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1480519345766404096",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1480519345594568866/1480519345766404096_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1480524663376580659",
+   "date": "2026-03-09T11:16:26.567000+00:00",
+   "author": "frantyk",
+   "author_role": null,
+   "content": "Есть отличная идея что работала на любых серверах мк",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1480524733090107402",
+   "date": "2026-03-09T11:16:43.188000+00:00",
+   "author": "frantyk",
+   "author_role": null,
+   "content": "Тебе надо отключится с сервера и зайти",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1480524764018774017",
+   "date": "2026-03-09T11:16:50.562000+00:00",
+   "author": "frantyk",
+   "author_role": null,
+   "content": "Именно отключится а не выйти из игры",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1480524793148080321",
+   "date": "2026-03-09T11:16:57.507000+00:00",
+   "author": "frantyk",
+   "author_role": null,
+   "content": "Тогда у тебя ттс сломается и его не будет",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1480524818292936704",
+   "date": "2026-03-09T11:17:03.502000+00:00",
+   "author": "frantyk",
+   "author_role": null,
+   "content": "Пока не перезайдешь",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1480524859523203195",
+   "date": "2026-03-09T11:17:13.332000+00:00",
+   "author": "frantyk",
+   "author_role": null,
+   "content": "Но возможно этот баг с сломанным ттс убрали",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1480907567587790968",
+   "date": "2026-03-10T12:37:58.045000+00:00",
+   "author": "Мухоморный Культист",
+   "author_role": null,
+   "content": "Не. Не работает. Всё-таки починили",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1497951559709888622",
+   "date": "2026-04-26T13:24:42.429000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": ".",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

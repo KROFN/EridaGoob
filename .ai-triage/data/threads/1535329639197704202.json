@@ -1,0 +1,75 @@
+{
+ "thread_id": "1535329639197704202",
+ "title": "Описание кукол",
+ "author": {
+  "id": "855316487978614795",
+  "username": ".besave",
+  "global_name": "Shady",
+  "server_nick": null,
+  "display": "Shady"
+ },
+ "created_at": "2026-08-07T16:51:51.030Z",
+ "archived": false,
+ "tags": [
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1507775251998838925"
+ ],
+ "message_count": 4,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1535329639197704202",
+  "date": "2026-08-07T16:51:51.030000+00:00",
+  "author": "Shady",
+  "author_role": null,
+  "content": "NSFW описание кукол не показывается при их просмотре в специальном окошке. В редакторе есть, в раунде нет. Скринов не требуется.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1535329991271645275",
+   "date": "2026-08-07T16:53:14.971000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Кукла должна быть голой",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1535330009546231858",
+   "date": "2026-08-07T16:53:19.328000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "По идее",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1535388605663682601",
+   "date": "2026-08-07T20:46:09.731000+00:00",
+   "author": "Звезда лисы",
+   "author_role": null,
+   "content": "Да, оно показывается при голой кукле.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "👍:1"
+   ]
+  }
+ ],
+ "mentions": [
+  "NSFW"
+ ],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

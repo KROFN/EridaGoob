@@ -1,0 +1,51 @@
+{
+ "thread_id": "1388579384419553460",
+ "title": "психолог",
+ "author": {
+  "id": "1251925458426003487",
+  "username": "bahamutichka",
+  "global_name": "Elgard",
+  "server_nick": null,
+  "display": "Elgard"
+ },
+ "created_at": "2025-06-28T17:58:43.803Z",
+ "archived": true,
+ "tags": [
+  "На рассмотрении"
+ ],
+ "tag_ids": [
+  "1377591362744094795"
+ ],
+ "message_count": 2,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1388579384419553460",
+  "date": "2025-06-28T17:58:43.803000+00:00",
+  "author": "Elgard",
+  "author_role": null,
+  "content": "В лодауте психолога два одинаковых раздела выбора униформы.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1391965622325215295",
+   "date": "2025-07-08T02:14:25.833000+00:00",
+   "author": "NickCatXD1",
+   "author_role": null,
+   "content": "Даб",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

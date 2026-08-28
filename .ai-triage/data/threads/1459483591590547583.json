@@ -1,0 +1,118 @@
+{
+ "thread_id": "1459483591590547583",
+ "title": "Переключалка между 2D и 3D КОСМОНАВТИКАМИ!!",
+ "author": {
+  "id": "638709309273931777",
+  "username": "whatapple",
+  "global_name": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+  "server_nick": null,
+  "display": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲"
+ },
+ "created_at": "2026-01-10T09:46:44.129Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 7,
+ "attachment_count": 2,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1459483591590547583",
+  "date": "2026-01-10T09:46:44.129000+00:00",
+  "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+  "author_role": null,
+  "content": "Я думаю тут всё понятно... просто поменять спрайт у фляги сухпайка",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1459483591950995587",
+    "filename": "Screenshot_7240.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   },
+   {
+    "id": "1459483592513028127",
+    "filename": "Screenshot_7239.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1459483694157795338",
+   "date": "2026-01-10T09:47:08.583000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "В открытом состоянии один спрайт, при закрытом вообще из другой коллекции",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1459498724827992257",
+   "date": "2026-01-10T10:46:52.174000+00:00",
+   "author": "PuroSlavKing",
+   "author_role": null,
+   "content": "<:s_HAHAHA:1363694936394043452>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1459503156135465071",
+   "date": "2026-01-10T11:04:28.680000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Не хуево",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1459503178000236645",
+   "date": "2026-01-10T11:04:33.893000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Визарды подвезли",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1459507045714628639",
+   "date": "2026-01-10T11:19:56.028000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "откровенно говоря, можно просто крышку откинуть в сторону оставляя всю картинку в 3д",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1459544414090432553",
+   "date": "2026-01-10T13:48:25.343000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "визы пиздец",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

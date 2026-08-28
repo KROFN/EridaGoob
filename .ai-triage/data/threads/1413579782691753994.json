@@ -1,0 +1,242 @@
+{
+ "thread_id": "1413579782691753994",
+ "title": "Тред баг репортов ИСа",
+ "author": {
+  "id": "602460075335876609",
+  "username": "mlefur",
+  "global_name": "Ykika",
+  "server_nick": null,
+  "display": "Ykika"
+ },
+ "created_at": "2025-09-05T17:41:23.236Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 62,
+ "attachment_count": 7,
+ "attachments_on_disk": [
+  "1413579908298309644_image.png",
+  "1413580756093108327_image.png",
+  "1413580844177559572_image.png",
+  "1413582147268251780_image.png",
+  "1413587066322944233_image.png",
+  "1413587066729664532_image.png",
+  "1413587067136639190_image.png"
+ ],
+ "external_media_files": [
+  "external_1413587444825063485_01.png",
+  "external_1413591454047010947_01.png"
+ ],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1413579782691753994",
+  "date": "2025-09-05T17:41:23.236000+00:00",
+  "author": "Ykika",
+  "author_role": null,
+  "content": "Буду сюда кидать все баги, или прочую шелупонь, что увижу.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1413579908298309644",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1413579782691753994/1413579908298309644_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1413579924370886750",
+   "date": "2025-09-05T17:41:57.015000+00:00",
+   "author": "Ykika",
+   "author_role": null,
+   "content": "Нет перевода и в целом текста для спавна сущностей.\nВоспроивзодится через ф7",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413580431961489509",
+   "date": "2025-09-05T17:43:58.034000+00:00",
+   "author": "KiriKuru",
+   "author_role": null,
+   "content": "Оружие не имеет звуков при подборе или если положить его на землю\n\nАгост не воспринимает Тау-Кита и любые языки в принципе.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413580756512407673",
+   "date": "2025-09-05T17:45:15.413000+00:00",
+   "author": "Ykika",
+   "author_role": null,
+   "content": "Энергосабля не отображается. Звуки включения есть, самой сабли нет. По урону, вроде, есть.",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1413580756093108327",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1413579782691753994/1413580756093108327_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1413580844475613334",
+   "date": "2025-09-05T17:45:36.385000+00:00",
+   "author": "Ykika",
+   "author_role": null,
+   "content": "лан, есть, вроде как",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1413580844177559572",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1413579782691753994/1413580844177559572_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1413581000729952287",
+   "date": "2025-09-05T17:46:13.639000+00:00",
+   "author": "Ykika",
+   "author_role": null,
+   "content": "Да, урон есть, бить можно, а вот сабли самой нет. Сбой глазных яблок персонажей?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413582147549266071",
+   "date": "2025-09-05T17:50:47.062000+00:00",
+   "author": "Ykika",
+   "author_role": null,
+   "content": "Бумбокс кстати, тоже сломан.\nМузыка не включается, при попытке её выбрать и нажать воспроизведение.",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1413582147268251780",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1413579782691753994/1413582147268251780_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1413587067484639302",
+   "date": "2025-09-05T18:10:20.066000+00:00",
+   "author": "KiriKuru",
+   "author_role": null,
+   "content": "Какой-то мегапроклятый спавн геймрулов. Это чё?",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1413587066322944233",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "downloaded",
+     "local_path": "attachments/1413579782691753994/1413587066322944233_image.png"
+    },
+    {
+     "id": "1413587066729664532",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "downloaded",
+     "local_path": "attachments/1413579782691753994/1413587066729664532_image.png"
+    },
+    {
+     "id": "1413587067136639190",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "downloaded",
+     "local_path": "attachments/1413579782691753994/1413587067136639190_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1413587261689430078",
+   "date": "2025-09-05T18:11:06.368000+00:00",
+   "author": "KiriKuru",
+   "author_role": null,
+   "content": "Причем отображение антажек некорректно, у части людей целей нет как таковых и антагами они не являются",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413587528702886001",
+   "date": "2025-09-05T18:12:10.029000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "Сломаны права игрока, а то есть отсутствуют какие-либо базовые права на базовые вещи по типу adminwho",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413592946485231726",
+   "date": "2025-09-05T18:33:41.729000+00:00",
+   "author": "Ykika",
+   "author_role": null,
+   "content": "Смешнявка с гарнитурами, где чтобы говорить в рацию, нужно сначала сделать :, а потом вписать буковку на английском языке",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413762862903726184",
+   "date": "2025-09-06T05:48:52.960000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Хуево, что у меня интернет не позволяет зайти и проверить",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413851178290118788",
+   "date": "2025-09-06T11:39:48.989000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Я нашёл проблему, там тупо путь до файла криво указал",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413924550160416879",
+   "date": "2025-09-06T16:31:22.206000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Все баги отсюда исправлены. В дальнейшем делайте разные треды, пожалуйста. Мне так удобнее",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413950947020902443",
+   "date": "2025-09-06T18:16:15.708000+00:00",
+   "author": "I_AmigO_I",
+   "author_role": null,
+   "content": "Не знаю, говорили ли про это, но риги, а также а также большие лампы из карго при активации не светятся",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

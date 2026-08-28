@@ -1,0 +1,215 @@
+{
+ "thread_id": "1490270974069837886",
+ "title": "Не все прото пробивают астероидный камень.",
+ "author": {
+  "id": "977695072910999582",
+  "username": "mokko1111",
+  "global_name": "Mokko",
+  "server_nick": null,
+  "display": "Mokko"
+ },
+ "created_at": "2026-04-05T08:44:48.114Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 22,
+ "attachment_count": 4,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1490270974069837886",
+  "date": "2026-04-05T08:44:48.114000+00:00",
+  "author": "Mokko",
+  "author_role": null,
+  "content": "Репитер не пробивает. Только обычный пробивает.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1490279043747155988",
+   "date": "2026-04-05T09:16:52.075000+00:00",
+   "author": "vanomorodellefake",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1490279043449487360",
+     "filename": "i.png",
+     "content_type": "image/png",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1490303105106051072",
+   "date": "2026-04-05T10:52:28.750000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "Есть репитер, обычный, и пистолетики. Астероидный пробивает только стандартный",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1490308522897051760",
+   "date": "2026-04-05T11:14:00.452000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "вот урон обычного кинетика",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1490308522884337775",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1490308616207732806",
+   "date": "2026-04-05T11:14:22.699000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "вот пистолетов и репитера",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1490308615226261574",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1490308660927398029",
+   "date": "2026-04-05T11:14:33.361000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "а вот дробаша",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1490308660575080468",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1490348598993358919",
+   "date": "2026-04-05T13:53:15.338000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "То есть по факту репитерам и пистолету 16 структурных, а дробашу 10?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1490393880040833104",
+   "date": "2026-04-05T16:53:11.181000+00:00",
+   "author": "Anilori <3",
+   "author_role": null,
+   "content": "дробовик будет ломать за 1 выстрел метеор т.к. в сумме на лаве будет 60 урона структурного\nпистолеты будут ломать метеор за 2 выстрела т.к. в сумме за 1 выстрел с двух рук будет 30 урона структурного",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1490396121493798962",
+   "date": "2026-04-05T17:02:05.585000+00:00",
+   "author": "Anilori <3",
+   "author_role": null,
+   "content": "https://github.com/dead-space-server/space-erida-14/pull/312",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1490398491053396113",
+   "date": "2026-04-05T17:11:30.532000+00:00",
+   "author": "vanomorodellefake",
+   "author_role": null,
+   "content": "эточё\n\n```\nif (component.MaterialWhiteList == null)\n                return;\n\n_entityManager.TryGetComponent<PhysicalCompositionComponent>(args.Used, out var composition);\nif (composition == null)\n    return;\n\n_entityManager.TryGetComponent<StackComponent>(args.Used, out var materialStack);\nif (materialStack == null)\n    return;\n```",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1490399672815321098",
+   "date": "2026-04-05T17:16:12.286000+00:00",
+   "author": "Anilori <3",
+   "author_role": null,
+   "content": "проверка на материал и стак, я с губов на плазмекатер брал и не особо менял, чисто обновил под батарейки новые в основном",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1490400034724778145",
+   "date": "2026-04-05T17:17:38.572000+00:00",
+   "author": "vanomorodellefake",
+   "author_role": null,
+   "content": "Да просто можно было бы и в строку расписать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1490406979339026582",
+   "date": "2026-04-05T17:45:14.297000+00:00",
+   "author": "Anilori <3",
+   "author_role": null,
+   "content": "Что бы ломал за 2 выстрела метеор... впринципе можно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1491021102644858930",
+   "date": "2026-04-07T10:25:32.703000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "А зачем? Типа... чтобы в метеорном было чутка труднее ковырятся для замедления геймплея, или что-то в этом роде?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1491022777069867018",
+   "date": "2026-04-07T10:32:11.917000+00:00",
+   "author": "Anilori <3",
+   "author_role": null,
+   "content": "Угу \nВ принципе пр залит уже \nТа и метеорная порода обычно окружает просто лес \nВсеравно играют через 2 простых кинетика ибо 60 урона за выстрел \nТак что 2 кинетика всеравно ломать будут за 1 выстрел породу любую",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

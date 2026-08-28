@@ -1,0 +1,36 @@
+{
+ "thread_id": "1366747516258881536",
+ "title": "Раздвижные окна",
+ "author": {
+  "id": "1072643145575174214",
+  "username": "mutemaid",
+  "global_name": "Молчаливая горничная",
+  "server_nick": null,
+  "display": "Молчаливая горничная"
+ },
+ "created_at": "2025-04-29T12:06:40.817Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 1,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1366747516258881536",
+  "date": "2025-04-29T12:06:40.817000+00:00",
+  "author": "Молчаливая горничная",
+  "author_role": null,
+  "content": "Раздвижные окна не закрываются, если на одном тайтле стоит кто то\n\nНу как бы... Хз как объяснить, если персонаж стоит в плотную к столу, а окно на столе и оно направлено ОТ персонажа, то окно не закроется ни как, так как персонаж, якобы, находится на одном тайтле с окном, даже, если сам персонаж не стоит там, где окно\n\n(Просто сделайте нормальные раздвижные окна, как у всех проектов)",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

@@ -1,0 +1,106 @@
+{
+ "thread_id": "1449444084556103891",
+ "title": "бесполезный поясной энергощит",
+ "author": {
+  "id": "949070562779607060",
+  "username": "whywhywhywhywhywhywhywhyyy",
+  "global_name": "the Hope of the shattered Ones",
+  "server_nick": null,
+  "display": "the Hope of the shattered Ones"
+ },
+ "created_at": "2025-12-13T16:53:19.127Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 6,
+ "attachment_count": 2,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1449444084556103891",
+  "date": "2025-12-13T16:53:19.127000+00:00",
+  "author": "the Hope of the shattered Ones",
+  "author_role": null,
+  "content": "если купить поясной энергощит, то при использовании он поглотит максимум одну пулю, и заряд батареи в самом щите не потратится. По сути он сейчас бесконечный поглощатель одной пули раз в пять секунд, ибо заряд батареи не тратится, но и одна пуля раз в пять секунд - это слишком мало, чтобы что-то отразить в целом в боевой схватке",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1449444085420134521",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   },
+   {
+    "id": "1449444086103670974",
+    "filename": "2025-12-13_19-49-46.mp4",
+    "content_type": "video/mp4",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1449444916911411201",
+   "date": "2025-12-13T16:56:37.576000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Ну да, баг",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1449453500533702729",
+   "date": "2025-12-13T17:30:44.071000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Вроде до апстрима не было, но anyway если и чинить, то ещё и ребалансить бедолагу.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1449453741236555798",
+   "date": "2025-12-13T17:31:41.459000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Да я там менял чето в системе",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1449453785373216819",
+   "date": "2025-12-13T17:31:51.982000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Потому что батарейка переехала в shared",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1449453883318472865",
+   "date": "2025-12-13T17:32:15.334000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Так что точно баг",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

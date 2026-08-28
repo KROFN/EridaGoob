@@ -1,0 +1,103 @@
+{
+ "thread_id": "1433070462119973036",
+ "title": "Неправильные стоны",
+ "author": {
+  "id": "718380038914965546",
+  "username": "danylo_dazzle",
+  "global_name": "Danylo_dazzle",
+  "server_nick": null,
+  "display": "Danylo_dazzle"
+ },
+ "created_at": "2025-10-29T12:30:23.331Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799",
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1414266059208265799",
+  "1377371306470801439"
+ ],
+ "message_count": 7,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1433070462119973036",
+  "date": "2025-10-29T12:30:23.331000+00:00",
+  "author": "Danylo_dazzle",
+  "author_role": null,
+  "content": "Суть бага в чем? В том что я решил вытащить дилдак. И после этого продолжал стонать. Что за хуйня?",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1433072969571106957",
+   "date": "2025-10-29T12:40:21.154000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Возбуждение никуда не девается",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1433073102425817110",
+   "date": "2025-10-29T12:40:52.829000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Вернее, ну.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1433073125544693944",
+   "date": "2025-10-29T12:40:58.341000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Оно пассивно уменьшается",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1433073140417953932",
+   "date": "2025-10-29T12:41:01.887000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Но не моментально",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1433074415716798504",
+   "date": "2025-10-29T12:46:05.942000+00:00",
+   "author": "Danylo_dazzle",
+   "author_role": null,
+   "content": "Что-то еще планируешь добавлять?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1433075366557122680",
+   "date": "2025-10-29T12:49:52.640000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Всё будет в роад мапе",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

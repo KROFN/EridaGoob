@@ -1,0 +1,201 @@
+{
+ "thread_id": "1370366183689293944",
+ "title": "пнв",
+ "author": {
+  "id": "805804440220073994",
+  "username": "fenrir_1312",
+  "global_name": "ᚠᛖᚾᚱᛁᚱ",
+  "server_nick": null,
+  "display": "ᚠᛖᚾᚱᛁᚱ"
+ },
+ "created_at": "2025-05-09T11:45:58.364Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1365427630660128861",
+  "В процессе"
+ ],
+ "tag_ids": [
+  "1365427630660128861",
+  "1365427658288005150"
+ ],
+ "message_count": 19,
+ "attachment_count": 2,
+ "attachments_on_disk": [
+  "1370366183890751610_Screenshot_70.png",
+  "1370366184175960124_Screenshot_69.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1370366183689293944",
+  "date": "2025-05-09T11:45:58.364000+00:00",
+  "author": "ᚠᛖᚾᚱᛁᚱ",
+  "author_role": null,
+  "content": "при включеном пнв скафандр осща визуально пропадает",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1370366183890751610",
+    "filename": "Screenshot_70.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1370366183689293944/1370366183890751610_Screenshot_70.png"
+   },
+   {
+    "id": "1370366184175960124",
+    "filename": "Screenshot_69.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1370366183689293944/1370366184175960124_Screenshot_69.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1371133459375853578",
+   "date": "2025-05-11T14:34:51.143000+00:00",
+   "author": "NickCatXD1",
+   "author_role": null,
+   "content": "Хм-м. Баг или всё же Фича на способность поглядывать на то, что у других под одеждой <:s_podozhdu:1358052419988230215>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1371216603148189857",
+   "date": "2025-05-11T20:05:14.163000+00:00",
+   "author": "𝔗𝔥𝔞𝔲𝔪𝔦𝔢𝔩  𝔚𝔞𝔯𝔩𝔬𝔯𝔡",
+   "author_role": null,
+   "content": "Это чтобы контрабанду под одеждой искать XD",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1371216782521532456",
+   "date": "2025-05-11T20:05:56.929000+00:00",
+   "author": "ᚠᛖᚾᚱᛁᚱ",
+   "author_role": null,
+   "content": "я буквально как рентген хожу",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1371220402449154190",
+   "date": "2025-05-11T20:20:19.987000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "Трабл в том, что голым видно только сща...",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1371221126755123251",
+   "date": "2025-05-11T20:23:12.675000+00:00",
+   "author": "ᚠᛖᚾᚱᛁᚱ",
+   "author_role": null,
+   "content": "не, я и других вижу",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1371245840181624963",
+   "date": "2025-05-11T22:01:24.815000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "А без трусов так же работает?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1371245918594007110",
+   "date": "2025-05-11T22:01:43.510000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Я не буду юзать честно слово",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1371245930593914890",
+   "date": "2025-05-11T22:01:46.371000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "<:s_podozhdu:1358052419988230215>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1371245965188661279",
+   "date": "2025-05-11T22:01:54.619000+00:00",
+   "author": "ᚠᛖᚾᚱᛁᚱ",
+   "author_role": null,
+   "content": "да... если трусов нет то их нет...",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1371246276636839957",
+   "date": "2025-05-11T22:03:08.874000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "или стоп, они просто наслаиваются",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1371246290733895831",
+   "date": "2025-05-11T22:03:12.235000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "тогда обидно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1371319557318250606",
+   "date": "2025-05-12T02:54:20.350000+00:00",
+   "author": "KARiX",
+   "author_role": null,
+   "content": "На форме сб к слову, играя за женского персонажа - никаких проблем",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1371561762096152606",
+   "date": "2025-05-12T18:56:46.469000+00:00",
+   "author": "TREST",
+   "author_role": null,
+   "content": "разберемся",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1382690748968996905",
+   "date": "2025-06-12T11:59:23.706000+00:00",
+   "author": "ᚠᛖᚾᚱᛁᚱ",
+   "author_role": null,
+   "content": "https://cdn.discordapp.com/attachments/1146589881703862342/1230425115246858371/azuna_loadscreen.gif",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

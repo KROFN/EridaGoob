@@ -1,0 +1,151 @@
+{
+ "thread_id": "1426262637389283370",
+ "title": "Проблемы дракона",
+ "author": {
+  "id": "570567448504303617",
+  "username": "papjijict",
+  "global_name": "Parodist",
+  "server_nick": null,
+  "display": "Parodist"
+ },
+ "created_at": "2025-10-10T17:38:31.432Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1414266059208265799"
+ ],
+ "message_count": 12,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1426262637389283370",
+  "date": "2025-10-10T17:38:31.432000+00:00",
+  "author": "Parodist",
+  "author_role": null,
+  "content": "Если разлом дракона 100% то его возможно сломать...",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1426263606529626214",
+   "date": "2025-10-10T17:42:22.493000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "А не фича разве?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1426269755844591626",
+   "date": "2025-10-10T18:06:48.604000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "вроде как и на старом билде это было и никто не жаловался?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1426283730355617983",
+   "date": "2025-10-10T19:02:20.387000+00:00",
+   "author": "Parodist",
+   "author_role": null,
+   "content": ". _.   Ну..   Дракону тогда суждено проигрывать..",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1426300485597659231",
+   "date": "2025-10-10T20:08:55.148000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "Это визы так и сделали, если разлом зарядился то единственный способ уничтожить это убить дракона, но там достаточно окружить бронестеклом разлом и карпы его ломать не могут",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1426304091017052181",
+   "date": "2025-10-10T20:23:14.747000+00:00",
+   "author": "LoToK1",
+   "author_role": null,
+   "content": "Я знаю что дракон может бесконечно вс себя руду всасывать, как будто у него сумка для руды есть. А разлом это фича",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1426388057615110174",
+   "date": "2025-10-11T01:56:53.944000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "тут про то что портал ломается, а должен быть неуязвимым",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1426396574552031385",
+   "date": "2025-10-11T02:30:44.540000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "Чекну",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1426567171919712327",
+   "date": "2025-10-11T13:48:38.122000+00:00",
+   "author": "bebrus",
+   "author_role": null,
+   "content": "просто стены обычные",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1427175521183207494",
+   "date": "2025-10-13T06:05:59.889000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "Всё нормально, если разлом сотка - ебите с него карпов, убивайте дракона, не дайте новым разломам вырасти до 100. Если убьёте дракона, разлом пропадёт сразу, это так и задумано.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1427175590674300972",
+   "date": "2025-10-13T06:06:16.457000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "Задача дракошки этот разлом оборонять как раз",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1427175701026439280",
+   "date": "2025-10-13T06:06:42.767000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "На 50% насколько помню оно фиолетовое, если голубой... увы",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

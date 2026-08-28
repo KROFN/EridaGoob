@@ -1,0 +1,106 @@
+{
+ "thread_id": "1365605529233391656",
+ "title": "НА НА НА ДАРОГИ",
+ "author": {
+  "id": "743015880690106430",
+  "username": "deluuxeee",
+  "global_name": "! Deluuxe",
+  "server_nick": null,
+  "display": "! Deluuxe"
+ },
+ "created_at": "2025-04-26T08:28:49.893Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 6,
+ "attachment_count": 2,
+ "attachments_on_disk": [
+  "1365605529753223220_1482520_9.jpg",
+  "1365609418988982274_image0.gif"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1365605529233391656",
+  "date": "2025-04-26T08:28:49.893000+00:00",
+  "author": "! Deluuxe",
+  "author_role": null,
+  "content": "моделька под дорогой",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1365605529753223220",
+    "filename": "1482520_9.jpg",
+    "content_type": "image/jpeg",
+    "download_status": "downloaded",
+    "local_path": "attachments/1365605529233391656/1365605529753223220_1482520_9.jpg"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1365605607050317925",
+   "date": "2025-04-26T08:29:08.446000+00:00",
+   "author": "! Deluuxe",
+   "author_role": null,
+   "content": "если что я вон там под развилкой",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365609419462672507",
+   "date": "2025-04-26T08:44:17.396000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1365609418988982274",
+     "filename": "image0.gif",
+     "content_type": "image/gif",
+     "download_status": "downloaded",
+     "local_path": "attachments/1365605529233391656/1365609418988982274_image0.gif"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1365609467290456065",
+   "date": "2025-04-26T08:44:28.799000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "Откуда ты вообще эту дорогу блять достал",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365616740624633907",
+   "date": "2025-04-26T09:13:22.897000+00:00",
+   "author": "! Deluuxe",
+   "author_role": null,
+   "content": "а домики тебя не смутили ?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365617551513747456",
+   "date": "2025-04-26T09:16:36.228000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "Чут чут",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

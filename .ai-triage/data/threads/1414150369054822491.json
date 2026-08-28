@@ -1,0 +1,67 @@
+{
+ "thread_id": "1414150369054822491",
+ "title": "Красивый UTAP-1",
+ "author": {
+  "id": "1314294897318166538",
+  "username": "blck_angl",
+  "global_name": "BlackAngel",
+  "server_nick": null,
+  "display": "BlackAngel"
+ },
+ "created_at": "2025-09-07T07:28:41.626Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 3,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1414150369201618984_sleekshot.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1414150369054822491",
+  "date": "2025-09-07T07:28:41.626000+00:00",
+  "author": "BlackAngel",
+  "author_role": null,
+  "content": "",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1414150369201618984",
+    "filename": "sleekshot.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1414150369054822491/1414150369201618984_sleekshot.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1414150593022267533",
+   "date": "2025-09-07T07:29:35.024000+00:00",
+   "author": "Кристина",
+   "author_role": null,
+   "content": "Говорят уже пофиксили",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414150662207438868",
+   "date": "2025-09-07T07:29:51.519000+00:00",
+   "author": "Кристина",
+   "author_role": null,
+   "content": "Но я сервер не перезапускаю пока ТТС не пофиксят)",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

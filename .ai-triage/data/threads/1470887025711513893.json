@@ -1,0 +1,81 @@
+{
+ "thread_id": "1470887025711513893",
+ "title": "Крайне маленькая ошибка.",
+ "author": {
+  "id": "1116500157819797514",
+  "username": "methanolll",
+  "global_name": "так мета же запрещена в рф",
+  "server_nick": null,
+  "display": "так мета же запрещена в рф"
+ },
+ "created_at": "2026-02-10T20:59:54.689Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1414266059208265799"
+ ],
+ "message_count": 4,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1470887026051121152_2026-02-10_215444.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1470887025711513893",
+  "date": "2026-02-10T20:59:54.689000+00:00",
+  "author": "так мета же запрещена в рф",
+  "author_role": null,
+  "content": "в конце дробовика осща стоит точка с запятой и это очень мазолит мои глазки. (впринципе тоже самое с табельным на осще никто не жаловался но кто-то должен был сказать.)",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1470887026051121152",
+    "filename": "2026-02-10_215444.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1470887025711513893/1470887026051121152_2026-02-10_215444.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1470925924244394158",
+   "date": "2026-02-10T23:34:28.822000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "Просто не бери дробовик осща",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1471087761921409046",
+   "date": "2026-02-11T10:17:33.931000+00:00",
+   "author": "так мета же запрещена в рф",
+   "author_role": null,
+   "content": "я так и делаю но типо",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1471087818150514953",
+   "date": "2026-02-11T10:17:47.337000+00:00",
+   "author": "так мета же запрещена в рф",
+   "author_role": null,
+   "content": "все равно глаза мазолит чуток",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

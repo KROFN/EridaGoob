@@ -1,0 +1,181 @@
+{
+ "thread_id": "1413792059269320888",
+ "title": "Стоны",
+ "author": {
+  "id": "1251925458426003487",
+  "username": "bahamutichka",
+  "global_name": "Elgard",
+  "server_nick": null,
+  "display": "Elgard"
+ },
+ "created_at": "2025-09-06T07:44:53.916Z",
+ "archived": true,
+ "tags": [
+  "В процессе"
+ ],
+ "tag_ids": [
+  "1365427658288005150"
+ ],
+ "message_count": 20,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1413792059269320888",
+  "date": "2025-09-06T07:44:53.916000+00:00",
+  "author": "Elgard",
+  "author_role": null,
+  "content": "Слишком громкие по сравнению с другими эмоутами.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1413793291463430155",
+   "date": "2025-09-06T07:49:47.694000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Странно. Мне казалось, плюс минус нормально работают",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413793353748840558",
+   "date": "2025-09-06T07:50:02.544000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Но оке, я понижу громкость",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413805106411081739",
+   "date": "2025-09-06T08:36:44.597000+00:00",
+   "author": "Elgard",
+   "author_role": null,
+   "content": "ну так было на второй смене со старта",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413805139856326656",
+   "date": "2025-09-06T08:36:52.571000+00:00",
+   "author": "Elgard",
+   "author_role": null,
+   "content": "может ты после неё уже понижал",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413805347738484817",
+   "date": "2025-09-06T08:37:42.134000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Они раньше сильно громче вообще были, я на этапе разработки громкость понижал ещё",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413805474255474688",
+   "date": "2025-09-06T08:38:12.298000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Могу потише сделать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413848753835606016",
+   "date": "2025-09-06T11:30:10.954000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "Относительно этого, если кому-то громко то можно добавить ползунок относительно стонов или же привязать их к ползунку окружения",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413848845170905239",
+   "date": "2025-09-06T11:30:32.730000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "Чтобы у одних кому тихо - те увеличили, другие уменьшили для себя чисто",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413848915987398666",
+   "date": "2025-09-06T11:30:49.614000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Так вроде эмоуты итак привязаны к ползунку",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413849001748463756",
+   "date": "2025-09-06T11:31:10.061000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "Ну, я не знаю к какому потому и говорю об этом ._.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413849035361746965",
+   "date": "2025-09-06T11:31:18.075000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "А так, если они привязаны уже - тогда пофиг",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413849289184251995",
+   "date": "2025-09-06T11:32:18.591000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "Я не проверял, не знаю\nПусть другие проверяют, я подожду починки билда до играбельного состояния (у меня от цветовой гаммы чуть глаза не вытекли)",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413919141102096475",
+   "date": "2025-09-06T16:09:52.586000+00:00",
+   "author": "voko421",
+   "author_role": null,
+   "content": "Скорее всего какой-то олух загрузил их в stereo",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413919166381031485",
+   "date": "2025-09-06T16:09:58.613000+00:00",
+   "author": "voko421",
+   "author_role": null,
+   "content": "Хотя звуки в сс14 должны быть в mono",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

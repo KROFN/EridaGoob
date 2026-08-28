@@ -1,0 +1,103 @@
+{
+ "thread_id": "1482630121956311040",
+ "title": "У инженеров во вкладке \"снаряжение\" две категории \"Безделушки\", что повторяют друг друга",
+ "author": {
+  "id": "484006579612549130",
+  "username": "re4ka1",
+  "global_name": "ЪУЪ",
+  "server_nick": null,
+  "display": "ЪУЪ"
+ },
+ "created_at": "2026-03-15T06:42:47.010Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 5,
+ "attachment_count": 2,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1482630121956311040",
+  "date": "2026-03-15T06:42:47.010000+00:00",
+  "author": "ЪУЪ",
+  "author_role": null,
+  "content": "",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1482630122170486986",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1482661892576116817",
+   "date": "2026-03-15T08:49:01.716000+00:00",
+   "author": "PuroSlavKing",
+   "author_role": null,
+   "content": "2 по цене 1",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "💕:1"
+   ]
+  },
+  {
+   "id": "1482661924289380452",
+   "date": "2026-03-15T08:49:09.277000+00:00",
+   "author": "PuroSlavKing",
+   "author_role": null,
+   "content": "бери пока дают\nне дают не бери",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "💕:1"
+   ]
+  },
+  {
+   "id": "1483116004186918993",
+   "date": "2026-03-16T14:53:30.361000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "Аналогично у психолога в лодауте две кнопки по выбору костюма",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1483974742011810074",
+   "date": "2026-03-18T23:45:49.413000+00:00",
+   "author": "Брудилда",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1483974741940375602",
+     "filename": "ssstik.io_zxcfle_1773877540471.mp4",
+     "content_type": "video/mp4",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

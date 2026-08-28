@@ -1,0 +1,88 @@
+{
+ "thread_id": "1449119998156210387",
+ "title": "Джаггернаут",
+ "author": {
+  "id": "949070562779607060",
+  "username": "whywhywhywhywhywhywhywhyyy",
+  "global_name": "the Hope of the shattered Ones",
+  "server_nick": null,
+  "display": "the Hope of the shattered Ones"
+ },
+ "created_at": "2025-12-12T19:25:30.908Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 4,
+ "attachment_count": 2,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1449119998156210387",
+  "date": "2025-12-12T19:25:30.908000+00:00",
+  "author": "the Hope of the shattered Ones",
+  "author_role": null,
+  "content": "у шлема ОСЩ резисты запредельно запредельные.\nНа видео вы можете увидеть, как тактический нож наносит урон двум макуристам, но в разной экипировке:\nмакурист в дефолт экипировке ОСЩ, и макурист в экипировке яо-джаггернаута.\nОСЩ получает 1,70 единиц урона режущими, джаггернаут - 1,71 урона режущими. \n\"ОСЩ, а то правда, что вы самый сильный?\"\n\"Да, сынок, я самый сильный. Даже если придет джаггернаут - он будет слабее меня. Даже если придут самые ужасы ужасов, они падут пред мной. Убить меня - невозможно, сынок. О, Центральное Командование, а можно мне скафандр в качестве спец. заказа? Нет?.. Забудь мои слова......\"",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1449119999607312444",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   },
+   {
+    "id": "1449120000404361318",
+    "filename": "2025-12-12_22-19-20.mp4",
+    "content_type": "video/mp4",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1449120488138735710",
+   "date": "2025-12-12T19:27:27.729000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "На будущее по поводу баланса https://discord.com/channels/1357728304710422680/1357998722553741433",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1450840841030471721",
+   "date": "2025-12-17T13:23:31.821000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "Кароче теперь скаф все",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1450840945640603718",
+   "date": "2025-12-17T13:23:56.762000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "А ну ваще нужно будет скрыть спавн скафандра отдельно ведь он теперь не нужен",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

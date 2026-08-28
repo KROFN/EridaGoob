@@ -1,0 +1,103 @@
+{
+ "thread_id": "1449104231855427821",
+ "title": "руководство не работает",
+ "author": {
+  "id": "949070562779607060",
+  "username": "whywhywhywhywhywhywhywhyyy",
+  "global_name": "the Hope of the shattered Ones",
+  "server_nick": null,
+  "display": "the Hope of the shattered Ones"
+ },
+ "created_at": "2025-12-12T18:22:51.929Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 6,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1449104231855427821",
+  "date": "2025-12-12T18:22:51.929000+00:00",
+  "author": "the Hope of the shattered Ones",
+  "author_role": null,
+  "content": "руководство сошло с ума",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1449104232333443174",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1449114755531935967",
+   "date": "2025-12-12T19:04:40.969000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "<@531766474541498378> К себе докинешь или делаю?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1449116519194693663",
+   "date": "2025-12-12T19:11:41.459000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "прям щас не выйдет, если сейчас кинешь то окей, я только ночью смогу",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1449117811917062268",
+   "date": "2025-12-12T19:16:49.668000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Я щас глянул и там куча вкладок без локали",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1449122366289346894",
+   "date": "2025-12-12T19:34:55.515000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "ночью тогда исправлю",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "✅:1"
+   ]
+  },
+  {
+   "id": "1450840626177249353",
+   "date": "2025-12-17T13:22:40.596000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "Пул залили, гайдбук будет после рестарта работать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

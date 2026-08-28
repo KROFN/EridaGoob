@@ -1,0 +1,151 @@
+{
+ "thread_id": "1369752449820135436",
+ "title": "Крио странно себя ведёт",
+ "author": {
+  "id": "1179212963358457986",
+  "username": "Deleted User",
+  "global_name": null,
+  "server_nick": null,
+  "display": "Deleted User"
+ },
+ "created_at": "2025-05-07T19:07:12.807Z",
+ "archived": true,
+ "tags": [
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1377371306470801439"
+ ],
+ "message_count": 12,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1369752449820135436",
+  "date": "2025-05-07T19:07:12.807000+00:00",
+  "author": "Deleted User",
+  "author_role": null,
+  "content": "Я сварила оппорозидон, доксарубиксадон, криоксадон, дальше дала их пациенту в криокапсулу и никакого эффекта. (Температура тела.. меньше 140k)",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1369752694113173627",
+   "date": "2025-05-07T19:08:11.051000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "крио если что включено",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369752718268174357",
+   "date": "2025-05-07T19:08:16.810000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "и нормально настроено",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369913243455328348",
+   "date": "2025-05-08T05:46:08.997000+00:00",
+   "author": "о.",
+   "author_role": null,
+   "content": "А ты включила?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369913284744183849",
+   "date": "2025-05-08T05:46:18.841000+00:00",
+   "author": "о.",
+   "author_role": null,
+   "content": "Их надо вводить не внутривенно, а вставлять мензурки в капсулы.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369913299831095306",
+   "date": "2025-05-08T05:46:22.438000+00:00",
+   "author": "о.",
+   "author_role": null,
+   "content": "В криокапсулы",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369913338976538775",
+   "date": "2025-05-08T05:46:31.771000+00:00",
+   "author": "о.",
+   "author_role": null,
+   "content": "Если ты так и сделала, то черт знает.<:s_obsession:1369567465625096274>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369918762010284062",
+   "date": "2025-05-08T06:08:04.723000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "ну да да",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1379189438621683732",
+   "date": "2025-06-02T20:06:26.268000+00:00",
+   "author": "cybertrash",
+   "author_role": null,
+   "content": "<@456226577798135808> Это баг сс14 в общем, оффы пока что это не фиксят, значит не баг, а фича. видимо если будет время то попробуем решить.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1379191843274620941",
+   "date": "2025-06-02T20:15:59.582000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "как раз таки не так, представь что криокапсула это гипоспрей с функцией охлаждения, криоксадон работает только при определённой температуре, ты находясь в космосе без скафандра можешь ввести в себя криоксадон и он будет действовать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1379192065409290300",
+   "date": "2025-06-02T20:16:52.543000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "а вообще на конфедерации вроде должны баффнуть в 3 акте ребелла криокапсулу так что она сможет лечить конечности и может пофиксят сами уже",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1379192859856470097",
+   "date": "2025-06-02T20:20:01.954000+00:00",
+   "author": "о.",
+   "author_role": null,
+   "content": "Ypa",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

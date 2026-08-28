@@ -1,0 +1,59 @@
+{
+ "thread_id": "1385325050651086888",
+ "title": "чет всем похуй по этому решил скинуть",
+ "author": {
+  "id": "805804440220073994",
+  "username": "fenrir_1312",
+  "global_name": "ᚠᛖᚾᚱᛁᚱ",
+  "server_nick": null,
+  "display": "ᚠᛖᚾᚱᛁᚱ"
+ },
+ "created_at": "2025-06-19T18:27:10.170Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 2,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1385325050651086888",
+  "date": "2025-06-19T18:27:10.170000+00:00",
+  "author": "ᚠᛖᚾᚱᛁᚱ",
+  "author_role": null,
+  "content": "форма сб в руках выдает огромную эрорку",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1385325050919391314",
+    "filename": "Screenshot_217.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1385709235421053171",
+   "date": "2025-06-20T19:53:46.957000+00:00",
+   "author": "cybertrash",
+   "author_role": null,
+   "content": "В апстриме загружу.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

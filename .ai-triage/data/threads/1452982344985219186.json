@@ -1,0 +1,193 @@
+{
+ "thread_id": "1452982344985219186",
+ "title": "Дайте шипеть на великом могучем",
+ "author": {
+  "id": "700677016931926036",
+  "username": "merzkii_zhizh",
+  "global_name": "мерзкий жиж",
+  "server_nick": null,
+  "display": "мерзкий жиж"
+ },
+ "created_at": "2025-12-23T11:13:06.151Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 24,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1452982344985219186",
+  "date": "2025-12-23T11:13:06.151000+00:00",
+  "author": "мерзкий жиж",
+  "author_role": null,
+  "content": "Слова излишни, это давно конечно так, но я решил упомянуть об этом ток сейчас. А ещё по мелочи антропоморфы не рычат, нианы не жужжат",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1452982345396392067",
+    "filename": "2025-12-23_14-06-20.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": [
+   "🫂:1"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1452991467499819058",
+   "date": "2025-12-23T11:49:21.128000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "У нас давно нет локализации на них",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452991802167656560",
+   "date": "2025-12-23T11:50:40.919000+00:00",
+   "author": "мерзкий жиж",
+   "author_role": null,
+   "content": "исправлять будут?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452995812899557526",
+   "date": "2025-12-23T12:06:37.152000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "на мк локализация от корвакса",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452995843929018473",
+   "date": "2025-12-23T12:06:44.550000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "могу заняться по быстрому",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452995905975222272",
+   "date": "2025-12-23T12:06:59.343000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "на прошлом билде она вроде тоже от корвакса была",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452995930142806116",
+   "date": "2025-12-23T12:07:05.105000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Да там даже портировать не нужно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452995970450063504",
+   "date": "2025-12-23T12:07:14.715000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Просто поменять Regex",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452996401783898202",
+   "date": "2025-12-23T12:08:57.553000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "да я уже начал, просто переделывать все regex выйдет куча лишних строк и названий реплейсов, а в локале от корвакса (смотрю в гит фобоса) всё через повторение одних и тех строк с добавлением рандома",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452997608506392629",
+   "date": "2025-12-23T12:13:45.258000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "ну короче я потыкаюсь",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1453024687520219207",
+   "date": "2025-12-23T14:01:21.398000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "я сделал, плюсом добавил рычащий акцент плафеимам и антро, но есть проблемка что заглавные буквы дважды/трижды пишутся. Залью пр на тесты, завтра допилю с правильным обозначением. Да и в целом другие акценты потрогаю, пиратский например",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1453286945038794823",
+   "date": "2025-12-24T07:23:28.463000+00:00",
+   "author": "MonTrius",
+   "author_role": null,
+   "content": "А есть возможность сделать акцент антро именно через черты? Для того чтобы каждый выбрал сам для своей расы нужный акцент. Просто не все расы антро вульпы, а там также есть например касатка и аксолотль, что странно будет рычание.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1453287212081745940",
+   "date": "2025-12-24T07:24:32.131000+00:00",
+   "author": "MonTrius",
+   "author_role": null,
+   "content": "Если можно, то хотелось бы акцент ниана, так как есть и под жуков черты (Хотя сейчас всë есть).",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1453287286740353127",
+   "date": "2025-12-24T07:24:49.931000+00:00",
+   "author": "MonTrius",
+   "author_role": null,
+   "content": "А так всë равно благодарен за тебя и горжусь!",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1453301903487271064",
+   "date": "2025-12-24T08:22:54.835000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "думаю всё таки нет, потому что идёт как особенность расы",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

@@ -1,0 +1,151 @@
+{
+ "thread_id": "1369677670853644399",
+ "title": "Возвращение в раунд",
+ "author": {
+  "id": "340992235514363909",
+  "username": "yt9shka",
+  "global_name": "Yt9shka",
+  "server_nick": null,
+  "display": "Yt9shka"
+ },
+ "created_at": "2025-05-07T14:10:04.112Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 12,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1369677670853644399",
+  "date": "2025-05-07T14:10:04.112000+00:00",
+  "author": "Yt9shka",
+  "author_role": null,
+  "content": "При возвращении в раунд(кнопка за призрака с кд в ~15мин), спавнимся за ассистента без аварийного набора(масочка, кислород, вода, еда)",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1369680770431586436",
+   "date": "2025-05-07T14:22:23.109000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "Это вроде от выбранной расы может зависить",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369680780497911909",
+   "date": "2025-05-07T14:22:25.509000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "Но хз",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369682759689441393",
+   "date": "2025-05-07T14:30:17.385000+00:00",
+   "author": "Yt9shka",
+   "author_role": null,
+   "content": "На мой взгляд, это не должно зависеть от выбранной расы, потому что набор нужен всем, кто заспавнился на станции и должен быть готов к ЧС. Возможно баг связан с конкретной ролью, но не с расой.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369685593059098754",
+   "date": "2025-05-07T14:41:32.913000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "Ну.. А я вроде и не говорил, что так задумано было)",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369685661497430127",
+   "date": "2025-05-07T14:41:49.230000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "Это вроде частично баг того, что у некоторых рас не спавнятся стартовые наборы",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369685687313371189",
+   "date": "2025-05-07T14:41:55.385000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "Но хз",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369685702438158366",
+   "date": "2025-05-07T14:41:58.991000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "Мб ошибаюсь",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369685715662929940",
+   "date": "2025-05-07T14:42:02.144000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "И уже пофиксили",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369685838698647583",
+   "date": "2025-05-07T14:42:31.478000+00:00",
+   "author": "Yt9shka",
+   "author_role": null,
+   "content": "Если важно - раса была Аркана",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369716900795514971",
+   "date": "2025-05-07T16:45:57.259000+00:00",
+   "author": "helaframe",
+   "author_role": null,
+   "content": "Да, у аркан нет аварийного набора даже раундстартом",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1379189644050174023",
+   "date": "2025-06-02T20:07:15.246000+00:00",
+   "author": "cybertrash",
+   "author_role": null,
+   "content": "<@340992235514363909>у половины импортнутрых рас нету лодаута, уже этим занимаются. Вскоре пофиксим.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

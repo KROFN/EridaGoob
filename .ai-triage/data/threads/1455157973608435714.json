@@ -1,0 +1,191 @@
+{
+ "thread_id": "1455157973608435714",
+ "title": "ядерный оперативник с неверным шаттлом",
+ "author": {
+  "id": "949070562779607060",
+  "username": "whywhywhywhywhywhywhywhyyy",
+  "global_name": "the Hope of the shattered Ones",
+  "server_nick": null,
+  "display": "the Hope of the shattered Ones"
+ },
+ "created_at": "2025-12-29T11:18:16.436Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 21,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1455157973608435714",
+  "date": "2025-12-29T11:18:16.436000+00:00",
+  "author": "the Hope of the shattered Ones",
+  "author_role": null,
+  "content": "сейчас ядерный оперативник спавнится на шаттле яо синдиката, а не интека, из-за чего у него нет банально доступов выйти из своей каморки",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1455157974585577532",
+    "filename": "20251229135345_1.jpg",
+    "content_type": "image/jpeg",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1455158352496693268",
+   "date": "2025-12-29T11:19:46.770000+00:00",
+   "author": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ",
+   "author_role": null,
+   "content": "потому-что щитспавн",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455158394431344661",
+   "date": "2025-12-29T11:19:56.768000+00:00",
+   "author": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ",
+   "author_role": null,
+   "content": "у него есть свой шаттл",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455158481215553730",
+   "date": "2025-12-29T11:20:17.459000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Типо, ложь?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455158516175077398",
+   "date": "2025-12-29T11:20:25.794000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Как ты его заспавнил",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455158564099194902",
+   "date": "2025-12-29T11:20:37.220000+00:00",
+   "author": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ",
+   "author_role": null,
+   "content": "называется этот шаттл вроде Striker",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455158583799840923",
+   "date": "2025-12-29T11:20:41.917000+00:00",
+   "author": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ",
+   "author_role": null,
+   "content": "или что-то типо того",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455158612757446708",
+   "date": "2025-12-29T11:20:48.821000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Да разберёмся сами сейчас",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455159026123018290",
+   "date": "2025-12-29T11:22:27.375000+00:00",
+   "author": "the Hope of the shattered Ones",
+   "author_role": null,
+   "content": "типо заспавнилась гостроль яо",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455159052840603703",
+   "date": "2025-12-29T11:22:33.745000+00:00",
+   "author": "the Hope of the shattered Ones",
+   "author_role": null,
+   "content": "и у него такой шаттл",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455159123472678983",
+   "date": "2025-12-29T11:22:50.585000+00:00",
+   "author": "the Hope of the shattered Ones",
+   "author_role": null,
+   "content": "нахрена мне еще было бы это репортить?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455159168586748077",
+   "date": "2025-12-29T11:23:01.341000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Я хуй знает. Может это только через пкм",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455159244285415498",
+   "date": "2025-12-29T11:23:19.389000+00:00",
+   "author": "the Hope of the shattered Ones",
+   "author_role": null,
+   "content": "я бы написал, что это делается через пкм",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455159333858967619",
+   "date": "2025-12-29T11:23:40.745000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "А я ебу че ты написал бы там",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455159367904268413",
+   "date": "2025-12-29T11:23:48.862000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Сейчас посмотрим что сделать можем",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

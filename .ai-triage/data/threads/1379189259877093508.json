@@ -1,0 +1,71 @@
+{
+ "thread_id": "1379189259877093508",
+ "title": "Аннигиляция из вселенной",
+ "author": {
+  "id": "688066451336462346",
+  "username": "communistsenko",
+  "global_name": "Фобос",
+  "server_nick": null,
+  "display": "Фобос"
+ },
+ "created_at": "2025-06-02T20:05:43.652Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1365427630660128861"
+ ],
+ "tag_ids": [
+  "1365427630660128861"
+ ],
+ "message_count": 4,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1379189259877093508",
+  "date": "2025-06-02T20:05:43.652000+00:00",
+  "author": "Фобос",
+  "author_role": null,
+  "content": "Играя самую лучшую катку на вампире я в итоге столкнулся с багом, пытаясь за мышь сбежать я в итоге не превратился в мышь... А высрал белую мышь. \n\nВ итоге я думаю.... Ну думаю тогда крови из неё наберу, поем, а в итоге я переместился в мышь из которой высосал кровь, а после съев последнюю мышь аннигилировался из пространства и времени, что все вещи пропали, мозга нет, тела нет... И в принципе всё исчезло. \n\n\nА ведь способность трансформации в мышь должна была превратить меня в мышь, а после иметь способность обратного обращения в человека, а не создавать мышь",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1382063410379755660",
+   "date": "2025-06-10T18:26:34.531000+00:00",
+   "author": "cybertrash",
+   "author_role": null,
+   "content": "<@688066451336462346> Баг основного билда",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1382063535802286232",
+   "date": "2025-06-10T18:27:04.434000+00:00",
+   "author": "Фобос",
+   "author_role": null,
+   "content": "Я сначала прочитал бог...",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1382063582602330192",
+   "date": "2025-06-10T18:27:15.592000+00:00",
+   "author": "Фобос",
+   "author_role": null,
+   "content": "Я думал сейчас агал карнавал будет. А так спасибо",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

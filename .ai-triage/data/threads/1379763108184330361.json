@@ -1,0 +1,183 @@
+{
+ "thread_id": "1379763108184330361",
+ "title": "Боёвка",
+ "author": {
+  "id": "1144857842671697990",
+  "username": "kreosan14",
+  "global_name": "KreoSan14",
+  "server_nick": null,
+  "display": "KreoSan14"
+ },
+ "created_at": "2025-06-04T10:05:59.750Z",
+ "archived": true,
+ "tags": [
+  "На рассмотрении"
+ ],
+ "tag_ids": [
+  "1377591362744094795"
+ ],
+ "message_count": 16,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1379763108184330361",
+  "date": "2025-06-04T10:05:59.750000+00:00",
+  "author": "KreoSan14",
+  "author_role": null,
+  "content": "Система боевая вместе с системой куклы полный кал с нерабочей милишкой, умереть в милишке можно только из-за кровотечения, это даже не баг, это говнокод который какой-то дебич вставил. UPD. Не только в милишке. Тут впринципе урона блять нет, особенно если тип в броне. Только убогая станмета работает.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1379809507433123981",
+   "date": "2025-06-04T13:10:22.193000+00:00",
+   "author": "KreoSan14",
+   "author_role": null,
+   "content": "ЛКМом тоже не работает если-что",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1379886100050350161",
+   "date": "2025-06-04T18:14:43.296000+00:00",
+   "author": "cybertrash",
+   "author_role": null,
+   "content": "<:s_perekur:1357975265921339515>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1379937688467013642",
+   "date": "2025-06-04T21:39:42.933000+00:00",
+   "author": "Boroven",
+   "author_role": null,
+   "content": "Я молотом хуярил людям головы, гибал части тел.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1379937711669903490",
+   "date": "2025-06-04T21:39:48.465000+00:00",
+   "author": "Boroven",
+   "author_role": null,
+   "content": "ЛКм более чем работает",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1379937754112065678",
+   "date": "2025-06-04T21:39:58.584000+00:00",
+   "author": "Boroven",
+   "author_role": null,
+   "content": "ести в грудь-максимум только гибнешь",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1379937835552997497",
+   "date": "2025-06-04T21:40:18.001000+00:00",
+   "author": "Boroven",
+   "author_role": null,
+   "content": "если по частям тел-более чем возможно отхуярить кисть/стопу/руку/ногу/голову",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1379937858273411124",
+   "date": "2025-06-04T21:40:23.418000+00:00",
+   "author": "Boroven",
+   "author_role": null,
+   "content": "автоматом так же можно выбить голову с тела",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1379937879265902643",
+   "date": "2025-06-04T21:40:28.423000+00:00",
+   "author": "Boroven",
+   "author_role": null,
+   "content": "да боёвка не очент",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1379937900162191502",
+   "date": "2025-06-04T21:40:33.405000+00:00",
+   "author": "Boroven",
+   "author_role": null,
+   "content": "но она криво криво но есть",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1379940869087694979",
+   "date": "2025-06-04T21:52:21.252000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "если на человеке нету защиты, и тебе выпал шанс попасть по голове с большим уроном то клас мина тоже может убить, но тут скорее проблема сейчас не в том что голова отлетает, а в том что нужно откуда-то брать запасные головы, в 13 тебя просто вживляют в макаку которую после трансформируют в человека",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1379941114957664276",
+   "date": "2025-06-04T21:53:19.872000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "и вот на данный момент у вас только стан мета работает, но с включённым болевым шоком все будет более гладко идти",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1380107201586266132",
+   "date": "2025-06-05T08:53:18.010000+00:00",
+   "author": "KreoSan14",
+   "author_role": null,
+   "content": "Вчера за игрой наблюдал спецом.\nСБшники урона от пуль и милишки не получают, как впринципе и все другие.\nТоварищ мой ЯО умер не от того, что в него въебали 100 пуль и лазеров, а от кровотечения",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1380107250630266950",
+   "date": "2025-06-05T08:53:29.703000+00:00",
+   "author": "KreoSan14",
+   "author_role": null,
+   "content": "У вас блять буквально от оружия урона нет",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1380428952203431947",
+   "date": "2025-06-06T06:11:49.335000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "скажи это отряду обра что вчера интек штурмовал",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [
+  "UPD"
+ ],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

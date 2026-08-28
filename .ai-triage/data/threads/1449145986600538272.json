@@ -1,0 +1,81 @@
+{
+ "thread_id": "1449145986600538272",
+ "title": "нет описания в кнопушках модулей борговских из аплинка при использовании боргом",
+ "author": {
+  "id": "949070562779607060",
+  "username": "whywhywhywhywhywhywhywhyyy",
+  "global_name": "the Hope of the shattered Ones",
+  "server_nick": null,
+  "display": "the Hope of the shattered Ones"
+ },
+ "created_at": "2025-12-12T21:08:47.036Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 4,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1449145986600538272",
+  "date": "2025-12-12T21:08:47.036000+00:00",
+  "author": "the Hope of the shattered Ones",
+  "author_role": null,
+  "content": "английское, но даже не описание, а просто название",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1449145993659678852",
+    "filename": "2025-12-13_00-06-40.mp4",
+    "content_type": "video/mp4",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1449148036159770695",
+   "date": "2025-12-12T21:16:55.689000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "<@531766474541498378>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1450841402463490109",
+   "date": "2025-12-17T13:25:45.677000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "А это я вроде упустил",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1450841456091598901",
+   "date": "2025-12-17T13:25:58.463000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "Ну ничо, нормально боргов тогда переведу еще",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

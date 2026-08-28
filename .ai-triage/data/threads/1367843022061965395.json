@@ -1,0 +1,67 @@
+{
+ "thread_id": "1367843022061965395",
+ "title": "Баг с целями",
+ "author": {
+  "id": "459666212025270287",
+  "username": "xkttty",
+  "global_name": "xkttty",
+  "server_nick": null,
+  "display": "xkttty"
+ },
+ "created_at": "2025-05-02T12:39:49.754Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 3,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1367843022284394508_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1367843022061965395",
+  "date": "2025-05-02T12:39:49.754000+00:00",
+  "author": "xkttty",
+  "author_role": null,
+  "content": "мне дропнулись цели чтобы выжили два агента Павел и Асфоль при этом у Павла были цели умереть и убить Асфоля, очень прикольные цели которые мне невозможно выполнить ( возможно баг от самой игры не знаю)",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1367843022284394508",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1367843022061965395/1367843022284394508_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1367851358165798952",
+   "date": "2025-05-02T13:12:57.236000+00:00",
+   "author": ".",
+   "author_role": null,
+   "content": "Синдикат прост угарал над тобою",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1367854062309212261",
+   "date": "2025-05-02T13:23:41.954000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "да",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

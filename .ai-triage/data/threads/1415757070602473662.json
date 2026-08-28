@@ -1,0 +1,199 @@
+{
+ "thread_id": "1415757070602473662",
+ "title": "Геймрул на отключение питания станции.",
+ "author": {
+  "id": "1215996475624919180",
+  "username": "fox_meowder",
+  "global_name": "Пряники",
+  "server_nick": null,
+  "display": "Пряники"
+ },
+ "created_at": "2025-09-11T17:53:09.126Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 26,
+ "attachment_count": 2,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1415757070602473662",
+  "date": "2025-09-11T17:53:09.126000+00:00",
+  "author": "Пряники",
+  "author_role": null,
+  "content": "ЛКП отключаются, но обратно не переключается, немного муторно руками включать все вновь.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1415760305597976576",
+   "date": "2025-09-11T18:06:00.409000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "какой именно? тот который временно отключает?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1415761211227635734",
+   "date": "2025-09-11T18:09:36.328000+00:00",
+   "author": "MonTrius",
+   "author_role": null,
+   "content": "Думаю это не баг, потому что и на мк давно видел подобные объявления. То есть:\n1. Временно отключающее всё питание, но потом самостоятельно врубается.\n2. Отключается часть лкп, где нужно самостоятельно врубить. Именно что часть, никогда не видел, чтобы вся станция вырубалась и не включалась.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1415761361740497018",
+   "date": "2025-09-11T18:10:12.213000+00:00",
+   "author": "MonTrius",
+   "author_role": null,
+   "content": "Не запоминал отличия объявлений, но подобное ещё очень давно видел и считал нормой. (А может и вправду баг)",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1415772914112008204",
+   "date": "2025-09-11T18:56:06.513000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "Не баг, есть геймрул бекерфлип и еще один, то есть один временно отключает свет на всей станции а другой выключает некоторые лкп и в объявлении сказано чтобы обратились к инженерам",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1415912286798872618",
+   "date": "2025-09-12T04:09:55.551000+00:00",
+   "author": "TehniQ",
+   "author_role": null,
+   "content": "Геймрул, который должен временно выключать, насколько помню, выключает навсегда. За цИИ после такого геймрула приходилось все лкп самостоятельно включать, после объявления о возвращении питания ничего не происходило. Может быть это было связано с тем, что я сам начал во время геймрула включать лкп, из-за чего всё поломалось",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1415993805433344080",
+   "date": "2025-09-12T09:33:51.108000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "\"аномалия в сети электропитания станции и бля бля бля\" и потом \"электропитание было восстановлено\"",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1416063146548002917",
+   "date": "2025-09-12T14:09:23.318000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "ну чота чота хз",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1416063146262659092",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1416063228148056167",
+   "date": "2025-09-12T14:09:42.773000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "пинганите когда такое на сервере будет",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1416087414857928745",
+   "date": "2025-09-12T15:45:49.334000+00:00",
+   "author": "TehniQ",
+   "author_role": null,
+   "content": "Странно, за сегодня неоднократно видел, как после отключения включения не происходило, лично ходил за капитана и напрягал ио включать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1416387128891277322",
+   "date": "2025-09-13T11:36:46.728000+00:00",
+   "author": "Parodist",
+   "author_role": null,
+   "content": "вот держи",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1416387128610390066",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1416464225555058759",
+   "date": "2025-09-13T16:43:08.005000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "Да дело в том что мне на локалке не удаётся повторить это и лкп всегда начинают работать, чтобы понять что на сервере происходит мне нужна консоль логов сервера пока что увы",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1416867878413533214",
+   "date": "2025-09-14T19:27:06.346000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "завтра посижу на сервере посмотрю лично",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1417645827895201997",
+   "date": "2025-09-16T22:58:23.956000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "Я уже некоторые изменения закинул, когда ошибки дофикшу будем смотреть появляеться или нет",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1418216811853381632",
+   "date": "2025-09-18T12:47:17.140000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "Должно работать, по крайней мере заходил и все включалось",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

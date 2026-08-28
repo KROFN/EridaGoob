@@ -1,0 +1,191 @@
+{
+ "thread_id": "1509558404778295347",
+ "title": "Багуля",
+ "author": {
+  "id": "1387675684616536216",
+  "username": "0_kaspi_0",
+  "global_name": "KasPI",
+  "server_nick": null,
+  "display": "KasPI"
+ },
+ "created_at": "2026-05-28T14:06:09.938Z",
+ "archived": true,
+ "tags": [
+  "Маппинг"
+ ],
+ "tag_ids": [
+  "1378687007080841246"
+ ],
+ "message_count": 17,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1509559114701733888_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1509558404778295347",
+  "date": "2026-05-28T14:06:09.938000+00:00",
+  "author": "KasPI",
+  "author_role": null,
+  "content": "На багеле наномед бригмеда выдаёт вещи в стену, просьба поменять его направление, за 10 сек делает",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1509559114970300627",
+   "date": "2026-05-28T14:08:59.261000+00:00",
+   "author": "KasPI",
+   "author_role": null,
+   "content": "вот ту КАК НАДО",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1509559114701733888",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "downloaded",
+     "local_path": "attachments/1509558404778295347/1509559114701733888_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1509674277396414507",
+   "date": "2026-05-28T21:46:36.123000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "хера нанотехнологии, наномед научился в направления выдавать вещи",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1509762658436644995",
+   "date": "2026-05-29T03:37:47.805000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "он выдаёт вещи на тот тайл в который направлен от стены",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1509874158236860428",
+   "date": "2026-05-29T11:00:51.429000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "хера нанотехнологии",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1509874232820240384",
+   "date": "2026-05-29T11:01:09.211000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "почему при мне хахич упорно отказывался так делать..",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1509874312146845706",
+   "date": "2026-05-29T11:01:28.124000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "<@257145566088265728> как так",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1509874366605951057",
+   "date": "2026-05-29T11:01:41.108000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "<:cat_who:1363696698106318968>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1509899907602055239",
+   "date": "2026-05-29T12:43:10.556000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "оффы сделали",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1509900024270819429",
+   "date": "2026-05-29T12:43:38.372000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "<:kreyd_10:1363126669145280693>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1509900391872073849",
+   "date": "2026-05-29T12:45:06.015000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "вообще когда я пилил бригмедиков, я ставил эти настенные шкафы так, чтоб смотрели как раз куда нужно, ток тогда это не работало и было декоративно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1509901167059144775",
+   "date": "2026-05-29T12:48:10.834000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "а как оно выбрасывало",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1509901248122454076",
+   "date": "2026-05-29T12:48:30.161000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "всегда на юг",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1509901343031296010",
+   "date": "2026-05-29T12:48:52.789000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "все диспенсеры только на юг выбрасывали, если это было на шаттле, то чтоб оно выпало на юг, надо разворачивать так шаттл",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1509901468621340692",
+   "date": "2026-05-29T12:49:22.732000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "помню даже баг репорт на мк, где жаловались на такой диспенсер у шаттла утилей",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

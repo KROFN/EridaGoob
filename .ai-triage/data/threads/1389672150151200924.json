@@ -1,0 +1,57 @@
+{
+ "thread_id": "1389672150151200924",
+ "title": "грузчик цк",
+ "author": {
+  "id": "1251925458426003487",
+  "username": "bahamutichka",
+  "global_name": "Elgard",
+  "server_nick": null,
+  "display": "Elgard"
+ },
+ "created_at": "2025-07-01T18:20:59.456Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 2,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1389672150847328427_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1389672150151200924",
+  "date": "2025-07-01T18:20:59.456000+00:00",
+  "author": "Elgard",
+  "author_role": null,
+  "content": "Если выбрать юбку комбенизон, то персонаж просто голый в лобби, не проверяла что будет если так зайти в раунд.\nТак же у грузчика в лодауте выбор сумки подписан как \"капитан, рюкзак\" хотя сумки самые обычные. Ну а также может не ошибка но у грузчика ЦК почему-то можно взять плащ капитана в лодауте.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1389672150847328427",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1389672150151200924/1389672150847328427_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1389873289693757470",
+   "date": "2025-07-02T07:40:14.860000+00:00",
+   "author": "Lost Dread",
+   "author_role": null,
+   "content": "баги с бакмена так и не кто не убрал",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

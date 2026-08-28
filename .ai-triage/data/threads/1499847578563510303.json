@@ -1,0 +1,62 @@
+{
+ "thread_id": "1499847578563510303",
+ "title": "OWO акцент",
+ "author": {
+  "id": "752236506378141716",
+  "username": "ven1ck",
+  "global_name": "Venick",
+  "server_nick": null,
+  "display": "Venick"
+ },
+ "created_at": "2026-05-01T18:58:48.550Z",
+ "archived": true,
+ "tags": [
+  "Незначительный",
+  "Дискорд-Бот"
+ ],
+ "tag_ids": [
+  "1466802797327421512",
+  "1414265921488289995"
+ ],
+ "message_count": 1,
+ "attachment_count": 2,
+ "attachments_on_disk": [
+  "1499847578727092374_image.png",
+  "1499847578999849162_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1499847578563510303",
+  "date": "2026-05-01T18:58:48.550000+00:00",
+  "author": "Venick",
+  "author_role": null,
+  "content": "Черта \"отсутствие акцента\" не убирает OWO акцент фелинидам.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1499847578727092374",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1499847578563510303/1499847578727092374_image.png"
+   },
+   {
+    "id": "1499847578999849162",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1499847578563510303/1499847578999849162_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [],
+ "mentions": [
+  "OWO"
+ ],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

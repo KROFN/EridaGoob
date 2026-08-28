@@ -1,0 +1,234 @@
+{
+ "thread_id": "1485666984141131816",
+ "title": "нерабочий фильтр газов",
+ "author": {
+  "id": "382911760346120210",
+  "username": "dallesplan",
+  "global_name": null,
+  "server_nick": null,
+  "display": "dallesplan"
+ },
+ "created_at": "2026-03-23T15:50:11.377Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 19,
+ "attachment_count": 6,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1485666984141131816",
+  "date": "2026-03-23T15:50:11.377000+00:00",
+  "author": "dallesplan",
+  "author_role": null,
+  "content": "когда газ проходит через фильтр, он меняет температуру на фильтрующем выходе",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1485666984527003749",
+    "filename": "2026-3-23_20.37.05.jpg",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   },
+   {
+    "id": "1485666985256947762",
+    "filename": "2026-3-23_20.37.16.jpg",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1485668592937730130",
+   "date": "2026-03-23T15:56:34.944000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "https://discord.com/channels/1357728304710422680/1480945804482052258",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1485669564518764877",
+   "date": "2026-03-23T16:00:26.587000+00:00",
+   "author": "dallesplan",
+   "author_role": null,
+   "content": "на титане нет такого \"прикола\", неужели тут не могут исправить?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1485669718844244008",
+   "date": "2026-03-23T16:01:03.381000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Вопрос не в невозможности исправить, а в том, что этим ещё не занимались",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1485669934490189997",
+   "date": "2026-03-23T16:01:54.795000+00:00",
+   "author": "dallesplan",
+   "author_role": null,
+   "content": "об этом баге ещё было сказано на предыдущем апстриме",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1486297973821538384",
+   "date": "2026-03-25T09:37:31.040000+00:00",
+   "author": "Anilori <3",
+   "author_role": null,
+   "content": "Мб апстрим? Оффы вроде починили же... Вроде",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1490972959811043430",
+   "date": "2026-04-07T07:14:14.557000+00:00",
+   "author": "Tanto",
+   "author_role": null,
+   "content": "Ну кстати тут вот в чем дело.  <@456226577798135808>  тут надо прописать на 77 строке.\n`var filteredOut = new GasMixture() { Temperature = removed.Temperature };` Ты его немножечко забыл прописать.\nhttps://github.com/dead-space-server/space-erida-14/blob/b7d83a5b675a9afffe1965f5d9f51e8a4eb0e673/Content.Server/Atmos/Piping/Trinary/EntitySystems/GasFilterSystem.cs#L75",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1490972960520011786",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1490974299052445756",
+   "date": "2026-04-07T07:19:33.857000+00:00",
+   "author": "Tanto",
+   "author_role": null,
+   "content": "<@456226577798135808>  Ну либо взять с виздов. https://github.com/space-wizards/space-station-14/blob/master/Content.Server/Atmos/Piping/Trinary/EntitySystems/GasFilterSystem.cs",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1490974527788683368",
+   "date": "2026-04-07T07:20:28.392000+00:00",
+   "author": "Tanto",
+   "author_role": null,
+   "content": "Тут как видишь они уже зафиксили атмос.",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1490974527507923050",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1490975648792182866",
+   "date": "2026-04-07T07:24:55.660000+00:00",
+   "author": "Tanto",
+   "author_role": null,
+   "content": "Ух и наплодили. https://github.com/space-wizards/space-station-14/commit/a1d7406bf2d64f4d0938b2b668e9c8dcffff159a",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1490976803089678380",
+   "date": "2026-04-07T07:29:30.866000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Этот код и брался с визардов. Они неплохо там поменяли вновь атмос, из-за чего это оставлено на апстрим",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1490977183290884117",
+   "date": "2026-04-07T07:31:01.513000+00:00",
+   "author": "Tanto",
+   "author_role": null,
+   "content": "Ну да я читаю сейчас как по бырому залатать дырку с фильтром. Кстати они сменили космический ветер с ротейт грида, на Икс форм. Короче у нас новая система физики будет от космического ветра.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "✅:1"
+   ]
+  },
+  {
+   "id": "1490978097967665164",
+   "date": "2026-04-07T07:34:39.589000+00:00",
+   "author": "Tanto",
+   "author_role": null,
+   "content": "<@456226577798135808>  По сути вот решение чтобы на текущем атмосе использовать новый код.  Ща скомпилирую проверю.",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1490978097888235562",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1491040348137459742",
+   "date": "2026-04-07T11:42:01.186000+00:00",
+   "author": "Tanto",
+   "author_role": null,
+   "content": "<@456226577798135808> <@382911760346120210> Убегал по делам. Короче починил я его.  Ща PR создам и там уже когда замержат.",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1491040347873345679",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": [
+    "👍:1"
+   ]
+  },
+  {
+   "id": "1491045767291474155",
+   "date": "2026-04-07T12:03:33.213000+00:00",
+   "author": "Tanto",
+   "author_role": null,
+   "content": "Короче создал. https://github.com/dead-space-server/space-erida-14/pull/316",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

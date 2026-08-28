@@ -1,0 +1,101 @@
+{
+ "thread_id": "1419456892413022248",
+ "title": "Баг с \"взять на руки\"",
+ "author": {
+  "id": "328564236567707650",
+  "username": "twilight_angelo",
+  "global_name": "Товарищ Дементор",
+  "server_nick": null,
+  "display": "Товарищ Дементор"
+ },
+ "created_at": "2025-09-21T22:54:55.385Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1414266059208265799"
+ ],
+ "message_count": 7,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1419456892413022248",
+  "date": "2025-09-21T22:54:55.385000+00:00",
+  "author": "Товарищ Дементор",
+  "author_role": null,
+  "content": "Если спящего человека (например обколотого ноктюрином) взять на руки, то у него возвращается контроль, не смотря на то что он спит. Пример: раунд #1577 самый конец уже на ЦК",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1419564831891128441",
+   "date": "2025-09-22T06:03:50.162000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "В плане, что он просыпается?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1419565753245630514",
+   "date": "2025-09-22T06:07:29.830000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Или есть возможность сопротивляться ношению?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1419640798374526996",
+   "date": "2025-09-22T11:05:41.983000+00:00",
+   "author": "DefinitelyNotMori",
+   "author_role": null,
+   "content": "не понял? подробнее пж",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1419640833904218253",
+   "date": "2025-09-22T11:05:50.454000+00:00",
+   "author": "DefinitelyNotMori",
+   "author_role": null,
+   "content": "я тестил, ни у кого контролч не было",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1419791318812721323",
+   "date": "2025-09-22T21:03:48.852000+00:00",
+   "author": "Товарищ Дементор",
+   "author_role": null,
+   "content": "1. обкалываешь ноктюрином человека - он засыпает\n2. поднимаешь его на руки\n3. отпускаешь\n4. спящий начинает двигаться и продолжать спать (получает контроль над персонажем)",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1419923154414993458",
+   "date": "2025-09-23T05:47:40.909000+00:00",
+   "author": "DefinitelyNotMori",
+   "author_role": null,
+   "content": "протесчу сегодня",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

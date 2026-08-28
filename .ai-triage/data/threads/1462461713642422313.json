@@ -1,0 +1,210 @@
+{
+ "thread_id": "1462461713642422313",
+ "title": "Новости.",
+ "author": {
+  "id": "602460075335876609",
+  "username": "mlefur",
+  "global_name": "Ykika",
+  "server_nick": null,
+  "display": "Ykika"
+ },
+ "created_at": "2026-01-18T15:00:43.757Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799",
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1414266059208265799",
+  "1377371306470801439"
+ ],
+ "message_count": 22,
+ "attachment_count": 3,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1462461713642422313",
+  "date": "2026-01-18T15:00:43.757000+00:00",
+  "author": "Ykika",
+  "author_role": null,
+  "content": "Смотрите, собственно. Как известно. если ты пишешь новость и используешь [color][bold][italic], то, так же как и с текстами в бумаге, ибо работает это идентично - у тебя видоизменяется текст. Однако, в нашем билде, ни цвет, ни выделения текста НЕ работает. Это пиздец.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1462461714128965703",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1462461779274891509",
+   "date": "2026-01-18T15:00:59.405000+00:00",
+   "author": "Ykika",
+   "author_role": null,
+   "content": "Тут, если что, есть как текст выделеный, так и цветной, однако..",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1462463600135241878",
+   "date": "2026-01-18T15:08:13.532000+00:00",
+   "author": "Ykika",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1462463598197473566",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    },
+    {
+     "id": "1462463599506358362",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1462468041299464345",
+   "date": "2026-01-18T15:25:52.388000+00:00",
+   "author": "Ykika",
+   "author_role": null,
+   "content": "На мейн мк всё нормально отображается",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1462468058214826107",
+   "date": "2026-01-18T15:25:56.421000+00:00",
+   "author": "Ykika",
+   "author_role": null,
+   "content": "как и  на других билдах",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1462468116574638404",
+   "date": "2026-01-18T15:26:10.335000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Я подожду пока ты всё скажешь",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1462468212477268101",
+   "date": "2026-01-18T15:26:33.200000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Это не баг, потому что мы сами убирали такую возможность",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1462468394644410592",
+   "date": "2026-01-18T15:27:16.632000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Использовали определённый багоюз, который позволял людям прописывать любые команды",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1462468565235007569",
+   "date": "2026-01-18T15:27:57.304000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "А если там администратор был в реадмине, ухх, весело",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1462468663641772144",
+   "date": "2026-01-18T15:28:20.766000+00:00",
+   "author": "Ykika",
+   "author_role": null,
+   "content": "на ушко скажешь че за багаюз?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1462468729853181953",
+   "date": "2026-01-18T15:28:36.552000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Вообще там оффы это в движке фиксили, но пока не помню, есть ли он у нас",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1462468749822132366",
+   "date": "2026-01-18T15:28:41.313000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Это уже везде не работает.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1462468852800557096",
+   "date": "2026-01-18T15:29:05.865000+00:00",
+   "author": "Ykika",
+   "author_role": null,
+   "content": "Так, если починили, то может блять, вернуть варик красить текст, не?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1462469026721829006",
+   "date": "2026-01-18T15:29:47.331000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Не помню когда это чинили и есть ли оно в нынешней версии",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1462691422804246665",
+   "date": "2026-01-19T06:13:30.689000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "После обновления движка все же лучше убрать коммит с запретом на поля",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [
+  "bold",
+  "color",
+  "italic"
+ ],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

@@ -1,0 +1,59 @@
+{
+ "thread_id": "1531332202141450258",
+ "title": "у унатхов снова отвалились звуки на эмоутах",
+ "author": {
+  "id": "700677016931926036",
+  "username": "merzkii_zhizh",
+  "global_name": "мерзкий жиж",
+  "server_nick": null,
+  "display": "мерзкий жиж"
+ },
+ "created_at": "2026-07-27T16:07:27.767Z",
+ "archived": false,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 2,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1531332202141450258",
+  "date": "2026-07-27T16:07:27.767000+00:00",
+  "author": "мерзкий жиж",
+  "author_role": null,
+  "content": "хочу, чтобы звучало, а оно не звучит",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1531332202338586774",
+    "filename": "262.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1532471904852508772",
+   "date": "2026-07-30T19:36:14.068000+00:00",
+   "author": "Lytheriia",
+   "author_role": null,
+   "content": "fixed",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

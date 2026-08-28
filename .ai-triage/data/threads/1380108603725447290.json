@@ -1,0 +1,107 @@
+{
+ "thread_id": "1380108603725447290",
+ "title": "Ахуенный супер комп",
+ "author": {
+  "id": "1314294897318166538",
+  "username": "blck_angl",
+  "global_name": "BlackAngel",
+  "server_nick": null,
+  "display": "BlackAngel"
+ },
+ "created_at": "2025-06-05T08:58:52.306Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 6,
+ "attachment_count": 2,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1380108603725447290",
+  "date": "2025-06-05T08:58:52.306000+00:00",
+  "author": "BlackAngel",
+  "author_role": null,
+  "content": "",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1380108603997814846",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1380116525343703151",
+   "date": "2025-06-05T09:30:20.967000+00:00",
+   "author": "Ykika",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1380116525226266694",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1380116559502118932",
+   "date": "2025-06-05T09:30:29.111000+00:00",
+   "author": "Ykika",
+   "author_role": null,
+   "content": "Все остальные кпк это ошибка",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1381958418121887814",
+   "date": "2025-06-10T11:29:22.426000+00:00",
+   "author": "cybertrash",
+   "author_role": null,
+   "content": "Вроде бы фиксили?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1381958424903811194",
+   "date": "2025-06-10T11:29:24.043000+00:00",
+   "author": "cybertrash",
+   "author_role": null,
+   "content": "проверю",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1381991634367025295",
+   "date": "2025-06-10T13:41:21.796000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "Да, все нормально",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

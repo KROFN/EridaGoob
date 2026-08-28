@@ -1,0 +1,101 @@
+{
+ "thread_id": "1419998003447468153",
+ "title": "Конвейеры и таскание на руках",
+ "author": {
+  "id": "1048223137516490752",
+  "username": "bebroboid",
+  "global_name": "bebrus",
+  "server_nick": null,
+  "display": "bebrus"
+ },
+ "created_at": "2025-09-23T10:45:06.309Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1414266059208265799"
+ ],
+ "message_count": 6,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1419998007041982505_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1419998003447468153",
+  "date": "2025-09-23T10:45:06.309000+00:00",
+  "author": "bebrus",
+  "author_role": null,
+  "content": "Если встать на конвейер и идти в противоположную сторону, то тот кого несешь на руках дальше покатится по конвейеру. Получается телекинезом на расстоянии держим.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1419998007041982505",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1419998003447468153/1419998007041982505_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1420003648523730984",
+   "date": "2025-09-23T11:07:32.200000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Хайп",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1420003719549816853",
+   "date": "2025-09-23T11:07:49.134000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Это легко будет пофиксить",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1420008596321730630",
+   "date": "2025-09-23T11:27:11.847000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "И так же, если того, кого ты несёшь кто-то начнёт за собою тащить - человек по слотам будет в руках, но его тупо понесут за собою",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1430757024177848392",
+   "date": "2025-10-23T03:17:36.744000+00:00",
+   "author": "DefinitelyNotMori",
+   "author_role": null,
+   "content": "смерть в костылях",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1430757038820167801",
+   "date": "2025-10-23T03:17:40.235000+00:00",
+   "author": "DefinitelyNotMori",
+   "author_role": null,
+   "content": "<:pepe_puska:1366397400721264670>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

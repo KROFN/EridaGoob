@@ -1,0 +1,139 @@
+{
+ "thread_id": "1364949692739358750",
+ "title": "правила забыли",
+ "author": {
+  "id": "919582332514603008",
+  "username": "metalheartov",
+  "global_name": "Metalheart.exe",
+  "server_nick": null,
+  "display": "Metalheart.exe"
+ },
+ "created_at": "2025-04-24T13:02:46.288Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 10,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1364949692739358750",
+  "date": "2025-04-24T13:02:46.288000+00:00",
+  "author": "Metalheart.exe",
+  "author_role": null,
+  "content": "ну типа... сами посмотрите...",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1364949693007790160",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1364949776767909980",
+   "date": "2025-04-24T13:03:06.322000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "АХХАХАХХА",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1364949818778062868",
+   "date": "2025-04-24T13:03:16.338000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "<@1203158269556822049>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1364949827854794793",
+   "date": "2025-04-24T13:03:18.502000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "Убей треста",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1364949835563925575",
+   "date": "2025-04-24T13:03:20.340000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "XD",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1364949850206244894",
+   "date": "2025-04-24T13:03:23.831000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "ПХПХПХПХАХ",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1364949899837309042",
+   "date": "2025-04-24T13:03:35.664000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "🫵 <:s_HAHAHA:1363694936394043452>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1364949960893665412",
+   "date": "2025-04-24T13:03:50.221000+00:00",
+   "author": "Кристина",
+   "author_role": null,
+   "content": "Я в курсе.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1364965038443593789",
+   "date": "2025-04-24T14:03:44.989000+00:00",
+   "author": "Инспектор Jeleshka",
+   "author_role": null,
+   "content": "Сегодня без секса",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365292169958522952",
+   "date": "2025-04-25T11:43:39.220000+00:00",
+   "author": "TREST",
+   "author_role": null,
+   "content": "Исправлено",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

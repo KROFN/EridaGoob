@@ -1,0 +1,111 @@
+{
+ "thread_id": "1367513774440972329",
+ "title": "Ревенант",
+ "author": {
+  "id": "629283110973997086",
+  "username": "adam_fisher",
+  "global_name": "Гав",
+  "server_nick": null,
+  "display": "Гав"
+ },
+ "created_at": "2025-05-01T14:51:31.004Z",
+ "archived": true,
+ "tags": [
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1377371306470801439"
+ ],
+ "message_count": 8,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1367513774440972329",
+  "date": "2025-05-01T14:51:31.004000+00:00",
+  "author": "Гав",
+  "author_role": null,
+  "content": "Не работает система урона, исходя из соображений количества злобной энергии. Поэтому любой сб может с 2 выстрелов положить. Также отсутствует возможность общения с экипажем, не выходя из инвиза + ерп панель заканчивается только гляделками",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1367515582521413652",
+   "date": "2025-05-01T14:58:42.084000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "Вроде экипаж должен слышать ревинанта из инвиза",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1367515680479383644",
+   "date": "2025-05-01T14:59:05.439000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "Только ттс не озвучивается разве что",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1367515874981974098",
+   "date": "2025-05-01T14:59:51.812000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "А ерп панель.. Пока в разработке ещё. То что сейчас есть - временная затычка",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1367523415480864829",
+   "date": "2025-05-01T15:29:49.607000+00:00",
+   "author": "Гав",
+   "author_role": null,
+   "content": "Вроде не слышит",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1367523470992347186",
+   "date": "2025-05-01T15:30:02.842000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "https://cdn.discordapp.com/emojis/866610248075575326.png?v=1",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1367682834864537662",
+   "date": "2025-05-02T02:03:18.150000+00:00",
+   "author": "bebrus",
+   "author_role": null,
+   "content": "просто тебе попались дофига РПшные игроки которые тебя игнорировали<:s_podozhdu:1358052419988230215>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1367683204726915103",
+   "date": "2025-05-02T02:04:46.332000+00:00",
+   "author": "Гав",
+   "author_role": null,
+   "content": "Впрочем, тут больше вопросов по поводу выживаемости",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

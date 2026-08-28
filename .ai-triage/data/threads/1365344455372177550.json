@@ -1,0 +1,31 @@
+{
+ "thread_id": "1365344455372177550",
+ "title": "При переключении видимости одежды, пропадает кукла",
+ "author": {
+  "id": "644457977130254346",
+  "username": null,
+  "global_name": null,
+  "server_nick": null,
+  "display": null
+ },
+ "created_at": "2025-04-25T15:11:25.034Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 0,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": null,
+ "replies": [],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

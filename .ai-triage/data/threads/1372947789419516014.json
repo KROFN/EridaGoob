@@ -1,0 +1,113 @@
+{
+ "thread_id": "1372947789419516014",
+ "title": "ФПВ-дроны без админ-арбузов",
+ "author": {
+  "id": "577526999548035073",
+  "username": "clarnetty",
+  "global_name": "𝕮𝖑𝖆𝖗𝖓𝖊𝖙𝖙𝖞",
+  "server_nick": null,
+  "display": "𝕮𝖑𝖆𝖗𝖓𝖊𝖙𝖙𝖞"
+ },
+ "created_at": "2025-05-16T14:44:21.134Z",
+ "archived": true,
+ "tags": [
+  "На рассмотрении"
+ ],
+ "tag_ids": [
+  "1377591362744094795"
+ ],
+ "message_count": 7,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1379188088944853002_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1372947789419516014",
+  "date": "2025-05-16T14:44:21.134000+00:00",
+  "author": "𝕮𝖑𝖆𝖗𝖓𝖊𝖙𝖙𝖞",
+  "author_role": null,
+  "content": "Дрон медицинский немного неиграбелен ибо нет менюшки прицеливания на конечности. Так же невозможно лечить с помощью хирургии, да и там по методичке WL ролей нельзя вроде как. \n\nДрон инженерный - был бы доступ к ЛКП и атмос-сигналкам. А хотя атмосия вроде как не считается параметром структурной целостности станции",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1372979854642905199",
+   "date": "2025-05-16T16:51:46.079000+00:00",
+   "author": "TREST",
+   "author_role": null,
+   "content": "не баг, а фича",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1372979889401106594",
+   "date": "2025-05-16T16:51:54.366000+00:00",
+   "author": "TREST",
+   "author_role": null,
+   "content": "чтобы такие как ты удалили игру нахуй",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1372979911039520890",
+   "date": "2025-05-16T16:51:59.525000+00:00",
+   "author": "TREST",
+   "author_role": null,
+   "content": "называется чистка",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "s_perekur:2"
+   ]
+  },
+  {
+   "id": "1373032583872647339",
+   "date": "2025-05-16T20:21:17.707000+00:00",
+   "author": "𝕮𝖑𝖆𝖗𝖓𝖊𝖙𝖙𝖞",
+   "author_role": null,
+   "content": "Неееее. Я сильнее этого и буду продолжать играть))",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1379188088814964849",
+   "date": "2025-06-02T20:01:04.449000+00:00",
+   "author": "cybertrash",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1379188088944853002",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "downloaded",
+     "local_path": "attachments/1372947789419516014/1379188088944853002_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1379188350958698506",
+   "date": "2025-06-02T20:02:06.949000+00:00",
+   "author": "cybertrash",
+   "author_role": null,
+   "content": "<@577526999548035073> Добрый день, инженерного дрона починим, по поводу медицинского временно приостановлены все работы с медициной.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

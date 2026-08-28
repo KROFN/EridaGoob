@@ -1,0 +1,81 @@
+{
+ "thread_id": "1497957002188427264",
+ "title": "Пилотская шапка не даёт защиты",
+ "author": {
+  "id": "519571879938228234",
+  "username": "i_amigo_i3075",
+  "global_name": "I_AmigO_I",
+  "server_nick": null,
+  "display": "I_AmigO_I"
+ },
+ "created_at": "2026-04-26T13:46:20.017Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 4,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1497957002188427264",
+  "date": "2026-04-26T13:46:20.017000+00:00",
+  "author": "I_AmigO_I",
+  "author_role": null,
+  "content": "Пилотская шапка не даёт защиты, хотя в описании написано обратное",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1497957002679418961",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1498024022611460246",
+   "date": "2026-04-26T18:12:38.931000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Подправлю, напиши в целом где еще резисты забыли",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "✅:1"
+   ]
+  },
+  {
+   "id": "1498024043016753354",
+   "date": "2026-04-26T18:12:43.796000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "про шинель помню",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1498385644605542582",
+   "date": "2026-04-27T18:09:36.333000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Шлем и все, что нашел подправил",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

@@ -1,0 +1,71 @@
+{
+ "thread_id": "1413790217302704240",
+ "title": "Фонарик СБ не работает",
+ "author": {
+  "id": "1028908290597462016",
+  "username": "d1night",
+  "global_name": "D1night",
+  "server_nick": null,
+  "display": "D1night"
+ },
+ "created_at": "2025-09-06T07:37:34.757Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 4,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1413790217302704240",
+  "date": "2025-09-06T07:37:34.757000+00:00",
+  "author": "D1night",
+  "author_role": null,
+  "content": "Фонарик сб просто не светит.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1413793399710154813",
+   "date": "2025-09-06T07:50:13.502000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Проблему с направленным светом исправим",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413848805454905384",
+   "date": "2025-09-06T11:30:23.261000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "весь свет пофиксил ждите когда перезапуск будет",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413881047543840849",
+   "date": "2025-09-06T13:38:30.374000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Исправили",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

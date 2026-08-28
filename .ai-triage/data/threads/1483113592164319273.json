@@ -1,0 +1,187 @@
+{
+ "thread_id": "1483113592164319273",
+ "title": "Вы чё со скороходами сделали",
+ "author": {
+  "id": "977695072910999582",
+  "username": "mokko1111",
+  "global_name": "Mokko",
+  "server_nick": null,
+  "display": "Mokko"
+ },
+ "created_at": "2026-03-16T14:43:55.290Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799",
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1414266059208265799",
+  "1377371306470801439"
+ ],
+ "message_count": 59,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1483113592164319273",
+  "date": "2026-03-16T14:43:55.290000+00:00",
+  "author": "Mokko",
+  "author_role": null,
+  "content": "Какие 10 процентов и разрядка от ходьбы у скороходов? Это явно какой-то баг, это даже хуже чем фикс скороходов в прошлом, когда они реально стали не метовыми. А теперь они вообще кал. Не имеет никакого смысла изучать их за их стоимость в очках.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1483113899153821727",
+   "date": "2026-03-16T14:45:08.482000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "ага-ага, это не баг, это гениальный баланс, теперь еще за час ебли в атмосе можно  получить 15 процентов к скорости",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1483114237684613160",
+   "date": "2026-03-16T14:46:29.194000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "https://github.com/dead-space-server/space-erida-14/pull/277",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1483128963353022505",
+   "date": "2026-03-16T15:45:00.067000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Всё сб в них, вся станция, всех ковать за 207? Ме... а послушаются? Не.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1483225364732837941",
+   "date": "2026-03-16T22:08:03.947000+00:00",
+   "author": "Lo_Fi",
+   "author_role": null,
+   "content": "Типа как по мне вечно бегать с ультра ускорением это бредик",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1483225951822155837",
+   "date": "2026-03-16T22:10:23.920000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "это было бы логичнее, нежели просто убить их сделав мусором",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1483226179774185675",
+   "date": "2026-03-16T22:11:18.268000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "скорость имеет место быть, как минимум по факту того, что это контриться любой жижой или мылом, даже шифт не спасает",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1483226231058206914",
+   "date": "2026-03-16T22:11:30.495000+00:00",
+   "author": "Lo_Fi",
+   "author_role": null,
+   "content": "Но там помоему и так сейчас им ускорение сделают 25 процентов",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1483226400482787529",
+   "date": "2026-03-16T22:12:10.889000+00:00",
+   "author": "Lo_Fi",
+   "author_role": null,
+   "content": "Ничего не буду говорить, но намекну, что до твоего пра уже определили цифру 25",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1483344576344494244",
+   "date": "2026-03-17T06:01:46.210000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "И вообще у нас спокойная станция, безопасный сектор. Куда вам такая скорость? А вы в жизни тоже ходить не умеете, только бегать?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1483362266291109909",
+   "date": "2026-03-17T07:12:03.822000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "На Амуре вот хирургия какая-то, там посижу, пока бан на СБ",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1483362359954247764",
+   "date": "2026-03-17T07:12:26.153000+00:00",
+   "author": "TehniQ",
+   "author_role": null,
+   "content": "Здравствуй смена в хим лаборатории на химике <:s_PoZiTiFfFcHiK:1358052086872281169>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1483368214699180103",
+   "date": "2026-03-17T07:35:42.033000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Скучно не на сб, поэтому нужно убрать веселых агентов, чтобы и сб было скучно, и агентам",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1483503687493091528",
+   "date": "2026-03-17T16:34:01.264000+00:00",
+   "author": "vanomorodellefake",
+   "author_role": null,
+   "content": "Есть типо альт идея\nСделать их как кратковременное ускорение\nИ поднять уже скорость до 20-25%\n\nА так вообще брал основном пример с условного ласта/губов\nв первом случае неюзабельное гавно, которые разряжается за минуту и даёт 10% к скорости\nа во втором - их тупо вырезали",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "✅:2"
+   ]
+  },
+  {
+   "id": "1483516972531449968",
+   "date": "2026-03-17T17:26:48.664000+00:00",
+   "author": "vanomorodellefake",
+   "author_role": null,
+   "content": "хотя в любом случае в идеале надо написать механ для скороходов\nкоторый бы разгонял их в процессе ходьбы и сбрасывал скорость при остановке\nя уже пытался такое сделать недели 2 назад, но столкнулся с некоторыми проблемами",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "✅:1"
+   ]
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

@@ -1,0 +1,81 @@
+{
+ "thread_id": "1392895660189286440",
+ "title": "Да как открыть эту ДНКа?.",
+ "author": {
+  "id": "297040688598614017",
+  "username": "barista_tommy",
+  "global_name": "Tommy Win",
+  "server_nick": null,
+  "display": "Tommy Win"
+ },
+ "created_at": "2025-07-10T15:50:04.139Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 4,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1392895660423909546_maxresdefault.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1392895660189286440",
+  "date": "2025-07-10T15:50:04.139000+00:00",
+  "author": "Tommy Win",
+  "author_role": null,
+  "content": "2-5 дней назад сканнер показывал ДНК вампира у покусанных им жертв.\nТеперь не показывает...\nЗагадка от Жака Фреско. Где? На размышление даётся 1 банка пива.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1392895660423909546",
+    "filename": "maxresdefault.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1392895660189286440/1392895660423909546_maxresdefault.png"
+   }
+  ],
+  "reactions": [
+   "👍:1"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1393034660979802234",
+   "date": "2025-07-11T01:02:24.510000+00:00",
+   "author": "BP",
+   "author_role": null,
+   "content": "*Выпил банку пива, пошел спать*",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1395739424456839301",
+   "date": "2025-07-18T12:10:10.375000+00:00",
+   "author": "Фобос",
+   "author_role": null,
+   "content": "Чтобы не было легкого раскрытия. Ибо больно легко у тебя всё",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1397582205844459611",
+   "date": "2025-07-23T14:12:43.695000+00:00",
+   "author": "czurka",
+   "author_role": null,
+   "content": "Вот когда добавишь процедуры с вампирами - тогда вернут",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "cat_ahahahahahaha:1"
+   ]
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

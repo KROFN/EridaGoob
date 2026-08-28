@@ -1,0 +1,71 @@
+{
+ "thread_id": "1455105829282779270",
+ "title": "Кулер с водой",
+ "author": {
+  "id": "551403326948900881",
+  "username": "maasarie",
+  "global_name": "maasarie",
+  "server_nick": null,
+  "display": "maasarie"
+ },
+ "created_at": "2025-12-29T07:51:04.260Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 3,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1455105829282779270",
+  "date": "2025-12-29T07:51:04.260000+00:00",
+  "author": "maasarie",
+  "author_role": null,
+  "content": "описание",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1455105829689884673",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1455107318738845841",
+   "date": "2025-12-29T07:56:59.374000+00:00",
+   "author": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ",
+   "author_role": null,
+   "content": "Компонент сколько стаканчиков осталось немного сломался",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455149596572516395",
+   "date": "2025-12-29T10:44:59.195000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "👍",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

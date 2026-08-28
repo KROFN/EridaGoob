@@ -1,0 +1,207 @@
+{
+ "thread_id": "1477283459956211895",
+ "title": "Гениальные инженерные системы Аспида",
+ "author": {
+  "id": "1215996475624919180",
+  "username": "fox_meowder",
+  "global_name": "Пряники",
+  "server_nick": null,
+  "display": "Пряники"
+ },
+ "created_at": "2026-02-28T12:37:03.453Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 19,
+ "attachment_count": 3,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1477283459956211895",
+  "date": "2026-02-28T12:37:03.453000+00:00",
+  "author": "Пряники",
+  "author_role": null,
+  "content": "Я думаю и так все знают, но на аспиде вентиляции заменены на клапаны? Это сильное решение, но мне все таки кажется, что вентиляции будут чуть эффективнее.  Так же не менее мощное решение есть у камеры суперматерии, которая героически берет все на себя, и садится раньше остальной станциии, тем самым спасая экипаж от скучной и долгой смены.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1477283461365760171",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1477287847785664523",
+   "date": "2026-02-28T12:54:29.593000+00:00",
+   "author": "TehniQ",
+   "author_role": null,
+   "content": "Так же, поддерживая тему сломанного аспида, камеры на нём для цИИ очень халатно расставлены по станции. Половины бара, половины нио нету, проход к ядру ии почти наполовину невидим, многие коридоры общие имеют дыры в обзоре. Явно не предусмотрен для игроков на цИИ",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1477294132224593950",
+   "date": "2026-02-28T13:19:27.920000+00:00",
+   "author": "vanomorodellefake",
+   "author_role": null,
+   "content": "не баг а фича",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1477313194681962687",
+   "date": "2026-02-28T14:35:12.764000+00:00",
+   "author": "Horror Bittersweet",
+   "author_role": null,
+   "content": "<@1318379352877961277> твоя мапа",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1477313683771101425",
+   "date": "2026-02-28T14:37:09.372000+00:00",
+   "author": "V1nce",
+   "author_role": null,
+   "content": "При заливе на ГитХаб там тесты жаловались на какой-то энтити",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1477313795687841945",
+   "date": "2026-02-28T14:37:36.055000+00:00",
+   "author": "V1nce",
+   "author_role": null,
+   "content": "Его вырезали через файл и теперь все вентиляции заменились на ручные клапаны",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1477313880597467288",
+   "date": "2026-02-28T14:37:56.299000+00:00",
+   "author": "V1nce",
+   "author_role": null,
+   "content": "На Аспиде реммап был в основном стилистический",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1477317183670321212",
+   "date": "2026-02-28T14:51:03.813000+00:00",
+   "author": "Horror Bittersweet",
+   "author_role": null,
+   "content": "Поэтому и написано в баг репорты. Исправлять надо",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1477317314356707509",
+   "date": "2026-02-28T14:51:34.971000+00:00",
+   "author": "V1nce",
+   "author_role": null,
+   "content": "Просто причину появление описал",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1477317340613050429",
+   "date": "2026-02-28T14:51:41.231000+00:00",
+   "author": "V1nce",
+   "author_role": null,
+   "content": "Что это не специально",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1477319202120663243",
+   "date": "2026-02-28T14:59:05.049000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Нет, вы специально заменили вентиляции на клапаны, я не сторонник теорий заговора, но тут кажется очевидно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1477319274581197045",
+   "date": "2026-02-28T14:59:22.325000+00:00",
+   "author": "V1nce",
+   "author_role": null,
+   "content": "https://cdn.discordapp.com/attachments/1222140958737432587/1282766631285555364/togif-7.gif",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1477336470531608627",
+   "date": "2026-02-28T16:07:42.159000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "https://cdn.discordapp.com/attachments/1358881518684078240/1435180221560000573/attachment.gif",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1477355520959578276",
+   "date": "2026-02-28T17:23:24.135000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1477355520724828200",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1477356144023568649",
+   "date": "2026-02-28T17:25:52.685000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "рад защита СМа тоже",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1477356143864053972",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

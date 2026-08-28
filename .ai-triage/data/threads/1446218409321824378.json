@@ -1,0 +1,115 @@
+{
+ "thread_id": "1446218409321824378",
+ "title": "Дессинхронизатор странно работает",
+ "author": {
+  "id": "484006579612549130",
+  "username": "re4ka1",
+  "global_name": "ЪУЪ",
+  "server_nick": null,
+  "display": "ЪУЪ"
+ },
+ "created_at": "2025-12-04T19:15:38.221Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 8,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1446218409321824378",
+  "date": "2025-12-04T19:15:38.221000+00:00",
+  "author": "ЪУЪ",
+  "author_role": null,
+  "content": "При прыжке в карман из него нельзя выйти посредством кнопки на панели действий (её попросту нет)\nТак же не работает чат (ЛООК, рядом, эмоции и тд)",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1446219186023039077",
+   "date": "2025-12-04T19:18:43.401000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Фиксану после апстрима",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "🔥:1"
+   ]
+  },
+  {
+   "id": "1446220631053176964",
+   "date": "2025-12-04T19:24:27.923000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "чат не работает из-за другого визибилити лейера вроде бы",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1446220674405372034",
+   "date": "2025-12-04T19:24:38.259000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Так что там всё нормально",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1446220725009645651",
+   "date": "2025-12-04T19:24:50.324000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "А вот выход надо дёргать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1446220795893383345",
+   "date": "2025-12-04T19:25:07.224000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Чат понятное дело, я щас глянул и кнопки нет",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1446220834221064232",
+   "date": "2025-12-04T19:25:16.362000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Прикольно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1449214184431550514",
+   "date": "2025-12-13T01:39:46.666000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Исправил",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

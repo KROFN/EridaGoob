@@ -1,0 +1,91 @@
+{
+ "thread_id": "1420093168627748997",
+ "title": "Баг за феленидов",
+ "author": {
+  "id": "1002482543326658560",
+  "username": "Deleted User",
+  "global_name": null,
+  "server_nick": null,
+  "display": "Deleted User"
+ },
+ "created_at": "2025-09-23T17:03:15.456Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1414266059208265799"
+ ],
+ "message_count": 5,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1420093168963031211_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1420093168627748997",
+  "date": "2025-09-23T17:03:15.456000+00:00",
+  "author": "Deleted User",
+  "author_role": null,
+  "content": "В меню редакции персонажа в чертах внешности можно выбрать лишь голову ( Уши ), и хвост. Другие косметические предметы, например как отдельный цвет глаз, повязки, шрамы тела, лица, отсутсвуют",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1420093168963031211",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1420093168627748997/1420093168963031211_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1420093425616683071",
+   "date": "2025-09-23T17:04:16.727000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Шарим. Надо будет пофиксить",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1420093515236643018",
+   "date": "2025-09-23T17:04:38.094000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Ура-ура",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1424910554660864100",
+   "date": "2025-10-07T00:05:49.789000+00:00",
+   "author": "Звезда лисы",
+   "author_role": null,
+   "content": "Я писал об этом в самом начале в предложке. . .",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1424910587510521930",
+   "date": "2025-10-07T00:05:57.621000+00:00",
+   "author": "Звезда лисы",
+   "author_role": null,
+   "content": "А скоро?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

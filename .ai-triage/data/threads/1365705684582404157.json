@@ -1,0 +1,57 @@
+{
+ "thread_id": "1365705684582404157",
+ "title": "1984 отменяется до поправления Эриды.",
+ "author": {
+  "id": "602460075335876609",
+  "username": "mlefur",
+  "global_name": "Ykika",
+  "server_nick": null,
+  "display": "Ykika"
+ },
+ "created_at": "2025-04-26T15:06:48.789Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 2,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1365705685018476584_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1365705684582404157",
+  "date": "2025-04-26T15:06:48.789000+00:00",
+  "author": "Ykika",
+  "author_role": null,
+  "content": "Думаю, про правила известно, думаю и без меня скрин/доступ к консоли есть у каждого, но скину это потому что.. Могу?",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1365705685018476584",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1365705684582404157/1365705685018476584_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1365712769701380298",
+   "date": "2025-04-26T15:34:58.013000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "Попробуй контент серверов и движков очистить в лаунчере",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

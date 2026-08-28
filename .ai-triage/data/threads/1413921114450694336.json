@@ -1,0 +1,121 @@
+{
+ "thread_id": "1413921114450694336",
+ "title": "Персонаж в положении лёжа",
+ "author": {
+  "id": "416281346013528074",
+  "username": "evillchet",
+  "global_name": "EvillChet",
+  "server_nick": null,
+  "display": "EvillChet"
+ },
+ "created_at": "2025-09-06T16:17:43.069Z",
+ "archived": true,
+ "tags": [
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1377371306470801439"
+ ],
+ "message_count": 8,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1413921114450694336",
+  "date": "2025-09-06T16:17:43.069000+00:00",
+  "author": "EvillChet",
+  "author_role": null,
+  "content": "Отображается поверх столов",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1413921114735902763",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": [
+   "❌:1"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1413921208390521053",
+   "date": "2025-09-06T16:18:05.466000+00:00",
+   "author": "Medik",
+   "author_role": null,
+   "content": "Честно, выглядит не как баг, а скорее как фича",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413921254158766091",
+   "date": "2025-09-06T16:18:16.378000+00:00",
+   "author": "EvillChet",
+   "author_role": null,
+   "content": "Он же ползёт под, а не над",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413922042256035983",
+   "date": "2025-09-06T16:21:24.275000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Бля, разработчик",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413922062141096098",
+   "date": "2025-09-06T16:21:29.016000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Мог бы спросить просто",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413922116801269982",
+   "date": "2025-09-06T16:21:42.048000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "визы это делали, чтоб убрать \"баг невозможности стрелять по тем, кто под столом\"",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413922130449666290",
+   "date": "2025-09-06T16:21:45.302000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Так работает система лежания оффов. Фича",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413922197025587210",
+   "date": "2025-09-06T16:22:01.175000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "увы",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

@@ -1,0 +1,83 @@
+{
+ "thread_id": "1530943805065527386",
+ "title": "голопроектор",
+ "author": {
+  "id": "382911760346120210",
+  "username": "dallesplan",
+  "global_name": null,
+  "server_nick": null,
+  "display": "dallesplan"
+ },
+ "created_at": "2026-07-26T14:24:06.688Z",
+ "archived": true,
+ "tags": [
+  "Разработка",
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1507775251998838925",
+  "1377371306470801439"
+ ],
+ "message_count": 5,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": true,
+ "root_message": {
+  "id": "1530943805065527386",
+  "date": "2026-07-26T14:24:06.688000+00:00",
+  "author": "dallesplan",
+  "author_role": null,
+  "content": "нельзя вытащить из него батарейку новая тоже не вставляется. и ещё голобарьер не пропадает со временем",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1530944205612912660",
+   "date": "2026-07-26T14:25:42.186000+00:00",
+   "author": "Lytheriia",
+   "author_role": null,
+   "content": "Это не баг",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1530944278157725808",
+   "date": "2026-07-26T14:25:59.482000+00:00",
+   "author": "Lytheriia",
+   "author_role": null,
+   "content": "https://discord.com/channels/1357728304710422680/1364253995648028822/1530666813405532303",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1530945203312263271",
+   "date": "2026-07-26T14:29:40.056000+00:00",
+   "author": "vanomorodellefake",
+   "author_role": null,
+   "content": "возьми галопроектор в руки и нажми на голопроекцию или на Z, тогда он удалит все голопроекции",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1530945981812572201",
+   "date": "2026-07-26T14:32:45.665000+00:00",
+   "author": "dallesplan",
+   "author_role": null,
+   "content": "я уже прочитал изменения. чёт не очень кажется",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

@@ -1,0 +1,187 @@
+{
+ "thread_id": "1392793334594015354",
+ "title": "Манифест конца игры",
+ "author": {
+  "id": "688066451336462346",
+  "username": "communistsenko",
+  "global_name": "Фобос",
+  "server_nick": null,
+  "display": "Фобос"
+ },
+ "created_at": "2025-07-10T09:03:27.816Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 20,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1392841676942348399_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1392793334594015354",
+  "date": "2025-07-10T09:03:27.816000+00:00",
+  "author": "Фобос",
+  "author_role": null,
+  "content": "Под конец игры, чаще всего, нет манифеста, который показывал бы статистику в особо крупных рдм режимах (где появились все соло антаги и т.д.)",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1392801211203190805",
+   "date": "2025-07-10T09:34:45.746000+00:00",
+   "author": "Фобос",
+   "author_role": null,
+   "content": "А почему про эту фитчу никто не сказал?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1392805830893633612",
+   "date": "2025-07-10T09:53:07.166000+00:00",
+   "author": "the Hope of the shattered Ones",
+   "author_role": null,
+   "content": "да, манифест выскакивает старый",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1392805895804551291",
+   "date": "2025-07-10T09:53:22.642000+00:00",
+   "author": "the Hope of the shattered Ones",
+   "author_role": null,
+   "content": "но нового раунда не выскакивает",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1392841419944628295",
+   "date": "2025-07-10T12:14:32.257000+00:00",
+   "author": "Кристина",
+   "author_role": null,
+   "content": "<:s_nihua:1362356843376152668>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1392841473296302100",
+   "date": "2025-07-10T12:14:44.977000+00:00",
+   "author": "Кристина",
+   "author_role": null,
+   "content": "ТАКАЯ ФИЧА СУЩЕСТВУЕТ?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1392841677151928451",
+   "date": "2025-07-10T12:15:33.580000+00:00",
+   "author": "Кристина",
+   "author_role": null,
+   "content": "мда...",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1392841676942348399",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "downloaded",
+     "local_path": "attachments/1392793334594015354/1392841676942348399_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1392896533543780453",
+   "date": "2025-07-10T15:53:32.363000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "оно не так давно появилось",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1392910376244346890",
+   "date": "2025-07-10T16:48:32.720000+00:00",
+   "author": "Фобос",
+   "author_role": null,
+   "content": "Я нажал и не работает\n\n<@1371510241941917767>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1392910476249141491",
+   "date": "2025-07-10T16:48:56.563000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "После окончания раунда",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1392910857482141748",
+   "date": "2025-07-10T16:50:27.456000+00:00",
+   "author": "Фобос",
+   "author_role": null,
+   "content": "Я нашёл кнопку переключения.. Надеюсь сработает",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1392922740377260295",
+   "date": "2025-07-10T17:37:40.559000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "манифест не будет появляться, если его не было",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1392922760665108562",
+   "date": "2025-07-10T17:37:45.396000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "либо появится тот, что был",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1392922848120541356",
+   "date": "2025-07-10T17:38:06.247000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "в раундах его часто нет, и никакой командой его не вызвать, потому что его и не было",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1392922961354162306",
+   "date": "2025-07-10T17:38:33.244000+00:00",
+   "author": "NickCatXD1",
+   "author_role": null,
+   "content": "Лично у меня манифест уже давно на ф9 не появлялся, а также в конце раунда",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

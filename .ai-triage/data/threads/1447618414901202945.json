@@ -1,0 +1,201 @@
+{
+ "thread_id": "1447618414901202945",
+ "title": "Шаттлы и питание",
+ "author": {
+  "id": "570567448504303617",
+  "username": "papjijict",
+  "global_name": "Parodist",
+  "server_nick": null,
+  "display": "Parodist"
+ },
+ "created_at": "2025-12-08T15:58:45.562Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 25,
+ "attachment_count": 2,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1447618414901202945",
+  "date": "2025-12-08T15:58:45.562000+00:00",
+  "author": "Parodist",
+  "author_role": null,
+  "content": "После обновления шаттл сб не работает на карте WonderDelta Station (вернее - перегрузка лкп и он отрубается)",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1447618415216033803",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   },
+   {
+    "id": "1447618415899443390",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1447630366641754132",
+   "date": "2025-12-08T16:46:15.079000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "эвак так-же не работает",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1447630450192285746",
+   "date": "2025-12-08T16:46:34.999000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "Как минимум на карте бокс",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1447630569524695231",
+   "date": "2025-12-08T16:47:03.450000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "но, продполагаю такую-же проблему и с другими... возможно..",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1447648679031996570",
+   "date": "2025-12-08T17:59:01.093000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "о, мой перенесённый шаттл",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1447654654887460884",
+   "date": "2025-12-08T18:22:45.848000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "Ты последние изменения из стейбла тянул или из мастера?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1447654987051303022",
+   "date": "2025-12-08T18:24:05.042000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "А ты как думаешь, если они этот коммит ревертнули",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1447655009557942302",
+   "date": "2025-12-08T18:24:10.408000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "<:s_PoZiTiFfFcHiK:1358052086872281169>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1447655141128798341",
+   "date": "2025-12-08T18:24:41.777000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Можем сами ревертнуть эту хуйню",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1447655558823022623",
+   "date": "2025-12-08T18:26:21.363000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "Они его снова применили сегодня же",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1447655773118140620",
+   "date": "2025-12-08T18:27:12.455000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "В общем они ревертнули, там челы питание на станциях поменяли и вернули",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1447655875853684756",
+   "date": "2025-12-08T18:27:36.949000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "Но вопрос как с адскими охладителями быть и питанием, этого я не смотрел",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1447656061115830273",
+   "date": "2025-12-08T18:28:21.119000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "Раньше ты его запускал при помощи того что тэг оверзапитывал лкп, а сейчас прям только от генератора",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1447660288663879892",
+   "date": "2025-12-08T18:45:09.045000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "Пока что давай реверт, когда они добавят уже все в стейбл если что увеличим мощность у лкп",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1447660458344579112",
+   "date": "2025-12-08T18:45:49.500000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "Пусть тестируют на сервере своем сами, сколько нужно ограничения",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [
+  "Station",
+  "WonderDelta"
+ ],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

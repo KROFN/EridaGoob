@@ -1,0 +1,190 @@
+{
+ "thread_id": "1489258968898469928",
+ "title": "Появление агентов... В КОНЦЕ СМЕНЫ.",
+ "author": {
+  "id": "977695072910999582",
+  "username": "mokko1111",
+  "global_name": "Mokko",
+  "server_nick": null,
+  "display": "Mokko"
+ },
+ "created_at": "2026-04-02T13:43:27.279Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1414266059208265799"
+ ],
+ "message_count": 12,
+ "attachment_count": 4,
+ "attachments_on_disk": [
+  "1489258969083150446_image.png",
+  "1490957411291365538_image.png",
+  "1490958844392902747_image.png",
+  "1490959796113772634_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1489258968898469928",
+  "date": "2026-04-02T13:43:27.279000+00:00",
+  "author": "Mokko",
+  "author_role": null,
+  "content": "Вот это спасибо, и как агенты будут делать? На эваке? Убавьте время для спящих, или смены увеличивайте. Или убирайте правило про действия на эваке, бесит.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1489258969083150446",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1489258968898469928/1489258969083150446_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1490954823728631838",
+   "date": "2026-04-07T06:02:10.578000+00:00",
+   "author": "Tanto",
+   "author_role": null,
+   "content": "Они в коде спавнятся каждые 30 минут.  Если нет в первые 30 то шанс с 25% поднимается на 50% тое-есть на часовой уже 75% что будет спящий. На 1:30 там 100% это код офов. Так же если количество экипажа превышает 20 человек может и в неровное время заспавнится.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1490957411576709280",
+   "date": "2026-04-07T06:12:27.569000+00:00",
+   "author": "Tanto",
+   "author_role": null,
+   "content": "В целом довольно просто правится. Это геймрул ивент, Кстати они тут поменяли много чего.",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1490957411291365538",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1489258968898469928/1490957411291365538_image.png"
+    }
+   ],
+   "reactions": [
+    "🫡:1"
+   ]
+  },
+  {
+   "id": "1490957545802829824",
+   "date": "2026-04-07T06:12:59.571000+00:00",
+   "author": "Tanto",
+   "author_role": null,
+   "content": "https://github.com/dead-space-server/space-erida-14/blob/b7d83a5b675a9afffe1965f5d9f51e8a4eb0e673/Resources/Prototypes/GameRules/events.yml#L600",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1490958844765929612",
+   "date": "2026-04-07T06:18:09.268000+00:00",
+   "author": "Tanto",
+   "author_role": null,
+   "content": "Ну и надо будет прописать такой же таймер тут  но только в блэк лист. То-есть после 1:30 если не спавнится по причине недостаточного количества персонала а тут это 10, первичная на 15и. То все далее счетчик вносится в черный список ивентов. Ну либо правило игнора написать, вариантов масса.",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1490958844392902747",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1489258968898469928/1490958844392902747_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1490959796583665776",
+   "date": "2026-04-07T06:21:56.199000+00:00",
+   "author": "Tanto",
+   "author_role": null,
+   "content": "Ахахха, кто видел эту штуку в игре вообще? GreytideVirus, че это? Главное строка какая) 666.",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1490959796113772634",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1489258968898469928/1490959796113772634_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1490963204896194712",
+   "date": "2026-04-07T06:35:28.804000+00:00",
+   "author": "Pexel250",
+   "author_role": null,
+   "content": "это взлом дверей",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1490965355143893073",
+   "date": "2026-04-07T06:44:01.463000+00:00",
+   "author": "Tanto",
+   "author_role": null,
+   "content": "Прикольно. Может новый вирус сделаем? Например вирус голосового помощника. Проходишь мимо интеркома и что то говоришь, и он следом от твоего имени передает в чат станции твои слова но уже с перком патологический лжец. Получится \"Цель готова!\" исходное и следом от тебя же но от зараженного интеркома \"Цель не готова!\" и это от твоего имени. Это как код попугая скрестить с интеркомом но с патологическим лжецом.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1490965983781715998",
+   "date": "2026-04-07T06:46:31.342000+00:00",
+   "author": "Tanto",
+   "author_role": null,
+   "content": "Доставлять будет жестко.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1490966079588270232",
+   "date": "2026-04-07T06:46:54.184000+00:00",
+   "author": "Tanto",
+   "author_role": null,
+   "content": "Пока не найдешь тот самый интерком который все это в динамик кричит.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1490966175210016930",
+   "date": "2026-04-07T06:47:16.982000+00:00",
+   "author": "Tanto",
+   "author_role": null,
+   "content": "Ну тоесть вычислить просто, надо всего то проверить все интеркомы))))",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1491009988699885568",
+   "date": "2026-04-07T09:41:22.932000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "В предложку дублируй",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

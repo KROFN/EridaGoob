@@ -1,0 +1,62 @@
+{
+ "thread_id": "1369663765662007297",
+ "title": "Снаряжение ролей",
+ "author": {
+  "id": "340992235514363909",
+  "username": "yt9shka",
+  "global_name": "Yt9shka",
+  "server_nick": null,
+  "display": "Yt9shka"
+ },
+ "created_at": "2025-05-07T13:14:48.856Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 1,
+ "attachment_count": 3,
+ "attachments_on_disk": [
+  "1369663765867397221_image.png",
+  "1369663766148550688_image.png",
+  "1369663766458925086_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1369663765662007297",
+  "date": "2025-05-07T13:14:48.856000+00:00",
+  "author": "Yt9shka",
+  "author_role": null,
+  "content": "Не показано табельное оружие, также его название на ролях: ГСБ, смотритель, офицер СБ",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1369663765867397221",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1369663765662007297/1369663765867397221_image.png"
+   },
+   {
+    "id": "1369663766148550688",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1369663765662007297/1369663766148550688_image.png"
+   },
+   {
+    "id": "1369663766458925086",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1369663765662007297/1369663766458925086_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

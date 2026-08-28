@@ -1,0 +1,108 @@
+{
+ "thread_id": "1368875720373309480",
+ "title": "Баг на следы от жидкостей",
+ "author": {
+  "id": "644163720154578944",
+  "username": "faustxd1",
+  "global_name": "NickCatXD1",
+  "server_nick": null,
+  "display": "NickCatXD1"
+ },
+ "created_at": "2025-05-05T09:03:24.218Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 6,
+ "attachment_count": 2,
+ "attachments_on_disk": [
+  "1368875720503197706_2025-05-05_130243.png",
+  "1369020759611015239_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1368875720373309480",
+  "date": "2025-05-05T09:03:24.218000+00:00",
+  "author": "NickCatXD1",
+  "author_role": null,
+  "content": "При передвижение игрока ползком, невозможно встать там, где находятся след или следы. Я наблюдал ужасную картину, как интерн разбил себе голову об следы :D",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1368875720503197706",
+    "filename": "2025-05-05_130243.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1368875720373309480/1368875720503197706_2025-05-05_130243.png"
+   }
+  ],
+  "reactions": [
+   "⭐:6"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1368941670179274906",
+   "date": "2025-05-05T13:25:27.877000+00:00",
+   "author": "Akki",
+   "author_role": null,
+   "content": "Подтверждаю наличие бага. Убийственная вещь",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369019624552792187",
+   "date": "2025-05-05T18:35:13.648000+00:00",
+   "author": "🍺 Микс — Miniksim",
+   "author_role": null,
+   "content": "Один челик так убился",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369020759812604045",
+   "date": "2025-05-05T18:39:44.315000+00:00",
+   "author": "NickCatXD1",
+   "author_role": null,
+   "content": "Буквально сейчас",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1369020759611015239",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "downloaded",
+     "local_path": "attachments/1368875720373309480/1369020759611015239_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1369021074590924850",
+   "date": "2025-05-05T18:40:59.364000+00:00",
+   "author": "🍺 Микс — Miniksim",
+   "author_role": null,
+   "content": "Хахаха",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369021135827763420",
+   "date": "2025-05-05T18:41:13.964000+00:00",
+   "author": "🍺 Микс — Miniksim",
+   "author_role": null,
+   "content": "Я на смене если что... вижу",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

@@ -1,0 +1,50 @@
+{
+ "thread_id": "1432362211908653066",
+ "title": "Воксы языки",
+ "author": {
+  "id": "328564236567707650",
+  "username": "twilight_angelo",
+  "global_name": "Товарищ Дементор",
+  "server_nick": null,
+  "display": "Товарищ Дементор"
+ },
+ "created_at": "2025-10-27T13:36:03.322Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1414266059208265799"
+ ],
+ "message_count": 1,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1432362212529274950_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1432362211908653066",
+  "date": "2025-10-27T13:36:03.322000+00:00",
+  "author": "Товарищ Дементор",
+  "author_role": null,
+  "content": "Проблема с названием и описанием языка воксов",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1432362212529274950",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1432362211908653066/1432362212529274950_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

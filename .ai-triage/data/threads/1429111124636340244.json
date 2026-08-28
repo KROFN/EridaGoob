@@ -1,0 +1,209 @@
+{
+ "thread_id": "1429111124636340244",
+ "title": "Сломали команду mapping",
+ "author": {
+  "id": "894202820654424074",
+  "username": "rabi_abraham",
+  "global_name": "Раби Абрахам",
+  "server_nick": null,
+  "display": "Раби Абрахам"
+ },
+ "created_at": "2025-10-18T14:17:23.714Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1414266059208265799"
+ ],
+ "message_count": 21,
+ "attachment_count": 3,
+ "attachments_on_disk": [
+  "1429149115144601740_image.png",
+  "1429150590772052129_image.png",
+  "1429167605427605635_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1429111124636340244",
+  "date": "2025-10-18T14:17:23.714000+00:00",
+  "author": "Раби Абрахам",
+  "author_role": null,
+  "content": "Теперь при вводе команды вылезает ошибка неизыесной команды.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1429149081766330459",
+   "date": "2025-10-18T16:48:13.399000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Работает. Только что проверил",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1429149115438075994",
+   "date": "2025-10-18T16:48:21.427000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1429149115144601740",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "downloaded",
+     "local_path": "attachments/1429111124636340244/1429149115144601740_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1429149382787465296",
+   "date": "2025-10-18T16:49:25.168000+00:00",
+   "author": "Раби Абрахам",
+   "author_role": null,
+   "content": "Mapping [id] <путь до карты>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1429149435472117932",
+   "date": "2025-10-18T16:49:37.729000+00:00",
+   "author": "Раби Абрахам",
+   "author_role": null,
+   "content": "Лоадмап ломает айди карты",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1429150591040356442",
+   "date": "2025-10-18T16:54:13.238000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1429150590772052129",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "downloaded",
+     "local_path": "attachments/1429111124636340244/1429150590772052129_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1429150616948707398",
+   "date": "2025-10-18T16:54:19.415000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Ну вот я мапу загрузил через него",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1429150681071222804",
+   "date": "2025-10-18T16:54:34.703000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Там экшены друг на друга добавились просто",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1429167163482312705",
+   "date": "2025-10-18T18:00:04.416000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "маппинга нет у ролей не хост",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1429167280172040375",
+   "date": "2025-10-18T18:00:32.237000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "хотя сам по себе он работать будет, если есть роль маппера, но не будет менюшки",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1429167390020603964",
+   "date": "2025-10-18T18:00:58.427000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "но меню только у хоста вылезать будет",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1429167577434820678",
+   "date": "2025-10-18T18:01:43.110000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Ишуй исключительно в правах",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1429167605826195527",
+   "date": "2025-10-18T18:01:49.879000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1429167605427605635",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "downloaded",
+     "local_path": "attachments/1429111124636340244/1429167605427605635_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1429167941307465759",
+   "date": "2025-10-18T18:03:09.864000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "если нет права на маппинг, но команду вообще не будет распозновать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1429190796434870293",
+   "date": "2025-10-18T19:33:58.951000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "https://discord.com/channels/1357728304710422680/1378086983334625390/1429182263731425341",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

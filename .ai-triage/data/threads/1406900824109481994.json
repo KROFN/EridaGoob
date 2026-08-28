@@ -1,0 +1,79 @@
+{
+ "thread_id": "1406900824109481994",
+ "title": "Шеф Виктор Петрович Баринов в гневе",
+ "author": {
+  "id": "1017916365027410131",
+  "username": "math_machine",
+  "global_name": "Diego Bruhdo",
+  "server_nick": null,
+  "display": "Diego Bruhdo"
+ },
+ "created_at": "2025-08-18T07:21:35.421Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 5,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1406900824109481994",
+  "date": "2025-08-18T07:21:35.421000+00:00",
+  "author": "Diego Bruhdo",
+  "author_role": null,
+  "content": "В рецепте теста ДЛЯ ТОРТА есть некорректность из-за которой его приготовить не возможно. Слава Богу на кухне был другой игрок, который по памяти сказал правильный рецепт. Из нампада сказано, что нужно 2 яйца 15 муки и 5 сахара, что соответственно не давало никакого эффекта, а добавление молока муки и сахара (пропорции не помню, извините) давало нужное ТЕСТО ДЛЯ ТОРТА (не путать с пирогом).",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1408650538018537544",
+   "date": "2025-08-23T03:14:19.725000+00:00",
+   "author": "Orex",
+   "author_role": null,
+   "content": "Ну там к старому рецепту только 5 унций молока добавить и все",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1410692388673945720",
+   "date": "2025-08-28T18:27:54.857000+00:00",
+   "author": "Diego Bruhdo",
+   "author_role": null,
+   "content": "В любом случае для не опытного повара это является великой тайной, и с этим надо что-то делать, а не оставлять на похуй думая что все всё знают. Да нихрена никто ничего не знает, я со своими 2к часами только сейчас к кулинарии подошёл.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1411568155893043282",
+   "date": "2025-08-31T04:27:54.033000+00:00",
+   "author": "Уныл тян",
+   "author_role": null,
+   "content": "esc-руководство-готовка ...............",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1411748489909633065",
+   "date": "2025-08-31T16:24:29.013000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "интерфейс не прям понятен бекмановский",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "👍:1"
+   ]
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

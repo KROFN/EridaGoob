@@ -1,0 +1,193 @@
+{
+ "thread_id": "1507872338928996353",
+ "title": "Омни-двигатель не работает.",
+ "author": {
+  "id": "597713048312086528",
+  "username": "jickson900",
+  "global_name": "Звезда лисы",
+  "server_nick": null,
+  "display": "Звезда лисы"
+ },
+ "created_at": "2026-05-23T22:26:20.514Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1507775251998838925"
+ ],
+ "message_count": 26,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": true,
+ "root_message": {
+  "id": "1507872338928996353",
+  "date": "2026-05-23T22:26:20.514000+00:00",
+  "author": "Звезда лисы",
+  "author_role": null,
+  "content": "Он просто не двигает шаттл ни в одну из сторон. \nПо своей задумке он один должен быть и двигателем во все стороны и гироскопом, но он не работает. Ну и так же не работают мои подобные омни-двигатели.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1507872340191613068",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1507872494705578015",
+   "date": "2026-05-23T22:26:57.654000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Ты где его достал вообще...",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507872622271004793",
+   "date": "2026-05-23T22:27:28.068000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Что он у нас забыл...",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507872641522860034",
+   "date": "2026-05-23T22:27:32.658000+00:00",
+   "author": "Звезда лисы",
+   "author_role": null,
+   "content": "А я лишь его использовал в качестве парента.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507872664893657110",
+   "date": "2026-05-23T22:27:38.230000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Не знаю, не видел",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507872677887606834",
+   "date": "2026-05-23T22:27:41.328000+00:00",
+   "author": "Звезда лисы",
+   "author_role": null,
+   "content": "Почини пожалуста!",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507872753204592671",
+   "date": "2026-05-23T22:27:59.285000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "https://cdn.discordapp.com/attachments/1318469585099296778/1342631139759624223/togif-7.gif",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "✅:1"
+   ]
+  },
+  {
+   "id": "1507872833106346075",
+   "date": "2026-05-23T22:28:18.335000+00:00",
+   "author": "Звезда лисы",
+   "author_role": null,
+   "content": "У меня из-за этого мой самый крутой шаттл СССП летать не будет!",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1508172380919562391",
+   "date": "2026-05-24T18:18:36.099000+00:00",
+   "author": "Звезда лисы",
+   "author_role": null,
+   "content": "Починить сможете?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1508172448942526666",
+   "date": "2026-05-24T18:18:52.317000+00:00",
+   "author": "Spectrum2k",
+   "author_role": null,
+   "content": "Завтра залью фикс скорее всего",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1508172585836478626",
+   "date": "2026-05-24T18:19:24.955000+00:00",
+   "author": "Звезда лисы",
+   "author_role": null,
+   "content": "Буду признателен, там у него отдельный тип как у гироскопа.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1508172743399444620",
+   "date": "2026-05-24T18:20:02.521000+00:00",
+   "author": "Звезда лисы",
+   "author_role": null,
+   "content": "Кстати, Я делал несколько вещей, хотел бы их залить в сборку, восновном это одежда.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1508173018801639504",
+   "date": "2026-05-24T18:21:08.182000+00:00",
+   "author": "Spectrum2k",
+   "author_role": null,
+   "content": "Если можешь сам сделать PR - то делай, посмотрим, зальем. Если сам не можешь то пока рекомендую с кем нибудь из разрабов пообщаться чтобы помогли залить, я смогу только ближе к следующим выходным",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1508173150758895658",
+   "date": "2026-05-24T18:21:39.643000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "<:s_Tssss:1381892971607363585>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1508182744465936528",
+   "date": "2026-05-24T18:59:46.961000+00:00",
+   "author": "Звезда лисы",
+   "author_role": null,
+   "content": "Айо, тогда что там по моему паку синдиката?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

@@ -1,0 +1,141 @@
+{
+ "thread_id": "1376295371873189918",
+ "title": "Нельзя прожимать способности.",
+ "author": {
+  "id": "841409097626550302",
+  "username": "gm_karix",
+  "global_name": "KARiX",
+  "server_nick": null,
+  "display": "KARiX"
+ },
+ "created_at": "2025-05-25T20:26:26.986Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1365427630660128861"
+ ],
+ "tag_ids": [
+  "1365427630660128861"
+ ],
+ "message_count": 11,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1376295371873189918",
+  "date": "2025-05-25T20:26:26.986000+00:00",
+  "author": "KARiX",
+  "author_role": null,
+  "content": "Всё просто: когда шадоукин скован, он не может прожать ни единую свою способность, будь то выход из пассивной невидимости или попытка проснуться.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1376296274223042610",
+   "date": "2025-05-25T20:30:02.123000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "ну так и должно быть, чтобы не сбегали всякие",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1376509423924543500",
+   "date": "2025-05-26T10:37:00.972000+00:00",
+   "author": "Liuf' (Люфь)",
+   "author_role": null,
+   "content": "Его мысли умны, но он блять быстрее...",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1376509560197746841",
+   "date": "2025-05-26T10:37:33.462000+00:00",
+   "author": "Liuf' (Люфь)",
+   "author_role": null,
+   "content": "Согласен, нужно разрешить выход из невидимости и просыпания пока скован.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1376648224684638379",
+   "date": "2025-05-26T19:48:33.652000+00:00",
+   "author": "Mebiys IV",
+   "author_role": null,
+   "content": "ну... где то это делали так, что Сумеречник просто переставал использовать способности(даже пассивно) когда его сковывали... Хорошо помогает.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1376678670781124658",
+   "date": "2025-05-26T21:49:32.567000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "было бы неплохо на самом деле",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1376764462278639636",
+   "date": "2025-05-27T03:30:26.854000+00:00",
+   "author": "KARiX",
+   "author_role": null,
+   "content": "да, очень классно конечно, но я блять не могу выйти из невидимости пассивной, и потому мне могут приписать сопротивление аресту, не смотря на то что я блять не сопротивляюсь, понимаешь?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1376811267158839400",
+   "date": "2025-05-27T06:36:26.007000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "прекрасно понимаю",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1376811318497251411",
+   "date": "2025-05-27T06:36:38.247000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "о чём ты, я на шедейкине с открытия эриды играю",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1376831213406392351",
+   "date": "2025-05-27T07:55:41.563000+00:00",
+   "author": "KARiX",
+   "author_role": null,
+   "content": "Вот поэтому и неприятная тема",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1378457552333049866",
+   "date": "2025-05-31T19:38:10.979000+00:00",
+   "author": "cybertrash",
+   "author_role": null,
+   "content": "Скорее всего баг основного билда лично разберу. <@841409097626550302>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

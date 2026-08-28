@@ -1,0 +1,73 @@
+{
+ "thread_id": "1364989871957217280",
+ "title": "наборы вооружения отрядов РХБЗЗ и возможно не только",
+ "author": {
+  "id": "707674846510972950",
+  "username": "kramob_lae",
+  "global_name": "KramoB",
+  "server_nick": null,
+  "display": "KramoB"
+ },
+ "created_at": "2025-04-24T15:42:25.760Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1365427630660128861"
+ ],
+ "tag_ids": [
+  "1365427630660128861"
+ ],
+ "message_count": 4,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1364989871957217280",
+  "date": "2025-04-24T15:42:25.760000+00:00",
+  "author": "KramoB",
+  "author_role": null,
+  "content": "в набор с пистолетом VP-78 и всё также возможно не только в них идут не те патроны и обоймы, переработайте наборы снаряжения отрядов быстрого реагирования",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1364992672787468391",
+   "date": "2025-04-24T15:53:33.530000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "О проблеме вкурсе ещё с осн билда. В проуессе исправления",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1364992689870864384",
+   "date": "2025-04-24T15:53:37.603000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "<@627415136122044416>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365001771659038864",
+   "date": "2025-04-24T16:29:42.870000+00:00",
+   "author": "KramoB",
+   "author_role": null,
+   "content": "Невозможно развернуть маяк фултона <@481098672382279680>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [
+  "VP-78"
+ ],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

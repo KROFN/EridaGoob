@@ -1,0 +1,95 @@
+{
+ "thread_id": "1382299238423068682",
+ "title": "Хвост кицунэ.",
+ "author": {
+  "id": "597713048312086528",
+  "username": "jickson900",
+  "global_name": "Звезда лисы",
+  "server_nick": null,
+  "display": "Звезда лисы"
+ },
+ "created_at": "2025-06-11T10:03:40.318Z",
+ "archived": true,
+ "tags": [
+  "В процессе"
+ ],
+ "tag_ids": [
+  "1365427658288005150"
+ ],
+ "message_count": 3,
+ "attachment_count": 4,
+ "attachments_on_disk": [
+  "1382299238792298577_image-1.png",
+  "1382299239245418668_image-3.png",
+  "1382299239786217532_image-2.png",
+  "1382299240239464448_image-4.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1382299238423068682",
+  "date": "2025-06-11T10:03:40.318000+00:00",
+  "author": "Звезда лисы",
+  "author_role": null,
+  "content": "Он накладывается поверх одежды, должно быть наоборот. А так же на него накладывается предметы из рук, когда смотришь на спину персонажа, хотя тут тоже должно быть наоборот.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1382299238792298577",
+    "filename": "image-1.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1382299238423068682/1382299238792298577_image-1.png"
+   },
+   {
+    "id": "1382299239245418668",
+    "filename": "image-3.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1382299238423068682/1382299239245418668_image-3.png"
+   },
+   {
+    "id": "1382299239786217532",
+    "filename": "image-2.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1382299238423068682/1382299239786217532_image-2.png"
+   },
+   {
+    "id": "1382299240239464448",
+    "filename": "image-4.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1382299238423068682/1382299240239464448_image-4.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1382673036779589633",
+   "date": "2025-06-12T10:49:00.791000+00:00",
+   "author": "cybertrash",
+   "author_role": null,
+   "content": "Уже занимаються.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1382691302965248100",
+   "date": "2025-06-12T12:01:35.789000+00:00",
+   "author": "Звезда лисы",
+   "author_role": null,
+   "content": "Спасибо.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

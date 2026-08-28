@@ -1,0 +1,206 @@
+{
+ "thread_id": "1423308226568650835",
+ "title": "#Наборы-Форма",
+ "author": {
+  "id": "638709309273931777",
+  "username": "whatapple",
+  "global_name": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+  "server_nick": null,
+  "display": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲"
+ },
+ "created_at": "2025-10-02T13:58:45.002Z",
+ "archived": true,
+ "tags": [
+  "Дискорд-Бот"
+ ],
+ "tag_ids": [
+  "1414265921488289995"
+ ],
+ "message_count": 16,
+ "attachment_count": 2,
+ "attachments_on_disk": [
+  "1423308226891481119_Screenshot_6076.png",
+  "1424118472886980659_Screenshot_20251004_223812_com_discord_MainActivity.jpg"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1423308226568650835",
+  "date": "2025-10-02T13:58:45.002000+00:00",
+  "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+  "author_role": null,
+  "content": "Зашёл ради интереса почитать, сразу увидел... поменяйте букавки пожалуйста, не красиво~\nhttps://discord.com/channels/1357728304710422680/1422448491170627606/1422449113848614943",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1423308226891481119",
+    "filename": "Screenshot_6076.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1423308226568650835/1423308226891481119_Screenshot_6076.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1423318466852556961",
+   "date": "2025-10-02T14:39:26.476000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "<@638709309273931777> Это не просто так. На самом деле мы все находимся на китайской версии дискорда.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1423318534959927427",
+   "date": "2025-10-02T14:39:42.714000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Дискрод",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1423320278485958818",
+   "date": "2025-10-02T14:46:38.403000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "На самом деле Нитро - эффект Манделы, Нитро никогда не существовало, а всегда была Система социального кредита <:s_PoZiTiFfFcHiK:1358052086872281169>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "👍:1"
+   ]
+  },
+  {
+   "id": "1424118473155547156",
+   "date": "2025-10-04T19:38:22.842000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "<@638709309273931777> Окак ты сделал",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1424118472886980659",
+     "filename": "Screenshot_20251004_223812_com_discord_MainActivity.jpg",
+     "content_type": "image/jpeg",
+     "download_status": "downloaded",
+     "local_path": "attachments/1423308226568650835/1424118472886980659_Screenshot_20251004_223812_com_discord_MainActivity.jpg"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1424122174767235193",
+   "date": "2025-10-04T19:53:05.375000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "А, я думал это только с телефона так",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1424122225081978882",
+   "date": "2025-10-04T19:53:17.371000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "Копировал ссылку на сообщение",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1424122243549626400",
+   "date": "2025-10-04T19:53:21.774000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "Вставил",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1424126737536782399",
+   "date": "2025-10-04T20:11:13.224000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "чаво?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1424126801923412233",
+   "date": "2025-10-04T20:11:28.575000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "Да просто ссылку на сообщение",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1424126805895413770",
+   "date": "2025-10-04T20:11:29.522000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Сделал скрин, вставил",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1424126823972868117",
+   "date": "2025-10-04T20:11:33.832000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "Да",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1424126939836190801",
+   "date": "2025-10-04T20:12:01.456000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Я вообще не понимаю, почему челы отправляют ссылки, а не сам файл.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1424126972803678232",
+   "date": "2025-10-04T20:12:09.316000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Хоть и быстро",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1424127019586814062",
+   "date": "2025-10-04T20:12:20.470000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "но мне чёт не привычно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [
+  "channels",
+  "discord.com",
+  "https"
+ ],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

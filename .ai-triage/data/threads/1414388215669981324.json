@@ -1,0 +1,79 @@
+{
+ "thread_id": "1414388215669981324",
+ "title": "Рандомный ттс каждый раунд",
+ "author": {
+  "id": "1314294897318166538",
+  "username": "blck_angl",
+  "global_name": "BlackAngel",
+  "server_nick": null,
+  "display": "BlackAngel"
+ },
+ "created_at": "2025-09-07T23:13:48.678Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1414266059208265799"
+ ],
+ "message_count": 3,
+ "attachment_count": 2,
+ "attachments_on_disk": [
+  "1414388215950868500_sleekshot.png",
+  "1414388216932470914_sleekshot.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1414388215669981324",
+  "date": "2025-09-07T23:13:48.678000+00:00",
+  "author": "BlackAngel",
+  "author_role": null,
+  "content": "",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1414388215950868500",
+    "filename": "sleekshot.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1414388215669981324/1414388215950868500_sleekshot.png"
+   },
+   {
+    "id": "1414388216932470914",
+    "filename": "sleekshot.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1414388215669981324/1414388216932470914_sleekshot.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1414391657012662385",
+   "date": "2025-09-07T23:27:29.158000+00:00",
+   "author": "MonTrius",
+   "author_role": null,
+   "content": "https://discord.com/channels/1357728304710422680/1362699220934721577/1414369672790540389",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414478342220021821",
+   "date": "2025-09-08T05:11:56.522000+00:00",
+   "author": "BlackAngel",
+   "author_role": null,
+   "content": "заебись",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

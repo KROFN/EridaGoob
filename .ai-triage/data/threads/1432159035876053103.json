@@ -1,0 +1,50 @@
+{
+ "thread_id": "1432159035876053103",
+ "title": "Вы не сможете переварить мышь!",
+ "author": {
+  "id": "501478650206748693",
+  "username": "puroslavking",
+  "global_name": "PuroSlavKing",
+  "server_nick": null,
+  "display": "PuroSlavKing"
+ },
+ "created_at": "2025-10-27T00:08:42.381Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1414266059208265799"
+ ],
+ "message_count": 1,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1432159036106735757_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1432159035876053103",
+  "date": "2025-10-27T00:08:42.381000+00:00",
+  "author": "PuroSlavKing",
+  "author_role": null,
+  "content": "Вы не сможете переварить мышь!",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1432159036106735757",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1432159035876053103/1432159036106735757_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

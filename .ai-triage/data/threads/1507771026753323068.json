@@ -1,0 +1,241 @@
+{
+ "thread_id": "1507771026753323068",
+ "title": "Спрайт документа.",
+ "author": {
+  "id": "877641869222371348",
+  "username": "9kvac_",
+  "global_name": "9Kvac_",
+  "server_nick": null,
+  "display": "9Kvac_"
+ },
+ "created_at": "2026-05-23T15:43:45.809Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1507775251998838925"
+ ],
+ "message_count": 26,
+ "attachment_count": 7,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": true,
+ "root_message": {
+  "id": "1507771026753323068",
+  "date": "2026-05-23T15:43:45.809000+00:00",
+  "author": "9Kvac_",
+  "author_role": null,
+  "content": "Спрайт документа заменяется на пустую бумажку",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1507771027101581402",
+    "filename": "20C3CAF6-88E4-474A-9855-92ED9FCB52F7.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1507825328435888210",
+   "date": "2026-05-23T19:19:32.339000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Какой именно шаблон печатали? Сейчас распечатал и получил это:",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1507825329715155035",
+     "filename": "20260523-1919-13.6977222.mp4",
+     "content_type": "video/mp4",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1507827226794524722",
+   "date": "2026-05-23T19:27:04.943000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Я без понятия. Мне принесли документ с печатью на производство мед-заказа",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507827317471318179",
+   "date": "2026-05-23T19:27:26.562000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "И оно было без текстурки. Дали распечатку с нано-дел - тоже без спрайта",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507828226146439248",
+   "date": "2026-05-23T19:31:03.207000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Там была заполненная форма с печатью капитана",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507898188546445343",
+   "date": "2026-05-24T00:09:03.543000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Сколько раз не пытался, но получить этот баг я не смог. Попробуйте заснять как вы его получаете",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507999082294022265",
+   "date": "2026-05-24T06:49:58.487000+00:00",
+   "author": "Spectrum2k",
+   "author_role": null,
+   "content": "Отправь документ на факс, из факса выйдет правильный документ или с пустым спрайтом?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507999724962185329",
+   "date": "2026-05-24T06:52:31.711000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "После колледжа (14-15) по МСК смогу проверить",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "👌:1"
+   ]
+  },
+  {
+   "id": "1508069987280097391",
+   "date": "2026-05-24T11:31:43.553000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Цель станции так же без спрайта",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1508069987380756721",
+     "filename": "D1BA4056-B1CF-4558-98FE-315647D6EBD3.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1508078880546885783",
+   "date": "2026-05-24T12:07:03.873000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1508078880651477133",
+     "filename": "A14BAD80-37F6-4A67-8BF0-87654EA5F721.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1508195943214747678",
+   "date": "2026-05-24T19:52:13.788000+00:00",
+   "author": "Spectrum2k",
+   "author_role": null,
+   "content": "Хз, я на серваке тоже видел что бумажки криво выглядят",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1508196184563646546",
+   "date": "2026-05-24T19:53:11.330000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1508196184890806443",
+     "filename": "20260524-1952-38.0041462.mp4",
+     "content_type": "video/mp4",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1508198198320038040",
+   "date": "2026-05-24T20:01:11.447000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Даже на релизе документ цели корректно отображается",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1508198199222075574",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1508211040477909083",
+   "date": "2026-05-24T20:52:13.256000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Может, после этого?",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1508211040549339226",
+     "filename": "47728F38-8544-4A7B-A0B9-FB598D4EBA5C.png",
+     "content_type": "image/png",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1508212123384414338",
+   "date": "2026-05-24T20:56:31.441000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Может не потребуется. Кажись нашёл проблему",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

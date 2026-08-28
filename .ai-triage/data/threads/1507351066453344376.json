@@ -1,0 +1,83 @@
+{
+ "thread_id": "1507351066453344376",
+ "title": "биогенератор",
+ "author": {
+  "id": "382911760346120210",
+  "username": "dallesplan",
+  "global_name": null,
+  "server_nick": null,
+  "display": "dallesplan"
+ },
+ "created_at": "2026-05-22T11:54:59.471Z",
+ "archived": true,
+ "tags": [
+  "Дискорд-Бот",
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1414265921488289995",
+  "1377371306470801439"
+ ],
+ "message_count": 5,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1507351066453344376",
+  "date": "2026-05-22T11:54:59.471000+00:00",
+  "author": "dallesplan",
+  "author_role": null,
+  "content": "карта пакет. сижу в перме. от скуки заглядываю в биоген и вижу молоко арканы. выращиваю пшеницу, перерабатываю, тыкаю на молоко и..... нихуя! биомасса ушла, молоко не получено",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1507351534256521297",
+   "date": "2026-05-22T11:56:51.004000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "верно, потому что этого не существует, фича с прогревом на биомассу",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507382756462825604",
+   "date": "2026-05-22T14:00:54.958000+00:00",
+   "author": "Parodist",
+   "author_role": null,
+   "content": "-.- а тыкнуть стаканом по биогенератору не?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507778316331909251",
+   "date": "2026-05-23T16:12:43.780000+00:00",
+   "author": "Хаос",
+   "author_role": null,
+   "content": "<:cat_erp:1358052377306988564>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507787248995799132",
+   "date": "2026-05-23T16:48:13.493000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Молоко арканы на карте packed в перме у биогенератора не найдена, если имели ввиду про обычное молоко, то papjijict\nобъяснил принцип работы.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

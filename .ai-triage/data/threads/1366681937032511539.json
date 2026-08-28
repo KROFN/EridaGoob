@@ -1,0 +1,87 @@
+{
+ "thread_id": "1366681937032511539",
+ "title": "Мой ноут не микроволновка",
+ "author": {
+  "id": "966516327047106620",
+  "username": "holy_stepfather",
+  "global_name": "Святой Отчим",
+  "server_nick": null,
+  "display": "Святой Отчим"
+ },
+ "created_at": "2025-04-29T07:46:05.511Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 5,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1366681937212608576_IMG_20250429_184247_876.jpg"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1366681937032511539",
+  "date": "2025-04-29T07:46:05.511000+00:00",
+  "author": "Святой Отчим",
+  "author_role": null,
+  "content": "В процессе игры у меня возникают такие ошибки из-за которых нагревается устройство. Видите их? Они так и идут за десять секунд до конца командной строки",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1366681937212608576",
+    "filename": "IMG_20250429_184247_876.jpg",
+    "content_type": "image/jpeg",
+    "download_status": "downloaded",
+    "local_path": "attachments/1366681937032511539/1366681937212608576_IMG_20250429_184247_876.jpg"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1366712752105852990",
+   "date": "2025-04-29T09:48:32.397000+00:00",
+   "author": "MonTrius",
+   "author_role": null,
+   "content": "Какое у тебя устройство? \nВ какие игры ещë играешь и происходит ли подобное в них?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1366714798535999568",
+   "date": "2025-04-29T09:56:40.304000+00:00",
+   "author": "MonTrius",
+   "author_role": null,
+   "content": "Отслеживал ли в каких режимах это происходит?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1366802766596542584",
+   "date": "2025-04-29T15:46:13.524000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "Спроси у админов, а пока попробуй очистить ресурсы серверов и ресурсы движков в лаунчере",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1366811008382795906",
+   "date": "2025-04-29T16:18:58.519000+00:00",
+   "author": "Святой Отчим",
+   "author_role": null,
+   "content": "Ошибка исправилась с обновлением. Благодарю.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

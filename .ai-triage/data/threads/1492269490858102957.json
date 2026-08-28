@@ -1,0 +1,93 @@
+{
+ "thread_id": "1492269490858102957",
+ "title": "Утрата доступов",
+ "author": {
+  "id": "428047207481081878",
+  "username": "cat_lixs",
+  "global_name": "𝙺𝚊𝚝_𝙻",
+  "server_nick": null,
+  "display": "𝙺𝚊𝚝_𝙻"
+ },
+ "created_at": "2026-04-10T21:06:11.647Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 5,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1492269490858102957",
+  "date": "2026-04-10T21:06:11.647000+00:00",
+  "author": "𝙺𝚊𝚝_𝙻",
+  "author_role": null,
+  "content": "Если ИИ возьмёт под контроль борга, то у самого борга теряются доступы.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1492269491252625509",
+    "filename": "20260410-2050-35.8351227.mp4",
+    "content_type": "video/mp4",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1492344067185705193",
+   "date": "2026-04-11T02:02:32.029000+00:00",
+   "author": "Tanto",
+   "author_role": null,
+   "content": "Борг заряжен был в этот момент? Просто они теряют доступы при разрядке. Если да то баг. Инженерный имеет доступы почти все, кроме цк.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1492344408425627798",
+   "date": "2026-04-11T02:03:53.387000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "На тот момент вставили микрореакторную батарею.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1492344519096799363",
+   "date": "2026-04-11T02:04:19.773000+00:00",
+   "author": "Tanto",
+   "author_role": null,
+   "content": "Ясно, ща посмотрим.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1496009508370124961",
+   "date": "2026-04-21T04:47:41.308000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "fixed",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "✅:1"
+   ]
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

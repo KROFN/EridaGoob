@@ -1,0 +1,119 @@
+{
+ "thread_id": "1368389636531163186",
+ "title": "что такое жажда?",
+ "author": {
+  "id": "764332589129138176",
+  "username": "mr.denm00",
+  "global_name": "Mr.Denm00",
+  "server_nick": null,
+  "display": "Mr.Denm00"
+ },
+ "created_at": "2025-05-04T00:51:52.799Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 9,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1368389636531163186",
+  "date": "2025-05-04T00:51:52.799000+00:00",
+  "author": "Mr.Denm00",
+  "author_role": null,
+  "content": "1. Пальфеимы не могут пить.\nвсё.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": [
+   "cat_ahahahahahaha:2"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1368389854001365084",
+   "date": "2025-05-04T00:52:44.648000+00:00",
+   "author": "Mr.Denm00",
+   "author_role": null,
+   "content": "инидкатор жажды есть, возможности уталить жажду нет.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1368545246065066035",
+   "date": "2025-05-04T11:10:13.003000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "через шприц вводи воду в вену и все, главное пыву много не вводи, умрешь от яда",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1368546337645269082",
+   "date": "2025-05-04T11:14:33.256000+00:00",
+   "author": "kote19",
+   "author_role": null,
+   "content": "Есть тоже не можем",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1368546395405156473",
+   "date": "2025-05-04T11:14:47.027000+00:00",
+   "author": "kote19",
+   "author_role": null,
+   "content": "сам вчера ходил офигевал",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1368546920754319422",
+   "date": "2025-05-04T11:16:52.280000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "перемалывай фрукты и так-же через шприц",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1368546966811705374",
+   "date": "2025-05-04T11:17:03.261000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "все в вену коли",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1368546977771552839",
+   "date": "2025-05-04T11:17:05.874000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "все сойдет",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1368784039292571661",
+   "date": "2025-05-05T02:59:05.745000+00:00",
+   "author": "Mr.Denm00",
+   "author_role": null,
+   "content": "о дааа. ягодки по венам.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

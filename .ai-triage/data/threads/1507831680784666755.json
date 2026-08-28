@@ -1,0 +1,53 @@
+{
+ "thread_id": "1507831680784666755",
+ "title": "У меня нет рта, но я должен смеяться",
+ "author": {
+  "id": "877641869222371348",
+  "username": "9kvac_",
+  "global_name": "9Kvac_",
+  "server_nick": null,
+  "display": "9Kvac_"
+ },
+ "created_at": "2026-05-23T19:44:46.857Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1507775251998838925"
+ ],
+ "message_count": 2,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": true,
+ "root_message": {
+  "id": "1507831680784666755",
+  "date": "2026-05-23T19:44:46.857000+00:00",
+  "author": "9Kvac_",
+  "author_role": null,
+  "content": "Звук смеха у унатха пропал. И очень давно",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1507833629064171570",
+   "date": "2026-05-23T19:52:31.363000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Посмотрим",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

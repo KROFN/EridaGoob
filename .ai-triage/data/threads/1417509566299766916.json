@@ -1,0 +1,173 @@
+{
+ "thread_id": "1417509566299766916",
+ "title": "Отряд не заметил потери бойца",
+ "author": {
+  "id": "638709309273931777",
+  "username": "whatapple",
+  "global_name": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+  "server_nick": null,
+  "display": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲"
+ },
+ "created_at": "2025-09-16T13:56:56.660Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1414266059208265799"
+ ],
+ "message_count": 13,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1417509566546972792_Screenshot_5935.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1417509566299766916",
+  "date": "2025-09-16T13:56:56.660000+00:00",
+  "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+  "author_role": null,
+  "content": "А где собственно бригмед? Все про него забыли резко...",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1417509566546972792",
+    "filename": "Screenshot_5935.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1417509566299766916/1417509566546972792_Screenshot_5935.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1417523487924420670",
+   "date": "2025-09-16T14:52:15.834000+00:00",
+   "author": "TehniQ",
+   "author_role": null,
+   "content": "Пилота нету пока, но думаю добавят по ходу развития уже этой сборки",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1417523532379852910",
+   "date": "2025-09-16T14:52:26.433000+00:00",
+   "author": "TehniQ",
+   "author_role": null,
+   "content": "Там, может, что то новое будет",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1417531668574502993",
+   "date": "2025-09-16T15:24:46.253000+00:00",
+   "author": "Venick",
+   "author_role": null,
+   "content": "Вака портирует",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1417534936264474766",
+   "date": "2025-09-16T15:37:45.331000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "рсу и очки у пилота прикольные были",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1417535117609533480",
+   "date": "2025-09-16T15:38:28.567000+00:00",
+   "author": "TehniQ",
+   "author_role": null,
+   "content": "Это была изюминка пилота сдешнего, только за них очень любил эту роль",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1417535360380178553",
+   "date": "2025-09-16T15:39:26.448000+00:00",
+   "author": "Venick",
+   "author_role": null,
+   "content": "ну, чисто в теории, могу портировать пилота <:s_go_erp:1362356992425066556>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "❤️:1"
+   ]
+  },
+  {
+   "id": "1417535466873425930",
+   "date": "2025-09-16T15:39:51.838000+00:00",
+   "author": "TehniQ",
+   "author_role": null,
+   "content": "Всем селом любителей сб эриды будем благодарны",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1417557403301449809",
+   "date": "2025-09-16T17:07:01.890000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "а турель пилота что через рсу делается возможно сломать?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1417576782818705438",
+   "date": "2025-09-16T18:24:02.327000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "Да, ну и она сама пропадёт кстати",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1417577406767567021",
+   "date": "2025-09-16T18:26:31.088000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "просто она неебически дохуя урона наносит",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1417579469551697960",
+   "date": "2025-09-16T18:34:42.894000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "Для обороны она сомнительна, а вот прикрыть отступление или наступление врага в конкретный момент...",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1417750375083151371",
+   "date": "2025-09-17T05:53:49.948000+00:00",
+   "author": "bebrus",
+   "author_role": null,
+   "content": "Тот самый РСУ который ставит турели стреляющие **только по антагам** и который **никто** кроме самого пилота использовать не может?\nСпасибо не надо...",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

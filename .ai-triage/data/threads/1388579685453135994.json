@@ -1,0 +1,101 @@
+{
+ "thread_id": "1388579685453135994",
+ "title": "Аварийные наборы",
+ "author": {
+  "id": "1251925458426003487",
+  "username": "bahamutichka",
+  "global_name": "Elgard",
+  "server_nick": null,
+  "display": "Elgard"
+ },
+ "created_at": "2025-06-28T17:59:55.575Z",
+ "archived": true,
+ "tags": [
+  "На рассмотрении"
+ ],
+ "tag_ids": [
+  "1377591362744094795"
+ ],
+ "message_count": 7,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1388579685453135994",
+  "date": "2025-06-28T17:59:55.575000+00:00",
+  "author": "Elgard",
+  "author_role": null,
+  "content": "Не у всех ролей есть аварийный набор в инвентаре, знаю точно: Бригмедик и Хирург.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1388586895713239122",
+   "date": "2025-06-28T18:28:34.635000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "и как мне сказали, у аркан нет",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1388636398491402422",
+   "date": "2025-06-28T21:45:17.017000+00:00",
+   "author": "Elgard",
+   "author_role": null,
+   "content": "о как",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1388636447946440774",
+   "date": "2025-06-28T21:45:28.808000+00:00",
+   "author": "Elgard",
+   "author_role": null,
+   "content": "возможно это из-за того я игрла на аркане...",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1388636499507023993",
+   "date": "2025-06-28T21:45:41.101000+00:00",
+   "author": "Elgard",
+   "author_role": null,
+   "content": "проверю потом",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1388648554054291718",
+   "date": "2025-06-28T22:33:35.129000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "Я кинул порт плафеимов на конфедерацию, в нём же фикс аркан и плафеимов, когда на конфедерации приймут пр а после у нас выйдет апстрим, тогда и будет",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1388932779433005217",
+   "date": "2025-06-29T17:22:59.740000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "У аркан нет",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

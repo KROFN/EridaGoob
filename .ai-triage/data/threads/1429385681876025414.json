@@ -1,0 +1,93 @@
+{
+ "thread_id": "1429385681876025414",
+ "title": "Воксы...",
+ "author": {
+  "id": "328564236567707650",
+  "username": "twilight_angelo",
+  "global_name": "Товарищ Дементор",
+  "server_nick": null,
+  "display": "Товарищ Дементор"
+ },
+ "created_at": "2025-10-19T08:28:23.261Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1414266059208265799"
+ ],
+ "message_count": 4,
+ "attachment_count": 2,
+ "attachments_on_disk": [
+  "1429385682165563542_image.png",
+  "1429385682769416333_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1429385681876025414",
+  "date": "2025-10-19T08:28:23.261000+00:00",
+  "author": "Товарищ Дементор",
+  "author_role": null,
+  "content": "Не знаю на сколько это \"баг\" или \"фича\" но на вики сказано \"пассивная регенерация ядов\". И вот я уже семь минут стою как ненормальный и яды не падают. Может скажете что так и надо - тогда или в вики убрать или всё же дать воксам так жизненнонеобходимый реген ядов",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1429385682165563542",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1429385681876025414/1429385682165563542_image.png"
+   },
+   {
+    "id": "1429385682769416333",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1429385681876025414/1429385682769416333_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1429393871648985251",
+   "date": "2025-10-19T09:00:55.855000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "<@328564236567707650> Здесь скорее проблема со стороны вики, так как пассивная регенерация от ядов у воксов, а именно 0.2 в тик работает в том случае, если сумма повреждений не выше или не равно 20.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "❤️:1"
+   ]
+  },
+  {
+   "id": "1429394270535548968",
+   "date": "2025-10-19T09:02:30.957000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Так же и пассивная регенерация от Heat в 0.7 не будет работать.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1429586580334575700",
+   "date": "2025-10-19T21:46:41.186000+00:00",
+   "author": "bebrus",
+   "author_role": null,
+   "content": "регенерация ядов у вокосов только в том случае если общие повреждения не превышают 20",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "✅:1"
+   ]
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

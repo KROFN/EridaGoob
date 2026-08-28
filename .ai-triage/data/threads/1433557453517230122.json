@@ -1,0 +1,68 @@
+{
+ "thread_id": "1433557453517230122",
+ "title": "Очень серьёзный баг с кнопками",
+ "author": {
+  "id": "977695072910999582",
+  "username": "mokko1111",
+  "global_name": "Mokko",
+  "server_nick": null,
+  "display": "Mokko"
+ },
+ "created_at": "2025-10-30T20:45:31.128Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799",
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1414266059208265799",
+  "1377371306470801439"
+ ],
+ "message_count": 3,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1433557453517230122",
+  "date": "2025-10-30T20:45:31.128000+00:00",
+  "author": "Mokko",
+  "author_role": null,
+  "content": "Действительно ужасный баг, разрушающий геймплей любителя сделать везде кнопки.\nЕсли поставить кнопки на одной стороне стены, с противоположной стороны её можно тыкнуть. Сквозь стену. Исправьте, пожалуйста, я не могу играть в ss14, когда в ней такие отвратительные баги, разрушающие мой геймплей! <:cat_erp:1358052377306988564>",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1433842219432939583",
+   "date": "2025-10-31T15:37:04.613000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "Есть направленные и обычные кнопки, ставь направленные, баг чудом уйдёт)",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "pepe_smile:1"
+   ]
+  },
+  {
+   "id": "1434111335599308841",
+   "date": "2025-11-01T09:26:26.907000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Ну вот сказали. Нужно направленные ставить",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [
+  "cat_erp",
+  "ss14"
+ ],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

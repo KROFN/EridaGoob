@@ -1,0 +1,79 @@
+{
+ "thread_id": "1452687761545887806",
+ "title": "Метаболизм нитриума",
+ "author": {
+  "id": "1215996475624919180",
+  "username": "fox_meowder",
+  "global_name": "Пряники",
+  "server_nick": null,
+  "display": "Пряники"
+ },
+ "created_at": "2025-12-22T15:42:31.986Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 4,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1452687761545887806",
+  "date": "2025-12-22T15:42:31.986000+00:00",
+  "author": "Пряники",
+  "author_role": null,
+  "content": "Оно опять сломалось, после вдоха адреналин и соответственно нитриум не тратится, точнее тратится но очень медленно... очень странно работает, будто так быть не должно",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1452687761781031175",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1452689123335733318",
+   "date": "2025-12-22T15:47:56.662000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Уже знаем о проблеме",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452689781690470614",
+   "date": "2025-12-22T15:50:33.626000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "хиллиум тоже очень странно работает",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452689844009435320",
+   "date": "2025-12-22T15:50:48.484000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Проблема в метаболизме газов",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

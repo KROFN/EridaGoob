@@ -1,0 +1,149 @@
+{
+ "thread_id": "1365564567941419048",
+ "title": "А где?",
+ "author": {
+  "id": "868002027458920519",
+  "username": "llalkka",
+  "global_name": "> GaMi <",
+  "server_nick": null,
+  "display": "> GaMi <"
+ },
+ "created_at": "2025-04-26T05:46:03.960Z",
+ "archived": true,
+ "tags": [
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1377371306470801439"
+ ],
+ "message_count": 11,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1365564567941419048",
+  "date": "2025-04-26T05:46:03.960000+00:00",
+  "author": "> GaMi <",
+  "author_role": null,
+  "content": "ЭТИКЕРОВЩИКОВ НЕТ!!!",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1365564714557505597",
+   "date": "2025-04-26T05:46:38.916000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "В автолате нет?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365564999698747454",
+   "date": "2025-04-26T05:47:46.899000+00:00",
+   "author": "> GaMi <",
+   "author_role": null,
+   "content": "ни где",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365565067801657475",
+   "date": "2025-04-26T05:48:03.136000+00:00",
+   "author": "> GaMi <",
+   "author_role": null,
+   "content": "и в нио искал, в отделах, НИГДЕ НЕТ!!!",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365565150823714917",
+   "date": "2025-04-26T05:48:22.930000+00:00",
+   "author": "> GaMi <",
+   "author_role": null,
+   "content": "мне тупо нечем припараты подписывать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365565306730188874",
+   "date": "2025-04-26T05:49:00.101000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "В автолате должны быть, посмотри там.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365565366931165234",
+   "date": "2025-04-26T05:49:14.454000+00:00",
+   "author": "> GaMi <",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1365565366738223137",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1365565406697492572",
+   "date": "2025-04-26T05:49:23.935000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "<:ena_:1364906999963320431>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365565459264700436",
+   "date": "2025-04-26T05:49:36.468000+00:00",
+   "author": "> GaMi <",
+   "author_role": null,
+   "content": "https://tenor.com/view/walter-white-walter-crying-walter-dying-gif-20964719",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365565542030770287",
+   "date": "2025-04-26T05:49:56.201000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Ей богу, я даже такого не ожидал.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365567330309898290",
+   "date": "2025-04-26T05:57:02.560000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "<:cat_erp:1358052377306988564>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

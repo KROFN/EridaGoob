@@ -1,0 +1,183 @@
+{
+ "thread_id": "1493901524789624832",
+ "title": "Кровь или не восстанавливается, либо делает это крайне медленно.",
+ "author": {
+  "id": "977695072910999582",
+  "username": "mokko1111",
+  "global_name": "Mokko",
+  "server_nick": null,
+  "display": "Mokko"
+ },
+ "created_at": "2026-04-15T09:11:18.858Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 16,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1493901524789624832",
+  "date": "2026-04-15T09:11:18.858000+00:00",
+  "author": "Mokko",
+  "author_role": null,
+  "content": "Это апстрим такой, или баг?",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1493905447651115179",
+   "date": "2026-04-15T09:26:54.141000+00:00",
+   "author": "Anilori <3",
+   "author_role": null,
+   "content": "Баг \nОффы уже пофиксили у себя \nЯ тоже кидал ПР <@981208702390534154>  с Гита оффов \nТак что уже в процессе должно быть",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1493907241022001232",
+   "date": "2026-04-15T09:34:01.714000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "понятно чо меня на драконе так трахнули",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1493907255211589652",
+   "date": "2026-04-15T09:34:05.097000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "у меня просто кровь кончилась",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1493948015906525297",
+   "date": "2026-04-15T12:16:03.204000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "250 урона от кровотёка на драконе",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1493948053353267201",
+   "date": "2026-04-15T12:16:12.132000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "жостка",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1494215128772513862",
+   "date": "2026-04-16T05:57:27.874000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "пхпхпхп",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1494215183814623272",
+   "date": "2026-04-16T05:57:40.997000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "сли из тебья вытекла капля крови и начала кружится",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1494215190995009616",
+   "date": "2026-04-16T05:57:42.709000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "голова",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1494215204186230916",
+   "date": "2026-04-16T05:57:45.854000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "То всё",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1494215210729214078",
+   "date": "2026-04-16T05:57:47.414000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "капздес",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1494215270762418196",
+   "date": "2026-04-16T05:58:01.727000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "если не можеш восстановить кровь - то тебе конец",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1494369635687075910",
+   "date": "2026-04-16T16:11:25.193000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "а без сидзару это никак не пофиксить?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1494372612489351178",
+   "date": "2026-04-16T16:23:14.918000+00:00",
+   "author": "Xaoser",
+   "author_role": null,
+   "content": "Патч уже на проверке, жди",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1494425746507043047",
+   "date": "2026-04-16T19:54:23.055000+00:00",
+   "author": "Lo_Fi",
+   "author_role": null,
+   "content": "все эффекты по типу опьянения и наркотического кумара остаются и не убираются. Так же и сон. Мб разовая акция, но как то слишком",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

@@ -1,0 +1,46 @@
+{
+ "thread_id": "1366049076361166888",
+ "title": "Инженер и Технический ассистент, баг две иконки Безделушки",
+ "author": {
+  "id": "570567448504303617",
+  "username": "papjijict",
+  "global_name": "Parodist",
+  "server_nick": null,
+  "display": "Parodist"
+ },
+ "created_at": "2025-04-27T13:51:19.769Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 1,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1366049076944306226_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1366049076361166888",
+  "date": "2025-04-27T13:51:19.769000+00:00",
+  "author": "Parodist",
+  "author_role": null,
+  "content": "",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1366049076944306226",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1366049076361166888/1366049076944306226_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

@@ -1,0 +1,52 @@
+{
+ "thread_id": "1493928380247179324",
+ "title": "Отображение предыдущих носимых предметов.",
+ "author": {
+  "id": "977695072910999582",
+  "username": "mokko1111",
+  "global_name": "Mokko",
+  "server_nick": null,
+  "display": "Mokko"
+ },
+ "created_at": "2026-04-15T10:58:01.698Z",
+ "archived": true,
+ "tags": [
+  "Визден-Баг",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1449460164171403294",
+  "1414266059208265799"
+ ],
+ "message_count": 1,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1493928380477739079_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1493928380247179324",
+  "date": "2026-04-15T10:58:01.698000+00:00",
+  "author": "Mokko",
+  "author_role": null,
+  "content": "Ахуенно будет, если забагает какой-нибудь арбалет или ствол. Ни капли не палевно.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1493928380477739079",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1493928380247179324/1493928380477739079_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

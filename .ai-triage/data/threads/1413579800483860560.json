@@ -1,0 +1,93 @@
+{
+ "thread_id": "1413579800483860560",
+ "title": "Не баг, а фича",
+ "author": {
+  "id": "484006579612549130",
+  "username": "re4ka1",
+  "global_name": "ЪУЪ",
+  "server_nick": null,
+  "display": "ЪУЪ"
+ },
+ "created_at": "2025-09-05T17:41:27.478Z",
+ "archived": true,
+ "tags": [
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1377371306470801439"
+ ],
+ "message_count": 6,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1413579800483860560",
+  "date": "2025-09-05T17:41:27.478000+00:00",
+  "author": "ЪУЪ",
+  "author_role": null,
+  "content": "Нет ни шкалы с энергией способностей, ни самих их в действиях. Цвет глаз не окрашивает картинку. Появилась жажда <:s_perekur:1357975265921339515>",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1413747820879413384",
+   "date": "2025-09-06T04:49:06.662000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Псионики пока нет",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413754568357052437",
+   "date": "2025-09-06T05:15:55.386000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Жажда и должна была быть",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413754599176667159",
+   "date": "2025-09-06T05:16:02.734000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Я вроде убрал урон от асфиксии",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413754696920993812",
+   "date": "2025-09-06T05:16:26.038000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Следовательно способностей пока нет",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413756374575353919",
+   "date": "2025-09-06T05:23:06.022000+00:00",
+   "author": "ЪУЪ",
+   "author_role": null,
+   "content": "Понял. Просто раньше персонаж не хотел пить",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [
+  "s_perekur"
+ ],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

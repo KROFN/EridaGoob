@@ -1,0 +1,74 @@
+{
+ "thread_id": "1501936787692589197",
+ "title": "Ошибка терминатора",
+ "author": {
+  "id": "442351369857531925",
+  "username": "reddyford",
+  "global_name": "ReddyFord",
+  "server_nick": null,
+  "display": "ReddyFord"
+ },
+ "created_at": "2026-05-07T13:20:34.822Z",
+ "archived": true,
+ "tags": [
+  "Дискорд-Бот"
+ ],
+ "tag_ids": [
+  "1414265921488289995"
+ ],
+ "message_count": 1,
+ "attachment_count": 4,
+ "attachments_on_disk": [
+  "1501936788078461008_image.png",
+  "1501936789940867133_image.png",
+  "1501936790984986654_image.png",
+  "1501936791283044524_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1501936787692589197",
+  "date": "2026-05-07T13:20:34.822000+00:00",
+  "author": "ReddyFord",
+  "author_role": null,
+  "content": "Черта внешности \"Терминатор\" неправильно отображается на спрайте персонажа. Должна фактически перекрывать правый глаз и правую часть лица, но отображается почему-то с левой",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1501936788078461008",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1501936787692589197/1501936788078461008_image.png"
+   },
+   {
+    "id": "1501936789940867133",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1501936787692589197/1501936789940867133_image.png"
+   },
+   {
+    "id": "1501936790984986654",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1501936787692589197/1501936790984986654_image.png"
+   },
+   {
+    "id": "1501936791283044524",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1501936787692589197/1501936791283044524_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

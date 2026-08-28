@@ -1,0 +1,81 @@
+{
+ "thread_id": "1365393402589614209",
+ "title": "WL без WL",
+ "author": {
+  "id": "501478650206748693",
+  "username": "puroslavking",
+  "global_name": "PuroSlavKing",
+  "server_nick": null,
+  "display": "PuroSlavKing"
+ },
+ "created_at": "2025-04-25T18:25:54.960Z",
+ "archived": true,
+ "tags": [
+  "В процессе"
+ ],
+ "tag_ids": [
+  "1365427658288005150"
+ ],
+ "message_count": 4,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1365394187767386225_image0.gif"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1365393402589614209",
+  "date": "2025-04-25T18:25:54.960000+00:00",
+  "author": "PuroSlavKing",
+  "author_role": null,
+  "content": "Невозможно играть за роли требующие WL, потому-что на сервере нету WL",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1365394129294458981",
+   "date": "2025-04-25T18:28:48.220000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "Потомучто ждать надо",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365394188128223242",
+   "date": "2025-04-25T18:29:02.247000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1365394187767386225",
+     "filename": "image0.gif",
+     "content_type": "image/gif",
+     "download_status": "downloaded",
+     "local_path": "attachments/1365393402589614209/1365394187767386225_image0.gif"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1365411043735638079",
+   "date": "2025-04-25T19:36:00.937000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "В процессе",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

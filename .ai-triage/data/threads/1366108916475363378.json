@@ -1,0 +1,185 @@
+{
+ "thread_id": "1366108916475363378",
+ "title": "Connection timed out",
+ "author": {
+  "id": "602460075335876609",
+  "username": "mlefur",
+  "global_name": "Ykika",
+  "server_nick": null,
+  "display": "Ykika"
+ },
+ "created_at": "2025-04-27T17:49:06.764Z",
+ "archived": true,
+ "tags": [
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1377371306470801439"
+ ],
+ "message_count": 13,
+ "attachment_count": 3,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1366108916475363378",
+  "date": "2025-04-27T17:49:06.764000+00:00",
+  "author": "Ykika",
+  "author_role": null,
+  "content": "Ну. Я уже описывал этот баг ранее.  При заходе на сервер - спустя N-ное время, тебя выкидывает с написью коннекшин таймд аут. После пары перезаходов - на время отпускает, но через N-ное время снова выкидывает с сервера.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1366110025881358366",
+   "date": "2025-04-27T17:53:31.267000+00:00",
+   "author": "Ykika",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1366110025558392832",
+     "filename": "client.stdout.log",
+     "content_type": "text/plain; charset=utf-8",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1366128852610584679",
+   "date": "2025-04-27T19:08:19.909000+00:00",
+   "author": "EvillChet",
+   "author_role": null,
+   "content": "Млефур. А тебя Выкидывало в движении или только когда ты останавливался?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1366128986647957574",
+   "date": "2025-04-27T19:08:51.866000+00:00",
+   "author": "Ykika",
+   "author_role": null,
+   "content": "В обоих случаях вроде, но именно в этих логах я останавливался, прежде чем выкидывало",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1366129060157198446",
+   "date": "2025-04-27T19:09:09.392000+00:00",
+   "author": "EvillChet",
+   "author_role": null,
+   "content": "А меня только когда я останавливался для написания текста",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1366129256874119259",
+   "date": "2025-04-27T19:09:56.293000+00:00",
+   "author": "Ykika",
+   "author_role": null,
+   "content": "https://cdn.discordapp.com/attachments/1180626739005767751/1244331028340805692/SS14Dead.gif",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1366147592257278004",
+   "date": "2025-04-27T20:22:47.789000+00:00",
+   "author": "卂ㄚ卂几卂爪丨 尺乇丨",
+   "author_role": null,
+   "content": "еще кстати если жать альтаб, не крашит. И в гостах тоже не крашит. Нету этого шедевро таймаута",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1366164375228121149",
+   "date": "2025-04-27T21:29:29.161000+00:00",
+   "author": "TREST",
+   "author_role": null,
+   "content": "там с текстурами траблы были, по идее должно перестать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1366182807612686367",
+   "date": "2025-04-27T22:42:43.784000+00:00",
+   "author": "卂ㄚ卂几卂爪丨 尺乇丨",
+   "author_role": null,
+   "content": "нэ",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1366182821009297419",
+   "date": "2025-04-27T22:42:46.978000+00:00",
+   "author": "卂ㄚ卂几卂爪丨 尺乇丨",
+   "author_role": null,
+   "content": "не пофиксил",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1366182826386391125",
+   "date": "2025-04-27T22:42:48.260000+00:00",
+   "author": "卂ㄚ卂几卂爪丨 尺乇丨",
+   "author_role": null,
+   "content": ")))))))))",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1366182967080255530",
+   "date": "2025-04-27T22:43:21.804000+00:00",
+   "author": "卂ㄚ卂几卂爪丨 尺乇丨",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1366182966790721536",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1366425676130943061",
+   "date": "2025-04-28T14:47:48.151000+00:00",
+   "author": "Ykika",
+   "author_role": null,
+   "content": "<@627415136122044416> В этом раунде, вылетело около 5-6 раз, при том около 4 было в мелком коридорчике по неизвестной мне причине.\nНо стало вылетать гораздо меньше, эт да.",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1366425675950719147",
+     "filename": "client.stdout.log",
+     "content_type": "text/plain; charset=utf-8",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

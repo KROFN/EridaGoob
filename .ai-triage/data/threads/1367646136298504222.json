@@ -1,0 +1,85 @@
+{
+ "thread_id": "1367646136298504222",
+ "title": "Скорее всего баг с хирургией",
+ "author": {
+  "id": "328755535765569537",
+  "username": "montriase",
+  "global_name": "MonTrius",
+  "server_nick": null,
+  "display": "MonTrius"
+ },
+ "created_at": "2025-05-01T23:37:28.530Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 4,
+ "attachment_count": 2,
+ "attachments_on_disk": [
+  "1367646136566808596_image.png",
+  "1367646136902615050_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1367646136298504222",
+  "date": "2025-05-01T23:37:28.530000+00:00",
+  "author": "MonTrius",
+  "author_role": null,
+  "content": "Как мне сказали, то у игрока сгорело туловище, поэтому хирургия уже не позволяет вообще как-либо взаимодействовать далее (Мозг не выходит вырезать).\nПолагаю так не должно быть, потому что голова целой осталась, но по итогу игрок задыхается, так как органов нет и нельзя пересадить в новое тело.\nДумаю воспроизвести можно путем удаления конечности или её сожжением.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1367646136566808596",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1367646136298504222/1367646136566808596_image.png"
+   },
+   {
+    "id": "1367646136902615050",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1367646136298504222/1367646136902615050_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1367682358983262288",
+   "date": "2025-05-02T02:01:24.691000+00:00",
+   "author": "bebrus",
+   "author_role": null,
+   "content": "При сгорании тела, даже если ты потом гибнешь чела, мозг ты не получишь, органов там вообще никаких не остается.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1367683466958737468",
+   "date": "2025-05-02T02:05:48.853000+00:00",
+   "author": "MonTrius",
+   "author_role": null,
+   "content": "Это огорчает",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1367684252149350500",
+   "date": "2025-05-02T02:08:56.057000+00:00",
+   "author": "bebrus",
+   "author_role": null,
+   "content": "Сам баг я думаю заключается в том, что человек должен полностью в пепел сгорать, но из за того, что у нас есть хирургия и человек разделен на части тела, сгорает только тело как основа.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

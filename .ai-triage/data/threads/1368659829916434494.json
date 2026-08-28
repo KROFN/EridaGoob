@@ -1,0 +1,87 @@
+{
+ "thread_id": "1368659829916434494",
+ "title": "Противогазы и маски",
+ "author": {
+  "id": "889158684670849045",
+  "username": "toros4",
+  "global_name": "Toros",
+  "server_nick": null,
+  "display": "Toros"
+ },
+ "created_at": "2025-05-04T18:45:31.922Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 6,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1368659829916434494",
+  "date": "2025-05-04T18:45:31.922000+00:00",
+  "author": "Toros",
+  "author_role": null,
+  "content": "Если приспустить с лица маску, а потом полностью снять её с лица и надеть, то у неё не будет спрайта, но будет функционал. Можно надевать так любую маску. Чинится ещё одним спуском маски.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1368660080433561700",
+   "date": "2025-05-04T18:46:31.650000+00:00",
+   "author": "Toros",
+   "author_role": null,
+   "content": "Работает только с масками, которые не имеют спрайта при спущенном варианте",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1368660155021000785",
+   "date": "2025-05-04T18:46:49.433000+00:00",
+   "author": "Toros",
+   "author_role": null,
+   "content": "Было проверено на противогазе (грейтайда), гетре для шеи и дыхательной маске",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1368661326112751686",
+   "date": "2025-05-04T18:51:28.643000+00:00",
+   "author": "TREST",
+   "author_role": null,
+   "content": "даже не на конфу",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1368661335671443466",
+   "date": "2025-05-04T18:51:30.922000+00:00",
+   "author": "TREST",
+   "author_role": null,
+   "content": "оффам нахуй",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1368675093227507732",
+   "date": "2025-05-04T19:46:10.979000+00:00",
+   "author": "Toros",
+   "author_role": null,
+   "content": "Ладно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

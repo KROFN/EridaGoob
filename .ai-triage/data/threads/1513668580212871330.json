@@ -1,0 +1,91 @@
+{
+ "thread_id": "1513668580212871330",
+ "title": "Пропали часы",
+ "author": {
+  "id": "501407467096244226",
+  "username": "roycce_",
+  "global_name": null,
+  "server_nick": null,
+  "display": "roycce_"
+ },
+ "created_at": "2026-06-08T22:18:32.125Z",
+ "archived": true,
+ "tags": [
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1507775251998838925"
+ ],
+ "message_count": 5,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1513668580447879312_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1513668580212871330",
+  "date": "2026-06-08T22:18:32.125000+00:00",
+  "author": "roycce_",
+  "author_role": null,
+  "content": "Здравствуйте я вот играю на этом сервере с 2025 не понмю точно когда начал но у меня 20 часов точно наиграно на сервере и старый акк и не пускает всё равно на сервер в режиме бункера",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1513668580447879312",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1513668580212871330/1513668580447879312_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1513668744549896244",
+   "date": "2026-06-08T22:19:11.306000+00:00",
+   "author": "roycce_",
+   "author_role": null,
+   "content": "Юзернейм аккаунта SS14 Roycce",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1513669998231556277",
+   "date": "2026-06-08T22:24:10.207000+00:00",
+   "author": "roycce_",
+   "author_role": null,
+   "content": "Можно ещё по дискорду посмотреть я в мае прошлого года писал играл",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1516043611354038312",
+   "date": "2026-06-15T11:36:03.675000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "БД падала и так не подтянули, ибо некому. А по бункеру к администрации",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1518984901813338234",
+   "date": "2026-06-23T14:23:41.967000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Нет",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

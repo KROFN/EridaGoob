@@ -1,0 +1,77 @@
+{
+ "thread_id": "1368541575902265365",
+ "title": "Прицеливание",
+ "author": {
+  "id": "889158684670849045",
+  "username": "toros4",
+  "global_name": "Toros",
+  "server_nick": null,
+  "display": "Toros"
+ },
+ "created_at": "2025-05-04T10:55:37.968Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 4,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1368544995891744888_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1368541575902265365",
+  "date": "2025-05-04T10:55:37.968000+00:00",
+  "author": "Toros",
+  "author_role": null,
+  "content": "Прицеливание очень дёрганное. Невозможно вернуть камеру в нормальное состояние. При выключение прицела камера зависает. Если перезайти, вроде бы чинится экран, но ударя наносятся совсем в другие места.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1368544995841146912",
+   "date": "2025-05-04T11:09:13.345000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "короче, та же тема была, заходи в настройки, выбирай вкладку доступность и тут выкручивай в 0",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1368544995891744888",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "downloaded",
+     "local_path": "attachments/1368541575902265365/1368544995891744888_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1368547450624802836",
+   "date": "2025-05-04T11:18:58.611000+00:00",
+   "author": "Toros",
+   "author_role": null,
+   "content": "Помогло, но не полностью",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1368553956967583755",
+   "date": "2025-05-04T11:44:49.844000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "ну, у меня проблем небыло после",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

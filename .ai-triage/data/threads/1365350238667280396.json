@@ -1,0 +1,50 @@
+{
+ "thread_id": "1365350238667280396",
+ "title": "Две хуйнюшки с безделушками у инженера",
+ "author": {
+  "id": "705396325373706401",
+  "username": "bestopelemesiko",
+  "global_name": "BP",
+  "server_nick": null,
+  "display": "BP"
+ },
+ "created_at": "2025-04-25T15:34:23.879Z",
+ "archived": true,
+ "tags": [
+  "В процессе"
+ ],
+ "tag_ids": [
+  "1365427658288005150"
+ ],
+ "message_count": 1,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1365350239137038446_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1365350238667280396",
+  "date": "2025-04-25T15:34:23.879000+00:00",
+  "author": "BP",
+  "author_role": null,
+  "content": "Две вкладки с безделушками у инженера в редакторе снаряжения.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1365350239137038446",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1365350238667280396/1365350239137038446_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

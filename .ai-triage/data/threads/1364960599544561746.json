@@ -1,0 +1,79 @@
+{
+ "thread_id": "1364960599544561746",
+ "title": "Текстуры",
+ "author": {
+  "id": "987758337561088001",
+  "username": "shizalightroleplay",
+  "global_name": "Ариана",
+  "server_nick": null,
+  "display": "Ариана"
+ },
+ "created_at": "2025-04-24T13:46:06.673Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 5,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1364960599544561746",
+  "date": "2025-04-24T13:46:06.673000+00:00",
+  "author": "Ариана",
+  "author_role": null,
+  "content": "Текстурки с ушками сломаны полностью, нету покраски кончикка хвоста у вульп, нету нормальных мордочек, ушки накладываются в волосах, из-за чего будто их нету",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": [
+   "c_memecutecat:1"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1364962417649651834",
+   "date": "2025-04-24T13:53:20.143000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "<@627415136122044416> Первочерёдная проблема",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365019799851372704",
+   "date": "2025-04-24T17:41:21.126000+00:00",
+   "author": "TREST",
+   "author_role": null,
+   "content": "Похуй",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365021814681501696",
+   "date": "2025-04-24T17:49:21.499000+00:00",
+   "author": "Ариана",
+   "author_role": null,
+   "content": "ЗРИТЕЛЯМ НЕ ПОХУЙ!",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365051733016973434",
+   "date": "2025-04-24T19:48:14.586000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "🫵 <:s_HAHAHA:1363694936394043452>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

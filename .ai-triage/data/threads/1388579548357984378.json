@@ -1,0 +1,63 @@
+{
+ "thread_id": "1388579548357984378",
+ "title": "Бригмедик",
+ "author": {
+  "id": "1251925458426003487",
+  "username": "bahamutichka",
+  "global_name": "Elgard",
+  "server_nick": null,
+  "display": "Elgard"
+ },
+ "created_at": "2025-06-28T17:59:22.889Z",
+ "archived": true,
+ "tags": [
+  "На рассмотрении"
+ ],
+ "tag_ids": [
+  "1377591362744094795"
+ ],
+ "message_count": 3,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1388579548357984378",
+  "date": "2025-06-28T17:59:22.889000+00:00",
+  "author": "Elgard",
+  "author_role": null,
+  "content": "В лодауте бригмедика нет медалей.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1391965700402319446",
+   "date": "2025-07-08T02:14:44.448000+00:00",
+   "author": "NickCatXD1",
+   "author_role": null,
+   "content": "Герои не носят медали. Но да, солидарен",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1392141013677637712",
+   "date": "2025-07-08T13:51:22.390000+00:00",
+   "author": "Гав",
+   "author_role": null,
+   "content": "Герои носят чулки",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "lualuv:2"
+   ]
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

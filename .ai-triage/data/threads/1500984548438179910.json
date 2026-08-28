@@ -1,0 +1,53 @@
+{
+ "thread_id": "1500984548438179910",
+ "title": "Скованная кукла, превращенная в зомби не может расковаться",
+ "author": {
+  "id": "519571879938228234",
+  "username": "i_amigo_i3075",
+  "global_name": "I_AmigO_I",
+  "server_nick": null,
+  "display": "I_AmigO_I"
+ },
+ "created_at": "2026-05-04T22:16:43.292Z",
+ "archived": true,
+ "tags": [
+  "Визден-Баг"
+ ],
+ "tag_ids": [
+  "1449460164171403294"
+ ],
+ "message_count": 2,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1500984548438179910",
+  "date": "2026-05-04T22:16:43.292000+00:00",
+  "author": "I_AmigO_I",
+  "author_role": null,
+  "content": "1. Закованного в смирительную рубашку кобольда обратили в зомби. По итогу кобольд не способен после зомбификации развязаться, но при этом и кусаться он тоже не может\n2. Зомбифицированные существа должны уметь расковываться",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1501144577153957898",
+   "date": "2026-05-05T08:52:37.111000+00:00",
+   "author": "Wendor",
+   "author_role": null,
+   "content": "Фича",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "😇:2"
+   ]
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

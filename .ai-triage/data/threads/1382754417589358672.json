@@ -1,0 +1,179 @@
+{
+ "thread_id": "1382754417589358672",
+ "title": "Арахны",
+ "author": {
+  "id": "977695072910999582",
+  "username": "mokko1111",
+  "global_name": "Mokko",
+  "server_nick": null,
+  "display": "Mokko"
+ },
+ "created_at": "2025-06-12T16:12:23.488Z",
+ "archived": true,
+ "tags": [
+  "На рассмотрении"
+ ],
+ "tag_ids": [
+  "1377591362744094795"
+ ],
+ "message_count": 12,
+ "attachment_count": 3,
+ "attachments_on_disk": [
+  "1383039791989522472_image.png",
+  "1383039837736665088_image.png",
+  "1383042558682468383_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1382754417589358672",
+  "date": "2025-06-12T16:12:23.488000+00:00",
+  "author": "Mokko",
+  "author_role": null,
+  "content": "У Арахн есть баги с одеждой и приведу в пример несколько. Когда я зашла за арахну повара, выбрав стартовым лодаутом морозильную куртку, всё было хорошо, и куртка появилась на мне, но когда я попыталась переодется, та больше не надевалась. Также когда арахны носят плащи они проходят сквозь них, и выпирают из модельки при фронтальном наблюдении. Скриншоты приложу потом, когда зайду в игру. Так же поверх одежды арахн видно их нижнее бельё.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1383039779242905620",
+   "date": "2025-06-13T11:06:19.008000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "Пересадили голову арахны монке, результат левитирующая обезьяна без ног, хдд",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1383039792207364116",
+   "date": "2025-06-13T11:06:22.099000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1383039791989522472",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "downloaded",
+     "local_path": "attachments/1382754417589358672/1383039791989522472_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1383039837753311415",
+   "date": "2025-06-13T11:06:32.958000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1383039837736665088",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "downloaded",
+     "local_path": "attachments/1382754417589358672/1383039837736665088_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1383039922138517556",
+   "date": "2025-06-13T11:06:53.077000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "Не замедляюсь ни от чего, только поскальзыватся могу, но не упасть самостоятельно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1383040031907778611",
+   "date": "2025-06-13T11:07:19.248000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "Я сюда буду все рофлы с арахнами скидывать, потому что они баганутые капец",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1383041447262945423",
+   "date": "2025-06-13T11:12:56.695000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "Кстати на паучию часть арахн не работает хирургия",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1383041460877787218",
+   "date": "2025-06-13T11:12:59.941000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "совсем",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1383041503219159210",
+   "date": "2025-06-13T11:13:10.036000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "проверенно, именно поэтому мозг в обезьяну сунули",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1383042550335672360",
+   "date": "2025-06-13T11:17:19.688000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "Кстати вот как это сканер видит",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1383042558992580778",
+   "date": "2025-06-13T11:17:21.752000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1383042558682468383",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "downloaded",
+     "local_path": "attachments/1382754417589358672/1383042558682468383_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1384140709291888801",
+   "date": "2025-06-16T12:01:01.186000+00:00",
+   "author": "cybertrash",
+   "author_role": null,
+   "content": "попробую воспроизвести, скорее всего баг основного билда.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

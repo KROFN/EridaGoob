@@ -1,0 +1,42 @@
+{
+ "thread_id": "1488907548714074364",
+ "title": "КПК закрывает слоты всего тела кроме брони",
+ "author": {
+  "id": "977695072910999582",
+  "username": "mokko1111",
+  "global_name": "Mokko",
+  "server_nick": null,
+  "display": "Mokko"
+ },
+ "created_at": "2026-04-01T14:27:02.178Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 1,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1488907548714074364",
+  "date": "2026-04-01T14:27:02.178000+00:00",
+  "author": "Mokko",
+  "author_role": null,
+  "content": "Пруфов не будет. Повторное нацепление кпк пофиксило.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

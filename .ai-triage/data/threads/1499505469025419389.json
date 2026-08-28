@@ -1,0 +1,60 @@
+{
+ "thread_id": "1499505469025419389",
+ "title": "Минус юбка",
+ "author": {
+  "id": "442351369857531925",
+  "username": "reddyford",
+  "global_name": "ReddyFord",
+  "server_nick": null,
+  "display": "ReddyFord"
+ },
+ "created_at": "2026-04-30T20:19:23.280Z",
+ "archived": true,
+ "tags": [
+  "Незначительный",
+  "Дискорд-Бот"
+ ],
+ "tag_ids": [
+  "1466802797327421512",
+  "1414265921488289995"
+ ],
+ "message_count": 1,
+ "attachment_count": 2,
+ "attachments_on_disk": [
+  "1499505469218099330_image.png",
+  "1499505470073999500_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1499505469025419389",
+  "date": "2026-04-30T20:19:23.280000+00:00",
+  "author": "ReddyFord",
+  "author_role": null,
+  "content": "Волосы \"Русалка\" накладываются поверх любой юбки, срезая ее боковые части",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1499505469218099330",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1499505469025419389/1499505469218099330_image.png"
+   },
+   {
+    "id": "1499505470073999500",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1499505469025419389/1499505470073999500_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

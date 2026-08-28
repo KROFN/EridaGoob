@@ -1,0 +1,200 @@
+{
+ "thread_id": "1458606904719970448",
+ "title": "Карта ДЕЛЬТА, наша любимая, пермабриг и вечная герма.",
+ "author": {
+  "id": "638709309273931777",
+  "username": "whatapple",
+  "global_name": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+  "server_nick": null,
+  "display": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲"
+ },
+ "created_at": "2026-01-07T23:43:05.691Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 22,
+ "attachment_count": 2,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1458606904719970448",
+  "date": "2026-01-07T23:43:05.691000+00:00",
+  "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+  "author_role": null,
+  "content": "На двух скринах видно ПОСЛЕ исправления и ДО. Просто удалите эти тайлы и заполните Ctrl от станции и всё, на этом месте НЕ гриды станции, через которые уходит атмос в космос.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1458606905827004486",
+    "filename": "Screenshot_7190.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   },
+   {
+    "id": "1458606906682904798",
+    "filename": "Screenshot_7189.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1458608136884850780",
+   "date": "2026-01-07T23:47:59.462000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "<@674216705211367445> Прости, но вроде тебя пинговать нужно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1458609392004894864",
+   "date": "2026-01-07T23:52:58.706000+00:00",
+   "author": "Агроном сын Агропрома",
+   "author_role": null,
+   "content": "Ну я в общем тоже бы со временем пинганул его....",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1458723542735650941",
+   "date": "2026-01-08T07:26:34.361000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "всё таки маппят битыми тайлами, ужасы",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1458763231915933696",
+   "date": "2026-01-08T10:04:16.999000+00:00",
+   "author": "kote19",
+   "author_role": null,
+   "content": "<:s_ya_eblan:1362357080002134158> это дельта а не бокс",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1458764311257157672",
+   "date": "2026-01-08T10:08:34.334000+00:00",
+   "author": "kote19",
+   "author_role": null,
+   "content": "<@1371510241941917767> карта лежит в папке готовых",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1458765170271846597",
+   "date": "2026-01-08T10:11:59.139000+00:00",
+   "author": "mangust2211",
+   "author_role": null,
+   "content": "Это был баг с сохранением уже исправил",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1458790494544068712",
+   "date": "2026-01-08T11:52:36.916000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "Это правда позор для меня... УЭЭЭЭЭЭЭЭ",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1458790519135272994",
+   "date": "2026-01-08T11:52:42.779000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "Учитывая, что на этих картах часто сидим",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1458790602689871873",
+   "date": "2026-01-08T11:53:02.700000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "Карта ДЕЛЬТА, наша любимая, пермабриг и вечная герма.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1458835040422203556",
+   "date": "2026-01-08T14:49:37.481000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "я просто подправил то что уже в сборке",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1458835220693385339",
+   "date": "2026-01-08T14:50:20.461000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "буквально создал карту дельты, исправил, сохранил дельту, закинул с заменением",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1458836395220013066",
+   "date": "2026-01-08T14:55:00.490000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Так а толку если маперы уже фиксанули",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1458836496709582908",
+   "date": "2026-01-08T14:55:24.687000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "ну так я в кратчайшие сроки закинул пр, залейте тогда уже готовые мапы",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1458836576531386510",
+   "date": "2026-01-08T14:55:43.718000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "там комната без давления и нет скафов пилота",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [
+  "Ctrl"
+ ],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

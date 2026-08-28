@@ -1,0 +1,83 @@
+{
+ "thread_id": "1449838576878489682",
+ "title": "ПАУТИННЫЕ ДВЕРИ [ERROR]",
+ "author": {
+  "id": "506100682818846721",
+  "username": "blebka",
+  "global_name": "Blebka",
+  "server_nick": null,
+  "display": "Blebka"
+ },
+ "created_at": "2025-12-14T19:00:53.426Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 4,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1449838576878489682",
+  "date": "2025-12-14T19:00:53.426000+00:00",
+  "author": "Blebka",
+  "author_role": null,
+  "content": "Паутинные двери сломаны. Их призрак не поставить, текстуры у них нет. Всё на скриншоте",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1449838577264492715",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1451790531846737980",
+   "date": "2025-12-20T04:17:15.756000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "посмотрю",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1451921556350570527",
+   "date": "2025-12-20T12:57:54.432000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "пофикшено, ждите одобрения пра",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "👍:1"
+   ]
+  },
+  {
+   "id": "1452045242151862476",
+   "date": "2025-12-20T21:09:23.425000+00:00",
+   "author": "Blebka",
+   "author_role": null,
+   "content": "Спасибо!!",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

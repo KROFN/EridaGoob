@@ -1,0 +1,199 @@
+{
+ "thread_id": "1457091184735420578",
+ "title": "Лодаут ОСЩа",
+ "author": {
+  "id": "519571879938228234",
+  "username": "i_amigo_i3075",
+  "global_name": "I_AmigO_I",
+  "server_nick": null,
+  "display": "I_AmigO_I"
+ },
+ "created_at": "2026-01-03T19:20:09.886Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 15,
+ "attachment_count": 2,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1457091184735420578",
+  "date": "2026-01-03T19:20:09.886000+00:00",
+  "author": "I_AmigO_I",
+  "author_role": null,
+  "content": "У ОСЩа при спавне в его рюкзаке нет аварийного набора. Надо бы вернуть",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1457094480132833422",
+   "date": "2026-01-03T19:33:15.570000+00:00",
+   "author": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ",
+   "author_role": null,
+   "content": "ура тот самый сбшный противогаз",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1457105703805128744",
+   "date": "2026-01-03T20:17:51.502000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Может ты хотел сказать РИГ? Вроде как он есть.",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1457105703499071653",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1457108554480615618",
+   "date": "2026-01-03T20:29:11.156000+00:00",
+   "author": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ",
+   "author_role": null,
+   "content": "не-а нету",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1457108590065225842",
+   "date": "2026-01-03T20:29:19.640000+00:00",
+   "author": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ",
+   "author_role": null,
+   "content": "я за осща щас зашел - нету",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1457108657354576050",
+   "date": "2026-01-03T20:29:35.683000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Можно скрин",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1457108663843160168",
+   "date": "2026-01-03T20:29:37.230000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "пж",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1457108729878020157",
+   "date": "2026-01-03T20:29:52.974000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "или я тупой со старой локалкой или нет",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1457108731149029560",
+   "date": "2026-01-03T20:29:53.277000+00:00",
+   "author": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ",
+   "author_role": null,
+   "content": "я уже все разложила - так что ну все равно. ок",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1457108862271361068",
+   "date": "2026-01-03T20:30:24.539000+00:00",
+   "author": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1457108862195859577",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1457108907540484319",
+   "date": "2026-01-03T20:30:35.332000+00:00",
+   "author": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ",
+   "author_role": null,
+   "content": "нету тупо",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1457108999462719683",
+   "date": "2026-01-03T20:30:57.248000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "а это точно осщ??",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1457109120804061272",
+   "date": "2026-01-03T20:31:26.178000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "короче всё узнаем, фиксить будем",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1457109134360055808",
+   "date": "2026-01-03T20:31:29.410000+00:00",
+   "author": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ",
+   "author_role": null,
+   "content": "Осщ эриды, да",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1458046158990479450",
+   "date": "2026-01-06T10:34:53.491000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "готово",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

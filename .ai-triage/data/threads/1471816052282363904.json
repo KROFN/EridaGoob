@@ -1,0 +1,53 @@
+{
+ "thread_id": "1471816052282363904",
+ "title": "Суперматерия и Диоксид углерода",
+ "author": {
+  "id": "551403326948900881",
+  "username": "maasarie",
+  "global_name": "maasarie",
+  "server_nick": null,
+  "display": "maasarie"
+ },
+ "created_at": "2026-02-13T10:31:31.884Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799",
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1414266059208265799",
+  "1377371306470801439"
+ ],
+ "message_count": 2,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1471816052282363904",
+  "date": "2026-02-13T10:31:31.884000+00:00",
+  "author": "maasarie",
+  "author_role": null,
+  "content": "При 100% концентрации Диоксида, который в теории должен повышать мощность Кристалла пришлось наблюдать картину, что радиация повышалась до 39 и не превышала этой отметки, кристалл разрушался до 96~, а после выработка радиации быстро спадала, а кристалл восстанавливался.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1471816166019436575",
+   "date": "2026-02-13T10:31:59.001000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "или не баг а фича",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

@@ -1,0 +1,99 @@
+{
+ "thread_id": "1491435706789138632",
+ "title": "каюта ГП на аспиде",
+ "author": {
+  "id": "700677016931926036",
+  "username": "merzkii_zhizh",
+  "global_name": "мерзкий жиж",
+  "server_nick": null,
+  "display": "мерзкий жиж"
+ },
+ "created_at": "2026-04-08T13:53:02.034Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 6,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1491435706789138632",
+  "date": "2026-04-08T13:53:02.034000+00:00",
+  "author": "мерзкий жиж",
+  "author_role": null,
+  "content": "зарядник перевернут жопой, приходится для зарядки выходить в техи и пиздить решетку с обратной стороны стены",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1491435706969751735",
+    "filename": "99.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1491471307802542225",
+   "date": "2026-04-08T16:14:29.977000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "Гениально",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1491471342443434024",
+   "date": "2026-04-08T16:14:38.236000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "Нужно по апплодировать Архитектору НТ",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1491751336373518466",
+   "date": "2026-04-09T10:47:13.991000+00:00",
+   "author": "bebrus",
+   "author_role": null,
+   "content": "https://tenor.com/view/nasha-russia-galustyan-ravshan-privet-hello-gif-10559784",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1496011225488953434",
+   "date": "2026-04-21T04:54:30.701000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "<@1264249802112241707>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1496011588426137600",
+   "date": "2026-04-21T04:55:57.232000+00:00",
+   "author": "mangust2211",
+   "author_role": null,
+   "content": "<@815270057197568040>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

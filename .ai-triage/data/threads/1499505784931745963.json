@@ -1,0 +1,113 @@
+{
+ "thread_id": "1499505784931745963",
+ "title": "Нерабочий испанский акцент",
+ "author": {
+  "id": "442351369857531925",
+  "username": "reddyford",
+  "global_name": "ReddyFord",
+  "server_nick": null,
+  "display": "ReddyFord"
+ },
+ "created_at": "2026-04-30T20:20:38.598Z",
+ "archived": true,
+ "tags": [
+  "Дискорд-Бот"
+ ],
+ "tag_ids": [
+  "1414265921488289995"
+ ],
+ "message_count": 8,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1499505784931745963",
+  "date": "2026-04-30T20:20:38.598000+00:00",
+  "author": "ReddyFord",
+  "author_role": null,
+  "content": "Ни разу не заменило на испанские слова, даже самую базу не затрагивает, скорее всего сломан",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1499506284938920199",
+   "date": "2026-04-30T20:22:37.809000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Нет локализации",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1499506372579164334",
+   "date": "2026-04-30T20:22:58.704000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "дайте фразы, if выживу сделаю",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1499510077210497086",
+   "date": "2026-04-30T20:37:41.957000+00:00",
+   "author": "ReddyFord",
+   "author_role": null,
+   "content": "я — yo\nты — tú\nон — él\nона — ella\nмы — nosotros\nвы — ustedes \nони  — ellas\nэто — eso / esto\n\nхочу — quiero\nмогу — puedo\nиду / еду  — voy\nвижу — veo\nговорю — hablo\nделаю — hago\n\nда — sí\nнет — no\nочень — muy\nнемного — un poco\nхорошо — bien\nплохо — mal\nпотому что — porque\nи — y\nно — pero\nили — o\n\nдруг  — amigo\nкрасивый / милый — bonito / lindo / guapo (красавчик, красавец - для мужчины); bella / linda / guapa (красотка, красавица для женщины)\nмаленький — pequeño\nбольшой — grande\nоружие — arma\nо боже — ¡Dios mío!\nчёрт — ¡maldición! / ¡mierda!\nотлично — ¡genial! / ¡super!\nпривет — hola\nпока — adiós \nдо встречи - hasta luego\nспасибо — gracias\nпожалуйста — por favor\nизвините — perdón \n? — ¿eh? \n\nчто — qué\nгде — dónde\nкогда — cuándo\nкак — cómo\nзачем / почему — por qué\n\nиди к чёрту — vete al diablo \n\nкапитан — capitán\nглава - jefe\nсб/служба безопасности — policía\nврач — médico\nкофе — café\nчай — t",
+   "content_truncated": true,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1499511544147607552",
+   "date": "2026-04-30T20:43:31.702000+00:00",
+   "author": "ReddyFord",
+   "author_role": null,
+   "content": "Предлоги и союзы\nde — из, о, от\nen — в, на\na — в, к\npor — из-за, через, ради\npara — для, чтобы\ncon — с\nsin — без\nsobre — о, на, над\nbajo — под\nentre — между, среди\nhacia — в сторону, около\nhasta — до, даже\ndesde — с, от\ncontra — против\nsegún — согласно\ndurante — в течение\nmediante — посредством\ny — и\no — или\npero — но\nporque — потому что\naunque — хотя\nsino que — а наоборот\nВопросительные\nqué — что, какой\nquién — кто\ndónde — где\ncuándo — когда\ncómo — как\npor qué — почему\npara qué — зачем\ncuánto — сколько\n\nser — быть\nsoy - меня\nhaber — иметься\ntener — иметь\nhacer — делать\ndecir — говорить\nir — идти, ехать\nver — видеть\npoder — мочь\nquerer — хотеть, любить\nsaber — знать (факт, как)\nconocer — знать (быть знакомым)\ndar — давать\nvenir — приходить\nponer — класть\nsalir — выходить\ndejar — оставлять, позволять\nllegar — прибывать\nencontrar — находить\ncreer — верить, думать\npensar — думать, планирова",
+   "content_truncated": true,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1499511550002855956",
+   "date": "2026-04-30T20:43:33.098000+00:00",
+   "author": "ReddyFord",
+   "author_role": null,
+   "content": "no — нет, не\nsí — да\nmuy — очень\nmucho — много\npoco — мало\nmás — больше\nmenos — меньше\nbien — хорошо\nmal — плохо\nya — уже; сейчас же\ntodavía — ещё, всё ещё\nnunca — никогда\nsiempre — всегда\nahora — сейчас\ndespués — после, потом\nantes — прежде, раньше\nluego — затем, скоро\npronto — скоро\ntarde — поздно\ntemprano — рано\naquí — здесь\nallí — там\ncerca — близко\nlejos — далеко\nasí — так, таким образом\ncasi — почти\n\nbueno — хороший\nmalo — плохой\ngrande — большой\npequeño — маленький\nmucho — много\npoco — мало\ntodo — весь, всё\notro — другой\nmismo — тот же самый, одинаковый\nprimero — первый\núltimo — последний\nnuevo — новый\nviejo — старый\njoven — молодой\nimportante — важный\nposible — возможный\ndiferente — разный, другой\nmejor — лучший\npeor — худший\n\npersona — лицо, личность\ncosa — вещь\ntiempo — время; погода\ndía — день\naño — год\nhombre — мужчина\nmujer — женщина\nniño — ребёнок\nvida — жизнь\nmundo — мир\nc",
+   "content_truncated": true,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1499511675852947638",
+   "date": "2026-04-30T20:44:03.103000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "<:cat_erp:1358052377306988564>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "😇:1"
+   ]
+  },
+  {
+   "id": "1499514088080932874",
+   "date": "2026-04-30T20:53:38.223000+00:00",
+   "author": "ReddyFord",
+   "author_role": null,
+   "content": "¡Buenos días! – доброе утро\n¡Buenas tardes! – добрый     день\n¡Buenas noches! – доброй ночи\n¡Hasta pronto! – до скорого\n¡Muchas gracias! – большое спасибо\nSoy / me llamo – мое имя / меня зовут\nSoy de / de -- я из\nestudio – изучаю/учу/учусь\n¡De nada! – не за что\nSu (ваше) nombre (имя) y apellidos (фамилия) – Ваше имя и фамилия\nInglés / Español / Italiano / lenguaje común – английский, испанский, итальянский, общий язык\nperro – собака\ngato - кот\ngata - кошка\nщенок - perrito\nкотенок - gatito\ncompañero – товарищ\n¡Vale! - окей\n¿Quién es? – кто это? \n¿Está claro? – это понятно?\n¿Cómo estás? – как поживаешь? / как дела / как жизнь\nVerdad – правда\n¡Que te mejores! – выздоравливай!\nFavor - одолжение\nCerveza - пиво\nBolígrafo – шариковая ручка\nBoli - ручка\n¿Qué significa? – что это значит?\nahora - сейчас\nhoy – сегодня\n¿que de seas? – что вы хотите? / что нужно / что хочешь\nestoy bien — я в порядке",
+   "content_truncated": true,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

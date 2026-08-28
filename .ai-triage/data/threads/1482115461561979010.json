@@ -1,0 +1,61 @@
+{
+ "thread_id": "1482115461561979010",
+ "title": "Карты",
+ "author": {
+  "id": "641168218672726038",
+  "username": "ewaldvonkleist",
+  "global_name": "Orex",
+  "server_nick": null,
+  "display": "Orex"
+ },
+ "created_at": "2026-03-13T20:37:42.410Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 2,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1482115461561979010",
+  "date": "2026-03-13T20:37:42.410000+00:00",
+  "author": "Orex",
+  "author_role": null,
+  "content": "Какие-то карты когда ты берешь их в руки ломают тебе всю игру.. я взял карты и следующее что я вижу:",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1482115461809307719",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1482115845848305815",
+   "date": "2026-03-13T20:39:14.031000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "https://discord.com/channels/1357728304710422680/1480543465203826956",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

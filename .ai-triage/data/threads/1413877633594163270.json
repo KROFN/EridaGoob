@@ -1,0 +1,77 @@
+{
+ "thread_id": "1413877633594163270",
+ "title": "Языки у существ",
+ "author": {
+  "id": "1084862533531353128",
+  "username": "tehnik_08",
+  "global_name": "TehniQ",
+  "server_nick": null,
+  "display": "TehniQ"
+ },
+ "created_at": "2025-09-06T13:24:56.425Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 5,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1413877633594163270",
+  "date": "2025-09-06T13:24:56.425000+00:00",
+  "author": "TehniQ",
+  "author_role": null,
+  "content": "Нету скриншота, но опишу словами\nУ некоторых существ, например ревенантов, Нимф Дионы и, вероятно, ещё других имеется проблема с языками\nГоворя о Нимфе Дионы, то у неё изначально имеется только язык животных, на котором ещё вроде пун говорит, и она непонимает чужие языки, включая тау кита\nРевенант же говорит на тау кита вроде как, но при этом не понимает его от других живых существ\nКак я понял, это баг. Надеюсь исправят",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1413889923047620608",
+   "date": "2025-09-06T14:13:46.459000+00:00",
+   "author": "Ананасина",
+   "author_role": null,
+   "content": "Уж не знаю, как обстоит дело с пониманием других. Но агрессивные слаймы не понимают свои же слова на слаймовском языке.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414156479031803985",
+   "date": "2025-09-07T07:52:58.358000+00:00",
+   "author": "TehniQ",
+   "author_role": null,
+   "content": "Кстати цИИ так же не понимает Тау Кита, но вроде говорит на нём",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414232157102276689",
+   "date": "2025-09-07T12:53:41.416000+00:00",
+   "author": "Danylo_dazzle",
+   "author_role": null,
+   "content": "А еще слаймы не понимают слаймолюдов. Это тоже прокол",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414496162559561810",
+   "date": "2025-09-08T06:22:45.222000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "пун тоже сам себя не слышит, только «ОООООККО»",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

@@ -1,0 +1,63 @@
+{
+ "thread_id": "1432793824714952744",
+ "title": "Бронежилет отоброжается выше чем РПС и пояс.",
+ "author": {
+  "id": "1251925458426003487",
+  "username": "bahamutichka",
+  "global_name": "Elgard",
+  "server_nick": null,
+  "display": "Elgard"
+ },
+ "created_at": "2025-10-28T18:11:07.834Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 2,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1432793824714952744",
+  "date": "2025-10-28T18:11:07.834000+00:00",
+  "author": "Elgard",
+  "author_role": null,
+  "content": "",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1432793825436242102",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": [
+   "👍:1"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1432933763993571369",
+   "date": "2025-10-29T03:27:11.958000+00:00",
+   "author": "bebrus",
+   "author_role": null,
+   "content": "Однозначно баг, но мне если честно больше нравится вариант когда пояса не видно.<:s_PoZiTiFfFcHiK:1358052086872281169>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

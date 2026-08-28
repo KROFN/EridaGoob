@@ -1,0 +1,183 @@
+{
+ "thread_id": "1365039255604297960",
+ "title": "Сборник багов с теста.",
+ "author": {
+  "id": "1058288268829007982",
+  "username": "anilorix",
+  "global_name": "Anilori <3",
+  "server_nick": null,
+  "display": "Anilori <3"
+ },
+ "created_at": "2025-04-24T18:58:39.739Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 14,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1365039255604297960",
+  "date": "2025-04-24T18:58:39.739000+00:00",
+  "author": "Anilori <3",
+  "author_role": null,
+  "content": "1: Не отключена вирусология, почему то вместе с гриппом так же передаётся зомби вирус воздушно капельным и убивает спустя пару минут после заражения\n2: Не отключена псионика, муты ловил, майндсвапов вроде небыло, так же видел появления маяков.\n3: Персонажа голым не посмотреть при редактировании\n4: Нижнее бельё в редакторе показывается сверху\n5: Кривоватые лица у вульп.\n6: Хочу Fuckrules.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1365039255755165758",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": [
+   "💪:1"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1365046732312023100",
+   "date": "2025-04-24T19:28:22.325000+00:00",
+   "author": "BP",
+   "author_role": null,
+   "content": "Что ещё за факрулс",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365046845805432884",
+   "date": "2025-04-24T19:28:49.384000+00:00",
+   "author": "BP",
+   "author_role": null,
+   "content": "Кстати, на счёт нижнего белья, оно вроде как только в редакторе багалось",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365048396599136268",
+   "date": "2025-04-24T19:34:59.122000+00:00",
+   "author": "official_fsb",
+   "author_role": null,
+   "content": "Скип менюшки правил при первом заходе",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365052786575933612",
+   "date": "2025-04-24T19:52:25.774000+00:00",
+   "author": "BP",
+   "author_role": null,
+   "content": "Никогда не юзал",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365107660579672226",
+   "date": "2025-04-24T23:30:28.756000+00:00",
+   "author": "🍺 Микс — Miniksim",
+   "author_role": null,
+   "content": "А баг ли это",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365107682121351168",
+   "date": "2025-04-24T23:30:33.892000+00:00",
+   "author": "🍺 Микс — Miniksim",
+   "author_role": null,
+   "content": "Ребят",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365107701562085417",
+   "date": "2025-04-24T23:30:38.527000+00:00",
+   "author": "🍺 Микс — Miniksim",
+   "author_role": null,
+   "content": "А как еще нижнее белье посмотреть",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365107760563359786",
+   "date": "2025-04-24T23:30:52.594000+00:00",
+   "author": "🍺 Микс — Miniksim",
+   "author_role": null,
+   "content": "При переключении одежды же его не должно быть",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365107824551792721",
+   "date": "2025-04-24T23:31:07.850000+00:00",
+   "author": "🍺 Микс — Miniksim",
+   "author_role": null,
+   "content": "А какой от него смысл если оно будет под персонажем",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365107859360055428",
+   "date": "2025-04-24T23:31:16.149000+00:00",
+   "author": "🍺 Микс — Miniksim",
+   "author_role": null,
+   "content": "Хотя бы так его можно увидеть",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365107861398487120",
+   "date": "2025-04-24T23:31:16.635000+00:00",
+   "author": "🍺 Микс — Miniksim",
+   "author_role": null,
+   "content": "Ыыы",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365108093494759566",
+   "date": "2025-04-24T23:32:11.971000+00:00",
+   "author": "BP",
+   "author_role": null,
+   "content": "<:s_perekur:1357975265921339515>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365121428864897045",
+   "date": "2025-04-25T00:25:11.371000+00:00",
+   "author": "Пивная мышь",
+   "author_role": null,
+   "content": "Ещё были проблемы со входом, то сервер был в лаунчере оффлайн, то через каждые секунд 30 выкидывало с него.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [
+  "Fuckrules"
+ ],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

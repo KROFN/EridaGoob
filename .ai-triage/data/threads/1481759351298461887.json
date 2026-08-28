@@ -1,0 +1,145 @@
+{
+ "thread_id": "1481759351298461887",
+ "title": "возможно не баг",
+ "author": {
+  "id": "727930800573644840",
+  "username": "frantyk_",
+  "global_name": "frantyk",
+  "server_nick": null,
+  "display": "frantyk"
+ },
+ "created_at": "2026-03-12T21:02:39.107Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799",
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799",
+  "1377371306470801439"
+ ],
+ "message_count": 11,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1481759351298461887",
+  "date": "2026-03-12T21:02:39.107000+00:00",
+  "author": "frantyk",
+  "author_role": null,
+  "content": "Будучи драконом я съел несколько трупов игроков, у меня было состояние плохо, был кровоток, кровоток ушёл, а хп не прибавилось, как будто я не хилился вообще",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1481759408839983104",
+   "date": "2026-03-12T21:02:52.826000+00:00",
+   "author": "frantyk",
+   "author_role": null,
+   "content": "я как и был медленным лоу хп",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1481759413525151928",
+   "date": "2026-03-12T21:02:53.943000+00:00",
+   "author": "frantyk",
+   "author_role": null,
+   "content": "так и есть",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1481764454659002500",
+   "date": "2026-03-12T21:22:55.843000+00:00",
+   "author": "vanomorodellefake",
+   "author_role": null,
+   "content": "<@727930800573644840> ты по скорости определял?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1481769089495204072",
+   "date": "2026-03-12T21:41:20.874000+00:00",
+   "author": "frantyk",
+   "author_role": null,
+   "content": "ну у меня было красное всё, во вторых статус не изменился, в третьих скорость",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1481769160722616392",
+   "date": "2026-03-12T21:41:37.856000+00:00",
+   "author": "frantyk",
+   "author_role": null,
+   "content": "если бы я залечился, одно из этого бы поменялось",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1481925256431014016",
+   "date": "2026-03-13T08:01:53.973000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "Там есть хил, просто у дракона очень много хп и оно долго хилит",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1481925351369084958",
+   "date": "2026-03-13T08:02:16.608000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "Условно надо съесть 1-2 трупа на хорошо и ждать минуты 4-5 для идеально",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1481935366700138506",
+   "date": "2026-03-13T08:42:04.449000+00:00",
+   "author": "frantyk",
+   "author_role": null,
+   "content": "Я ждал",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1481935378054385736",
+   "date": "2026-03-13T08:42:07.156000+00:00",
+   "author": "frantyk",
+   "author_role": null,
+   "content": "Не сработало",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1481935424086737037",
+   "date": "2026-03-13T08:42:18.131000+00:00",
+   "author": "frantyk",
+   "author_role": null,
+   "content": "Я прятался и ждал нападения",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

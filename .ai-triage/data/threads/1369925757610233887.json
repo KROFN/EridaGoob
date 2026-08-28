@@ -1,0 +1,81 @@
+{
+ "thread_id": "1369925757610233887",
+ "title": "Каким образом.. существа живут с 0-30% крови....",
+ "author": {
+  "id": "1179212963358457986",
+  "username": "Deleted User",
+  "global_name": null,
+  "server_nick": null,
+  "display": "Deleted User"
+ },
+ "created_at": "2025-05-08T06:35:52.604Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1365427630660128861"
+ ],
+ "tag_ids": [
+  "1365427630660128861"
+ ],
+ "message_count": 4,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1369925757970808882_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1369925757610233887",
+  "date": "2025-05-08T06:35:52.604000+00:00",
+  "author": "Deleted User",
+  "author_role": null,
+  "content": "",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1369925757970808882",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1369925757610233887/1369925757970808882_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1369944566320332841",
+   "date": "2025-05-08T07:50:36.950000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "магия ребелла",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369944619051257938",
+   "date": "2025-05-08T07:50:49.522000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "там все на молитве держится с метом",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1370006964712767579",
+   "date": "2025-05-08T11:58:33.886000+00:00",
+   "author": "mulku",
+   "author_role": null,
+   "content": "Джон ребелл сказал что скоро при 40% крови будет смэрть",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

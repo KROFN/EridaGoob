@@ -1,0 +1,46 @@
+{
+ "thread_id": "1365588601169248336",
+ "title": "не совсем баг очень неприятно",
+ "author": {
+  "id": "459666212025270287",
+  "username": "xkttty",
+  "global_name": "xkttty",
+  "server_nick": null,
+  "display": "xkttty"
+ },
+ "created_at": "2025-04-26T07:21:33.928Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 1,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1365588601588547657_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1365588601169248336",
+  "date": "2025-04-26T07:21:33.928000+00:00",
+  "author": "xkttty",
+  "author_role": null,
+  "content": "на аспиде практически невозможно пристыковать карго шатлл, места под шатлл тупо нету, на скриншоте шатлл застрял и двигаться невозможно",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1365588601588547657",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1365588601169248336/1365588601588547657_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

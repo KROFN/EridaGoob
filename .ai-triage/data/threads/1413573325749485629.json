@@ -1,0 +1,91 @@
+{
+ "thread_id": "1413573325749485629",
+ "title": "Обделенные тех. ассистенты",
+ "author": {
+  "id": "1153087663805562900",
+  "username": "cherreshnia",
+  "global_name": "Cherreshny",
+  "server_nick": null,
+  "display": "Cherreshny"
+ },
+ "created_at": "2025-09-05T17:15:43.781Z",
+ "archived": true,
+ "tags": [
+  "В процессе"
+ ],
+ "tag_ids": [
+  "1365427658288005150"
+ ],
+ "message_count": 6,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1413573325749485629",
+  "date": "2025-09-05T17:15:43.781000+00:00",
+  "author": "Cherreshny",
+  "author_role": null,
+  "content": "Только у тех ассистентом нельзя зайти в снаряжение, и настроить лодаут.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1413598618606243954",
+   "date": "2025-09-05T18:56:14.068000+00:00",
+   "author": "vanomorodellefake",
+   "author_role": null,
+   "content": "Да",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413754256070279188",
+   "date": "2025-09-06T05:14:40.931000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "А чего им засунуть туда?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413755271066419270",
+   "date": "2025-09-06T05:18:42.925000+00:00",
+   "author": "vanomorodellefake",
+   "author_role": null,
+   "content": "Менюшку с выбором снаряжения\nНу и плюс вроде как не выдаются аварийные наборы",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413777397396017182",
+   "date": "2025-09-06T06:46:38.253000+00:00",
+   "author": "Cherreshny",
+   "author_role": null,
+   "content": "Как минимум комбинезон и юбку комбинезон",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413777589348335737",
+   "date": "2025-09-06T06:47:24.018000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Разумно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

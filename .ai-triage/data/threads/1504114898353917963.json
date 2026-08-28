@@ -1,0 +1,105 @@
+{
+ "thread_id": "1504114898353917963",
+ "title": "фальши снова начали затухать за 15 секунд горения",
+ "author": {
+  "id": "700677016931926036",
+  "username": "merzkii_zhizh",
+  "global_name": "мерзкий жиж",
+  "server_nick": null,
+  "display": "мерзкий жиж"
+ },
+ "created_at": "2026-05-13T13:35:36.871Z",
+ "archived": true,
+ "tags": [
+  "Дискорд-Бот",
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1414265921488289995",
+  "1365427515455443028"
+ ],
+ "message_count": 7,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1504114898353917963",
+  "date": "2026-05-13T13:35:36.871000+00:00",
+  "author": "мерзкий жиж",
+  "author_role": null,
+  "content": "они не хотят жить видимо хэзэ",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1504188484846358689",
+   "date": "2026-05-13T18:28:01.258000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "А это вообще исправляли?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1504229722748616796",
+   "date": "2026-05-13T21:11:53.140000+00:00",
+   "author": "мерзкий жиж",
+   "author_role": null,
+   "content": "хуй знает, вроде исправляли, а может я забыл и просто сказали \"лол, а ведь реально\" и ничо не трогали. я просто зашел, юзнул, увидел и написал",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1504230853922918640",
+   "date": "2026-05-13T21:16:22.833000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Посмотрю",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1504267553567150175",
+   "date": "2026-05-13T23:42:12.710000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "забыл написать что исправил",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1504530748420522075",
+   "date": "2026-05-14T17:08:03.253000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Сделай пр тогда, если готово",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1504530966218277056",
+   "date": "2026-05-14T17:08:55.180000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Я его позже закину со всеми исправлениями локалок, поправок в прототипах",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "✅:1"
+   ]
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

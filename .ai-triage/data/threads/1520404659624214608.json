@@ -1,0 +1,195 @@
+{
+ "thread_id": "1520404659624214608",
+ "title": "Перчатка Г.О.Р.И.Л.Л.А",
+ "author": {
+  "id": "638709309273931777",
+  "username": "whatapple",
+  "global_name": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+  "server_nick": null,
+  "display": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲"
+ },
+ "created_at": "2026-06-27T12:25:18.607Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1507775251998838925"
+ ],
+ "message_count": 25,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": true,
+ "root_message": {
+  "id": "1520404659624214608",
+  "date": "2026-06-27T12:25:18.607000+00:00",
+  "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+  "author_role": null,
+  "content": "Перчатка не может толкнуть ЛЮБУЮ аномалию с ЛЮБЫМ ядром в ней, ни на ПКМ, ни на ЛКМ.\nНа ЛКМ невозможно просто ударить, ибо бьёшь просто по воздуху.\nНа ПКМ перчатка ударяет, **не тратит заряд** и аномалия стоит на месте, хоть и есть звук попадания.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1520404659884523702",
+    "filename": "Screenshot_969.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": [
+   "⭐:2"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1520517708599263463",
+   "date": "2026-06-27T19:54:31.583000+00:00",
+   "author": "Boroven",
+   "author_role": null,
+   "content": "Это всё же стоит подправить...",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1520523416317198398",
+   "date": "2026-06-27T20:17:12.409000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "https://cdn.discordapp.com/attachments/1318469585099296778/1342631139759624223/togif-7.gif",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1521626702277775535",
+   "date": "2026-06-30T21:21:16.280000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Ибо кто если не я",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1521626785391841482",
+   "date": "2026-06-30T21:21:36.096000+00:00",
+   "author": "Boroven",
+   "author_role": null,
+   "content": "эх, грустно... Но было бы ахуенно исправь ты сей гадкий баг !",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1521628564116607128",
+   "date": "2026-06-30T21:28:40.177000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Месяцок потерпите я думаю",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1521817835763007538",
+   "date": "2026-07-01T10:00:46.054000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "блятб, там откат залить по идее и только",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1521817873083797584",
+   "date": "2026-07-01T10:00:54.952000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "Хотя если это из-за билда, тогда да",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1525432811052470342",
+   "date": "2026-07-11T09:25:23.326000+00:00",
+   "author": "Parodist",
+   "author_role": null,
+   "content": "https://klipy.com/gifs/cheetos-construction-worker",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1525446676809126030",
+   "date": "2026-07-11T10:20:29.180000+00:00",
+   "author": "Boroven",
+   "author_role": null,
+   "content": "Делается, строится. Наше дело ждать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1525446728503791747",
+   "date": "2026-07-11T10:20:41.505000+00:00",
+   "author": "Boroven",
+   "author_role": null,
+   "content": "А я пока в отъезде - мне похуй : D",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "👍:1"
+   ]
+  },
+  {
+   "id": "1526112515728084993",
+   "date": "2026-07-13T06:26:17.549000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Терпим , терпим, а потом кааак потерпим",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1526146782768140358",
+   "date": "2026-07-13T08:42:27.448000+00:00",
+   "author": "Parodist",
+   "author_role": null,
+   "content": "была бы проблема в СМ сразу бы починил)",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1526149492817268816",
+   "date": "2026-07-13T08:53:13.574000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "https://cdn.discordapp.com/attachments/1248648168262864986/1292515682130591744/image-2.gif",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1526239265384567029",
+   "date": "2026-07-13T14:49:57.022000+00:00",
+   "author": "Parodist",
+   "author_role": null,
+   "content": "меньше слов больше дела)",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

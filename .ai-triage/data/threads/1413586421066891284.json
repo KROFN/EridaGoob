@@ -1,0 +1,121 @@
+{
+ "thread_id": "1413586421066891284",
+ "title": "А в чём прикол обновления собственно?",
+ "author": {
+  "id": "1028908290597462016",
+  "username": "d1night",
+  "global_name": "D1night",
+  "server_nick": null,
+  "display": "D1night"
+ },
+ "created_at": "2025-09-05T18:07:45.948Z",
+ "archived": true,
+ "tags": [
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1377371306470801439"
+ ],
+ "message_count": 9,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1413586421066891284",
+  "date": "2025-09-05T18:07:45.948000+00:00",
+  "author": "D1night",
+  "author_role": null,
+  "content": "Пройдусь по багам новой обновы.\n1.Пропало большинство причёсок, итог, половина персов сломана.\n2. Пропало много черт персонажа.\n3.Пропало много ролей, ОСЩ стал доступен даже без ВЛа.\n4.Пропали все кастомные антаги.\n5. У Сб сломалась кастомная снаряга.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1413586512418705478",
+   "date": "2025-09-05T18:08:07.728000+00:00",
+   "author": "D1night",
+   "author_role": null,
+   "content": "Может есть ещё баги, но в раунд в таком состоянии я заходить не хочу",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413587120106377327",
+   "date": "2025-09-05T18:10:32.612000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "Относительно ОСЩ,\nКак и сказали, ВЛ пока не работает, потому все ВЛ роли разблокированы для всех, однако обещали обратно вернуть ВЛ\n\n\nПропажа большинства причёсок - проблема в загрузке всех файлов на сервер, ибо как видишь, весь сервер вернулся к истокам потому нихуя не работает\nИз-за ошибки файлов сейчас мы откатились в каменный век, потому нет смысла на это жаловаться. Тут либо откатываться на старый билд и дать разрабам времени чтобы они пофиксили это либо хз",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413587303749783743",
+   "date": "2025-09-05T18:11:16.396000+00:00",
+   "author": "D1night",
+   "author_role": null,
+   "content": "Просто посчитал нужным отписать в баг репорт, всё таки разрабам так будет легче фиксить баги",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413587420158623877",
+   "date": "2025-09-05T18:11:44.150000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "Ну, там дохуя всего сломано",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413587462881808486",
+   "date": "2025-09-05T18:11:54.336000+00:00",
+   "author": "D1night",
+   "author_role": null,
+   "content": "Да я заметил)",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413606404496949451",
+   "date": "2025-09-05T19:27:10.369000+00:00",
+   "author": "D1night",
+   "author_role": null,
+   "content": "Ещё ТТС пропал, к слову",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413754387804852315",
+   "date": "2025-09-06T05:15:12.339000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Черты я буду позже переделывать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413754482705039470",
+   "date": "2025-09-06T05:15:34.965000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Всё остальное я итак знаю, это запланировано",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

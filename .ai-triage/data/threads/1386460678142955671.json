@@ -1,0 +1,163 @@
+{
+ "thread_id": "1386460678142955671",
+ "title": "телики",
+ "author": {
+  "id": "1251925458426003487",
+  "username": "bahamutichka",
+  "global_name": "Elgard",
+  "server_nick": null,
+  "display": "Elgard"
+ },
+ "created_at": "2025-06-22T21:39:44.863Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 13,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1386460678142955671",
+  "date": "2025-06-22T21:39:44.863000+00:00",
+  "author": "Elgard",
+  "author_role": null,
+  "content": "в камерах брига все телики повёрнуты лицом к стене<:cat_who:1363696698106318968>",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1386461719106162738",
+   "date": "2025-06-22T21:43:53.048000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "не написана карта, однако мне известно, что они почти везде так повёрнуты",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1386464582788190239",
+   "date": "2025-06-22T21:55:15.803000+00:00",
+   "author": "Elgard",
+   "author_role": null,
+   "content": "ой",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1386464602291966072",
+   "date": "2025-06-22T21:55:20.453000+00:00",
+   "author": "Elgard",
+   "author_role": null,
+   "content": "бокс",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1386466562906787932",
+   "date": "2025-06-22T22:03:07.900000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "вот бы целый список, где эти телики развёрнуты, когда ремапил я даже не знал, что это вообще телики, у них спрайт абсолютно мне неизвестный, плюс замороженные карты ничего не отображают",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1386466971524010104",
+   "date": "2025-06-22T22:04:45.322000+00:00",
+   "author": "Elgard",
+   "author_role": null,
+   "content": "вот бы ветку под шелупонь всю такую",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1386467153041031278",
+   "date": "2025-06-22T22:05:28.599000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "вообще хз, какой гений все телики поставил на север",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1386467200340201605",
+   "date": "2025-06-22T22:05:39.876000+00:00",
+   "author": "Elgard",
+   "author_role": null,
+   "content": "на запад",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1386467234284699780",
+   "date": "2025-06-22T22:05:47.969000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "плазма - вообще визовская карта, хули там то телек на север смотрит",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1386467316539195592",
+   "date": "2025-06-22T22:06:07.580000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "вчера в раунде видел, ахуел, телек выключенный вещает, а он просто на север смотрел",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1386467438597509160",
+   "date": "2025-06-22T22:06:36.681000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "на боксе мб и на запад, хз",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1386470676566773831",
+   "date": "2025-06-22T22:19:28.673000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "перевернул",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1386501304733536346",
+   "date": "2025-06-23T00:21:10.997000+00:00",
+   "author": "kote19",
+   "author_role": null,
+   "content": "Проверю свои на этот прикол потом",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [
+  "cat_who"
+ ],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

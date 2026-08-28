@@ -1,0 +1,109 @@
+{
+ "thread_id": "1451089522313003019",
+ "title": "Баг или не баг? Криостазис не замедляет метаболизм для живых существ",
+ "author": {
+  "id": "551403326948900881",
+  "username": "maasarie",
+  "global_name": "maasarie",
+  "server_nick": null,
+  "display": "maasarie"
+ },
+ "created_at": "2025-12-18T05:51:42.059Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799",
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1414266059208265799",
+  "1377371306470801439"
+ ],
+ "message_count": 6,
+ "attachment_count": 2,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1451089522313003019",
+  "date": "2025-12-18T05:51:42.059000+00:00",
+  "author": "maasarie",
+  "author_role": null,
+  "content": "Кукла не получает урон от удушья",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1451089522631639133",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1451947160798105661",
+   "date": "2025-12-20T14:39:39.008000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "завтра посмотрю",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1458061357877432404",
+   "date": "2026-01-06T11:35:17.188000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Кукла должна на стазисной кровате получать удушье или после её? Сейчас вот проверил и вот что получилось:",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1458061356027875469",
+     "filename": "2026-01-06_143334.mp4",
+     "content_type": "video/mp4",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1458063457436831764",
+   "date": "2026-01-06T11:43:37.762000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "во время",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1458063506653057045",
+   "date": "2026-01-06T11:43:49.496000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "криостазис замедляет метаболизм",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1458063684986208358",
+   "date": "2026-01-06T11:44:32.014000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Хорошо, я тогда посмотрю",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

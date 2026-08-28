@@ -1,0 +1,193 @@
+{
+ "thread_id": "1507743055338274947",
+ "title": "Мб",
+ "author": {
+  "id": "877641869222371348",
+  "username": "9kvac_",
+  "global_name": "9Kvac_",
+  "server_nick": null,
+  "display": "9Kvac_"
+ },
+ "created_at": "2026-05-23T13:52:36.904Z",
+ "archived": true,
+ "tags": [
+  "Дискорд-Бот",
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1414265921488289995",
+  "1365427515455443028"
+ ],
+ "message_count": 15,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1507743055338274947",
+  "date": "2026-05-23T13:52:36.904000+00:00",
+  "author": "9Kvac_",
+  "author_role": null,
+  "content": "Ну вот. Мб не заменяется на \"Может быть\"",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1507743055506309210",
+    "filename": "D4901E3C-1974-465C-A033-195A00F02AE1.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1507744156586606782",
+   "date": "2026-05-23T13:56:59.462000+00:00",
+   "author": "Spectrum2k",
+   "author_role": null,
+   "content": "Мб",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507744683470753982",
+   "date": "2026-05-23T13:59:05.081000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Мб",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507744725426372709",
+   "date": "2026-05-23T13:59:15.084000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "А ещё звуки стали хуже по качеству",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507747222660452543",
+   "date": "2026-05-23T14:09:10.471000+00:00",
+   "author": "Spectrum2k",
+   "author_role": null,
+   "content": "Прям вообще все?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507747343850672171",
+   "date": "2026-05-23T14:09:39.365000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "В меню точно хуже",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507747370375581726",
+   "date": "2026-05-23T14:09:45.689000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Варка лекарств тоже",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507747536394260571",
+   "date": "2026-05-23T14:10:25.271000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Они... ну блять, на 7.1 похоже",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507751373511332044",
+   "date": "2026-05-23T14:25:40.111000+00:00",
+   "author": "Spectrum2k",
+   "author_role": null,
+   "content": "Можешь кое что проверить?\n\nНужно чтобы с клиента в консоли выполнил две команды: `cvar audio.hrtf false` и `saveconfig` а потом полностью перезапустил игру и зашел на сервер (или вернулся на сервер?). Станет ли звук после этого лучше?\n\nЗвук закрытия шлюза менялся отдельно, но я не думаю что это основная проблема",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507751499143315559",
+   "date": "2026-05-23T14:26:10.064000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "В ближайшее время попробую",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "👌:1"
+   ]
+  },
+  {
+   "id": "1507760869835276318",
+   "date": "2026-05-23T15:03:24.211000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Звук пофиксился",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507772757025231030",
+   "date": "2026-05-23T15:50:38.338000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Я посмотрю на авто замены",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507772790957146262",
+   "date": "2026-05-23T15:50:46.428000+00:00",
+   "author": "Spectrum2k",
+   "author_role": null,
+   "content": "Я уже исправил",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507772820174803168",
+   "date": "2026-05-23T15:50:53.394000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "окак",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507772951624286351",
+   "date": "2026-05-23T15:51:24.734000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Тогда закрою",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

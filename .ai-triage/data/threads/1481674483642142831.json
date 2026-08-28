@@ -1,0 +1,109 @@
+{
+ "thread_id": "1481674483642142831",
+ "title": "Хз было ли",
+ "author": {
+  "id": "602460075335876609",
+  "username": "mlefur",
+  "global_name": "Ykika",
+  "server_nick": null,
+  "display": "Ykika"
+ },
+ "created_at": "2026-03-12T15:25:25.081Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799",
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1414266059208265799",
+  "1377371306470801439"
+ ],
+ "message_count": 6,
+ "attachment_count": 2,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1481674483642142831",
+  "date": "2026-03-12T15:25:25.081000+00:00",
+  "author": "Ykika",
+  "author_role": null,
+  "content": "Это кто справа?",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1481674484149649660",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1481733936882384978",
+   "date": "2026-03-12T19:21:39.838000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "а? в каком плане и про кого ты",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1481734045460201633",
+   "date": "2026-03-12T19:22:05.725000+00:00",
+   "author": "Ykika",
+   "author_role": null,
+   "content": "посмотри на правый нижний угол, но левее жопы",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1481746572021731429",
+   "date": "2026-03-12T20:11:52.290000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "то для нижнего белья, не?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1482430107749712073",
+   "date": "2026-03-14T17:27:59.907000+00:00",
+   "author": "Ykika",
+   "author_role": null,
+   "content": "нет",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1482430181107961907",
+   "date": "2026-03-14T17:28:17.397000+00:00",
+   "author": "Ykika",
+   "author_role": null,
+   "content": "Ладно, намекну более ясно",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1482430181150036049",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

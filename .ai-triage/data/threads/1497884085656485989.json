@@ -1,0 +1,181 @@
+{
+ "thread_id": "1497884085656485989",
+ "title": "Акимбо баг",
+ "author": {
+  "id": "977695072910999582",
+  "username": "mokko1111",
+  "global_name": "Mokko",
+  "server_nick": null,
+  "display": "Mokko"
+ },
+ "created_at": "2026-04-26T08:56:35.361Z",
+ "archived": true,
+ "tags": [
+  "Незначительный"
+ ],
+ "tag_ids": [
+  "1466802797327421512"
+ ],
+ "message_count": 18,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1497884085656485989",
+  "date": "2026-04-26T08:56:35.361000+00:00",
+  "author": "Mokko",
+  "author_role": null,
+  "content": "Когда у одной пушки кончаются патроны, ты вытаскиваешь другую в другую руку - и игра считает, что ты хочешь стрелять акимбо, но нет, ты просто КОСО стреляешь с одной руки, а другая щёлкает пустым затвором...",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1497950801698488351",
+   "date": "2026-04-26T13:21:41.705000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "<@472801118850908173>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1500516818802970624",
+   "date": "2026-05-03T15:18:07.857000+00:00",
+   "author": "vanomorodellefake",
+   "author_role": null,
+   "content": "Что интересно, на губах точно также",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1500525468254867537",
+   "date": "2026-05-03T15:52:30.047000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Посмотри просто как игра видит такую перекладку",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1500528393362477106",
+   "date": "2026-05-03T16:04:07.447000+00:00",
+   "author": "vanomorodellefake",
+   "author_role": null,
+   "content": "там примерно также на губах",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1500528431639691386",
+   "date": "2026-05-03T16:04:16.573000+00:00",
+   "author": "vanomorodellefake",
+   "author_role": null,
+   "content": "ток они в отдельных класс засунули",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1500528473486393395",
+   "date": "2026-05-03T16:04:26.550000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Так а при чём тут губы",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1500528572429893845",
+   "date": "2026-05-03T16:04:50.140000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Я про код перекладки офов говорю",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1500528614179864687",
+   "date": "2026-05-03T16:05:00.094000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Мб есть ивент под это чудо",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1500529544367571086",
+   "date": "2026-05-03T16:08:41.868000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "А не, сорь, сам баг не так прочёл",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1500529676345540658",
+   "date": "2026-05-03T16:09:13.334000+00:00",
+   "author": "vanomorodellefake",
+   "author_role": null,
+   "content": "в принципе есть идея, как это реализовать\nно придётся всё же 1 раз выстрелить в пустую",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507824103976079461",
+   "date": "2026-05-23T19:14:40.405000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Акимбо исправлен?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507824160393658428",
+   "date": "2026-05-23T19:14:53.856000+00:00",
+   "author": "vanomorodellefake",
+   "author_role": null,
+   "content": "решил что лучше будет переписать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507824325980323850",
+   "date": "2026-05-23T19:15:33.335000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Всю систему? Типо, баг не будет актуальным?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1531769426238767238",
+   "date": "2026-07-28T21:04:50.115000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "всё ещё кстати есть",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

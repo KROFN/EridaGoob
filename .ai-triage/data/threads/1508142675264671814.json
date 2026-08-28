@@ -1,0 +1,209 @@
+{
+ "thread_id": "1508142675264671814",
+ "title": "Да блять!",
+ "author": {
+  "id": "877641869222371348",
+  "username": "9kvac_",
+  "global_name": "9Kvac_",
+  "server_nick": null,
+  "display": "9Kvac_"
+ },
+ "created_at": "2026-05-24T16:20:33.719Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1507775251998838925"
+ ],
+ "message_count": 19,
+ "attachment_count": 3,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": true,
+ "root_message": {
+  "id": "1508142675264671814",
+  "date": "2026-05-24T16:20:33.719000+00:00",
+  "author": "9Kvac_",
+  "author_role": null,
+  "content": "Мелкие шлюзы отказываются закрываться\nНу вот иногда - происходит магия. Оно просто не закрывается. Хоть убей",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1508142675398885456",
+    "filename": "7AF2FCB5-7A28-4F85-A485-5B87552D4DBC.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": [
+   "👍:1"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1508196088434266294",
+   "date": "2026-05-24T19:52:48.411000+00:00",
+   "author": "Spectrum2k",
+   "author_role": null,
+   "content": "Даже вручную не закрываются? Или просто автоматом?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1508196172429394050",
+   "date": "2026-05-24T19:53:08.437000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Оно иногда случается. Просто открыто и всё",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1508196199851757719",
+   "date": "2026-05-24T19:53:14.975000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Ты хоть болтируй, хоть на аварийку - похуй",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1508196236774084690",
+   "date": "2026-05-24T19:53:23.778000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Оно не закрывается",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1508196338553065503",
+   "date": "2026-05-24T19:53:48.044000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Часто такое случается рядом с холодосом",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1508201884861861899",
+   "date": "2026-05-24T20:15:50.387000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Вот снова. Просто не закрываются",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1508201885033693254",
+     "filename": "F0CC3C57-AC6E-4903-950A-7D27C693391E.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1508209230883192852",
+   "date": "2026-05-24T20:45:01.815000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Типо, он сам должен закрыться или вы не можете закрыть?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1508209270888599672",
+   "date": "2026-05-24T20:45:11.353000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Оно не закрывается",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1508209281898516581",
+   "date": "2026-05-24T20:45:13.978000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "И я сам не могу",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1508211161105961000",
+   "date": "2026-05-24T20:52:42.016000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1508211162095812698",
+     "filename": "20260524-2051-51.8143447.mp4",
+     "content_type": "video/mp4",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1508211228282064903",
+   "date": "2026-05-24T20:52:58.032000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Я не понимаю, будто тестить на Эриде нужно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1508211276315103492",
+   "date": "2026-05-24T20:53:09.484000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "У двоих игроков точно не получалось закрыть их",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1508236582984089600",
+   "date": "2026-05-24T22:33:43.064000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "1 datafield вместо false равнялся  true",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1508236828476575754",
+   "date": "2026-05-24T22:34:41.594000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "# needed so that windoors loop between closing and reopening less often even though they don't crush",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

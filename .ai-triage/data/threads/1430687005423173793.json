@@ -1,0 +1,133 @@
+{
+ "thread_id": "1430687005423173793",
+ "title": "А где?",
+ "author": {
+  "id": "602522829656948747",
+  "username": "dark_revenge",
+  "global_name": "𝔗𝔥𝔞𝔲𝔪𝔦𝔢𝔩  𝔚𝔞𝔯𝔩𝔬𝔯𝔡",
+  "server_nick": null,
+  "display": "𝔗𝔥𝔞𝔲𝔪𝔦𝔢𝔩  𝔚𝔞𝔯𝔩𝔬𝔯𝔡"
+ },
+ "created_at": "2025-10-22T22:39:22.972Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 10,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1430687005423173793",
+  "date": "2025-10-22T22:39:22.972000+00:00",
+  "author": "𝔗𝔥𝔞𝔲𝔪𝔦𝔢𝔩  𝔚𝔞𝔯𝔩𝔬𝔯𝔡",
+  "author_role": null,
+  "content": "На шаттле одинокого оперативника у самого оперативника отсутствуют доступы к шлюзу на выход.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1430688685405245530",
+   "date": "2025-10-22T22:46:03.511000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "как ни странно, это фича",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1430688736039141376",
+   "date": "2025-10-22T22:46:15.583000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "хотя",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1430688778795880549",
+   "date": "2025-10-22T22:46:25.777000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "имеется в виду шлюз или раздвижное окно?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1430689699504062625",
+   "date": "2025-10-22T22:50:05.291000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "просто вдруг шлюз стыковочный имеется в виду",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1430713471393206280",
+   "date": "2025-10-23T00:24:32.951000+00:00",
+   "author": "Horror Bittersweet",
+   "author_role": null,
+   "content": "Тэпэрь у нас не синдикат и горлакс, а InteQ. С переносом, видимо, забыли",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1430713538032308370",
+   "date": "2025-10-23T00:24:48.839000+00:00",
+   "author": "Horror Bittersweet",
+   "author_role": null,
+   "content": "А синдикат теперь друзьяшки с эНТэ",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1430847208567078972",
+   "date": "2025-10-23T09:15:58.378000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "ну да, потому и подумал фича, просто в виде бага",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1430847216561688646",
+   "date": "2025-10-23T09:16:00.284000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "<:kreyd_6:1362124541383541039>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1430930503921438821",
+   "date": "2025-10-23T14:46:57.538000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Ща исправлю",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

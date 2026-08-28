@@ -1,0 +1,53 @@
+{
+ "thread_id": "1369302532916252772",
+ "title": "ТЫ НЕ ПРОЙДЁШЬ!!!",
+ "author": {
+  "id": "685490859826741268",
+  "username": "akkinety",
+  "global_name": "Akki",
+  "server_nick": null,
+  "display": "Akki"
+ },
+ "created_at": "2025-05-06T13:19:24.258Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 1,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1369302533230559263_PieMenu_Fvu15AmbZ3.gif"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1369302532916252772",
+  "date": "2025-05-06T13:19:24.258000+00:00",
+  "author": "Akki",
+  "author_role": null,
+  "content": "Lockable button без имеющегося доступа, да и вообще наличия ID-карты всё равно пропускает и выполняет действие кнопки, без открытия защитной дверцы.\n\n\nКарта на которых проверено:\n-# Буду пополнять, если не забуду или есть разница.\n- Elkridge Depot\n- Aspid",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1369302533230559263",
+    "filename": "PieMenu_Fvu15AmbZ3.gif",
+    "content_type": "image/gif",
+    "download_status": "downloaded",
+    "local_path": "attachments/1369302532916252772/1369302533230559263_PieMenu_Fvu15AmbZ3.gif"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [],
+ "mentions": [
+  "Aspid",
+  "Depot",
+  "Elkridge",
+  "ID-",
+  "Lockable",
+  "button"
+ ],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

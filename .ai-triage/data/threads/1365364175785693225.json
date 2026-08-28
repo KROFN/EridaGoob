@@ -1,0 +1,53 @@
+{
+ "thread_id": "1365364175785693225",
+ "title": "Белье поверх всей одежды в редакторе",
+ "author": {
+  "id": "1072643145575174214",
+  "username": "mutemaid",
+  "global_name": "Молчаливая горничная",
+  "server_nick": null,
+  "display": "Молчаливая горничная"
+ },
+ "created_at": "2025-04-25T16:29:46.747Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1365427630660128861"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1365427630660128861"
+ ],
+ "message_count": 2,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1365364175785693225",
+  "date": "2025-04-25T16:29:46.747000+00:00",
+  "author": "Молчаливая горничная",
+  "author_role": null,
+  "content": "В редакторе персонажа (в раунде хз как, не играла)  нижнее белье отображается ПОВЕРХ всех спрайтов персонажа в редакторе (скрин лень кидать)",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1365413198995652799",
+   "date": "2025-04-25T19:44:34.791000+00:00",
+   "author": "TREST",
+   "author_role": null,
+   "content": "на основу МК Конфедерация",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

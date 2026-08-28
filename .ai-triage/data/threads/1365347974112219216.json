@@ -1,0 +1,71 @@
+{
+ "thread_id": "1365347974112219216",
+ "title": "При первом открытии , в редакторе персов чёрный экран",
+ "author": {
+  "id": "644457977130254346",
+  "username": ".antoscha",
+  "global_name": "Svaxe",
+  "server_nick": null,
+  "display": "Svaxe"
+ },
+ "created_at": "2025-04-25T15:25:23.967Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1365427630660128861"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1365427630660128861"
+ ],
+ "message_count": 3,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1365347974112219216",
+  "date": "2025-04-25T15:25:23.967000+00:00",
+  "author": "Svaxe",
+  "author_role": null,
+  "content": "Исправляется сменой персонажа.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1365347975458721932",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1365362230563967037",
+   "date": "2025-04-25T16:22:02.970000+00:00",
+   "author": "arcanist",
+   "author_role": null,
+   "content": "Это прикол визденов с цензурой",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365413237822193755",
+   "date": "2025-04-25T19:44:44.048000+00:00",
+   "author": "TREST",
+   "author_role": null,
+   "content": "на основу МК конфедерация",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

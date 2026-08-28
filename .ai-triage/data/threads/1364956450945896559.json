@@ -1,0 +1,61 @@
+{
+ "thread_id": "1364956450945896559",
+ "title": "мед визор и арканы..",
+ "author": {
+  "id": "705688560530882591",
+  "username": "abama0668",
+  "global_name": "abama",
+  "server_nick": null,
+  "display": "abama"
+ },
+ "created_at": "2025-04-24T13:29:37.570Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1365427630660128861"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1365427630660128861"
+ ],
+ "message_count": 2,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1364956450945896559",
+  "date": "2025-04-24T13:29:37.570000+00:00",
+  "author": "abama",
+  "author_role": null,
+  "content": "мед визор не показывает хп у аркан..",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1364956451508064256",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1365019619647164589",
+   "date": "2025-04-24T17:40:38.162000+00:00",
+   "author": "TREST",
+   "author_role": null,
+   "content": "На основу МК Конфедерация",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

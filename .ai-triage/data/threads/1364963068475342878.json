@@ -1,0 +1,131 @@
+{
+ "thread_id": "1364963068475342878",
+ "title": "Донат за протезы",
+ "author": {
+  "id": "919582332514603008",
+  "username": "metalheartov",
+  "global_name": "Metalheart.exe",
+  "server_nick": null,
+  "display": "Metalheart.exe"
+ },
+ "created_at": "2025-04-24T13:55:55.312Z",
+ "archived": true,
+ "tags": [
+  "В процессе"
+ ],
+ "tag_ids": [
+  "1365427658288005150"
+ ],
+ "message_count": 10,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1364963068475342878",
+  "date": "2025-04-24T13:55:55.312000+00:00",
+  "author": "Metalheart.exe",
+  "author_role": null,
+  "content": "70% кастомизации платные, что критично для рп сервера, где люди не только за механом пришли",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1364963529026830337",
+   "date": "2025-04-24T13:57:45.116000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Вроде логично, ибо для получения дохода для поддержания проекта нужны спонсоры, а кастомизация будет отличным решением.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1364963632768880720",
+   "date": "2025-04-24T13:58:09.850000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "А механы и есть механы, должны быть у всех.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1364964379052998727",
+   "date": "2025-04-24T14:01:07.778000+00:00",
+   "author": "Metalheart.exe",
+   "author_role": null,
+   "content": "но он не должен ограничивать людей в отыгрыше, хотябы админов, что могуть хоть что то получать за свою работу на благо сервера",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1364964603095683172",
+   "date": "2025-04-24T14:02:01.194000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Мы работаем как волонтёры.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1364964753570795550",
+   "date": "2025-04-24T14:02:37.070000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "а за плюшки решает глава проекта.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1364965290550624370",
+   "date": "2025-04-24T14:04:45.096000+00:00",
+   "author": "EvillChet",
+   "author_role": null,
+   "content": "А сколько минимум нужно, чтобы открыть всë",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1364965341737914409",
+   "date": "2025-04-24T14:04:57.300000+00:00",
+   "author": "EvillChet",
+   "author_role": null,
+   "content": "Имею в виду донатная подписка",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365019987118653450",
+   "date": "2025-04-24T17:42:05.774000+00:00",
+   "author": "TREST",
+   "author_role": null,
+   "content": "На основу МК Конфедерация",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365292479326191637",
+   "date": "2025-04-25T11:44:52.979000+00:00",
+   "author": "TREST",
+   "author_role": null,
+   "content": "Жди ввода спонсорки на некст неделе",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

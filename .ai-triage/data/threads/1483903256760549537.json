@@ -1,0 +1,75 @@
+{
+ "thread_id": "1483903256760549537",
+ "title": "Юниты не понимают речи",
+ "author": {
+  "id": "781767606948069417",
+  "username": "_pustota",
+  "global_name": "Pustota",
+  "server_nick": null,
+  "display": "Pustota"
+ },
+ "created_at": "2026-03-18T19:01:46.001Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 4,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1483903256760549537",
+  "date": "2026-03-18T19:01:46.001000+00:00",
+  "author": "Pustota",
+  "author_role": null,
+  "content": "Космические юниты не понимают ни чьей речи. У меня был закон, что запрещал говорить, а не понимая речи эжкипажа, меня сразу же зарубили топором(",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1483905938716102787",
+   "date": "2026-03-18T19:12:25.429000+00:00",
+   "author": "Lo_Fi",
+   "author_role": null,
+   "content": "Все гост роли кроме человека не понимают межгалактического языка, хоть сами говорят на нем\nнапример:\nПИИ\nДракон\nБорги",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "❤️:1"
+   ]
+  },
+  {
+   "id": "1484416593894047867",
+   "date": "2026-03-20T05:01:35.111000+00:00",
+   "author": "TehniQ",
+   "author_role": null,
+   "content": "Дополняя, вроде бы нимфы дионы не понимают речи, хотя по сути это те же самые дионы, просто без внешней оболочки;\nНе понимают язык ММИ и позитронный мозг",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1492464007641305128",
+   "date": "2026-04-11T09:59:08.062000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "и артефакты",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

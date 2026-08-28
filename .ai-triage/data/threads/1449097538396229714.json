@@ -1,0 +1,61 @@
+{
+ "thread_id": "1449097538396229714",
+ "title": "зажигательные патроны в аплинке",
+ "author": {
+  "id": "949070562779607060",
+  "username": "whywhywhywhywhywhywhywhyyy",
+  "global_name": "the Hope of the shattered Ones",
+  "server_nick": null,
+  "display": "the Hope of the shattered Ones"
+ },
+ "created_at": "2025-12-12T17:56:16.084Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799",
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1414266059208265799",
+  "1377371306470801439"
+ ],
+ "message_count": 2,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1449097538396229714",
+  "date": "2025-12-12T17:56:16.084000+00:00",
+  "author": "the Hope of the shattered Ones",
+  "author_role": null,
+  "content": "пропадают после покупки насовсем, толку от них мало в таком случае",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1449097539889528874",
+    "filename": "2025-12-12_20-54-59.mp4",
+    "content_type": "video/mp4",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1449098094582173850",
+   "date": "2025-12-12T17:58:28.689000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Так и должно быть. Попросили ввести и временно ввёл ограниченное количество, чтобы видеть на реальности как их будут использовать и против них играть.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

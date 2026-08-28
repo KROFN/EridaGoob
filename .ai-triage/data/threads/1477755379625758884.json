@@ -1,0 +1,103 @@
+{
+ "thread_id": "1477755379625758884",
+ "title": "Импорт персов - всё?!?!",
+ "author": {
+  "id": "877641869222371348",
+  "username": "9kvac_",
+  "global_name": "9Kvac_",
+  "server_nick": null,
+  "display": "9Kvac_"
+ },
+ "created_at": "2026-03-01T19:52:17.870Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1414266059208265799"
+ ],
+ "message_count": 7,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1477755379625758884",
+  "date": "2026-03-01T19:52:17.870000+00:00",
+  "author": "9Kvac_",
+  "author_role": null,
+  "content": "Импорт персонажей не работает.\nКак повторить? Попробовать импортировать yml персонажа.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1477930289497112626",
+   "date": "2026-03-02T07:27:19.633000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "Он его портирует без указания типа файла иногда\nя просто вручную дописывал .yml",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1477930447370453083",
+   "date": "2026-03-02T07:27:57.273000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Я импортировал с .yml",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1477930571412934769",
+   "date": "2026-03-02T07:28:26.847000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Вернусь домой - гляну, мб ивправду файл с .yml берёт без расширения",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1478717413531848788",
+   "date": "2026-03-04T11:35:04.627000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Проверил - импортирует с указанием yml",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1478717497325781064",
+   "date": "2026-03-04T11:35:24.605000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Но.. в редакторе импортируется НИ ЧЕ ГО",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1478838162108317737",
+   "date": "2026-03-04T19:34:53.331000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "Значит пизда, что сказать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [
+  "yml"
+ ],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

@@ -1,0 +1,181 @@
+{
+ "thread_id": "1469658417814704128",
+ "title": "заебало",
+ "author": {
+  "id": "700677016931926036",
+  "username": "merzkii_zhizh",
+  "global_name": "мерзкий жиж",
+  "server_nick": null,
+  "display": "мерзкий жиж"
+ },
+ "created_at": "2026-02-07T11:37:51.740Z",
+ "archived": true,
+ "tags": [
+  "Маппинг",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1378687007080841246",
+  "1414266059208265799"
+ ],
+ "message_count": 12,
+ "attachment_count": 3,
+ "attachments_on_disk": [
+  "1469658418896965763_23.png",
+  "1470799549978378382_image.png",
+  "1470799716815208799_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1469658417814704128",
+  "date": "2026-02-07T11:37:51.740000+00:00",
+  "author": "мерзкий жиж",
+  "author_role": null,
+  "content": "на дельте сразу за дормами есть парк, который нормально функционировал, но как только на мапу добавили баню, то каждую смену я вижу, что с проводкой там какой-то пиздец произошёл и выходит какая-то нефункциональная хуйня",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1469658418896965763",
+    "filename": "23.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1469658417814704128/1469658418896965763_23.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1469675436316426250",
+   "date": "2026-02-07T12:45:29.267000+00:00",
+   "author": "Horror Bittersweet",
+   "author_role": null,
+   "content": "<@&1382029153708150804>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1469797971423006873",
+   "date": "2026-02-07T20:52:23.913000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "потому что парк я сам мапил",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1469797996718723193",
+   "date": "2026-02-07T20:52:29.944000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "<:kreyd_6:1362124541383541039>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1469820421330309161",
+   "date": "2026-02-07T22:21:36.388000+00:00",
+   "author": "Horror Bittersweet",
+   "author_role": null,
+   "content": "Вернись пж к нам",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1469820644693901352",
+   "date": "2026-02-07T22:22:29.642000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "я всё ещё в вове тусуюсь и пока не было желания возвращаться",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1469984006169694312",
+   "date": "2026-02-08T09:11:38.053000+00:00",
+   "author": "kote19",
+   "author_role": null,
+   "content": "хер знает что вызывало это, скорее всего перегруз ЛКП. Теперь должно быть исправлено",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1470799549864870152",
+   "date": "2026-02-10T15:12:18.822000+00:00",
+   "author": "Parodist",
+   "author_role": null,
+   "content": "нету тут лкп",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1470799549978378382",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1469658417814704128/1470799549978378382_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1470799716638785536",
+   "date": "2026-02-10T15:12:58.584000+00:00",
+   "author": "Parodist",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1470799716815208799",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1469658417814704128/1470799716815208799_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1470836001416151112",
+   "date": "2026-02-10T17:37:09.549000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "зато баня красивая",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1470836131640639621",
+   "date": "2026-02-10T17:37:40.597000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "а стоп, это бассейн обычный",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1471019463339151469",
+   "date": "2026-02-11T05:46:10.280000+00:00",
+   "author": "kote19",
+   "author_role": null,
+   "content": "ок",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

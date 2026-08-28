@@ -1,0 +1,119 @@
+{
+ "thread_id": "1374727302436360253",
+ "title": "\"Это гаммо излучения?\"",
+ "author": {
+  "id": "718380038914965546",
+  "username": "danylo_dazzle",
+  "global_name": "Danylo_dazzle",
+  "server_nick": null,
+  "display": "Danylo_dazzle"
+ },
+ "created_at": "2025-05-21T12:35:30.099Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 8,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1374727302436360253",
+  "date": "2025-05-21T12:35:30.099000+00:00",
+  "author": "Danylo_dazzle",
+  "author_role": null,
+  "content": "В общем... да. Какие-то приколы с текстурами.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1374727302595739718",
+    "filename": "2025-05-21_173446.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1374727615461462046",
+   "date": "2025-05-21T12:36:44.730000+00:00",
+   "author": "Danylo_dazzle",
+   "author_role": null,
+   "content": "<:s_HAHAHA:1363694936394043452>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1374727633710878790",
+   "date": "2025-05-21T12:36:49.081000+00:00",
+   "author": "Danylo_dazzle",
+   "author_role": null,
+   "content": "В душе не чаю откуда это",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1374749617282879539",
+   "date": "2025-05-21T14:04:10.373000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "это просто синдикат медленно пилит станцию пополам",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1374749798619549706",
+   "date": "2025-05-21T14:04:53.607000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "на всё уже готовы",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1374963816592441365",
+   "date": "2025-05-22T04:15:19.468000+00:00",
+   "author": "Danylo_dazzle",
+   "author_role": null,
+   "content": "Угарно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1378458140424671352",
+   "date": "2025-05-31T19:40:31.191000+00:00",
+   "author": "cybertrash",
+   "author_role": null,
+   "content": "<@718380038914965546> у вас проблемы с СС14, пожалуйста переустановите Win64(проще снести винду)",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1378669050930139166",
+   "date": "2025-06-01T09:38:36.174000+00:00",
+   "author": "Danylo_dazzle",
+   "author_role": null,
+   "content": "Проблема уже решена. Баг с картой исправлен",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

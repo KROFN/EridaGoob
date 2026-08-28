@@ -1,0 +1,59 @@
+{
+ "thread_id": "1473371598605254880",
+ "title": "баг эмоутов?",
+ "author": {
+  "id": "840249954345156609",
+  "username": "foksi_048",
+  "global_name": "Foksi_048",
+  "server_nick": null,
+  "display": "Foksi_048"
+ },
+ "created_at": "2026-02-17T17:32:43.028Z",
+ "archived": true,
+ "tags": [
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1377371306470801439"
+ ],
+ "message_count": 2,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1473371598605254880",
+  "date": "2026-02-17T17:32:43.028000+00:00",
+  "author": "Foksi_048",
+  "author_role": null,
+  "content": "короче, если человек мертв и ты находишься в трупе ты можешь эмоут написать другому человеку.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1473371629366149336",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1473371732013486253",
+   "date": "2026-02-17T17:33:14.835000+00:00",
+   "author": "Foksi_048",
+   "author_role": null,
+   "content": "это вроде бы не критично но все же решили сообщить о данной... проблеме?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

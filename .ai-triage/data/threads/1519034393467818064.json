@@ -1,0 +1,133 @@
+{
+ "thread_id": "1519034393467818064",
+ "title": "Бедняжка таракамоль",
+ "author": {
+  "id": "877641869222371348",
+  "username": "9kvac_",
+  "global_name": "9Kvac_",
+  "server_nick": null,
+  "display": "9Kvac_"
+ },
+ "created_at": "2026-06-23T17:40:21.697Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1507775251998838925"
+ ],
+ "message_count": 10,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": true,
+ "root_message": {
+  "id": "1519034393467818064",
+  "date": "2026-06-23T17:40:21.697000+00:00",
+  "author": "9Kvac_",
+  "author_role": null,
+  "content": "Таракамоль с моющими ботинками не восполняет воду, от чего она грустно стоит и смотрит в лужу.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1519036536589648042",
+   "date": "2026-06-23T17:48:52.657000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Можем поплакать об этом",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1519039909229236424",
+   "date": "2026-06-23T18:02:16.757000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "Она же вроде может от источника воды пополнить воду",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1519039981971308726",
+   "date": "2026-06-23T18:02:34.100000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Ранее она сама восполняла водичку",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1519270488780570657",
+   "date": "2026-06-24T09:18:31.206000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "оффы",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1519270681148264498",
+   "date": "2026-06-24T09:19:17.070000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Они рефактор контейнеров для жиж делали",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1519270741697106041",
+   "date": "2026-06-24T09:19:31.506000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "про молей забыли",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1519275228990144553",
+   "date": "2026-06-24T09:37:21.360000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Визден баг, они пофиксили уже",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1519275261873356871",
+   "date": "2026-06-24T09:37:29.200000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Когда-нибудь с апстримом будет",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1528831024463872236",
+   "date": "2026-07-20T18:28:40.539000+00:00",
+   "author": "Lytheriia",
+   "author_role": null,
+   "content": "fixed",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

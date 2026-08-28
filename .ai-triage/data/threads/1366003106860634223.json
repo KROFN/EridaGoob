@@ -1,0 +1,38 @@
+{
+ "thread_id": "1366003106860634223",
+ "title": "Холодильник и сумка ботаника.",
+ "author": {
+  "id": "638709309273931777",
+  "username": "whatapple",
+  "global_name": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+  "server_nick": null,
+  "display": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲"
+ },
+ "created_at": "2025-04-27T10:48:39.786Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 1,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1366003106860634223",
+  "date": "2025-04-27T10:48:39.786000+00:00",
+  "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+  "author_role": null,
+  "content": "На 1-2й день открытия был баг связанный с сумкой и холодильником Химика/Сервиса (Тот самый, который нельзя разобрать и собрать обратно).\nОн просто забрал сумку ботаника со всем продовольствием в ней и никак не хотел обратно. Можно было закликивать на Alt+ЛКМ и сумка вытаскивалась на пол секунды, но чтобы не делали - она вернётся в холодильник.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [],
+ "mentions": [
+  "Alt"
+ ],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

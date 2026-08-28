@@ -1,0 +1,207 @@
+{
+ "thread_id": "1461982061169475668",
+ "title": "Шляпа детектива",
+ "author": {
+  "id": "416214784468451328",
+  "username": "dartem",
+  "global_name": "Dartem",
+  "server_nick": null,
+  "display": "Dartem"
+ },
+ "created_at": "2026-01-17T07:14:45.696Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799",
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1414266059208265799",
+  "1377371306470801439"
+ ],
+ "message_count": 40,
+ "attachment_count": 3,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1461982061169475668",
+  "date": "2026-01-17T07:14:45.696000+00:00",
+  "author": "Dartem",
+  "author_role": null,
+  "content": "При использовании фразы \"го го гаджет\" предмет, находящийся в руке- просто испаряется.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1461982062021185629",
+    "filename": "ca461f9613124df5.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1461988590342115500",
+   "date": "2026-01-17T07:40:42.372000+00:00",
+   "author": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ",
+   "author_role": null,
+   "content": "Это фича вроде от визардов, как дань уважению кое-какому мультсериалу",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1461998349107335282",
+   "date": "2026-01-17T08:19:29.043000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "ну в теории можно и проверить",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1461999012017340458",
+   "date": "2026-01-17T08:22:07.093000+00:00",
+   "author": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ",
+   "author_role": null,
+   "content": "<:s_podozhdu:1358052419988230215>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1461999537903108220",
+   "date": "2026-01-17T08:24:12.474000+00:00",
+   "author": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ",
+   "author_role": null,
+   "content": "Они не гибаются! Ты их вытащить попробуй",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1462002282915954750",
+   "date": "2026-01-17T08:35:06.936000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "в шляпе есть хранилище, но его хз как открыть",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1462002885205168378",
+   "date": "2026-01-17T08:37:30.533000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1462002884798578871",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1462046096040923309",
+   "date": "2026-01-17T11:29:12.799000+00:00",
+   "author": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ",
+   "author_role": null,
+   "content": "это хуета от оффов как я и говоррил",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1462046177213157479",
+   "date": "2026-01-17T11:29:32.152000+00:00",
+   "author": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ",
+   "author_role": null,
+   "content": "на основе от мультсериала который я смотрел в детстве",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1462046885673173167",
+   "date": "2026-01-17T11:32:21.062000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "карл просто описание не читал",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1462051693750521877",
+   "date": "2026-01-17T11:51:27.397000+00:00",
+   "author": "Dartem",
+   "author_role": null,
+   "content": "А я не пробовал, хз, проверьте",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1462051786054697196",
+   "date": "2026-01-17T11:51:49.404000+00:00",
+   "author": "Dartem",
+   "author_role": null,
+   "content": "Если у тебя предмет в руке и ты говоришь \"го го гаджет\", заберет ли он предмет в шляпу",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1462051844703649917",
+   "date": "2026-01-17T11:52:03.387000+00:00",
+   "author": "Dartem",
+   "author_role": null,
+   "content": "Открыть нельзя, только положить внутрь",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1462051913276325979",
+   "date": "2026-01-17T11:52:19.736000+00:00",
+   "author": "Dartem",
+   "author_role": null,
+   "content": "\"Инспектор гаджет\", вся станция полная отсылок, старый сериал",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1462052078187970797",
+   "date": "2026-01-17T11:52:59.054000+00:00",
+   "author": "Dartem",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1462052077944442953",
+     "filename": "fa7750dd3d8043234981c61a5b4a19d5.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

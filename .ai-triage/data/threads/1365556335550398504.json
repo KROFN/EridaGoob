@@ -1,0 +1,91 @@
+{
+ "thread_id": "1365556335550398504",
+ "title": "Алиса не будет дышать",
+ "author": {
+  "id": "459666212025270287",
+  "username": "xkttty",
+  "global_name": "xkttty",
+  "server_nick": null,
+  "display": "xkttty"
+ },
+ "created_at": "2025-04-26T05:13:21.205Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 4,
+ "attachment_count": 2,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1365556335550398504",
+  "date": "2025-04-26T05:13:21.205000+00:00",
+  "author": "xkttty",
+  "author_role": null,
+  "content": "на алису невозможно надеть дыхательную маску, вылезает какая то ошибка",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1365556335713849394",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": [
+   "pepe_smile:1"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1365873517089788026",
+   "date": "2025-04-27T02:13:43.177000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "только сейчас заметил что на скрине не видно то что я держу в руках маску",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1365873516817420349",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": [
+    "pepe_smile:1"
+   ]
+  },
+  {
+   "id": "1366164869887430777",
+   "date": "2025-04-27T21:31:27.097000+00:00",
+   "author": "Жужасы",
+   "author_role": null,
+   "content": "Есть и на конфе, если не ошибаюсь до сих пор не фиксанули. Вроде как связано с тем, что у неё по хирургии нету головы",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1366164962849853460",
+   "date": "2025-04-27T21:31:49.261000+00:00",
+   "author": "Жужасы",
+   "author_role": null,
+   "content": "Ну, это моё предположение. Встречал и у других животинок",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

@@ -1,0 +1,91 @@
+{
+ "thread_id": "1364965405730275458",
+ "title": "Арканы знают язык свой и ПЫВА",
+ "author": {
+  "id": "514130966223257600",
+  "username": "unemo.tional",
+  "global_name": "𓆩 unemo.tional 𓆪",
+  "server_nick": null,
+  "display": "𓆩 unemo.tional 𓆪"
+ },
+ "created_at": "2025-04-24T14:05:12.557Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 6,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1364965405730275458",
+  "date": "2025-04-24T14:05:12.557000+00:00",
+  "author": "𓆩 unemo.tional 𓆪",
+  "author_role": null,
+  "content": "Арканы почему-то знают только свой и Дворфийский языки, они понимают человеческий, но их - нет..",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1364965444720656424",
+   "date": "2025-04-24T14:05:21.853000+00:00",
+   "author": "𓆩 unemo.tional 𓆪",
+   "author_role": null,
+   "content": "<@627415136122044416> Кажется это к тебе",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1364983444903563265",
+   "date": "2025-04-24T15:16:53.431000+00:00",
+   "author": "𓆩 unemo.tional 𓆪",
+   "author_role": null,
+   "content": "+ Аркан нельзя мазать мазью/наборами для ушибов",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1364983478143156294",
+   "date": "2025-04-24T15:17:01.356000+00:00",
+   "author": "𓆩 unemo.tional 𓆪",
+   "author_role": null,
+   "content": "И сами себя не могут",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1364983617243189311",
+   "date": "2025-04-24T15:17:34.520000+00:00",
+   "author": "𓆩 unemo.tional 𓆪",
+   "author_role": null,
+   "content": "+судя по всему арканы тут не могут есть сырое мясо, хотя на мейне могут",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365292266314530827",
+   "date": "2025-04-25T11:44:02.193000+00:00",
+   "author": "TREST",
+   "author_role": null,
+   "content": "Исправлено",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

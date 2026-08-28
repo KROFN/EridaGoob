@@ -1,0 +1,181 @@
+{
+ "thread_id": "1369232663218487319",
+ "title": "Интек агрессивен к своим же",
+ "author": {
+  "id": "805111761312153631",
+  "username": "kauner_vorov",
+  "global_name": "Kauner_Vorov",
+  "server_nick": null,
+  "display": "Kauner_Vorov"
+ },
+ "created_at": "2025-05-06T08:41:46.024Z",
+ "archived": true,
+ "tags": [
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1377371306470801439"
+ ],
+ "message_count": 24,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1369232663218487319",
+  "date": "2025-05-06T08:41:46.024000+00:00",
+  "author": "Kauner_Vorov",
+  "author_role": null,
+  "content": "За роли интековцев, кома, обычный или мед интек, боты агрессивны на базе и пытаются убить игроков интековцев",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1369243863004217426",
+   "date": "2025-05-06T09:26:16.261000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "еще хотелось бы чтобы базу доработали, сделали вытяжку газов, миазмов и чтобы она не была похожа на заброшенный комплекс",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369246266680279080",
+   "date": "2025-05-06T09:35:49.342000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "и еще почему-то нельзя интековцам пользоваться печкой по переплавке",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369255266666942544",
+   "date": "2025-05-06T10:11:35.106000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "и хотел бы дополнить по мере медецины, тут не отображается нормально сколько у тебя урона по состоянию, пишет \"отлично\" но на деле ты в крите",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369269407678988308",
+   "date": "2025-05-06T11:07:46.586000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "может ты себе черту характера взял невосприимчивость к боли?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369270453092220959",
+   "date": "2025-05-06T11:11:55.832000+00:00",
+   "author": "о.",
+   "author_role": null,
+   "content": "Ты на их одежду вообще внимания не обращал?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369270481416618074",
+   "date": "2025-05-06T11:12:02.585000+00:00",
+   "author": "о.",
+   "author_role": null,
+   "content": "И на мины вместе с трупами и разрухой?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369270519223943229",
+   "date": "2025-05-06T11:12:11.599000+00:00",
+   "author": "о.",
+   "author_role": null,
+   "content": "<:s_podozhdu:1358052419988230215>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369270601193361419",
+   "date": "2025-05-06T11:12:31.142000+00:00",
+   "author": "о.",
+   "author_role": null,
+   "content": "Насчёт этого создай новую ветку.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369270818663829505",
+   "date": "2025-05-06T11:13:22.991000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "нет, это именно проблема сборки на медецину",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369271557679218771",
+   "date": "2025-05-06T11:16:19.186000+00:00",
+   "author": "о.",
+   "author_role": null,
+   "content": "У тебя части тела урон имеют.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369278265004392530",
+   "date": "2025-05-06T11:42:58.337000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "удушения теперь не показывает как раньше",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369278318498676808",
+   "date": "2025-05-06T11:43:11.091000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "ни отображдается что тебе хуево справа в худе",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369300264128876628",
+   "date": "2025-05-06T13:10:23.337000+00:00",
+   "author": "о.",
+   "author_role": null,
+   "content": "Создавай.\nНовую.\nВетку.\nА эту закрой, потому что это не баг.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369393083782791319",
+   "date": "2025-05-06T19:19:13.267000+00:00",
+   "author": "TREST",
+   "author_role": null,
+   "content": "фича, внимательней читайте описание к роли. База интека изначально находится под осадой синди, ваша задача - отбить её",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

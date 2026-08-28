@@ -1,0 +1,193 @@
+{
+ "thread_id": "1425197082456756354",
+ "title": "ЫЫЫ",
+ "author": {
+  "id": "459666212025270287",
+  "username": "xkttty",
+  "global_name": "xkttty",
+  "server_nick": null,
+  "display": "xkttty"
+ },
+ "created_at": "2025-10-07T19:04:23.339Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 38,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1425197082456756354",
+  "date": "2025-10-07T19:04:23.339000+00:00",
+  "author": "xkttty",
+  "author_role": null,
+  "content": "Кровь Шадовкинов не воздействует на артефакты. <@1058288268829007982> <:s_obsession:1369567465625096274>",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1425197436623655175",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1425225226307764254",
+   "date": "2025-10-07T20:56:13.356000+00:00",
+   "author": "ЕРП-ЛРП пидорас с SD",
+   "author_role": null,
+   "content": "А вдруг у шадоукинов не кровь, а пиво?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1425271772227440690",
+   "date": "2025-10-08T00:01:10.768000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "тогда начнется великая охота за кровью",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1425295998560768052",
+   "date": "2025-10-08T01:37:26.776000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "реально сделать расу с кровью в виде пива",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1425343742805540914",
+   "date": "2025-10-08T04:47:09.891000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "Кровь арахнидов и дион тоже в пролёте",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1425407389338828801",
+   "date": "2025-10-08T09:00:04.407000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "смотрел фильм блейд? там в одной из частей был целый ангарище с живыми людьми, которые были в анастезии или коме, были подключены к аппаратам которые вытягивали кровь, не позволяя умереть, вас ждет та же учесть",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1425407622248665109",
+   "date": "2025-10-08T09:00:59.937000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "мне напомнило довольно отвратную миссию из киберпанка где какой то фрик ловил подростков и как коров доил на своей ферме через какие то трубки",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1425407701692846210",
+   "date": "2025-10-08T09:01:18.878000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "мне было максимально неприятно её проходить",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1425407716179968062",
+   "date": "2025-10-08T09:01:22.332000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "я тебе про крутой фильм заявляю",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1425407738120376370",
+   "date": "2025-10-08T09:01:27.563000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "но было приятно когда я убил этого пидораса",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1425407753102561280",
+   "date": "2025-10-08T09:01:31.135000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "а ты мне про киберпанк и подростков",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1425407994023252061",
+   "date": "2025-10-08T09:02:28.575000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "посмотри, ахуенный фильм про вампиров",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1425408066429522001",
+   "date": "2025-10-08T09:02:45.838000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "а такая хуйня помоему в индии происходила",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1425408105084092468",
+   "date": "2025-10-08T09:02:55.054000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "там буквально есть фермы с людьми",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1425408150059876372",
+   "date": "2025-10-08T09:03:05.777000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "где также выкачивают кровь для продажи",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [
+  "s_obsession"
+ ],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

@@ -1,0 +1,76 @@
+{
+ "thread_id": "1366802698430578818",
+ "title": "Спавн в ЦК",
+ "author": {
+  "id": "602522829656948747",
+  "username": "dark_revenge",
+  "global_name": "𝔗𝔥𝔞𝔲𝔪𝔦𝔢𝔩  𝔚𝔞𝔯𝔩𝔬𝔯𝔡",
+  "server_nick": null,
+  "display": "𝔗𝔥𝔞𝔲𝔪𝔦𝔢𝔩  𝔚𝔞𝔯𝔩𝔬𝔯𝔡"
+ },
+ "created_at": "2025-04-29T15:45:57.272Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 3,
+ "attachment_count": 2,
+ "attachments_on_disk": [
+  "1366802698577641675_image.png",
+  "1366802775144403004_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1366802698430578818",
+  "date": "2025-04-29T15:45:57.272000+00:00",
+  "author": "𝔗𝔥𝔞𝔲𝔪𝔦𝔢𝔩  𝔚𝔞𝔯𝔩𝔬𝔯𝔡",
+  "author_role": null,
+  "content": "Иногда в кабинетах ЦК может появиться пассажир или юнит",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1366802698577641675",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1366802698430578818/1366802698577641675_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1366802775333277696",
+   "date": "2025-04-29T15:46:15.607000+00:00",
+   "author": "𝔗𝔥𝔞𝔲𝔪𝔦𝔢𝔩  𝔚𝔞𝔯𝔩𝔬𝔯𝔡",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1366802775144403004",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "downloaded",
+     "local_path": "attachments/1366802698430578818/1366802775144403004_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1366802824872333333",
+   "date": "2025-04-29T15:46:27.418000+00:00",
+   "author": "𝔗𝔥𝔞𝔲𝔪𝔦𝔢𝔩  𝔚𝔞𝔯𝔩𝔬𝔯𝔡",
+   "author_role": null,
+   "content": "да, вот такова моя судьба за юнита",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

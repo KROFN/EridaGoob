@@ -1,0 +1,73 @@
+{
+ "thread_id": "1370482031624061070",
+ "title": "Летаем. Мусор. Летаем",
+ "author": {
+  "id": "297040688598614017",
+  "username": "barista_tommy",
+  "global_name": "Tommy Win",
+  "server_nick": null,
+  "display": "Tommy Win"
+ },
+ "created_at": "2025-05-09T19:26:18.664Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1365427630660128861",
+  "В процессе"
+ ],
+ "tag_ids": [
+  "1365427630660128861",
+  "1365427658288005150"
+ ],
+ "message_count": 2,
+ "attachment_count": 2,
+ "attachments_on_disk": [
+  "1370482033100460223_image.png",
+  "1370482033675210883_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1370482031624061070",
+  "date": "2025-05-09T19:26:18.664000+00:00",
+  "author": "Tommy Win",
+  "author_role": null,
+  "content": "Суть: Мусор летает из-за конвеерной ленты и не падает полностью на ленту, оставаясь все так же в воздухе.\nПереработчик не перерабатывает мусор. Только если кинуть мусор в перераб или вручную.\nФикс: Снять конвеерную ленту. \nКак повторить? Выкидываем мусор в урну и фоткаем результат.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1370482033100460223",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1370482031624061070/1370482033100460223_image.png"
+   },
+   {
+    "id": "1370482033675210883",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1370482031624061070/1370482033675210883_image.png"
+   }
+  ],
+  "reactions": [
+   "💀:4"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1371139424745820160",
+   "date": "2025-05-11T14:58:33.398000+00:00",
+   "author": "YAY",
+   "author_role": null,
+   "content": "Не знаю, после включения конвеерной ленты посредством рычага - всё спокойно перерабатывается.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

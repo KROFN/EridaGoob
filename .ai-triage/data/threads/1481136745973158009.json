@@ -1,0 +1,111 @@
+{
+ "thread_id": "1481136745973158009",
+ "title": "Биоперераб",
+ "author": {
+  "id": "638709309273931777",
+  "username": "whatapple",
+  "global_name": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+  "server_nick": null,
+  "display": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲"
+ },
+ "created_at": "2026-03-11T03:48:38.430Z",
+ "archived": true,
+ "tags": [
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1377371306470801439"
+ ],
+ "message_count": 8,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1481136745973158009",
+  "date": "2026-03-11T03:48:38.430000+00:00",
+  "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+  "author_role": null,
+  "content": "Не работает переработчик тел, при перетаскивании тел на него, процесс по звуку запустился, но тело перемещается как бы на стол и... ни гиба, ни биомассы.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1481180127378542643",
+   "date": "2026-03-11T06:41:01.363000+00:00",
+   "author": "frantyk",
+   "author_role": null,
+   "content": "Рп путём молится богам",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1481187785053573162",
+   "date": "2026-03-11T07:11:27.095000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "Это баг, некоторые тела можно переработать а некоторые - нет",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1481187813637754971",
+   "date": "2026-03-11T07:11:33.910000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "я подозреваю что проблема в расе",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1481187859649007759",
+   "date": "2026-03-11T07:11:44.880000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "ибо вульпы спокойно перерабатывались",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1481200090356912252",
+   "date": "2026-03-11T08:00:20.908000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "<:s_syka:1368291232043896995>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1481489850220937381",
+   "date": "2026-03-12T03:11:45.043000+00:00",
+   "author": "bebrus",
+   "author_role": null,
+   "content": "Тело было живым или мертвым?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1481953469437837342",
+   "date": "2026-03-13T09:54:00.478000+00:00",
+   "author": "frantyk",
+   "author_role": null,
+   "content": "Мертвым конечно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

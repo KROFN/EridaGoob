@@ -1,0 +1,253 @@
+{
+ "thread_id": "1497706233606443259",
+ "title": "ВСЕ БАГИ ТРЕЙНА!!! (!)",
+ "author": {
+  "id": "977695072910999582",
+  "username": "mokko1111",
+  "global_name": "Mokko",
+  "server_nick": null,
+  "display": "Mokko"
+ },
+ "created_at": "2026-04-25T21:09:52.128Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 49,
+ "attachment_count": 8,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1497706233606443259",
+  "date": "2026-04-25T21:09:52.128000+00:00",
+  "author": "Mokko",
+  "author_role": null,
+  "content": "Нет шкафа бармена у бармена, свободные доступы в комнату УЧ для всех, нет раковин в меде.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1498001318365630514",
+   "date": "2026-04-26T16:42:25.817000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "провести смесь - та ещё задачка, так как придётся сквозь стену (уберите её нахуй) или через коллектор от вейсты идти",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1498037029064278086",
+   "date": "2026-04-26T19:04:19.911000+00:00",
+   "author": "Nekachek",
+   "author_role": null,
+   "content": "Я по сути отвечаю онли за трубы в отделах, именно их я и переделывал\nИ вот старый атмос... который видимо строился как провода в римке",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1498037028636463228",
+     "filename": "SPOILER_image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": [
+    "cat_erp:1"
+   ]
+  },
+  {
+   "id": "1498055779910156480",
+   "date": "2026-04-26T20:18:50.461000+00:00",
+   "author": "XoLox",
+   "author_role": null,
+   "content": "Отсутствует спавн детектива",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1498055779528343642",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1498055964362805430",
+   "date": "2026-04-26T20:19:34.438000+00:00",
+   "author": "XoLox",
+   "author_role": null,
+   "content": "А сама комната детектива имеется",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1498055964170129518",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1498056922333577439",
+   "date": "2026-04-26T20:23:22.836000+00:00",
+   "author": "XoLox",
+   "author_role": null,
+   "content": "Также из пермы нельзя выбраться. Турникеты только впускают, но не выпускают.",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1498056921964347412",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": [
+    "❤️:3"
+   ]
+  },
+  {
+   "id": "1498084576566837338",
+   "date": "2026-04-26T22:13:16.119000+00:00",
+   "author": "ReddyFord",
+   "author_role": null,
+   "content": "на лавочки садит через раз из-за перил",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1498084575920918609",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": [
+    "❤️:1"
+   ]
+  },
+  {
+   "id": "1498183614414983209",
+   "date": "2026-04-27T04:46:48.582000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Хочу блендер в НиО. А ещё там слишком много светильников в каждой комнате. Штуки 3-4, оно слепит, там хватит и 1-2",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "❤️:1"
+   ]
+  },
+  {
+   "id": "1498272370002104361",
+   "date": "2026-04-27T10:39:29.563000+00:00",
+   "author": "Nekachek",
+   "author_role": null,
+   "content": "https://tenor.com/view/cat-cat-pufferfish-pufferfish-cat-fish-catfish-gif-9997139051265883971",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1498305904896901121",
+   "date": "2026-04-27T12:52:44.905000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "а не жирно?",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1498305904565686354",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1498959034122768514",
+   "date": "2026-04-29T08:08:03.047000+00:00",
+   "author": "Nekachek",
+   "author_role": null,
+   "content": "# От сегодняшней даты будут исправлены большенство ошибок трейна, ищите новые",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1499910474651930815",
+   "date": "2026-05-01T23:08:44.146000+00:00",
+   "author": "ReddyFord",
+   "author_role": null,
+   "content": "Переставить на Трейне консоль мониторинга\n\nОна тут будет стоять, как влитая. Иначе зачем вообще нужна приемная на этой станции?",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1499910474299605112",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1499910744001482854",
+   "date": "2026-05-01T23:09:48.364000+00:00",
+   "author": "ReddyFord",
+   "author_role": null,
+   "content": "Как сейчас стоит (неудобно)",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1499910743598825492",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1499910840646766756",
+   "date": "2026-05-01T23:10:11.406000+00:00",
+   "author": "Nekachek",
+   "author_role": null,
+   "content": "https://cdn.discordapp.com/attachments/1205503027264622652/1462774609794433077/tEk7h2pP8A54qmTrGx.gif",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507654743546396702",
+   "date": "2026-05-23T08:01:41.732000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "https://cdn.discordapp.com/attachments/1470996461536673813/1470996462468075600/Milky_ponder.gif",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

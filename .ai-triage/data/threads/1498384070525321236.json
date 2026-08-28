@@ -1,0 +1,232 @@
+{
+ "thread_id": "1498384070525321236",
+ "title": "нерабочий французский акцент",
+ "author": {
+  "id": "398138107603451904",
+  "username": "pexel250",
+  "global_name": "Pexel250",
+  "server_nick": null,
+  "display": "Pexel250"
+ },
+ "created_at": "2026-04-27T18:03:21.043Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 76,
+ "attachment_count": 6,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1498384070525321236",
+  "date": "2026-04-27T18:03:21.043000+00:00",
+  "author": "Pexel250",
+  "author_role": null,
+  "content": "не знаю, проблема это или нет, но скок уже играю не видел не одной замены на французкий язык",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": [
+   "❤️:1"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1498657214959714335",
+   "date": "2026-04-28T12:08:43.751000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1498657214666244258",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1498658998927495359",
+   "date": "2026-04-28T12:15:49.082000+00:00",
+   "author": "Кристина",
+   "author_role": null,
+   "content": "я    je    \nты    tu\nон    il\nона    elle\nмы    nous\nвы    vous\nони elles\nэто    ça\nхочу    je veux \nмогу    je peux \nиду / еду    je vais \nвижу    je vois \nговорю    je dis \nделаю    je fais \nда    oui \nнет    non\nочень    très\nнемного    un peu\nхорошо    bien \nплохо    mal\nпотому что    parce que \nи    et \nно    mais \nили    ou\nдруг    mon ami \nкрасивый / милый mon belle \nмаленький    petit \nбольшой    grand \nоружие    arme\nо боже    mon Dieu \nчёрт    merde \nздорово    super \nпривет    salut \nпока    au revoir \nспасибо merci \nпожалуйста s’il vous plaît \nизвините    pardon \n? - hein?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1498659782825873470",
+   "date": "2026-04-28T12:18:55.978000+00:00",
+   "author": "Pexel250",
+   "author_role": null,
+   "content": "https://github.com/dead-space-server/dead-space-14/pull/914/changes#diff-44a63c195d3ac417165fbfdea7bb8b93c747bc62deff3d118349ebc45e0f129e",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "❤️:1"
+   ]
+  },
+  {
+   "id": "1498660224008196156",
+   "date": "2026-04-28T12:20:41.164000+00:00",
+   "author": "Pexel250",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1498660223265804440",
+     "filename": "word_replacements.yml",
+     "content_type": "text/plain; charset=utf-8",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    },
+    {
+     "id": "1498660223685230744",
+     "filename": "english.ftl",
+     "content_type": null,
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1498660489683800245",
+   "date": "2026-04-28T12:21:44.506000+00:00",
+   "author": "Pexel250",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1498660489629139044",
+     "filename": "speech.yml",
+     "content_type": "text/plain; charset=utf-8",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1498661978695012412",
+   "date": "2026-04-28T12:27:39.514000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "https://cdn.discordapp.com/attachments/1198232290254401556/1397974868712099901/GqDcRSLXwAErPkC.gif",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1498662759867613296",
+   "date": "2026-04-28T12:30:45.760000+00:00",
+   "author": "Pexel250",
+   "author_role": null,
+   "content": "это , эту   ça\nхочу    je veux \nмогу    je peux \nиду / еду    je vais \nвижу, видим ,смотрим , увидел ,  увидела   je vois \nговорю , говори , говорим   je dis \nделаю, делай , делаем    je fais \nда    oui \nнет    non\nочень    très\nнемного    un peu\nхорошо, окей , ок    bien \nплохо, хуёво , хуево , ужасно     mal\nпотому что    parce que \nи    et \nно    mais \nили    ou\nдруг , подруга , друзья   mon ami \nкрасивый / милый mon belle \nмаленький , мелкий , малый , крохотный , мелкая   petit \nбольшой , громадный , большая    grand \nоружие , пушка , огнестрел , пулялка   arme\nо боже , о боги , боженька   mon Dieu \nчёрт , дерьмо     merde \nздорово    super \nпривет , йоу , здарова, йо , прив , приветствую   salut \nпока , бб     au revoir \nспасибо , от души , благодарю merci \nпожалуйста s’il vous plaît \nизвините , сорян , прости , извеняй , извени  pardon \n? - hein?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1498662974917709925",
+   "date": "2026-04-28T12:31:37.032000+00:00",
+   "author": "Pexel250",
+   "author_role": null,
+   "content": "ну это +- что в голову пришло, не будем забывать что у нас очень много слов которые имеют одну суть",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1498663494784913548",
+   "date": "2026-04-28T12:33:40.978000+00:00",
+   "author": "Pexel250",
+   "author_role": null,
+   "content": "советую к ознакомлению , тут +- всё что нужно , но для английского\\",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1498663786121400490",
+   "date": "2026-04-28T12:34:50.438000+00:00",
+   "author": "Pexel250",
+   "author_role": null,
+   "content": "accent-english-words-146 = вульпа\naccent-english-words-146-2 = вульпы\naccent-english-words-146-3 = вульпу\naccent-english-words-146-4 = вульп\naccent-english-words-146-5 = вульпам\naccent-english-words-146-6 = вульпах\naccent-english-words-replace-146 = furry",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1499732912801710301",
+   "date": "2026-05-01T11:23:10.102000+00:00",
+   "author": "ReddyFord",
+   "author_role": null,
+   "content": "je (я)\ntu (ты)\nil (он)\nelle (она)\nnous (мы)\nvous (вы)\nils (они, м.)\nelles (они, ж.)\nce / c' (этот / это)\n\nqui (кто)\nque (что)\noù (где)\nquand (когда)\ncomment (как)\npourquoi (почему)\nquel / quelle (какой)\net (и)\nou (или)\nmais (но)\ndonc (итак)\nparce que (потому что)\nsi (если / да)\npour (для / чтобы)\npar (через / посредством)\navec (с)\nsans (без)\n\ndans (внутри)\nsur (на)\nsous (под)\ndevant (перед)\nderrière (позади)\nentre (между)\ncontre (против)\nchez (у / к / в доме)\nvers (в сторону / около)\nde / d' (из / от / о)\nà (в / на / по направлению)\n\noui (да)\nnon (нет)\ntrès (очень)\ntrop (слишком)\nassez (достаточно)\npeu (мало)\nbeaucoup (много)\nun peu (немного)\nbien (хорошо)\nmal (плохо)\nvite (быстро)\nlentement (медленно)\ntoujours (всегда)\njamais (никогда)\nsouvent (часто)\nparfois (иногда)\ndéjà (уже)\nencore (ещё / снова)\n\ntout (всё / весь)\nrien (ничего)\nquelqu'un (кто-то)\nquelque chose (что-то)\nautre (другой",
+   "content_truncated": true,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1499732918405173259",
+   "date": "2026-05-01T11:23:11.438000+00:00",
+   "author": "ReddyFord",
+   "author_role": null,
+   "content": "grand (большой / великий)\npetit (маленький)\nbeau / belle (красивый)\nbon / bonne (хороший)\nmauvais (плохой)\njeune (молодой)\nvieux / vieille (старый)\nnouveau / nouvelle (новый)\nheureux / heureuse (счастливый)\ntriste (грустный)\nfacile (лёгкий)\ndifficile (трудный)\nchaud (горячий)\nfroid (холодный)\nlourd (тяжёлый)\nléger (лёгкий по весу)\nplein (полный)\nvide (пустой)\n\nhomme (мужчина)\nfemme (женщина)\nenfant (ребёнок)\npère (отец)\nmère (мать)\nfrère (брат)\nsœur (сестра)\nami / amie (друг / подруга)\n\ntravail (работа)\ntemps (время)\njour (день)\nnuit (ночь)\nsemaine (неделя)\nmois (месяц)\nan / année (год)\neau (вода)\npain (хлеб)\nvin (вино)\nviande (мясо)\nfruit (фрукт)\nlégume (овощ)\nargent (деньги / серебро)\nproblème (проблема)\nidée (идея)\nnom (имя / фамилия)\nmonde (мир)\nvie (жизнь)\n\nmort (смерть)\ndroit (правый / прямой)\ngauche (левый)\nmerci (спасибо)\npardon (извините / простите)",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1501948648081195148",
+   "date": "2026-05-07T14:07:42.559000+00:00",
+   "author": "ReddyFord",
+   "author_role": null,
+   "content": "Не победа <@398138107603451904>",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1501948647435276389",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1501949459326832790",
+   "date": "2026-05-07T14:10:55.975000+00:00",
+   "author": "ReddyFord",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1501949458878038227",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

@@ -1,0 +1,128 @@
+{
+ "thread_id": "1427975660046913536",
+ "title": "Время, щит",
+ "author": {
+  "id": "638709309273931777",
+  "username": "whatapple",
+  "global_name": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+  "server_nick": null,
+  "display": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲"
+ },
+ "created_at": "2025-10-15T11:05:27.860Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 8,
+ "attachment_count": 2,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1427975660046913536",
+  "date": "2025-10-15T11:05:27.860000+00:00",
+  "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+  "author_role": null,
+  "content": "А собственно.. где? Время на ОСЩ сбросилось тупо и всё.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1427975660483383316",
+    "filename": "Screenshot_6224.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   },
+   {
+    "id": "1427975661313851425",
+    "filename": "Screenshot_6223.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1427983815565119600",
+   "date": "2025-10-15T11:37:52.287000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Переехали на трекеры для синхронизации с дб МК",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1427986249867595836",
+   "date": "2025-10-15T11:47:32.670000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "не для той роли поставил немного, сщ цк поставил, уже все исправил щас пул залью",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1427986753653833789",
+   "date": "2025-10-15T11:49:32.782000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "ну а трекеры все равно переехали, те роли что на эриде были наиграны по типу пилота и осщ прийдеться на мкшные роли переносить через хроносов если они этим занимаются",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1428004190793502781",
+   "date": "2025-10-15T12:58:50.120000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "А",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1428012806187257919",
+   "date": "2025-10-15T13:33:04.190000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "Сделай мердж",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1428013301841006703",
+   "date": "2025-10-15T13:35:02.363000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "К хроносам не надо, время объединят чуть позже",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1428016269147373638",
+   "date": "2025-10-15T13:46:49.824000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Сделал",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

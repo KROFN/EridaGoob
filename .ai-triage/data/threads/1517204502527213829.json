@@ -1,0 +1,103 @@
+{
+ "thread_id": "1517204502527213829",
+ "title": "Сломанная раса №3",
+ "author": {
+  "id": "919959719244886056",
+  "username": "catcatcher008",
+  "global_name": "Catcatcher",
+  "server_nick": null,
+  "display": "Catcatcher"
+ },
+ "created_at": "2026-06-18T16:29:01.699Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1507775251998838925"
+ ],
+ "message_count": 7,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": true,
+ "root_message": {
+  "id": "1517204502527213829",
+  "date": "2026-06-18T16:29:01.699000+00:00",
+  "author": "Catcatcher",
+  "author_role": null,
+  "content": "У дион появилась проблема,  они не знают ни одного языка , даже тау-кита... Единственный язык который они могут знать,  это  тот который они выберут в качестве дополнительного. А ещё если диона умрёт и воскреснет в качестве новой дионы и вырастет ,  она снова не будет знать языков и   получит межгалактческий , она не будет понимать тау-кита или любой другой язык,  зато её начнут понимать другие игроки. Прошу исправьте и сделайте расу играбельной.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1518984884020973598",
+   "date": "2026-06-23T14:23:37.725000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "да",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1518990652040413286",
+   "date": "2026-06-23T14:46:32.928000+00:00",
+   "author": "Catcatcher",
+   "author_role": null,
+   "content": "да",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1518990725239275590",
+   "date": "2026-06-23T14:46:50.380000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "До сих пор вообще?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1518991081172111360",
+   "date": "2026-06-23T14:48:15.241000+00:00",
+   "author": "Catcatcher",
+   "author_role": null,
+   "content": "ну никто же не фиксил  , надо зайти да проверить ещё раз , желательно на аа попросить кого-то закинуть , может сёдня попрошу перепроверим",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1519034179499589813",
+   "date": "2026-06-23T17:39:30.683000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "пр и fixed",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1519266454006923325",
+   "date": "2026-06-24T09:02:29.241000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "fixed",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

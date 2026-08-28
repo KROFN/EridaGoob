@@ -1,0 +1,185 @@
+{
+ "thread_id": "1513486794157719602",
+ "title": "Плафеимов убили",
+ "author": {
+  "id": "841409097626550302",
+  "username": "gm_karix",
+  "global_name": "KARiX",
+  "server_nick": null,
+  "display": "KARiX"
+ },
+ "created_at": "2026-06-08T10:16:10.952Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1507775251998838925"
+ ],
+ "message_count": 15,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": true,
+ "root_message": {
+  "id": "1513486794157719602",
+  "date": "2026-06-08T10:16:10.952000+00:00",
+  "author": "KARiX",
+  "author_role": null,
+  "content": "Плафеимы травятся от сырого мяса и органов, хотя на вики написано что не должны :(",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1513487550113644605",
+   "date": "2026-06-08T10:19:11.186000+00:00",
+   "author": "Pexel250",
+   "author_role": null,
+   "content": "есть 2 варианта, я могу снести эту инфу на вики или разрабы пофиксят",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1513489788290732093",
+   "date": "2026-06-08T10:28:04.809000+00:00",
+   "author": "Catcatcher",
+   "author_role": null,
+   "content": "не делай рыбок травоядными",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1513490316403937360",
+   "date": "2026-06-08T10:30:10.721000+00:00",
+   "author": "Pexel250",
+   "author_role": null,
+   "content": "жаль...",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1513492559400407100",
+   "date": "2026-06-08T10:39:05.493000+00:00",
+   "author": "KARiX",
+   "author_role": null,
+   "content": "Это акулы! Они должны питаться сырым мясом!",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1513492571702431787",
+   "date": "2026-06-08T10:39:08.426000+00:00",
+   "author": "KARiX",
+   "author_role": null,
+   "content": "Это же логично!",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1513493092727128184",
+   "date": "2026-06-08T10:41:12.648000+00:00",
+   "author": "Pexel250",
+   "author_role": null,
+   "content": "ну значит удаляем пон пон",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1513493132866621541",
+   "date": "2026-06-08T10:41:22.218000+00:00",
+   "author": "KARiX",
+   "author_role": null,
+   "content": "НЕЕЕЕТ!!",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1513493157025808486",
+   "date": "2026-06-08T10:41:27.978000+00:00",
+   "author": "KARiX",
+   "author_role": null,
+   "content": "<:pepe_KaK_TaK:1363696519294750850>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1513498856023654500",
+   "date": "2026-06-08T11:04:06.725000+00:00",
+   "author": "Spectrum2k",
+   "author_role": null,
+   "content": "Ок, удаляем плафеимов",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "pepeleave:1"
+   ]
+  },
+  {
+   "id": "1513499111977123850",
+   "date": "2026-06-08T11:05:07.749000+00:00",
+   "author": "Pexel250",
+   "author_role": null,
+   "content": "ООО , наш слон, ну так реально проще",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1513502894211727380",
+   "date": "2026-06-08T11:20:09.504000+00:00",
+   "author": "vanomorodellefake",
+   "author_role": null,
+   "content": "после апстрима из-за удаления антропоморфов все игроки, у которых в бд были персы с этой расой, не могли зайти на сервер",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1513502994497405062",
+   "date": "2026-06-08T11:20:33.414000+00:00",
+   "author": "Spectrum2k",
+   "author_role": null,
+   "content": "Жаль",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1518985237965705358",
+   "date": "2026-06-23T14:25:02.112000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Акулки",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1518985477863248044",
+   "date": "2026-06-23T14:25:59.308000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "а... уже фикс",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

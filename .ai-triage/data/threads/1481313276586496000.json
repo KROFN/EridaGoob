@@ -1,0 +1,95 @@
+{
+ "thread_id": "1481313276586496000",
+ "title": "Вы когда-нибудь хотели стать лучшей версией себя?",
+ "author": {
+  "id": "1084862533531353128",
+  "username": "tehnik_08",
+  "global_name": "TehniQ",
+  "server_nick": null,
+  "display": "TehniQ"
+ },
+ "created_at": "2026-03-11T15:30:06.608Z",
+ "archived": true,
+ "tags": [
+  "Визден-Баг",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1449460164171403294",
+  "1414266059208265799"
+ ],
+ "message_count": 6,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1481313276586496000",
+  "date": "2026-03-11T15:30:06.608000+00:00",
+  "author": "TehniQ",
+  "author_role": null,
+  "content": "После переработки человека в измельчителе ксеноборгов и фиксации его мозга в ММИ, почему то сам борг с таким ММИ имеет поломанное зрение. Никто же не хочет слепого скаута, ведь так?\nДля воспроизведения достаточно засунуть мозг в ММИ и в шасси, наверняка проблема в этом.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1481972453906579598",
+   "date": "2026-03-13T11:09:26.728000+00:00",
+   "author": "TehniQ",
+   "author_role": null,
+   "content": "Кто-то вообще проверял?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1481972682764582963",
+   "date": "2026-03-13T11:10:21.292000+00:00",
+   "author": "TehniQ",
+   "author_role": null,
+   "content": "Хотя может был единичный случай, ибо когда как случается. Иногда слепота, иногда люди либо не жалуются, либо быстро в ах пишут и им исправляют, либо у них её нету вовсе",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1482000035687432284",
+   "date": "2026-03-13T12:59:02.737000+00:00",
+   "author": "frantyk",
+   "author_role": null,
+   "content": "фича",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1482001777841934537",
+   "date": "2026-03-13T13:05:58.099000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "Перезаход фиксит",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "👌:1"
+   ]
+  },
+  {
+   "id": "1497952738569359491",
+   "date": "2026-04-26T13:29:23.491000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": ".",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

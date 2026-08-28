@@ -1,0 +1,115 @@
+{
+ "thread_id": "1542496476415000757",
+ "title": "Дюп пособников по Кунг-Фу на ОСЩ.",
+ "author": {
+  "id": "729654510292828272",
+  "username": "xolox1",
+  "global_name": "XoLox",
+  "server_nick": null,
+  "display": "XoLox"
+ },
+ "created_at": "2026-08-27T11:30:18.176Z",
+ "archived": false,
+ "tags": [
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1507775251998838925"
+ ],
+ "message_count": 7,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1542496476708470825_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1542496476415000757",
+  "date": "2026-08-27T11:30:18.176000+00:00",
+  "author": "XoLox",
+  "author_role": null,
+  "content": "Если выбрать револьверный набор и набор Кунг-Фу, то при нажатии кнопки \"Подтвердить\" менюшка залагивает и выдаётся лишь Кунг-Фу, а если продолжать спамить, то учебники будут выдаваться до бесконечности.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1542496476708470825",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1542496476415000757/1542496476708470825_image.png"
+   }
+  ],
+  "reactions": [
+   "🥹:2"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1542496767730524250",
+   "date": "2026-08-27T11:31:27.631000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Просто отдай вторую книжку Кетер",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1542496892599148554",
+   "date": "2026-08-27T11:31:57.402000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "всему сб*",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "✅:1"
+   ]
+  },
+  {
+   "id": "1542496907992109096",
+   "date": "2026-08-27T11:32:01.072000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "сб драконов",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1542496929479397547",
+   "date": "2026-08-27T11:32:06.195000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Да",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1542498502397923478",
+   "date": "2026-08-27T11:38:21.208000+00:00",
+   "author": "rOmannn299",
+   "author_role": null,
+   "content": "фича",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1542498560656937101",
+   "date": "2026-08-27T11:38:35.098000+00:00",
+   "author": "rOmannn299",
+   "author_role": null,
+   "content": "нт подобрело и дает всей станции кунгфу",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

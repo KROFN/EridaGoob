@@ -1,0 +1,183 @@
+{
+ "thread_id": "1498020893631316029",
+ "title": "Юристы Без МЩ",
+ "author": {
+  "id": "781767606948069417",
+  "username": "_pustota",
+  "global_name": "Pustota",
+  "server_nick": null,
+  "display": "Pustota"
+ },
+ "created_at": "2026-04-26T18:00:12.924Z",
+ "archived": true,
+ "tags": [
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1377371306470801439"
+ ],
+ "message_count": 16,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1498020893631316029",
+  "date": "2026-04-26T18:00:12.924000+00:00",
+  "author": "Pustota",
+  "author_role": null,
+  "content": "Юристы спавнятся без МЩ, а хорошо бы. Баг замечен на карте Дельта",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1498021588321177622",
+   "date": "2026-04-26T18:02:58.551000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Его и не было раньше же",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1498021823693066412",
+   "date": "2026-04-26T18:03:54.668000+00:00",
+   "author": "Pustota",
+   "author_role": null,
+   "content": "Бред какой-то",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1498022911863291965",
+   "date": "2026-04-26T18:08:14.108000+00:00",
+   "author": "Pustota",
+   "author_role": null,
+   "content": "Как-то по лору и прочему...должен быть МЩ...",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1498144923046903928",
+   "date": "2026-04-27T02:13:03.841000+00:00",
+   "author": "bebrus",
+   "author_role": null,
+   "content": "У них никогда не было МЩ и юрист имея доступ в бриг может заролить антажку",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "❌:1"
+   ]
+  },
+  {
+   "id": "1498210697991950346",
+   "date": "2026-04-27T06:34:25.810000+00:00",
+   "author": "Pustota",
+   "author_role": null,
+   "content": "Ну вот по Лору роли дать бы МЩ. Тем более с доступом в бриг, тем более имея некую власть в юридическом пространстве",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1498255577720033341",
+   "date": "2026-04-27T09:32:45.971000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Ну юрист чисто защищает людей в допроске",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1498255615359979570",
+   "date": "2026-04-27T09:32:54.945000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Разбирает жалобы от экипажа, помогает АВД",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1498261774972223618",
+   "date": "2026-04-27T09:57:23.511000+00:00",
+   "author": "Pustota",
+   "author_role": null,
+   "content": "Ему Дана возможность проводить внутренние расследования, на основе которых могут быть приняты решения вплоть до инкриминации статей 207/407. в таких случаях его чооо имеет вес и юридическую силу, поэтому мщ должен быть. Так думаю я",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1498262088517287967",
+   "date": "2026-04-27T09:58:38.266000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Если АВД скажет ему - делай расследование",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1498263067199406110",
+   "date": "2026-04-27T10:02:31.602000+00:00",
+   "author": "Pustota",
+   "author_role": null,
+   "content": "Его слово*",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1498263179220750427",
+   "date": "2026-04-27T10:02:58.310000+00:00",
+   "author": "Pustota",
+   "author_role": null,
+   "content": "В любом случае с точки зрения НТ он имеет какую-либо власть в юридическом поле, а значит, МЩ должен быть",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1498263194039226449",
+   "date": "2026-04-27T10:03:01.843000+00:00",
+   "author": "Pustota",
+   "author_role": null,
+   "content": "Да и доступ в бриг",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1498436568409440406",
+   "date": "2026-04-27T21:31:57.514000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "в аплинке буквально есть црка спрятанная в чемоданчик, доступная только юристам агентам",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1498436632532222034",
+   "date": "2026-04-27T21:32:12.802000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "это как бы специально сделано",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

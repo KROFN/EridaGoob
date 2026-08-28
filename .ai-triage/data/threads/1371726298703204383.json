@@ -1,0 +1,79 @@
+{
+ "thread_id": "1371726298703204383",
+ "title": "Криво отображается кнопка ЕРП-статусов.",
+ "author": {
+  "id": "121980424053325824",
+  "username": "ahahacuha",
+  "global_name": "Ананасина",
+  "server_nick": null,
+  "display": "Ананасина"
+ },
+ "created_at": "2025-05-13T05:50:35.053Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 4,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1371726298703204383",
+  "date": "2025-05-13T05:50:35.053000+00:00",
+  "author": "Ананасина",
+  "author_role": null,
+  "content": "ЕРП-статус, как видно на скрине, отображается посреди вкладки описания персонажа, хотя сама кнопка его настройки находится в самом низу этого раздела и её рамки ничем не обозначены.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1371726298887618571",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1371734198834040893",
+   "date": "2025-05-13T06:21:58.591000+00:00",
+   "author": "TREST",
+   "author_role": null,
+   "content": "Я знаю, я забыл вчера подправить. Домой приду починю",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1371856503417470976",
+   "date": "2025-05-13T14:27:58.276000+00:00",
+   "author": "𝕮𝖑𝖆𝖗𝖓𝖊𝖙𝖙𝖞",
+   "author_role": null,
+   "content": "Ай свое запостил, но тут заметил что тред есть. В общем ладно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1372267379110711328",
+   "date": "2025-05-14T17:40:38.675000+00:00",
+   "author": "TREST",
+   "author_role": null,
+   "content": "исправлено",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

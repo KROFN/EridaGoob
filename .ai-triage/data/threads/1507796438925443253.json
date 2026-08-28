@@ -1,0 +1,118 @@
+{
+ "thread_id": "1507796438925443253",
+ "title": "Прототипы.",
+ "author": {
+  "id": "597713048312086528",
+  "username": "jickson900",
+  "global_name": "Звезда лисы",
+  "server_nick": null,
+  "display": "Звезда лисы"
+ },
+ "created_at": "2026-05-23T17:24:44.543Z",
+ "archived": true,
+ "tags": [
+  "Разработка",
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1507775251998838925",
+  "1377371306470801439"
+ ],
+ "message_count": 7,
+ "attachment_count": 2,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": true,
+ "root_message": {
+  "id": "1507796438925443253",
+  "date": "2026-05-23T17:24:44.543000+00:00",
+  "author": "Звезда лисы",
+  "author_role": null,
+  "content": "Я пытаюсь подгрузить спрайты прототипа и сам прототип. Подгружаю, игра идиотничает.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1507796439462318100",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   },
+   {
+    "id": "1507796440049647737",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1507796943546614010",
+   "date": "2026-05-23T17:26:44.854000+00:00",
+   "author": "Wendor",
+   "author_role": null,
+   "content": "Problema sborku",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507798762578514032",
+   "date": "2026-05-23T17:33:58.545000+00:00",
+   "author": "Звезда лисы",
+   "author_role": null,
+   "content": "Бля сори",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507798808665526343",
+   "date": "2026-05-23T17:34:09.533000+00:00",
+   "author": "Звезда лисы",
+   "author_role": null,
+   "content": "Я понял. . .",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507798828776947853",
+   "date": "2026-05-23T17:34:14.328000+00:00",
+   "author": "Звезда лисы",
+   "author_role": null,
+   "content": "Это я ошибся.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507823510926528542",
+   "date": "2026-05-23T19:12:19.011000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Таки не баг?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1507823555826552892",
+   "date": "2026-05-23T19:12:29.716000+00:00",
+   "author": "Звезда лисы",
+   "author_role": null,
+   "content": "Да это я дебил.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

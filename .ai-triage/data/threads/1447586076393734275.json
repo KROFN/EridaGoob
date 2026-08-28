@@ -1,0 +1,61 @@
+{
+ "thread_id": "1447586076393734275",
+ "title": "Координаты на мониторе экипажа",
+ "author": {
+  "id": "472801118850908173",
+  "username": "vanomorodellefake",
+  "global_name": "vanomorodellefake",
+  "server_nick": null,
+  "display": "vanomorodellefake"
+ },
+ "created_at": "2025-12-08T13:50:15.461Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 2,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1447586076393734275",
+  "date": "2025-12-08T13:50:15.461000+00:00",
+  "author": "vanomorodellefake",
+  "author_role": null,
+  "content": "Собственно не переведено, поэтому нельзя узнать координаты тех кто за станцией",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1447586076574355466",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1447622886117478605",
+   "date": "2025-12-08T16:16:31.583000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "исправил, ждите когда замерждат и перезапустят сервер",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

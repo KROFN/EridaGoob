@@ -1,0 +1,57 @@
+{
+ "thread_id": "1460788450742632602",
+ "title": "Нет возможности выбрать корпорацию, из-за этого нельзя зайти за щита",
+ "author": {
+  "id": "638709309273931777",
+  "username": "cat_lixs",
+  "global_name": "𝙺𝚊𝚝_𝙻",
+  "server_nick": null,
+  "display": "𝙺𝚊𝚝_𝙻"
+ },
+ "created_at": "2026-01-14T00:11:46.794Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 2,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1460788746122297365",
+  "date": "2026-01-14T00:12:57.218000+00:00",
+  "author": "𝙺𝚊𝚝_𝙻",
+  "author_role": null,
+  "content": "https://discord.com/channels/1357728304710422680/1364253995648028822/1460277228851167305",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1460790015423414506",
+   "date": "2026-01-14T00:17:59.843000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "Корпорация на первой страничке редактора, где цвет кожи менять",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [
+  "channels",
+  "discord.com",
+  "https"
+ ],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

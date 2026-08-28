@@ -1,0 +1,46 @@
+{
+ "thread_id": "1413877351011450890",
+ "title": "Лодаут щита, сумочка",
+ "author": {
+  "id": "638709309273931777",
+  "username": "whatapple",
+  "global_name": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+  "server_nick": null,
+  "display": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲"
+ },
+ "created_at": "2025-09-06T13:23:49.052Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 1,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1413877351426560173_Screenshot_5862.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1413877351011450890",
+  "date": "2025-09-06T13:23:49.052000+00:00",
+  "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+  "author_role": null,
+  "content": "А ну и ещё смущает, что это сумка вора.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1413877351426560173",
+    "filename": "Screenshot_5862.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1413877351011450890/1413877351426560173_Screenshot_5862.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

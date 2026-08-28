@@ -1,0 +1,61 @@
+{
+ "thread_id": "1537354952094257172",
+ "title": "баг с лечением кпб",
+ "author": {
+  "id": "1253742050587840542",
+  "username": "lifer198450",
+  "global_name": "Lifer(лайфер)",
+  "server_nick": null,
+  "display": "Lifer(лайфер)"
+ },
+ "created_at": "2026-08-13T06:59:43.253Z",
+ "archived": false,
+ "tags": [
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1507775251998838925"
+ ],
+ "message_count": 3,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1537354952094257172",
+  "date": "2026-08-13T06:59:43.253000+00:00",
+  "author": "Lifer(лайфер)",
+  "author_role": null,
+  "content": "не все повреждения лечатся на кпб.к примеру кислотные повреждения не лечатся ничем.пытался компонентами,проводами всех типов,даже читал что стеклом тоже лечатся но нет,не получается вылечить кислотные повреждения.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1537411660657066065",
+   "date": "2026-08-13T10:45:03.628000+00:00",
+   "author": "Wendor",
+   "author_role": null,
+   "content": "Вики основы ≠ вики Эриды",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1537411688012451870",
+   "date": "2026-08-13T10:45:10.150000+00:00",
+   "author": "Wendor",
+   "author_role": null,
+   "content": "Гляну позже в чем проблема",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

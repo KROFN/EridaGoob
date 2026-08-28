@@ -1,0 +1,72 @@
+{
+ "thread_id": "1432170711081816174",
+ "title": "Устаревший спрайт жидкости мензурки",
+ "author": {
+  "id": "501478650206748693",
+  "username": "puroslavking",
+  "global_name": "PuroSlavKing",
+  "server_nick": null,
+  "display": "PuroSlavKing"
+ },
+ "created_at": "2025-10-27T00:55:05.967Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1414266059208265799"
+ ],
+ "message_count": 2,
+ "attachment_count": 2,
+ "attachments_on_disk": [
+  "1432170711455236136_image.png",
+  "1432177852874489856_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1432170711081816174",
+  "date": "2025-10-27T00:55:05.967000+00:00",
+  "author": "PuroSlavKing",
+  "author_role": null,
+  "content": "Устаревший спрайт жидкости мензурки",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1432170711455236136",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1432170711081816174/1432170711455236136_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1432177853167960095",
+   "date": "2025-10-27T01:23:28.773000+00:00",
+   "author": "MonTrius",
+   "author_role": null,
+   "content": "Отсылка на серию \"Запретный плод\" по смешарикам 2D",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1432177852874489856",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1432170711081816174/1432177852874489856_image.png"
+    }
+   ],
+   "reactions": [
+    "😨:2"
+   ]
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

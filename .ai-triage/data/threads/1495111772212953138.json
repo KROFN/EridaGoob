@@ -1,0 +1,91 @@
+{
+ "thread_id": "1495111772212953138",
+ "title": "Опечатка на Вики",
+ "author": {
+  "id": "918779228865044510",
+  "username": "po_m1x",
+  "global_name": "Тотора",
+  "server_nick": null,
+  "display": "Тотора"
+ },
+ "created_at": "2026-04-18T17:20:24.329Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 6,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1495111772212953138",
+  "date": "2026-04-18T17:20:24.329000+00:00",
+  "author": "Тотора",
+  "author_role": null,
+  "content": "В спр гсб написано что он обязан носить лазерный дробовик, раньше он был… крутой самозарядный лазерный дробовик, но сейчас у него самозарядный лазерный магнум а лазерный дробовик у вардена\nВ ахелп я спросил о каком дробовике идет речь и мне сказали что речь идет о табельном оружие гсб тоесть на данный момент лазерный магнум \n\n\nВ краце на Вики эриды в срп гсб 4 пункт, лазерный дробовик надо заменить на табельное оружие либо лазерный магнум, а то плутонии я с Варденом получается",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1496010038005989436",
+   "date": "2026-04-21T04:49:47.583000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "<@781767606948069417>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1496010398368010390",
+   "date": "2026-04-21T04:51:13.500000+00:00",
+   "author": "Pustota",
+   "author_role": null,
+   "content": "Приветствую,  уже давненько знаю про этот пункт. Но уж откладывала до большой редактуры  КЗ и СРП. Но если так критично, то поменяю сегодня.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1497952646831800322",
+   "date": "2026-04-26T13:29:01.619000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Исправили же по итогу?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1498017679611527469",
+   "date": "2026-04-26T17:47:26.642000+00:00",
+   "author": "Pustota",
+   "author_role": null,
+   "content": "Теперь да",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1498017739271442583",
+   "date": "2026-04-26T17:47:40.866000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "окей",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

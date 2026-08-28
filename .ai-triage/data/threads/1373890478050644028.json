@@ -1,0 +1,183 @@
+{
+ "thread_id": "1373890478050644028",
+ "title": "Способки теней в элитке",
+ "author": {
+  "id": "459666212025270287",
+  "username": "xkttty",
+  "global_name": "xkttty",
+  "server_nick": null,
+  "display": "xkttty"
+ },
+ "created_at": "2025-05-19T05:10:15.618Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 24,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1373890478050644028",
+  "date": "2025-05-19T05:10:15.618000+00:00",
+  "author": "xkttty",
+  "author_role": null,
+  "content": "В элитном скафандре синдиката с одетым шлемом невозможно использовать способности шадовкинов, но как только снимаешь шлем можешь, вот и гадай теперь баг или фича",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1373920356972363826",
+   "date": "2025-05-19T07:08:59.308000+00:00",
+   "author": "bebrus",
+   "author_role": null,
+   "content": "У всех скафандров ЯО, ОБР, а так же капитанского в шлеме пси изоляция. Не баг.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1373920568750899250",
+   "date": "2025-05-19T07:09:49.800000+00:00",
+   "author": "bebrus",
+   "author_role": null,
+   "content": "Но, так как тут нет псионики, пси изоляцию шлемам можно вырезать, ибо бесполезна.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1373935792358948936",
+   "date": "2025-05-19T08:10:19.391000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "ну насчёт капитанского не согласен, в нём спокойно использовал",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1373965554829885524",
+   "date": "2025-05-19T10:08:35.317000+00:00",
+   "author": "о.",
+   "author_role": null,
+   "content": "Не совсем, у антагонистов все ещё есть способности псиоников, у тех же агентов или ядеров.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1374062541671764068",
+   "date": "2025-05-19T16:33:58.782000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "масло лотофагов все равно доступно <:s_perekur:1357975265921339515>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1378459299268788275",
+   "date": "2025-05-31T19:45:07.481000+00:00",
+   "author": "cybertrash",
+   "author_role": null,
+   "content": "<@459666212025270287> Фича",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1378465679019343913",
+   "date": "2025-05-31T20:10:28.532000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "У нас псионика то как бы вырезана, а шадокины если не используют способки то им не особо становится",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1378465728763793418",
+   "date": "2025-05-31T20:10:40.392000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "А с учётом того, что они и за соло ядеров и за обычных бывают..",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1378465905586995281",
+   "date": "2025-05-31T20:11:22.550000+00:00",
+   "author": "cybertrash",
+   "author_role": null,
+   "content": "у них же блокиратор псиспособоностей нет?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1378466020066594907",
+   "date": "2025-05-31T20:11:49.844000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "Что способки блокируются, которые юзаются игроком",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1378466069416640642",
+   "date": "2025-05-31T20:12:01.610000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "Но если шадовкины их не юзают, то игра начинает делать сама",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1378466088643330158",
+   "date": "2025-05-31T20:12:06.194000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "А её на это глубоко плевать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1378466159078277183",
+   "date": "2025-05-31T20:12:22.987000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "И потому получается что шадовкин входи в инвиз в бою, а выйти из него даже не может",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1378511189893578824",
+   "date": "2025-05-31T23:11:19.170000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "насильно активируется способка невидимости потому что фулл выносливость накоплена, могу дописать чтобы очки не капали когда активна защита",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "👍:1"
+   ]
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

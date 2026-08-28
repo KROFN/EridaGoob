@@ -1,0 +1,177 @@
+{
+ "thread_id": "1489627465939816538",
+ "title": "Улучшение протокинетика.",
+ "author": {
+  "id": "977695072910999582",
+  "username": "mokko1111",
+  "global_name": "Mokko",
+  "server_nick": null,
+  "display": "Mokko"
+ },
+ "created_at": "2026-04-03T14:07:43.820Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 14,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1489627465939816538",
+  "date": "2026-04-03T14:07:43.820000+00:00",
+  "author": "Mokko",
+  "author_role": null,
+  "content": "После многочисленных тестов, я убедился, что улучшения протокинетика не работают. Пробовал и с скорострельностью (также остаётся 0,8 вне зависимости от числа модулей), так и с дальностью (скорость снаряда та же, дальность та же, в разных руках пробовал и тот и тот протокинетик, с улучшением и без). Вероятно, с уроном та же история.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": [
+   "👍:3"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1490389505872498880",
+   "date": "2026-04-05T16:35:48.298000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "действительно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1493344899423273172",
+   "date": "2026-04-13T20:19:29.029000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "починили?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1493853040648650893",
+   "date": "2026-04-15T05:58:39.338000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "неа",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1493853052539764799",
+   "date": "2026-04-15T05:58:42.173000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "если-бы починили",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1493853075352453231",
+   "date": "2026-04-15T05:58:47.612000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "они-бы стали имбой",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1493853098001694893",
+   "date": "2026-04-15T05:58:53.012000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "особенно дробовики",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1493853180503785522",
+   "date": "2026-04-15T05:59:12.682000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "им вставить две штуки на скорость\nИ ты станеш буровой установкой",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1493853243007176794",
+   "date": "2026-04-15T05:59:27.584000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "Пку скорострельности толи по секунде перезарядки скидывают толи по 2",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1493853290755002378",
+   "date": "2026-04-15T05:59:38.968000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "у дробаша перезарядка 8 сек",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1493853332048056341",
+   "date": "2026-04-15T05:59:48.813000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "в худшем случае это будет 6",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1493899802168262798",
+   "date": "2026-04-15T09:04:28.153000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "пипяо",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1496026448329183243",
+   "date": "2026-04-21T05:55:00.109000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": ".",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1496385507767226408",
+   "date": "2026-04-22T05:41:46.550000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "fixed",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "🫡:1"
+   ]
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

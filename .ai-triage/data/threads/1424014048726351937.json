@@ -1,0 +1,163 @@
+{
+ "thread_id": "1424014048726351937",
+ "title": "Не работает вентилятор",
+ "author": {
+  "id": "570567448504303617",
+  "username": "papjijict",
+  "global_name": "Parodist",
+  "server_nick": null,
+  "display": "Parodist"
+ },
+ "created_at": "2025-10-04T12:43:26.118Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1414266059208265799"
+ ],
+ "message_count": 10,
+ "attachment_count": 3,
+ "attachments_on_disk": [
+  "1424014048915361992_image.png",
+  "1424035331958767730_image.png",
+  "1424035373536776262_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1424014048726351937",
+  "date": "2025-10-04T12:43:26.118000+00:00",
+  "author": "Parodist",
+  "author_role": null,
+  "content": "На карте Box сломаны вентиляторы со стороны карго при стыковке шаттла происходит разгерма.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1424014048915361992",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1424014048726351937/1424014048915361992_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1424031888934309940",
+   "date": "2025-10-04T13:54:19.555000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "он вниз чтоль?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1424035332403236874",
+   "date": "2025-10-04T14:08:00.542000+00:00",
+   "author": "Parodist",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1424035331958767730",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1424014048726351937/1424035331958767730_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1424035373897748633",
+   "date": "2025-10-04T14:08:10.435000+00:00",
+   "author": "Parodist",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1424035373536776262",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1424014048726351937/1424035373536776262_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1424036254214783116",
+   "date": "2025-10-04T14:11:40.319000+00:00",
+   "author": "Parodist",
+   "author_role": null,
+   "content": "простое открытие обоих шлюзов и ты вылетаешь в космос если шаттла нету",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1424039675479331018",
+   "date": "2025-10-04T14:25:16.012000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "ну у меня прав скорее всего щас нет, не смогу проверить прикол, но если вентилятор не работает, а он работать должен, то вероятно там битый тайл",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1424039737462886494",
+   "date": "2025-10-04T14:25:30.790000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "разбери топором пол и поставь полностью новый",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1424039911929155705",
+   "date": "2025-10-04T14:26:12.386000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "или сам вентилятор не закреплён, хз",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1424041997987090520",
+   "date": "2025-10-04T14:34:29.741000+00:00",
+   "author": "Parodist",
+   "author_role": null,
+   "content": "хорошо",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1424044694299607080",
+   "date": "2025-10-04T14:45:12.592000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "в любом случае бокс уже вроде переносят, а насколько я помню, эту ошибку на том боксе я исправлял",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "👍:1"
+   ]
+  }
+ ],
+ "mentions": [
+  "Box"
+ ],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

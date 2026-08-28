@@ -1,0 +1,183 @@
+{
+ "thread_id": "1445276566908305570",
+ "title": "Смешной баг с магом.",
+ "author": {
+  "id": "602460075335876609",
+  "username": "mlefur",
+  "global_name": "Ykika",
+  "server_nick": null,
+  "display": "Ykika"
+ },
+ "created_at": "2025-12-02T04:53:05.491Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799",
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1414266059208265799",
+  "1377371306470801439"
+ ],
+ "message_count": 22,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1445276566908305570",
+  "date": "2025-12-02T04:53:05.491000+00:00",
+  "author": "Ykika",
+  "author_role": null,
+  "content": "Если администратор зайдёт как маг, возьмёт способности, что не требуют себе палочки, а после его тело окажется гибнуто и он воскреснет на условной АА/ЦК, то, способности у него останутся, лол.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1445279334829916212",
+   "date": "2025-12-02T05:04:05.415000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Там вроде прекрасные системы привязок к разуму",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1445279441491202171",
+   "date": "2025-12-02T05:04:30.845000+00:00",
+   "author": "Ykika",
+   "author_role": null,
+   "content": "Да, я тоже подумал про это. Или про привязку к кукле как факт",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1445279537670652156",
+   "date": "2025-12-02T05:04:53.776000+00:00",
+   "author": "Ykika",
+   "author_role": null,
+   "content": "Потому что после мага, на СЦК заимел магические способности",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1445281710487896220",
+   "date": "2025-12-02T05:13:31.816000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "На днях гляну. Если не сильная помеха окажется, то оставим на совести визов",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1445325659584069632",
+   "date": "2025-12-02T08:08:10.097000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Можешь не фиксить, это специально так сделано",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1445325735551307816",
+   "date": "2025-12-02T08:08:28.209000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Знаю для чего сделано, но не должно же так работать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1445325768673460296",
+   "date": "2025-12-02T08:08:36.106000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Там 90% шанс на то, что лучше вообще не трогать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1445325958247878699",
+   "date": "2025-12-02T08:09:21.304000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "В теории, можно сделать отвязку способок, если человек выходит в госта",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1445326043496841398",
+   "date": "2025-12-02T08:09:41.629000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Из-за этого скорее всего лучше и не трогать, либо щиткод либо никак",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1445386396620554351",
+   "date": "2025-12-02T12:09:30.935000+00:00",
+   "author": "TehniQ",
+   "author_role": null,
+   "content": "А не будет конфликтовать со способностью эфирной прогулки? Это почти что гост, во всяком случае кнопки в хотбаре перемешиваются при нём",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1445386607879262371",
+   "date": "2025-12-02T12:10:21.303000+00:00",
+   "author": "TehniQ",
+   "author_role": null,
+   "content": "Да и при обмене разумом если ты умираешь и случайно на автомате прожимаешь WASD, то вроде автоматически выходишь из тела ненароком, что тоже сбрасывать будет способности",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1445386664728989696",
+   "date": "2025-12-02T12:10:34.857000+00:00",
+   "author": "TehniQ",
+   "author_role": null,
+   "content": "Даже без учёта обмена разумом тоже неприятно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1445477394294112297",
+   "date": "2025-12-02T18:11:06.471000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Посмотрел, пока нет смысла исправлять прикол от визов",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1445682899771854960",
+   "date": "2025-12-03T07:47:42.795000+00:00",
+   "author": "𝕮𝖑𝖆𝖗𝖓𝖊𝖙𝖙𝖞",
+   "author_role": null,
+   "content": "Не путай гостов и эфирную прогулку/ревенанта/окоИИ/око Блоба",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

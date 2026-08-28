@@ -1,0 +1,71 @@
+{
+ "thread_id": "1395874643985829938",
+ "title": "Механика удара головой об предметы.",
+ "author": {
+  "id": "497107780050616321",
+  "username": "emilanik",
+  "global_name": "6 месяцев спустя",
+  "server_nick": null,
+  "display": "6 месяцев спустя"
+ },
+ "created_at": "2025-07-18T21:07:29.223Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 3,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1395874644359381136_2025-07-18_23-33-163.mp4"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1395874643985829938",
+  "date": "2025-07-18T21:07:29.223000+00:00",
+  "author": "6 месяцев спустя",
+  "author_role": null,
+  "content": "Шансы слишком огромнейшие так-же, как и урон. Такое происходит крайне часто. Хоть это и забавно, но бесит - без комментариев.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1395874644359381136",
+    "filename": "2025-07-18_23-33-163.mp4",
+    "content_type": "video/mp4",
+    "download_status": "downloaded",
+    "local_path": "attachments/1395874643985829938/1395874644359381136_2025-07-18_23-33-163.mp4"
+   }
+  ],
+  "reactions": [
+   "cat_hehe:3"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1395875047196856351",
+   "date": "2025-07-18T21:09:05.356000+00:00",
+   "author": "6 месяцев спустя",
+   "author_role": null,
+   "content": "Зашёл в станлок от стола/вспышки = смерть. Застанлочет и ты не способен двигаться, следовательно тебя гибает через время.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1396275935472259115",
+   "date": "2025-07-19T23:42:04.569000+00:00",
+   "author": "Astro",
+   "author_role": null,
+   "content": "АХХАХААХ. ТАМ У ЭТОЙ ВСПЫШКИ УДАР НА ТАЙЛОВ 7 ВОКРУГ. Спастись можно только если на стул сесть",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "👍:1"
+   ]
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

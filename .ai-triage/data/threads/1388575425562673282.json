@@ -1,0 +1,103 @@
+{
+ "thread_id": "1388575425562673282",
+ "title": "Баг со столами и закрытыми кнопками",
+ "author": {
+  "id": "172779642007191556",
+  "username": "daisuda",
+  "global_name": "Дай сюда!",
+  "server_nick": null,
+  "display": "Дай сюда!"
+ },
+ "created_at": "2025-06-28T17:42:59.938Z",
+ "archived": true,
+ "tags": [
+  "На рассмотрении"
+ ],
+ "tag_ids": [
+  "1377591362744094795"
+ ],
+ "message_count": 2,
+ "attachment_count": 6,
+ "attachments_on_disk": [
+  "1388575425911062638_image.png",
+  "1388575426187890688_image.png",
+  "1388575426443477083_image.png",
+  "1388575426762506381_image.png",
+  "1388575427047460895_image.png",
+  "1388575427294920794_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1388575425562673282",
+  "date": "2025-06-28T17:42:59.938000+00:00",
+  "author": "Дай сюда!",
+  "author_role": null,
+  "content": "Весьма забавный баг прочитал в ахелпе и сам испытал - если встать на стол, лечь и просто пройти дальше, то раздвижное любоеокно просто пропускает дальше, потому что стол выталкивает во время падения на пол, позволяя попасть спокойно за него. Ну и баг с закрытой кнопкой, если нажать правой кнопкой, то в меню будет только попытка открыть, но если нажать левой кнопкой, то с грозной надписью \"доступ запрещён\" кнопка активируется",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1388575425911062638",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1388575425562673282/1388575425911062638_image.png"
+   },
+   {
+    "id": "1388575426187890688",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1388575425562673282/1388575426187890688_image.png"
+   },
+   {
+    "id": "1388575426443477083",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1388575425562673282/1388575426443477083_image.png"
+   },
+   {
+    "id": "1388575426762506381",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1388575425562673282/1388575426762506381_image.png"
+   },
+   {
+    "id": "1388575427047460895",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1388575425562673282/1388575427047460895_image.png"
+   },
+   {
+    "id": "1388575427294920794",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1388575425562673282/1388575427294920794_image.png"
+   }
+  ],
+  "reactions": [
+   "👍:1"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1391965518440697936",
+   "date": "2025-07-08T02:14:01.065000+00:00",
+   "author": "NickCatXD1",
+   "author_role": null,
+   "content": "Это правда, полностью солидарен. Уже не первый раз наблюдаю чертей, багоюзеров, которые пользуются этим",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

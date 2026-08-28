@@ -1,0 +1,57 @@
+{
+ "thread_id": "1394835847324504235",
+ "title": "На манекен нельзя напялить очки, маску и шапку.",
+ "author": {
+  "id": "644457977130254346",
+  "username": ".antoscha",
+  "global_name": "Svaxe",
+  "server_nick": null,
+  "display": "Svaxe"
+ },
+ "created_at": "2025-07-16T00:19:40.799Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 2,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1394835848117223464_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1394835847324504235",
+  "date": "2025-07-16T00:19:40.799000+00:00",
+  "author": "Svaxe",
+  "author_role": null,
+  "content": "Проклятие Эриды !!!",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1394835848117223464",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1394835847324504235/1394835848117223464_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1394899117729386649",
+   "date": "2025-07-16T04:31:05.639000+00:00",
+   "author": "NickCatXD1",
+   "author_role": null,
+   "content": "Кстати да и это очень странно,  потому что я снимал с манекена одежду кэпа, а там в то время была фуражка, очки, противогаз, скаф. Также не мог большинство вернуть обратно на место",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

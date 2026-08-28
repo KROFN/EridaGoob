@@ -1,0 +1,130 @@
+{
+ "thread_id": "1529950769208623144",
+ "title": "сапог продырявился",
+ "author": {
+  "id": "1408427600010805402",
+  "username": "otche_nashes",
+  "global_name": "otche_nash",
+  "server_nick": null,
+  "display": "otche_nash"
+ },
+ "created_at": "2026-07-23T20:38:08.490Z",
+ "archived": true,
+ "tags": [
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1507775251998838925"
+ ],
+ "message_count": 8,
+ "attachment_count": 2,
+ "attachments_on_disk": [
+  "1529950769451765922_image.png",
+  "1529953605686267964_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1529950769208623144",
+  "date": "2026-07-23T20:38:08.490000+00:00",
+  "author": "otche_nash",
+  "author_role": null,
+  "content": "",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1529950769451765922",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1529950769208623144/1529950769451765922_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1529951360731320452",
+   "date": "2026-07-23T20:40:29.520000+00:00",
+   "author": "Wendor",
+   "author_role": null,
+   "content": "Не ошибка. Закрыто",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1529951373318422651",
+   "date": "2026-07-23T20:40:32.521000+00:00",
+   "author": "Wendor",
+   "author_role": null,
+   "content": "<:s_PoZiTiFfFcHiK:1358052086872281169>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1529952183364358204",
+   "date": "2026-07-23T20:43:45.651000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "у многих так. Иногда пузо торчит сквозь одежду",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1529952203031183390",
+   "date": "2026-07-23T20:43:50.340000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "ваще рофл",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1529953606265209015",
+   "date": "2026-07-23T20:49:24.897000+00:00",
+   "author": "otche_nash",
+   "author_role": null,
+   "content": "еще я тут потолстел",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1529953605686267964",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1529950769208623144/1529953605686267964_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1529953642176843920",
+   "date": "2026-07-23T20:49:33.459000+00:00",
+   "author": "otche_nash",
+   "author_role": null,
+   "content": "ошибки не обнаружено",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1529953646798704873",
+   "date": "2026-07-23T20:49:34.561000+00:00",
+   "author": "otche_nash",
+   "author_role": null,
+   "content": "пошел нахуй",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

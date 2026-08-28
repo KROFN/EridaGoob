@@ -1,0 +1,93 @@
+{
+ "thread_id": "1492169522671653104",
+ "title": "Невозможность респавна после крио",
+ "author": {
+  "id": "981208702390534154",
+  "username": "xaoser",
+  "global_name": "Xaoser",
+  "server_nick": null,
+  "display": "Xaoser"
+ },
+ "created_at": "2026-04-10T14:28:57.374Z",
+ "archived": true,
+ "tags": [
+  "Незначительный",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1466802797327421512",
+  "1414266059208265799"
+ ],
+ "message_count": 5,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1492169522923442297_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1492169522671653104",
+  "date": "2026-04-10T14:28:57.374000+00:00",
+  "author": "Xaoser",
+  "author_role": null,
+  "content": "Ушла в крио, пытаюсь сделать респавн, вылезает окно, нажимаю \"Я ознакомился\" и ничего не происходит",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1492169522923442297",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1492169522671653104/1492169522923442297_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1492169734517559306",
+   "date": "2026-04-10T14:29:47.882000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "там таймер",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1492169791408967680",
+   "date": "2026-04-10T14:30:01.446000+00:00",
+   "author": "Xaoser",
+   "author_role": null,
+   "content": "Ага, но не отменяет факта что баг",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1492170194020470925",
+   "date": "2026-04-10T14:31:37.436000+00:00",
+   "author": "Xaoser",
+   "author_role": null,
+   "content": "Угу, откат есть, зашла за мышь, вышла в гост и таймер показался, нужно бы подправить хотя-бы показ таймера после крио...",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1497952548139696260",
+   "date": "2026-04-26T13:28:38.089000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": ".",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

@@ -1,0 +1,40 @@
+{
+ "thread_id": "1421848934644449382",
+ "title": "ТТС",
+ "author": {
+  "id": "1002482543326658560",
+  "username": "Deleted User",
+  "global_name": null,
+  "server_nick": null,
+  "display": "Deleted User"
+ },
+ "created_at": "2025-09-28T13:20:02.695Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1414266059208265799"
+ ],
+ "message_count": 1,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1421848934644449382",
+  "date": "2025-09-28T13:20:02.695000+00:00",
+  "author": "Deleted User",
+  "author_role": null,
+  "content": "При полностью отключенном ттс в настройках звуков, все равно немного его слышно",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

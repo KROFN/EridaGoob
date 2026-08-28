@@ -1,0 +1,42 @@
+{
+ "thread_id": "1387820219191394314",
+ "title": "Не смешной анекдот с консолью доступов",
+ "author": {
+  "id": "426412674428174338",
+  "username": "sikerume",
+  "global_name": "czurka",
+  "server_nick": null,
+  "display": "czurka"
+ },
+ "created_at": "2025-06-26T15:42:04.708Z",
+ "archived": true,
+ "tags": [
+  "На рассмотрении"
+ ],
+ "tag_ids": [
+  "1377591362744094795"
+ ],
+ "message_count": 1,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1387820219191394314",
+  "date": "2025-06-26T15:42:04.708000+00:00",
+  "author": "czurka",
+  "author_role": null,
+  "content": "Карта которая является основной, может и будет блокировать доступы второстепенной, если таковых доступов не имеет основаная. Пример: ГП выдаёт расшир смотрителю - смотритель теряет доступ к оружейке",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": [
+   "s_HAHAHA:2"
+  ]
+ },
+ "replies": [],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

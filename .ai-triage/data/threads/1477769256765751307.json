@@ -1,0 +1,345 @@
+{
+ "thread_id": "1477769256765751307",
+ "title": "Баги апстрима. Без оффтопа, любые обсуждения проводите в канале оффтопа.",
+ "author": {
+  "id": "1102636565689270312",
+  "username": "Deleted User",
+  "global_name": null,
+  "server_nick": null,
+  "display": "Deleted User"
+ },
+ "created_at": "2026-03-01T20:47:26.438Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 195,
+ "attachment_count": 68,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1477769256765751307",
+  "date": "2026-03-01T20:47:26.438000+00:00",
+  "author": "Deleted User",
+  "author_role": null,
+  "content": "Скидывайте сюда без повторов актуальные баги локализации и сборки.\n1. Скриншот \n2. Краткое описание способа нахождения бага.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1477770975486545961",
+   "date": "2026-03-01T20:54:16.213000+00:00",
+   "author": "Слаvчик",
+   "author_role": null,
+   "content": "Фальшфейер разгорается, а потом свет через время пропадает. При этом он все еще горит",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1477770974639427684",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    },
+    {
+     "id": "1477770975222300844",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": [
+    "✅:1"
+   ]
+  },
+  {
+   "id": "1477771963802976458",
+   "date": "2026-03-01T20:58:11.846000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Импорт персонажей не работает.\nКак повторить? Попробовать импортировать yml персонажа.\n\n)) и другие смайлики - теперь не меняются на - широко улыбается, хмуриться и т.д\n\nТеперь нельзя поднимать людей (и нелюдей ) на руки. Печаль\nШкафы детектива в дормах - заблокированы на замок.. и только детектив их откроет.",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1477771963559710932",
+     "filename": "0C916E30-193D-4411-9C21-0090807C9CC3.png",
+     "content_type": "image/png",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": [
+    "✅:1",
+    "🥀:1",
+    "🤯:1"
+   ]
+  },
+  {
+   "id": "1477897540371218442",
+   "date": "2026-03-02T05:17:11.633000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "Аптечки старые, лодаут у капитана сломан (Нету панцирей доп)",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1477897539742203965",
+     "filename": "Screenshot_8222.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    },
+    {
+     "id": "1477897540098592911",
+     "filename": "Screenshot_8221.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": [
+    "✅:1"
+   ]
+  },
+  {
+   "id": "1478044423903514897",
+   "date": "2026-03-02T15:00:51.396000+00:00",
+   "author": "Anilori <3",
+   "author_role": null,
+   "content": "После прохождения через фильтр газ греется?\nНо тут думаю оффы момент",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1478044423659978854",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1478130064871657674",
+   "date": "2026-03-02T20:41:09.794000+00:00",
+   "author": "end.",
+   "author_role": null,
+   "content": "не работают маппинг команды, желательно пофиксить как можно скорее",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1478130063533936721",
+     "filename": "EA30F2DF-90AB-4DCF-A3D9-E15A0C17B2C1.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1478229063846858934",
+   "date": "2026-03-03T03:14:32.989000+00:00",
+   "author": "! lucifer",
+   "author_role": null,
+   "content": "Ребята, верните АВД на ВСЕ станции, кроме абмера. 1) нету печати АВД с ручкой ЦК 2) Дают белую обувь вместо белой.",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1478229063289147523",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    },
+    {
+     "id": "1478229063595327609",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1478251454405021738",
+   "date": "2026-03-03T04:43:31.314000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "C каждым перезапуском лаунчера - унатхам насильно выдаётся причёска. Хватит!! Я устал их брить налысо",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1478251453335474367",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    },
+    {
+     "id": "1478251453695922348",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    },
+    {
+     "id": "1478251454086119454",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1478254329625317456",
+   "date": "2026-03-03T04:54:56.820000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Унатхи больше не смеются!!! Им заткнули рты. Звука нет, когда смеёшся",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1478254329373786274",
+     "filename": "DF1F22CB-CC26-4F8A-9597-ECE1270051BC.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1478417279761780746",
+   "date": "2026-03-03T15:42:27.160000+00:00",
+   "author": "! lucifer",
+   "author_role": null,
+   "content": "непонятно почему, но у АВД спавнитяс фурашка ГСБ, это норма?",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1478417279275503666",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1478434436725997690",
+   "date": "2026-03-03T16:50:37.699000+00:00",
+   "author": "end.",
+   "author_role": null,
+   "content": "чёрный противогаз синди не защищает от сварки, нельзя снять через действия и через него можно пить и есть",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1478434436440654166",
+     "filename": "1CDC31DB-7C3F-480B-AA6B-61B62C17EC89.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": [
+    "🥀:1"
+   ]
+  },
+  {
+   "id": "1478461010573787359",
+   "date": "2026-03-03T18:36:13.398000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Оба с кривыми ногами, но слева текстура нормальная - а справа будто на прямые ноги напялили",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1478461010183585792",
+     "filename": "6355CDC9-E2B8-4FE9-9A43-4E66CDCD4E46.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1478762356875067545",
+   "date": "2026-03-04T14:33:39.955000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Барьер не дает тыкать, а следовательно снять плитку",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1478762356506099946",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    },
+    {
+     "id": "1478762356829065228",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1478790014753312880",
+   "date": "2026-03-04T16:23:34.107000+00:00",
+   "author": "end.",
+   "author_role": null,
+   "content": "показывает что нужен кислород когда играешь на воксе",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1478790014489067643",
+     "filename": "4CD0DD0B-C673-41A3-9D58-8AC7F53249DB.png",
+     "content_type": "image/png",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1479459728462446716",
+   "date": "2026-03-06T12:44:46.298000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "Нельзя выбрать другой голос у ГОЛОСОВОЙ маски (имплант). С другой стороны приятно что можно отрубать.",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1479459728152334406",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

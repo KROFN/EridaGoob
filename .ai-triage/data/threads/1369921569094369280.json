@@ -1,0 +1,189 @@
+{
+ "thread_id": "1369921569094369280",
+ "title": "При одетом скафе нельзя снимать с других что либо",
+ "author": {
+  "id": "1179212963358457986",
+  "username": "Deleted User",
+  "global_name": null,
+  "server_nick": null,
+  "display": "Deleted User"
+ },
+ "created_at": "2025-05-08T06:19:13.984Z",
+ "archived": true,
+ "tags": [
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1377371306470801439"
+ ],
+ "message_count": 17,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1369921569094369280",
+  "date": "2025-05-08T06:19:13.984000+00:00",
+  "author": "Deleted User",
+  "author_role": null,
+  "content": "",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1369921569274466374",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1369930726371365005",
+   "date": "2025-05-08T06:55:37.249000+00:00",
+   "author": "о.",
+   "author_role": null,
+   "content": "Это не баг.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369930731249471508",
+   "date": "2025-05-08T06:55:38.412000+00:00",
+   "author": "о.",
+   "author_role": null,
+   "content": "А фича",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369938775920349194",
+   "date": "2025-05-08T07:27:36.411000+00:00",
+   "author": "NickCatXD1",
+   "author_role": null,
+   "content": "Не, если на самом типе скафандр надет и ты не можешь снять с него одежду пока на нём надет скаф, то это логично. Но когда на тебе надет скаф и ты не можешь снять элементарно одежду с другого, это уже странно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369941712973070407",
+   "date": "2025-05-08T07:39:16.659000+00:00",
+   "author": "о.",
+   "author_role": null,
+   "content": "А, да. Ещё встречал такое с газовой маской, когда она не позволяла снять одежду с другого игрока.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1370017063967653909",
+   "date": "2025-05-08T12:38:41.736000+00:00",
+   "author": "TREST",
+   "author_role": null,
+   "content": "это фича",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1370038240492654653",
+   "date": "2025-05-08T14:02:50.613000+00:00",
+   "author": "Wisdom",
+   "author_role": null,
+   "content": "Пиздабол, фикси",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1370086402464677909",
+   "date": "2025-05-08T17:14:13.322000+00:00",
+   "author": "о.",
+   "author_role": null,
+   "content": "Фича.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1370383043310653590",
+   "date": "2025-05-09T12:52:58.011000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "🫵 <:s_HAHAHA:1363694936394043452>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1370385234025250880",
+   "date": "2025-05-09T13:01:40.318000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "фича, слишком толстые перчатки скафандра",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1370468329558376538",
+   "date": "2025-05-09T18:31:51.837000+00:00",
+   "author": "NickCatXD1",
+   "author_role": null,
+   "content": "Я этими перчатками могу из за спины достать энергетический дробовик или что-нибудь ещё и держать даже вполне себе ничего",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1370471830531477615",
+   "date": "2025-05-09T18:45:46.534000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "я же жду фичу, что из за толстых пальцев перчатки оперы не смогут стрелять",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1370759505746329770",
+   "date": "2025-05-10T13:48:53.650000+00:00",
+   "author": "TREST",
+   "author_role": null,
+   "content": "<@156474902340173824>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1371070740501364787",
+   "date": "2025-05-11T10:25:37.798000+00:00",
+   "author": "Rxup",
+   "author_role": null,
+   "content": "https://github.com/Rxup/space-station-14/pull/1323",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1371070827960995901",
+   "date": "2025-05-11T10:25:58.650000+00:00",
+   "author": "TREST",
+   "author_role": null,
+   "content": "апстримнул и пофиксилось",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

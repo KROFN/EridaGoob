@@ -1,0 +1,83 @@
+{
+ "thread_id": "1508615743040786673",
+ "title": "Атмос топор.",
+ "author": {
+  "id": "481098672382279680",
+  "username": "kreydk",
+  "global_name": "𓆩ҟɍēɏđ𓆪",
+  "server_nick": null,
+  "display": "𓆩ҟɍēɏđ𓆪"
+ },
+ "created_at": "2026-05-25T23:40:21.866Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1507775251998838925"
+ ],
+ "message_count": 5,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": true,
+ "root_message": {
+  "id": "1508615743040786673",
+  "date": "2026-05-25T23:40:21.866000+00:00",
+  "author": "𓆩ҟɍēɏđ𓆪",
+  "author_role": null,
+  "content": "Сегодня когда играл на СИ при настройке тэга заметил, что атмос топор похоже опять не убирает покрытие..\nХоть могу и ошибаться",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1508617613196922890",
+   "date": "2026-05-25T23:47:47.746000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "не снимает покрытие",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1518985075369312520",
+   "date": "2026-06-23T14:24:23.346000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "а вот это критичненько",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1519029397280002128",
+   "date": "2026-06-23T17:20:30.513000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Следующий пр фикс",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1519266487267754035",
+   "date": "2026-06-24T09:02:37.171000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "fixed",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

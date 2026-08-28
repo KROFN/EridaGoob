@@ -1,0 +1,56 @@
+{
+ "thread_id": "1365556630636204154",
+ "title": "Аномальные банданы",
+ "author": {
+  "id": "459666212025270287",
+  "username": "xkttty",
+  "global_name": "xkttty",
+  "server_nick": null,
+  "display": "xkttty"
+ },
+ "created_at": "2025-04-26T05:14:31.559Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 1,
+ "attachment_count": 2,
+ "attachments_on_disk": [
+  "1365556631269675009_image.png",
+  "1365556631554883594_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1365556630636204154",
+  "date": "2025-04-26T05:14:31.559000+00:00",
+  "author": "xkttty",
+  "author_role": null,
+  "content": "банданы для заказа в карго невозможно положить ни в какой ящик, заказ невыполним",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1365556631269675009",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1365556630636204154/1365556631269675009_image.png"
+   },
+   {
+    "id": "1365556631554883594",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1365556630636204154/1365556631554883594_image.png"
+   }
+  ],
+  "reactions": [
+   "⭐:1"
+  ]
+ },
+ "replies": [],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

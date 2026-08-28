@@ -1,0 +1,104 @@
+{
+ "thread_id": "1434089284755001366",
+ "title": "Де пилот и бригмед на Box?",
+ "author": {
+  "id": "570567448504303617",
+  "username": "papjijict",
+  "global_name": "Parodist",
+  "server_nick": null,
+  "display": "Parodist"
+ },
+ "created_at": "2025-11-01T07:58:49.576Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 6,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1434089284755001366",
+  "date": "2025-11-01T07:58:49.576000+00:00",
+  "author": "Parodist",
+  "author_role": null,
+  "content": "На карте Box Station пропали точки спавна пилота и бриг меда.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1434089285136416879",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1434089801191260311",
+   "date": "2025-11-01T08:00:52.704000+00:00",
+   "author": "Parodist",
+   "author_role": null,
+   "content": "Если они на доработке то ок..",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1434093777697509406",
+   "date": "2025-11-01T08:16:40.777000+00:00",
+   "author": "PuroSlavKing",
+   "author_role": null,
+   "content": "Это не похоже на бокс из пула",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1434093823277137940",
+   "date": "2025-11-01T08:16:51.644000+00:00",
+   "author": "PuroSlavKing",
+   "author_role": null,
+   "content": "На сервере используется конфедератион бокс",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1434111151247196240",
+   "date": "2025-11-01T09:25:42.954000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Может форсили",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1434111176136069180",
+   "date": "2025-11-01T09:25:48.888000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Криворукие",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [
+  "Box",
+  "Station"
+ ],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

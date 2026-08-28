@@ -1,0 +1,159 @@
+{
+ "thread_id": "1368971544977739826",
+ "title": "Хоть вайт лист уже существует, но за зека зайти ну никак нельзя, как и за адмирала нт",
+ "author": {
+  "id": "805111761312153631",
+  "username": "kauner_vorov",
+  "global_name": "Kauner_Vorov",
+  "server_nick": null,
+  "display": "Kauner_Vorov"
+ },
+ "created_at": "2025-05-05T15:24:10.584Z",
+ "archived": true,
+ "tags": [
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1377371306470801439"
+ ],
+ "message_count": 12,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1368971544977739826",
+  "date": "2025-05-05T15:24:10.584000+00:00",
+  "author": "Kauner_Vorov",
+  "author_role": null,
+  "content": "",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1368971545766264893",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1368971607225139374",
+   "date": "2025-05-05T15:24:25.425000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "не знаю что а счет остальных ролей, но увидел что за зека нельзя и адмирала нт",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1368971624023461898",
+   "date": "2025-05-05T15:24:29.430000+00:00",
+   "author": "Moth.",
+   "author_role": null,
+   "content": "перезайди в игру",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1368975086140395620",
+   "date": "2025-05-05T15:38:14.863000+00:00",
+   "author": "TREST",
+   "author_role": null,
+   "content": "Зек выведен из игры на переработку уже как пол года",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1368983200046514299",
+   "date": "2025-05-05T16:10:29.369000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "я перезаходил, знаю как система работает",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1368983226634338324",
+   "date": "2025-05-05T16:10:35.708000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "ну раз на переработке, то ладно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1368990662929682493",
+   "date": "2025-05-05T16:40:08.659000+00:00",
+   "author": "arcanist",
+   "author_role": null,
+   "content": "Слуш, даже я не могу за адмирала зайти",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1368993555284234240",
+   "date": "2025-05-05T16:51:38.250000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "ну, получается только сам бог может за него зайти",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369064743360266450",
+   "date": "2025-05-05T21:34:30.810000+00:00",
+   "author": "Zlobin",
+   "author_role": null,
+   "content": "А поч адмирал не доступен с ВЛ-ом кстати?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369065372698804357",
+   "date": "2025-05-05T21:37:00.856000+00:00",
+   "author": "arcanist",
+   "author_role": null,
+   "content": "Потому что это особая роль",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369065879781769366",
+   "date": "2025-05-05T21:39:01.754000+00:00",
+   "author": "Zlobin",
+   "author_role": null,
+   "content": "И обычным игрокам ее уже не залутать, да?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369071701475983440",
+   "date": "2025-05-05T22:02:09.754000+00:00",
+   "author": "arcanist",
+   "author_role": null,
+   "content": "Да",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

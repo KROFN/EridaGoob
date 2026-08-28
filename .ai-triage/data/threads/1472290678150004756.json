@@ -1,0 +1,87 @@
+{
+ "thread_id": "1472290678150004756",
+ "title": "При чем тут красный?",
+ "author": {
+  "id": "700677016931926036",
+  "username": "merzkii_zhizh",
+  "global_name": "мерзкий жиж",
+  "server_nick": null,
+  "display": "мерзкий жиж"
+ },
+ "created_at": "2026-02-14T17:57:31.509Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 5,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1472290678150004756",
+  "date": "2026-02-14T17:57:31.509000+00:00",
+  "author": "мерзкий жиж",
+  "author_role": null,
+  "content": "https://discord.com/channels/1357728304710422680/1357728305528438817/1472286649390993450",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1472487008399130667",
+   "date": "2026-02-15T06:57:40.288000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "старое описание которое никто не менял",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1472523347400069190",
+   "date": "2026-02-15T09:22:04.181000+00:00",
+   "author": "мерзкий жиж",
+   "author_role": null,
+   "content": "поменяют теперь?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1472530535631949844",
+   "date": "2026-02-15T09:50:37.989000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "может быть",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1472530635703980170",
+   "date": "2026-02-15T09:51:01.848000+00:00",
+   "author": "мерзкий жиж",
+   "author_role": null,
+   "content": "ладно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [
+  "channels",
+  "discord.com",
+  "https"
+ ],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

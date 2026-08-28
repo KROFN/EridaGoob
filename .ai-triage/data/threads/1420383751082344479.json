@@ -1,0 +1,91 @@
+{
+ "thread_id": "1420383751082344479",
+ "title": "Маг",
+ "author": {
+  "id": "780438270621253642",
+  "username": "medik.alt",
+  "global_name": "Medik",
+  "server_nick": null,
+  "display": "Medik"
+ },
+ "created_at": "2025-09-24T12:17:55.712Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1414266059208265799"
+ ],
+ "message_count": 6,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1420383751082344479",
+  "date": "2025-09-24T12:17:55.712000+00:00",
+  "author": "Medik",
+  "author_role": null,
+  "content": "После использования \"перехода в астрал\" у персонажа слетают кнопки будучи магом, всё рассыпается по рандому, есть какая-то возможность это убрать?",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1420393743139471460",
+   "date": "2025-09-24T12:57:38.004000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "также и при стержне",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1420441359944388822",
+   "date": "2025-09-24T16:06:50.735000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "На сборке, у которой взяли эту технологию, вроде бекменовская, у шадовкинов, вообще все вещи пропадали, так что всё не так уж и плохо",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1420441429313982535",
+   "date": "2025-09-24T16:07:07.274000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "( Да, они возвращались потом )",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1422138238700884019",
+   "date": "2025-09-29T08:29:38.157000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Подозреваю, что из-за смены разума они выдаются по новой",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1422138319440969768",
+   "date": "2025-09-29T08:29:57.407000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Маг от оффов, лучше его не трогать лишний раз",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

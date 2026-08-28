@@ -1,0 +1,123 @@
+{
+ "thread_id": "1413590899778388011",
+ "title": "Роли призраков",
+ "author": {
+  "id": "570567448504303617",
+  "username": "papjijict",
+  "global_name": "Parodist",
+  "server_nick": null,
+  "display": "Parodist"
+ },
+ "created_at": "2025-09-05T18:25:33.756Z",
+ "archived": true,
+ "tags": [
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1377371306470801439"
+ ],
+ "message_count": 7,
+ "attachment_count": 3,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1413590899778388011",
+  "date": "2025-09-05T18:25:33.756000+00:00",
+  "author": "Parodist",
+  "author_role": null,
+  "content": "При открытии ролей  иногда нет ползунка перемещения в верх и низ",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1413590900126519436",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   },
+   {
+    "id": "1413590900784889986",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   },
+   {
+    "id": "1413590901338669086",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1413591098638729278",
+   "date": "2025-09-05T18:26:21.168000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "Ползунок появляется если растянуть окно в любую из сторон\nСкорее всего он появляется вне окна, а при изменения размера он магнитится к стенке",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413591230838997042",
+   "date": "2025-09-05T18:26:52.687000+00:00",
+   "author": "Parodist",
+   "author_role": null,
+   "content": "баг или фича черт пойми...",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413591276036558879",
+   "date": "2025-09-05T18:27:03.463000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "баг",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413754128814968882",
+   "date": "2025-09-06T05:14:10.591000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Вроде не баг, подвергайте окно просто",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413754147081162805",
+   "date": "2025-09-06T05:14:14.946000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "И нормально будет",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413800911192723496",
+   "date": "2025-09-06T08:20:04.379000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "Ну, я бы назвал баг именно местоположение ползунка до дёрганья окна\nа так, да, я бы не не назвал это багом",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

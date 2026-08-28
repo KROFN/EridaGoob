@@ -1,0 +1,61 @@
+{
+ "thread_id": "1534609752284463224",
+ "title": "Ядерный Фабрикатор",
+ "author": {
+  "id": "544878398615584768",
+  "username": "argun77",
+  "global_name": null,
+  "server_nick": null,
+  "display": "argun77"
+ },
+ "created_at": "2026-08-05T17:11:16.615Z",
+ "archived": false,
+ "tags": [
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1507775251998838925"
+ ],
+ "message_count": 2,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1534609752502571048_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1534609752284463224",
+  "date": "2026-08-05T17:11:16.615000+00:00",
+  "author": "argun77",
+  "author_role": null,
+  "content": "Отсутствует в хранилище материалов",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1534609752502571048",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1534609752284463224/1534609752502571048_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1534624237728567446",
+   "date": "2026-08-05T18:08:50.214000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Знаем",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

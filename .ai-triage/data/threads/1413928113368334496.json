@@ -1,0 +1,119 @@
+{
+ "thread_id": "1413928113368334496",
+ "title": "Кривые спрайты",
+ "author": {
+  "id": "416281346013528074",
+  "username": "evillchet",
+  "global_name": "EvillChet",
+  "server_nick": null,
+  "display": "EvillChet"
+ },
+ "created_at": "2025-09-06T16:45:31.741Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 8,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1413928113368334496",
+  "date": "2025-09-06T16:45:31.741000+00:00",
+  "author": "EvillChet",
+  "author_role": null,
+  "content": "Оружие у ОСЩ",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1413928113880170506",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1413928677623988244",
+   "date": "2025-09-06T16:47:46.270000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Блять, он всё-таки полетел",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413928808184021022",
+   "date": "2025-09-06T16:48:17.398000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "А на кой ты сюда то пишешь",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413928844867670157",
+   "date": "2025-09-06T16:48:26.144000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Возьми и исправь, лол",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413928856502407268",
+   "date": "2025-09-06T16:48:28.918000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Либо мне передай",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413928883669172374",
+   "date": "2025-09-06T16:48:35.395000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Я сейчас постараюсь успеть закинуть",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413928911305441301",
+   "date": "2025-09-06T16:48:41.984000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Пока мне связь не обрубили",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413929993737867325",
+   "date": "2025-09-06T16:53:00.056000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Исправил. Я просто их криво закинул в папку, когда искал сломанный rsi",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

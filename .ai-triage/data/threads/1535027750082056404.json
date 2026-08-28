@@ -1,0 +1,69 @@
+{
+ "thread_id": "1535027750082056404",
+ "title": "Чемодан",
+ "author": {
+  "id": "877641869222371348",
+  "username": "9kvac_",
+  "global_name": "9Kvac_",
+  "server_nick": null,
+  "display": "9Kvac_"
+ },
+ "created_at": "2026-08-06T20:52:15.056Z",
+ "archived": false,
+ "tags": [
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1507775251998838925"
+ ],
+ "message_count": 2,
+ "attachment_count": 2,
+ "attachments_on_disk": [
+  "1535027750291636224_B41C0682-A0AA-47F7-9436-DCDCB9B2D8DD.png",
+  "1535027750707003594_75C9D4E6-1A88-45AF-9F83-36C5B8DF840B.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1535027750082056404",
+  "date": "2026-08-06T20:52:15.056000+00:00",
+  "author": "9Kvac_",
+  "author_role": null,
+  "content": "Спрайт чемодана с бока проходит через ноги и одежду унатха",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1535027750291636224",
+    "filename": "B41C0682-A0AA-47F7-9436-DCDCB9B2D8DD.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1535027750082056404/1535027750291636224_B41C0682-A0AA-47F7-9436-DCDCB9B2D8DD.png"
+   },
+   {
+    "id": "1535027750707003594",
+    "filename": "75C9D4E6-1A88-45AF-9F83-36C5B8DF840B.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1535027750082056404/1535027750707003594_75C9D4E6-1A88-45AF-9F83-36C5B8DF840B.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1536271544249221191",
+   "date": "2026-08-10T07:14:38.694000+00:00",
+   "author": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ",
+   "author_role": null,
+   "content": "<:s_podozhdu:1358052419988230215>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

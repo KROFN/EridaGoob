@@ -1,0 +1,181 @@
+{
+ "thread_id": "1532120324504682557",
+ "title": "озвучка",
+ "author": {
+  "id": "382911760346120210",
+  "username": "dallesplan",
+  "global_name": null,
+  "server_nick": null,
+  "display": "dallesplan"
+ },
+ "created_at": "2026-07-29T20:19:10.781Z",
+ "archived": false,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 14,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1532120324504682557",
+  "date": "2026-07-29T20:19:10.781000+00:00",
+  "author": "dallesplan",
+  "author_role": null,
+  "content": "пропала озвучка эмоутов нианов. всё кроме крика",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1532124953376456834",
+   "date": "2026-07-29T20:37:34.390000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "у многих рас пропала озвучка",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1532471872174817361",
+   "date": "2026-07-30T19:36:06.277000+00:00",
+   "author": "Lytheriia",
+   "author_role": null,
+   "content": "fixed",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1532495318091038770",
+   "date": "2026-07-30T21:09:16.219000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "а вот про боргов забыл!",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1532495359413190827",
+   "date": "2026-07-30T21:09:26.071000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "кощунство!",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1532495385577390203",
+   "date": "2026-07-30T21:09:32.309000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "омниссия недовольна!",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1532495549750710613",
+   "date": "2026-07-30T21:10:11.451000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "хотя стоп...",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1532495587604173032",
+   "date": "2026-07-30T21:10:20.476000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "а нет, у них настоящие мозги",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1532528616863305738",
+   "date": "2026-07-30T23:21:35.265000+00:00",
+   "author": "Lytheriia",
+   "author_role": null,
+   "content": "Каких боргов?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1532528767111659580",
+   "date": "2026-07-30T23:22:11.087000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "которые бип буп",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1532528781820956824",
+   "date": "2026-07-30T23:22:14.594000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "которые пинг понг",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1532528970275225760",
+   "date": "2026-07-30T23:22:59.525000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1532528969780428800",
+     "filename": "more-servers-should-add-these-borg-sprites-v0-xcg31whbujag1.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1532529060218142881",
+   "date": "2026-07-30T23:23:20.969000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "у них звуки тоже полетели",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1532529238492844215",
+   "date": "2026-07-30T23:24:03.473000+00:00",
+   "author": "Lytheriia",
+   "author_role": null,
+   "content": "у них тоже починятся с апдейтом",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "cat_flash:1"
+   ]
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

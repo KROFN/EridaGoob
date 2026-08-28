@@ -1,0 +1,98 @@
+{
+ "thread_id": "1493644571488292986",
+ "title": "немного плохо консолям и автоматом игровым",
+ "author": {
+  "id": "591612071414726673",
+  "username": "honolkc",
+  "global_name": "Honolkc",
+  "server_nick": null,
+  "display": "Honolkc"
+ },
+ "created_at": "2026-04-14T16:10:16.417Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 5,
+ "attachment_count": 2,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1493644571488292986",
+  "date": "2026-04-14T16:10:16.417000+00:00",
+  "author": "Honolkc",
+  "author_role": null,
+  "content": "Приколы с текстурами видимо",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1493644571794739250",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   },
+   {
+    "id": "1493644572369092891",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1493749493428912279",
+   "date": "2026-04-14T23:07:11.757000+00:00",
+   "author": "PuroSlavKing",
+   "author_role": null,
+   "content": "хуева пофиксили",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1493749514605953177",
+   "date": "2026-04-14T23:07:16.806000+00:00",
+   "author": "PuroSlavKing",
+   "author_role": null,
+   "content": "🥺",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1496011132840706048",
+   "date": "2026-04-21T04:54:08.612000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "fixed",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1496120932241117366",
+   "date": "2026-04-21T12:10:26.829000+00:00",
+   "author": "Honolkc",
+   "author_role": null,
+   "content": "Nice",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

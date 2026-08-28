@@ -1,0 +1,81 @@
+{
+ "thread_id": "1367781435938832436",
+ "title": "Нечувствительность не работает в настроении",
+ "author": {
+  "id": "688066451336462346",
+  "username": "communistsenko",
+  "global_name": "Фобос",
+  "server_nick": null,
+  "display": "Фобос"
+ },
+ "created_at": "2025-05-02T08:35:06.478Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1365427630660128861"
+ ],
+ "tag_ids": [
+  "1365427630660128861"
+ ],
+ "message_count": 5,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1367781435938832436",
+  "date": "2025-05-02T08:35:06.478000+00:00",
+  "author": "Фобос",
+  "author_role": null,
+  "content": "Я заметил такую функцию в настроении, что у тебя портиться настроение из-за нечувствительности к боли, но при этом пишется, что ты чувствуешь неприятные царапины, а так же агонию при мощных повреждениях. \n\nПредлагаю исправить данную проблему ибо проверяя настроение перса оказывается, что он испытывает агонию от ананаса в жопе, хотя боли он не чувствует",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1368122758730485821",
+   "date": "2025-05-03T07:11:24.173000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "Нечувствительность нахуй вырежут из игры",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1368122776355082350",
+   "date": "2025-05-03T07:11:28.375000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "Из-за ребелл",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1368123031020503081",
+   "date": "2025-05-03T07:12:29.092000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1368123380901085255",
+   "date": "2025-05-03T07:13:52.510000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "Такчто надо просто подождать, никто ченить то что вырежут не будет",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

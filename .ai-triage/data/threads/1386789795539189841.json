@@ -1,0 +1,159 @@
+{
+ "thread_id": "1386789795539189841",
+ "title": "На аспиде нет допросной",
+ "author": {
+  "id": "1251925458426003487",
+  "username": "bahamutichka",
+  "global_name": "Elgard",
+  "server_nick": null,
+  "display": "Elgard"
+ },
+ "created_at": "2025-06-23T19:27:32.565Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 12,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1386789795539189841",
+  "date": "2025-06-23T19:27:32.565000+00:00",
+  "author": "Elgard",
+  "author_role": null,
+  "content": "это такой конец",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1386792406229192825",
+   "date": "2025-06-23T19:37:55.002000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "А зачем",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1386795274193862757",
+   "date": "2025-06-23T19:49:18.778000+00:00",
+   "author": "Elgard",
+   "author_role": null,
+   "content": "это типо... база",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1386812026306691182",
+   "date": "2025-06-23T20:55:52.793000+00:00",
+   "author": "Tommy Win",
+   "author_role": null,
+   "content": "Ты зачем говно из брига своровал?\nВ допросную хотел...",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1386956370133123072",
+   "date": "2025-06-24T06:29:27.043000+00:00",
+   "author": "Ананасина",
+   "author_role": null,
+   "content": "Полагаю с этим надо в предложку с тэгом маппинга",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1387056219348537494",
+   "date": "2025-06-24T13:06:12.951000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "нет, это никуда не надо",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1387056241800380439",
+   "date": "2025-06-24T13:06:18.304000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "потому что давно решено",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1387056359396217025",
+   "date": "2025-06-24T13:06:46.341000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "у тебя разве нет доступа в мапперский?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1387057177726025909",
+   "date": "2025-06-24T13:10:01.446000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "просто это было одним из моих заданий в принципе",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1387057177516183572",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1387063901014855952",
+   "date": "2025-06-24T13:36:44.403000+00:00",
+   "author": "Elgard",
+   "author_role": null,
+   "content": "Неа",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1387064434802819132",
+   "date": "2025-06-24T13:38:51.668000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "ну ладно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1387064469217214578",
+   "date": "2025-06-24T13:38:59.873000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "всё равно стоит писать такие баг-репорты",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

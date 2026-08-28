@@ -1,0 +1,121 @@
+{
+ "thread_id": "1416386325006778440",
+ "title": "Алё АВД? Чего? мы вас не слышим",
+ "author": {
+  "id": "718380038914965546",
+  "username": "danylo_dazzle",
+  "global_name": "Danylo_dazzle",
+  "server_nick": null,
+  "display": "Danylo_dazzle"
+ },
+ "created_at": "2025-09-13T11:33:35.067Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1414266059208265799"
+ ],
+ "message_count": 8,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1416484008245596211_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1416386325006778440",
+  "date": "2025-09-13T11:33:35.067000+00:00",
+  "author": "Danylo_dazzle",
+  "author_role": null,
+  "content": "В общем суть бага заключается в том. Что частота юр отдела не работает. Вообще",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1416386696102150165",
+   "date": "2025-09-13T11:35:03.543000+00:00",
+   "author": "Medik",
+   "author_role": null,
+   "content": "Может быть не везде сервер под неё есть?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1416386813957902356",
+   "date": "2025-09-13T11:35:31.642000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Карты не завезли новые. Разраб не учёл, что сервер нужен",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1416386855737491486",
+   "date": "2025-09-13T11:35:41.603000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Исправим",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1416393732701294666",
+   "date": "2025-09-13T12:03:01.199000+00:00",
+   "author": "Максим Аверин",
+   "author_role": null,
+   "content": "Ой, да вставьте сервисную плату. Что вы как дети?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1416394801032466432",
+   "date": "2025-09-13T12:07:15.909000+00:00",
+   "author": "Danylo_dazzle",
+   "author_role": null,
+   "content": "Так частота та сама есть и в гарнитуре тоже есть. но она не работает",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1416405632252117144",
+   "date": "2025-09-13T12:50:18.273000+00:00",
+   "author": "Venick",
+   "author_role": null,
+   "content": "Телекомы нужны с ключем шифрования Юрки. Я думал если вставить ключ шифрования Юрки в файлик с телекомом командования всë будет збс, но как оказалось не для всех карт. Вернее я токо на одной карте и проверял частоту. <:s_PoZiTiFfFcHiK:1358052086872281169>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1416484008598048910",
+   "date": "2025-09-13T18:01:44.650000+00:00",
+   "author": "Venick",
+   "author_role": null,
+   "content": "на некоторых картах всё же работает",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1416484008245596211",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "downloaded",
+     "local_path": "attachments/1416386325006778440/1416484008245596211_image.png"
+    }
+   ],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

@@ -1,0 +1,100 @@
+{
+ "thread_id": "1535333849515692155",
+ "title": "Описание эссенции",
+ "author": {
+  "id": "977695072910999582",
+  "username": "mokko1111",
+  "global_name": "Mokko",
+  "server_nick": null,
+  "display": "Mokko"
+ },
+ "created_at": "2026-08-07T17:08:34.848Z",
+ "archived": false,
+ "tags": [
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1507775251998838925"
+ ],
+ "message_count": 5,
+ "attachment_count": 2,
+ "attachments_on_disk": [
+  "1535333850102636614_image.png",
+  "1535339331227623434_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1535333849515692155",
+  "date": "2026-08-07T17:08:34.848000+00:00",
+  "author": "Mokko",
+  "author_role": null,
+  "content": "",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1535333850102636614",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1535333849515692155/1535333850102636614_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1535338083623641271",
+   "date": "2026-08-07T17:25:24.338000+00:00",
+   "author": "Wendor",
+   "author_role": null,
+   "content": "WICY",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1535338131547623474",
+   "date": "2026-08-07T17:25:35.764000+00:00",
+   "author": "Wendor",
+   "author_role": null,
+   "content": "❌",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1535339331617824798",
+   "date": "2026-08-07T17:30:21.883000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1535339331227623434",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1535333849515692155/1535339331227623434_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1535339438245159042",
+   "date": "2026-08-07T17:30:47.305000+00:00",
+   "author": "Wendor",
+   "author_role": null,
+   "content": "https://cdn.discordapp.com/attachments/1362699220934721577/1534287600238596247/vs1jx46.png",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

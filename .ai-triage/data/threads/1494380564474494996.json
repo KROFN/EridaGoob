@@ -1,0 +1,193 @@
+{
+ "thread_id": "1494380564474494996",
+ "title": "Хрп стрельба",
+ "author": {
+  "id": "891223066766635068",
+  "username": "bbeluzhnayaseledka",
+  "global_name": "Seledka",
+  "server_nick": null,
+  "display": "Seledka"
+ },
+ "created_at": "2026-04-16T16:54:50.819Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 24,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1494380564474494996",
+  "date": "2026-04-16T16:54:50.819000+00:00",
+  "author": "Seledka",
+  "author_role": null,
+  "content": "Сталкиваюсь не первый раз, но откат запустил только под конец смены поэтому есть только это:",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1494380564860502167",
+    "filename": "VID_20260416_194611_076.mp4",
+    "content_type": "video/mp4",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1494393689613799474",
+   "date": "2026-04-16T17:47:00.096000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "https://discord.com/channels/1357728304710422680/1479798872883597455 https://discord.com/channels/1357728304710422680/1485917505368096899",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1496116119545708665",
+   "date": "2026-04-21T11:51:19.393000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "Спасибо за работу (всему отделу).",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1496166453894840400",
+   "date": "2026-04-21T15:11:20.037000+00:00",
+   "author": "Lytheriia",
+   "author_role": null,
+   "content": "Тут разрабы ничего не сделают, ибо это на уровне хоста мем был",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1496166971350450337",
+   "date": "2026-04-21T15:13:23.408000+00:00",
+   "author": "Lytheriia",
+   "author_role": null,
+   "content": "Я не знаю как сейчас с ним обстоят дела",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1496167393028866119",
+   "date": "2026-04-21T15:15:03.944000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Пингани ещё раз тут если не пропадёт. Должно лучше стать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "cat_erp:1"
+   ]
+  },
+  {
+   "id": "1496241356803407882",
+   "date": "2026-04-21T20:08:58.282000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "в лежачих не регает (не всегда). А вот в стоячих вроде залетает. Буду пробовать.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1496533055756697612",
+   "date": "2026-04-22T15:28:04.732000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "фауне все так же плевать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1496540002627358740",
+   "date": "2026-04-22T15:55:40.995000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "https://tenor.com/view/anime-think-anime-girl-gif-25477832",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1496553930056798278",
+   "date": "2026-04-22T16:51:01.553000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Ладно, вторая попытка...",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1496581985492013187",
+   "date": "2026-04-22T18:42:30.490000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "кстати рега ближних атак как будто в ещё худшем состоянии",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1496582013975527545",
+   "date": "2026-04-22T18:42:37.281000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "если противник двигается",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1496798313654255747",
+   "date": "2026-04-23T09:02:07.143000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "в людей лучше залетает однозначно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "✅:1"
+   ]
+  },
+  {
+   "id": "1496798372676501594",
+   "date": "2026-04-23T09:02:21.215000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "на АА арене нормально пофигарились",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1497478999922704496",
+   "date": "2026-04-25T06:06:55.396000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "так всегда было с милишкой",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

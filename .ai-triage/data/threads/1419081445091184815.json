@@ -1,0 +1,117 @@
+{
+ "thread_id": "1419081445091184815",
+ "title": "скаф СИ",
+ "author": {
+  "id": "459666212025270287",
+  "username": "xkttty",
+  "global_name": "xkttty",
+  "server_nick": null,
+  "display": "xkttty"
+ },
+ "created_at": "2025-09-20T22:03:01.768Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1414266059208265799"
+ ],
+ "message_count": 6,
+ "attachment_count": 3,
+ "attachments_on_disk": [
+  "1419081445468536852_image.png",
+  "1419081445955338440_image.png",
+  "1419081446387224586_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1419081445091184815",
+  "date": "2025-09-20T22:03:01.768000+00:00",
+  "author": "xkttty",
+  "author_role": null,
+  "content": "Низ скафа новый, а шлем старый. Кажется так быть не должно",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1419081445468536852",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1419081445091184815/1419081445468536852_image.png"
+   },
+   {
+    "id": "1419081445955338440",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1419081445091184815/1419081445955338440_image.png"
+   },
+   {
+    "id": "1419081446387224586",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1419081445091184815/1419081446387224586_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1419374416281735292",
+   "date": "2025-09-21T17:27:11.543000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Лол",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1419584879796162661",
+   "date": "2025-09-22T07:23:29.955000+00:00",
+   "author": "voko421",
+   "author_role": null,
+   "content": "Какой-то гой забыл что у шлема и скафа разные прототипы или типа того",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1419585243987443783",
+   "date": "2025-09-22T07:24:56.785000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Да я же спрайты чисто огромной массой поменял",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1419585298240770110",
+   "date": "2025-09-22T07:25:09.720000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Неудивительно, что такие проблемы могли появиться",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1419585349461475338",
+   "date": "2025-09-22T07:25:21.932000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Сегодня гляну проблему",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

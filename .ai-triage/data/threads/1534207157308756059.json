@@ -1,0 +1,61 @@
+{
+ "thread_id": "1534207157308756059",
+ "title": "Не сбросилось время (((0(((",
+ "author": {
+  "id": "582970156674973758",
+  "username": "mlefur2.0",
+  "global_name": "Yuika",
+  "server_nick": null,
+  "display": "Yuika"
+ },
+ "created_at": "2026-08-04T14:31:30.493Z",
+ "archived": false,
+ "tags": [
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1507775251998838925"
+ ],
+ "message_count": 3,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1534207157308756059",
+  "date": "2026-08-04T14:31:30.493000+00:00",
+  "author": "Yuika",
+  "author_role": null,
+  "content": "У всех время сбросилось, а я какой-то особенный йухан. Как фиксить?",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1534270686321967145",
+   "date": "2026-08-04T18:43:56.990000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "как ивент мастер и часть проекта ты имеешь доступ ко всем ролям, потому-то не сбросилось.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1534456707697213520",
+   "date": "2026-08-05T07:03:07.942000+00:00",
+   "author": "Yuika",
+   "author_role": null,
+   "content": "Не, именно статистика не сбросилась, понимаешь?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

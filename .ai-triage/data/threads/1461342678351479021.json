@@ -1,0 +1,103 @@
+{
+ "thread_id": "1461342678351479021",
+ "title": "две консоли покупок в бриге",
+ "author": {
+  "id": "481579823525789706",
+  "username": "alexandrov_",
+  "global_name": "Boroven",
+  "server_nick": null,
+  "display": "Boroven"
+ },
+ "created_at": "2026-01-15T12:54:04.953Z",
+ "archived": true,
+ "tags": [
+  "Маппинг",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1378687007080841246",
+  "1414266059208265799"
+ ],
+ "message_count": 6,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1461342678590689391_41c9c2570b564b08.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1461342678351479021",
+  "date": "2026-01-15T12:54:04.953000+00:00",
+  "author": "Boroven",
+  "author_role": null,
+  "content": "Карта - Бокс.\nСуть проблемы -При старте игры на этой карте вместо консоли камеры стоит ВТОРАЯ консоль закупок брига, место указал. Благодаря администратору проблема уже решилась и по его словам оставляю данный репорт. \nСуть решения - заменить одну из консолей на консоль камер",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1461342678590689391",
+    "filename": "41c9c2570b564b08.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1461342678351479021/1461342678590689391_41c9c2570b564b08.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1461352469106786499",
+   "date": "2026-01-15T13:32:59.251000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "по-моему это не баг",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1461352535549022320",
+   "date": "2026-01-15T13:33:15.092000+00:00",
+   "author": "Horror Bittersweet",
+   "author_role": null,
+   "content": "Ну по факту ошибка мапперов",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1461352558995050673",
+   "date": "2026-01-15T13:33:20.682000+00:00",
+   "author": "Horror Bittersweet",
+   "author_role": null,
+   "content": "<@&1382029153708150804>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1461381795315716149",
+   "date": "2026-01-15T15:29:31.164000+00:00",
+   "author": "kote19",
+   "author_role": null,
+   "content": "записано",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1471021212082765886",
+   "date": "2026-02-11T05:53:07.213000+00:00",
+   "author": "kote19",
+   "author_role": null,
+   "content": "Полностью убрал вторую консоль, не нравится как стоит",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

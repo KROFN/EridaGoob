@@ -1,0 +1,91 @@
+{
+ "thread_id": "1387130822607507568",
+ "title": "C лотереи выпадает другая валюта.",
+ "author": {
+  "id": "306088001048674324",
+  "username": "nate_gingers",
+  "global_name": "Ящер",
+  "server_nick": null,
+  "display": "Ящер"
+ },
+ "created_at": "2025-06-24T18:02:39.754Z",
+ "archived": true,
+ "tags": [
+  "В процессе"
+ ],
+ "tag_ids": [
+  "1365427658288005150"
+ ],
+ "message_count": 6,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1387130822607507568",
+  "date": "2025-06-24T18:02:39.754000+00:00",
+  "author": "Ящер",
+  "author_role": null,
+  "content": "Выпадает валюта \"Воксель\" а не \"Кредит\" \n\nВ результате этого выигранные деньги невозможно засунуть в банкомат, только в консоль заказов. \n\nПри этом  выведенные деньги с консоли вполне можно положить в банкомат на свой счет.\n\nЯ хочу больше возможностей финансовых махинаций.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1387162919615332475",
+   "date": "2025-06-24T20:10:12.277000+00:00",
+   "author": "Tommy Win",
+   "author_role": null,
+   "content": "Посажен за 505",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1387163642818199612",
+   "date": "2025-06-24T20:13:04.702000+00:00",
+   "author": "Ящер",
+   "author_role": null,
+   "content": "Тиш тиш",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1387878457656213675",
+   "date": "2025-06-26T19:33:29.840000+00:00",
+   "author": "cybertrash",
+   "author_role": null,
+   "content": "https://cdn.discordapp.com/attachments/1382008882657759312/1386564755979767819/2025-06-23_073027166.gif",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1387878463138037840",
+   "date": "2025-06-26T19:33:31.147000+00:00",
+   "author": "cybertrash",
+   "author_role": null,
+   "content": "<@306088001048674324>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1387878546432856125",
+   "date": "2025-06-26T19:33:51.006000+00:00",
+   "author": "Ящер",
+   "author_role": null,
+   "content": "https://tenor.com/view/hulk-i%27m-in-gif-18319494929206891542",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

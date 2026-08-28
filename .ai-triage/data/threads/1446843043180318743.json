@@ -1,0 +1,71 @@
+{
+ "thread_id": "1446843043180318743",
+ "title": "Экипаж VS зомби",
+ "author": {
+  "id": "903610358617493524",
+  "username": "alexfire9455",
+  "global_name": "alexfire",
+  "server_nick": null,
+  "display": "alexfire"
+ },
+ "created_at": "2025-12-06T12:37:42.538Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1414266059208265799"
+ ],
+ "message_count": 4,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1446843043180318743",
+  "date": "2025-12-06T12:37:42.538000+00:00",
+  "author": "alexfire",
+  "author_role": null,
+  "content": "Если человек заразившийся или нулевой, зайдёт в рипли и умрёт в нём, то он сможет им управлять,бить.Рипли бегает впринципе быстрее обычного целого человека, это разве честно?недавно была смена в которой были зомби, так меня за бма догнал один такой гад в рипли, хотя он мог выйти.Ну и раз мог выйти не багоюз ли это?",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1446855451886223492",
+   "date": "2025-12-06T13:27:01.004000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "в зависимости от того, насколько в лоре зазначено, тупые ли зомби либо поглощают некоторую часть знаний человека, который стал зомби",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1446855496488452198",
+   "date": "2025-12-06T13:27:11.638000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "ибо не все же зомби поголовно тупые бегающие за мозгами никак не защищаясь",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1446855536023703563",
+   "date": "2025-12-06T13:27:21.064000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "это можно описать условной эволюцией",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

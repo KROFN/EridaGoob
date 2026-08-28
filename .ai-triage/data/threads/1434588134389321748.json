@@ -1,0 +1,63 @@
+{
+ "thread_id": "1434588134389321748",
+ "title": "Не особо баг, но раздражает",
+ "author": {
+  "id": "977695072910999582",
+  "username": "mokko1111",
+  "global_name": "Mokko",
+  "server_nick": null,
+  "display": "Mokko"
+ },
+ "created_at": "2025-11-02T17:01:04.597Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799",
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1414266059208265799",
+  "1377371306470801439"
+ ],
+ "message_count": 3,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1434588134389321748",
+  "date": "2025-11-02T17:01:04.597000+00:00",
+  "author": "Mokko",
+  "author_role": null,
+  "content": "Нет никакого уведомления о том, что вас поднимают. Кто-то может рядом пытаться сожрать бумагу (долгая полоска), а на деле поднимает вас на руки.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1434588469295845569",
+   "date": "2025-11-02T17:02:24.445000+00:00",
+   "author": "PuroSlavKing",
+   "author_role": null,
+   "content": "мир, если бы поднять можно было только лежачего > <:pepe_sleep:1366398087089750076>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1434652263900647505",
+   "date": "2025-11-02T21:15:54.264000+00:00",
+   "author": "Elgard",
+   "author_role": null,
+   "content": "не прикольно. Нельзя подхватить на руки стоячего что будет логичнее чем сначала уронить человека, а потом взять на руки.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

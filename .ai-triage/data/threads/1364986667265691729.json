@@ -1,0 +1,61 @@
+{
+ "thread_id": "1364986667265691729",
+ "title": "Зомби вирус почему-то сломан.",
+ "author": {
+  "id": "638709309273931777",
+  "username": "whatapple",
+  "global_name": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+  "server_nick": null,
+  "display": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲"
+ },
+ "created_at": "2025-04-24T15:29:41.702Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 2,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1364986667265691729",
+  "date": "2025-04-24T15:29:41.702000+00:00",
+  "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+  "author_role": null,
+  "content": "нас - сотрудников СБ повалила чума, через воздушно-капельный путь. Суть не в этом. Как только мы обратились нам почти сразу стало плохо, ужастно и крит. До этого было идеальное состояние. Мы так лежим уже минут 5...",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1364986667458625557",
+    "filename": "Screenshot_4667.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": [
+   "qwer:1"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1365292309914062972",
+   "date": "2025-04-25T11:44:12.588000+00:00",
+   "author": "TREST",
+   "author_role": null,
+   "content": "Убрано",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

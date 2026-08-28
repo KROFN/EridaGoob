@@ -1,0 +1,48 @@
+{
+ "thread_id": "1365635201849626745",
+ "title": "Синие спрайты СБ",
+ "author": {
+  "id": "607149780577026058",
+  "username": "mullku",
+  "global_name": "mulku",
+  "server_nick": null,
+  "display": "mulku"
+ },
+ "created_at": "2025-04-26T10:26:44.396Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 1,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1365635201849626745",
+  "date": "2025-04-26T10:26:44.396000+00:00",
+  "author": "mulku",
+  "author_role": null,
+  "content": "",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1365635202000355348",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

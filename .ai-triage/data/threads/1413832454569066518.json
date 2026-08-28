@@ -1,0 +1,99 @@
+{
+ "thread_id": "1413832454569066518",
+ "title": "декали",
+ "author": {
+  "id": "1251925458426003487",
+  "username": "bahamutichka",
+  "global_name": "Elgard",
+  "server_nick": null,
+  "display": "Elgard"
+ },
+ "created_at": "2025-09-06T10:25:24.906Z",
+ "archived": true,
+ "tags": [
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1377371306470801439"
+ ],
+ "message_count": 6,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1413832454569066518",
+  "date": "2025-09-06T10:25:24.906000+00:00",
+  "author": "Elgard",
+  "author_role": null,
+  "content": "ну видимо много где декали наебнулись.\nСкрин конкретно на боксе в отбытии.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1413832455244218478",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1413833056296370258",
+   "date": "2025-09-06T10:27:48.369000+00:00",
+   "author": "Кристина",
+   "author_role": null,
+   "content": "Уже фыксим это",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413844355390898319",
+   "date": "2025-09-06T11:12:42.283000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "ХАХАХАХАХАХХА",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413844387942629507",
+   "date": "2025-09-06T11:12:50.044000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Это тип рисовал графити",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413844404921176125",
+   "date": "2025-09-06T11:12:54.092000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Не волнуйтесь",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413844621850579095",
+   "date": "2025-09-06T11:13:45.812000+00:00",
+   "author": "Elgard",
+   "author_role": null,
+   "content": "https://tenor.com/view/cat-side-eye-gif-5016118126108679217",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

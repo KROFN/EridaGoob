@@ -1,0 +1,59 @@
+{
+ "thread_id": "1366046616569647155",
+ "title": "Скафандр утилизатора",
+ "author": {
+  "id": "705396325373706401",
+  "username": "bestopelemesiko",
+  "global_name": "BP",
+  "server_nick": null,
+  "display": "BP"
+ },
+ "created_at": "2025-04-27T13:41:33.309Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 2,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1366046616569647155",
+  "date": "2025-04-27T13:41:33.309000+00:00",
+  "author": "BP",
+  "author_role": null,
+  "content": "Багует шлем скафандра, нету спрайта. (лёгкий скафандр утилизатора).",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1366046616854990858",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1366066133815529575",
+   "date": "2025-04-27T14:59:06.583000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "Error",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

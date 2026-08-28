@@ -1,0 +1,71 @@
+{
+ "thread_id": "1367123372160323656",
+ "title": "Most critical bug ever! (Не критично.)",
+ "author": {
+  "id": "885573301689270283",
+  "username": "yourtiredtripsitter",
+  "global_name": "Трип-Ситтер",
+  "server_nick": null,
+  "display": "Трип-Ситтер"
+ },
+ "created_at": "2025-04-30T13:00:11.847Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 3,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1367123372378423346_2025-04-30_160001.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1367123372160323656",
+  "date": "2025-04-30T13:00:11.847000+00:00",
+  "author": "Трип-Ситтер",
+  "author_role": null,
+  "content": "На карте Aspid на кухне лампочка стоит прямо у стойки, а не у стены.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1367123372378423346",
+    "filename": "2025-04-30_160001.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1367123372160323656/1367123372378423346_2025-04-30_160001.png"
+   }
+  ],
+  "reactions": [
+   "⭐:1"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1367163519405133927",
+   "date": "2025-04-30T15:39:43.696000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "Инженеров не учи",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1367250448800677939",
+   "date": "2025-04-30T21:25:09.279000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "Так это специально, она под столом вверх светит, но ты просто не видишь",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [
+  "Aspid"
+ ],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

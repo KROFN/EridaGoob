@@ -1,0 +1,71 @@
+{
+ "thread_id": "1449886229574451210",
+ "title": "Некорректное отображение",
+ "author": {
+  "id": "508304025385697310",
+  "username": "foramen",
+  "global_name": "Относительность",
+  "server_nick": null,
+  "display": "Относительность"
+ },
+ "created_at": "2025-12-14T22:10:14.714Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 3,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1449886229574451210",
+  "date": "2025-12-14T22:10:14.714000+00:00",
+  "author": "Относительность",
+  "author_role": null,
+  "content": "Шлюзы синдиката при их открытии содержат текстурку еррора",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1449886229960200292",
+    "filename": "20251215010420_1.jpg",
+    "content_type": "image/jpeg",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1450062818987610185",
+   "date": "2025-12-15T09:51:56.911000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "исправлю",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1450372625628139611",
+   "date": "2025-12-16T06:23:00.570000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "https://discord.com/channels/1357728304710422680/1357728313195499719/1450369518080626748",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

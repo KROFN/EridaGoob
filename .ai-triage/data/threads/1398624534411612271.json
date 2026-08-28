@@ -1,0 +1,97 @@
+{
+ "thread_id": "1398624534411612271",
+ "title": "Почетная курточка интек",
+ "author": {
+  "id": "815065230643036171",
+  "username": "dark_night3688",
+  "global_name": "Dark Night",
+  "server_nick": null,
+  "display": "Dark Night"
+ },
+ "created_at": "2025-07-26T11:14:34.191Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 6,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1398624534604812308_2025-07-26_140305.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1398624534411612271",
+  "date": "2025-07-26T11:14:34.191000+00:00",
+  "author": "Dark Night",
+  "author_role": null,
+  "content": "не указаны  в \"показатели брони\" какие части тела защищает",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1398624534604812308",
+    "filename": "2025-07-26_140305.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1398624534411612271/1398624534604812308_2025-07-26_140305.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1398624787034542140",
+   "date": "2025-07-26T11:15:34.421000+00:00",
+   "author": "Tommy Win",
+   "author_role": null,
+   "content": "Аналогично с тренчом ГСБ",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1400782648682741770",
+   "date": "2025-08-01T10:10:08.729000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "все защищает",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1400782657431797830",
+   "date": "2025-08-01T10:10:10.815000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "даже голову",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1400790209590853663",
+   "date": "2025-08-01T10:40:11.390000+00:00",
+   "author": "EvillChet",
+   "author_role": null,
+   "content": "Кстати да....забыл проверить. Надо будет. Если так то....надо будет исправлять",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1402611207466389537",
+   "date": "2025-08-06T11:16:11.116000+00:00",
+   "author": "zlobryash⁴²",
+   "author_role": null,
+   "content": "имба получается",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

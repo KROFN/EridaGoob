@@ -1,0 +1,67 @@
+{
+ "thread_id": "1368872733877731388",
+ "title": "Неизвестный - без названия в лодауте смотрилы",
+ "author": {
+  "id": "260025999968698368",
+  "username": "helaframe",
+  "global_name": "helaframe",
+  "server_nick": null,
+  "display": "helaframe"
+ },
+ "created_at": "2025-05-05T08:51:32.182Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 3,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1368872734255349770_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1368872733877731388",
+  "date": "2025-05-05T08:51:32.182000+00:00",
+  "author": "helaframe",
+  "author_role": null,
+  "content": "Собсна, в разделе табельного оружия лодаута смотрилы ( а также офицера и гсб ) вот это:",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1368872734255349770",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1368872733877731388/1368872734255349770_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1368875227446251671",
+   "date": "2025-05-05T09:01:26.695000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "то же самое и у гсбухи",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1368902500593176576",
+   "date": "2025-05-05T10:49:49.120000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "Это на конфедерацию, вроде уже писали что слетел лодаут",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

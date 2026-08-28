@@ -1,0 +1,151 @@
+{
+ "thread_id": "1414901824212697190",
+ "title": "Спрайт аномальных способностей в хотбаре",
+ "author": {
+  "id": "1048223137516490752",
+  "username": "bebroboid",
+  "global_name": "bebrus",
+  "server_nick": null,
+  "display": "bebrus"
+ },
+ "created_at": "2025-09-09T09:14:42.497Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 11,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1414901824212697190",
+  "date": "2025-09-09T09:14:42.497000+00:00",
+  "author": "bebrus",
+  "author_role": null,
+  "content": "его нет",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1414901825127059528",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1414901956702371851",
+   "date": "2025-09-09T09:15:14.085000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "А какого фига оно вообще существует",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414901966592806973",
+   "date": "2025-09-09T09:15:16.443000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Странно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414902004609716254",
+   "date": "2025-09-09T09:15:25.507000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Я уберу",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414902049681707150",
+   "date": "2025-09-09T09:15:36.253000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Это у шадовкинов?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414902094078672926",
+   "date": "2025-09-09T09:15:46.838000+00:00",
+   "author": "bebrus",
+   "author_role": null,
+   "content": "аномальная инфекция",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414902104299933736",
+   "date": "2025-09-09T09:15:49.275000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "А, бля",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414902110373285909",
+   "date": "2025-09-09T09:15:50.723000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Точно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414902186126868561",
+   "date": "2025-09-09T09:16:08.784000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Это исправим",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414902201926815765",
+   "date": "2025-09-09T09:16:12.551000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Это не сложно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414902224730980444",
+   "date": "2025-09-09T09:16:17.988000+00:00",
+   "author": "bebrus",
+   "author_role": null,
+   "content": "воплне возможно там должен был быть старый розовый спрайт пиро аномы",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

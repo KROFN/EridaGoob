@@ -1,0 +1,53 @@
+{
+ "thread_id": "1453499614710857729",
+ "title": "Нианы 2.0",
+ "author": {
+  "id": "985865268070850560",
+  "username": "oggatfake",
+  "global_name": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ",
+  "server_nick": null,
+  "display": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ"
+ },
+ "created_at": "2025-12-24T21:28:32.864Z",
+ "archived": true,
+ "tags": [
+  "Незначительный",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1466802797327421512",
+  "1414266059208265799"
+ ],
+ "message_count": 2,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1453499614710857729",
+  "date": "2025-12-24T21:28:32.864000+00:00",
+  "author": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ",
+  "author_role": null,
+  "content": "Некоторое нижнее белье ( ноги ) имеют не корректные спрайты. То есть они выглядывают из под комбенизонов и ботинок",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1454019883506339932",
+   "date": "2025-12-26T07:55:54.611000+00:00",
+   "author": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ",
+   "author_role": null,
+   "content": "<@459666212025270287> прости за пинг, но просто уже 2 дня висит. И никто даже не читал",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

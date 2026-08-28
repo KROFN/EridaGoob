@@ -1,0 +1,464 @@
+{
+ "thread_id": "1540061285029257266",
+ "title": "Баги перехода на губы",
+ "author": {
+  "id": "535076336260349963",
+  "username": "stingray_jill",
+  "global_name": "Σ Ξ ✦ Jill Stingray",
+  "server_nick": null,
+  "display": "Σ Ξ ✦ Jill Stingray"
+ },
+ "created_at": "2026-08-20T18:13:43.306Z",
+ "archived": false,
+ "tags": [
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1507775251998838925"
+ ],
+ "message_count": 378,
+ "attachment_count": 81,
+ "attachments_on_disk": [
+  "1540062781569634344_image.png",
+  "1540067690922901504_image.png",
+  "1540067691425960056_image.png",
+  "1540069769330565120_image.png",
+  "1540074412097671248_image.png",
+  "1540074918627123350_image.png",
+  "1540075643184750593_image.png",
+  "1540076196740735107_image.png",
+  "1540076941938524180_image.png",
+  "1540091171840327680_image.png",
+  "1540095486692958379_image.png",
+  "1540095487191814214_image.png",
+  "1540095487607054456_image.png",
+  "1540095487967891536_image.png",
+  "1540099254943744020_image.png",
+  "1540100297165377548_image.png",
+  "1540124998071492758_image.png",
+  "1540249359290208266_image.png",
+  "1540256266709106688_image.png",
+  "1540256267124211802_image.png",
+  "1540256267505766511_image.png",
+  "1540256267845509130_image.png",
+  "1540256972333514802_image.png",
+  "1540256972677320817_image.png",
+  "1540264660513595412_image.png",
+  "1540265653649281085_image.png",
+  "1540295461737336842_image.png",
+  "1540320117861257287_image.png",
+  "1540383901162274836_image.png",
+  "1540441669864788109_image.png",
+  "1540687387695259708_image.png",
+  "1540762840095264779_image.png",
+  "1540976300267806730_image.png",
+  "1540981063394795610_image.png",
+  "1541002603188715540_image.png",
+  "1541114738946215947_image.png",
+  "1541168525870235648_image.png",
+  "1541172506453348392_image.png",
+  "1541185821472858122_image.png",
+  "1541188390215622817_image.png",
+  "1541191097890373683_image.png",
+  "1541191240144658522_image.png",
+  "1541196606882316441_image.png",
+  "1541196607200952350_image.png",
+  "1541208553908478003_image.png",
+  "1541395412621987874_image.png",
+  "1541395413402263562_image.png",
+  "1541404678989021266_image.png",
+  "1541404679303336017_image.png",
+  "1541482104649678928_image.png",
+  "1541491737904807966_image.png",
+  "1541491738366189588_image.png",
+  "1541494829224173669_image.png",
+  "1541504023184543764_image.png",
+  "1541635199979229314_image.png",
+  "1541635297517899827_2026-08-25_052804.png",
+  "1541635297819754597_2026-08-25_052809.png",
+  "1541635544956665886_image.png",
+  "1541673202734993468_32134.png",
+  "1541806127719649350_image.png",
+  "1541849219684368404_image.png",
+  "1541849220095676477_image.png",
+  "1541901384881012796_image.png",
+  "1541901385313030285_image.png",
+  "1541901385711493120_image.png",
+  "1541901386327793737_image.png",
+  "1541901386864918568_image.png",
+  "1541901387347132506_image.png",
+  "1542230505913851964_image.png",
+  "1542231589591851119_image.png",
+  "1542232441245278310_image.png",
+  "1542232648490025132_image.png",
+  "1542234858384920617_image.png",
+  "1542510978263023718_image.png",
+  "1542565060629762048_image.png",
+  "1542578722903695450_322.png",
+  "1542586555997093998_image.png",
+  "1542614547586744420_image.png",
+  "1542614608445968474_image.png",
+  "1542614683339464704_image.png",
+  "1542614915557097482_image.png"
+ ],
+ "external_media_files": [
+  "external_1540061285029257266_01.jpeg",
+  "external_1540061807194939443_01.jpeg"
+ ],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1540061285029257266",
+  "date": "2026-08-20T18:13:43.306000+00:00",
+  "author": "Σ Ξ ✦ Jill Stingray",
+  "author_role": null,
+  "content": "Сюда скидываем все баги что нашли после перехода на губы.\nЯ начну: https://i.imgur.com/FknW5pQ.jpeg",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": [
+   "⌛:1"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1540069769275904114",
+   "date": "2026-08-20T18:47:26.108000+00:00",
+   "author": "𝓓𝓸𝓬𝓽𝓸𝓻 𝓑. 𝓒𝓱𝓪𝓸𝓼",
+   "author_role": null,
+   "content": "после подбора руды у сумки текстура ломается. (Я долбаёб, так как не заметил первое соо, да и в целом билд говно)",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1540069769330565120",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1540061285029257266/1540069769330565120_image.png"
+    }
+   ],
+   "reactions": [
+    "✅:1"
+   ]
+  },
+  {
+   "id": "1540249359407513631",
+   "date": "2026-08-21T06:41:03.732000+00:00",
+   "author": "Parodist",
+   "author_role": null,
+   "content": "не работает консоль абдуктора, маячок поставил а телепортировать не вышло человека",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1540249359290208266",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1540061285029257266/1540249359290208266_image.png"
+    }
+   ],
+   "reactions": [
+    "⌛:1"
+   ]
+  },
+  {
+   "id": "1540256268214734888",
+   "date": "2026-08-21T07:08:30.920000+00:00",
+   "author": "Parodist",
+   "author_role": null,
+   "content": "строка поиска не находит если спустится ниже или выше предмета поиска",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1540256266709106688",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1540061285029257266/1540256266709106688_image.png"
+    },
+    {
+     "id": "1540256267124211802",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "downloaded",
+     "local_path": "attachments/1540061285029257266/1540256267124211802_image.png"
+    },
+    {
+     "id": "1540256267505766511",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1540061285029257266/1540256267505766511_image.png"
+    },
+    {
+     "id": "1540256267845509130",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "downloaded",
+     "local_path": "attachments/1540061285029257266/1540256267845509130_image.png"
+    }
+   ],
+   "reactions": [
+    "⌛:1"
+   ]
+  },
+  {
+   "id": "1540441670271766669",
+   "date": "2026-08-21T19:25:14.215000+00:00",
+   "author": "KiritoCun",
+   "author_role": null,
+   "content": "при изменении роста и ширины у людей и кастомных рас, ничего не меняется и остаётся рост вроде средний, либо маленький самый",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1540441669864788109",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1540061285029257266/1540441669864788109_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1541172506768179290",
+   "date": "2026-08-23T19:49:19.214000+00:00",
+   "author": "Anilori <3",
+   "author_role": null,
+   "content": "РСУ атмоса криво ставит механизмы по типу радиков и насосов.. мб ещё чето ПРОСТОЕ РСУ ТОЖЕ",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1541172506453348392",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1540061285029257266/1541172506453348392_image.png"
+    }
+   ],
+   "reactions": [
+    "✅:1"
+   ]
+  },
+  {
+   "id": "1541185821514928181",
+   "date": "2026-08-23T20:42:13.697000+00:00",
+   "author": "Anilori <3",
+   "author_role": null,
+   "content": "Просто блять Нос сожрало модсьютом, противогазом, хз чем... Носа нету",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1541185821472858122",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1540061285029257266/1541185821472858122_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1541208554487156886",
+   "date": "2026-08-23T22:12:33.660000+00:00",
+   "author": "MonTrius",
+   "author_role": null,
+   "content": "Если разработчики не могут ставить эти теги (скр. 1), то это удивляет меня, так как это самое удобное что есть...\nА теряться не будут, где можно посмотреть по \"В процессе\" или по сортировке \"Дата публикации\".",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1541208553908478003",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "downloaded",
+     "local_path": "attachments/1540061285029257266/1541208553908478003_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1541395414102839346",
+   "date": "2026-08-24T10:35:04.464000+00:00",
+   "author": "Yuika",
+   "author_role": null,
+   "content": "Короче, с станции факсы отправляются только на факс ОСО, лол. А до этого не каждый дойдет. На второй, что на пикче - не отправляются",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1541395412621987874",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "downloaded",
+     "local_path": "attachments/1540061285029257266/1541395412621987874_image.png"
+    },
+    {
+     "id": "1541395413402263562",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1540061285029257266/1541395413402263562_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1541482105077366864",
+   "date": "2026-08-24T16:19:33.203000+00:00",
+   "author": "Anilori <3",
+   "author_role": null,
+   "content": "т.к. гидракины не могут иметь волос, то и удалить волосы у них не возможно если они стоково/при смене рассыы",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1541482104649678928",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "downloaded",
+     "local_path": "attachments/1540061285029257266/1541482104649678928_image.png"
+    }
+   ],
+   "reactions": [
+    "⌛:1"
+   ]
+  },
+  {
+   "id": "1541504023503568917",
+   "date": "2026-08-24T17:46:38.963000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "если на тенеморфе нажать открытие инвенторя одежды произойдёт это",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1541504023184543764",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1540061285029257266/1541504023184543764_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1541806128122429532",
+   "date": "2026-08-25T13:47:06.317000+00:00",
+   "author": "Parodist",
+   "author_role": null,
+   "content": "Иногда шаттл проходит сквозь станцию и при стыковке это... + встряска всем на станции",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1541806127719649350",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1540061285029257266/1541806127719649350_image.png"
+    }
+   ],
+   "reactions": [
+    "🥹:2"
+   ]
+  },
+  {
+   "id": "1541901387917697074",
+   "date": "2026-08-25T20:05:38.022000+00:00",
+   "author": "KiritoCun",
+   "author_role": null,
+   "content": "1. При вставке печати ПНТ на бумаге появляется еррор.\n2. После покупки идёт таймер, либо кд, либо восстановление. Но по его окончанию ничего не происходит.\n3. При написании эмоции моргания либо blink нету культового звука.\n4. При надевании шлемов(как минимум с эльф. ушами) они выпирают из скафа.\n5. У ПНТ нету нижнего белья ( не то чтобы минус но...)\n6. Добавьте больше плащей, хотя-бы синий или другой зелёный для пнт(типо вещей из шкафа ЦК на СЦК)",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1541901384881012796",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1540061285029257266/1541901384881012796_image.png"
+    },
+    {
+     "id": "1541901385313030285",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1540061285029257266/1541901385313030285_image.png"
+    },
+    {
+     "id": "1541901385711493120",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1540061285029257266/1541901385711493120_image.png"
+    },
+    {
+     "id": "1541901386327793737",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1540061285029257266/1541901386327793737_image.png"
+    },
+    {
+     "id": "1541901386864918568",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1540061285029257266/1541901386864918568_image.png"
+    },
+    {
+     "id": "1541901387347132506",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1540061285029257266/1541901387347132506_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1542232441568366733",
+   "date": "2026-08-26T18:01:07.363000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "кадило сломано, сколько бы ты его не пополнял топливом, он пополняет, но не засчитывает это и показывает что уровень \"0\", от чего и зажечь нельзя, хотя внутри него есть топливо",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1542232441245278310",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1540061285029257266/1542232441245278310_image.png"
+    }
+   ],
+   "reactions": [
+    "🥹:1"
+   ]
+  },
+  {
+   "id": "1542565061011308544",
+   "date": "2026-08-27T16:02:50.018000+00:00",
+   "author": "KiritoCun",
+   "author_role": null,
+   "content": "Рост реально влияет и это не пофиксить даже лёжа. Высокие персы не могу пройти в такие двери",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1542565060629762048",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1540061285029257266/1542565060629762048_image.png"
+    }
+   ],
+   "reactions": [
+    "🥹:2",
+    "cat_ahahahahahaha:2"
+   ]
+  }
+ ],
+ "mentions": [
+  "FknW5pQ.jpeg",
+  "https",
+  "i.imgur.com"
+ ],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

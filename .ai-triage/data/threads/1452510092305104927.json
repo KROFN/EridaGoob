@@ -1,0 +1,185 @@
+{
+ "thread_id": "1452510092305104927",
+ "title": "У унатхов нет волос.",
+ "author": {
+  "id": "551403326948900881",
+  "username": "maasarie",
+  "global_name": "maasarie",
+  "server_nick": null,
+  "display": "maasarie"
+ },
+ "created_at": "2025-12-22T03:56:32.338Z",
+ "archived": true,
+ "tags": [
+  "Незначительный",
+  "В процессе",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1466802797327421512",
+  "1365427658288005150",
+  "1414266059208265799"
+ ],
+ "message_count": 14,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1452510092539728055_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1452510092305104927",
+  "date": "2025-12-22T03:56:32.338000+00:00",
+  "author": "maasarie",
+  "author_role": null,
+  "content": "в редакторе не показываются их волосы",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1452510092539728055",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1452510092305104927/1452510092539728055_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1452511098132631664",
+   "date": "2025-12-22T04:00:32.146000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "ну, короче тут везде проблемы с этим",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452511143435304970",
+   "date": "2025-12-22T04:00:42.947000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "У аркан выбор другого хвоста довольно проблематичен",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452552912902426769",
+   "date": "2025-12-22T06:46:41.564000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "У аркан он не подразумевается",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452553068334809214",
+   "date": "2025-12-22T06:47:18.622000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Остались расы, для которых фактически выбор определённых маркингов заблокирован или почти невозможен",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452553123129331825",
+   "date": "2025-12-22T06:47:31.686000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Как уши/хвост феллинидов",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452553252490055883",
+   "date": "2025-12-22T06:48:02.528000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Я не добавлял им лейер, де факто. Но сделаю сегодня",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452554141959196765",
+   "date": "2025-12-22T06:51:34.594000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "кстати, у шадоукинов тоже",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452554184212742285",
+   "date": "2025-12-22T06:51:44.668000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Им не нужно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452554261098528828",
+   "date": "2025-12-22T06:52:02.999000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "На них волосы не налезут",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452554291112837220",
+   "date": "2025-12-22T06:52:10.155000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Если правильно помню",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452554337413894286",
+   "date": "2025-12-22T06:52:21.194000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "А если налезут, будут выглядеть уродливо",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452556014003163279",
+   "date": "2025-12-22T06:59:00.924000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "а да",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452556024857755764",
+   "date": "2025-12-22T06:59:03.512000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "моделька другая",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

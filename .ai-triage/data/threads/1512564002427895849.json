@@ -1,0 +1,143 @@
+{
+ "thread_id": "1512564002427895849",
+ "title": "Бронежилет ОСЩа",
+ "author": {
+  "id": "519571879938228234",
+  "username": "i_amigo_i3075",
+  "global_name": "I_AmigO_I",
+  "server_nick": null,
+  "display": "I_AmigO_I"
+ },
+ "created_at": "2026-06-05T21:09:20.259Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1507775251998838925"
+ ],
+ "message_count": 11,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": true,
+ "root_message": {
+  "id": "1512564002427895849",
+  "date": "2026-06-05T21:09:20.259000+00:00",
+  "author": "I_AmigO_I",
+  "author_role": null,
+  "content": "Халату ОСЩа характеристики подняли, а бронежилет остался с прежними",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1512569662100082898",
+   "date": "2026-06-05T21:31:49.630000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Ну сколько можно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1512569695134421022",
+   "date": "2026-06-05T21:31:57.506000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Завтра",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1512671469925306428",
+   "date": "2026-06-06T04:16:22.507000+00:00",
+   "author": "Хаос",
+   "author_role": null,
+   "content": "Когда-то",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1512708159553404999",
+   "date": "2026-06-06T06:42:09.996000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "мы подумаем над его кевларовыми бронепластинами",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1512731059991613561",
+   "date": "2026-06-06T08:13:09.886000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "Завтра в три",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1513547968534417559",
+   "date": "2026-06-08T14:19:16.060000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "КСТАТИ рпс тоже не защищает химикаты, бак рядом взорвался, и их убило всё равно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1515076398136430775",
+   "date": "2026-06-12T19:32:42.074000+00:00",
+   "author": "Boroven",
+   "author_role": null,
+   "content": "вот ведь дерьмо...",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1518984940807524496",
+   "date": "2026-06-23T14:23:51.264000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Да",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1519040273676763258",
+   "date": "2026-06-23T18:03:43.648000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "PR -> fixed",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1519266306229014610",
+   "date": "2026-06-24T09:01:54.008000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "fixed",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

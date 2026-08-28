@@ -1,0 +1,81 @@
+{
+ "thread_id": "1502364788683046953",
+ "title": "Изучения",
+ "author": {
+  "id": "781926746622525500",
+  "username": "lo_finya",
+  "global_name": "Lo_Fi",
+  "server_nick": null,
+  "display": "Lo_Fi"
+ },
+ "created_at": "2026-05-08T17:41:18.210Z",
+ "archived": true,
+ "tags": [
+  "Дискорд-Бот"
+ ],
+ "tag_ids": [
+  "1414265921488289995"
+ ],
+ "message_count": 4,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1502364789740146879_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1502364788683046953",
+  "date": "2026-05-08T17:41:18.210000+00:00",
+  "author": "Lo_Fi",
+  "author_role": null,
+  "content": "Изучение \"Гидропоника\" дублируется на принтер схем, позволяя печатать на нем много чего веселого, что там быть не должно. Столкнулся в раунде, воспроизведено на АА",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1502364789740146879",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1502364788683046953/1502364789740146879_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1502368305321742368",
+   "date": "2026-05-08T17:55:16.642000+00:00",
+   "author": "vanomorodellefake",
+   "author_role": null,
+   "content": "баг дискорд бота, интересно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1502373238049607821",
+   "date": "2026-05-08T18:14:52.696000+00:00",
+   "author": "Lo_Fi",
+   "author_role": null,
+   "content": "А нету тегов",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1502373240092233728",
+   "date": "2026-05-08T18:14:53.183000+00:00",
+   "author": "Lo_Fi",
+   "author_role": null,
+   "content": "Увы",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

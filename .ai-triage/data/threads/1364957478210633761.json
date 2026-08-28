@@ -1,0 +1,175 @@
+{
+ "thread_id": "1364957478210633761",
+ "title": "Маленький визуальный баг.",
+ "author": {
+  "id": "602522829656948747",
+  "username": "dark_revenge",
+  "global_name": "𝔗𝔥𝔞𝔲𝔪𝔦𝔢𝔩  𝔚𝔞𝔯𝔩𝔬𝔯𝔡",
+  "server_nick": null,
+  "display": "𝔗𝔥𝔞𝔲𝔪𝔦𝔢𝔩  𝔚𝔞𝔯𝔩𝔬𝔯𝔡"
+ },
+ "created_at": "2025-04-24T13:33:42.489Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 12,
+ "attachment_count": 3,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1364957478210633761",
+  "date": "2025-04-24T13:33:42.489000+00:00",
+  "author": "𝔗𝔥𝔞𝔲𝔪𝔦𝔢𝔩  𝔚𝔞𝔯𝔩𝔬𝔯𝔡",
+  "author_role": null,
+  "content": "Играл за расу Шадовкин и заметил малый визуальный баг в меню состояния тела.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1364957478890242098",
+    "filename": "2025-04-24_182503.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1364957616903553044",
+   "date": "2025-04-24T13:34:15.556000+00:00",
+   "author": "𝔗𝔥𝔞𝔲𝔪𝔦𝔢𝔩  𝔚𝔞𝔯𝔩𝔬𝔯𝔡",
+   "author_role": null,
+   "content": "левая рука-нормально",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1364957616635383808",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1364957699179286678",
+   "date": "2025-04-24T13:34:35.172000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "а че где",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1364957710579142707",
+   "date": "2025-04-24T13:34:37.890000+00:00",
+   "author": "𝔗𝔥𝔞𝔲𝔪𝔦𝔢𝔩  𝔚𝔞𝔯𝔩𝔬𝔯𝔡",
+   "author_role": null,
+   "content": "правая: вот",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1364957710189068379",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1364957726979133542",
+   "date": "2025-04-24T13:34:41.800000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "АХХАХА",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1364957799640993843",
+   "date": "2025-04-24T13:34:59.124000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "ахуенно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1364957815055192154",
+   "date": "2025-04-24T13:35:02.799000+00:00",
+   "author": "𝔗𝔥𝔞𝔲𝔪𝔦𝔢𝔩  𝔚𝔞𝔯𝔩𝔬𝔯𝔡",
+   "author_role": null,
+   "content": "+",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1364958130299080715",
+   "date": "2025-04-24T13:36:17.959000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "Текстуру не завезли",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1364958137924452392",
+   "date": "2025-04-24T13:36:19.777000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "<:s_PoZiTiFfFcHiK:1358052086872281169>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1364964848416587787",
+   "date": "2025-04-24T14:02:59.683000+00:00",
+   "author": "Инспектор Jeleshka",
+   "author_role": null,
+   "content": "Еррор",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365019906239893585",
+   "date": "2025-04-24T17:41:46.491000+00:00",
+   "author": "TREST",
+   "author_role": null,
+   "content": "АХАХА",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365292399160459335",
+   "date": "2025-04-25T11:44:33.866000+00:00",
+   "author": "TREST",
+   "author_role": null,
+   "content": "Исправлено",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

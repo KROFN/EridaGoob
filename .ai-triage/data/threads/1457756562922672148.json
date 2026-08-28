@@ -1,0 +1,199 @@
+{
+ "thread_id": "1457756562922672148",
+ "title": "спрайт КПК грузчиков и английский",
+ "author": {
+  "id": "949070562779607060",
+  "username": "whywhywhywhywhywhywhywhyyy",
+  "global_name": "the Hope of the shattered Ones",
+  "server_nick": null,
+  "display": "the Hope of the shattered Ones"
+ },
+ "created_at": "2026-01-05T15:24:08.408Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799",
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1414266059208265799",
+  "1377371306470801439"
+ ],
+ "message_count": 15,
+ "attachment_count": 2,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1457756562922672148",
+  "date": "2026-01-05T15:24:08.408000+00:00",
+  "author": "the Hope of the shattered Ones",
+  "author_role": null,
+  "content": "КПК \"профессионального\" грузчика имеет старый спрайт и не переведен на русский язык",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1457756563237503038",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1457756688806445280",
+   "date": "2026-01-05T15:24:38.421000+00:00",
+   "author": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ",
+   "author_role": null,
+   "content": "фича",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1457756754191454411",
+   "date": "2026-01-05T15:24:54.010000+00:00",
+   "author": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ",
+   "author_role": null,
+   "content": "старый грузчик на то и старый",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1457757071800799417",
+   "date": "2026-01-05T15:26:09.734000+00:00",
+   "author": "the Hope of the shattered Ones",
+   "author_role": null,
+   "content": "причем тут слово старый",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1457758706333647143",
+   "date": "2026-01-05T15:32:39.437000+00:00",
+   "author": "the Hope of the shattered Ones",
+   "author_role": null,
+   "content": "прекрати дезинфу вкидывать",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1457758706077798602",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1457758775070032004",
+   "date": "2026-01-05T15:32:55.825000+00:00",
+   "author": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ",
+   "author_role": null,
+   "content": "я видел шаттл интек",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1457758813729067165",
+   "date": "2026-01-05T15:33:05.042000+00:00",
+   "author": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ",
+   "author_role": null,
+   "content": "соло опера",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1457758892237787262",
+   "date": "2026-01-05T15:33:23.760000+00:00",
+   "author": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ",
+   "author_role": null,
+   "content": "я не ебу почему там синдикатовский появился",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1457758991890382956",
+   "date": "2026-01-05T15:33:47.519000+00:00",
+   "author": "the Hope of the shattered Ones",
+   "author_role": null,
+   "content": "ну так не пиши ничего, если не понимаешь о чем речь",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1457760530327666975",
+   "date": "2026-01-05T15:39:54.311000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "Вау",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1457760580940075009",
+   "date": "2026-01-05T15:40:06.378000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "кажется это для спрайтеров хмммммм<:a_oww:1323952687443738674>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1458058770872537285",
+   "date": "2026-01-06T11:25:00.398000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Сможешь нарисовать?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1458058789721870387",
+   "date": "2026-01-06T11:25:04.892000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "<:s_go_erp:1362356992425066556>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1458063651054555189",
+   "date": "2026-01-06T11:44:23.924000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "ну, честно, меня особо не обучали этому. Если в лс скинешь спрайт кпк грузчика, то могу попробовать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1458063740208545882",
+   "date": "2026-01-06T11:44:45.180000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "я щас более ориентируюсь на спрайты косметические",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

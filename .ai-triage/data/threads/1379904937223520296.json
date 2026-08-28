@@ -1,0 +1,190 @@
+{
+ "thread_id": "1379904937223520296",
+ "title": "Баг с юбкой-комбинезоном и хвостами",
+ "author": {
+  "id": "597713048312086528",
+  "username": "jickson900",
+  "global_name": "Звезда лисы",
+  "server_nick": null,
+  "display": "Звезда лисы"
+ },
+ "created_at": "2025-06-04T19:29:34.428Z",
+ "archived": true,
+ "tags": [
+  "В процессе"
+ ],
+ "tag_ids": [
+  "1365427658288005150"
+ ],
+ "message_count": 14,
+ "attachment_count": 2,
+ "attachments_on_disk": [
+  "1379904937646882917_image.png",
+  "1380230807922409604_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1379904937223520296",
+  "date": "2025-06-04T19:29:34.428000+00:00",
+  "author": "Звезда лисы",
+  "author_role": null,
+  "content": "Юбка-комбинезон. Сделайти их поверх хвостов.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1379904937646882917",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1379904937223520296/1379904937646882917_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1380178291436290099",
+   "date": "2025-06-05T13:35:47.151000+00:00",
+   "author": "Уm0liSh3Ni3",
+   "author_role": null,
+   "content": "Тут вроде дело в спрайте хвоста а не в юбке",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1380208089525129236",
+   "date": "2025-06-05T15:34:11.569000+00:00",
+   "author": "BP",
+   "author_role": null,
+   "content": "чтобы такого не было, нужно хвост редактировать под юбку, но тогда при обычном комбезе, этот хвост будет выглядеть очень странно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1380230635834052698",
+   "date": "2025-06-05T17:03:47.028000+00:00",
+   "author": "Звезда лисы",
+   "author_role": null,
+   "content": "Сжелать хвост на задний слой.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1380230808219943023",
+   "date": "2025-06-05T17:04:28.128000+00:00",
+   "author": "Звезда лисы",
+   "author_role": null,
+   "content": "Хоть я и не програмист, но я вижу это примерно так.",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1380230807922409604",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "downloaded",
+     "local_path": "attachments/1379904937223520296/1380230807922409604_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1380230918316232715",
+   "date": "2025-06-05T17:04:54.377000+00:00",
+   "author": "Звезда лисы",
+   "author_role": null,
+   "content": "На номера не обращайте внимания - это так вышло.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1380230931255656540",
+   "date": "2025-06-05T17:04:57.462000+00:00",
+   "author": "BP",
+   "author_role": null,
+   "content": "Думаю для этого нужно отдельную функцию писать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1380231012096933918",
+   "date": "2025-06-05T17:05:16.736000+00:00",
+   "author": "Звезда лисы",
+   "author_role": null,
+   "content": "Да.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1380231027162742854",
+   "date": "2025-06-05T17:05:20.328000+00:00",
+   "author": "BP",
+   "author_role": null,
+   "content": "хотя я не смотрел как там этот код написан",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1380231045806428261",
+   "date": "2025-06-05T17:05:24.773000+00:00",
+   "author": "BP",
+   "author_role": null,
+   "content": "может там удобно сделали",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1380231057663721593",
+   "date": "2025-06-05T17:05:27.600000+00:00",
+   "author": "Звезда лисы",
+   "author_role": null,
+   "content": "Ну на ласте такое есть",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1380231120867692644",
+   "date": "2025-06-05T17:05:42.669000+00:00",
+   "author": "Звезда лисы",
+   "author_role": null,
+   "content": "Ну то есть бага нет.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1380231328036814890",
+   "date": "2025-06-05T17:06:32.062000+00:00",
+   "author": "BP",
+   "author_role": null,
+   "content": "Ну я не думаю что это прям сложно сделать, для нормального программиста как минимум",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1380236897355300966",
+   "date": "2025-06-05T17:28:39.891000+00:00",
+   "author": "Звезда лисы",
+   "author_role": null,
+   "content": "Ну надо подождать.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

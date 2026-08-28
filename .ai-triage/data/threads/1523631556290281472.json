@@ -1,0 +1,198 @@
+{
+ "thread_id": "1523631556290281472",
+ "title": "Рост Феленида.",
+ "author": {
+  "id": "930042354071662663",
+  "username": "fapfaputa",
+  "global_name": "faputa",
+  "server_nick": null,
+  "display": "faputa"
+ },
+ "created_at": "2026-07-06T10:07:50.725Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1507775251998838925"
+ ],
+ "message_count": 36,
+ "attachment_count": 2,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": true,
+ "root_message": {
+  "id": "1523631556290281472",
+  "date": "2026-07-06T10:07:50.725000+00:00",
+  "author": "faputa",
+  "author_role": null,
+  "content": "Сейчас зашёл в раунд на фелениде ростом 205 см. Но пройдя метров 50 меня резко откатило на минимальный размер.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1523642671527235615",
+   "date": "2026-07-06T10:52:00.804000+00:00",
+   "author": "faputa",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1523642670797291550",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    },
+    {
+     "id": "1523642671233630310",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1523645082723422228",
+   "date": "2026-07-06T11:01:35.678000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "так у них же вроде был ограниченный рост, чтоб не делали совсем мелких",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1523647223915614298",
+   "date": "2026-07-06T11:10:06.178000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "вообще это баг и с дворфами. У них скачет размер от поставленного до двухметрового",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1523647296754024529",
+   "date": "2026-07-06T11:10:23.544000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "чисто кабан два метра и ширины больше чем кто-либо",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1523653232390574090",
+   "date": "2026-07-06T11:33:58.710000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "ну я хз чё там щас в сборке, просто раньше для них, теневых и птииц этих стояло ограничение и вниз и вверх, поэтому там ваще рост нельзя было поменять. А поставили его из-за того что делали слишком мелких персонажей и была ассоциация на пдф",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1523653325864829019",
+   "date": "2026-07-06T11:34:20.996000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "мейби с этим ограничением что то накосячили",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1523662475189555321",
+   "date": "2026-07-06T12:10:42.365000+00:00",
+   "author": "faputa",
+   "author_role": null,
+   "content": "когда я что либо делаю скорее всего",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1523662526058070078",
+   "date": "2026-07-06T12:10:54.493000+00:00",
+   "author": "faputa",
+   "author_role": null,
+   "content": "Я начал говорить и сразу уменьшился",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1523695855314538556",
+   "date": "2026-07-06T14:23:20.807000+00:00",
+   "author": "MonTrius",
+   "author_role": null,
+   "content": "Интересно как в рп это выглядело",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1523697293725798441",
+   "date": "2026-07-06T14:29:03.751000+00:00",
+   "author": "faputa",
+   "author_role": null,
+   "content": "Просто моментально в 2 раза скукожился",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1524880191221137590",
+   "date": "2026-07-09T20:49:28.491000+00:00",
+   "author": "Wendor",
+   "author_role": null,
+   "content": "Проблема возникает, когда рост выставлен под максимальный (по лимиту), и человек (или любая другая раса) пытается написать в чат спрайт немного увеличивается, из-за чего происходит сброс до \"минимального\".",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1524932671090987168",
+   "date": "2026-07-10T00:18:00.667000+00:00",
+   "author": "faputa",
+   "author_role": null,
+   "content": "Типа у огромных аркан проблем нету",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1527156811382394960",
+   "date": "2026-07-16T03:35:57.035000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "А потому что нечего фелинидов в рельсу превращать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1528731890792661034",
+   "date": "2026-07-20T11:54:45.230000+00:00",
+   "author": "faputa",
+   "author_role": null,
+   "content": "Метка серьёзный это значит сложный в исполнении но процесс исполнения начат?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

@@ -1,0 +1,40 @@
+{
+ "thread_id": "1391687746484965376",
+ "title": "Вампиры хрень",
+ "author": {
+  "id": "543023932991733760",
+  "username": "nainsentropy",
+  "global_name": "NaiN",
+  "server_nick": null,
+  "display": "NaiN"
+ },
+ "created_at": "2025-07-07T07:50:15.070Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 1,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1391687746484965376",
+  "date": "2025-07-07T07:50:15.070000+00:00",
+  "author": "NaiN",
+  "author_role": null,
+  "content": "Не знаю, что сделали с вампирами, но их нахрен сломали! Вампир получает адские ожоги по умолчанию и в темноте, не может пить кровь животных, падает с эпилепсией! Это не играбельно!!! Получать ожоги он начал сразу после спавна, модер/админ ничего внятного не сказал, развел руками и заигнорировал. Спасибо Felikc, мой геймплей был охуенен!",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": [
+   "kreyd:1"
+  ]
+ },
+ "replies": [],
+ "mentions": [
+  "Felikc"
+ ],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

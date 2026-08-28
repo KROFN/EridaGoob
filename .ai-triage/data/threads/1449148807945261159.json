@@ -1,0 +1,111 @@
+{
+ "thread_id": "1449148807945261159",
+ "title": "Коротко о том, как дюпнуть мыло Интека",
+ "author": {
+  "id": "949070562779607060",
+  "username": "whywhywhywhywhywhywhywhyyy",
+  "global_name": "the Hope of the shattered Ones",
+  "server_nick": null,
+  "display": "the Hope of the shattered Ones"
+ },
+ "created_at": "2025-12-12T21:19:59.697Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 7,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1449148807945261159",
+  "date": "2025-12-12T21:19:59.697000+00:00",
+  "author": "the Hope of the shattered Ones",
+  "author_role": null,
+  "content": "Кластерное мыло Скользкопокалипсис Интека не работает как Синдиката - Синдикатовское кидает обмылки, исчезающие через минуту. Интековское же просто раскидывает кучу обычного Интек-мыла... Которое не исчезает.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1449148809299890236",
+    "filename": "2025-12-13_00-17-25.mp4",
+    "content_type": "video/mp4",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1449153562306285811",
+   "date": "2025-12-12T21:38:53.225000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Вообще это дикий рофл",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1449153574734135296",
+   "date": "2025-12-12T21:38:56.188000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Мне это нравилось",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1449169445280026756",
+   "date": "2025-12-12T22:42:00.021000+00:00",
+   "author": "PuroSlavKing",
+   "author_role": null,
+   "content": "Вот это я понимаю бафф",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1449169463092973701",
+   "date": "2025-12-12T22:42:04.268000+00:00",
+   "author": "PuroSlavKing",
+   "author_role": null,
+   "content": "💪",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1449182239077437460",
+   "date": "2025-12-12T23:32:50.300000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Я его давно уже видел, но чего-то забыл о нём",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1449214076314976356",
+   "date": "2025-12-13T01:39:20.889000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Исправил",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

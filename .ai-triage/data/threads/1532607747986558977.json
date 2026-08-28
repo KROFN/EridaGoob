@@ -1,0 +1,217 @@
+{
+ "thread_id": "1532607747986558977",
+ "title": "КПБ и стекло.",
+ "author": {
+  "id": "597713048312086528",
+  "username": "jickson900",
+  "global_name": "Звезда лисы",
+  "server_nick": null,
+  "display": "Звезда лисы"
+ },
+ "created_at": "2026-07-31T04:36:01.595Z",
+ "archived": false,
+ "tags": [
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1507775251998838925"
+ ],
+ "message_count": 52,
+ "attachment_count": 4,
+ "attachments_on_disk": [
+  "1532607748347396116_image.png",
+  "1532607748770889759_image.png",
+  "1532684347440627863_image.png",
+  "1533508645017354250_5A9A97B6-A0C2-4348-B152-22EC50694040.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1532607747986558977",
+  "date": "2026-07-31T04:36:01.595000+00:00",
+  "author": "Звезда лисы",
+  "author_role": null,
+  "content": "Есть у меня подозрения, что такого быть не должно именно у КПБ. Не должно стекло класть кПБ в стамина-крит.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1532607748347396116",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1532607747986558977/1532607748347396116_image.png"
+   },
+   {
+    "id": "1532607748770889759",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1532607747986558977/1532607748770889759_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1532609508000530604",
+   "date": "2026-07-31T04:43:01.215000+00:00",
+   "author": "Звезда лисы",
+   "author_role": null,
+   "content": "Но насчёт стекла - это странно, как и в принципе стамина у КПБ.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1532609767246401729",
+   "date": "2026-07-31T04:44:03.024000+00:00",
+   "author": "Wendor",
+   "author_role": null,
+   "content": "Ну по такой мерке нужно сразу сделать так дабы ну пистолетный калибр не пробивал КПБ",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1532609834229436546",
+   "date": "2026-07-31T04:44:18.994000+00:00",
+   "author": "Wendor",
+   "author_role": null,
+   "content": "С старлайта перенести статическую систему брони которая полностью пули блокирует",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1532684348346863636",
+   "date": "2026-07-31T09:40:24.544000+00:00",
+   "author": "Звезда лисы",
+   "author_role": null,
+   "content": "А ещё это.",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1532684347440627863",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1532607747986558977/1532684347440627863_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1532685586392023112",
+   "date": "2026-07-31T09:45:19.717000+00:00",
+   "author": "Звезда лисы",
+   "author_role": null,
+   "content": "КПБ разве должны получать урон от космоса, со стеклом - понять можно, но мёрзнуть там чему?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1532689197222199446",
+   "date": "2026-07-31T09:59:40.606000+00:00",
+   "author": "Wendor",
+   "author_role": null,
+   "content": "Основным процессорам. Обычный бы компьютер при такой температуре, что приложил ты на скриншоте полностью бы перестал работать из-за аппаратного сбоя. Вот и думай головой",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1532971633399169227",
+   "date": "2026-08-01T04:41:58.638000+00:00",
+   "author": "Витаминка",
+   "author_role": null,
+   "content": "а у нас разве 2026? нет будущее так что логично что дегенераты которые создавали кпб додумались и это закрыть чтобы их скупали массово или делали",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1532971738617610372",
+   "date": "2026-08-01T04:42:23.724000+00:00",
+   "author": "Витаминка",
+   "author_role": null,
+   "content": "это же буквально чистый раб им должно выгодно что он работает и за космосом",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1532972040133415163",
+   "date": "2026-08-01T04:43:35.611000+00:00",
+   "author": "Витаминка",
+   "author_role": null,
+   "content": "https://klipy.com/gifs/deep-rock-galactic-rock-and-stone-3",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1533426811701170176",
+   "date": "2026-08-02T10:50:41.602000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Давай сразу ебанем им годмод, типа очень крутые материалы все дела, а на баланс плевать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1533428618565521519",
+   "date": "2026-08-02T10:57:52.392000+00:00",
+   "author": "Витаминка",
+   "author_role": null,
+   "content": "на баланс всегда было похуй дайте тулбокс и будет вам смерть даже яо в скафандрах и мечах",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1533508645294309486",
+   "date": "2026-08-02T16:15:52.251000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1533508645017354250",
+     "filename": "5A9A97B6-A0C2-4348-B152-22EC50694040.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1532607747986558977/1533508645017354250_5A9A97B6-A0C2-4348-B152-22EC50694040.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1533508691662475294",
+   "date": "2026-08-02T16:16:03.306000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Слаймы наносят боргу Кислотный урон - а его не убрать сваркой",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1534240888044392639",
+   "date": "2026-08-04T16:45:32.527000+00:00",
+   "author": "Витаминка",
+   "author_role": null,
+   "content": "так наоброт корпе выгодно когда работает хуйня которая НЕ ноет и работает",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

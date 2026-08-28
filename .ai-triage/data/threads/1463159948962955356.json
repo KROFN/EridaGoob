@@ -1,0 +1,75 @@
+{
+ "thread_id": "1463159948962955356",
+ "title": "Приколы с гамлей",
+ "author": {
+  "id": "1116500157819797514",
+  "username": "methanolll",
+  "global_name": "так мета же запрещена в рф",
+  "server_nick": null,
+  "display": "так мета же запрещена в рф"
+ },
+ "created_at": "2026-01-20T13:15:16.030Z",
+ "archived": true,
+ "tags": [
+  "Незначительный",
+  "Визден-Баг",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1466802797327421512",
+  "1449460164171403294",
+  "1414266059208265799"
+ ],
+ "message_count": 3,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1463159949420007671_2026-01-20_161231.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1463159948962955356",
+  "date": "2026-01-20T13:15:16.030000+00:00",
+  "author": "так мета же запрещена в рф",
+  "author_role": null,
+  "content": "Если на него одеть некоторые шляпы и противогазы то они будут висеть в воздухе",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1463159949420007671",
+    "filename": "2026-01-20_161231.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1463159948962955356/1463159949420007671_2026-01-20_161231.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1463163464464863365",
+   "date": "2026-01-20T13:29:14.191000+00:00",
+   "author": "Ykika",
+   "author_role": null,
+   "content": "Фича",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1463176255300964526",
+   "date": "2026-01-20T14:20:03.764000+00:00",
+   "author": "так мета же запрещена в рф",
+   "author_role": null,
+   "content": "ладно поверю",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

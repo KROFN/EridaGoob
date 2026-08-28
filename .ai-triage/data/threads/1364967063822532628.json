@@ -1,0 +1,71 @@
+{
+ "thread_id": "1364967063822532628",
+ "title": "персонажа нельзя выбрать",
+ "author": {
+  "id": "172779642007191556",
+  "username": "daisuda",
+  "global_name": "Дай сюда!",
+  "server_nick": null,
+  "display": "Дай сюда!"
+ },
+ "created_at": "2025-04-24T14:11:47.877Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1365427630660128861"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1365427630660128861"
+ ],
+ "message_count": 3,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1364967063822532628",
+  "date": "2025-04-24T14:11:47.877000+00:00",
+  "author": "Дай сюда!",
+  "author_role": null,
+  "content": "При нажатии на персонализацию персонаж неактивен, чтобы он стал активен, надо создать нового персонажа и переключиться между ними.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1364967064145756233",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1364972129300385802",
+   "date": "2025-04-24T14:31:55.581000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "писали уже",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365292223293423728",
+   "date": "2025-04-25T11:43:51.936000+00:00",
+   "author": "TREST",
+   "author_role": null,
+   "content": "На основу конфы",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

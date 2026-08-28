@@ -1,0 +1,55 @@
+{
+ "thread_id": "1488700432846164159",
+ "title": "нет аварийных наборов у ебаных аркан. Нет животного желудка у ебаных аркан.",
+ "author": {
+  "id": "602460075335876609",
+  "username": "mlefur",
+  "global_name": "Ykika",
+  "server_nick": null,
+  "display": "Ykika"
+ },
+ "created_at": "2026-04-01T00:44:01.907Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 2,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1488700432846164159",
+  "date": "2026-04-01T00:44:01.907000+00:00",
+  "author": "Ykika",
+  "author_role": null,
+  "content": "Т.е каждый ебаный раз, когда я захожу в раунд - мне нужно либо искать аварийку. Или просить в ахелпе. Или спавнить, если у меня есть права. \nПо поводу животного желудка. Лорно обосновано, так что необходимо. Заебало.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": [
+   "❌:3"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1496029287420002334",
+   "date": "2026-04-21T06:06:17.001000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Не повторяется",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

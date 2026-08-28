@@ -1,0 +1,161 @@
+{
+ "thread_id": "1425261607369310339",
+ "title": "Перчатки ниндзя и шкафы",
+ "author": {
+  "id": "1215996475624919180",
+  "username": "fox_meowder",
+  "global_name": "Пряники",
+  "server_nick": null,
+  "display": "Пряники"
+ },
+ "created_at": "2025-10-07T23:20:47.277Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1414266059208265799"
+ ],
+ "message_count": 13,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1425261607369310339",
+  "date": "2025-10-07T23:20:47.277000+00:00",
+  "author": "Пряники",
+  "author_role": null,
+  "content": "Я не очень уверен, баг ли это, но перчатки ниндзя не могут открыть закрытые шкафы, типа мед, СБ, капитана и т.д, вроде так быть не должно.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1425261851184336967",
+   "date": "2025-10-07T23:21:45.407000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Перчатки ниндзя и шкафы",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1425272235396038686",
+   "date": "2025-10-08T00:03:01.196000+00:00",
+   "author": "ЕРП-ЛРП пидорас с SD",
+   "author_role": null,
+   "content": "Дак это всегда так было...",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1425272258062192700",
+   "date": "2025-10-08T00:03:06.600000+00:00",
+   "author": "ЕРП-ЛРП пидорас с SD",
+   "author_role": null,
+   "content": "С момента создания ниндзи",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1425343857939451904",
+   "date": "2025-10-08T04:47:37.341000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "Оно открывает",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1425343886825619576",
+   "date": "2025-10-08T04:47:44.228000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "Но откатывает действие",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1425344299318509630",
+   "date": "2025-10-08T04:49:22.574000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "Шкаф сверкает, моргает зелёным, но ему пофек",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1425344329542537307",
+   "date": "2025-10-08T04:49:29.780000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "Это баг",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1425421648885973054",
+   "date": "2025-10-08T09:56:44.148000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "У тебя катана которая может за пару ударов их сломать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1425448160175722496",
+   "date": "2025-10-08T11:42:04.932000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "да, но шумно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1425448348999225538",
+   "date": "2025-10-08T11:42:49.951000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "ну и \"кто-то сломал шкаф капитана, ууу вводите гамму\"",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1425838186336092191",
+   "date": "2025-10-09T13:31:54.415000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "Да как то по скотски, я понимаю лампы ломать, лица и шлюзы с окнами",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1425838201800626338",
+   "date": "2025-10-09T13:31:58.102000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "Но шкафы не не не не",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

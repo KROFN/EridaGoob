@@ -1,0 +1,183 @@
+{
+ "thread_id": "1455594512444555439",
+ "title": "Баг игры лютый",
+ "author": {
+  "id": "501478650206748693",
+  "username": "puroslavking",
+  "global_name": "PuroSlavKing",
+  "server_nick": null,
+  "display": "PuroSlavKing"
+ },
+ "created_at": "2025-12-30T16:12:55.405Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1414266059208265799"
+ ],
+ "message_count": 42,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1455594512444555439",
+  "date": "2025-12-30T16:12:55.405000+00:00",
+  "author": "PuroSlavKing",
+  "author_role": null,
+  "content": "Пассажыры не могут открыть шлюхи в технические турели 🥺 пофиксите пж",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": [
+   "❌:1"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1455596700566688028",
+   "date": "2025-12-30T16:21:37.094000+00:00",
+   "author": "vanomorodellefake",
+   "author_role": null,
+   "content": "Я, к слову, сам не особо понимаю, зачем отбирать доступ в тех тоннели ассикам",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455601933191745618",
+   "date": "2025-12-30T16:42:24.649000+00:00",
+   "author": "I_AmigO_I",
+   "author_role": null,
+   "content": "В настоящий момент нет просто ассистентов. Есть либо пассажиры, либо ассистенты, закрепленные за  отделом",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455654753034830097",
+   "date": "2025-12-30T20:12:17.881000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "в прошлом, до смены билда когда вместо пассажиров были ассики - можно было бы понять",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455655349062471762",
+   "date": "2025-12-30T20:14:39.985000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "раздобывать странные таблетки на исследование или разбор на химикаты",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455655672749363210",
+   "date": "2025-12-30T20:15:57.158000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "окей, отвечу теперь за врача\nв техах можно найти колбы, как и другие вещи которые можно использовать в медицине. так же дофига мест с ломом чтобы не бегать в инструментальную, а просто и быстро забрать экстренный из шкафчика",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455656091303018597",
+   "date": "2025-12-30T20:17:36.949000+00:00",
+   "author": "vanomorodellefake",
+   "author_role": null,
+   "content": "колбы нужны ток химику на самом деле\nи не сказать, что там много чего полезного для меда\nлом можно взять в прибытии/отбытии также",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455656313991200848",
+   "date": "2025-12-30T20:18:30.042000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "когда ты в режиме готовности спавнишься - ты спавнишься не в прибытии/криокапсуле, а в отделе, потому ближе будут теха",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455656685963186403",
+   "date": "2025-12-30T20:19:58.727000+00:00",
+   "author": "vanomorodellefake",
+   "author_role": null,
+   "content": "на самом деле достаточно нелогично, ибо опять таки аварийные ящики ставятся маппером\nа в тех тоннелях рандом",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455656930189119678",
+   "date": "2025-12-30T20:20:56.955000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "В 70% случаях видел либо экстренный ящик с инструментами либо сам лом",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455657031737413736",
+   "date": "2025-12-30T20:21:21.166000+00:00",
+   "author": "vanomorodellefake",
+   "author_role": null,
+   "content": "в красном или синем ящике, потому что они аварийные и расставляются маппером",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455657254320869630",
+   "date": "2025-12-30T20:22:14.234000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "Ну так и в чем дело? Тоже ставится маппером, что комната с инструментами, что ящики\n\n\nДа и тебе уже ответили, что это запрос администрации и это надо обсуждать с администрацией",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455658223767126259",
+   "date": "2025-12-30T20:26:05.368000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "Мгм. Другое развитие событий. У тебя чел сдох в церкви, но основной проход закрыли блокпостом СБ/ЯО от Интекью, то ты пойдёшь на яо чтобы достать труп? (Парамедика нет)",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455659252852064413",
+   "date": "2025-12-30T20:30:10.721000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "Я тебе придумал почему пассажирам теха нахер не надо, а со стороны администрации скорее всего причина является в набегаторах и топливных канистрах, чтобы те не беря обычную роль пассажира могли саботировать некое место на станции",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455678047423299605",
+   "date": "2025-12-30T21:44:51.696000+00:00",
+   "author": "I_AmigO_I",
+   "author_role": null,
+   "content": "Пассажиру в техи не надо, потому что это ПАССАЖИР. Это не техническая должность, это тот, кто просто пребывает на станции",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

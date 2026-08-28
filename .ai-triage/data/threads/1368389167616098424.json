@@ -1,0 +1,77 @@
+{
+ "thread_id": "1368389167616098424",
+ "title": "Швабра не чистит следы",
+ "author": {
+  "id": "705396325373706401",
+  "username": "bestopelemesiko",
+  "global_name": "BP",
+  "server_nick": null,
+  "display": "BP"
+ },
+ "created_at": "2025-05-04T00:50:01.001Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 4,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1368497283670343753_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1368389167616098424",
+  "date": "2025-05-04T00:50:01.001000+00:00",
+  "author": "BP",
+  "author_role": null,
+  "content": "Да, следы не чистит швабра.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1368497283964080221",
+   "date": "2025-05-04T07:59:37.947000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "Чуть чуть щиткод ребелла",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1368497283670343753",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "downloaded",
+     "local_path": "attachments/1368389167616098424/1368497283670343753_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1368497301990932560",
+   "date": "2025-05-04T07:59:42.245000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "Жди пока починят)",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1368535166007513131",
+   "date": "2025-05-04T10:30:09.730000+00:00",
+   "author": "BP",
+   "author_role": null,
+   "content": "Их можно стереть распылителем",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

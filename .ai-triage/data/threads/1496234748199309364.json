@@ -1,0 +1,50 @@
+{
+ "thread_id": "1496234748199309364",
+ "title": "Атмос x2",
+ "author": {
+  "id": "1215996475624919180",
+  "username": "fox_meowder",
+  "global_name": "Пряники",
+  "server_nick": null,
+  "display": "Пряники"
+ },
+ "created_at": "2026-04-21T19:42:42.668Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 1,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1496234748199309364",
+  "date": "2026-04-21T19:42:42.668000+00:00",
+  "author": "Пряники",
+  "author_role": null,
+  "content": "Понятия не имею почему и как, но конфиг инверсируется",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1496234748522135783",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

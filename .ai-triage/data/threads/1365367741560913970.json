@@ -1,0 +1,82 @@
+{
+ "thread_id": "1365367741560913970",
+ "title": "ТТС и кол-во персонажей",
+ "author": {
+  "id": "274190468307484683",
+  "username": "yay_m8",
+  "global_name": "YAY",
+  "server_nick": null,
+  "display": "YAY"
+ },
+ "created_at": "2025-04-25T16:43:56.894Z",
+ "archived": true,
+ "tags": [
+  "В процессе"
+ ],
+ "tag_ids": [
+  "1365427658288005150"
+ ],
+ "message_count": 3,
+ "attachment_count": 2,
+ "attachments_on_disk": [
+  "1365367741715841094_Screenshot_2025-04-25_194302.png",
+  "1365394335180263506_image0.gif"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1365367741560913970",
+  "date": "2025-04-25T16:43:56.894000+00:00",
+  "author": "YAY",
+  "author_role": null,
+  "content": "Отсутствует возможность выбрать TTC голоса, которые идут по подписке. Также число персонажей для создания - не ограничено.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1365367741715841094",
+    "filename": "Screenshot_2025-04-25_194302.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1365367741560913970/1365367741715841094_Screenshot_2025-04-25_194302.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1365394310710820974",
+   "date": "2025-04-25T18:29:31.473000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "Потому что не успели сделать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365394335557746789",
+   "date": "2025-04-25T18:29:37.397000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1365394335180263506",
+     "filename": "image0.gif",
+     "content_type": "image/gif",
+     "download_status": "downloaded",
+     "local_path": "attachments/1365367741560913970/1365394335180263506_image0.gif"
+    }
+   ],
+   "reactions": []
+  }
+ ],
+ "mentions": [
+  "TTC"
+ ],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

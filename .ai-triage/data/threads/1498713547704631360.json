@@ -1,0 +1,91 @@
+{
+ "thread_id": "1498713547704631360",
+ "title": "Возгорание",
+ "author": {
+  "id": "570567448504303617",
+  "username": "papjijict",
+  "global_name": "Parodist",
+  "server_nick": null,
+  "display": "Parodist"
+ },
+ "created_at": "2026-04-28T15:52:34.524Z",
+ "archived": true,
+ "tags": [
+  "Дискорд-Бот"
+ ],
+ "tag_ids": [
+  "1414265921488289995"
+ ],
+ "message_count": 5,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1498713547918807231_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1498713547704631360",
+  "date": "2026-04-28T15:52:34.524000+00:00",
+  "author": "Parodist",
+  "author_role": null,
+  "content": "Когда горит нпс и тебя собой поджигает, огонь игнорирует защиту от огня или же слишком повышенный урон от огня при передаче. (это на лаве)",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1498713547918807231",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1498713547704631360/1498713547918807231_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1498745450994471002",
+   "date": "2026-04-28T17:59:20.861000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Я видел с госта",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1498745460339507220",
+   "date": "2026-04-28T17:59:23.089000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "<:s_podozhdu:1358052419988230215>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1498789391412367393",
+   "date": "2026-04-28T20:53:57.073000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Запустил на дебаге и не вижу чего-то странного.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1498789459871797451",
+   "date": "2026-04-28T20:54:13.395000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Непись мб настакала на себе температуру и перекинула",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

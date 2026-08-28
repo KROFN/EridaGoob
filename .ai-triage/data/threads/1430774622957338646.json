@@ -1,0 +1,145 @@
+{
+ "thread_id": "1430774622957338646",
+ "title": "Косой Эсток",
+ "author": {
+  "id": "472801118850908173",
+  "username": "vanomorodellefake",
+  "global_name": "vanomorodellefake",
+  "server_nick": null,
+  "display": "vanomorodellefake"
+ },
+ "created_at": "2025-10-23T04:27:32.620Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1414266059208265799"
+ ],
+ "message_count": 8,
+ "attachment_count": 4,
+ "attachments_on_disk": [
+  "1430774623519117343_image.png",
+  "1430774624106582036_image.png",
+  "1430774624706232341_image.png",
+  "1430774625356218408_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1430774622957338646",
+  "date": "2025-10-23T04:27:32.620000+00:00",
+  "author": "vanomorodellefake",
+  "author_role": null,
+  "content": "Решил зайти на локалку, посмотреть что такого добавили для предателей.\nЗаметил свежую винтовку за 18 тк\nЕсли стрелять ею по горизонтали, то пули летят ровно\nОднако если по вертикали, то стреляет кукла чуть правее",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1430774623519117343",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1430774622957338646/1430774623519117343_image.png"
+   },
+   {
+    "id": "1430774624106582036",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1430774622957338646/1430774624106582036_image.png"
+   },
+   {
+    "id": "1430774624706232341",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1430774622957338646/1430774624706232341_image.png"
+   },
+   {
+    "id": "1430774625356218408",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1430774622957338646/1430774625356218408_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1430775458634666025",
+   "date": "2025-10-23T04:30:51.861000+00:00",
+   "author": "vanomorodellefake",
+   "author_role": null,
+   "content": "На третьем скрине я повернул камеру влево",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1431203460606595072",
+   "date": "2025-10-24T08:51:35.483000+00:00",
+   "author": "vanomorodellefake",
+   "author_role": null,
+   "content": "у Христова то же самое",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1431217660208615524",
+   "date": "2025-10-24T09:48:00.932000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Это ещё не готовый аплинк",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1431217923997044818",
+   "date": "2025-10-24T09:49:03.824000+00:00",
+   "author": "vanomorodellefake",
+   "author_role": null,
+   "content": "так Христов на сервере есть\nОн вроде с той же проблемой",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1431218193552248907",
+   "date": "2025-10-24T09:50:08.091000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Я про то что по факту аплинк щас это старый синдикатский, а не с новыми вещами. Как время будет может гляну их стрельбу",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1431218315828920320",
+   "date": "2025-10-24T09:50:37.244000+00:00",
+   "author": "vanomorodellefake",
+   "author_role": null,
+   "content": "хорошо",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1431218783300747346",
+   "date": "2025-10-24T09:52:28.698000+00:00",
+   "author": "vanomorodellefake",
+   "author_role": null,
+   "content": "(( ну и как факт, я смотрел это на билде месячной давности. Обновился, проблемы остались. Но вещи интеQ прикольные",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

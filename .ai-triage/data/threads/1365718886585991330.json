@@ -1,0 +1,79 @@
+{
+ "thread_id": "1365718886585991330",
+ "title": "Баг с лазерным карабином",
+ "author": {
+  "id": "805111761312153631",
+  "username": "kauner_vorov",
+  "global_name": "Kauner_Vorov",
+  "server_nick": null,
+  "display": "Kauner_Vorov"
+ },
+ "created_at": "2025-04-26T15:59:16.392Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 4,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1365718886585991330",
+  "date": "2025-04-26T15:59:16.392000+00:00",
+  "author": "Kauner_Vorov",
+  "author_role": null,
+  "content": "Не пихается в зарядник энергооружия",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1365718886846300250",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1365733318120968253",
+   "date": "2025-04-26T16:56:37.138000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "Может в нем отдельная батарейка?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365733349053694154",
+   "date": "2025-04-26T16:56:44.513000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "Которую доставать надо",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365742928441376911",
+   "date": "2025-04-26T17:34:48.417000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "нет, в нем именно заряды как у станера",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

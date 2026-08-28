@@ -1,0 +1,133 @@
+{
+ "thread_id": "1379120791253418124",
+ "title": "Хвост хаски в лобби",
+ "author": {
+  "id": "722414477714391042",
+  "username": "kenpachisan",
+  "global_name": "Kenya",
+  "server_nick": null,
+  "display": "Kenya"
+ },
+ "created_at": "2025-06-02T15:33:39.460Z",
+ "archived": true,
+ "tags": [
+  "В процессе"
+ ],
+ "tag_ids": [
+  "1365427658288005150"
+ ],
+ "message_count": 9,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1379120842029662339_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1379120791253418124",
+  "date": "2025-06-02T15:33:39.460000+00:00",
+  "author": "Kenya",
+  "author_role": null,
+  "content": "почему в лобби у антропоморфов при выборе хвоста хаски это выглядит так???",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1379120842029662339",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1379120791253418124/1379120842029662339_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1379187240156266507",
+   "date": "2025-06-02T19:57:42.113000+00:00",
+   "author": "cybertrash",
+   "author_role": null,
+   "content": "Окак",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1379333435029721261",
+   "date": "2025-06-03T05:38:37.687000+00:00",
+   "author": "Kenya",
+   "author_role": null,
+   "content": "ага и я заметил это уже месяц назад наверное, думал о проблеме знают, но чёт ничё не изменилось, и не понятно так только в лобби или на станции ничего не изменится, проверять не хочу как-то.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1379456338366697545",
+   "date": "2025-06-03T13:47:00.126000+00:00",
+   "author": "PuroSlavKing",
+   "author_role": null,
+   "content": "какой на рассмотрении, в фотошопе удалите пиксели, которые спрайт перекрывают и всё",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1379465692645949460",
+   "date": "2025-06-03T14:24:10.360000+00:00",
+   "author": "cybertrash",
+   "author_role": null,
+   "content": "<@501478650206748693> я спал",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1379465736958906428",
+   "date": "2025-06-03T14:24:20.925000+00:00",
+   "author": "cybertrash",
+   "author_role": null,
+   "content": "ну давай сделаешь?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1379465775835910194",
+   "date": "2025-06-03T14:24:30.194000+00:00",
+   "author": "cybertrash",
+   "author_role": null,
+   "content": "а то у меня руки ща заняты апстримами",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1379467753781592124",
+   "date": "2025-06-03T14:32:21.773000+00:00",
+   "author": "PuroSlavKing",
+   "author_role": null,
+   "content": "https://media.discordapp.net/attachments/1197533474928738385/1197533475767586916/rouny_leaving_cornering_.gif",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "❤️:1"
+   ]
+  },
+  {
+   "id": "1379766514596581496",
+   "date": "2025-06-04T10:19:31.902000+00:00",
+   "author": "KarelianSkull",
+   "author_role": null,
+   "content": "Кстати,тоже самое с хвостом оти и оленя",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

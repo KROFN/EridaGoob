@@ -1,0 +1,99 @@
+{
+ "thread_id": "1365481390363115561",
+ "title": "Отсутствующая технология",
+ "author": {
+  "id": "824939801378553856",
+  "username": "17fire_wolf25",
+  "global_name": "17*FIRE_Wolf*25",
+  "server_nick": null,
+  "display": "17*FIRE_Wolf*25"
+ },
+ "created_at": "2025-04-26T00:15:32.880Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 7,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1365481390363115561",
+  "date": "2025-04-26T00:15:32.880000+00:00",
+  "author": "17*FIRE_Wolf*25",
+  "author_role": null,
+  "content": "Отсутствует оружейная ветка \"длинноствольное вооружение\" по итогу где-то 6-7 технологий оружейной остаются не исследуемыми из-за бага.\nТак же отсутствуют предметы в которые можно использовать вортекс или иные батареи, ну как бы круто, ну а дальше? (P.s. БОЕВЫХ МЕХОВ ЛЮДЯМ!)",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1365489003905814531",
+   "date": "2025-04-26T00:45:48.090000+00:00",
+   "author": "PuroSlavKing",
+   "author_role": null,
+   "content": "В фонарик Вортекс ставь, в борга, блять... скороходы, свалинн",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365508617125761066",
+   "date": "2025-04-26T02:03:44.246000+00:00",
+   "author": "17*FIRE_Wolf*25",
+   "author_role": null,
+   "content": "скучно, не интересно, говнииищеее",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1366736767352574052",
+   "date": "2025-04-29T11:23:58.078000+00:00",
+   "author": "17*FIRE_Wolf*25",
+   "author_role": null,
+   "content": "пу-пу-пу",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1366736850563239998",
+   "date": "2025-04-29T11:24:17.917000+00:00",
+   "author": "17*FIRE_Wolf*25",
+   "author_role": null,
+   "content": "<@627415136122044416>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1366736987339493447",
+   "date": "2025-04-29T11:24:50.527000+00:00",
+   "author": "TREST",
+   "author_role": null,
+   "content": "потом",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1366737084336967680",
+   "date": "2025-04-29T11:25:13.653000+00:00",
+   "author": "17*FIRE_Wolf*25",
+   "author_role": null,
+   "content": "ок, просто уже на мозги химики и сб капать начинают, а сам без дисков изучить не могу",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [
+  "P.s"
+ ],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

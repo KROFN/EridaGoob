@@ -1,0 +1,183 @@
+{
+ "thread_id": "1431650154225729617",
+ "title": "Улучшенные детали не суются в каркасы машин",
+ "author": {
+  "id": "1048223137516490752",
+  "username": "bebroboid",
+  "global_name": "bebrus",
+  "server_nick": null,
+  "display": "bebrus"
+ },
+ "created_at": "2025-10-25T14:26:35.541Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799",
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1414266059208265799",
+  "1377371306470801439"
+ ],
+ "message_count": 17,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1431650154225729617",
+  "date": "2025-10-25T14:26:35.541000+00:00",
+  "author": "bebrus",
+  "author_role": null,
+  "content": "Пытался сувать в гиперконвекционные станки, не суются",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1431651005245816873",
+   "date": "2025-10-25T14:29:58.440000+00:00",
+   "author": "PuroSlavKing",
+   "author_role": null,
+   "content": "гиперконвенцию вырезать бы вообще, это костыль для отсутствия улучшений",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1431651489897512981",
+   "date": "2025-10-25T14:31:53.990000+00:00",
+   "author": "bebrus",
+   "author_role": null,
+   "content": "А как мне СБшников убивать тогда если те в отдел зашли?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1431651591009730742",
+   "date": "2025-10-25T14:32:18.097000+00:00",
+   "author": "PuroSlavKing",
+   "author_role": null,
+   "content": "лимиткой",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1431651805254914211",
+   "date": "2025-10-25T14:33:09.177000+00:00",
+   "author": "bebrus",
+   "author_role": null,
+   "content": "Закодишь краник чтоб двубалонки делать?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1431651980232622221",
+   "date": "2025-10-25T14:33:50.895000+00:00",
+   "author": "PuroSlavKing",
+   "author_role": null,
+   "content": "в последний раз, когда я делал обновление мало касающееся атмоса - газы перестали гореть на неделю",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1431652072528547960",
+   "date": "2025-10-25T14:34:12.900000+00:00",
+   "author": "bebrus",
+   "author_role": null,
+   "content": "Потому тебя и прошу",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1431652164404641892",
+   "date": "2025-10-25T14:34:34.805000+00:00",
+   "author": "PuroSlavKing",
+   "author_role": null,
+   "content": "https://cdn.discordapp.com/attachments/1176226680101150836/1252604306553569370/ezgif-1-38580194c9.gif",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1431654719633494046",
+   "date": "2025-10-25T14:44:44.019000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Пока что нет механа, чтобы автолат сразу улучшался от этих деталей. А использовать их для создания чего-то лишь лишняя трата ресурсов сейчас",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1431654973405663283",
+   "date": "2025-10-25T14:45:44.523000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Аэ, всмысле. Они разве не суются в автоматы с открытой панелью?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1431655040162201600",
+   "date": "2025-10-25T14:46:00.439000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Я про улучшении, при самом создании автолата",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1431655057195012210",
+   "date": "2025-10-25T14:46:04.500000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "На этапе каркаса",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1431655077835178134",
+   "date": "2025-10-25T14:46:09.421000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Так ты объясни ему)",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1431655110374854658",
+   "date": "2025-10-25T14:46:17.179000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "Так ну",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1431655123154636811",
+   "date": "2025-10-25T14:46:20.226000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "На фронтире есть",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

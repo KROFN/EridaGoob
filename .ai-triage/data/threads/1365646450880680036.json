@@ -1,0 +1,89 @@
+{
+ "thread_id": "1365646450880680036",
+ "title": "Время",
+ "author": {
+  "id": "274190468307484683",
+  "username": "yay_m8",
+  "global_name": "YAY",
+  "server_nick": null,
+  "display": "YAY"
+ },
+ "created_at": "2025-04-26T11:11:26.374Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 5,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1365646450880680036",
+  "date": "2025-04-26T11:11:26.374000+00:00",
+  "author": "YAY",
+  "author_role": null,
+  "content": "Наигранное время на других серверах МК не учитывается при разблокировки ролей, полагаю так быть не должно.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1365646451165630565",
+    "filename": "Screenshot_2025-04-26_141048.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1365657992040681553",
+   "date": "2025-04-26T11:57:18.001000+00:00",
+   "author": "Danylo_dazzle",
+   "author_role": null,
+   "content": "Это не баг, Так сделано было временно и скоро должны все вернуть",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365665486037319690",
+   "date": "2025-04-26T12:27:04.709000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "Не баг",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365665875616595979",
+   "date": "2025-04-26T12:28:37.592000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "На выходных должны всё сделать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365675736886808577",
+   "date": "2025-04-26T13:07:48.702000+00:00",
+   "author": "Danylo_dazzle",
+   "author_role": null,
+   "content": "Это не баг",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

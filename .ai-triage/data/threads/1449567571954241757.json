@@ -1,0 +1,88 @@
+{
+ "thread_id": "1449567571954241757",
+ "title": "ЧЗХ?!! ЩИТКОД КАРТ С ГУБА ДАЛ-ДАЛ?",
+ "author": {
+  "id": "982677401580503050",
+  "username": "gubolog",
+  "global_name": "Gubolog",
+  "server_nick": null,
+  "display": "Gubolog"
+ },
+ "created_at": "2025-12-14T01:04:00.817Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799",
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1414266059208265799",
+  "1377371306470801439"
+ ],
+ "message_count": 5,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1449567571954241757",
+  "date": "2025-12-14T01:04:00.817000+00:00",
+  "author": "Gubolog",
+  "author_role": null,
+  "content": "Я был свидетелем того, как клоун с какими-то нахуй жокерге картами <:tf_jokerge:1358052649886289970>  бегал и создавал в своих жертвах бездонные источники ебучего смеха <:umom:1362357048628609126> , которые никаким углём не выведешь. А они приходят в медбей, спрашивают: *\"А-а это м-можно к-как-то и-исправить? <:s_DePrESiFfF4iK:1358052334080491522> \"*  А ЧТО ИМ ОТВЕТИТЬ? ИХ УЖЕ НИЧТО ОТ ЗЛОЕБУЧЕГО ДЖОКЕРГЕ-ВИРУСА НЕ СПАСЁТ!! <:cat_erp:1358052377306988564>",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1449624722969985035",
+   "date": "2025-12-14T04:51:06.681000+00:00",
+   "author": "darksoul3312",
+   "author_role": null,
+   "content": "Я был свидетелем того, как бедный офицер унати получила это проклятие на всю смену",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1449680624607690862",
+   "date": "2025-12-14T08:33:14.670000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Вообще не баг",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1449680663375773809",
+   "date": "2025-12-14T08:33:23.913000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Оно работает как надо, просто по уебански",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1449680958478618758",
+   "date": "2025-12-14T08:34:34.271000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Я это изменю",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [
+  "cat_erp",
+  "s_DePrESiFfF4iK",
+  "tf_jokerge",
+  "umom"
+ ],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

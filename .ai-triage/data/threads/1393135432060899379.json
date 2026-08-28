@@ -1,0 +1,179 @@
+{
+ "thread_id": "1393135432060899379",
+ "title": "Носки и ящеры с антропоморфами",
+ "author": {
+  "id": "931119707615006762",
+  "username": "karelia._.",
+  "global_name": "KarelianSkull",
+  "server_nick": null,
+  "display": "KarelianSkull"
+ },
+ "created_at": "2025-07-11T07:42:50.208Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 17,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1393135432060899379",
+  "date": "2025-07-11T07:42:50.208000+00:00",
+  "author": "KarelianSkull",
+  "author_role": null,
+  "content": "Я заметил,что носки или любая нижняя одежда на ноги всегда вылезает через одежду, из-за чего видны небольшие пиксели носочков сквозь обувь",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": [
+   "👍:1"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1394578474349494422",
+   "date": "2025-07-15T07:16:58.300000+00:00",
+   "author": "NickCatXD1",
+   "author_role": null,
+   "content": "Это правда. Что, желаешь носить носочки?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1394580375937744950",
+   "date": "2025-07-15T07:24:31.674000+00:00",
+   "author": "KarelianSkull",
+   "author_role": null,
+   "content": "https://tenor.com/view/baldis-basic-baldi-ruler-hitting-spanking-gif-2834030865869804911",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1394582502882021467",
+   "date": "2025-07-15T07:32:58.777000+00:00",
+   "author": "NickCatXD1",
+   "author_role": null,
+   "content": "Не дают карелии чулки носить, что за оказия",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1394659679040442399",
+   "date": "2025-07-15T12:39:39.007000+00:00",
+   "author": "Diego Bruhdo",
+   "author_role": null,
+   "content": "Играя за Мауси постоянно вижу эти пиксели, особо не мешает, но в глазах ребит, ведь пиксели видны сквозь спрайты обуви, что заставляет мозг переворачиваться внутри черепа. Ждём когда исправят.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1394670741382762537",
+   "date": "2025-07-15T13:23:36.475000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "рисовать надо",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1394673935487995955",
+   "date": "2025-07-15T13:36:18.009000+00:00",
+   "author": "KarelianSkull",
+   "author_role": null,
+   "content": "Заставь рисовать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1394673950688022528",
+   "date": "2025-07-15T13:36:21.633000+00:00",
+   "author": "KarelianSkull",
+   "author_role": null,
+   "content": "<:s_PoZiTiFfFcHiK:1358052086872281169>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1394674017264341074",
+   "date": "2025-07-15T13:36:37.506000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "не. я посмотрю ещё, там вродь другая система",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1394674020464459917",
+   "date": "2025-07-15T13:36:38.269000+00:00",
+   "author": "KarelianSkull",
+   "author_role": null,
+   "content": "Все во благо Эриды,и может, даже конфедерации",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1394674137330618399",
+   "date": "2025-07-15T13:37:06.132000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "я сначала подумал что там как у воксов но нет",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1394676209572380833",
+   "date": "2025-07-15T13:45:20.193000+00:00",
+   "author": "Diego Bruhdo",
+   "author_role": null,
+   "content": "На почему нельзя через скрипты просто взять и скрывать те или иные спрайты если поверх уже есть спрайт одежд/обучи?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1394676566897856574",
+   "date": "2025-07-15T13:46:45.386000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "но я вообще про отображение носков в целом без обуви даже",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1394676605464350760",
+   "date": "2025-07-15T13:46:54.581000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "там спрайт не заменяется, это и исправлю",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1394676847924740246",
+   "date": "2025-07-15T13:47:52.388000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "если просто взять решить проблему скрытия с обувью - это не решит проблемы отображения на ногах спрайта ведь он не сделан под них",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

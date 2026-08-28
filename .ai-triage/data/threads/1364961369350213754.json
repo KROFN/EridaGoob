@@ -1,0 +1,79 @@
+{
+ "thread_id": "1364961369350213754",
+ "title": "Визуальный Хвост",
+ "author": {
+  "id": "422454091311218690",
+  "username": "ak6294",
+  "global_name": "Лив/Ричи",
+  "server_nick": null,
+  "display": "Лив/Ричи"
+ },
+ "created_at": "2025-04-24T13:49:10.209Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 4,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1364961369350213754",
+  "date": "2025-04-24T13:49:10.209000+00:00",
+  "author": "Лив/Ричи",
+  "author_role": null,
+  "content": "Отображение некоторых хвостов выносить впереди модельки . а не за их спиной",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1364961369866240090",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1364961429991723071",
+   "date": "2025-04-24T13:49:24.667000+00:00",
+   "author": "Лив/Ричи",
+   "author_role": null,
+   "content": "Хвост Хаски например инекоторые ящеров и Тенткли",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1364962255183155311",
+   "date": "2025-04-24T13:52:41.408000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "<:ena_:1364906999963320431>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1364962295641411644",
+   "date": "2025-04-24T13:52:51.054000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Хвост жуёт",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

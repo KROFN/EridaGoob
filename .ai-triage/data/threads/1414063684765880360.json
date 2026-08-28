@@ -1,0 +1,157 @@
+{
+ "thread_id": "1414063684765880360",
+ "title": "Трейд не замечает заказ",
+ "author": {
+  "id": "535076336260349963",
+  "username": "stingray_jill",
+  "global_name": "Σ Ξ ✦ Jill Stingray",
+  "server_nick": null,
+  "display": "Σ Ξ ✦ Jill Stingray"
+ },
+ "created_at": "2025-09-07T01:44:14.481Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 12,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1414063685013471403_Discord_W5t1HrGvb9.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1414063684765880360",
+  "date": "2025-09-07T01:44:14.481000+00:00",
+  "author": "Σ Ξ ✦ Jill Stingray",
+  "author_role": null,
+  "content": "Трейд считает, что заказ не полный, хотя устройство для оценки говорит что собрано",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1414063685013471403",
+    "filename": "Discord_W5t1HrGvb9.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1414063684765880360/1414063685013471403_Discord_W5t1HrGvb9.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1414192104372179038",
+   "date": "2025-09-07T10:14:32.101000+00:00",
+   "author": "Anilori <3",
+   "author_role": null,
+   "content": "вопервых воу, впервые вижу такой заказ... а во вторых... ящик сами делали?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414201532827566091",
+   "date": "2025-09-07T10:52:00.020000+00:00",
+   "author": "о.",
+   "author_role": null,
+   "content": "Её надо повесить на ящик",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414201553354494073",
+   "date": "2025-09-07T10:52:04.914000+00:00",
+   "author": "о.",
+   "author_role": null,
+   "content": "Ты ведь её держишь в руке..",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414206358642757663",
+   "date": "2025-09-07T11:11:10.584000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "Я её вешал, однако системе пофиг",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414206452989427742",
+   "date": "2025-09-07T11:11:33.078000+00:00",
+   "author": "о.",
+   "author_role": null,
+   "content": "уэ.. А там точно 45 серебряной руды, а не серебра?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414206497851834429",
+   "date": "2025-09-07T11:11:43.774000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "да, 45 серебряной руды.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414206524200321075",
+   "date": "2025-09-07T11:11:50.056000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "мы её не плавили",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414206594656239626",
+   "date": "2025-09-07T11:12:06.854000+00:00",
+   "author": "о.",
+   "author_role": null,
+   "content": "эмэмэ.. Без понятия тогда, извини",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414206614851944620",
+   "date": "2025-09-07T11:12:11.669000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "ничего страшного",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414206777687277638",
+   "date": "2025-09-07T11:12:50.492000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "Система заказов от визардов для утилизаторов. Теперь у грузчиков и утилизаторов две разных системы заказов.\nУ утилей - руда и всякие органы с обломков\nУ грузчиков - вещи на станции",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414206861514903584",
+   "date": "2025-09-07T11:13:10.478000+00:00",
+   "author": "Σ Ξ ✦ Jill Stingray",
+   "author_role": null,
+   "content": "Относительно ящика не знаю, однако скорее всего утиль сделал её сам",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

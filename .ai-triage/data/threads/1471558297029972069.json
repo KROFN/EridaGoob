@@ -1,0 +1,199 @@
+{
+ "thread_id": "1471558297029972069",
+ "title": "Какой к чёрту труп пцк?",
+ "author": {
+  "id": "903610358617493524",
+  "username": "alexfire9455",
+  "global_name": "alexfire",
+  "server_nick": null,
+  "display": "alexfire"
+ },
+ "created_at": "2026-02-12T17:27:18.243Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 19,
+ "attachment_count": 2,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1471558297029972069",
+  "date": "2026-02-12T17:27:18.243000+00:00",
+  "author": "alexfire",
+  "author_role": null,
+  "content": "Думаю тут даже не нужно объяснять что не так.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1471558297374167151",
+    "filename": "2026-02-12_172347.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1471558461421650062",
+   "date": "2026-02-12T17:27:57.437000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "Даже ещё один был на той же смене",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1471558461589426360",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1471565748274204683",
+   "date": "2026-02-12T17:56:54.758000+00:00",
+   "author": "так мета же запрещена в рф",
+   "author_role": null,
+   "content": "вооообще там может заспавнится любая глава",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1471565897897476260",
+   "date": "2026-02-12T17:57:30.431000+00:00",
+   "author": "так мета же запрещена в рф",
+   "author_role": null,
+   "content": "если нужно могу потом скрины покидать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1471566435338682378",
+   "date": "2026-02-12T17:59:38.567000+00:00",
+   "author": "так мета же запрещена в рф",
+   "author_role": null,
+   "content": "и да каждая глава со своими приколами",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1471566538564698325",
+   "date": "2026-02-12T18:00:03.178000+00:00",
+   "author": "так мета же запрещена в рф",
+   "author_role": null,
+   "content": "например если си то на трупе будет его пояс инструментов и т.д.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1471572132759736453",
+   "date": "2026-02-12T18:22:16.938000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "Неа, это с недавним обновлением.Любой глава окей, но не пцк.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1471579415283761162",
+   "date": "2026-02-12T18:51:13.227000+00:00",
+   "author": "так мета же запрещена в рф",
+   "author_role": null,
+   "content": "я докажу свое никому не нужное время но чуток попозже",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1471582763697180769",
+   "date": "2026-02-12T19:04:31.551000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "Главы окей, глав знаю.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1471666230736850964",
+   "date": "2026-02-13T00:36:11.644000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "Ну заспанился и заспавнился",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1471666340799447113",
+   "date": "2026-02-13T00:36:37.885000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "У нас на заброшенном спутнике ии есть пыточная, где пытают цкшников",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1472107366160928922",
+   "date": "2026-02-14T05:49:06.525000+00:00",
+   "author": "𝕊𝕖𝕣𝕒𝕗𝕚𝕞",
+   "author_role": null,
+   "content": "Неизвестный труп - декоративный объект который спавнится с случайным набором вещей. Но на многих серверах трупы сломаны и поэтому вещи (одежда и иное) не спавнятся, за исключением ПЦК. \n\nТело ПЦК относится к трупам командного состава. Имеет небольшой шанс заспавнится. Вещи на нём появляются из-за того, что спавн этих самых вещей был починен (так как имеются дополнительные кастомные).",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1472487287664152667",
+   "date": "2026-02-15T06:58:46.870000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "прикол от оффов",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1472487398859477136",
+   "date": "2026-02-15T06:59:13.381000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "метеоры так замапленны",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1486243765310984224",
+   "date": "2026-03-25T06:02:06.724000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "А всё, сидзару всё исправил",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

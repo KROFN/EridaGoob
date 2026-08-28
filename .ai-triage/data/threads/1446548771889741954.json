@@ -1,0 +1,65 @@
+{
+ "thread_id": "1446548771889741954",
+ "title": "Потерял табельное...",
+ "author": {
+  "id": "508304025385697310",
+  "username": "foramen",
+  "global_name": "Относительность",
+  "server_nick": null,
+  "display": "Относительность"
+ },
+ "created_at": "2025-12-05T17:08:22.795Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 3,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1446548771889741954",
+  "date": "2025-12-05T17:08:22.795000+00:00",
+  "author": "Относительность",
+  "author_role": null,
+  "content": "Несмотря на целых две кнопки выбора табельного оружия в прессете в меню у должности смотрителя, при появлении в раунде за данную должность никакого табельного, на удивление, в инвентаре не оказывается",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": [
+   "s_nihua:1"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1446623723925799095",
+   "date": "2025-12-05T22:06:12.753000+00:00",
+   "author": "Venick",
+   "author_role": null,
+   "content": "Ц||ентр||К||орупции|| забирает ваш миска риса и табель, по бумажечке он куплен и денюжка потрачена, а вам он не достался. ПЛАК ПЛАК",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1449208845468700723",
+   "date": "2025-12-13T01:18:33.758000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Вроде исправил",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

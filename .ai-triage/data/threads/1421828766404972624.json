@@ -1,0 +1,71 @@
+{
+ "thread_id": "1421828766404972624",
+ "title": "ТТС рита",
+ "author": {
+  "id": "780438270621253642",
+  "username": "medik.alt",
+  "global_name": "Medik",
+  "server_nick": null,
+  "display": "Medik"
+ },
+ "created_at": "2025-09-28T11:59:54.212Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1414266059208265799"
+ ],
+ "message_count": 3,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1421828766791106672_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1421828766404972624",
+  "date": "2025-09-28T11:59:54.212000+00:00",
+  "author": "Medik",
+  "author_role": null,
+  "content": "Существует в сборке ттс речевого информатор «Рита», можно встретить у медборгов, но в кастомайз у игроков добавить невозможно, как-то можно поправить?",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1421828766791106672",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1421828766404972624/1421828766791106672_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1421843769870909540",
+   "date": "2025-09-28T12:59:31.317000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "ТТС бывает специализированный",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1421843815567851521",
+   "date": "2025-09-28T12:59:42.212000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "И это один из них",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

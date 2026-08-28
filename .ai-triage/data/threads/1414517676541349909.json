@@ -1,0 +1,181 @@
+{
+ "thread_id": "1414517676541349909",
+ "title": "Экспедиции сломаны",
+ "author": {
+  "id": "1247510949976608801",
+  "username": "freshnink",
+  "global_name": "FreshInk",
+  "server_nick": null,
+  "display": "FreshInk"
+ },
+ "created_at": "2025-09-08T07:48:14.555Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1414266059208265799"
+ ],
+ "message_count": 19,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1414517676541349909",
+  "date": "2025-09-08T07:48:14.555000+00:00",
+  "author": "FreshInk",
+  "author_role": null,
+  "content": "При старте не показывается куда идти, а только окончание",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1414526384591863929",
+   "date": "2025-09-08T08:22:50.716000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Что пишет?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414526400291143761",
+   "date": "2025-09-08T08:22:54.459000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "В начале",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414526510320189450",
+   "date": "2025-09-08T08:23:20.692000+00:00",
+   "author": "FreshInk",
+   "author_role": null,
+   "content": "Осталось до конца экспедиции 11 минут",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414526593585381388",
+   "date": "2025-09-08T08:23:40.544000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Не сломанный файл локализации?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414526822439194674",
+   "date": "2025-09-08T08:24:35.107000+00:00",
+   "author": "FreshInk",
+   "author_role": null,
+   "content": "А ну и на экспедициях пиздец с генерацией",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414526861999870033",
+   "date": "2025-09-08T08:24:44.539000+00:00",
+   "author": "FreshInk",
+   "author_role": null,
+   "content": "Ни врагов, ни лута",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414526879322607646",
+   "date": "2025-09-08T08:24:48.669000+00:00",
+   "author": "FreshInk",
+   "author_role": null,
+   "content": "Только фиксированный лут",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414526891049881620",
+   "date": "2025-09-08T08:24:51.465000+00:00",
+   "author": "FreshInk",
+   "author_role": null,
+   "content": "Мусор",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414527239424311316",
+   "date": "2025-09-08T08:26:14.524000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Полагаю баг оффов",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414527280767565876",
+   "date": "2025-09-08T08:26:24.381000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Это какой?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414527535957676053",
+   "date": "2025-09-08T08:27:25.223000+00:00",
+   "author": "FreshInk",
+   "author_role": null,
+   "content": "Типо всякие обёртки, бумажки и бур с киркой",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414527589606752286",
+   "date": "2025-09-08T08:27:38.014000+00:00",
+   "author": "FreshInk",
+   "author_role": null,
+   "content": "И нету руд всяких",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414527877424218132",
+   "date": "2025-09-08T08:28:46.635000+00:00",
+   "author": "FreshInk",
+   "author_role": null,
+   "content": "Смерть в нищите",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414528050862751764",
+   "date": "2025-09-08T08:29:27.986000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "После пар проверю, как оно всё",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

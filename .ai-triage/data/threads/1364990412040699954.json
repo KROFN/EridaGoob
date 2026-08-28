@@ -1,0 +1,99 @@
+{
+ "thread_id": "1364990412040699954",
+ "title": "невозможно зайти...",
+ "author": {
+  "id": "617747465382264835",
+  "username": "ruler113",
+  "global_name": "ruler113",
+  "server_nick": null,
+  "display": "ruler113"
+ },
+ "created_at": "2025-04-24T15:44:34.526Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 6,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1364990412040699954",
+  "date": "2025-04-24T15:44:34.526000+00:00",
+  "author": "ruler113",
+  "author_role": null,
+  "content": "- просто не могу зайти на серве",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1364990412523180062",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1365008072610938880",
+   "date": "2025-04-24T16:54:45.134000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "Ёп..",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365008109797507135",
+   "date": "2025-04-24T16:54:54+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "Тут только священнник в помощь",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365008121281642577",
+   "date": "2025-04-24T16:54:56.738000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "А если серьёзно..",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365008157960568872",
+   "date": "2025-04-24T16:55:05.483000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "То попробуй переустановить игру..",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365010376827207820",
+   "date": "2025-04-24T17:03:54.502000+00:00",
+   "author": "BP",
+   "author_role": null,
+   "content": "виндоус сразу",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

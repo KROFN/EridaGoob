@@ -1,0 +1,48 @@
+{
+ "thread_id": "1368929127822000138",
+ "title": "А как встать.",
+ "author": {
+  "id": "1314294897318166538",
+  "username": "blck_angl",
+  "global_name": "BlackAngel",
+  "server_nick": null,
+  "display": "BlackAngel"
+ },
+ "created_at": "2025-05-05T12:35:37.546Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 1,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1368929128161611776_2025-05-05_22-34-31.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1368929127822000138",
+  "date": "2025-05-05T12:35:37.546000+00:00",
+  "author": "BlackAngel",
+  "author_role": null,
+  "content": "При попытке встать - ударяюсь своей тупой башкой об след",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1368929128161611776",
+    "filename": "2025-05-05_22-34-31.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1368929127822000138/1368929128161611776_2025-05-05_22-34-31.png"
+   }
+  ],
+  "reactions": [
+   "⭐:3"
+  ]
+ },
+ "replies": [],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

@@ -1,0 +1,211 @@
+{
+ "thread_id": "1536732595268747334",
+ "title": "Галочка на отказ от цели-убийства.",
+ "author": {
+  "id": "877641869222371348",
+  "username": "9kvac_",
+  "global_name": "9Kvac_",
+  "server_nick": null,
+  "display": "9Kvac_"
+ },
+ "created_at": "2026-08-11T13:46:41.823Z",
+ "archived": false,
+ "tags": [
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1507775251998838925"
+ ],
+ "message_count": 80,
+ "attachment_count": 3,
+ "attachments_on_disk": [
+  "1536737316960206958_032880C4-6AB2-4BE3-AB23-65CE1CD01ECC.png",
+  "1536743754994684015_image.png",
+  "1536743916945154058_image.png"
+ ],
+ "external_media_files": [
+  "external_1537885848710815754_01.gif"
+ ],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1536732595268747334",
+  "date": "2026-08-11T13:46:41.823000+00:00",
+  "author": "9Kvac_",
+  "author_role": null,
+  "content": "Функция \"Отказ от цели синдиката\" не работает. Даже если ты её поставил, ты всё равно можешь оказаться целью Антажко.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1536737317258006620",
+   "date": "2026-08-11T14:05:27.633000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1536737316960206958",
+     "filename": "032880C4-6AB2-4BE3-AB23-65CE1CD01ECC.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1536732595268747334/1536737316960206958_032880C4-6AB2-4BE3-AB23-65CE1CD01ECC.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1536743755472707677",
+   "date": "2026-08-11T14:31:02.623000+00:00",
+   "author": "Crisp Cloaker",
+   "author_role": null,
+   "content": "Евген при упоминании этого факта - удивился, ибо ставил эту штуку себе",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1536743754994684015",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1536732595268747334/1536743754994684015_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1536743917301665983",
+   "date": "2026-08-11T14:31:41.206000+00:00",
+   "author": "Crisp Cloaker",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1536743916945154058",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1536732595268747334/1536743916945154058_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1537455378198040616",
+   "date": "2026-08-13T13:38:46.702000+00:00",
+   "author": "6 месяцев спустя",
+   "author_role": null,
+   "content": "Так даже на блюмуне можно ворваться в инфинити дормы и вырезать цель во время ЕРП. Играйте на локалках, либо делайте аналог гост-кафе.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1537457516093640826",
+   "date": "2026-08-13T13:47:16.416000+00:00",
+   "author": "6 месяцев спустя",
+   "author_role": null,
+   "content": "https://cdn.discordapp.com/attachments/1166780946293469324/1387882809858850836/vsec_trained-1.gif",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1537550582628229120",
+   "date": "2026-08-13T19:57:05.207000+00:00",
+   "author": "otche_nash",
+   "author_role": null,
+   "content": "тут назревает вопрос, какого хуя там она забыла, если это не утиль. Если это утиль-это очевидно. Это проблема антага, а не причина отказываться от смерти",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1537707207091814470",
+   "date": "2026-08-14T06:19:27.389000+00:00",
+   "author": "6 месяцев спустя",
+   "author_role": null,
+   "content": "https://cdn.discordapp.com/attachments/875757279230701628/1535433856205717526/expie-drooling.gif",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1537870901238964266",
+   "date": "2026-08-14T17:09:55.115000+00:00",
+   "author": "Ананасина",
+   "author_role": null,
+   "content": "Ну да, ни у кого же не может быть альтернативных взглядов на цель игры и т.п.\nСовершенно точно все 100% игроков заходят с целью пощекотать себе нервы от наличия антагов.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1537885361353658439",
+   "date": "2026-08-14T18:07:22.675000+00:00",
+   "author": "rOmannn299",
+   "author_role": null,
+   "content": "суть в том, что играя в рп игру, ты должен рпшить, а не запираться с 5й минуты смены и до конца на два часа, чторбы текстом ебаться с твоим метакентом",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1537885408355029034",
+   "date": "2026-08-14T18:07:33.881000+00:00",
+   "author": "Ананасина",
+   "author_role": null,
+   "content": "Если условный кс будет предоставлять инструменты и механики, похволяющие получать удовольствие от такого геймплея - то почему нет?\nНу и да, сравнивать соревновательный шутер с чётко поставленными задачами на матч и раунд с ролевой песочницей - отличное занятие)",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1537885511249821748",
+   "date": "2026-08-14T18:07:58.413000+00:00",
+   "author": "rOmannn299",
+   "author_role": null,
+   "content": "никто не говорит, что это запрещено, каждый дрочит как он хочет, но если играете на сервере, то надо проявлять активность или быть готовым в этой активности участвовать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1537885553784127618",
+   "date": "2026-08-14T18:08:08.554000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Суть в том, что новые функции добавленные на Эриду должны работать, а не быть багованным.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1537885562902679562",
+   "date": "2026-08-14T18:08:10.728000+00:00",
+   "author": "Ананасина",
+   "author_role": null,
+   "content": "Вот с ЭТИМ я согласен на 100%. Но причиной тому являются не антаги на мой взгляд.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1537885724974784543",
+   "date": "2026-08-14T18:08:49.369000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "И если человек знал, что идёт ерпешить на Эриде, а его галочка включена дабы никому не мешать - не игрок кусок дерьма, а функция нерабочая",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

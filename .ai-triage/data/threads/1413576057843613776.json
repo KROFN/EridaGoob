@@ -1,0 +1,78 @@
+{
+ "thread_id": "1413576057843613776",
+ "title": "Утильский скаф",
+ "author": {
+  "id": "328755535765569537",
+  "username": "montriase",
+  "global_name": "MonTrius",
+  "server_nick": null,
+  "display": "MonTrius"
+ },
+ "created_at": "2025-09-05T17:26:35.163Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 3,
+ "attachment_count": 2,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1413576057843613776",
+  "date": "2025-09-05T17:26:35.163000+00:00",
+  "author": "MonTrius",
+  "author_role": null,
+  "content": "Не работает фонарик, который встроен в шлем. То есть не освещает область.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1413576058220843128",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   },
+   {
+    "id": "1413576059064160377",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": [
+   "⭐:1"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1413753818365300806",
+   "date": "2025-09-06T05:12:56.574000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Исправим, проблема со всем направленным светом",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413880804052045946",
+   "date": "2025-09-06T13:37:32.321000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Исправили",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

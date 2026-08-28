@@ -1,0 +1,40 @@
+{
+ "thread_id": "1388553983613730969",
+ "title": "Медицинские юниты не могут начать операцию.",
+ "author": {
+  "id": "855316487978614795",
+  "username": ".besave",
+  "global_name": "Shady",
+  "server_nick": null,
+  "display": "Shady"
+ },
+ "created_at": "2025-06-28T16:17:47.779Z",
+ "archived": true,
+ "tags": [
+  "На рассмотрении"
+ ],
+ "tag_ids": [
+  "1377591362744094795"
+ ],
+ "message_count": 1,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1388553983613730969",
+  "date": "2025-06-28T16:17:47.779000+00:00",
+  "author": "Shady",
+  "author_role": null,
+  "content": "При попытке начать операцию любым из доступных методов, медицинский юня сталкивается с тем, что синтетикам запрещено открывать некоторые интерфейсы, как это могутделать органики. Из-за этого, даже если соблюсти всех нужные условия ( лежащий на столе пациент, отсутсвие на нём одежды, анестезия при желании ), прооперировать его будет совершенно невозможно.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

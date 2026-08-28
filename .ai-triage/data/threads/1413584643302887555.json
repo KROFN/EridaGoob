@@ -1,0 +1,77 @@
+{
+ "thread_id": "1413584643302887555",
+ "title": "Венты шаттловские",
+ "author": {
+  "id": "328755535765569537",
+  "username": "montriase",
+  "global_name": "MonTrius",
+  "server_nick": null,
+  "display": "MonTrius"
+ },
+ "created_at": "2025-09-05T18:00:42.096Z",
+ "archived": true,
+ "tags": [
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1377371306470801439"
+ ],
+ "message_count": 3,
+ "attachment_count": 2,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1413584643302887555",
+  "date": "2025-09-05T18:00:42.096000+00:00",
+  "author": "MonTrius",
+  "author_role": null,
+  "content": "Если будет вирус грейтайда или отключение света, то воздух с шаттлов и некоторых точек (прибытие/отбытие) - пропадать. Это скорее не баг, а просто лишняя морока.\nНа скрине помещение закрыто, но воздух всё равно выходит.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1413584643621519502",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1413585316660514866",
+   "date": "2025-09-05T18:03:22.637000+00:00",
+   "author": "MonTrius",
+   "author_role": null,
+   "content": "Возможно через эти шлюзы/затворы теперь из-за вируса или отключения света - багуются шлюзы.\nХотя тут нет вентов, в общем с названием ошибся, но всё равно странно.",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1413585316073439314",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1413754004134953060",
+   "date": "2025-09-06T05:13:40.865000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "В <#1357998722553741433> получается",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

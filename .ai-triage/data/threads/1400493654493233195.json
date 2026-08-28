@@ -1,0 +1,75 @@
+{
+ "thread_id": "1400493654493233195",
+ "title": "зайти на серевр невозможно",
+ "author": {
+  "id": "894202820654424074",
+  "username": "rabi_abraham",
+  "global_name": "Раби Абрахам",
+  "server_nick": null,
+  "display": "Раби Абрахам"
+ },
+ "created_at": "2025-07-31T15:01:47.145Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 4,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1400493654493233195",
+  "date": "2025-07-31T15:01:47.145000+00:00",
+  "author": "Раби Абрахам",
+  "author_role": null,
+  "content": "Не удалось подключиться к серверу:\nDisconnected: Unknown server error occured during handshake. \nбля помогите",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1400496094663675944",
+   "date": "2025-07-31T15:11:28.927000+00:00",
+   "author": "Lost Dread",
+   "author_role": null,
+   "content": "бля помогите",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1400501127597789388",
+   "date": "2025-07-31T15:31:28.872000+00:00",
+   "author": "килла  zxсторож",
+   "author_role": null,
+   "content": "https://cdn.discordapp.com/attachments/1180626739005767751/1244331028340805692/SS14Dead.gif",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1400790110424797184",
+   "date": "2025-08-01T10:39:47.747000+00:00",
+   "author": "EvillChet",
+   "author_role": null,
+   "content": "Визы насрали. Если не прошло - попробуй очистить движки и библиотеку в настройках лаунчера",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [
+  "Disconnected",
+  "Unknown",
+  "during",
+  "error",
+  "handshake",
+  "occured",
+  "server"
+ ],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

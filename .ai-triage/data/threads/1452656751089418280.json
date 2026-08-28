@@ -1,0 +1,100 @@
+{
+ "thread_id": "1452656751089418280",
+ "title": "Корабли",
+ "author": {
+  "id": "903610358617493524",
+  "username": "alexfire9455",
+  "global_name": "alexfire",
+  "server_nick": null,
+  "display": "alexfire"
+ },
+ "created_at": "2025-12-22T13:39:18.517Z",
+ "archived": true,
+ "tags": [
+  "Визден-Баг",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1449460164171403294",
+  "1414266059208265799"
+ ],
+ "message_count": 4,
+ "attachment_count": 3,
+ "attachments_on_disk": [
+  "1452656751550660608_2025-12-15_023624.png",
+  "1452656751861305344_2025-12-15_023350.png",
+  "1452663182819590355_2025-12-15_015556.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1452656751089418280",
+  "date": "2025-12-22T13:39:18.517000+00:00",
+  "author": "alexfire",
+  "author_role": null,
+  "content": "Думаю уже все в какой то мере видели этот баг, шатллы проходят сквозь станцию слегка, иногда бывает этот баг а иногда нету - в соновном с шатллами которые с раундстарта тоесть:Шатлл карго, сб шатлл",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1452656751550660608",
+    "filename": "2025-12-15_023624.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1452656751089418280/1452656751550660608_2025-12-15_023624.png"
+   },
+   {
+    "id": "1452656751861305344",
+    "filename": "2025-12-15_023350.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1452656751089418280/1452656751861305344_2025-12-15_023350.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1452662256906276997",
+   "date": "2025-12-22T14:01:11.206000+00:00",
+   "author": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ",
+   "author_role": null,
+   "content": "Ломаем физику уээээ",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452663081648914502",
+   "date": "2025-12-22T14:04:27.840000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "Буэээ",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452663183788609599",
+   "date": "2025-12-22T14:04:52.192000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1452663182819590355",
+     "filename": "2025-12-15_015556.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1452656751089418280/1452663182819590355_2025-12-15_015556.png"
+    }
+   ],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

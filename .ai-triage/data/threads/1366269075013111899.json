@@ -1,0 +1,67 @@
+{
+ "thread_id": "1366269075013111899",
+ "title": "Бесплатная тпешка шадоукинов",
+ "author": {
+  "id": "459666212025270287",
+  "username": "xkttty",
+  "global_name": "xkttty",
+  "server_nick": null,
+  "display": "xkttty"
+ },
+ "created_at": "2025-04-28T04:25:31.535Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 2,
+ "attachment_count": 2,
+ "attachments_on_disk": [
+  "1366269075210375178_image.png",
+  "1366269075809898548_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1366269075013111899",
+  "date": "2025-04-28T04:25:31.535000+00:00",
+  "author": "xkttty",
+  "author_role": null,
+  "content": "если нести за собой какой то предмет или ящик и нажать телепорт то стамина на тп не потратится и звука не будет, может быть очень сильный багоюз ( на скринах показать тяжело, а видос мне записывать лень )",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1366269075210375178",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1366269075013111899/1366269075210375178_image.png"
+   },
+   {
+    "id": "1366269075809898548",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1366269075013111899/1366269075809898548_image.png"
+   }
+  ],
+  "reactions": [
+   "⭐:1"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1366600879280750642",
+   "date": "2025-04-29T02:23:59.837000+00:00",
+   "author": "bebrus",
+   "author_role": null,
+   "content": "🤫",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

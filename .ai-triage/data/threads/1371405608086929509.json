@@ -1,0 +1,57 @@
+{
+ "thread_id": "1371405608086929509",
+ "title": "Крайне странный баг",
+ "author": {
+  "id": "1179212963358457986",
+  "username": "Deleted User",
+  "global_name": null,
+  "server_nick": null,
+  "display": "Deleted User"
+ },
+ "created_at": "2025-05-12T08:36:16.452Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 2,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1371405608326135809_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1371405608086929509",
+  "date": "2025-05-12T08:36:16.452000+00:00",
+  "author": "Deleted User",
+  "author_role": null,
+  "content": "Даже не знаю что могло вызвать данный баг",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1371405608326135809",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1371405608086929509/1371405608326135809_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1371405728224382997",
+   "date": "2025-05-12T08:36:45.095000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "клеточные были",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

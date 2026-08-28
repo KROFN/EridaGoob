@@ -1,0 +1,50 @@
+{
+ "thread_id": "1416168662695546921",
+ "title": "Ии и голопад",
+ "author": {
+  "id": "570567448504303617",
+  "username": "papjijict",
+  "global_name": "Parodist",
+  "server_nick": null,
+  "display": "Parodist"
+ },
+ "created_at": "2025-09-12T21:08:40.328Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1414266059208265799"
+ ],
+ "message_count": 1,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1416168663610036295_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1416168662695546921",
+  "date": "2025-09-12T21:08:40.328000+00:00",
+  "author": "Parodist",
+  "author_role": null,
+  "content": "Ии не понимает язык при вхождении в голопад",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1416168663610036295",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1416168662695546921/1416168663610036295_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

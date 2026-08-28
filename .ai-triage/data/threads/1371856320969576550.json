@@ -1,0 +1,99 @@
+{
+ "thread_id": "1371856320969576550",
+ "title": "Баг панельки ERP-статуса",
+ "author": {
+  "id": "577526999548035073",
+  "username": "clarnetty",
+  "global_name": "𝕮𝖑𝖆𝖗𝖓𝖊𝖙𝖙𝖞",
+  "server_nick": null,
+  "display": "𝕮𝖑𝖆𝖗𝖓𝖊𝖙𝖙𝖞"
+ },
+ "created_at": "2025-05-13T14:27:14.777Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 6,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1371856320969576550",
+  "date": "2025-05-13T14:27:14.777000+00:00",
+  "author": "𝕮𝖑𝖆𝖗𝖓𝖊𝖙𝖙𝖞",
+  "author_role": null,
+  "content": "Курсор находился в пределах зеленой рамки, но сама кнопка срабатывала в пределах красной рамки. На скриншоте все выделил.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1371856321619427449",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1371856379618267227",
+   "date": "2025-05-13T14:27:28.760000+00:00",
+   "author": "Кристина",
+   "author_role": null,
+   "content": "yes, мы в курсе",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1371856409125326848",
+   "date": "2025-05-13T14:27:35.795000+00:00",
+   "author": "Кристина",
+   "author_role": null,
+   "content": "уже занялись проблемой",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1371856568810864640",
+   "date": "2025-05-13T14:28:13.867000+00:00",
+   "author": "𝕮𝖑𝖆𝖗𝖓𝖊𝖙𝖙𝖞",
+   "author_role": null,
+   "content": "Ток щас заметил что там уже есть тред по этой теме",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1371856652365725716",
+   "date": "2025-05-13T14:28:33.788000+00:00",
+   "author": "Кристина",
+   "author_role": null,
+   "content": "В любом случае уже работаем над этим",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1372267327374098542",
+   "date": "2025-05-14T17:40:26.340000+00:00",
+   "author": "TREST",
+   "author_role": null,
+   "content": "исправлено",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

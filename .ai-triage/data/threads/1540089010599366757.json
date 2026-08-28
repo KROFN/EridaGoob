@@ -1,0 +1,61 @@
+{
+ "thread_id": "1540089010599366757",
+ "title": "Молотов",
+ "author": {
+  "id": "805111761312153631",
+  "username": "kauner_vorov",
+  "global_name": "Kauner_Vorov",
+  "server_nick": null,
+  "display": "Kauner_Vorov"
+ },
+ "created_at": "2026-08-20T20:03:53.597Z",
+ "archived": false,
+ "tags": [
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1507775251998838925"
+ ],
+ "message_count": 3,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1540089010599366757",
+  "date": "2026-08-20T20:03:53.597000+00:00",
+  "author": "Kauner_Vorov",
+  "author_role": null,
+  "content": "Молотов нельзя сделать, пробовал все варианты которые могли бы помочь, решите эту проблему",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1540090994685644850",
+   "date": "2026-08-20T20:11:46.640000+00:00",
+   "author": "Wendor",
+   "author_role": null,
+   "content": "Гляну позже",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1540095325799321651",
+   "date": "2026-08-20T20:28:59.258000+00:00",
+   "author": "Wendor",
+   "author_role": null,
+   "content": "https://discord.com/channels/1357728304710422680/1540061285029257266",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

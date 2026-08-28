@@ -1,0 +1,131 @@
+{
+ "thread_id": "1371221329704914994",
+ "title": "Следы, швабра, нет воды.",
+ "author": {
+  "id": "638709309273931777",
+  "username": "whatapple",
+  "global_name": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+  "server_nick": null,
+  "display": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲"
+ },
+ "created_at": "2025-05-11T20:24:01.062Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 9,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1371221329704914994",
+  "date": "2025-05-11T20:24:01.062000+00:00",
+  "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+  "author_role": null,
+  "content": "Следы невозможно убрать шваброй, только спреями. Когда тыкаешь полной или не плолной шваброй, вылезает мол в швабре нет воды.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1371225273181278399",
+   "date": "2025-05-11T20:39:41.260000+00:00",
+   "author": "BP",
+   "author_role": null,
+   "content": "Разве это не пофиксили?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1371227278201061426",
+   "date": "2025-05-11T20:47:39.294000+00:00",
+   "author": "NickCatXD1",
+   "author_role": null,
+   "content": "Дельт, попробуй\nhttps://discord.com/channels/1357728304710422680/1364253995648028822",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1371290151770132562",
+   "date": "2025-05-12T00:57:29.521000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "А, лады",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1371290163145347163",
+   "date": "2025-05-12T00:57:32.233000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "Спасибо",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1371295482843762820",
+   "date": "2025-05-12T01:18:40.548000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "Да чёт нихера",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1371295482596560958",
+     "filename": "Screenshot_4873.png",
+     "content_type": "image/png",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1371384545730891806",
+   "date": "2025-05-12T07:12:34.795000+00:00",
+   "author": "BP",
+   "author_role": null,
+   "content": "Они кстати теперь ещё и скользят",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1371480497036988489",
+   "date": "2025-05-12T13:33:51.369000+00:00",
+   "author": "TREST",
+   "author_role": null,
+   "content": "Я обнову еще не ставил. Вечером обещают фикс меда, вместе с ним поставлю",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "4noraisin:2"
+   ]
+  },
+  {
+   "id": "1371492124780007477",
+   "date": "2025-05-12T14:20:03.639000+00:00",
+   "author": "NickCatXD1",
+   "author_role": null,
+   "content": "СВЕРШИЛОСЬ",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

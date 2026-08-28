@@ -1,0 +1,108 @@
+{
+ "thread_id": "1499138888588071022",
+ "title": "Хвосты воксов",
+ "author": {
+  "id": "442351369857531925",
+  "username": "reddyford",
+  "global_name": "ReddyFord",
+  "server_nick": null,
+  "display": "ReddyFord"
+ },
+ "created_at": "2026-04-29T20:02:43.693Z",
+ "archived": true,
+ "tags": [
+  "Дискорд-Бот"
+ ],
+ "tag_ids": [
+  "1414265921488289995"
+ ],
+ "message_count": 5,
+ "attachment_count": 3,
+ "attachments_on_disk": [
+  "1499138889082867865_image.png",
+  "1499149914666700800_image.png",
+  "1499149914964230234_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1499138888588071022",
+  "date": "2026-04-29T20:02:43.693000+00:00",
+  "author": "ReddyFord",
+  "author_role": null,
+  "content": "Анимированные хвосты воксов нельзя покрасить",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1499138889082867865",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1499138888588071022/1499138889082867865_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1499149915220344842",
+   "date": "2026-04-29T20:46:32.647000+00:00",
+   "author": "ReddyFord",
+   "author_role": null,
+   "content": "Любые вокс-чешуйки туда же",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1499149914666700800",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1499138888588071022/1499149914666700800_image.png"
+    },
+    {
+     "id": "1499149914964230234",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "downloaded",
+     "local_path": "attachments/1499138888588071022/1499149914964230234_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1499292639990910986",
+   "date": "2026-04-30T06:13:40.884000+00:00",
+   "author": "Anilori <3",
+   "author_role": null,
+   "content": "тут проблема в том, что эти хвосты и не преднозначены для выбора...\nОни по нормальному должны работать при переключении одноименного простого хвоста на кнопку...\nА чешуйки да, странно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1499365552010039387",
+   "date": "2026-04-30T11:03:24.464000+00:00",
+   "author": "ReddyFord",
+   "author_role": null,
+   "content": "Для выбора они ооочень прикольные, потому что позволяют еще более гибко делать кастом перса",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1499365584549449729",
+   "date": "2026-04-30T11:03:32.222000+00:00",
+   "author": "ReddyFord",
+   "author_role": null,
+   "content": "Поэтому и не хватает их покраса...",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

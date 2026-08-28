@@ -1,0 +1,15 @@
+{
+ "TOTAL": 457,
+ "SKIP_RESOLVED": 182,
+ "SKIP_NOT_BUG": 63,
+ "NEEDS_TRIAGE": 212,
+ "TAG_CONFLICT": 22,
+ "archived": 436,
+ "active": 21,
+ "total_messages": 5197,
+ "total_attachment_meta": 640,
+ "threads_with_media_on_disk": 135,
+ "attachment_files_on_disk": 294,
+ "threads_with_external_media": 3,
+ "external_media_files": 5
+}

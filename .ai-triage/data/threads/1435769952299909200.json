@@ -1,0 +1,125 @@
+{
+ "thread_id": "1435769952299909200",
+ "title": "Энерго коса жужжит",
+ "author": {
+  "id": "472801118850908173",
+  "username": "vanomorodellefake",
+  "global_name": "vanomorodellefake",
+  "server_nick": null,
+  "display": "vanomorodellefake"
+ },
+ "created_at": "2025-11-05T23:17:11.944Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 9,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1435769952299909200",
+  "date": "2025-11-05T23:17:11.944000+00:00",
+  "author": "vanomorodellefake",
+  "author_role": null,
+  "content": "Дело было на сервере, когда активировал энерго косу и деактивировал её, осталось её фоновое жужжание и сопровождало до конца раунда. Завтра ещё проверю на локалке, авось единичный случай.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1435770973344239690",
+   "date": "2025-11-05T23:21:15.380000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Не единичный, локальный баг и слышно лишь у того, кто активировал.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "👌:1"
+   ]
+  },
+  {
+   "id": "1435771088515633395",
+   "date": "2025-11-05T23:21:42.839000+00:00",
+   "author": "vanomorodellefake",
+   "author_role": null,
+   "content": "но всё равно неприятно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1435787106659336223",
+   "date": "2025-11-06T00:25:21.862000+00:00",
+   "author": "PuroSlavKing",
+   "author_role": null,
+   "content": "https://github.com/space-wizards/space-station-14/pull/38070",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1436317118357311632",
+   "date": "2025-11-07T11:31:26.498000+00:00",
+   "author": "Dark Night",
+   "author_role": null,
+   "content": "этой хуйне уже несколько месяцев",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1436317168517251163",
+   "date": "2025-11-07T11:31:38.457000+00:00",
+   "author": "Dark Night",
+   "author_role": null,
+   "content": "<:dogohehe:1413360708061630474>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1436317213677191270",
+   "date": "2025-11-07T11:31:49.224000+00:00",
+   "author": "Dark Night",
+   "author_role": null,
+   "content": "чинится перезаходом",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1436317272540053575",
+   "date": "2025-11-07T11:32:03.258000+00:00",
+   "author": "Dark Night",
+   "author_role": null,
+   "content": "до следощего включения",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1449208896307728385",
+   "date": "2025-12-13T01:18:45.879000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Исправлено апстримом",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

@@ -1,0 +1,40 @@
+{
+ "thread_id": "1473337621521367151",
+ "title": "Нет направленных урановых стекол в меню крафта",
+ "author": {
+  "id": "551403326948900881",
+  "username": "maasarie",
+  "global_name": "maasarie",
+  "server_nick": null,
+  "display": "maasarie"
+ },
+ "created_at": "2026-02-17T15:17:42.260Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1414266059208265799"
+ ],
+ "message_count": 1,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1473337621521367151",
+  "date": "2026-02-17T15:17:42.260000+00:00",
+  "author": "maasarie",
+  "author_role": null,
+  "content": "Ну да",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

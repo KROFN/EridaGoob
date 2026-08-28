@@ -1,0 +1,191 @@
+{
+ "thread_id": "1458938471531024464",
+ "title": "Баг со скафандром РХБЗЗ",
+ "author": {
+  "id": "1247510949976608801",
+  "username": "freshnink",
+  "global_name": "FreshInk",
+  "server_nick": null,
+  "display": "FreshInk"
+ },
+ "created_at": "2026-01-08T21:40:37.379Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799",
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1414266059208265799",
+  "1377371306470801439"
+ ],
+ "message_count": 31,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1458938471531024464",
+  "date": "2026-01-08T21:40:37.379000+00:00",
+  "author": "FreshInk",
+  "author_role": null,
+  "content": "НУЛЕВАЯ ЗАЩИТА",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1458938845906337855",
+   "date": "2026-01-08T21:42:06.637000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1458938845834776586",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1458939010079785297",
+   "date": "2026-01-08T21:42:45.779000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "для ивента можно было сделать отдельный прототип с защитой получше для них",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1458939100097675364",
+   "date": "2026-01-08T21:43:07.241000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "вне ивента резисты у них вполне, я особого смысла повышать не вижу",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1458939185112027146",
+   "date": "2026-01-08T21:43:27.510000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "ну так надо было на себя надеть",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1458939269446897797",
+   "date": "2026-01-08T21:43:47.617000+00:00",
+   "author": "FreshInk",
+   "author_role": null,
+   "content": "ТАК РАДИАЦИОННЫЙ УРОН СНИЖАЕТСЯ НА 90",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1458939345561063613",
+   "date": "2026-01-08T21:44:05.764000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "ну да, а у экипажа 99 + 35",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1458939521910571179",
+   "date": "2026-01-08T21:44:47.809000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "у рхбз на скафе 90, но они и не полезут перезаряжать сингулярность как СИ тот же",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1458939837733146704",
+   "date": "2026-01-08T21:46:03.107000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "это не сложно, всё интуитивно понятно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1458940048501379207",
+   "date": "2026-01-08T21:46:53.358000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "буквально одну строчку добавить в коде прототипа и залить на сервер",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1459781907247005696",
+   "date": "2026-01-11T05:32:08.124000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "А вот шлем пилота реально фу",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1459782934138716212",
+   "date": "2026-01-11T05:36:12.954000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "а пилоту зачем защита от радиации",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1459783221116932259",
+   "date": "2026-01-11T05:37:21.375000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "Не, там тупо никакой защиты нету",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1459783275865440399",
+   "date": "2026-01-11T05:37:34.428000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "Даже у арбузной корки и то больше",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1459783340097015818",
+   "date": "2026-01-11T05:37:49.742000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "ну так делай арбузный шлем",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

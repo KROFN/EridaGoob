@@ -1,0 +1,66 @@
+{
+ "thread_id": "1498421398446538955",
+ "title": "Привет, я хочу не чувствовать боль.",
+ "author": {
+  "id": "574179298068660224",
+  "username": ".kirikuru",
+  "global_name": "KiriKuru",
+  "server_nick": null,
+  "display": "KiriKuru"
+ },
+ "created_at": "2026-04-27T20:31:40.713Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 2,
+ "attachment_count": 2,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1498421398446538955",
+  "date": "2026-04-27T20:31:40.713000+00:00",
+  "author": "KiriKuru",
+  "author_role": null,
+  "content": "Черта попросту не работает, я получаю отображение, что у меня не хватает хп, не круто.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1498421398664908800",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   },
+   {
+    "id": "1498421399197450502",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1498439186221367477",
+   "date": "2026-04-27T21:42:21.649000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "fixed",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

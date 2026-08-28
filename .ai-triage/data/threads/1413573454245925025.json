@@ -1,0 +1,61 @@
+{
+ "thread_id": "1413573454245925025",
+ "title": "Может тест?",
+ "author": {
+  "id": "328755535765569537",
+  "username": "montriase",
+  "global_name": "MonTrius",
+  "server_nick": null,
+  "display": "MonTrius"
+ },
+ "created_at": "2025-09-05T17:16:14.417Z",
+ "archived": true,
+ "tags": [
+  "В процессе"
+ ],
+ "tag_ids": [
+  "1365427658288005150"
+ ],
+ "message_count": 2,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1413573454648836317_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1413573454245925025",
+  "date": "2025-09-05T17:16:14.417000+00:00",
+  "author": "MonTrius",
+  "author_role": null,
+  "content": "Полагаю что данные крафты тестовые, так как нет названий и оно дублируется.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1413573454648836317",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1413573454245925025/1413573454648836317_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1413753725599613039",
+   "date": "2025-09-06T05:12:34.457000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Без понятия, что это. Попробую найти",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

@@ -1,0 +1,123 @@
+{
+ "thread_id": "1448396633736741045",
+ "title": "Направленные окна и плитка",
+ "author": {
+  "id": "1215996475624919180",
+  "username": "fox_meowder",
+  "global_name": "Пряники",
+  "server_nick": null,
+  "display": "Пряники"
+ },
+ "created_at": "2025-12-10T19:31:07.391Z",
+ "archived": true,
+ "tags": [
+  "На рассмотрении",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1377591362744094795",
+  "1414266059208265799"
+ ],
+ "message_count": 8,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1448396634118553743_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1448396633736741045",
+  "date": "2025-12-10T19:31:07.391000+00:00",
+  "author": "Пряники",
+  "author_role": null,
+  "content": "Визы починили стак окон, но теперь сломали плитки рядом с ними... будто так быть не должно.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1448396634118553743",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1448396633736741045/1448396634118553743_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1448420437645197414",
+   "date": "2025-12-10T21:05:42.685000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "А что с ними",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1448420548580475034",
+   "date": "2025-12-10T21:06:09.134000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "Если стоит окно- нельзя снять плитку?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1448425689719247010",
+   "date": "2025-12-10T21:26:34.877000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "ага",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1449218751001133139",
+   "date": "2025-12-13T01:57:55.421000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Раньше разве можно было?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1449375628326600757",
+   "date": "2025-12-13T12:21:17.890000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "ага",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1449375688309346486",
+   "date": "2025-12-13T12:21:32.191000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "раньше и стакать можно было",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1449375793548496907",
+   "date": "2025-12-13T12:21:57.282000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "типа в одном месте по 8 и больше окон",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

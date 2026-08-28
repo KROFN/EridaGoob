@@ -1,0 +1,67 @@
+{
+ "thread_id": "1413578353155379241",
+ "title": "ЧЕ НАХУЙ",
+ "author": {
+  "id": "574179298068660224",
+  "username": "mlefur",
+  "global_name": "Ykika",
+  "server_nick": null,
+  "display": "Ykika"
+ },
+ "created_at": "2025-09-05T17:35:42.408Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 4,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1413580021494317179",
+  "date": "2025-09-05T17:42:20.171000+00:00",
+  "author": "Ykika",
+  "author_role": null,
+  "content": "перекинь в мою ветку это сообщение, будем там всё от админки собирать",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1413580269486604359",
+   "date": "2025-09-05T17:43:19.297000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "звуки подбора предметов это фича добавленая на конфе, перенесу как закончу с лавой и некоторым остальным",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413580322490028042",
+   "date": "2025-09-05T17:43:31.934000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "или там только оружие?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413632738539339879",
+   "date": "2025-09-05T21:11:48.894000+00:00",
+   "author": "Elgard",
+   "author_role": null,
+   "content": "не только",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

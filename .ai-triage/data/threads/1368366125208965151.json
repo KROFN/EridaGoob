@@ -1,0 +1,59 @@
+{
+ "thread_id": "1368366125208965151",
+ "title": "Гравитация 🛸",
+ "author": {
+  "id": "685490859826741268",
+  "username": "akkinety",
+  "global_name": "Akki",
+  "server_nick": null,
+  "display": "Akki"
+ },
+ "created_at": "2025-05-03T23:18:27.263Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 3,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1368366125208965151",
+  "date": "2025-05-03T23:18:27.263000+00:00",
+  "author": "Akki",
+  "author_role": null,
+  "content": "Классная фича, когда предметы включая:\n- Те что можно взять в руку\n- Те что можно передвигать\nимеют такой же вес и гравитацию, как и при полном отключении гратационного генератора.\n\n-# Отличная первоапрельская шутка для начала мая.\n🤡",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": [
+   "⭐:7"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1368722756866412655",
+   "date": "2025-05-04T22:55:34.876000+00:00",
+   "author": "FreshInk",
+   "author_role": null,
+   "content": "Ура",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1368722772355711016",
+   "date": "2025-05-04T22:55:38.569000+00:00",
+   "author": "FreshInk",
+   "author_role": null,
+   "content": "Наконец заметили",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

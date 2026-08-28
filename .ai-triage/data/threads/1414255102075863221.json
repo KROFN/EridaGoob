@@ -1,0 +1,77 @@
+{
+ "thread_id": "1414255102075863221",
+ "title": "Стан мета...",
+ "author": {
+  "id": "1215996475624919180",
+  "username": "fox_meowder",
+  "global_name": "Пряники",
+  "server_nick": null,
+  "display": "Пряники"
+ },
+ "created_at": "2025-09-07T14:24:51.924Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 5,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1414255102075863221",
+  "date": "2025-09-07T14:24:51.924000+00:00",
+  "author": "Пряники",
+  "author_role": null,
+  "content": "Она должна быть мертва... если не ошибаюсь визадры ее убили, но у нас кроваво-красный скафандр абсолютно никак не защищает от обычного конченого станера... какого черта, а ну и плюсом дилмет тоже никак не помог... Почините этот пиздец.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1414255118739574915",
+   "date": "2025-09-07T14:24:55.897000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "https://discord.com/channels/1030160796401016883/1186681176719622186/1387180526997213284",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414495879745765386",
+   "date": "2025-09-08T06:21:37.794000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "бля",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414495882111356988",
+   "date": "2025-09-08T06:21:38.358000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "пиздец",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1414568275580555355",
+   "date": "2025-09-08T11:09:18.306000+00:00",
+   "author": "bebrus",
+   "author_role": null,
+   "content": "Лично я считаю, что стамина защита вполне справедливая. В обычном блодреде на тебя нужно целых 4 удара батоном, станером 8. Про элитку и рейдерку я вообще молчу.\nПора отвыкать от неадекватных статов бэкмена с их 90% стамина защитой.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

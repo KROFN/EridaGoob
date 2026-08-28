@@ -1,0 +1,143 @@
+{
+ "thread_id": "1455157816800317595",
+ "title": "Нет, я не буду блобом сейчас Уолтер",
+ "author": {
+  "id": "315730688982908930",
+  "username": "h.a.t.e.",
+  "global_name": "Огромный начальник",
+  "server_nick": null,
+  "display": "Огромный начальник"
+ },
+ "created_at": "2025-12-29T11:17:39.050Z",
+ "archived": true,
+ "tags": [
+  "Незначительный",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1466802797327421512",
+  "1414266059208265799"
+ ],
+ "message_count": 11,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1455157816800317595",
+  "date": "2025-12-29T11:17:39.050000+00:00",
+  "author": "Огромный начальник",
+  "author_role": null,
+  "content": "Когда тебя заразила капля - можно снять её нажав в инвентаре на кнопку \"нести на руках\", тем самым вылечиться",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1455158475826008094",
+   "date": "2025-12-29T11:20:16.174000+00:00",
+   "author": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ",
+   "author_role": null,
+   "content": "Ламарр",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455207759975813120",
+   "date": "2025-12-29T14:36:06.431000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "Почему это баг",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455221190028165327",
+   "date": "2025-12-29T15:29:28.405000+00:00",
+   "author": "Огромный начальник",
+   "author_role": null,
+   "content": "ну потому что смысл от блоба если каждый сможет снять каплю?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455226164741275711",
+   "date": "2025-12-29T15:49:14.469000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "А почему нет? Это буквально ин чарактер спасение того, кто стал частью блоба",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455226221272109067",
+   "date": "2025-12-29T15:49:27.947000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "Поймали, заковали, сняли каплю",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455226319729332334",
+   "date": "2025-12-29T15:49:51.421000+00:00",
+   "author": "Огромный начальник",
+   "author_role": null,
+   "content": "а это причём, речь о том что можно самому с себя снять каплю",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455226449463083164",
+   "date": "2025-12-29T15:50:22.352000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "а ты про это",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455226516068892683",
+   "date": "2025-12-29T15:50:38.232000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "по-моему это компоненты, если не ошибаюсь надо поменять",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455226551053582396",
+   "date": "2025-12-29T15:50:46.573000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "На варденовском ошейнике такое точно есть",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1455279991070920900",
+   "date": "2025-12-29T19:23:07.666000+00:00",
+   "author": "the Hope of the shattered Ones",
+   "author_role": null,
+   "content": "https://tenor.com/view/but-it-refused-meme-gif-3132063699765079917",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

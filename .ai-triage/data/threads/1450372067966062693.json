@@ -1,0 +1,53 @@
+{
+ "thread_id": "1450372067966062693",
+ "title": "Тазер",
+ "author": {
+  "id": "986969824318095392",
+  "username": "whittmas",
+  "global_name": "Masya",
+  "server_nick": null,
+  "display": "Masya"
+ },
+ "created_at": "2025-12-16T06:20:47.613Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799",
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1414266059208265799",
+  "1377371306470801439"
+ ],
+ "message_count": 2,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1450372067966062693",
+  "date": "2025-12-16T06:20:47.613000+00:00",
+  "author": "Masya",
+  "author_role": null,
+  "content": "Тазер сб может положить борга",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1450374181089706057",
+   "date": "2025-12-16T06:29:11.421000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Как будто фича",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

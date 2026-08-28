@@ -1,0 +1,59 @@
+{
+ "thread_id": "1369751863552905427",
+ "title": "Энерго оружие",
+ "author": {
+  "id": "416281346013528074",
+  "username": "evillchet",
+  "global_name": "EvillChet",
+  "server_nick": null,
+  "display": "EvillChet"
+ },
+ "created_at": "2025-05-07T19:04:53.030Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 2,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1369751863552905427",
+  "date": "2025-05-07T19:04:53.030000+00:00",
+  "author": "EvillChet",
+  "author_role": null,
+  "content": "Заряд энергии есть, а стрелять не может",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1369751863917940836",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1369892945268047923",
+   "date": "2025-05-08T04:25:29.532000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "https://ptb.discord.com/channels/1053200453829132298/1284244247331082310",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

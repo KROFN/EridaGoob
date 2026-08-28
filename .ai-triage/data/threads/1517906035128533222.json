@@ -1,0 +1,113 @@
+{
+ "thread_id": "1517906035128533222",
+ "title": "ЦИИ",
+ "author": {
+  "id": "780438270621253642",
+  "username": "medik.alt",
+  "global_name": "Medik",
+  "server_nick": null,
+  "display": "Medik"
+ },
+ "created_at": "2026-06-20T14:56:40.105Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1507775251998838925"
+ ],
+ "message_count": 8,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": true,
+ "root_message": {
+  "id": "1517906035128533222",
+  "date": "2026-06-20T14:56:40.105000+00:00",
+  "author": "Medik",
+  "author_role": null,
+  "content": "ЦИИ не может брать юнитов под контроль вообще, как и открывать и закрывать их",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1517927027821510726",
+   "date": "2026-06-20T16:20:05.153000+00:00",
+   "author": "Хаос",
+   "author_role": null,
+   "content": "А он мог?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1517927091843105009",
+   "date": "2026-06-20T16:20:20.417000+00:00",
+   "author": "Хаос",
+   "author_role": null,
+   "content": "<:kreyd_10:1363126669145280693>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1517931132778451169",
+   "date": "2026-06-20T16:36:23.851000+00:00",
+   "author": "Pexel250",
+   "author_role": null,
+   "content": "да",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1517976035118022807",
+   "date": "2026-06-20T19:34:49.403000+00:00",
+   "author": "vanomorodellefake",
+   "author_role": null,
+   "content": "Ну человека, которого это реализовал, уже нет в разработке",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1518598473878999082",
+   "date": "2026-06-22T12:48:10.368000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Вам никто не поможет",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1518984854610378856",
+   "date": "2026-06-23T14:23:30.713000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Вам никто не поможет",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1518991632035352726",
+   "date": "2026-06-23T14:50:26.577000+00:00",
+   "author": "Medik",
+   "author_role": null,
+   "content": "ок",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

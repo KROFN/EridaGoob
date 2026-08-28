@@ -1,0 +1,44 @@
+{
+ "thread_id": "1438072028904030238",
+ "title": "Диагональные стены.",
+ "author": {
+  "id": "597713048312086528",
+  "username": "jickson900",
+  "global_name": "Звезда лисы",
+  "server_nick": null,
+  "display": "Звезда лисы"
+ },
+ "created_at": "2025-11-12T07:44:49.777Z",
+ "archived": true,
+ "tags": [
+  "На рассмотрении",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1377591362744094795",
+  "1414266059208265799"
+ ],
+ "message_count": 1,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1438072028904030238",
+  "date": "2025-11-12T07:44:49.777000+00:00",
+  "author": "Звезда лисы",
+  "author_role": null,
+  "content": "Я не знаю баг ли это визардов или нет (на фронтирах этого бага нет), но вы все его знаете. Когда ставишь диагональные стены - они ставятся не так, как ты хочешь и размещаешь призрак конструкции, а строго в одном направлении.\nХватит это терпеть!!!",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": [
+   "✅:1"
+  ]
+ },
+ "replies": [],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

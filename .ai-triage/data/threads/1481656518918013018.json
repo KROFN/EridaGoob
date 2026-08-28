@@ -1,0 +1,59 @@
+{
+ "thread_id": "1481656518918013018",
+ "title": "Призраки откидываются",
+ "author": {
+  "id": "903610358617493524",
+  "username": "alexfire9455",
+  "global_name": "alexfire",
+  "server_nick": null,
+  "display": "alexfire"
+ },
+ "created_at": "2026-03-12T14:14:01.957Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 2,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1481656518918013018",
+  "date": "2026-03-12T14:14:01.957000+00:00",
+  "author": "alexfire",
+  "author_role": null,
+  "content": "Если ты за призрака цепнулся на игрока а игрок на шатлле въебался куда-то, то призрака откидывает так-же как предмет и ты всё ещё типо цепляешся, но в смещённой позиции",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1481656519278858280",
+    "filename": "2026-03-12_171137.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1498146257296818196",
+   "date": "2026-04-27T02:18:21.951000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Визы сами фиксят",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

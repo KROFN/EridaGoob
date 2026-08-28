@@ -1,0 +1,181 @@
+{
+ "thread_id": "1513660492089135275",
+ "title": "Сломанная раса №2",
+ "author": {
+  "id": "841409097626550302",
+  "username": "gm_karix",
+  "global_name": "KARiX",
+  "server_nick": null,
+  "display": "KARiX"
+ },
+ "created_at": "2026-06-08T21:46:23.766Z",
+ "archived": true,
+ "tags": [
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1377371306470801439"
+ ],
+ "message_count": 21,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1513660492089135275",
+  "date": "2026-06-08T21:46:23.766000+00:00",
+  "author": "KARiX",
+  "author_role": null,
+  "content": "Воксы не восполняют жажду и голод через Шприцы с водой или питательными веществами.\n\nЧините",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1513811884380524566",
+   "date": "2026-06-09T07:47:58.501000+00:00",
+   "author": "Catcatcher",
+   "author_role": null,
+   "content": "вот он истинный ценитель воксов)",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1513850131026284675",
+   "date": "2026-06-09T10:19:57.212000+00:00",
+   "author": "KARiX",
+   "author_role": null,
+   "content": "Ну а хули, я колоться хочу",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1513944090725842984",
+   "date": "2026-06-09T16:33:18.950000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "Уу гад, он тут ещё на воксов жалуется, мне напомнить нашему ГРу о том что воксы у нас вообще вырезаны должны быть?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1513977936691335248",
+   "date": "2026-06-09T18:47:48.457000+00:00",
+   "author": "KARiX",
+   "author_role": null,
+   "content": "И вообще, пикнул аркану ради тебя только, а ты взял и не зашёл",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1513978656576376854",
+   "date": "2026-06-09T18:50:40.091000+00:00",
+   "author": "Catcatcher",
+   "author_role": null,
+   "content": "по какой причине?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1513980206816301319",
+   "date": "2026-06-09T18:56:49.697000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "А я шутил евообще!",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1513980209454514206",
+   "date": "2026-06-09T18:56:50.326000+00:00",
+   "author": "KARiX",
+   "author_role": null,
+   "content": "\"Не вписиваютя в стиль игри и сирвира\"",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1513980260478226563",
+   "date": "2026-06-09T18:57:02.491000+00:00",
+   "author": "KARiX",
+   "author_role": null,
+   "content": "Понял, больше тебе не верю",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1513980273661054977",
+   "date": "2026-06-09T18:57:05.634000+00:00",
+   "author": "KARiX",
+   "author_role": null,
+   "content": "Так и запишем",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1513980782220415176",
+   "date": "2026-06-09T18:59:06.884000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "Эх, а кто мне верит...",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1513981078195404800",
+   "date": "2026-06-09T19:00:17.450000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "А я думал что и до тебя никто мне не верил",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1513981733144363148",
+   "date": "2026-06-09T19:02:53.602000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "И вообще, ты спросил кем зайти и я предложил тебе зайти плоскогрудой арканой, ни в какой форме не говорилось что я что-то должен буду сделать.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1513981943614799976",
+   "date": "2026-06-09T19:03:43.782000+00:00",
+   "author": "KARiX",
+   "author_role": null,
+   "content": "Я думал ты будешь дарить мне подарки, контрабанду и всё такое",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1519031434889793566",
+   "date": "2026-06-23T17:28:36.317000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Вроде все нормально, пинганите если еще актуально",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

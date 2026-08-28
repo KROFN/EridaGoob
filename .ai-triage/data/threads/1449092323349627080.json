@@ -1,0 +1,61 @@
+{
+ "thread_id": "1449092323349627080",
+ "title": "элитный компактный дефибриллятор",
+ "author": {
+  "id": "949070562779607060",
+  "username": "whywhywhywhywhywhywhywhyyy",
+  "global_name": "the Hope of the shattered Ones",
+  "server_nick": null,
+  "display": "the Hope of the shattered Ones"
+ },
+ "created_at": "2025-12-12T17:35:32.720Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 2,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1449092323349627080",
+  "date": "2025-12-12T17:35:32.720000+00:00",
+  "author": "the Hope of the shattered Ones",
+  "author_role": null,
+  "content": "в описании обманули. В наборе нет элитного компактного дефибриллятора, которым можно убить таракана",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1449092323680981186",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1449216319957504102",
+   "date": "2025-12-13T01:48:15.815000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Поменял на интердайн",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

@@ -1,0 +1,163 @@
+{
+ "thread_id": "1372221903489732679",
+ "title": "Нууу.. лодаут офицера СБ...",
+ "author": {
+  "id": "638709309273931777",
+  "username": "whatapple",
+  "global_name": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+  "server_nick": null,
+  "display": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲"
+ },
+ "created_at": "2025-05-14T14:39:56.442Z",
+ "archived": true,
+ "tags": [
+  "В процессе"
+ ],
+ "tag_ids": [
+  "1365427658288005150"
+ ],
+ "message_count": 12,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1372221903665762324_Screenshot_4904.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1372221903489732679",
+  "date": "2025-05-14T14:39:56.442000+00:00",
+  "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+  "author_role": null,
+  "content": "Шляпа патрульного = Шапка СБ",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1372221903665762324",
+    "filename": "Screenshot_4904.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1372221903489732679/1372221903665762324_Screenshot_4904.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1372281220028698648",
+   "date": "2025-05-14T18:35:38.607000+00:00",
+   "author": "PuroSlavKing",
+   "author_role": null,
+   "content": "а что не так?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1372439275144220692",
+   "date": "2025-05-15T05:03:41.883000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "Посмотри на вульпу",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1372439300376891463",
+   "date": "2025-05-15T05:03:47.899000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "Явно шляпа)",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "cat_ahahahahahaha:4"
+   ]
+  },
+  {
+   "id": "1372439328390909973",
+   "date": "2025-05-15T05:03:54.578000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "В целом",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1372439349769273405",
+   "date": "2025-05-15T05:03:59.675000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "И на голове тоже",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1377700624757428234",
+   "date": "2025-05-29T17:30:25.382000+00:00",
+   "author": "cybertrash",
+   "author_role": null,
+   "content": "<@501478650206748693> Ты делал?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1377704232651591900",
+   "date": "2025-05-29T17:44:45.571000+00:00",
+   "author": "PuroSlavKing",
+   "author_role": null,
+   "content": "нет",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1378451960197546076",
+   "date": "2025-05-31T19:15:57.710000+00:00",
+   "author": "cybertrash",
+   "author_role": null,
+   "content": "<@501478650206748693>, привет, ты это правил?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1378454096511631360",
+   "date": "2025-05-31T19:24:27.047000+00:00",
+   "author": "PuroSlavKing",
+   "author_role": null,
+   "content": "нет",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1378455913786245190",
+   "date": "2025-05-31T19:31:40.319000+00:00",
+   "author": "cybertrash",
+   "author_role": null,
+   "content": "<@416281346013528074> - Возьми эту штуку, как начало лодауты понятно достаточно.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1378470614230368430",
+   "date": "2025-05-31T20:30:05.178000+00:00",
+   "author": "EvillChet",
+   "author_role": null,
+   "content": "Принято",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

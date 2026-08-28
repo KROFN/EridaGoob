@@ -1,0 +1,61 @@
+{
+ "thread_id": "1499778816216797236",
+ "title": "сумка",
+ "author": {
+  "id": "574179298068660224",
+  "username": ".kirikuru",
+  "global_name": "KiriKuru",
+  "server_nick": null,
+  "display": "KiriKuru"
+ },
+ "created_at": "2026-05-01T14:25:34.329Z",
+ "archived": true,
+ "tags": [
+  "Серьёзный"
+ ],
+ "tag_ids": [
+  "1466802719284265234"
+ ],
+ "message_count": 2,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1499778816753664172_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1499778816216797236",
+  "date": "2026-05-01T14:25:34.329000+00:00",
+  "author": "KiriKuru",
+  "author_role": null,
+  "content": "Некоторые вещи, абсолютное большинство, нельзя нормально перевернуть или перетащить внутри самой сумки, если зажимать по предмету ЛКМ. Так-же проблемы с поворотом в целом. Багуется даже пачка сигарет.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1499778816753664172",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1499778816216797236/1499778816753664172_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1499795388931112960",
+   "date": "2026-05-01T15:31:25.572000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "Ну смотри, там дело в том что раньше при зажатии предмета игра считывала его отсутсвие в сумке...а теперь она этого не считывате, ну тоесть ты зажимаешь предмет, но то где он до этого лежал всё ещё занято и не даёт там разместить предмет",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

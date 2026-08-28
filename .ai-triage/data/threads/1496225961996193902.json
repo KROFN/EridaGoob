@@ -1,0 +1,103 @@
+{
+ "thread_id": "1496225961996193902",
+ "title": "Атмос РСУ",
+ "author": {
+  "id": "1215996475624919180",
+  "username": "fox_meowder",
+  "global_name": "Пряники",
+  "server_nick": null,
+  "display": "Пряники"
+ },
+ "created_at": "2026-04-21T19:07:47.874Z",
+ "archived": true,
+ "tags": [
+  "Незначительный",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1466802797327421512",
+  "1414266059208265799"
+ ],
+ "message_count": 5,
+ "attachment_count": 2,
+ "attachments_on_disk": [
+  "1496225962168422610_image.png",
+  "1496225962470277221_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1496225961996193902",
+  "date": "2026-04-21T19:07:47.874000+00:00",
+  "author": "Пряники",
+  "author_role": null,
+  "content": "1. нельзя выбрать конфиг устройств\n2. При перекрещивании трубы не закрепляются\n3. трубы могут неправильно ставиться",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1496225962168422610",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1496225961996193902/1496225962168422610_image.png"
+   },
+   {
+    "id": "1496225962470277221",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1496225961996193902/1496225962470277221_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1496399252186857474",
+   "date": "2026-04-22T06:36:23.475000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "<@981208702390534154>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1496399303088930896",
+   "date": "2026-04-22T06:36:35.611000+00:00",
+   "author": "Xaoser",
+   "author_role": null,
+   "content": "Уже работаю над этим",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "✅:1"
+   ]
+  },
+  {
+   "id": "1497951008188399656",
+   "date": "2026-04-26T13:22:30.936000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "https://discord.com/channels/1357728304710422680/1496119889763500112",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1497951143085604894",
+   "date": "2026-04-26T13:23:03.098000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "```У атмос РСУ выявил пока 2 проблемы, первая, невозможность зеркалить обьекты такие как фильтры и смесители, при попытке отзеркалить через Ктрл+пкм/скм открывается меню строительства. \nВторое, то что демонтаж убирает тайл, а не трубы на тайле```",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

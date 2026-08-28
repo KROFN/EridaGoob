@@ -1,0 +1,61 @@
+{
+ "thread_id": "1370101954591719424",
+ "title": "Админ баги",
+ "author": {
+  "id": "1343877914663452763",
+  "username": "olyadas",
+  "global_name": ".",
+  "server_nick": null,
+  "display": "."
+ },
+ "created_at": "2025-05-08T18:16:01.238Z",
+ "archived": true,
+ "tags": [
+  "На рассмотрении"
+ ],
+ "tag_ids": [
+  "1377591362744094795"
+ ],
+ "message_count": 3,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1370101954591719424",
+  "date": "2025-05-08T18:16:01.238000+00:00",
+  "author": ".",
+  "author_role": null,
+  "content": "Кнопочка \"Переключить тени\", \"Переключить освещение\" тупо не работают в агосте, да что уж там. Порой сам агост попросту не запускается!",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1370102127711748158",
+   "date": "2025-05-08T18:16:42.513000+00:00",
+   "author": ".",
+   "author_role": null,
+   "content": "Если что, я набирала на переключить тени и переключить освещение, они как бы тыкаются но в эту же секунду выключаются",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1379189041714429963",
+   "date": "2025-06-02T20:04:51.638000+00:00",
+   "author": "cybertrash",
+   "author_role": null,
+   "content": "<@1343877914663452763> Добрый день, уже знаю в чем причина, позже восстановлю Агоста к базе.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

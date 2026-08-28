@@ -1,0 +1,61 @@
+{
+ "thread_id": "1486095341307691119",
+ "title": "ну тут ошибка",
+ "author": {
+  "id": "1264249802112241707",
+  "username": "mangustik0142",
+  "global_name": "mangust2211",
+  "server_nick": null,
+  "display": "mangust2211"
+ },
+ "created_at": "2026-03-24T20:12:19.684Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 2,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1486095341307691119",
+  "date": "2026-03-24T20:12:19.684000+00:00",
+  "author": "mangust2211",
+  "author_role": null,
+  "content": "",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1486095341697892412",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1496027450734415972",
+   "date": "2026-04-21T05:58:59.101000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "fixed",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

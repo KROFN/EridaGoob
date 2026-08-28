@@ -1,0 +1,71 @@
+{
+ "thread_id": "1415585297218928722",
+ "title": "Перевод кнопок конфигурации устройств",
+ "author": {
+  "id": "1048223137516490752",
+  "username": "bebroboid",
+  "global_name": "bebrus",
+  "server_nick": null,
+  "display": "bebrus"
+ },
+ "created_at": "2025-09-11T06:30:35.160Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 3,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1415585297218928722",
+  "date": "2025-09-11T06:30:35.160000+00:00",
+  "author": "bebrus",
+  "author_role": null,
+  "content": "у UI окна конфигурации устройств нет перевода",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1415585298662031494",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1415589423860682762",
+   "date": "2025-09-11T06:46:59.028000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Пофиксим",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1416220634085851227",
+   "date": "2025-09-13T00:35:11.273000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "ПР готов, осталось подождать мердж.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

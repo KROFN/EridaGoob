@@ -1,0 +1,103 @@
+{
+ "thread_id": "1496213546478997695",
+ "title": "Метаболизм (и король крыс)",
+ "author": {
+  "id": "977695072910999582",
+  "username": "mokko1111",
+  "global_name": "Mokko",
+  "server_nick": null,
+  "display": "Mokko"
+ },
+ "created_at": "2026-04-21T18:18:27.784Z",
+ "archived": true,
+ "tags": [
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1377371306470801439"
+ ],
+ "message_count": 7,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1496213546478997695",
+  "date": "2026-04-21T18:18:27.784000+00:00",
+  "author": "Mokko",
+  "author_role": null,
+  "content": "Король крыс в какой-то момент не может впихнуть в себя еду - но голод не проходит - приходится долго ждать. Когда вся стратегия зависит от быстрого наращивания армии - это чрезвычайно сильный дебафф нынче для короля, необходимость ждать, пока пища всосётся (всасывается 0,12 за секунду вроде, что крайне недостаточно).",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1496399348635013130",
+   "date": "2026-04-22T06:36:46.470000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Это не баг",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1496399391064330260",
+   "date": "2026-04-22T06:36:56.586000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Метаболизм такой",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1496455832055976077",
+   "date": "2026-04-22T10:21:13.167000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "Терпеть",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1496808716953976875",
+   "date": "2026-04-23T09:43:27.483000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Игроки и так королю помогают",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1496808765121630259",
+   "date": "2026-04-23T09:43:38.967000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "<:kreyd_6:1362124541383541039>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1498009813404356739",
+   "date": "2026-04-26T17:16:11.192000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "кстати можешь заценить сам это, если это \"не баг\", то назвать это балансом язык не поворачивается",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "✅:1"
+   ]
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

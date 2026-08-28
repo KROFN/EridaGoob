@@ -1,0 +1,165 @@
+{
+ "thread_id": "1537855953544675470",
+ "title": "чучуть позора",
+ "author": {
+  "id": "1058288268829007982",
+  "username": "anilorix",
+  "global_name": "Anilori <3",
+  "server_nick": null,
+  "display": "Anilori <3"
+ },
+ "created_at": "2026-08-14T16:10:31.307Z",
+ "archived": false,
+ "tags": [
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1507775251998838925"
+ ],
+ "message_count": 12,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1537855953830150205_2026-08-07_154757.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1537855953544675470",
+  "date": "2026-08-14T16:10:31.307000+00:00",
+  "author": "Anilori <3",
+  "author_role": null,
+  "content": "ну да, локализировал алкаш идиот и вообще придурок...\n\"Торговово\" написал когда надо торгового... \nтак же в самом файле надо не востановлена а восстановлена \nНе анулирована а аннулирована \nНе перезорядке а перезарядке \nКрч автор локализации еблан шиз и безграмотное чмо\nДальше: uplink-catalog.ftl \nЭто сигнальный маяк, разработанный Синдикатом для обхода системы защиты торговых аванпостов Nanotrasen. Для отключения защиты требуется 200 секунд, после чего торговый аванпост объявят о взломе, поэтому хорошо подготовьтесь.\nНе объявят а объявит \nhijack_beacon.ftl:\nУничтожьте станционный искуственный интелект.\nискусственный с двумя С а интеллект с двумя Л\nКрч придурок тупоголовый писал локаль.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1537855953830150205",
+    "filename": "2026-08-07_154757.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1537855953544675470/1537855953830150205_2026-08-07_154757.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1537856203806343269",
+   "date": "2026-08-14T16:11:30.974000+00:00",
+   "author": "Anilori <3",
+   "author_role": null,
+   "content": "<@1215996475624919180> работай сладкий.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1537856551719673967",
+   "date": "2026-08-14T16:12:53.923000+00:00",
+   "author": "Lytheriia",
+   "author_role": null,
+   "content": "Fun fact этот перевод твой",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1537856865386364958",
+   "date": "2026-08-14T16:14:08.707000+00:00",
+   "author": "Anilori <3",
+   "author_role": null,
+   "content": "я знаю",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1537856906796867654",
+   "date": "2026-08-14T16:14:18.580000+00:00",
+   "author": "Anilori <3",
+   "author_role": null,
+   "content": "А потвоему почему я тут так сильно обосрал автора",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1537856949113192558",
+   "date": "2026-08-14T16:14:28.669000+00:00",
+   "author": "Anilori <3",
+   "author_role": null,
+   "content": "могу позволить",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1537857105589968989",
+   "date": "2026-08-14T16:15:05.976000+00:00",
+   "author": "Anilori <3",
+   "author_role": null,
+   "content": "я хз почему я так насрал и как это пропустили",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1537868219748982785",
+   "date": "2026-08-14T16:59:15.798000+00:00",
+   "author": "vanomorodellefake",
+   "author_role": null,
+   "content": "текст был написан вава",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1538985334606667849",
+   "date": "2026-08-17T18:58:16.735000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "Вова, Вован!!!!",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1538991893914984478",
+   "date": "2026-08-17T19:24:20.596000+00:00",
+   "author": "Anilori <3",
+   "author_role": null,
+   "content": "Нахуй ты меня пингуешь",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1539004007580696627",
+   "date": "2026-08-17T20:12:28.719000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "Делать нечего",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1539004046977929326",
+   "date": "2026-08-17T20:12:38.112000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "Ва ва",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [
+  "Nanotrasen",
+  "hijack_beacon.ftl",
+  "uplink-catalog.ftl"
+ ],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

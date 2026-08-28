@@ -1,0 +1,91 @@
+{
+ "thread_id": "1373596253383954522",
+ "title": "Вампир и превращение, шучу. Спам фамильярами.",
+ "author": {
+  "id": "638709309273931777",
+  "username": "whatapple",
+  "global_name": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+  "server_nick": null,
+  "display": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲"
+ },
+ "created_at": "2025-05-18T09:41:06.991Z",
+ "archived": true,
+ "tags": [
+  "В процессе"
+ ],
+ "tag_ids": [
+  "1365427658288005150"
+ ],
+ "message_count": 5,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1373596253799186492_Screenshot_4950.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1373596253383954522",
+  "date": "2025-05-18T09:41:06.991000+00:00",
+  "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+  "author_role": null,
+  "content": "Сегодня на 1 из раундов, у меня произошёл глич, мне удавалось спавнить без КД ремилию и мышей, при том не правращаясь в них. Если убить ремилию, меня тепало в крите на её место и почти сразу поднимало обратно, в то же состояние. Но как только мы убили 1 мышь, меня удалило нахер без остатка, а всех, теперь \"фамильяров\", сделало гостами.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1373596253799186492",
+    "filename": "Screenshot_4950.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1373596253383954522/1373596253799186492_Screenshot_4950.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1373646049700347954",
+   "date": "2025-05-18T12:58:59.358000+00:00",
+   "author": "BP",
+   "author_role": null,
+   "content": "Спавн еды/крови <:pepe_smile:1366399389874126979>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1373720932010430628",
+   "date": "2025-05-18T17:56:32.692000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "С ремилии за укус 0,62-0,94 где-то было",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1373720976218656808",
+   "date": "2025-05-18T17:56:43.232000+00:00",
+   "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+   "author_role": null,
+   "content": "А мыши.. мыши это Мина времён второй мировой",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1378459800366747739",
+   "date": "2025-05-31T19:47:06.952000+00:00",
+   "author": "cybertrash",
+   "author_role": null,
+   "content": "<@638709309273931777> Сложно, попробую разобрать лично, не понятен принцип бага.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

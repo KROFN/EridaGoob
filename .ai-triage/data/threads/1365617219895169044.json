@@ -1,0 +1,109 @@
+{
+ "thread_id": "1365617219895169044",
+ "title": "Боты на ЦК - убийство ПЦК, АВД и глав.",
+ "author": {
+  "id": "638709309273931777",
+  "username": "whatapple",
+  "global_name": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+  "server_nick": null,
+  "display": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲"
+ },
+ "created_at": "2025-04-26T09:15:17.164Z",
+ "archived": true,
+ "tags": [
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1377371306470801439"
+ ],
+ "message_count": 7,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1365617219895169044",
+  "date": "2025-04-26T09:15:17.164000+00:00",
+  "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+  "author_role": null,
+  "content": "Всё просто, 1 из ботов СБ сошёл с ума и начал геноцид всего ком состава ну и ПЦК,",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1365617220163473408",
+    "filename": "Screenshot_4681.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1365617806435029062",
+   "date": "2025-04-26T09:17:37.006000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "Наверное его ударили, он пошел на всех тех кто тоже начал бить в попытках защититься",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365617873300754444",
+   "date": "2025-04-26T09:17:52.948000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "И ещё жб кинь на него хд",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365617891273347164",
+   "date": "2025-04-26T09:17:57.233000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "<:s_PoZiTiFfFcHiK:1358052086872281169>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365621795910062201",
+   "date": "2025-04-26T09:33:28.171000+00:00",
+   "author": "Metalheart.exe",
+   "author_role": null,
+   "content": "Грейтад получается",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365741029944328243",
+   "date": "2025-04-26T17:27:15.780000+00:00",
+   "author": "Koteykomya",
+   "author_role": null,
+   "content": "я цк ничего не произошло",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1366804213916635337",
+   "date": "2025-04-29T15:51:58.592000+00:00",
+   "author": "𝔗𝔥𝔞𝔲𝔪𝔦𝔢𝔩  𝔚𝔞𝔯𝔩𝔬𝔯𝔡",
+   "author_role": null,
+   "content": "а, да, помню эту резню, я тогда за кепа был, но меня не трогали.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

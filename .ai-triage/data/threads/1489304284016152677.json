@@ -1,0 +1,107 @@
+{
+ "thread_id": "1489304284016152677",
+ "title": "Имплантер Изменения Голоса",
+ "author": {
+  "id": "977695072910999582",
+  "username": "mokko1111",
+  "global_name": "Mokko",
+  "server_nick": null,
+  "display": "Mokko"
+ },
+ "created_at": "2026-04-02T16:43:31.245Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 7,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1489304284016152677",
+  "date": "2026-04-02T16:43:31.245000+00:00",
+  "author": "Mokko",
+  "author_role": null,
+  "content": "Не меняет голос. Уже было в \"багах апстрима\",  но не пофиксили.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": [
+   "🫃🏻:2"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1489304328010338486",
+   "date": "2026-04-02T16:43:41.734000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "Именно TTC",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1489332102188105818",
+   "date": "2026-04-02T18:34:03.614000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "лол дайте мне почётно багмейстера",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1489332119036629143",
+   "date": "2026-04-02T18:34:07.631000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "всю ленту занял говном",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1489332122962366645",
+   "date": "2026-04-02T18:34:08.567000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "хдд",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1496026613656059974",
+   "date": "2026-04-21T05:55:39.526000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": ".",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1496171326270996640",
+   "date": "2026-04-21T15:30:41.702000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "fixed",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "✅:1"
+   ]
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

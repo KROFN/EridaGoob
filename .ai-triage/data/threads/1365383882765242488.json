@@ -1,0 +1,83 @@
+{
+ "thread_id": "1365383882765242488",
+ "title": "Пауки-вампиры",
+ "author": {
+  "id": "629283110973997086",
+  "username": "adam_fisher",
+  "global_name": "Гав",
+  "server_nick": null,
+  "display": "Гав"
+ },
+ "created_at": "2025-04-25T17:48:05.257Z",
+ "archived": true,
+ "tags": [
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1377371306470801439"
+ ],
+ "message_count": 5,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1365383882765242488",
+  "date": "2025-04-25T17:48:05.257000+00:00",
+  "author": "Гав",
+  "author_role": null,
+  "content": "Баг с насыщением - от мышей могут и травится, также кровь с пола не лечит + индикаторы голода с водой, как рандомно появляются, так и исчезают. Что самое главное: жертвы без крови могут начать просыпаться и свободно расхаживать. И добавить бы им кд на воспроизводство потомства, а не как одноразовую акцию",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": [
+   "s_Syka:3"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1365390522214121543",
+   "date": "2025-04-25T18:14:28.225000+00:00",
+   "author": "Гав",
+   "author_role": null,
+   "content": "+ баг иконки всасывания крови. (Может спрайт не загрузили); нет ерп панели у пауков и звук кладки напоминает отрыгивание комков шерсти у феленидов",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365407809197310073",
+   "date": "2025-04-25T19:23:09.763000+00:00",
+   "author": "Гав",
+   "author_role": null,
+   "content": "И было б ещё интереснее, если добавили шанс на становление вампиром среди жертв",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365446416893214780",
+   "date": "2025-04-25T21:56:34.555000+00:00",
+   "author": "Rusty Rider",
+   "author_role": null,
+   "content": "нет ерп панели у пауков<:cat_erp:1358052377306988564>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365480291979890830",
+   "date": "2025-04-26T00:11:11.005000+00:00",
+   "author": "Гав",
+   "author_role": null,
+   "content": "Это баг или недостаток, явный",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

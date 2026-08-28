@@ -1,0 +1,111 @@
+{
+ "thread_id": "1479869499137200300",
+ "title": "Парадоксальный клон",
+ "author": {
+  "id": "481098672382279680",
+  "username": "kreydk",
+  "global_name": "𓆩ҟɍēɏđ𓆪",
+  "server_nick": null,
+  "display": "𓆩ҟɍēɏđ𓆪"
+ },
+ "created_at": "2026-03-07T15:53:03.240Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 8,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1479869499137200300",
+  "date": "2026-03-07T15:53:03.240000+00:00",
+  "author": "𓆩ҟɍēɏđ𓆪",
+  "author_role": null,
+  "content": "Парадоксальный клон имеет разный размер по сравнению со своим оригиналом. Потому его заменить тупо не возможно, если у всей станции нету альцгеймера и они просто не забудут, что 2 метровая вульпа не равно вульпа 150 см условного говоря",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1479938757259034727",
+   "date": "2026-03-07T20:28:15.663000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "Туда же в догонку - при клонировании меняеться размер",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1481191198915035239",
+   "date": "2026-03-11T07:25:01.023000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "Уменьшается",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1496019886709805210",
+   "date": "2026-04-21T05:28:55.697000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": ".",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1496972464327233698",
+   "date": "2026-04-23T20:34:07.899000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Вроде исправилось",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1497903341987168357",
+   "date": "2026-04-26T10:13:06.428000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "Нет",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1497903355404620016",
+   "date": "2026-04-26T10:13:09.627000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "ТТС ебанутый",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1497903360987107359",
+   "date": "2026-04-26T10:13:10.958000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "у клона",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

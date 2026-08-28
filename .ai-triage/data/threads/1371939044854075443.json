@@ -1,0 +1,127 @@
+{
+ "thread_id": "1371939044854075443",
+ "title": "Лёжа = Ты РП-Червяк 🪱",
+ "author": {
+  "id": "685490859826741268",
+  "username": "akkinety",
+  "global_name": "Akki",
+  "server_nick": null,
+  "display": "Akki"
+ },
+ "created_at": "2025-05-13T19:55:57.688Z",
+ "archived": true,
+ "tags": [
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1377371306470801439"
+ ],
+ "message_count": 9,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1371939044854075443",
+  "date": "2025-05-13T19:55:57.688000+00:00",
+  "author": "Akki",
+  "author_role": null,
+  "content": "Будучи в лежачем положении невозможно выполнить такие действия как:\n- Открыть интерфейс своего КПК\n- Открыть интерфейс при взаимодействии с фабами, компьютерами и др. приборами. *(Хотя как по мне это фича)*\n-# Возможно что-то ещё нельзя делать, но я забыл и допишу позже, если вспомню. <:s_ya_eblan:1362357080002134158>",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1371943946556543147",
+   "date": "2025-05-13T20:15:26.345000+00:00",
+   "author": "BP",
+   "author_role": null,
+   "content": "Уже отписывал по этому поводу, но сказали мол \"фича\"",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1371952642397438113",
+   "date": "2025-05-13T20:49:59.595000+00:00",
+   "author": "TREST",
+   "author_role": null,
+   "content": "фича",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "❌:5"
+   ]
+  },
+  {
+   "id": "1371980177424253009",
+   "date": "2025-05-13T22:39:24.457000+00:00",
+   "author": "PuroSlavKing",
+   "author_role": null,
+   "content": "наконец-то запретили смотреть тиктоки лёжа",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1371986402706849914",
+   "date": "2025-05-13T23:04:08.680000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "можно открыть кпк и упасть",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1371986421673496698",
+   "date": "2025-05-13T23:04:13.202000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "все будет работать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1371986429382627438",
+   "date": "2025-05-13T23:04:15.040000+00:00",
+   "author": "Kauner_Vorov",
+   "author_role": null,
+   "content": "наверное",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1372098618668093530",
+   "date": "2025-05-14T06:30:03.050000+00:00",
+   "author": "Akki",
+   "author_role": null,
+   "content": "Будет и не только с КПК, всё другие интерфейсы так же не закроются при падении у других приборов",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1372231469358911508",
+   "date": "2025-05-14T15:17:57.123000+00:00",
+   "author": "Tommy Win",
+   "author_role": null,
+   "content": "ЕРП червяк",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "ena_:5"
+   ]
+  }
+ ],
+ "mentions": [
+  "s_ya_eblan"
+ ],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

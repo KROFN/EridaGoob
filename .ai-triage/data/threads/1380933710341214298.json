@@ -1,0 +1,67 @@
+{
+ "thread_id": "1380933710341214298",
+ "title": "лазеры из глаз (светящийся визор)",
+ "author": {
+  "id": "805804440220073994",
+  "username": "fenrir_1312",
+  "global_name": "ᚠᛖᚾᚱᛁᚱ",
+  "server_nick": null,
+  "display": "ᚠᛖᚾᚱᛁᚱ"
+ },
+ "created_at": "2025-06-07T15:37:33.053Z",
+ "archived": true,
+ "tags": [
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1377371306470801439"
+ ],
+ "message_count": 2,
+ "attachment_count": 2,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1380933710341214298",
+  "date": "2025-06-07T15:37:33.053000+00:00",
+  "author": "ᚠᛖᚾᚱᛁᚱ",
+  "author_role": null,
+  "content": "Визор осща светится в темноте, возможно это не баг а фича конечно, но сомневаюсь",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1380933710563774484",
+    "filename": "Screenshot_158.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1381493199679524968",
+   "date": "2025-06-09T04:40:45.706000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "в них прописан специально шейдер на не затемнение, такое свечение is NOT bug",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1381493199708754032",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

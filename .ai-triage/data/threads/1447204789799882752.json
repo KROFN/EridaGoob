@@ -1,0 +1,270 @@
+{
+ "thread_id": "1447204789799882752",
+ "title": "Все баги скафандров в одном флаконе",
+ "author": {
+  "id": "530474418611421185",
+  "username": "horrorbsweet",
+  "global_name": "Horror Bittersweet",
+  "server_nick": null,
+  "display": "Horror Bittersweet"
+ },
+ "created_at": "2025-12-07T12:35:09.653Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 32,
+ "attachment_count": 12,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1447204789799882752",
+  "date": "2025-12-07T12:35:09.653000+00:00",
+  "author": "Horror Bittersweet",
+  "author_role": null,
+  "content": "Некоторые скафандры не подстраиваются под кривые ноги прямоходящих животных\n-Скафандр медика синдиката\n-Скафандр голиафа\n-Скафандр пиолта СБ \n-Скафандр священника ОБР\n-Скафандр офицера \"Синий Щит\" (А так же нет фонарика в скафандре)\n-Скафандр санты\n\nТак же:\n-Бронескафандр капитана имеет два разных спрайта шлема. С выключенным фонариком визденовский, с включённым МКшный\n\n-Похожая история с костюмом джаггернаута киберсан. У нас есть шлем с МК, но только отдельно. Со скафандром он идёт визденовский. Так же не имеет фонарика, хотя должен.\n\n-При надевании шлема скафандра Эскадрона Смерти просто пропадают волосы, морды, уши. Короче говоря, делается всё, что должно делаться при надевании шлема, но спрайта самого шлема нет. (С людьми ровно так же, я проверял)\n\nЧто удивительно, недавно добавленные Интековские скафандры нормально выглядят на кривоногих и не имеют подобных багов.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1447204790026240181",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   },
+   {
+    "id": "1447204790487617756",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   },
+   {
+    "id": "1447204790772961353",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   },
+   {
+    "id": "1447204791120953375",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1447267336640925872",
+   "date": "2025-12-07T16:43:41.982000+00:00",
+   "author": "Horror Bittersweet",
+   "author_role": null,
+   "content": "Что-то исправили, что-то похерили... \n-Медецинский скаф ядеров теперь... ээ.. под ящеров, ещё и старый спрайт визденов\n-Остался баг с эскадроном\n-Элитка... что это...\n-Скафандр научрука... мама.... \n-Джага так же тютю",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1447267335810453564",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    },
+    {
+     "id": "1447267336175489196",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    },
+    {
+     "id": "1447267336561098762",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1447285226576547850",
+   "date": "2025-12-07T17:54:47.275000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Посмею добавить, но я думаю по теме, атмос пожарка туда же.",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1447285226026958848",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    },
+    {
+     "id": "1447285226328821913",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1451938352436875456",
+   "date": "2025-12-20T14:04:38.931000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "итак, скаф сщ пофикшен, скаф эс пофикшен, скаф кэпа пофикшен, джага пофикшена\nЧто не так со скафом Нра?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1451946954463383564",
+   "date": "2025-12-20T14:38:49.814000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "ну чё смог исправил, дальше ждите спрайтов от ёсифа",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1451974977925414993",
+   "date": "2025-12-20T16:30:11.128000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "тут ботинки просвечивают через костюм",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1451975228837330944",
+   "date": "2025-12-20T16:31:10.950000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "мне лично нравилась старая пожарка с торчащим хвостом, я где-то писал о том, чтобы сделать выбор будет ли виден хвост через скафы",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452169274545147964",
+   "date": "2025-12-21T05:22:15.052000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "визы нарисовали на своих скафандрах под рептилий нормальные хвосты. вот и нету хвостов теперь",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452222680949461003",
+   "date": "2025-12-21T08:54:28.131000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Ну раньше ведь нормально было",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452223112832618568",
+   "date": "2025-12-21T08:56:11.100000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Так я предлагал не закрывать хвост скафом… ибо сейчас это выглядит… более чем ущербно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452223381129658429",
+   "date": "2025-12-21T08:57:15.067000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "Я сейчас рисую хвосты скафандрам которые у нас ведь когда ты в скафе а у тебя голый хвост видно это плохо и чел который сделал хвосты визам это понял",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452223838384291900",
+   "date": "2025-12-21T08:59:04.085000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Ну… может быть это нелогично, но лично мне больше нравилось с хвостом через скаф, может быть стоит сделать выбор между как на БМе?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452225187486367765",
+   "date": "2025-12-21T09:04:25.736000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "хвосты сейчас такие будут, если в предложке захотят то ладно, но нужно будет добавлять ещё один стейт на котором хвосты скафандров будут отображаться если захотят",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1452225186974793788",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1452337215769284771",
+   "date": "2025-12-21T16:29:35.360000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "тогда напишу отдельную предложку сейчас",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1453468440764354854",
+   "date": "2025-12-24T19:24:40.416000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Скаф инженера ОБР тоже поломан",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1453468440055644271",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    },
+    {
+     "id": "1453468440558964786",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

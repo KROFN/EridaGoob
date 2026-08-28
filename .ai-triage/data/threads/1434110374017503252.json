@@ -1,0 +1,159 @@
+{
+ "thread_id": "1434110374017503252",
+ "title": "Обнял приподнял",
+ "author": {
+  "id": "501478650206748693",
+  "username": "puroslavking",
+  "global_name": "PuroSlavKing",
+  "server_nick": null,
+  "display": "PuroSlavKing"
+ },
+ "created_at": "2025-11-01T09:22:37.648Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799",
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1414266059208265799",
+  "1377371306470801439"
+ ],
+ "message_count": 11,
+ "attachment_count": 2,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1434110374017503252",
+  "date": "2025-11-01T09:22:37.648000+00:00",
+  "author": "PuroSlavKing",
+  "author_role": null,
+  "content": "Если маг кастанёт видимость призраков - их можно будет поднять на руки.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1434110473598664744",
+   "date": "2025-11-01T09:23:01.390000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Ахахааххах",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1434110483941818370",
+   "date": "2025-11-01T09:23:03.856000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Пиздато",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1434110566292521072",
+   "date": "2025-11-01T09:23:23.490000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Мне кажется фича",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1434110641555112127",
+   "date": "2025-11-01T09:23:41.434000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Звучит весело",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1434110649813827654",
+   "date": "2025-11-01T09:23:43.403000+00:00",
+   "author": "PuroSlavKing",
+   "author_role": null,
+   "content": "<:s_nihua:1362356843376152668>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1434110957063503984",
+   "date": "2025-11-01T09:24:56.657000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Пусть будет",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1434110956685754431",
+     "filename": "Ahegao.mp4",
+     "content_type": "video/mp4",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1434113781536919614",
+   "date": "2025-11-01T09:36:10.064000+00:00",
+   "author": "PuroSlavKing",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1434113781474000986",
+     "filename": "ManonHollander_MarieDouceurMarieColre.ogg",
+     "content_type": "audio/ogg",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1434189182850306189",
+   "date": "2025-11-01T14:35:47.138000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "И на конце смены в эваке также можно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1434247572318453901",
+   "date": "2025-11-01T18:27:48.272000+00:00",
+   "author": "DefinitelyNotMori",
+   "author_role": null,
+   "content": "ааа ладно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1434247594497933363",
+   "date": "2025-11-01T18:27:53.560000+00:00",
+   "author": "DefinitelyNotMori",
+   "author_role": null,
+   "content": "это не чиню",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

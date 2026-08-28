@@ -1,0 +1,171 @@
+{
+ "thread_id": "1431376123060555828",
+ "title": "Как рулить",
+ "author": {
+  "id": "1421914632314159124",
+  "username": "dzhozzi_",
+  "global_name": "ЕРП-ЛРП пидорас с SD",
+  "server_nick": null,
+  "display": "ЕРП-ЛРП пидорас с SD"
+ },
+ "created_at": "2025-10-24T20:17:41.420Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1414266059208265799"
+ ],
+ "message_count": 13,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1431396298623287461_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1431376123060555828",
+  "date": "2025-10-24T20:17:41.420000+00:00",
+  "author": "ЕРП-ЛРП пидорас с SD",
+  "author_role": null,
+  "content": "У шаттла ядера стык порт смотрит в стену, а не в космос",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1431381610460090490",
+   "date": "2025-10-24T20:39:29.718000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Ахахахаха",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1431391295901007974",
+   "date": "2025-10-24T21:17:58.907000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "БЛЯ",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1431391393175175249",
+   "date": "2025-10-24T21:18:22.099000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "А стоп, лон опера или просто оперов? <@1421914632314159124> '",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1431394273219182593",
+   "date": "2025-10-24T21:29:48.755000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "<:kreyd_6:1362124541383541039>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1431396298950447256",
+   "date": "2025-10-24T21:37:51.727000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "СУКА, ЛОН ОПЕРА",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1431396298623287461",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "downloaded",
+     "local_path": "attachments/1431376123060555828/1431396298623287461_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1431398300048822416",
+   "date": "2025-10-24T21:45:48.826000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Исправляй<:s_PoZiTiFfFcHiK:1358052086872281169>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1431398461164748821",
+   "date": "2025-10-24T21:46:27.239000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Вместе с https://discord.com/channels/1357728304710422680/1430948703157354547 исправлю",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1431398491896283308",
+   "date": "2025-10-24T21:46:34.566000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "<:pepe_smile:1366399389874126979>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1431398619931607160",
+   "date": "2025-10-24T21:47:05.092000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "А подкрепу разве не исправляли?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1431399148883677234",
+   "date": "2025-10-24T21:49:11.204000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "А, не",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1431409837736067172",
+   "date": "2025-10-24T22:31:39.625000+00:00",
+   "author": "ЕРП-ЛРП пидорас с SD",
+   "author_role": null,
+   "content": "Лон",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1431410008750428223",
+   "date": "2025-10-24T22:32:20.398000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Будет исправлено",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

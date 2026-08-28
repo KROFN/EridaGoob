@@ -1,0 +1,93 @@
+{
+ "thread_id": "1449459756879188138",
+ "title": "некорректное время от начала смены в копировальных аппаратах(любых)",
+ "author": {
+  "id": "949070562779607060",
+  "username": "whywhywhywhywhywhywhywhyyy",
+  "global_name": "the Hope of the shattered Ones",
+  "server_nick": null,
+  "display": "the Hope of the shattered Ones"
+ },
+ "created_at": "2025-12-13T17:55:35.700Z",
+ "archived": true,
+ "tags": [
+  "Визден-Баг",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1449460164171403294",
+  "1414266059208265799"
+ ],
+ "message_count": 5,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1449459757726568619_2025-12-13_20-53-54.mp4"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1449459756879188138",
+  "date": "2025-12-13T17:55:35.700000+00:00",
+  "author": "the Hope of the shattered Ones",
+  "author_role": null,
+  "content": "если распечатывать документы в копировальных аппаратах, то там ВСЕГДА неверное время от начала смены, и если забыть его поменять - то документ банально могут отклонить по причине несоответствия времени, что не очень удобно",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1449459757726568619",
+    "filename": "2025-12-13_20-53-54.mp4",
+    "content_type": "video/mp4",
+    "download_status": "downloaded",
+    "local_path": "attachments/1449459756879188138/1449459757726568619_2025-12-13_20-53-54.mp4"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1449459918661750854",
+   "date": "2025-12-13T17:56:14.272000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Баг движка/оффов",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1449459997036511362",
+   "date": "2025-12-13T17:56:32.958000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Но не всегда",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1449460040518860831",
+   "date": "2025-12-13T17:56:43.325000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Про баг знаем и там не только с аппаратами такой прикол",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1449460346623496253",
+   "date": "2025-12-13T17:57:56.306000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Добавил для этого тег отдельный",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

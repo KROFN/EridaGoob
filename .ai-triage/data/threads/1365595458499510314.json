@@ -1,0 +1,197 @@
+{
+ "thread_id": "1365595458499510314",
+ "title": "Выкидывает просто из сервера",
+ "author": {
+  "id": "416281346013528074",
+  "username": "evillchet",
+  "global_name": "EvillChet",
+  "server_nick": null,
+  "display": "EvillChet"
+ },
+ "created_at": "2025-04-26T07:48:48.843Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 17,
+ "attachment_count": 2,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1365595458499510314",
+  "date": "2025-04-26T07:48:48.843000+00:00",
+  "author": "EvillChet",
+  "author_role": null,
+  "content": "Я не могу даже нормально поиграть на станции меня выкидывает через 2 секунду. Может выкинуть в момент бсс прижка на лаву, а на самой лаве не выкидывало меня",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1365595716516581438",
+   "date": "2025-04-26T07:49:50.359000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "Логи?\nКонсоль?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365595974633914439",
+   "date": "2025-04-26T07:50:51.899000+00:00",
+   "author": "EvillChet",
+   "author_role": null,
+   "content": "я пытаюсь играть вечно переподключаясь",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365596039456755722",
+   "date": "2025-04-26T07:51:07.354000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "Ну так скинь логи или консоль хотябы",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365596107043770379",
+   "date": "2025-04-26T07:51:23.468000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "Как будто кто-то сможет понять что за проблема без нихуя",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365596226200014848",
+   "date": "2025-04-26T07:51:51.877000+00:00",
+   "author": "EvillChet",
+   "author_role": null,
+   "content": "единственное что он выдаёт Connection timed out",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365596319959220274",
+   "date": "2025-04-26T07:52:14.231000+00:00",
+   "author": "EvillChet",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1365596319757897728",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1365596323037839440",
+   "date": "2025-04-26T07:52:14.965000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "С впн попробуй",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365596579461070918",
+   "date": "2025-04-26T07:53:16.101000+00:00",
+   "author": "EvillChet",
+   "author_role": null,
+   "content": "Такая проблема чисто на самой станции, а на лаве нету",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365596607911039058",
+   "date": "2025-04-26T07:53:22.884000+00:00",
+   "author": "EvillChet",
+   "author_role": null,
+   "content": "будто неебическая нагрузка идёт и меня отрубает",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365596649937834077",
+   "date": "2025-04-26T07:53:32.904000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "Ну логи тогда отправь",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365596678433931274",
+   "date": "2025-04-26T07:53:39.698000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1365596678014631977",
+     "filename": "image0.gif",
+     "content_type": "image/gif",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1365596993354731610",
+   "date": "2025-04-26T07:54:54.781000+00:00",
+   "author": "EvillChet",
+   "author_role": null,
+   "content": "и что мне скинуть. единственное, что происходит в логах я вижу то же сообщение об окончании ожидания подключения",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365597139790725214",
+   "date": "2025-04-26T07:55:29.694000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "Ну значит хуй знает",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365597187198947400",
+   "date": "2025-04-26T07:55:40.997000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "<:s_PoZiTiFfFcHiK:1358052086872281169>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

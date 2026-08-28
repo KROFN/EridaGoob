@@ -1,0 +1,149 @@
+{
+ "thread_id": "1366944185495584768",
+ "title": "Агост, тлучевой сканнер - пропажа всех предметов агоста?",
+ "author": {
+  "id": "602460075335876609",
+  "username": "mlefur",
+  "global_name": "Ykika",
+  "server_nick": null,
+  "display": "Ykika"
+ },
+ "created_at": "2025-04-30T01:08:10.417Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1365427630660128861"
+ ],
+ "tag_ids": [
+  "1365427630660128861"
+ ],
+ "message_count": 10,
+ "attachment_count": 2,
+ "attachments_on_disk": [
+  "1366944186041106462_image.png",
+  "1366944186560942120_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1366944185495584768",
+  "date": "2025-04-30T01:08:10.417000+00:00",
+  "author": "Ykika",
+  "author_role": null,
+  "content": "",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1366944186041106462",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1366944185495584768/1366944186041106462_image.png"
+   },
+   {
+    "id": "1366944186560942120",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1366944185495584768/1366944186560942120_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1366952563437469766",
+   "date": "2025-04-30T01:41:27.874000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "Вместо т лучевого, вообще за админа используй меню на кнопку B и переключить пол",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1366952596643905596",
+   "date": "2025-04-30T01:41:35.791000+00:00",
+   "author": "bebrus",
+   "author_role": null,
+   "content": "на конфедерацию <:s_podozhdu:1358052419988230215>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1366952603602387072",
+   "date": "2025-04-30T01:41:37.450000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "Сразу всё показывать будет",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1366953178418905118",
+   "date": "2025-04-30T01:43:54.497000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "Таким же образом полезна кнопка переключить спавны, например гост роль дракончика удалить",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1366954708572311624",
+   "date": "2025-04-30T01:49:59.314000+00:00",
+   "author": "Ykika",
+   "author_role": null,
+   "content": "Так бай Зе Вей баг есть баг. Лучше сообщить чем не сообщать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1366954846032232549",
+   "date": "2025-04-30T01:50:32.087000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "Просто советы от прошлой педали новой педали",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1366954906564558959",
+   "date": "2025-04-30T01:50:46.519000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "Для ознакомления",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1367034216893775873",
+   "date": "2025-04-30T07:05:55.575000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "<:s_eblan:1365277483246555287>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1367034302570823680",
+   "date": "2025-04-30T07:06:16.002000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "пиздец критические баги..",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

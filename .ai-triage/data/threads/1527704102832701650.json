@@ -1,0 +1,63 @@
+{
+ "thread_id": "1527704102832701650",
+ "title": "Пульт от шлюзов не влияет на гермошлюзы",
+ "author": {
+  "id": "977695072910999582",
+  "username": "mokko1111",
+  "global_name": "Mokko",
+  "server_nick": null,
+  "display": "Mokko"
+ },
+ "created_at": "2026-07-17T15:50:41.485Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1507775251998838925"
+ ],
+ "message_count": 3,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": true,
+ "root_message": {
+  "id": "1527704102832701650",
+  "date": "2026-07-17T15:50:41.485000+00:00",
+  "author": "Mokko",
+  "author_role": null,
+  "content": "Теперь оружейку надо биндить на пульт смотрителю, или искать кнопачки.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1528727058421776394",
+   "date": "2026-07-20T11:35:33.103000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "<:REP_PLUS:1368701848147464222>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1528831069393129694",
+   "date": "2026-07-20T18:28:51.251000+00:00",
+   "author": "Lytheriia",
+   "author_role": null,
+   "content": "fixed",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

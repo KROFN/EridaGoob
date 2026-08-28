@@ -1,0 +1,208 @@
+{
+ "thread_id": "1537542182934675607",
+ "title": "Чё так дорого",
+ "author": {
+  "id": "544878398615584768",
+  "username": "argun77",
+  "global_name": null,
+  "server_nick": null,
+  "display": "argun77"
+ },
+ "created_at": "2026-08-13T19:23:42.564Z",
+ "archived": false,
+ "tags": [
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1507775251998838925"
+ ],
+ "message_count": 33,
+ "attachment_count": 3,
+ "attachments_on_disk": [
+  "1537542183236931584_image.png",
+  "1537542183891238932_image.png",
+  "1537577756215218357_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1537542182934675607",
+  "date": "2026-08-13T19:23:42.564000+00:00",
+  "author": "argun77",
+  "author_role": null,
+  "content": "Мини версии реактора и турбины стоят как полноценные",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1537542183236931584",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1537542182934675607/1537542183236931584_image.png"
+   },
+   {
+    "id": "1537542183891238932",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "downloaded",
+    "local_path": "attachments/1537542182934675607/1537542183891238932_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1537571816242151614",
+   "date": "2026-08-13T21:21:27.695000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Так они оба полноценные, при желании можно и малый на уровень большого вывести, ну и 25к не так много",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1537576183938424933",
+   "date": "2026-08-13T21:38:49.035000+00:00",
+   "author": "argun77",
+   "author_role": null,
+   "content": "У большого в любом случае тайлов больше",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1537577165074472980",
+   "date": "2026-08-13T21:42:42.956000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Ну хз, не вижу особого смысла что-то менять",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1537577306455806032",
+   "date": "2026-08-13T21:43:16.664000+00:00",
+   "author": "Wendor",
+   "author_role": null,
+   "content": "Ты по разному будешь делать в зависимости от размера реактора",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1537577538489024544",
+   "date": "2026-08-13T21:44:11.985000+00:00",
+   "author": "argun77",
+   "author_role": null,
+   "content": "Это всё ещё не объясняет одинаковую цену у меньшего реактора с большим",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1537577756534251570",
+   "date": "2026-08-13T21:45:03.971000+00:00",
+   "author": "Wendor",
+   "author_role": null,
+   "content": "Название предложки одно. Контекст другой. Автор желает совсем иного.",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1537577756215218357",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "downloaded",
+     "local_path": "attachments/1537542182934675607/1537577756215218357_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1537577881436426261",
+   "date": "2026-08-13T21:45:33.750000+00:00",
+   "author": "Wendor",
+   "author_role": null,
+   "content": "Ты не соберешь большой реактор на станции",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1537578052047863918",
+   "date": "2026-08-13T21:46:14.427000+00:00",
+   "author": "Wendor",
+   "author_role": null,
+   "content": "https://cdn.discordapp.com/attachments/1399065355292246076/1399112467577045082/42SWAG52image.GIF",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1537578193031135285",
+   "date": "2026-08-13T21:46:48.040000+00:00",
+   "author": "argun77",
+   "author_role": null,
+   "content": "По вашему затраты на 25 т² и 9 т² реактор одинаковые?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1537578312644431893",
+   "date": "2026-08-13T21:47:16.558000+00:00",
+   "author": "argun77",
+   "author_role": null,
+   "content": "Корпус больше, больше графитовых каналов",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1537579002263240805",
+   "date": "2026-08-13T21:50:00.976000+00:00",
+   "author": "Wendor",
+   "author_role": null,
+   "content": "https://cdn.discordapp.com/attachments/1342298829709377689/1451283790218530946/workplace_accident.gif",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1537579176578519050",
+   "date": "2026-08-13T21:50:42.536000+00:00",
+   "author": "argun77",
+   "author_role": null,
+   "content": "https://cdn.discordapp.com/attachments/1152199444629049436/1529930963377852557/image0.gif",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1537579715253108797",
+   "date": "2026-08-13T21:52:50.966000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Если искать логику в ыы, то ну…. Удачи наверное, реактор скорее инструмент для приколов, нежели реальный источник энергии и бла бла бла",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1537580036285140993",
+   "date": "2026-08-13T21:54:07.506000+00:00",
+   "author": "argun77",
+   "author_role": null,
+   "content": "Кстати у тебя хоть вышло реактор заставить работать стабильно?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

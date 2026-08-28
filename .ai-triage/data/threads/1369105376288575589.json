@@ -1,0 +1,189 @@
+{
+ "thread_id": "1369105376288575589",
+ "title": "Заберите у него дебаг ган!",
+ "author": {
+  "id": "764332589129138176",
+  "username": "mr.denm00",
+  "global_name": "Mr.Denm00",
+  "server_nick": null,
+  "display": "Mr.Denm00"
+ },
+ "created_at": "2025-05-06T00:15:58.455Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 52,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1369105376410206208_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1369105376288575589",
+  "date": "2025-05-06T00:15:58.455000+00:00",
+  "author": "Mr.Denm00",
+  "author_role": null,
+  "content": "1) хэдзомба с пиполетом стреляет на повал, не зависимо от состояния, выстрел - крит.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1369105376410206208",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1369105376288575589/1369105376410206208_image.png"
+   }
+  ],
+  "reactions": [
+   "cat_ahahahahahaha:5"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1369156963711193128",
+   "date": "2025-05-06T03:40:57.855000+00:00",
+   "author": "EvillChet",
+   "author_role": null,
+   "content": "Это сборка ReBell. Тут даже кухонным ножом можно за один удар снести человеку ногу",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369173945495846932",
+   "date": "2025-05-06T04:48:26.628000+00:00",
+   "author": "Akki",
+   "author_role": null,
+   "content": "Кто-то говорил, что ломом можно гибнуть самому себе торс",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369187682785165392",
+   "date": "2025-05-06T05:43:01.853000+00:00",
+   "author": "Mebiys IV",
+   "author_role": null,
+   "content": "у нас на ЦК один ассистент с помощью посоха  с 4 святым уроном себе как то умудрился 120 единиц снести...",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369271034821480499",
+   "date": "2025-05-06T11:14:14.527000+00:00",
+   "author": "о.",
+   "author_role": null,
+   "content": "Тебе может в голову попало, потому что меня выстрел с лазера чудика который появляется из \"ягодки аномалии\" унес в крит, хотя моя голова была в отличном состоянии, а общее состояние - жёлтое.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369271088898637954",
+   "date": "2025-05-06T11:14:27.420000+00:00",
+   "author": "о.",
+   "author_role": null,
+   "content": "И да, простите за несвязанный текст, почти не спал",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369271697232101396",
+   "date": "2025-05-06T11:16:52.458000+00:00",
+   "author": "о.",
+   "author_role": null,
+   "content": "Ты её не соберёшь никогда, ты хоть знаешь что там для неё нужно?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369271915092639825",
+   "date": "2025-05-06T11:17:44.400000+00:00",
+   "author": "Mr.Denm00",
+   "author_role": null,
+   "content": "через пол экрана взераясь в стену и падать в пропасть.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369272343633072198",
+   "date": "2025-05-06T11:19:26.572000+00:00",
+   "author": "о.",
+   "author_role": null,
+   "content": "Можно конечно попросту искать обломки, но тогда копать будет некому.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369272414235656193",
+   "date": "2025-05-06T11:19:43.405000+00:00",
+   "author": "Mr.Denm00",
+   "author_role": null,
+   "content": "аэ... если не лесть как долбаёб к синдикату с интеком, тогда спокойно собираешь.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369273223396724738",
+   "date": "2025-05-06T11:22:56.324000+00:00",
+   "author": "Mr.Denm00",
+   "author_role": null,
+   "content": "у меня спокойно хватало чтоб собрать марк 3, и сдохнуть над лавой у интека из-за кривого прыжка.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369273251234185289",
+   "date": "2025-05-06T11:23:02.961000+00:00",
+   "author": "о.",
+   "author_role": null,
+   "content": "Тебе сначало надо накопать на медипены и остальное.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369273466812891237",
+   "date": "2025-05-06T11:23:54.359000+00:00",
+   "author": "Mr.Denm00",
+   "author_role": null,
+   "content": "так а нахуя, у меня в мешке две сумки, а лут с зомбы я в ящиках на базу таскаю",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369273791896883306",
+   "date": "2025-05-06T11:25:11.865000+00:00",
+   "author": "Mr.Denm00",
+   "author_role": null,
+   "content": "по итогу у меня и куча медицины с капчёных, прокаченая сумка с охраны, и с 2-х заходов под 10к очков и готовый марк 1-2",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1369300189784969216",
+   "date": "2025-05-06T13:10:05.612000+00:00",
+   "author": "о.",
+   "author_role": null,
+   "content": "Ты за кого играешь? Или ты раундстартом бур воруешь?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

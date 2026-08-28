@@ -1,0 +1,140 @@
+{
+ "thread_id": "1518598820965908570",
+ "title": "Некрозол и Аркриокс",
+ "author": {
+  "id": "638709309273931777",
+  "username": "whatapple",
+  "global_name": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+  "server_nick": null,
+  "display": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲"
+ },
+ "created_at": "2026-06-22T12:49:33.120Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1507775251998838925"
+ ],
+ "message_count": 9,
+ "attachment_count": 2,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": true,
+ "root_message": {
+  "id": "1518598820965908570",
+  "date": "2026-06-22T12:49:33.120000+00:00",
+  "author": "𝗪𝗵𝗮𝘁𝗔𝗽𝗽𝗹𝗲",
+  "author_role": null,
+  "content": "Некрозолом и до этого не шибко пользовались, забивая хер на выведение деуса, предпочитая тупо клонировать, сейчас и подавно. Арк дешевле, делает то же самое, но при огромном уроне ещё и лучше.\n\nСтоит бафнуть некрозол, либо изменить рецепт его создания. Как вариант сделать его препаратом **не крио**, а обычным препаратом, что лечит в любую температуры трупы. Так же изменить значения с 2, до 3 или 4.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1518598821129752706",
+    "filename": "Screenshot_927.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   },
+   {
+    "id": "1518598821578408066",
+    "filename": "Screenshot_926.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": [
+   "⭐:2"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1518602194805588059",
+   "date": "2026-06-22T13:02:57.506000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "некро от яда",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1518602218129850428",
+   "date": "2026-06-22T13:03:03.067000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "я бы раду ему еще добавил",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1518602235674755275",
+   "date": "2026-06-22T13:03:07.250000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "а так норма",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1518606522588860477",
+   "date": "2026-06-22T13:20:09.330000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "<:s_ya_eblan:1362357080002134158>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1518606932221362227",
+   "date": "2026-06-22T13:21:46.994000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Некрозолу раду добавить и кайф. Ибо бывают мыши, что убивают офицера за 5 секунд радиацией. Как итог - 212 урона радиацией",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1518984820116688937",
+   "date": "2026-06-23T14:23:22.489000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Это предложка, ну и не знаю, в долгий ящик наверное",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1519035949772832778",
+   "date": "2026-06-23T17:46:32.749000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "некро лечит 2 рады",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1519266405101600819",
+   "date": "2026-06-24T09:02:17.581000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "fixed",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

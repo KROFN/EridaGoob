@@ -1,0 +1,50 @@
+{
+ "thread_id": "1501521382570328156",
+ "title": "Баг с халатом ученого",
+ "author": {
+  "id": "442351369857531925",
+  "username": "reddyford",
+  "global_name": "ReddyFord",
+  "server_nick": null,
+  "display": "ReddyFord"
+ },
+ "created_at": "2026-05-06T09:49:54.523Z",
+ "archived": true,
+ "tags": [
+  "Дискорд-Бот",
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1414265921488289995",
+  "1365427515455443028"
+ ],
+ "message_count": 1,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1501521382570328156",
+  "date": "2026-05-06T09:49:54.523000+00:00",
+  "author": "ReddyFord",
+  "author_role": null,
+  "content": "При попытке \"расстегнуть\" лаб. халат ученого происходит вот такой баг, где игра пытается его \"разложить\", спрайт не меняется и ничего не происходит",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1501521383514177536",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

@@ -1,0 +1,191 @@
+{
+ "thread_id": "1380911822634225724",
+ "title": "Что за фиговая система урона.",
+ "author": {
+  "id": "977695072910999582",
+  "username": "mokko1111",
+  "global_name": "Mokko",
+  "server_nick": null,
+  "display": "Mokko"
+ },
+ "created_at": "2025-06-07T14:10:34.617Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1365427630660128861"
+ ],
+ "tag_ids": [
+  "1365427630660128861"
+ ],
+ "message_count": 32,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1380922118027481128_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1380911822634225724",
+  "date": "2025-06-07T14:10:34.617000+00:00",
+  "author": "Mokko",
+  "author_role": null,
+  "content": "Я выстрелила в голову подруге случайно дробовичком утилей, у которого насколько поняла 3 урона. На ней был шлем.  Результат - инстагиб, даже мозга не осталось чтобы вернуть его. Что. Это. За. Хрень. Почините систему урона пожалуйста, когда рикошетом один снаряд дробовика инстагибает голову игрока это НЕ НОРМА. Убило настроение.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1380913118779277464",
+   "date": "2025-06-07T14:15:43.642000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "Кстати тоже самое (ну почти) было с дробовиком, заряженным травматическими патронами, я выстрелила в игрока который ззалёз за стойку несколько раз, а у него бошка отлетела нафиг.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1380916120927600672",
+   "date": "2025-06-07T14:27:39.410000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Думаю, если несколько раз выстрелить человеку в голову с дробовика, она у него действительно отлетит",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1380916357410852896",
+   "date": "2025-06-07T14:28:35.792000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "То, что мозг пропал - баг, да. В остальном это лучше, чем когда куклы миллион пуль впитывали",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1380916441582407750",
+   "date": "2025-06-07T14:28:55.860000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Больше реализма. С пустыми руками и на ближней дистанции у тебя ноль шансов против дробовика",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1380916676006117538",
+   "date": "2025-06-07T14:29:51.751000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "С каких пор сска про реализм? Лучше обрати внимание на первый пример - инстагиб без шансов снарядом дробовика утилей, в утиля в броне.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1380917338899222609",
+   "date": "2025-06-07T14:32:29.797000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "Адреналин может как-то помочь человеку когда из него кишки вытекают? Или мозг торчит? Пф",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1380917563814318161",
+   "date": "2025-06-07T14:33:23.421000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Да, потому что боль не ощущаешь. Он не помогает тебе ЖИТЬ, он помогает игнорировать повреждения. Какое-то время",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1380921989266673735",
+   "date": "2025-06-07T14:50:58.531000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "гибнулось потому что у пуль прокнул шанс на нанесение урона органу-мозгу, мозг разрушился",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1380922118270877816",
+   "date": "2025-06-07T14:51:29.288000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1380922118027481128",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "downloaded",
+     "local_path": "attachments/1380911822634225724/1380922118027481128_image.png"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1380923125147111474",
+   "date": "2025-06-07T14:55:29.346000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "А, то есть чтобы убить человека с биты, нужен один удар и лёгкий шлепок по затылку (и чтобы ещё повезло). Замечательный баланс... ёмаё.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1380923323671908445",
+   "date": "2025-06-07T14:56:16.678000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "ты не упускай важные факторы, тебе нужно для такого как минимум выбить шанс чтобы попасть по голове, а потом уже и органу",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1380923486675144906",
+   "date": "2025-06-07T14:56:55.541000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "ребелл сейчас конечно не очень сильная штука ну мы думать будем что делать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1380923704552329338",
+   "date": "2025-06-07T14:57:47.487000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "да, бывает что я будучи утилем поймал от одной пули болевой шок а бывает и такое что люди живут с 600 уроном потому что он равномерно распределён по конечностям",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1380924155389546687",
+   "date": "2025-06-07T14:59:34.975000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "будут мутанты с 600 хп на мозге, 150 урона с кулака и суперскоростью",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

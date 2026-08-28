@@ -1,0 +1,109 @@
+{
+ "thread_id": "1456898309808721960",
+ "title": "После употребления Лепоразина телу холодно, а не жарко.",
+ "author": {
+  "id": "551403326948900881",
+  "username": "maasarie",
+  "global_name": "maasarie",
+  "server_nick": null,
+  "display": "maasarie"
+ },
+ "created_at": "2026-01-03T06:33:44.920Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799",
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1414266059208265799",
+  "1377371306470801439"
+ ],
+ "message_count": 6,
+ "attachment_count": 2,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1456898309808721960",
+  "date": "2026-01-03T06:33:44.920000+00:00",
+  "author": "maasarie",
+  "author_role": null,
+  "content": "Хотя он по-факту греть должен",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1456946953064677428",
+   "date": "2026-01-03T09:47:02.376000+00:00",
+   "author": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ",
+   "author_role": null,
+   "content": "так он это и делает",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1456947022073696559",
+   "date": "2026-01-03T09:47:18.829000+00:00",
+   "author": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ",
+   "author_role": null,
+   "content": "просто там у тебя температура спадает быстро",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1458066075748139141",
+   "date": "2026-01-06T11:54:02.016000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "Он греет но не так пассивно, нежели скачком. На видео можно увидеть и я бы изменил описание в руководстве Лепоразина вместо \"отлично подходит для путешествий  по космосу без скафандра \" на \"отлично подходит для путешествий  по космосу с скафандром не имеющий температурную защиту\", так как не совсем правдивый.",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1458066075194232956",
+     "filename": "2026-01-06_144636.mp4",
+     "content_type": "video/mp4",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1458066153384706180",
+   "date": "2026-01-06T11:54:20.526000+00:00",
+   "author": "𝙺𝚊𝚝_𝙻",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1458066147739176960",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1458066663562805383",
+   "date": "2026-01-06T11:56:22.162000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "океей",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

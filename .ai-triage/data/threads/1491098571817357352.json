@@ -1,0 +1,203 @@
+{
+ "thread_id": "1491098571817357352",
+ "title": "Турель пилота",
+ "author": {
+  "id": "977695072910999582",
+  "username": "mokko1111",
+  "global_name": "Mokko",
+  "server_nick": null,
+  "display": "Mokko"
+ },
+ "created_at": "2026-04-07T15:33:22.793Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 23,
+ "attachment_count": 2,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1491098571817357352",
+  "date": "2026-04-07T15:33:22.793000+00:00",
+  "author": "Mokko",
+  "author_role": null,
+  "content": "Турели пилота стреляют в агентов. Просто по \"фракции\", лол. (Турель всё знает... турель всёёёё видит...)",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": [
+   "😆:1"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1491098754193948722",
+   "date": "2026-04-07T15:34:06.275000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "Подчинённых имплантом тоже стреляет",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "😆:1"
+   ]
+  },
+  {
+   "id": "1491265596430483587",
+   "date": "2026-04-08T02:37:04.564000+00:00",
+   "author": "Tanto",
+   "author_role": null,
+   "content": "Ахахха, прикольно, надо фраку менять ей и возможно остальным турелькам",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1491287247797092363",
+   "date": "2026-04-08T04:03:06.652000+00:00",
+   "author": "Tanto",
+   "author_role": null,
+   "content": "Проверил все турельки проблемная только эта WeaponTurretNanoTrasen ща починим.",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1491287247675326576",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1491304348641136710",
+   "date": "2026-04-08T05:11:03.811000+00:00",
+   "author": "Tanto",
+   "author_role": null,
+   "content": "Вскрылась важная деталька, с турелькой все в норме, а вот роль предатель выдает тебе фракцию синдиката. Ну и турелька считает что ты ядерный оперативник начинает тебя ломать. При том на роль вора не реагирует никак. Потому сейчас роль предателя подкорректирую что-бы не выдавалась фракция синдиката. Иначе придется писать новую фракцию например под предателя, и всем противникам добавлять ее в мозги вообще.",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1491304348175826974",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1491307896137322516",
+   "date": "2026-04-08T05:25:09.600000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Если фракцию синдиката не выдавать, то на условном лавалэнде начнут турели и по агентуре стрелять",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1491308050760601690",
+   "date": "2026-04-08T05:25:46.465000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "+ есть шанс, что у призываемых фамильяров в аплинке та же фракция стоит и они начнут бить владельца",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1491309848745476127",
+   "date": "2026-04-08T05:32:55.138000+00:00",
+   "author": "Tanto",
+   "author_role": null,
+   "content": "Я сейчас ищу варианты малой кровью обойтись. Но по всей видимости придется новую фракцию создавать именно TraitorSyndicate Потому что ядеры это чисто синдикат. По хорошему им бы сделать новую фраку но так будет двойная работа, потому проще добавить фраку трейтеров и дописать их в AI потому что выхода другого нет. Получится и у турелей и у зверья синдиката будет две дружеские фракции и просто синдикат и трейторы. Иного выхода не вижу.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1491310566403211376",
+   "date": "2026-04-08T05:35:46.241000+00:00",
+   "author": "Tanto",
+   "author_role": null,
+   "content": "Ну или все же ядеров, они по сути на лаве не шарятся.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1491471472693084180",
+   "date": "2026-04-08T16:15:09.290000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "Лучше всех определяет болванчик",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1491471497636741152",
+   "date": "2026-04-08T16:15:15.237000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "кто агент а кто нет",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1491471533779062856",
+   "date": "2026-04-08T16:15:23.854000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "ну он где то там",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1491471568122019850",
+   "date": "2026-04-08T16:15:32.042000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "а турель у любого пилота",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1491471583255072840",
+   "date": "2026-04-08T16:15:35.650000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "на шатлле синди",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1491508915937218610",
+   "date": "2026-04-08T18:43:56.455000+00:00",
+   "author": "Tanto",
+   "author_role": null,
+   "content": "Так то офы много чего поломали. Например всякие кошки нападают на нулевого зараженного зомби. Так что там тема открыта.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

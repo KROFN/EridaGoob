@@ -1,0 +1,67 @@
+{
+ "thread_id": "1404116006984618024",
+ "title": "Бесконечная загрузка контента",
+ "author": {
+  "id": "426289428269498370",
+  "username": "qwochu",
+  "global_name": "Aёshino",
+  "server_nick": null,
+  "display": "Aёshino"
+ },
+ "created_at": "2025-08-10T14:55:43.279Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 3,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1404116007248724038_EeMs4Z2qryoyN4BBsFHMp9RZyL5gCyTu9TdZwbuzGlB4Mg__7De6pYi7ADriErIAgjY6BcUVqhjes2OA9RQBZqad.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1404116006984618024",
+  "date": "2025-08-10T14:55:43.279000+00:00",
+  "author": "Aёshino",
+  "author_role": null,
+  "content": "Что нужно в запрет вставить чтобы старый заработал? не могу без обмазанных маслом вульп. ПОМОГИ ТЕ ПЖ",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1404116007248724038",
+    "filename": "EeMs4Z2qryoyN4BBsFHMp9RZyL5gCyTu9TdZwbuzGlB4Mg__7De6pYi7ADriErIAgjY6BcUVqhjes2OA9RQBZqad.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1404116006984618024/1404116007248724038_EeMs4Z2qryoyN4BBsFHMp9RZyL5gCyTu9TdZwbuzGlB4Mg__7De6pYi7ADriErIAgjY6BcUVqhjes2OA9RQBZqad.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1404123587106967693",
+   "date": "2025-08-10T15:25:50.521000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "Ван",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1404124260406132850",
+   "date": "2025-08-10T15:28:31.048000+00:00",
+   "author": "maasarie",
+   "author_role": null,
+   "content": "Впн",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

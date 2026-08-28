@@ -1,0 +1,183 @@
+{
+ "thread_id": "1508379529910030446",
+ "title": "Шэдоукины не живут",
+ "author": {
+  "id": "919959719244886056",
+  "username": "catcatcher008",
+  "global_name": "Catcatcher",
+  "server_nick": null,
+  "display": "Catcatcher"
+ },
+ "created_at": "2026-05-25T08:01:44.267Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1507775251998838925"
+ ],
+ "message_count": 17,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": true,
+ "root_message": {
+  "id": "1508379529910030446",
+  "date": "2026-05-25T08:01:44.267000+00:00",
+  "author": "Catcatcher",
+  "author_role": null,
+  "content": "Собственно решил я опробовать эту расу , в чём заключается сейчас проблема: Не знаю достоверно баг это или фича , но данная раса от слова совсем не лечится наборами. Что из этого вытекает? Если персонаж представитель расы преодолел состояние крита и умер ,  то единственный способ его спасти , это создание некрозола , что особенно часто не делают на сменах с низкой численностью игроков эриды. Да подобная механика с отсутствием лечения наборов была у кпб/кпс но у них и альтернативы соответствующие так ещё и из крита они не выходят почти совсем. Ещё как мне сказали у них что-то сделано с метаболизмом в организме , стоит это тоже посмотреть и перебалансить под реалии станци..",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1508381009777791026",
+   "date": "2026-05-25T08:07:37.095000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "Это скорее всего баг. Ибо.. Они должны лечиться всем и максимум раньше имели урезанные хп из-за способок расы",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1508383124298534932",
+   "date": "2026-05-25T08:16:01.236000+00:00",
+   "author": "Catcatcher",
+   "author_role": null,
+   "content": "Сейчас у них ещё идёт конвертация повреждений в кровопотерю и обильная кровопотеря",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1508383516197392484",
+   "date": "2026-05-25T08:17:34.672000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "Тяжко\n\nРаньше просто прикол был в том, что у них было меньше хп и больший кровоток из-за способок на телепорт и невидимость",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1508383525420925059",
+   "date": "2026-05-25T08:17:36.871000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "А щас да.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1508383702235746404",
+   "date": "2026-05-25T08:18:19.027000+00:00",
+   "author": "Catcatcher",
+   "author_role": null,
+   "content": "способок нет ,  зато умирают легко...",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1508384226611822602",
+   "date": "2026-05-25T08:20:24.048000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "Ну.. Если вернут псионику, то мб и вернут способки",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1508474333343780864",
+   "date": "2026-05-25T14:18:27.167000+00:00",
+   "author": "Catcatcher",
+   "author_role": null,
+   "content": "А у них ещё оказывается здоровье не отображается если смотреть визором...",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1509601603227877448",
+   "date": "2026-05-28T16:57:49.251000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "<@&1357728304760750294> будет что-то с этим делаться?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1512507197953802351",
+   "date": "2026-06-05T17:23:37.017000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "Завтра в три починят",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1512507216253423848",
+   "date": "2026-06-05T17:23:41.380000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "мне доложили",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1512519447120711722",
+   "date": "2026-06-05T18:12:17.446000+00:00",
+   "author": "Boroven",
+   "author_role": null,
+   "content": "не надо больше будет просить омнизин-алоэ-чертополох чтоб откачать мёртвого шадоу )_)",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1512565209288675378",
+   "date": "2026-06-05T21:14:07.997000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "Потерпим",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1512823722095022183",
+   "date": "2026-06-06T14:21:22.253000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "напиздели страшно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1512823749160861800",
+   "date": "2026-06-06T14:21:28.706000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "нихуя не починили",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

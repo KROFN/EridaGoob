@@ -1,0 +1,186 @@
+{
+ "thread_id": "1485685351048675550",
+ "title": "Спрайт копья",
+ "author": {
+  "id": "977695072910999582",
+  "username": "mokko1111",
+  "global_name": "Mokko",
+  "server_nick": null,
+  "display": "Mokko"
+ },
+ "created_at": "2026-03-23T17:03:10.389Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 13,
+ "attachment_count": 3,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1485685351048675550",
+  "date": "2026-03-23T17:03:10.389000+00:00",
+  "author": "Mokko",
+  "author_role": null,
+  "content": "Видите справа торчит пиксель серый?",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1485685352470417459",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   },
+   {
+    "id": "1485685353280176218",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1485704205032493057",
+   "date": "2026-03-23T18:18:05.529000+00:00",
+   "author": "Anilori <3",
+   "author_role": null,
+   "content": "этот пиксель что копье намазано означает... вообще 10000 лет этому",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1485704657337581688",
+   "date": "2026-03-23T18:19:53.367000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "ахах",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1485704705412694056",
+   "date": "2026-03-23T18:20:04.829000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "ну если фича",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1485704710307713185",
+   "date": "2026-03-23T18:20:05.996000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "ладно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1485739589233545326",
+   "date": "2026-03-23T20:38:41.780000+00:00",
+   "author": "Anilori <3",
+   "author_role": null,
+   "content": "не фича",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1485739617150828696",
+   "date": "2026-03-23T20:38:48.436000+00:00",
+   "author": "Anilori <3",
+   "author_role": null,
+   "content": "Просто спрайт копья не оффов",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1485739640425287692",
+   "date": "2026-03-23T20:38:53.985000+00:00",
+   "author": "Anilori <3",
+   "author_role": null,
+   "content": "А наложение оффов",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1486297720464343051",
+   "date": "2026-03-25T09:36:30.635000+00:00",
+   "author": "Anilori <3",
+   "author_role": null,
+   "content": "Ну то что это недоработка а не баг поняли... Ладно, исправлю вечером",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1486404692970832042",
+   "date": "2026-03-25T16:41:34.868000+00:00",
+   "author": "Anilori <3",
+   "author_role": null,
+   "content": "https://github.com/dead-space-server/space-erida-14/pull/298\n<@977695072910999582> Я конечно не спрайтер, но теперь лучше",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1486405206802567330",
+   "date": "2026-03-25T16:43:37.375000+00:00",
+   "author": "Anilori <3",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1486405206777532436",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1486405287999967322",
+   "date": "2026-03-25T16:43:56.734000+00:00",
+   "author": "Anilori <3",
+   "author_role": null,
+   "content": "немного кривовато, но хоть не парит и понятно что намазано",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1486646031419707463",
+   "date": "2026-03-26T08:40:34.438000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "выглядит хорошо",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

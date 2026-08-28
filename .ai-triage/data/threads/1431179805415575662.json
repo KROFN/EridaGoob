@@ -1,0 +1,40 @@
+{
+ "thread_id": "1431179805415575662",
+ "title": "Вики",
+ "author": {
+  "id": "1002482543326658560",
+  "username": "Deleted User",
+  "global_name": null,
+  "server_nick": null,
+  "display": "Deleted User"
+ },
+ "created_at": "2025-10-24T07:17:35.646Z",
+ "archived": true,
+ "tags": [
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1414266059208265799"
+ ],
+ "message_count": 1,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1431179805415575662",
+  "date": "2025-10-24T07:17:35.646000+00:00",
+  "author": "Deleted User",
+  "author_role": null,
+  "content": "Конкретного тэга для бага нету. Если коротко - вики не адаптированна под нынешний ЛОР. Та же статься на Восстание 407, в ней написано что запретный лозунг является к примеру \"Смерть НТ\" или же **\"Слава сндикату\"**",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

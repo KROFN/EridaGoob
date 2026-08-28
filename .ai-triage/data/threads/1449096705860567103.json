@@ -1,0 +1,91 @@
+{
+ "thread_id": "1449096705860567103",
+ "title": "доступы интек-шлюзов",
+ "author": {
+  "id": "949070562779607060",
+  "username": "whywhywhywhywhywhywhywhyyy",
+  "global_name": "the Hope of the shattered Ones",
+  "server_nick": null,
+  "display": "the Hope of the shattered Ones"
+ },
+ "created_at": "2025-12-12T17:52:57.592Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 5,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1449096705860567103",
+  "date": "2025-12-12T17:52:57.592000+00:00",
+  "author": "the Hope of the shattered Ones",
+  "author_role": null,
+  "content": "карта капитана открывает все интек шлюза, карта пун-пуна открывает половину интек шлюзов",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1449096707051622461",
+    "filename": "2025-12-12_20-50-00.mp4",
+    "content_type": "video/mp4",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1449098253588107444",
+   "date": "2025-12-12T17:59:06.599000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Там вообще доступы не установлены, Сидзар",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1449098365886398654",
+   "date": "2025-12-12T17:59:33.373000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Ни на каких",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1449098608933736608",
+   "date": "2025-12-12T18:00:31.320000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Bruh, у родителей были доступы насколько помню. Гляну завтра | сегодня.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1449214144699039815",
+   "date": "2025-12-13T01:39:37.193000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Исправил",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

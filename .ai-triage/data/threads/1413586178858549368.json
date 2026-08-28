@@ -1,0 +1,115 @@
+{
+ "thread_id": "1413586178858549368",
+ "title": "Призраки не скрываются",
+ "author": {
+  "id": "328755535765569537",
+  "username": "montriase",
+  "global_name": "MonTrius",
+  "server_nick": null,
+  "display": "MonTrius"
+ },
+ "created_at": "2025-09-05T18:06:48.201Z",
+ "archived": true,
+ "tags": [
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1377371306470801439"
+ ],
+ "message_count": 6,
+ "attachment_count": 3,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1413586178858549368",
+  "date": "2025-09-05T18:06:48.201000+00:00",
+  "author": "MonTrius",
+  "author_role": null,
+  "content": "Будучи живым теперь мы видим летающих и мстящих игроков в режиме госта.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1413586179810529350",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1413586221845975121",
+   "date": "2025-09-05T18:06:58.450000+00:00",
+   "author": "MonTrius",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1413586221611090080",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1413588124163903609",
+   "date": "2025-09-05T18:14:31.998000+00:00",
+   "author": "MonTrius",
+   "author_role": null,
+   "content": "",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1413588123870298314",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1413593367903867033",
+   "date": "2025-09-05T18:35:22.203000+00:00",
+   "author": "Ykika",
+   "author_role": null,
+   "content": "Из-за мага",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413593511722225714",
+   "date": "2025-09-05T18:35:56.492000+00:00",
+   "author": "MonTrius",
+   "author_role": null,
+   "content": "Аааа, понятно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413754198981480520",
+   "date": "2025-09-06T05:14:27.320000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Не баг",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

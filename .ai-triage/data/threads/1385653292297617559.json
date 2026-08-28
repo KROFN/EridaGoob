@@ -1,0 +1,139 @@
+{
+ "thread_id": "1385653292297617559",
+ "title": "Шлюз с разными спрайтами",
+ "author": {
+  "id": "1251925458426003487",
+  "username": "bahamutichka",
+  "global_name": "Elgard",
+  "server_nick": null,
+  "display": "Elgard"
+ },
+ "created_at": "2025-06-20T16:11:29.077Z",
+ "archived": true,
+ "tags": [
+  "На рассмотрении"
+ ],
+ "tag_ids": [
+  "1377591362744094795"
+ ],
+ "message_count": 9,
+ "attachment_count": 2,
+ "attachments_on_disk": [
+  "1385653292503400549_2025-06-20_183952.png",
+  "1385653292775899256_2025-06-20_184009.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1385653292297617559",
+  "date": "2025-06-20T16:11:29.077000+00:00",
+  "author": "Elgard",
+  "author_role": null,
+  "content": "В спокойном состояние один спрайт, в открытом другой.\nКак я понимаю, переносили спрайты с МК и накакали.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1385653292503400549",
+    "filename": "2025-06-20_183952.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1385653292297617559/1385653292503400549_2025-06-20_183952.png"
+   },
+   {
+    "id": "1385653292775899256",
+    "filename": "2025-06-20_184009.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1385653292297617559/1385653292775899256_2025-06-20_184009.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1385653938174427327",
+   "date": "2025-06-20T16:14:03.066000+00:00",
+   "author": "Moth.",
+   "author_role": null,
+   "content": "не берусь утреждать но кажется тут дело в лени перерисовывать анимацию",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1385654085344038952",
+   "date": "2025-06-20T16:14:38.154000+00:00",
+   "author": "Elgard",
+   "author_role": null,
+   "content": "я не думаю что у первого \"крутого\" спрайта не было анимаций",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1385654309341106287",
+   "date": "2025-06-20T16:15:31.559000+00:00",
+   "author": "Moth.",
+   "author_role": null,
+   "content": "Хз, всё может быть. Может забыли, а может забили",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1385654495693901906",
+   "date": "2025-06-20T16:16:15.989000+00:00",
+   "author": "Moth.",
+   "author_role": null,
+   "content": "а с какого сервака первый спрайт?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1386270094891417681",
+   "date": "2025-06-22T09:02:26.275000+00:00",
+   "author": "Elgard",
+   "author_role": null,
+   "content": "думаю что с конфы",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1387879586330705951",
+   "date": "2025-06-26T19:37:58.937000+00:00",
+   "author": "cybertrash",
+   "author_role": null,
+   "content": "<@1308890012095610891>  - Эт ваше, не наше",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1387879787653238854",
+   "date": "2025-06-26T19:38:46.936000+00:00",
+   "author": "VacaVasa",
+   "author_role": null,
+   "content": "Ага",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1387879813536284825",
+   "date": "2025-06-26T19:38:53.107000+00:00",
+   "author": "VacaVasa",
+   "author_role": null,
+   "content": "Щас дам задание",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

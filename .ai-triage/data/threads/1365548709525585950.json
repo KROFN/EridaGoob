@@ -1,0 +1,89 @@
+{
+ "thread_id": "1365548709525585950",
+ "title": "Одежда на одежде",
+ "author": {
+  "id": "718380038914965546",
+  "username": "danylo_dazzle",
+  "global_name": "Danylo_dazzle",
+  "server_nick": null,
+  "display": "Danylo_dazzle"
+ },
+ "created_at": "2025-04-26T04:43:03.019Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 5,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1365548709525585950",
+  "date": "2025-04-26T04:43:03.019000+00:00",
+  "author": "Danylo_dazzle",
+  "author_role": null,
+  "content": "Тут короче баг такой странный и неприятный, Прикол весь в том, Что персонаж появляется в обычной одежде своей должности и при этом на нем видна лодауд одежда. А именно такие как: Трусы, Футболка, Чулки. Этой же одежды видно на персонаже не должно быть. Точнее оно как-бы одето на персонаже. Но видно этого не должно быть.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1365548803477737513",
+   "date": "2025-04-26T04:43:25.419000+00:00",
+   "author": "Danylo_dazzle",
+   "author_role": null,
+   "content": "Вот скриншот",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1365548803209297991",
+     "filename": "image.png",
+     "content_type": "image/png",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1365561747443941488",
+   "date": "2025-04-26T05:34:51.501000+00:00",
+   "author": ".",
+   "author_role": null,
+   "content": "(Просто дополню, то что так же бельё напяливается поверх скафандра, если напялить собственно скаф.)",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365562238383161367",
+   "date": "2025-04-26T05:36:48.550000+00:00",
+   "author": "Danylo_dazzle",
+   "author_role": null,
+   "content": "А еще лоок чат не видно, Но при этом он есть и он работает.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365562423267954820",
+   "date": "2025-04-26T05:37:32.630000+00:00",
+   "author": "Danylo_dazzle",
+   "author_role": null,
+   "content": "Если нажать на букву Ё, Которая отвечает за мини логи. То можно увидеть что лоок чат работает. Но при этом он невидимый в самой игре и его не видно.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

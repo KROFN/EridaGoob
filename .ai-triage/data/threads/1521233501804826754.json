@@ -1,0 +1,61 @@
+{
+ "thread_id": "1521233501804826754",
+ "title": "Вспышка не работает",
+ "author": {
+  "id": "877641869222371348",
+  "username": "9kvac_",
+  "global_name": "9Kvac_",
+  "server_nick": null,
+  "display": "9Kvac_"
+ },
+ "created_at": "2026-06-29T19:18:49.982Z",
+ "archived": true,
+ "tags": [
+  "Не баг"
+ ],
+ "tag_ids": [
+  "1377371306470801439"
+ ],
+ "message_count": 3,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_NOT_BUG",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1521233501804826754",
+  "date": "2026-06-29T19:18:49.982000+00:00",
+  "author": "9Kvac_",
+  "author_role": null,
+  "content": "Химическая вспышка ( та, что вариться химиками ) не уберает Дым от теневой аномалии.\nМожет быть, так и нужно - но было бы приятно иметь данную возможность борьбы с дымом.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1528370738237804665",
+   "date": "2026-07-19T11:59:39.751000+00:00",
+   "author": "Lytheriia",
+   "author_role": null,
+   "content": "Не повторяется",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1528376348102627449",
+   "date": "2026-07-19T12:21:57.247000+00:00",
+   "author": "9Kvac_",
+   "author_role": null,
+   "content": "Ну я 1 раз пробовал при коллапснутой аноме варить вспышку в мензе, стоял вплотную - дым не пропадал",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

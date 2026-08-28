@@ -1,0 +1,141 @@
+{
+ "thread_id": "1542243553533501510",
+ "title": "Слепой навсегда",
+ "author": {
+  "id": "1115746169981784206",
+  "username": "_hellkar_",
+  "global_name": "Такеши",
+  "server_nick": null,
+  "display": "Такеши"
+ },
+ "created_at": "2026-08-26T18:45:16.662Z",
+ "archived": false,
+ "tags": [
+  "Разработка"
+ ],
+ "tag_ids": [
+  "1507775251998838925"
+ ],
+ "message_count": 10,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1542243553718309027_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1542243553533501510",
+  "date": "2026-08-26T18:45:16.662000+00:00",
+  "author": "Такеши",
+  "author_role": null,
+  "content": "Ну я взял перк плохого зрения, очки и пересадка глаз не помогает",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1542243553718309027",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1542243553533501510/1542243553718309027_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1542253027447144549",
+   "date": "2026-08-26T19:22:55.419000+00:00",
+   "author": "vanomorodellefake",
+   "author_role": null,
+   "content": "вроде в этом и прикол перка что пересадка не поможет\nнасчёт очков не уверен",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1542253608668766329",
+   "date": "2026-08-26T19:25:13.993000+00:00",
+   "author": "Такеши",
+   "author_role": null,
+   "content": "да хуйня как будто, не?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1542254428432765048",
+   "date": "2026-08-26T19:28:29.440000+00:00",
+   "author": "vanomorodellefake",
+   "author_role": null,
+   "content": "ну так в этом и смысл перка",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1542361821862830202",
+   "date": "2026-08-27T02:35:14.029000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "Хуйня это каждую смену со старта идти дос тавть глаза у Пун Пуна",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1542361853664034986",
+   "date": "2026-08-27T02:35:21.611000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "Если выбрал эту черту то хотел отыгрывать слепого",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1542362107780276334",
+   "date": "2026-08-27T02:36:22.197000+00:00",
+   "author": "Такеши",
+   "author_role": null,
+   "content": "Ну было бы славно если бы с этим трейтом очки помогали решить эту проблему",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1542362199576809492",
+   "date": "2026-08-27T02:36:44.083000+00:00",
+   "author": "Такеши",
+   "author_role": null,
+   "content": "А не прям фулл ходить с очень ограниченным зрением",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1542501505578438656",
+   "date": "2026-08-27T11:50:17.222000+00:00",
+   "author": "rOmannn299",
+   "author_role": null,
+   "content": "а зачем вообще брать такой перк тогда",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1542525584100565092",
+   "date": "2026-08-27T13:25:57.989000+00:00",
+   "author": "Такеши",
+   "author_role": null,
+   "content": "как минимум чтобы с очками бегать",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

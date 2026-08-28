@@ -1,0 +1,113 @@
+{
+ "thread_id": "1479980307917836522",
+ "title": "не меняется голос",
+ "author": {
+  "id": "727930800573644840",
+  "username": "frantyk_",
+  "global_name": "frantyk",
+  "server_nick": null,
+  "display": "frantyk"
+ },
+ "created_at": "2026-03-07T23:13:22.112Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 8,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1479980307917836522",
+  "date": "2026-03-07T23:13:22.112000+00:00",
+  "author": "frantyk",
+  "author_role": null,
+  "content": "голосовая маска не изменяет голос, имплант тоже.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1479980331263197348",
+   "date": "2026-03-07T23:13:27.678000+00:00",
+   "author": "frantyk",
+   "author_role": null,
+   "content": "только компачами менять",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1479983393948307456",
+   "date": "2026-03-07T23:25:37.879000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "А функция выбора голоса есть?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1479986286352662782",
+   "date": "2026-03-07T23:37:07.482000+00:00",
+   "author": "frantyk",
+   "author_role": null,
+   "content": "есть",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1479986312982302901",
+   "date": "2026-03-07T23:37:13.831000+00:00",
+   "author": "frantyk",
+   "author_role": null,
+   "content": "но после смены нихуя не меняется",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1479986359069442190",
+   "date": "2026-03-07T23:37:24.819000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "Окей, значит баг",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1480038931545194536",
+   "date": "2026-03-08T03:06:19.074000+00:00",
+   "author": "Anilori <3",
+   "author_role": null,
+   "content": "уэээ, посмотрю потом ещё",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1480079495863078982",
+   "date": "2026-03-08T05:47:30.361000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Исправил",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

@@ -1,0 +1,93 @@
+{
+ "thread_id": "1492169908891418745",
+ "title": "СМ не фонит",
+ "author": {
+  "id": "1215996475624919180",
+  "username": "fox_meowder",
+  "global_name": "Пряники",
+  "server_nick": null,
+  "display": "Пряники"
+ },
+ "created_at": "2026-04-10T14:30:29.456Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 6,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1492169908891418745",
+  "date": "2026-04-10T14:30:29.456000+00:00",
+  "author": "Пряники",
+  "author_role": null,
+  "content": "Из названия очевидно - СМ работает, но фон не дает, не эмиттеры, не атмос не дают эффекта",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1492171077088968755",
+   "date": "2026-04-10T14:35:07.976000+00:00",
+   "author": "Пряники",
+   "author_role": null,
+   "content": "даже при деламинации",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1492440640708022272",
+   "date": "2026-04-11T08:26:16.951000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "Айо",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1492440682437021796",
+   "date": "2026-04-11T08:26:26.900000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "Ты его просто выдоил",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1492440703786156173",
+   "date": "2026-04-11T08:26:31.990000+00:00",
+   "author": "alexfire",
+   "author_role": null,
+   "content": "До последней капельки",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1496009494331920434",
+   "date": "2026-04-21T04:47:37.961000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "fixed",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

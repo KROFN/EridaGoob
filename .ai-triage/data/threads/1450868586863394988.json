@@ -1,0 +1,199 @@
+{
+ "thread_id": "1450868586863394988",
+ "title": "Скаф осща",
+ "author": {
+  "id": "986969824318095392",
+  "username": "whittmas",
+  "global_name": "Masya",
+  "server_nick": null,
+  "display": "Masya"
+ },
+ "created_at": "2025-12-17T15:13:46.943Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 20,
+ "attachment_count": 2,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1450868586863394988",
+  "date": "2025-12-17T15:13:46.943000+00:00",
+  "author": "Masya",
+  "author_role": null,
+  "content": "Не хочу таким бегать",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1450868587136028754",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1451023669357838563",
+   "date": "2025-12-18T01:30:01.491000+00:00",
+   "author": "Horror Bittersweet",
+   "author_role": null,
+   "content": "В придачу, не подстраивается под кривоногих! Я негодую!",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1451023668950995098",
+     "filename": "image.png",
+     "content_type": "image/webp",
+     "download_status": "skipped_by_tag",
+     "local_path": null
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1451090032445231114",
+   "date": "2025-12-18T05:53:43.684000+00:00",
+   "author": "Yosif",
+   "author_role": null,
+   "content": "Проблема из-за того что стейтов под рассы не было я их нарисую скоро",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1451129145961484412",
+   "date": "2025-12-18T08:29:09.073000+00:00",
+   "author": "ᑕᗝᗩᒪᑕᑌᗷᗴᗪ",
+   "author_role": null,
+   "content": "А у нианов спрайт есть для скафа осща",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1451185137143517214",
+   "date": "2025-12-18T12:11:38.411000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "не совсем",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1451185148581384234",
+   "date": "2025-12-18T12:11:41.138000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "траблы в мете",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1451185231452442746",
+   "date": "2025-12-18T12:12:00.896000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "визы добавили on-/off- в спрайтах шлемов скафов",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1451185379242807450",
+   "date": "2025-12-18T12:12:36.132000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "щас вкину пр с фиксом шлемов без спрайтов, если сделаешь спрайты будет ахуенно",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1451789998062833705",
+   "date": "2025-12-20T04:15:08.492000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "пофикшено, но без спрайта шлема СЩ с включенным фонариком",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452041512178290828",
+   "date": "2025-12-20T20:54:34.130000+00:00",
+   "author": "Masya",
+   "author_role": null,
+   "content": "На шлеме сщ нету фонарика",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452041533938466837",
+   "date": "2025-12-20T20:54:39.318000+00:00",
+   "author": "Masya",
+   "author_role": null,
+   "content": "Смысл от фикса",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452041547330883615",
+   "date": "2025-12-20T20:54:42.511000+00:00",
+   "author": "Masya",
+   "author_role": null,
+   "content": "<:s_PoZiTiFfFcHiK:1358052086872281169>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452126651457601639",
+   "date": "2025-12-21T02:32:52.916000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "тоесть лучше когда шлем удаляет всё с твоей головы делая её полностью голой?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452126716221853706",
+   "date": "2025-12-21T02:33:08.357000+00:00",
+   "author": "xkttty",
+   "author_role": null,
+   "content": "чем шлем, но без спрайта включенного фонарика",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1452168939009347634",
+   "date": "2025-12-21T05:20:55.054000+00:00",
+   "author": "Masya",
+   "author_role": null,
+   "content": "Так ты всё равно лысый",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

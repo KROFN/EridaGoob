@@ -1,0 +1,133 @@
+{
+ "thread_id": "1514984863562727596",
+ "title": "как смотреть",
+ "author": {
+  "id": "700677016931926036",
+  "username": "merzkii_zhizh",
+  "global_name": "мерзкий жиж",
+  "server_nick": null,
+  "display": "мерзкий жиж"
+ },
+ "created_at": "2026-06-12T13:28:58.531Z",
+ "archived": true,
+ "tags": [
+  "Маппинг"
+ ],
+ "tag_ids": [
+  "1378687007080841246"
+ ],
+ "message_count": 9,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1514984863802065117_2026-06-12_16-27-27.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1514984863562727596",
+  "date": "2026-06-12T13:28:58.531000+00:00",
+  "author": "мерзкий жиж",
+  "author_role": null,
+  "content": "на трейне вообще нету камер эсбэ",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1514984863802065117",
+    "filename": "2026-06-12_16-27-27.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1514984863562727596/1514984863802065117_2026-06-12_16-27-27.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1514985316161945740",
+   "date": "2026-06-12T13:30:46.439000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "Понял",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1515024657135173633",
+   "date": "2026-06-12T16:07:06.058000+00:00",
+   "author": "мерзкий жиж",
+   "author_role": null,
+   "content": "и пока не забыл, на аспиде вообще нету камер снабжения",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "✅:1"
+   ]
+  },
+  {
+   "id": "1515175531258056834",
+   "date": "2026-06-13T02:06:37.252000+00:00",
+   "author": "mangust2211",
+   "author_role": null,
+   "content": "<@537634790216695828> интересный факт, камеры нужно привязывать к серверу",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1515272171046572215",
+   "date": "2026-06-13T08:30:37.973000+00:00",
+   "author": "Nekachek",
+   "author_role": null,
+   "content": "а..?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1515351223476158504",
+   "date": "2026-06-13T13:44:45.541000+00:00",
+   "author": "mangust2211",
+   "author_role": null,
+   "content": "Ну каждую камеру на пример камера сб нужно присоединить к серверу камер сб",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1515351294028808303",
+   "date": "2026-06-13T13:45:02.362000+00:00",
+   "author": "mangust2211",
+   "author_role": null,
+   "content": "Я займусь сервисом нио мед",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1515351327280988280",
+   "date": "2026-06-13T13:45:10.290000+00:00",
+   "author": "mangust2211",
+   "author_role": null,
+   "content": "Ты сб Инж и карго",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1515358522001457323",
+   "date": "2026-06-13T14:13:45.645000+00:00",
+   "author": "Nekachek",
+   "author_role": null,
+   "content": "ой йо",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

@@ -1,0 +1,89 @@
+{
+ "thread_id": "1496165118801871150",
+ "title": "Ошейники на шадоукинах",
+ "author": {
+  "id": "977695072910999582",
+  "username": "mokko1111",
+  "global_name": "Mokko",
+  "server_nick": null,
+  "display": "Mokko"
+ },
+ "created_at": "2026-04-21T15:06:01.726Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 5,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1496165118801871150",
+  "date": "2026-04-21T15:06:01.726000+00:00",
+  "author": "Mokko",
+  "author_role": null,
+  "content": "Дело в том, что тени не дышат, соответственно не лечат урон удушьями - следовательно ошейник убивает их совсем без дексалина.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": [
+   "cat_erp:1"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1496165495366357173",
+   "date": "2026-04-21T15:07:31.506000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "Предлагаю вообще убрать урон удушьями - потому что тени полностью анаэробны",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1496399038726148157",
+   "date": "2026-04-22T06:35:32.582000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "Если не забуду, то сделаю",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "✅:1"
+   ]
+  },
+  {
+   "id": "1497208065286602823",
+   "date": "2026-04-24T12:10:19.545000+00:00",
+   "author": "Mokko",
+   "author_role": null,
+   "content": "верим",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "❤️‍🔥:1"
+   ]
+  },
+  {
+   "id": "1497565787328741487",
+   "date": "2026-04-25T11:51:47.126000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "fixed",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "❤️‍🔥:1"
+   ]
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

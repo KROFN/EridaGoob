@@ -1,0 +1,57 @@
+{
+ "thread_id": "1394565743768768653",
+ "title": "Буэ",
+ "author": {
+  "id": "931119707615006762",
+  "username": "karelia._.",
+  "global_name": "KarelianSkull",
+  "server_nick": null,
+  "display": "KarelianSkull"
+ },
+ "created_at": "2025-07-15T06:26:23.093Z",
+ "archived": true,
+ "tags": [],
+ "tag_ids": [],
+ "message_count": 2,
+ "attachment_count": 1,
+ "attachments_on_disk": [
+  "1394565744049782898_image.png"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1394565743768768653",
+  "date": "2025-07-15T06:26:23.093000+00:00",
+  "author": "KarelianSkull",
+  "author_role": null,
+  "content": "Короче, почему-то, у всех черт внешности на грудь (унатхи и нианы) есть проблема, а именно оно не доходит до конца, и останавливается здесь(скриншот)",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1394565744049782898",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "downloaded",
+    "local_path": "attachments/1394565743768768653/1394565744049782898_image.png"
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1394578246737072180",
+   "date": "2025-07-15T07:16:04.033000+00:00",
+   "author": "NickCatXD1",
+   "author_role": null,
+   "content": "В игре, вне редактора, насколько знаю, таких проблем нет у голых персонажей",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

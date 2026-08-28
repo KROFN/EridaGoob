@@ -1,0 +1,68 @@
+{
+ "thread_id": "1494213250890469471",
+ "title": "Error с водой на  силли айланд.",
+ "author": {
+  "id": "1489495618698084352",
+  "username": "tantomoquiny",
+  "global_name": "Tanto",
+  "server_nick": null,
+  "display": "Tanto"
+ },
+ "created_at": "2026-04-16T05:50:00.152Z",
+ "archived": true,
+ "tags": [
+  "Исправлено",
+  "unknown_tag_1414266059208265799"
+ ],
+ "tag_ids": [
+  "1365427515455443028",
+  "1414266059208265799"
+ ],
+ "message_count": 2,
+ "attachment_count": 2,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1494213250890469471",
+  "date": "2026-04-16T05:50:00.152000+00:00",
+  "author": "Tanto",
+  "author_role": null,
+  "content": "Собственно сабж. \nПо всей видимости при апстирме  в коде полетели пути, может визды чего натворили а может кто из наших. Ну последний кто там трогал код это <@431760864631324674> \nТам сразу ряд проблем в связи с нерабочим параллаксом приливной волны.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1494213251565617162",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   },
+   {
+    "id": "1494213252002086942",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1496013952172298290",
+   "date": "2026-04-21T05:05:20.793000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "fixed",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

@@ -1,0 +1,81 @@
+{
+ "thread_id": "1365657681292955719",
+ "title": "Не отображается персонаж без одежды в разделе кастомизации",
+ "author": {
+  "id": "1128210957575917624",
+  "username": "giperactive01",
+  "global_name": "НЕ ЖОРА",
+  "server_nick": null,
+  "display": "НЕ ЖОРА"
+ },
+ "created_at": "2025-04-26T11:56:03.913Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 4,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1365657681292955719",
+  "date": "2025-04-26T11:56:03.913000+00:00",
+  "author": "НЕ ЖОРА",
+  "author_role": null,
+  "content": "Когда тыкаешь на кнопощку отображения одежды в лобби. Персонаж пропадает и не отображается",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1365657681565712384",
+    "filename": "image.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": [
+   "❌:1"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1365658607164592239",
+   "date": "2025-04-26T11:59:44.658000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "Да блять, вы чё нахуй, читайте хотябы правила публикации и смотрите старые баг репорты",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365658627666350132",
+   "date": "2025-04-26T11:59:49.546000+00:00",
+   "author": "abama",
+   "author_role": null,
+   "content": "<:s_DePrESiFfF4iK:1358052334080491522>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1365660203936383038",
+   "date": "2025-04-26T12:06:05.358000+00:00",
+   "author": "BP",
+   "author_role": null,
+   "content": "я был первым кто об этом написал, да-да, я тот самый <:umom:1362357048628609126>",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

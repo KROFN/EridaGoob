@@ -1,0 +1,53 @@
+{
+ "thread_id": "1364953552358867004",
+ "title": "Ещё баг с персонажем",
+ "author": {
+  "id": "705396325373706401",
+  "username": "bestopelemesiko",
+  "global_name": "BP",
+  "server_nick": null,
+  "display": "BP"
+ },
+ "created_at": "2025-04-24T13:18:06.493Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 2,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1364953552358867004",
+  "date": "2025-04-24T13:18:06.493000+00:00",
+  "author": "BP",
+  "author_role": null,
+  "content": "После импорта персонажа, становиться невозможно его менять, ибо сохранение не работает.",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": [
+   "👍🏻:1"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1364953840037662811",
+   "date": "2025-04-24T13:19:15.081000+00:00",
+   "author": "BP",
+   "author_role": null,
+   "content": "решается перезаходом",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

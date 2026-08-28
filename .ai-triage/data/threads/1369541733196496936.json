@@ -1,0 +1,104 @@
+{
+ "thread_id": "1369541733196496936",
+ "title": "Дальнозоркость цИИ или почему цИИ фиксирует датчики с сЦК",
+ "author": {
+  "id": "1084862533531353128",
+  "username": "tehnik_08",
+  "global_name": "TehniQ",
+  "server_nick": null,
+  "display": "TehniQ"
+ },
+ "created_at": "2025-05-07T05:09:54.049Z",
+ "archived": true,
+ "tags": [
+  "На рассмотрении"
+ ],
+ "tag_ids": [
+  "1377591362744094795"
+ ],
+ "message_count": 5,
+ "attachment_count": 2,
+ "attachments_on_disk": [
+  "1369541733683040316_IMG_20250506_225357.jpg",
+  "1388609335776510043_IMG_20250628_221228.jpg"
+ ],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1369541733196496936",
+  "date": "2025-05-07T05:09:54.049000+00:00",
+  "author": "TehniQ",
+  "author_role": null,
+  "content": "Думаю, всё понятно из названия. Встроенный мониторинг экипажа фиксирует датчики с сЦК вместо нашей родной НИС. Прилагаю фото с экрана, извиняюсь заранее за качество, дискорд исключительно на телефоне. Данная проблема была на двух сменах. На первой это решилось со временем, незнаю что конкретно я сделал, но мониторинг всё таки стал показывать экипаж НИС, а на второй всю смену на датчиках были лишь члены ЦК. Если кто то знает решение проблемы или проблема уже будет исправлена, просьба написать. Буду очень благодарен",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1369541733683040316",
+    "filename": "IMG_20250506_225357.jpg",
+    "content_type": "image/jpeg",
+    "download_status": "downloaded",
+    "local_path": "attachments/1369541733196496936/1369541733683040316_IMG_20250506_225357.jpg"
+   }
+  ],
+  "reactions": [
+   "👍:1"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1388609335738892370",
+   "date": "2025-06-28T19:57:44.754000+00:00",
+   "author": "TehniQ",
+   "author_role": null,
+   "content": "Пу пу пу.. Точно исправлено?",
+   "content_truncated": false,
+   "attachments": [
+    {
+     "id": "1388609335776510043",
+     "filename": "IMG_20250628_221228.jpg",
+     "content_type": "image/jpeg",
+     "download_status": "downloaded",
+     "local_path": "attachments/1369541733196496936/1388609335776510043_IMG_20250628_221228.jpg"
+    }
+   ],
+   "reactions": []
+  },
+  {
+   "id": "1388619508109021276",
+   "date": "2025-06-28T20:38:10.036000+00:00",
+   "author": "cybertrash",
+   "author_role": null,
+   "content": "Странности.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1388834360991551488",
+   "date": "2025-06-29T10:51:54.955000+00:00",
+   "author": "Дай сюда!",
+   "author_role": null,
+   "content": "такая хуйня и на мк была, ток вместо цк это на тайпане",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1389693359907541073",
+   "date": "2025-07-01T19:45:16.256000+00:00",
+   "author": "NickCatXD1",
+   "author_role": null,
+   "content": "Это я, это я!",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "⭐:2"
+   ]
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

@@ -1,0 +1,85 @@
+{
+ "thread_id": "1413573121369444403",
+ "title": "Верните ОСЩ трусы",
+ "author": {
+  "id": "1153087663805562900",
+  "username": "cherreshnia",
+  "global_name": "Cherreshny",
+  "server_nick": null,
+  "display": "Cherreshny"
+ },
+ "created_at": "2025-09-05T17:14:55.053Z",
+ "archived": true,
+ "tags": [
+  "В процессе"
+ ],
+ "tag_ids": [
+  "1365427658288005150"
+ ],
+ "message_count": 5,
+ "attachment_count": 0,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "NEEDS_TRIAGE",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1413573121369444403",
+  "date": "2025-09-05T17:14:55.053000+00:00",
+  "author": "Cherreshny",
+  "author_role": null,
+  "content": "У ОСЩ отсутствует личное нижнее белье, как на других ролях. Личного белья почему то не хватает ТОЛЬКО у ОСЩ",
+  "content_truncated": false,
+  "attachments": [],
+  "reactions": [
+   "⭐:2"
+  ]
+ },
+ "replies": [
+  {
+   "id": "1413573164465651763",
+   "date": "2025-09-05T17:15:05.328000+00:00",
+   "author": "DefinitelyNotMori",
+   "author_role": null,
+   "content": "терпим.",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413753602182479962",
+   "date": "2025-09-06T05:12:05.032000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Поищу, добавлю",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1419609776312291429",
+   "date": "2025-09-22T09:02:25.747000+00:00",
+   "author": "KARiX",
+   "author_role": null,
+   "content": "Намёк что осщу не нужно бельё впринципе",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1419612355154677801",
+   "date": "2025-09-22T09:12:40.591000+00:00",
+   "author": "Витаминка",
+   "author_role": null,
+   "content": "я бы голым ходил",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "👍:1"
+   ]
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

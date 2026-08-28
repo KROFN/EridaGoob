@@ -1,0 +1,99 @@
+{
+ "thread_id": "1499083790977470505",
+ "title": "ОБР резоми.",
+ "author": {
+  "id": "597713048312086528",
+  "username": "jickson900",
+  "global_name": "Звезда лисы",
+  "server_nick": null,
+  "display": "Звезда лисы"
+ },
+ "created_at": "2026-04-29T16:23:47.399Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 6,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1499083790977470505",
+  "date": "2026-04-29T16:23:47.399000+00:00",
+  "author": "Звезда лисы",
+  "author_role": null,
+  "content": "Спавним ОБР - с 50% шансом спавнится резоми. Добавьте резоми в блеклист ОБРа. . .",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1499083791120203948",
+    "filename": "image.png",
+    "content_type": "image/webp",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1499084117562753084",
+   "date": "2026-04-29T16:25:05.263000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "Пхпх",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1499084224777551934",
+   "date": "2026-04-29T16:25:30.825000+00:00",
+   "author": "𓆩ҟɍēɏđ𓆪",
+   "author_role": null,
+   "content": "Подложите книжку командиру под кресло. Он не достаёт до стола!",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1499085594632917202",
+   "date": "2026-04-29T16:30:57.424000+00:00",
+   "author": "Звезда лисы",
+   "author_role": null,
+   "content": "Да",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1499085630515314789",
+   "date": "2026-04-29T16:31:05.979000+00:00",
+   "author": "Звезда лисы",
+   "author_role": null,
+   "content": "Но это сломало мои ОПЗ",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1499117636099772568",
+   "date": "2026-04-29T18:38:16.705000+00:00",
+   "author": "Deleted User",
+   "author_role": null,
+   "content": "fixed",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}

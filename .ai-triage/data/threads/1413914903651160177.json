@@ -1,0 +1,191 @@
+{
+ "thread_id": "1413914903651160177",
+ "title": "Отсутствие возможности поставить черту \"хвост\" на расу \"человек\"",
+ "author": {
+  "id": "1206561908740587540",
+  "username": "kusogavu",
+  "global_name": "L'officier qui mord ღ",
+  "server_nick": null,
+  "display": "L'officier qui mord ღ"
+ },
+ "created_at": "2025-09-06T15:53:02.299Z",
+ "archived": true,
+ "tags": [
+  "Исправлено"
+ ],
+ "tag_ids": [
+  "1365427515455443028"
+ ],
+ "message_count": 15,
+ "attachment_count": 1,
+ "attachments_on_disk": [],
+ "external_media_files": [],
+ "classification": "SKIP_RESOLVED",
+ "tag_conflict": false,
+ "root_message": {
+  "id": "1413914903651160177",
+  "date": "2025-09-06T15:53:02.299000+00:00",
+  "author": "L'officier qui mord ღ",
+  "author_role": null,
+  "content": "После вчерашнего \"перехода\", в расе человек, всë так же, осталась черта хвоста, но счётчик стоит на нуле.",
+  "content_truncated": false,
+  "attachments": [
+   {
+    "id": "1413914904263655485",
+    "filename": "2025-09-06_183854_065013.png",
+    "content_type": "image/png",
+    "download_status": "skipped_by_tag",
+    "local_path": null
+   }
+  ],
+  "reactions": []
+ },
+ "replies": [
+  {
+   "id": "1413915128574771412",
+   "date": "2025-09-06T15:53:55.925000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "А раньше был?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413915165593829498",
+   "date": "2025-09-06T15:54:04.751000+00:00",
+   "author": "Medik",
+   "author_role": null,
+   "content": "100% да",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413915262268346468",
+   "date": "2025-09-06T15:54:27.800000+00:00",
+   "author": "L'officier qui mord ღ",
+   "author_role": null,
+   "content": "был",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413915441511796967",
+   "date": "2025-09-06T15:55:10.535000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Окей, добавлю",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": [
+    "🤍:1"
+   ]
+  },
+  {
+   "id": "1413915520373096508",
+   "date": "2025-09-06T15:55:29.337000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Предварительно тег поставил",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413915574915825845",
+   "date": "2025-09-06T15:55:42.341000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Заодно поставлю вайтлист на черты антропоморфов, а то че они",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413915590850252890",
+   "date": "2025-09-06T15:55:46.140000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Всем доступны",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413915614879154237",
+   "date": "2025-09-06T15:55:51.869000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "И рожки аркан тоже",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413915628338810931",
+   "date": "2025-09-06T15:55:55.078000+00:00",
+   "author": "Medik",
+   "author_role": null,
+   "content": "Уээ",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413915694558347334",
+   "date": "2025-09-06T15:56:10.866000+00:00",
+   "author": "L'officier qui mord ღ",
+   "author_role": null,
+   "content": "тяжело",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413915934220882043",
+   "date": "2025-09-06T15:57:08.006000+00:00",
+   "author": "Medik",
+   "author_role": null,
+   "content": "Вопрос, а есть вариант драконьи крылья добавить арканам?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413916005385896022",
+   "date": "2025-09-06T15:57:24.973000+00:00",
+   "author": "Medik",
+   "author_role": null,
+   "content": "Или лучше предложку настроить?",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413916320302497923",
+   "date": "2025-09-06T15:58:40.055000+00:00",
+   "author": "Vecortys",
+   "author_role": null,
+   "content": "Лучше предложку",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  },
+  {
+   "id": "1413917185533022419",
+   "date": "2025-09-06T16:02:06.342000+00:00",
+   "author": "D1night",
+   "author_role": null,
+   "content": "Кстати, это не только с хвостами. У людей ещë \"Эльф уши\" (Или как-то так) не отображаются, вроде та же самая проблема, что и здесь",
+   "content_truncated": false,
+   "attachments": [],
+   "reactions": []
+  }
+ ],
+ "mentions": [],
+ "verdict": null,
+ "cluster": null,
+ "dossier": null
+}
