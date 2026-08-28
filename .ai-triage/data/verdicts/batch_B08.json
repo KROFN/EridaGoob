@@ -1,0 +1,93 @@
+[
+  {
+    "thread_id": "1441067609826132048",
+    "verdict": "CONFIG_OR_CONTENT_ISSUE",
+    "confidence": "Medium",
+    "severity": "S3",
+    "complexity": "S",
+    "cluster_hint": null,
+    "root_cause_short": "Content/mapping request: no hardsuit content for SB pilot (and formerly BSO) on 'Federation Box'/'WonderDelta' maps — neither map nor a pilot role exists in repo; BSO half already covered by ClothingOuterHardsuitBlueshieldLight + blueshield_officer loadout.",
+    "evidence": [
+      "Resources/Prototypes/_Goobstation/Entities/Clothing/OuterClothing/hardsuits.yml:ClothingOuterHardsuitBlueshieldLight",
+      "Resources/Prototypes/_Goobstation/Loadouts/Jobs/Dignitary/blueshield_officer.yml",
+      "rg 'WonderDelta|FederationBox' Resources/Maps -> 0 hits"
+    ],
+    "dossier": ".ai-triage/bugs/1441067609826132048.md"
+  },
+  {
+    "thread_id": "1419081445091184815",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Medium",
+    "severity": "S4",
+    "complexity": "S",
+    "cluster_hint": null,
+    "root_cause_short": "HYPOTHESIS: mass sprite rework updated suit RSI (_Erida/OuterClothing/Hardsuits/engineering-white.rsi) but not the separate helmet prototype RSI (_Erida/Head/Hardsuits/engineering-white.rsi) of the CE hardsuit; git texture history squashed (single 2026-08-11 commit) and media unreadable -> current mismatch unprovable.",
+    "evidence": [
+      "Resources/Prototypes/Entities/Clothing/OuterClothing/hardsuits.yml:584 ClothingOuterHardsuitEngineeringWhite",
+      "Resources/Prototypes/Entities/Clothing/Head/hardsuit-helmets.yml:ClothingHeadHelmetHardsuitEngineeringWhite",
+      "git log Resources/Textures/_Erida/Clothing -> only 1f9241fca2 2026-08-11 'hello (#10)'"
+    ],
+    "dossier": ".ai-triage/bugs/1419081445091184815.md"
+  },
+  {
+    "thread_id": "1370366183689293944",
+    "verdict": "LIKELY_CURRENT_BUG",
+    "confidence": "Low",
+    "severity": "S4",
+    "complexity": "M",
+    "cluster_hint": null,
+    "root_cause_short": "HYPOTHESIS: with PNV active, NightVisionSystem sets _lightManager.DrawLighting=false and BaseSwitchableOverlay applies fullscreen 'NightVision' shader -> hardsuit (OSSt/Blueshield) outer-clothing sprite visually vanishes ('X-ray'); no intentional reveal logic exists; NV was overhauled post-report (#5103) so retest required.",
+    "evidence": [
+      "Content.Goobstation.Client/Overlays/NightVisionSystem.cs:UpdateNightVision (DrawLighting = !active)",
+      "Content.Goobstation.Client/Overlays/BaseSwitchableOverlay.cs:Draw (shader NightVision, SCREEN_TEXTURE)",
+      "Resources/Prototypes/_White/Shaders/shaders.yml:4 id NightVision -> /Textures/_White/Shaders/nightvision.swsl",
+      "git 05fa5544f0 2025-12-02 'Thermals and NV changes (#5103)'"
+    ],
+    "dossier": ".ai-triage/bugs/1370366183689293944.md"
+  },
+  {
+    "thread_id": "1398624534411612271",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Medium",
+    "severity": "S3",
+    "complexity": "M",
+    "cluster_hint": null,
+    "root_cause_short": "The 'honorary InteQ jacket' item does not exist in current fork content (only changelog mentions of InteQ remain); general part of complaint confirmed: armor examine (armor-examine.ftl) shows only damage-type coefficients, no covered-body-parts section at all.",
+    "evidence": [
+      "Resources/Locale/ru-RU/armor/armor-examine.ftl:armor-examine/armor-coefficient-value (no coverage section)",
+      "Resources/Changelog/EridaChangelog.yml:539 'Скафандры InteQ равны синдикату'",
+      "rg -i 'intek|InteQ|Интек|почетн|honorary' Resources/Prototypes -> no clothing prototype"
+    ],
+    "dossier": ".ai-triage/bugs/1398624534411612271.md"
+  },
+  {
+    "thread_id": "1414255102075863221",
+    "verdict": "CONFIG_OR_CONTENT_ISSUE",
+    "confidence": "High",
+    "severity": "S4",
+    "complexity": "XS",
+    "cluster_hint": null,
+    "root_cause_short": "Works as coded: blood-red hardsuit has StaminaResistance damageCoefficient 0.45 (55% stamina reduction, no immunity) — deliberate Goob balance; value already present at report date (git show 54ce591914~1) and today; community in-thread endorsed it.",
+    "evidence": [
+      "Resources/Prototypes/Entities/Clothing/OuterClothing/hardsuits.yml:ClothingOuterHardsuitSyndie StaminaResistance 0.45 # Goob edit",
+      "git show 54ce591914~1:.../hardsuits.yml -> same 0.45 block at report time",
+      "upstream 4058ef2b84 2025-04-14 #35580; b5ac85e77a 2025-06-24 #38526"
+    ],
+    "dossier": ".ai-triage/bugs/1414255102075863221.md"
+  },
+  {
+    "thread_id": "1485689007735312404",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Medium",
+    "severity": null,
+    "complexity": null,
+    "cluster_hint": null,
+    "root_cause_short": "Empty root message + single unrenderable image -> affected item unknown; context (title 'Кто стан защиту сьел?', tag 'Серьёзный', dev reply 'Будет ребаланс') points at armor stamina-protection nerf after bc31e110c8 2025-11-27 'Stun weapons and armor changes (#5166)'; probable kin of 1414255102075863221 but shared root cause UNCONFIRMED (no cluster created).",
+    "evidence": [
+      "threads/1485689007735312404.json root_message.content = '' + attachments/1485689007735312404/1485689007978315826_image.png (unreadable in triage env)",
+      "git show bc31e110c8 --stat: stunprod.yml, security.yml, wonderprod.yml, armor.yml (+12/-4), SharedStunSystem.cs, StaminaResistanceModifierStatusEffectComponent.cs",
+      "git 9fabc1abdf 2026-02-11 Revert upstream pt.1 (touched StaminaResistance)"
+    ],
+    "dossier": ".ai-triage/bugs/1485689007735312404.md"
+  }
+]

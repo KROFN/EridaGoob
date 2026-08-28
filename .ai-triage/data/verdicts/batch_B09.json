@@ -1,0 +1,98 @@
+[
+  {
+    "thread_id": "1364989871957217280",
+    "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+    "confidence": "Medium",
+    "severity": "S3",
+    "complexity": "S",
+    "cluster_hint": null,
+    "root_cause_short": "Старый набор РХБЗЗ (осн-билд) выдавал VP-78 с несовместимыми обоймами; в текущем дереве VP-78 отсутствует, CBURNGear реворкнут на pulse-оружие (WeaponPulsePistol/Carbine).",
+    "evidence": [
+      "Resources/Prototypes/Roles/Jobs/CentComm/cburn.yml:CBURNGear(24-48)",
+      "Resources/Prototypes/_Goobstation/Entities/Mobs/Player/humanoid.yml:CBURNAgentNoReq(545-565)",
+      "grep vp-?78 / ВП-78 по Resources = 0 совпадений",
+      "git log -S'VP78' по cburn.yml/duffelbag.yml = пусто"
+    ],
+    "dossier": ".ai-triage/bugs/1364989871957217280.md"
+  },
+  {
+    "thread_id": "1369105376288575589",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Medium",
+    "severity": "S3",
+    "complexity": "M",
+    "cluster_hint": "rebell-headshot-lethality",
+    "root_cause_short": "HYPOTHESIS: не спец-«дебаг ган», а общая ReBell-летальность ранений головы (TraumaSystem) + обычный пистолет; зомби-роли оружие не выдают, конкретный ствол не идентифицирован (скрин недоступен).",
+    "evidence": [
+      "Resources/Prototypes/GameRules/events.yml:ZombieOutbreak(698-735) — зомби без пистолета",
+      "Content.Shared/_Shitmed/Surgery/Traumas/Systems/TraumaSystem.Process.cs:274-286",
+      "grep HeadZombie/хэдзомб по Prototypes = 0",
+      "attachments/1369105376288575589/1369105376410206208_image.png (не рендерится в саб-агенте)"
+    ],
+    "dossier": ".ai-triage/bugs/1369105376288575589.md"
+  },
+  {
+    "thread_id": "1470887025711513893",
+    "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+    "confidence": "Medium",
+    "severity": "S4",
+    "complexity": "XS",
+    "cluster_hint": null,
+    "root_cause_short": "Хвостовая «;» в описании Честера (дробовик ОСЩ) и EG-4 присутствовала в старой локализации; текущие .desc заканчиваются точкой — строки переписаны импортом 4cf391efb1 (2026-08-09, после отчёта).",
+    "evidence": [
+      "Resources/Locale/ru-RU/ss14-ru/prototypes/_goobstation/entities/objects/weapons/guns/lever/lever.ftl:2 (ent-WeaponLeverChester.desc, без «;»)",
+      "Resources/Locale/ru-RU/ss14-ru/prototypes/_goobstation/entities/objects/weapons/guns/battery/battery_guns.ftl:14-15 (ent-WeaponEnergyRevolver)",
+      "Resources/Prototypes/_Goobstation/Catalog/selectable_sets.yml:BSOChesterSet(378-392)",
+      "git: 4cf391efb1 2026-08-09 lever.ftl +2"
+    ],
+    "dossier": ".ai-triage/bugs/1470887025711513893.md"
+  },
+  {
+    "thread_id": "1414150369054822491",
+    "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+    "confidence": "Medium",
+    "severity": "S4",
+    "complexity": "S",
+    "cluster_hint": "utap-sprite",
+    "root_cause_short": "HYPOTHESIS: визуальный дефект спрайта/inhand UTAP Mark 1; админ в треде: «уже пофиксили» (не выкачено из-за TTS); прототип/спрайты переписаны пост-репортными 6396fa7c70 и c53ccf66d6 (Gunsx64 big/tiny.rsi).",
+    "evidence": [
+      "Resources/Prototypes/_Backmen/Entities/Objects/Weapons/Guns/Rifles/rifles.yml:WeaponRifleUTAPM1(4-20)",
+      "Resources/Prototypes/_Backmen/Entities/Objects/Misc/entities_loadouts.yml:UTAPMk1Set(36-44)",
+      "git: 6396fa7c70 2026-08-20 (utap-mark1 sprites), c53ccf66d6 2026-08-23 (Bug fixes)",
+      "attachments/1414150369054822491/1414150369201618984_sleekshot.png (не рендерится в саб-агенте)"
+    ],
+    "dossier": ".ai-triage/bugs/1414150369054822491.md"
+  },
+  {
+    "thread_id": "1430774622957338646",
+    "verdict": "LIKELY_CURRENT_BUG",
+    "confidence": "Medium",
+    "severity": "S3",
+    "complexity": "M",
+    "cluster_hint": "projectile-spawn-offset",
+    "root_cause_short": "HYPOTHESIS: снаряд спавнится из координат оружия в руке — поперечный offset руки заметен только при стрельбе вверх/вниз (пуля стартует «правее»); разброс Эстока при wield 0-5° систематического ухода не объясняет.",
+    "evidence": [
+      "Resources/Prototypes/Entities/Objects/Weapons/Guns/Rifles/rifles.yml:WeaponRifleEstoc(257-299) — minAngle30/maxAngle45, GunWieldBonus -30/-40, burst 3",
+      "Content.Shared/Weapons/Ranged/Systems/SharedGunSystem.cs (узел спавна снаряда — целевая точка фикса)",
+      "Resources/Prototypes/Entities/Objects/Weapons/Guns/Shotguns/shotguns.yml:216 («inaccuracy on spreads is fixed» — известная семья проблем)",
+      "Resources/Prototypes/Catalog/uplink_catalog.yml:246 (WeaponRifleEstoc, goob unbundle)"
+    ],
+    "dossier": ".ai-triage/bugs/1430774622957338646.md"
+  },
+  {
+    "thread_id": "1380911822634225724",
+    "verdict": "CONFIG_OR_CONTENT_ISSUE",
+    "confidence": "High",
+    "severity": "S2",
+    "complexity": "S",
+    "cluster_hint": "rebell-headshot-lethality",
+    "root_cause_short": "CONFIRMED (dev Yosif в треде): шансовая органная травма ReBell — TraumaSystem.Process.cs:286 (severity>=15) роллит TraumasChances[OrganDamage] (:481), мозг уничтожается (WoundSystem.Destruction.cs:265); дробь Каммерера копит severity через шлем.",
+    "evidence": [
+      "Content.Shared/_Shitmed/Surgery/Traumas/Systems/TraumaSystem.Process.cs:286,481",
+      "Content.Shared/_Shitmed/Surgery/Traumas/Components/TraumaInflicterComponent.cs:27,52",
+      "Content.Shared/_Shitmed/Surgery/Wounds/Systems/WoundSystem.Destruction.cs:265",
+      "Resources/Prototypes/Entities/Objects/Weapons/Guns/Shotguns/shotguns.yml:WeaponShotgunKammerer(204-226)"
+    ],
+    "dossier": ".ai-triage/bugs/1380911822634225724.md"
+  }
+]

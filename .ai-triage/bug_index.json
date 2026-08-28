@@ -15,13 +15,13 @@
   "external_media_files": 5,
   "VERDICTS": {
    "USER_ERROR_OR_NOT_BUG": 7,
-   "ALREADY_FIXED_IN_CURRENT_FORK": 12,
-   "CANNOT_VERIFY": 6,
+   "ALREADY_FIXED_IN_CURRENT_FORK": 15,
+   "CANNOT_VERIFY": 10,
+   "LIKELY_CURRENT_BUG": 6,
    "CONFIRMED_CURRENT_BUG": 5,
-   "LIKELY_CURRENT_BUG": 4,
-   "CONFIG_OR_CONTENT_ISSUE": 8
+   "CONFIG_OR_CONTENT_ISSUE": 11
   },
-  "VERDICT_COVERAGE": 42
+  "VERDICT_COVERAGE": 54
  },
  "threads": [
   {
@@ -1290,9 +1290,19 @@
    "mentions": [
     "VP-78"
    ],
-   "verdict": null,
+   "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1364989871957217280.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "S",
+   "root_cause_short": "Старый набор РХБЗЗ (осн-билд) выдавал VP-78 с несовместимыми обоймами; в текущем дереве VP-78 отсутствует, CBURNGear реворкнут на pulse-оружие (WeaponPulsePistol/Carbine).",
+   "evidence": [
+    "Resources/Prototypes/Roles/Jobs/CentComm/cburn.yml:CBURNGear(24-48)",
+    "Resources/Prototypes/_Goobstation/Entities/Mobs/Player/humanoid.yml:CBURNAgentNoReq(545-565)",
+    "grep vp-?78 / ВП-78 по Resources = 0 совпадений",
+    "git log -S'VP78' по cburn.yml/duffelbag.yml = пусто"
+   ]
   },
   {
    "thread_id": "1364990412040699954",
@@ -7383,9 +7393,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CANNOT_VERIFY",
+   "cluster": "rebell-headshot-lethality",
+   "dossier": ".ai-triage/bugs/1369105376288575589.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "HYPOTHESIS: не спец-«дебаг ган», а общая ReBell-летальность ранений головы (TraumaSystem) + обычный пистолет; зомби-роли оружие не выдают, конкретный ствол не идентифицирован (скрин недоступен).",
+   "evidence": [
+    "Resources/Prototypes/GameRules/events.yml:ZombieOutbreak(698-735) — зомби без пистолета",
+    "Content.Shared/_Shitmed/Surgery/Traumas/Systems/TraumaSystem.Process.cs:274-286",
+    "grep HeadZombie/хэдзомб по Prototypes = 0",
+    "attachments/1369105376288575589/1369105376410206208_image.png (не рендерится в саб-агенте)"
+   ]
   },
   {
    "thread_id": "1369232663218487319",
@@ -9308,9 +9328,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "LIKELY_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1370366183689293944.md",
+   "confidence": "Low",
+   "severity": "S4",
+   "complexity": "M",
+   "root_cause_short": "HYPOTHESIS: with PNV active, NightVisionSystem sets _lightManager.DrawLighting=false and BaseSwitchableOverlay applies fullscreen 'NightVision' shader -> hardsuit (OSSt/Blueshield) outer-clothing sprite visually vanishes ('X-ray'); no intentional reveal logic exists; NV was overhauled post-report (#5103) so retest required.",
+   "evidence": [
+    "Content.Goobstation.Client/Overlays/NightVisionSystem.cs:UpdateNightVision (DrawLighting = !active)",
+    "Content.Goobstation.Client/Overlays/BaseSwitchableOverlay.cs:Draw (shader NightVision, SCREEN_TEXTURE)",
+    "Resources/Prototypes/_White/Shaders/shaders.yml:4 id NightVision -> /Textures/_White/Shaders/nightvision.swsl",
+    "git 05fa5544f0 2025-12-02 'Thermals and NV changes (#5103)'"
+   ]
   },
   {
    "thread_id": "1370396275329073172",
@@ -12630,9 +12660,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
+   "cluster": "rebell-headshot-lethality",
+   "dossier": ".ai-triage/bugs/1380911822634225724.md",
+   "confidence": "High",
+   "severity": "S2",
+   "complexity": "S",
+   "root_cause_short": "CONFIRMED (dev Yosif в треде): шансовая органная травма ReBell — TraumaSystem.Process.cs:286 (severity>=15) роллит TraumasChances[OrganDamage] (:481), мозг уничтожается (WoundSystem.Destruction.cs:265); дробь Каммерера копит severity через шлем.",
+   "evidence": [
+    "Content.Shared/_Shitmed/Surgery/Traumas/Systems/TraumaSystem.Process.cs:286,481",
+    "Content.Shared/_Shitmed/Surgery/Traumas/Components/TraumaInflicterComponent.cs:27,52",
+    "Content.Shared/_Shitmed/Surgery/Wounds/Systems/WoundSystem.Destruction.cs:265",
+    "Resources/Prototypes/Entities/Objects/Weapons/Guns/Shotguns/shotguns.yml:WeaponShotgunKammerer(204-226)"
+   ]
   },
   {
    "thread_id": "1380933710341214298",
@@ -15850,9 +15890,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1398624534411612271.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "The 'honorary InteQ jacket' item does not exist in current fork content (only changelog mentions of InteQ remain); general part of complaint confirmed: armor examine (armor-examine.ftl) shows only damage-type coefficients, no covered-body-parts section at all.",
+   "evidence": [
+    "Resources/Locale/ru-RU/armor/armor-examine.ftl:armor-examine/armor-coefficient-value (no coverage section)",
+    "Resources/Changelog/EridaChangelog.yml:539 'Скафандры InteQ равны синдикату'",
+    "rg -i 'intek|InteQ|Интек|почетн|honorary' Resources/Prototypes -> no clothing prototype"
+   ]
   },
   {
    "thread_id": "1400493654493233195",
@@ -18784,9 +18833,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+   "cluster": "utap-sprite",
+   "dossier": ".ai-triage/bugs/1414150369054822491.md",
+   "confidence": "Medium",
+   "severity": "S4",
+   "complexity": "S",
+   "root_cause_short": "HYPOTHESIS: визуальный дефект спрайта/inhand UTAP Mark 1; админ в треде: «уже пофиксили» (не выкачено из-за TTS); прототип/спрайты переписаны пост-репортными 6396fa7c70 и c53ccf66d6 (Gunsx64 big/tiny.rsi).",
+   "evidence": [
+    "Resources/Prototypes/_Backmen/Entities/Objects/Weapons/Guns/Rifles/rifles.yml:WeaponRifleUTAPM1(4-20)",
+    "Resources/Prototypes/_Backmen/Entities/Objects/Misc/entities_loadouts.yml:UTAPMk1Set(36-44)",
+    "git: 6396fa7c70 2026-08-20 (utap-mark1 sprites), c53ccf66d6 2026-08-23 (Bug fixes)",
+    "attachments/1414150369054822491/1414150369201618984_sleekshot.png (не рендерится в саб-агенте)"
+   ]
   },
   {
    "thread_id": "1414255102075863221",
@@ -18861,9 +18920,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1414255102075863221.md",
+   "confidence": "High",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "Works as coded: blood-red hardsuit has StaminaResistance damageCoefficient 0.45 (55% stamina reduction, no immunity) — deliberate Goob balance; value already present at report date (git show 54ce591914~1) and today; community in-thread endorsed it.",
+   "evidence": [
+    "Resources/Prototypes/Entities/Clothing/OuterClothing/hardsuits.yml:ClothingOuterHardsuitSyndie StaminaResistance 0.45 # Goob edit",
+    "git show 54ce591914~1:.../hardsuits.yml -> same 0.45 block at report time",
+    "upstream 4058ef2b84 2025-04-14 #35580; b5ac85e77a 2025-06-24 #38526"
+   ]
   },
   {
    "thread_id": "1414388215669981324",
@@ -20470,9 +20538,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1419081445091184815.md",
+   "confidence": "Medium",
+   "severity": "S4",
+   "complexity": "S",
+   "root_cause_short": "HYPOTHESIS: mass sprite rework updated suit RSI (_Erida/OuterClothing/Hardsuits/engineering-white.rsi) but not the separate helmet prototype RSI (_Erida/Head/Hardsuits/engineering-white.rsi) of the CE hardsuit; git texture history squashed (single 2026-08-11 commit) and media unreadable -> current mismatch unprovable.",
+   "evidence": [
+    "Resources/Prototypes/Entities/Clothing/OuterClothing/hardsuits.yml:584 ClothingOuterHardsuitEngineeringWhite",
+    "Resources/Prototypes/Entities/Clothing/Head/hardsuit-helmets.yml:ClothingHeadHelmetHardsuitEngineeringWhite",
+    "git log Resources/Textures/_Erida/Clothing -> only 1f9241fca2 2026-08-11 'hello (#10)'"
+   ]
   },
   {
    "thread_id": "1419456892413022248",
@@ -23385,9 +23462,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "LIKELY_CURRENT_BUG",
+   "cluster": "projectile-spawn-offset",
+   "dossier": ".ai-triage/bugs/1430774622957338646.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "HYPOTHESIS: снаряд спавнится из координат оружия в руке — поперечный offset руки заметен только при стрельбе вверх/вниз (пуля стартует «правее»); разброс Эстока при wield 0-5° систематического ухода не объясняет.",
+   "evidence": [
+    "Resources/Prototypes/Entities/Objects/Weapons/Guns/Rifles/rifles.yml:WeaponRifleEstoc(257-299) — minAngle30/maxAngle45, GunWieldBonus -30/-40, burst 3",
+    "Content.Shared/Weapons/Ranged/Systems/SharedGunSystem.cs (узел спавна снаряда — целевая точка фикса)",
+    "Resources/Prototypes/Entities/Objects/Weapons/Guns/Shotguns/shotguns.yml:216 («inaccuracy on spreads is fixed» — известная семья проблем)",
+    "Resources/Prototypes/Catalog/uplink_catalog.yml:246 (WeaponRifleEstoc, goob unbundle)"
+   ]
   },
   {
    "thread_id": "1430948703157354547",
@@ -25638,9 +25725,18 @@
     "Station",
     "WonderDelta"
    ],
-   "verdict": null,
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1441067609826132048.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "S",
+   "root_cause_short": "Content/mapping request: no hardsuit content for SB pilot (and formerly BSO) on 'Federation Box'/'WonderDelta' maps — neither map nor a pilot role exists in repo; BSO half already covered by ClothingOuterHardsuitBlueshieldLight + blueshield_officer loadout.",
+   "evidence": [
+    "Resources/Prototypes/_Goobstation/Entities/Clothing/OuterClothing/hardsuits.yml:ClothingOuterHardsuitBlueshieldLight",
+    "Resources/Prototypes/_Goobstation/Loadouts/Jobs/Dignitary/blueshield_officer.yml",
+    "rg 'WonderDelta|FederationBox' Resources/Maps -> 0 hits"
+   ]
   },
   {
    "thread_id": "1442267565786136677",
@@ -34827,9 +34923,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1470887025711513893.md",
+   "confidence": "Medium",
+   "severity": "S4",
+   "complexity": "XS",
+   "root_cause_short": "Хвостовая «;» в описании Честера (дробовик ОСЩ) и EG-4 присутствовала в старой локализации; текущие .desc заканчиваются точкой — строки переписаны импортом 4cf391efb1 (2026-08-09, после отчёта).",
+   "evidence": [
+    "Resources/Locale/ru-RU/ss14-ru/prototypes/_goobstation/entities/objects/weapons/guns/lever/lever.ftl:2 (ent-WeaponLeverChester.desc, без «;»)",
+    "Resources/Locale/ru-RU/ss14-ru/prototypes/_goobstation/entities/objects/weapons/guns/battery/battery_guns.ftl:14-15 (ent-WeaponEnergyRevolver)",
+    "Resources/Prototypes/_Goobstation/Catalog/selectable_sets.yml:BSOChesterSet(378-392)",
+    "git: 4cf391efb1 2026-08-09 lever.ftl +2"
+   ]
   },
   {
    "thread_id": "1471558297029972069",
@@ -39405,9 +39511,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1485689007735312404.md",
+   "confidence": "Medium",
+   "severity": null,
+   "complexity": null,
+   "root_cause_short": "Empty root message + single unrenderable image -> affected item unknown; context (title 'Кто стан защиту сьел?', tag 'Серьёзный', dev reply 'Будет ребаланс') points at armor stamina-protection nerf after bc31e110c8 2025-11-27 'Stun weapons and armor changes (#5166)'; probable kin of 1414255102075863221 but shared root cause UNCONFIRMED (no cluster created).",
+   "evidence": [
+    "threads/1485689007735312404.json root_message.content = '' + attachments/1485689007735312404/1485689007978315826_image.png (unreadable in triage env)",
+    "git show bc31e110c8 --stat: stunprod.yml, security.yml, wonderprod.yml, armor.yml (+12/-4), SharedStunSystem.cs, StaminaResistanceModifierStatusEffectComponent.cs",
+    "git 9fabc1abdf 2026-02-11 Revert upstream pt.1 (touched StaminaResistance)"
+   ]
   },
   {
    "thread_id": "1486095341307691119",
