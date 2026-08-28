@@ -1312,3 +1312,12 @@ Entries:
   url: https://github.com/dead-space-server/EridaGoob/pull/35
   avatar_url: https://avatars.githubusercontent.com/u/289052288?v=4
   title: '[Tweak] Qm slot machine'
+- author: Lytheriia
+  changes:
+    - type: Add
+      message: Апстрим
+  id: 110
+  time: '2026-08-28T14:02:57.0000000+00:00'
+  url: https://github.com/dead-space-server/EridaGoob/pull/36
+  avatar_url: https://avatars.githubusercontent.com/u/289052288?v=4
+  title: Upstream
