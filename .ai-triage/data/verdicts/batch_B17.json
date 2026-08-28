@@ -1,0 +1,91 @@
+[
+ {
+  "thread_id": "1369302532916252772",
+  "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+  "confidence": "High",
+  "severity": "S3",
+  "complexity": "XS",
+  "cluster_hint": null,
+  "root_cause_short": "SignalSwitchSystem.OnActivated не проверял LockComponent.Locked: сигнал уходил без ID/доступа, дверца не открывалась; фикс c360583d4c (PR #38474) в форке через 68b7977bee",
+  "evidence": [
+   "Content.Server/DeviceLinking/Systems/SignalSwitchSystem.cs:40",
+   "Resources/Prototypes/Entities/Structures/Wallmounts/Switches/switch.yml:204-221",
+   "Content.Shared/Lock/LockSystem.cs:75-91"
+  ],
+  "dossier": ".ai-triage/bugs/1369302532916252772.md"
+ },
+ {
+  "thread_id": "1387820219191394314",
+  "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+  "confidence": "High",
+  "severity": "S3",
+  "complexity": "M",
+  "cluster_hint": "id-console-access-write",
+  "root_cause_short": "Все-или-ничего subset-чек TryWriteToTargetId (5cb1d70a3b/#14699) исключает потерю доступов цели; ограничение «только доступы privileged-ID» — апстримный дизайн",
+  "evidence": [
+   "Content.Server/Access/Systems/IdCardConsoleSystem.cs:172-185",
+   "Content.Client/Access/UI/AccessLevelControl.xaml.cs:48-57",
+   "Content.Client/Access/UI/IdCardConsoleWindow.xaml.cs:236-248"
+  ],
+  "dossier": ".ai-triage/bugs/1387820219191394314.md"
+ },
+ {
+  "thread_id": "1390810959177711626",
+  "verdict": "CONFIG_OR_CONTENT_ISSUE",
+  "confidence": "Medium",
+  "severity": "S4",
+  "complexity": "S",
+  "cluster_hint": null,
+  "root_cause_short": "Регрессии нет: job Lawyer содержит Brig+Maintenance+Service+Lawyer (lawyer.yml:15-19) и гарнитуру СБ; Brig выдан ещё в 2022 (#6487), удалений не найдено; часть треда — контент-реквесты",
+  "evidence": [
+   "Resources/Prototypes/Roles/Jobs/Civilian/lawyer.yml:15-19",
+   "Resources/Prototypes/Access/security.yml:16-18",
+   "git 401b48d850"
+  ],
+  "dossier": ".ai-triage/bugs/1390810959177711626.md"
+ },
+ {
+  "thread_id": "1449776134593056998",
+  "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+  "confidence": "Medium",
+  "severity": "S3",
+  "complexity": "S",
+  "cluster_hint": "id-console-access-write",
+  "root_cause_short": "AccessLevels консоли не содержал Genpop* — all-or-nothing отказ записи; добавлены коммитом f3a1cf8fc2 (#41739), гипотеза автора («нет ГЕНПОП») совпадает с фикс-коммитом",
+  "evidence": [
+   "Content.Shared/Access/Components/IdCardConsoleComponent.cs:45-81",
+   "Content.Server/Access/Systems/IdCardConsoleSystem.cs:166-189",
+   "git f3a1cf8fc2, 9f08ebb39c"
+  ],
+  "dossier": ".ai-triage/bugs/1449776134593056998.md"
+ },
+ {
+  "thread_id": "1425261607369310339",
+  "verdict": "CONFIG_OR_CONTENT_ISSUE",
+  "confidence": "High",
+  "severity": "S4",
+  "complexity": "S",
+  "cluster_hint": null,
+  "root_cause_short": "EmagProvider ниндзя-перчаток имеет whitelist components:[Airlock] (gloves.yml:264-267) — шкафы не взламываются по дизайну; обработчиков GotEmaggedEvent для EntityStorage нет",
+  "evidence": [
+   "Resources/Prototypes/Entities/Clothing/Hands/gloves.yml:264-267",
+   "Content.Shared/Ninja/Systems/EmagProviderSystem.cs:37-66",
+   "Content.Shared/Lock/LockSystem.cs:384-402"
+  ],
+  "dossier": ".ai-triage/bugs/1425261607369310339.md"
+ },
+ {
+  "thread_id": "1455594512444555439",
+  "verdict": "CONFIG_OR_CONTENT_ISSUE",
+  "confidence": "Medium",
+  "severity": "S4",
+  "complexity": "S",
+  "cluster_hint": null,
+  "root_cause_short": "Пассажир — роль без служебных доступов; шлюзы к турельным отсекам закрыты по конфигурации карты (AccessReader) — тред сам приходит к выводу «запрос администрации»",
+  "evidence": [
+   "Resources/Prototypes/Entities/Structures/Doors/turnstile.yml (паттерн access-конфига)",
+   "thread 1455594512444555439 replies (админ-решение)"
+  ],
+  "dossier": ".ai-triage/bugs/1455594512444555439.md"
+ }
+]

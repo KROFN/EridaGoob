@@ -1,0 +1,94 @@
+[
+  {
+    "thread_id": "1366269075013111899",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Medium",
+    "severity": "S2",
+    "complexity": "M",
+    "cluster_hint": "shadowkin-free-teleport",
+    "root_cause_short": "Shadowkin teleport (EE Shadeskip) executes free and silent while carrying/dragging; ability system absent from current fork (data-only port), cost-path hypothesis unprovable here",
+    "evidence": [
+      "Resources/Prototypes/_EinsteinEngines/Entities/Mobs/Species/shadowkin.yml:MobShadowkinBase (no ability components/actions)",
+      "Resources/Prototypes/_EinsteinEngines/Entities/Effects/shadow.yml:EffectFlashShadowkinShadeskip (data-only remnant)",
+      "fa46b517e0 [Port][Bounty] Shadowkins from EE (#2675) — data-only port stat"
+    ],
+    "dossier": ".ai-triage/bugs/1366269075013111899.md"
+  },
+  {
+    "thread_id": "1375435479725375538",
+    "verdict": "DUPLICATE",
+    "confidence": "High",
+    "severity": "S2",
+    "complexity": "S",
+    "cluster_hint": "shadowkin-free-teleport",
+    "root_cause_short": "Duplicate of 1366269075013111899: free/silent shadowkin teleport (video repro); linked by xkttty who authored the primary report",
+    "evidence": [
+      "threads/1375435479725375538.json:replies (xkttty: 'уже кидал насчёт этого баг репорт')",
+      ".ai-triage/bugs/1366269075013111899.md (primary)",
+      ".ai-triage/clusters/shadowkin-free-teleport.md"
+    ],
+    "dossier": ".ai-triage/bugs/1375435479725375538.md"
+  },
+  {
+    "thread_id": "1376295371873189918",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Medium",
+    "severity": "S2",
+    "complexity": "M",
+    "cluster_hint": null,
+    "root_cause_short": "Bound (restrained) shadowkin cannot use any ability incl. invisibility-exit/wake-up; shadowkin ability suite absent from current fork, blocking rules unlocatable; intended-vs-bug disputed in thread",
+    "evidence": [
+      "Resources/Prototypes/_EinsteinEngines/Entities/Mobs/Species/shadowkin.yml:MobShadowkinBase (no ability system)",
+      "rg -i shadowkin Content.*/*.cs → only LanguagePrototype.cs (no ability C#)",
+      "threads/1376295371873189918.json (admin cybertrash: 'Скорее всего баг основного билда')"
+    ],
+    "dossier": ".ai-triage/bugs/1376295371873189918.md"
+  },
+  {
+    "thread_id": "1373596253383954522",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Medium",
+    "severity": "S1",
+    "complexity": "M",
+    "cluster_hint": "vampire-polymorph-revert",
+    "root_cause_short": "Vampire transform spawned Remilia/mouse 'familiars' without CD or body replacement; killing/eating forms triggered PolymorphSystem revert chain on shared parent (teleport-into-crit / annihilation); vampire content absent from fork",
+    "evidence": [
+      "Content.Server/Polymorph/Systems/PolymorphSystem.cs:PolymorphEntity L214+ (spawn child + PolymorphedEntityComponent.Parent)",
+      "Content.Server/Polymorph/Systems/PolymorphSystem.cs:Update L95-119 / OnDestruction L176 / OnBeforeFullySliced L163 (revert on death/crit/eat)",
+      "Resources/Prototypes/Entities/Mobs/Player/familiars.yml:MobBatRemilia (Remilia exists only as chaplain familiar)",
+      "rg -i vampire Resources/Prototypes → cosmetic-only (no vampire role in fork)"
+    ],
+    "dossier": ".ai-triage/bugs/1373596253383954522.md"
+  },
+  {
+    "thread_id": "1379189259877093508",
+    "verdict": "DUPLICATE",
+    "confidence": "High",
+    "severity": "S1",
+    "complexity": "M",
+    "cluster_hint": "vampire-polymorph-revert",
+    "root_cause_short": "Duplicate of 1373596253383954522: failed mouse transform spawned white mouse; eating it triggered RevertOnEat/revert chain with no valid original body → permanent character annihilation",
+    "evidence": [
+      "Content.Server/Polymorph/Systems/PolymorphSystem.cs:OnBeforeFullySliced L163-170 (RevertOnEat on slicing)",
+      "Content.Server/Polymorph/Systems/PolymorphSystem.cs:OnPolymorphedTerminating L184+ (revert on delete)",
+      ".ai-triage/bugs/1373596253383954522.md (primary)",
+      ".ai-triage/clusters/vampire-polymorph-revert.md"
+    ],
+    "dossier": ".ai-triage/bugs/1379189259877093508.md"
+  },
+  {
+    "thread_id": "1391687746484965376",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Medium",
+    "severity": "S2",
+    "complexity": "M",
+    "cluster_hint": null,
+    "root_cause_short": "Vampire role broken (burns from spawn even in darkness, no animal blood feeding, seizure falls); vampire role/code entirely absent from current fork and its git history, symptoms untraceable",
+    "evidence": [
+      "rg -i vampire Resources/Prototypes + Content.*/**/*.cs → cosmetic-only hits; only C# is _Lavaland GunUpgradeVampirismComponent",
+      "git log --diff-filter=D pathspec '*ampire*' → no vampire files ever existed in tree",
+      "threads/1391687746484965376.json (no repro details, no media, no admin response)"
+    ],
+    "dossier": ".ai-triage/bugs/1391687746484965376.md"
+  }
+]

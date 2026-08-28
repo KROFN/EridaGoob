@@ -15,13 +15,14 @@
   "external_media_files": 5,
   "VERDICTS": {
    "USER_ERROR_OR_NOT_BUG": 8,
-   "ALREADY_FIXED_IN_CURRENT_FORK": 18,
-   "CANNOT_VERIFY": 17,
-   "LIKELY_CURRENT_BUG": 10,
-   "CONFIG_OR_CONTENT_ISSUE": 17,
-   "CONFIRMED_CURRENT_BUG": 8
+   "ALREADY_FIXED_IN_CURRENT_FORK": 21,
+   "CANNOT_VERIFY": 22,
+   "LIKELY_CURRENT_BUG": 13,
+   "CONFIG_OR_CONTENT_ISSUE": 22,
+   "CONFIRMED_CURRENT_BUG": 8,
+   "DUPLICATE": 2
   },
-  "VERDICT_COVERAGE": 78
+  "VERDICT_COVERAGE": 96
  },
  "threads": [
   {
@@ -4583,9 +4584,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CANNOT_VERIFY",
+   "cluster": "shadowkin-free-teleport",
+   "dossier": ".ai-triage/bugs/1366269075013111899.md",
+   "confidence": "Medium",
+   "severity": "S2",
+   "complexity": "M",
+   "root_cause_short": "Shadowkin teleport (EE Shadeskip) executes free and silent while carrying/dragging; ability system absent from current fork (data-only port), cost-path hypothesis unprovable here",
+   "evidence": [
+    "Resources/Prototypes/_EinsteinEngines/Entities/Mobs/Species/shadowkin.yml:MobShadowkinBase (no ability components/actions)",
+    "Resources/Prototypes/_EinsteinEngines/Entities/Effects/shadow.yml:EffectFlashShadowkinShadeskip (data-only remnant)",
+    "fa46b517e0 [Port][Bounty] Shadowkins from EE (#2675) — data-only port stat"
+   ]
   },
   {
    "thread_id": "1366482327479259278",
@@ -5761,9 +5771,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1367843022061965395.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "S",
+   "root_cause_short": "Аллокатор целей выдаёт kill/keep-alive каждому агенту независимо из пула предателей (PickRandomTraitor/PickRandomPerson без кросс-агентного резолва); пересечение kill+protect задокументировано как намеренное («kino») в Goob.",
+   "evidence": [
+    "Resources/Prototypes/_Goobstation/Objectives/corporageagent.yml:134-154 (RandomCorporateAliveObjective), 372-385 (CorporatePermaKillRandomTraitorObjective), 403-407 (комментарий о намеренности)",
+    "Content.Server/_Shitcode/Objectives/Components/PickRandomTraitorComponent.cs (целевой пул — предатели by design)",
+    "Content.Server/Objectives/Systems/PickObjectiveTargetSystem.cs:OnRandomPersonAssigned (PickFromPool — нет межагентной проверки)"
+   ]
   },
   {
    "thread_id": "1368366125208965151",
@@ -7757,9 +7776,18 @@
     "Lockable",
     "button"
    ],
-   "verdict": null,
+   "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1369302532916252772.md",
+   "confidence": "High",
+   "severity": "S3",
+   "complexity": "XS",
+   "root_cause_short": "SignalSwitchSystem.OnActivated не проверял LockComponent.Locked: сигнал уходил без ID/доступа, дверца не открывалась; фикс c360583d4c (PR #38474) в форке через 68b7977bee",
+   "evidence": [
+    "Content.Server/DeviceLinking/Systems/SignalSwitchSystem.cs:40",
+    "Resources/Prototypes/Entities/Structures/Wallmounts/Switches/switch.yml:204-221",
+    "Content.Shared/Lock/LockSystem.cs:75-91"
+   ]
   },
   {
    "thread_id": "1369412757979533465",
@@ -11146,9 +11174,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "CANNOT_VERIFY",
+   "cluster": "vampire-polymorph-revert",
+   "dossier": ".ai-triage/bugs/1373596253383954522.md",
+   "confidence": "Medium",
+   "severity": "S1",
+   "complexity": "M",
+   "root_cause_short": "Vampire transform spawned Remilia/mouse 'familiars' without CD or body replacement; killing/eating forms triggered PolymorphSystem revert chain on shared parent (teleport-into-crit / annihilation); vampire content absent from fork",
+   "evidence": [
+    "Content.Server/Polymorph/Systems/PolymorphSystem.cs:PolymorphEntity L214+ (spawn child + PolymorphedEntityComponent.Parent)",
+    "Content.Server/Polymorph/Systems/PolymorphSystem.cs:Update L95-119 / OnDestruction L176 / OnBeforeFullySliced L163 (revert on death/crit/eat)",
+    "Resources/Prototypes/Entities/Mobs/Player/familiars.yml:MobBatRemilia (Remilia exists only as chaplain familiar)",
+    "rg -i vampire Resources/Prototypes → cosmetic-only (no vampire role in fork)"
+   ]
   },
   {
    "thread_id": "1373890478050644028",
@@ -11721,9 +11759,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "DUPLICATE",
+   "cluster": "shadowkin-free-teleport",
+   "dossier": ".ai-triage/bugs/1375435479725375538.md",
+   "confidence": "High",
+   "severity": "S2",
+   "complexity": "S",
+   "root_cause_short": "Duplicate of 1366269075013111899: free/silent shadowkin teleport (video repro); linked by xkttty who authored the primary report",
+   "evidence": [
+    "threads/1375435479725375538.json:replies (xkttty: 'уже кидал насчёт этого баг репорт')",
+    ".ai-triage/bugs/1366269075013111899.md (primary)",
+    ".ai-triage/clusters/shadowkin-free-teleport.md"
+   ]
   },
   {
    "thread_id": "1376295371873189918",
@@ -11862,9 +11909,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1376295371873189918.md",
+   "confidence": "Medium",
+   "severity": "S2",
+   "complexity": "M",
+   "root_cause_short": "Bound (restrained) shadowkin cannot use any ability incl. invisibility-exit/wake-up; shadowkin ability suite absent from current fork, blocking rules unlocatable; intended-vs-bug disputed in thread",
+   "evidence": [
+    "Resources/Prototypes/_EinsteinEngines/Entities/Mobs/Species/shadowkin.yml:MobShadowkinBase (no ability system)",
+    "rg -i shadowkin Content.*/*.cs → only LanguagePrototype.cs (no ability C#)",
+    "threads/1376295371873189918.json (admin cybertrash: 'Скорее всего баг основного билда')"
+   ]
   },
   {
    "thread_id": "1379120791253418124",
@@ -12076,9 +12132,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "DUPLICATE",
+   "cluster": "vampire-polymorph-revert",
+   "dossier": ".ai-triage/bugs/1379189259877093508.md",
+   "confidence": "High",
+   "severity": "S1",
+   "complexity": "M",
+   "root_cause_short": "Duplicate of 1373596253383954522: failed mouse transform spawned white mouse; eating it triggered RevertOnEat/revert chain with no valid original body → permanent character annihilation",
+   "evidence": [
+    "Content.Server/Polymorph/Systems/PolymorphSystem.cs:OnBeforeFullySliced L163-170 (RevertOnEat on slicing)",
+    "Content.Server/Polymorph/Systems/PolymorphSystem.cs:OnPolymorphedTerminating L184+ (revert on delete)",
+    ".ai-triage/bugs/1373596253383954522.md (primary)",
+    ".ai-triage/clusters/vampire-polymorph-revert.md"
+   ]
   },
   {
    "thread_id": "1379763108184330361",
@@ -14506,9 +14572,18 @@
    },
    "replies": [],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+   "cluster": "id-console-access-write",
+   "dossier": ".ai-triage/bugs/1387820219191394314.md",
+   "confidence": "High",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "Все-или-ничего subset-чек TryWriteToTargetId (5cb1d70a3b/#14699) исключает потерю доступов цели; ограничение «только доступы privileged-ID» — апстримный дизайн",
+   "evidence": [
+    "Content.Server/Access/Systems/IdCardConsoleSystem.cs:172-185",
+    "Content.Client/Access/UI/AccessLevelControl.xaml.cs:48-57",
+    "Content.Client/Access/UI/IdCardConsoleWindow.xaml.cs:236-248"
+   ]
   },
   {
    "thread_id": "1388553983613730969",
@@ -14997,9 +15072,18 @@
    },
    "replies": [],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1390810959177711626.md",
+   "confidence": "Medium",
+   "severity": "S4",
+   "complexity": "S",
+   "root_cause_short": "Регрессии нет: job Lawyer содержит Brig+Maintenance+Service+Lawyer (lawyer.yml:15-19) и гарнитуру СБ; Brig выдан ещё в 2022 (#6487), удалений не найдено; часть треда — контент-реквесты",
+   "evidence": [
+    "Resources/Prototypes/Roles/Jobs/Civilian/lawyer.yml:15-19",
+    "Resources/Prototypes/Access/security.yml:16-18",
+    "git 401b48d850"
+   ]
   },
   {
    "thread_id": "1391191286165540995",
@@ -15127,9 +15211,18 @@
    "mentions": [
     "Felikc"
    ],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1391687746484965376.md",
+   "confidence": "Medium",
+   "severity": "S2",
+   "complexity": "M",
+   "root_cause_short": "Vampire role broken (burns from spawn even in darkness, no animal blood feeding, seizure falls); vampire role/code entirely absent from current fork and its git history, symptoms untraceable",
+   "evidence": [
+    "rg -i vampire Resources/Prototypes + Content.*/**/*.cs → cosmetic-only hits; only C# is _Lavaland GunUpgradeVampirismComponent",
+    "git log --diff-filter=D pathspec '*ampire*' → no vampire files ever existed in tree",
+    "threads/1391687746484965376.json (no repro details, no media, no admin response)"
+   ]
   },
   {
    "thread_id": "1391702186244706354",
@@ -21215,9 +21308,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "LIKELY_CURRENT_BUG",
+   "cluster": "actionbar-reset-mind-transfer",
+   "dossier": ".ai-triage/bugs/1420383751082344479.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "Панель действий мага рассыпается после астрала: действия хранятся/перевыдаются на разум (SpellsGrantSystem.OnMindAdded) и клиент перепривязывает кнопки при mind transfer, сбрасывая порядок.",
+   "evidence": [
+    "Content.Server/_Shitcode/Wizard/Systems/SpellsGrantSystem.cs:OnMindAdded (выдача в ActionsContainerComponent разума, Granted-флаг на теле)",
+    "Content.Server/_DV/CosmicCult/Abilities/CosmicReturnSystem.cs:OnCosmicReturn (_mind.TransferTo — механика астрал-переноса)",
+    ".ai-triage/data/threads/1420383751082344479.json: replies (слетают кнопки, при стержне тоже; смена разума → перевыдача) [HIST]"
+   ]
   },
   {
    "thread_id": "1421828766404972624",
@@ -22487,9 +22589,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1425261607369310339.md",
+   "confidence": "High",
+   "severity": "S4",
+   "complexity": "S",
+   "root_cause_short": "EmagProvider ниндзя-перчаток имеет whitelist components:[Airlock] (gloves.yml:264-267) — шкафы не взламываются по дизайну; обработчиков GotEmaggedEvent для EntityStorage нет",
+   "evidence": [
+    "Resources/Prototypes/Entities/Clothing/Hands/gloves.yml:264-267",
+    "Content.Shared/Ninja/Systems/EmagProviderSystem.cs:37-66",
+    "Content.Shared/Lock/LockSystem.cs:384-402"
+   ]
   },
   {
    "thread_id": "1426262637389283370",
@@ -29291,9 +29402,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+   "cluster": "id-console-access-write",
+   "dossier": ".ai-triage/bugs/1449776134593056998.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "S",
+   "root_cause_short": "AccessLevels консоли не содержал Genpop* — all-or-nothing отказ записи; добавлены коммитом f3a1cf8fc2 (#41739), гипотеза автора («нет ГЕНПОП») совпадает с фикс-коммитом",
+   "evidence": [
+    "Content.Shared/Access/Components/IdCardConsoleComponent.cs:45-81",
+    "Content.Server/Access/Systems/IdCardConsoleSystem.cs:166-189",
+    "git f3a1cf8fc2, 9f08ebb39c"
+   ]
   },
   {
    "thread_id": "1449838576878489682",
@@ -31448,9 +31568,17 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1455594512444555439.md",
+   "confidence": "Medium",
+   "severity": "S4",
+   "complexity": "S",
+   "root_cause_short": "Пассажир — роль без служебных доступов; шлюзы к турельным отсекам закрыты по конфигурации карты (AccessReader) — тред сам приходит к выводу «запрос администрации»",
+   "evidence": [
+    "Resources/Prototypes/Entities/Structures/Doors/turnstile.yml (паттерн access-конфига)",
+    "thread 1455594512444555439 replies (админ-решение)"
+   ]
   },
   {
    "thread_id": "1456898309808721960",
@@ -40328,9 +40456,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CONFIG_OR_CONTENT_ISSUE",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1489258968898469928.md",
+   "confidence": "High",
+   "severity": "S3",
+   "complexity": "S",
+   "root_cause_short": "SleeperAgents (events.yml:792-823): earliestStart 30 без latestStart/блэклиста по времени — спавн в конце смены валиден по конфигу; нужен latestStart/гейт (вариант Tanto).",
+   "evidence": [
+    "Resources/Prototypes/GameRules/events.yml:792-823 (SleeperAgents: earliestStart 30, weight 4, minimumPlayers 20, maxOccurrences 1, occursDuringRoundEnd false)",
+    "Resources/Prototypes/_Goobstation/Wizard/gamerules_wizard.yml:149-153 (SleeperAgentsWizard — фикс нужен и тут)",
+    ".ai-triage/data/threads/1489258968898469928.json: Tanto — разбор таймингов и предложение блэклиста [HIST]"
+   ]
   },
   {
    "thread_id": "1489304284016152677",
@@ -50199,9 +50336,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "LIKELY_CURRENT_BUG",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1534480920327880776.md",
+   "confidence": "Medium",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "Плащ еретика при поднятом капюшоне скрывает только личность (identity-подмена в SharedShadowCloakSystem.OnGetIdentity*), но предмет остаётся в слоте neck и виден при examine/strip/обыске; «как скаф» и «без дыхания» — контент-решение.",
+   "evidence": [
+    "Content.Shared/_Shitcode/Heretic/Systems/SharedShadowCloakSystem.cs:OnGetIdentity/OnGetIdentityEntity (строки 110-129, только identity)",
+    "Content.Shared/_Shitcode/Heretic/Systems/HereticCloakSystem.cs:OnLoseFocus (плащ = статус-эффект фокуса)",
+    "Content.Shared/_Shitcode/Heretic/Systems/Abilities/SharedHereticAbilitySystem.Void.cs:OnVoidBlink (нет выдачи дыхания/вакуум-защиты)",
+    ".ai-triage/data/threads/1534480920327880776.json: скрин видимости плаща при обыске [MEDIA]"
+   ]
   },
   {
    "thread_id": "1534609752284463224",
@@ -50696,9 +50843,18 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
-   "cluster": null,
-   "dossier": null
+   "verdict": "LIKELY_CURRENT_BUG",
+   "cluster": "actionbar-reset-mind-transfer",
+   "dossier": ".ai-triage/bugs/1536503382355746886.md",
+   "confidence": "Low",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "Комплекс: подтверждён сброс панели действий после Пепельного Сдвига (общий корень с кластером actionbar-reset-mind-transfer); превью цели без Appearance/Loadout и отсутствие fire immunity на асценденте — гипотезы/контент-баланс (разраб: «Отказано»).",
+   "evidence": [
+    "Content.Shared/_Shitcode/Heretic/Heretic.Abilites.cs:TryUseAbility (пайплайн способок, превью-сущность с Appearance не найдена [?])",
+    "Resources/Locale/ru-RU/_Goobstation/Heretic/store/heretic-catalog-ash.ftl:heretic-catalog-ash (пути пепла — контент)",
+    ".ai-triage/data/threads/1536503382355746886.json: Mokko «тоже самое со сдвигом, или когда надеваешь джет», Wendor «Отказано» [HIST]"
+   ]
   },
   {
    "thread_id": "1536732595268747334",
@@ -50907,9 +51063,19 @@
     }
    ],
    "mentions": [],
-   "verdict": null,
+   "verdict": "CANNOT_VERIFY",
    "cluster": null,
-   "dossier": null
+   "dossier": ".ai-triage/bugs/1536732595268747334.md",
+   "confidence": "Low",
+   "severity": "S3",
+   "complexity": "M",
+   "root_cause_short": "Галочка «Отказ от цели синдиката» не найдена в рабочем дереве (нет кода/локали/трейта); гипотеза — преф сохраняется, но пайплайн выдачи kill-целей (corporageagent.yml PickRandomPerson) его не потребляет.",
+   "evidence": [
+    "Resources/Prototypes/_Goobstation/Objectives/corporageagent.yml:89-101/372-401 (kill-цели без opt-out фильтров)",
+    "Content.Server/Objectives/Systems/PickObjectiveTargetSystem.cs:OnRandomPersonAssigned (единственная точка фильтрации; OptOut-символов нет)",
+    "rg 'Decline|OptOut|KillTarget|RefuseTarget' .cs → 0; ru-RU locale «отказ от цели…» → 0; _Erida/Traits (Meta) → только NoParadoxClone",
+    ".ai-triage/data/threads/1536732595268747334.json: скрины чекбокса [MEDIA]"
+   ]
   },
   {
    "thread_id": "1537354952094257172",

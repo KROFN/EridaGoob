@@ -1,0 +1,94 @@
+[
+  {
+    "thread_id": "1420383751082344479",
+    "verdict": "LIKELY_CURRENT_BUG",
+    "confidence": "Medium",
+    "severity": "S3",
+    "complexity": "M",
+    "cluster_hint": "actionbar-reset-mind-transfer",
+    "root_cause_short": "Панель действий мага рассыпается после астрала: действия хранятся/перевыдаются на разум (SpellsGrantSystem.OnMindAdded) и клиент перепривязывает кнопки при mind transfer, сбрасывая порядок.",
+    "evidence": [
+      "Content.Server/_Shitcode/Wizard/Systems/SpellsGrantSystem.cs:OnMindAdded (выдача в ActionsContainerComponent разума, Granted-флаг на теле)",
+      "Content.Server/_DV/CosmicCult/Abilities/CosmicReturnSystem.cs:OnCosmicReturn (_mind.TransferTo — механика астрал-переноса)",
+      ".ai-triage/data/threads/1420383751082344479.json: replies (слетают кнопки, при стержне тоже; смена разума → перевыдача) [HIST]"
+    ],
+    "dossier": ".ai-triage/bugs/1420383751082344479.md"
+  },
+  {
+    "thread_id": "1534480920327880776",
+    "verdict": "LIKELY_CURRENT_BUG",
+    "confidence": "Medium",
+    "severity": "S3",
+    "complexity": "M",
+    "cluster_hint": null,
+    "root_cause_short": "Плащ еретика при поднятом капюшоне скрывает только личность (identity-подмена в SharedShadowCloakSystem.OnGetIdentity*), но предмет остаётся в слоте neck и виден при examine/strip/обыске; «как скаф» и «без дыхания» — контент-решение.",
+    "evidence": [
+      "Content.Shared/_Shitcode/Heretic/Systems/SharedShadowCloakSystem.cs:OnGetIdentity/OnGetIdentityEntity (строки 110-129, только identity)",
+      "Content.Shared/_Shitcode/Heretic/Systems/HereticCloakSystem.cs:OnLoseFocus (плащ = статус-эффект фокуса)",
+      "Content.Shared/_Shitcode/Heretic/Systems/Abilities/SharedHereticAbilitySystem.Void.cs:OnVoidBlink (нет выдачи дыхания/вакуум-защиты)",
+      ".ai-triage/data/threads/1534480920327880776.json: скрин видимости плаща при обыске [MEDIA]"
+    ],
+    "dossier": ".ai-triage/bugs/1534480920327880776.md"
+  },
+  {
+    "thread_id": "1536503382355746886",
+    "verdict": "LIKELY_CURRENT_BUG",
+    "confidence": "Low",
+    "severity": "S3",
+    "complexity": "M",
+    "cluster_hint": "actionbar-reset-mind-transfer",
+    "root_cause_short": "Комплекс: подтверждён сброс панели действий после Пепельного Сдвига (общий корень с кластером actionbar-reset-mind-transfer); превью цели без Appearance/Loadout и отсутствие fire immunity на асценденте — гипотезы/контент-баланс (разраб: «Отказано»).",
+    "evidence": [
+      "Content.Shared/_Shitcode/Heretic/Heretic.Abilites.cs:TryUseAbility (пайплайн способок, превью-сущность с Appearance не найдена [?])",
+      "Resources/Locale/ru-RU/_Goobstation/Heretic/store/heretic-catalog-ash.ftl:heretic-catalog-ash (пути пепла — контент)",
+      ".ai-triage/data/threads/1536503382355746886.json: Mokko «тоже самое со сдвигом, или когда надеваешь джет», Wendor «Отказано» [HIST]"
+    ],
+    "dossier": ".ai-triage/bugs/1536503382355746886.md"
+  },
+  {
+    "thread_id": "1489258968898469928",
+    "verdict": "CONFIG_OR_CONTENT_ISSUE",
+    "confidence": "High",
+    "severity": "S3",
+    "complexity": "S",
+    "cluster_hint": null,
+    "root_cause_short": "SleeperAgents (events.yml:792-823): earliestStart 30 без latestStart/блэклиста по времени — спавн в конце смены валиден по конфигу; нужен latestStart/гейт (вариант Tanto).",
+    "evidence": [
+      "Resources/Prototypes/GameRules/events.yml:792-823 (SleeperAgents: earliestStart 30, weight 4, minimumPlayers 20, maxOccurrences 1, occursDuringRoundEnd false)",
+      "Resources/Prototypes/_Goobstation/Wizard/gamerules_wizard.yml:149-153 (SleeperAgentsWizard — фикс нужен и тут)",
+      ".ai-triage/data/threads/1489258968898469928.json: Tanto — разбор таймингов и предложение блэклиста [HIST]"
+    ],
+    "dossier": ".ai-triage/bugs/1489258968898469928.md"
+  },
+  {
+    "thread_id": "1367843022061965395",
+    "verdict": "CONFIG_OR_CONTENT_ISSUE",
+    "confidence": "Medium",
+    "severity": "S3",
+    "complexity": "S",
+    "cluster_hint": null,
+    "root_cause_short": "Аллокатор целей выдаёт kill/keep-alive каждому агенту независимо из пула предателей (PickRandomTraitor/PickRandomPerson без кросс-агентного резолва); пересечение kill+protect задокументировано как намеренное («kino») в Goob.",
+    "evidence": [
+      "Resources/Prototypes/_Goobstation/Objectives/corporageagent.yml:134-154 (RandomCorporateAliveObjective), 372-385 (CorporatePermaKillRandomTraitorObjective), 403-407 (комментарий о намеренности)",
+      "Content.Server/_Shitcode/Objectives/Components/PickRandomTraitorComponent.cs (целевой пул — предатели by design)",
+      "Content.Server/Objectives/Systems/PickObjectiveTargetSystem.cs:OnRandomPersonAssigned (PickFromPool — нет межагентной проверки)"
+    ],
+    "dossier": ".ai-triage/bugs/1367843022061965395.md"
+  },
+  {
+    "thread_id": "1536732595268747334",
+    "verdict": "CANNOT_VERIFY",
+    "confidence": "Low",
+    "severity": "S3",
+    "complexity": "M",
+    "cluster_hint": null,
+    "root_cause_short": "Галочка «Отказ от цели синдиката» не найдена в рабочем дереве (нет кода/локали/трейта); гипотеза — преф сохраняется, но пайплайн выдачи kill-целей (corporageagent.yml PickRandomPerson) его не потребляет.",
+    "evidence": [
+      "Resources/Prototypes/_Goobstation/Objectives/corporageagent.yml:89-101/372-401 (kill-цели без opt-out фильтров)",
+      "Content.Server/Objectives/Systems/PickObjectiveTargetSystem.cs:OnRandomPersonAssigned (единственная точка фильтрации; OptOut-символов нет)",
+      "rg 'Decline|OptOut|KillTarget|RefuseTarget' .cs → 0; ru-RU locale «отказ от цели…» → 0; _Erida/Traits (Meta) → только NoParadoxClone",
+      ".ai-triage/data/threads/1536732595268747334.json: скрины чекбокса [MEDIA]"
+    ],
+    "dossier": ".ai-triage/bugs/1536732595268747334.md"
+  }
+]
