@@ -90,3 +90,15 @@ treated as resolved/not-bug. Both unknown-tag groups contain genuine bug reports
 ## Log
 - [ ] Full triage pass.
 - [ ] TRIAGE_REPORT.md.
+
+## Final state (2026-08-28, session end)
+
+- Phase: COMPLETE — full backlog triaged, TRIAGE_REPORT.md written. STOP POINT honored (no production code changed).
+- Completed: 212/212 NEEDS_TRIAGE threads with final verdicts + dossiers; 457/457 in index; 24 cluster files; BUG_INDEX.md regenerated.
+- Verdicts: CONFIRMED_CURRENT_BUG 16, LIKELY_CURRENT_BUG 54, ALREADY_FIXED_IN_CURRENT_FORK 32, CONFIG_OR_CONTENT_ISSUE 39, USER_ERROR_OR_NOT_BUG 14, DUPLICATE 2, CANNOT_VERIFY 55.
+- Build: .NET SDK 10.0.400 installed; RobustToolbox submodule init; Content.Server Debug build 0 errors; full-sln build blocked only by sandbox disk quota at integration-test copy stage (MSB3021) — not a code issue.
+- Latest checkpoint: see `git log` (final commit message: "triage: complete Discord backlog review").
+- Next action (owner: maintainer): review TRIAGE_REPORT.md → approve fix batch (FIRST 3–5 list) → separate fixing stage.
+
+### Batches
+B01–B35 all complete (B04 split a/b, B06 via lead, B24 split a/b). Workers: parallel triage subagents with strict evidence budget; lead merged/spot-checked/checkpointed after each wave.

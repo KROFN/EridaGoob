@@ -19,13 +19,13 @@ Source: Google Drive archive `1TlOjsaTn_iuKc26S7amk3q1qhkirNol7`.
 | attachment_files_on_disk | 294 |
 | threads_with_external_media | 3 |
 | external_media_files | 5 |
-| VERDICT_COVERAGE | 206 |
-| verdict:CANNOT_VERIFY | 53 |
-| verdict:LIKELY_CURRENT_BUG | 52 |
+| VERDICT_COVERAGE | 212 |
+| verdict:CANNOT_VERIFY | 55 |
+| verdict:LIKELY_CURRENT_BUG | 54 |
 | verdict:CONFIG_OR_CONTENT_ISSUE | 39 |
 | verdict:ALREADY_FIXED_IN_CURRENT_FORK | 32 |
 | verdict:CONFIRMED_CURRENT_BUG | 16 |
-| verdict:USER_ERROR_OR_NOT_BUG | 12 |
+| verdict:USER_ERROR_OR_NOT_BUG | 14 |
 | verdict:DUPLICATE | 2 |
 
 ## Index (all threads)
@@ -97,7 +97,7 @@ Source: Google Drive archive `1TlOjsaTn_iuKc26S7amk3q1qhkirNol7`.
 | 1368375611302875308 | Не переведено | 2025-05-03 | Исправлено | A | 2 | 2 | SKIP_RESOLVED | — | — | — | — | — | — |
 | 1368389167616098424 | Швабра не чистит следы | 2025-05-04 | — | A | 4 | 1 | NEEDS_TRIAGE | ALREADY_FIXED_IN_CURRENT_FORK | High | S3 | S | footprint-cleaning | .ai-triage/bugs/1368389167616098424.md |
 | 1368389636531163186 | что такое жажда? | 2025-05-04 | — | A | 9 | 0 | NEEDS_TRIAGE | LIKELY_CURRENT_BUG | Medium | S2 | M | — | .ai-triage/bugs/1368389636531163186.md |
-| 1368541575902265365 | Прицеливание | 2025-05-04 | — | A | 4 | 1 | NEEDS_TRIAGE | — | — | — | — | — | — |
+| 1368541575902265365 | Прицеливание | 2025-05-04 | — | A | 4 | 1 | NEEDS_TRIAGE | LIKELY_CURRENT_BUG | Medium | S3 | S | — | .ai-triage/bugs/1368541575902265365.md |
 | 1368604669160591390 | Хп аркан | 2025-05-04 | — | A | 1 | 0 | NEEDS_TRIAGE | ALREADY_FIXED_IN_CURRENT_FORK | Medium | S3 | XS | — | .ai-triage/bugs/1368604669160591390.md |
 | 1368606729440333845 | А на цк НЕ РАБОТАЕТ | 2025-05-04 | — | A | 15 | 1 | NEEDS_TRIAGE | LIKELY_CURRENT_BUG | Medium | S3 | M | cc-trade-money-routing | .ai-triage/bugs/1368606729440333845.md |
 | 1368659829916434494 | Противогазы и маски | 2025-05-04 | — | A | 6 | 0 | NEEDS_TRIAGE | ALREADY_FIXED_IN_CURRENT_FORK | High | S4 | XS | — | .ai-triage/bugs/1368659829916434494.md |
@@ -465,7 +465,7 @@ Source: Google Drive archive `1TlOjsaTn_iuKc26S7amk3q1qhkirNol7`.
 | 1523631556290281472 | Рост Феленида. | 2026-07-06 | Исправлено, Разработка | A | 36 | 2 | SKIP_RESOLVED | — | — | — | — | — | — |
 | 1527704102832701650 | Пульт от шлюзов не влияет на гермошлюзы | 2026-07-17 | Исправлено, Разработка | A | 3 | 0 | SKIP_RESOLVED | — | — | — | — | — | — |
 | 1529537821579284652 | Не пускает на эриду | 2026-07-22 | Исправлено, Разработка | A | 11 | 1 | SKIP_RESOLVED | — | — | — | — | — | — |
-| 1529950769208623144 | сапог продырявился | 2026-07-23 | Разработка | A | 8 | 2 | NEEDS_TRIAGE | — | — | — | — | — | — |
+| 1529950769208623144 | сапог продырявился | 2026-07-23 | Разработка | A | 8 | 2 | NEEDS_TRIAGE | USER_ERROR_OR_NOT_BUG | Medium | S4 | XS | — | .ai-triage/bugs/1529950769208623144.md |
 | 1530719598255800533 | Все баги грабов | 2026-07-25 | Исправлено, Разработка | A | 28 | 0 | SKIP_RESOLVED | — | — | — | — | — | — |
 | 1530943805065527386 | голопроектор | 2026-07-26 | Разработка, Не баг | A | 5 | 0 | SKIP_NOT_BUG | — | — | — | — | — | — |
 | 1531332202141450258 | у унатхов снова отвалились звуки на эмоутах | 2026-07-27 | Исправлено | act | 2 | 1 | SKIP_RESOLVED | — | — | — | — | — | — |
@@ -473,19 +473,19 @@ Source: Google Drive archive `1TlOjsaTn_iuKc26S7amk3q1qhkirNol7`.
 | 1531689725554069685 | огнетушитель дельта вондер | 2026-07-28 | Маппинг | A | 3 | 2 | NEEDS_TRIAGE | LIKELY_CURRENT_BUG | Medium | S3 | XS | — | .ai-triage/bugs/1531689725554069685.md |
 | 1532120324504682557 | озвучка | 2026-07-29 | Исправлено | act | 14 | 1 | SKIP_RESOLVED | — | — | — | — | — | — |
 | 1532607747986558977 | КПБ и стекло. | 2026-07-31 | Разработка | act | 52 | 4 | NEEDS_TRIAGE | LIKELY_CURRENT_BUG | Low | S3 | M | ipc-stamina | .ai-triage/bugs/1532607747986558977.md |
-| 1533372731817594991 | брух | 2026-08-02 | Разработка | act | 5 | 1 | NEEDS_TRIAGE | — | — | — | — | — | — |
+| 1533372731817594991 | брух | 2026-08-02 | Разработка | act | 5 | 1 | NEEDS_TRIAGE | CANNOT_VERIFY | Low | — | — | — | .ai-triage/bugs/1533372731817594991.md |
 | 1534207157308756059 | Не сбросилось время (((0((( | 2026-08-04 | Разработка | act | 3 | 0 | NEEDS_TRIAGE | USER_ERROR_OR_NOT_BUG | Medium | S4 | XS | — | .ai-triage/bugs/1534207157308756059.md |
 | 1534480920327880776 | Наплак на еретика | 2026-08-05 | Разработка | act | 44 | 2 | NEEDS_TRIAGE | LIKELY_CURRENT_BUG | Medium | S3 | M | — | .ai-triage/bugs/1534480920327880776.md |
 | 1534609752284463224 | Ядерный Фабрикатор | 2026-08-05 | Разработка | act | 2 | 1 | NEEDS_TRIAGE | CONFIRMED_CURRENT_BUG | High | S3 | M | — | .ai-triage/bugs/1534609752284463224.md |
 | 1535027750082056404 | Чемодан | 2026-08-06 | Разработка | act | 2 | 2 | NEEDS_TRIAGE | LIKELY_CURRENT_BUG | Medium | S4 | XS | inhand-sprite-content | .ai-triage/bugs/1535027750082056404.md |
-| 1535329639197704202 | Описание кукол | 2026-08-07 | Разработка | act | 4 | 0 | NEEDS_TRIAGE | — | — | — | — | — | — |
-| 1535333849515692155 | Описание эссенции | 2026-08-07 | Разработка | act | 5 | 2 | NEEDS_TRIAGE | — | — | — | — | — | — |
+| 1535329639197704202 | Описание кукол | 2026-08-07 | Разработка | act | 4 | 0 | NEEDS_TRIAGE | USER_ERROR_OR_NOT_BUG | High | S4 | XS | — | .ai-triage/bugs/1535329639197704202.md |
+| 1535333849515692155 | Описание эссенции | 2026-08-07 | Разработка | act | 5 | 2 | NEEDS_TRIAGE | CANNOT_VERIFY | Low | — | — | — | .ai-triage/bugs/1535333849515692155.md |
 | 1536503382355746886 | еретик с путем пепла | 2026-08-10 | Разработка | act | 15 | 0 | NEEDS_TRIAGE | LIKELY_CURRENT_BUG | Low | S3 | M | actionbar-reset-mind-transfer | .ai-triage/bugs/1536503382355746886.md |
 | 1536732595268747334 | Галочка на отказ от цели-убийства. | 2026-08-11 | Разработка | act | 80 | 3 | NEEDS_TRIAGE | CANNOT_VERIFY | Low | S3 | M | — | .ai-triage/bugs/1536732595268747334.md |
 | 1537354952094257172 | баг с лечением кпб | 2026-08-13 | Разработка | act | 3 | 0 | NEEDS_TRIAGE | CONFIRMED_CURRENT_BUG | High | S2 | M | ipc-caustic-untreatable | .ai-triage/bugs/1537354952094257172.md |
 | 1537542182934675607 | Чё так дорого | 2026-08-13 | Разработка | act | 33 | 3 | NEEDS_TRIAGE | CONFIG_OR_CONTENT_ISSUE | High | S4 | XS | — | .ai-triage/bugs/1537542182934675607.md |
 | 1537855953544675470 | чучуть позора | 2026-08-14 | Разработка | act | 12 | 1 | NEEDS_TRIAGE | ALREADY_FIXED_IN_CURRENT_FORK | Medium | S4 | XS | — | .ai-triage/bugs/1537855953544675470.md |
-| 1540061285029257266 | Баги перехода на губы | 2026-08-20 | Разработка | act | 378 | 81 | NEEDS_TRIAGE | — | — | — | — | — | — |
+| 1540061285029257266 | Баги перехода на губы | 2026-08-20 | Разработка | act | 378 | 81 | NEEDS_TRIAGE | LIKELY_CURRENT_BUG | Medium | S2 | L | gubs-migration-regressions | .ai-triage/bugs/1540061285029257266.md |
 | 1540089010599366757 | Молотов | 2026-08-20 | Разработка | act | 3 | 0 | NEEDS_TRIAGE | ALREADY_FIXED_IN_CURRENT_FORK | High | S3 | XS | — | .ai-triage/bugs/1540089010599366757.md |
 | 1542243553533501510 | Слепой навсегда | 2026-08-26 | Разработка | act | 10 | 1 | NEEDS_TRIAGE | CONFIG_OR_CONTENT_ISSUE | Medium | S4 | XS | — | .ai-triage/bugs/1542243553533501510.md |
 | 1542496476415000757 | Дюп пособников по Кунг-Фу на ОСЩ. | 2026-08-27 | Разработка | act | 7 | 1 | NEEDS_TRIAGE | LIKELY_CURRENT_BUG | Medium | S2 | M | — | .ai-triage/bugs/1542496476415000757.md |

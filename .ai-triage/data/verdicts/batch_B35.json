@@ -1,0 +1,92 @@
+[
+ {
+  "thread_id": "1368541575902265365",
+  "verdict": "LIKELY_CURRENT_BUG",
+  "confidence": "Medium",
+  "severity": "S3",
+  "complexity": "S",
+  "cluster_hint": null,
+  "root_cause_short": "HYPOTHESIS: recoil/screen-shake camera offsets (CCVars.ScreenShakeIntensity, CameraRecoilSystem) not fully reset on aim exit; shake slider=0 partially mitigates",
+  "evidence": [
+   "Content.Client/Options/UI/Tabs/AccessibilityTab.xaml.cs:AddOptionPercentSlider(CCVars.ScreenShakeIntensity)",
+   "Content.Client/Camera/CameraRecoilSystem.cs:CameraRecoilSystem",
+   ".ai-triage/data/threads/1368541575902265365.json:workaround 'accessibility slider to 0'"
+  ],
+  "dossier": ".ai-triage/bugs/1368541575902265365.md"
+ },
+ {
+  "thread_id": "1529950769208623144",
+  "verdict": "USER_ERROR_OR_NOT_BUG",
+  "confidence": "Medium",
+  "severity": "S4",
+  "complexity": "XS",
+  "cluster_hint": null,
+  "root_cause_short": "Dev-closed 'Не ошибка' in 2 min; cosmetic body-sprite poke-through clothing (likely CharacterSize scaling); reporter self-agreed",
+  "evidence": [
+   ".ai-triage/data/threads/1529950769208623144.json:Wendor 'Не ошибка. Закрыто'",
+   "Content.Server.Database/Migrations/Postgres/20251222125459_CharacterSize.cs:profile.height/width"
+  ],
+  "dossier": ".ai-triage/bugs/1529950769208623144.md"
+ },
+ {
+  "thread_id": "1533372731817594991",
+  "verdict": "CANNOT_VERIFY",
+  "confidence": "Low",
+  "severity": null,
+  "complexity": null,
+  "cluster_hint": null,
+  "root_cause_short": "No bug description at all; community saw nothing wrong on screenshot; author arrived mid-round and could not explain",
+  "evidence": [
+   ".ai-triage/data/threads/1533372731817594991.json:Mokko 'и где баг?'",
+   "attachments/1533372731817594991/1533372732866035816_274.png (unrenderable in triage env)"
+  ],
+  "dossier": ".ai-triage/bugs/1533372731817594991.md"
+ },
+ {
+  "thread_id": "1535329639197704202",
+  "verdict": "USER_ERROR_OR_NOT_BUG",
+  "confidence": "High",
+  "severity": "S4",
+  "complexity": "XS",
+  "cluster_hint": null,
+  "root_cause_short": "Works as coded: round inspect window hides NSFW desc while doll is clothed (showNsfw gated by !isClothed + FlavorNsfwEnabled/NsfwContentEnabled); confirmed in-thread",
+  "evidence": [
+   "Content.Client/_Orion/DetailExaminable/DetailExaminableWindow.xaml.cs:showNsfw = FlavorNsfwEnabled && NsfwContentEnabled && !isClothed",
+   "Content.Server/_Orion/DetailExaminable/DetailExaminableSystem.cs:OpenEui->DetailExaminableEuiState(Nsfw*)",
+   ".ai-triage/data/threads/1535329639197704202.json:'показывается при голой кукле'"
+  ],
+  "dossier": ".ai-triage/bugs/1535329639197704202.md"
+ },
+ {
+  "thread_id": "1535333849515692155",
+  "verdict": "CANNOT_VERIFY",
+  "confidence": "Low",
+  "severity": null,
+  "complexity": null,
+  "cluster_hint": null,
+  "root_cause_short": "Root message empty (screenshots only, unrenderable); dev asked WICY then rejected with ❌; subject ('essence') not identifiable",
+  "evidence": [
+   ".ai-triage/data/threads/1535333849515692155.json:Wendor 'WICY'/'❌'",
+   "Resources/Locale/ru-RU/_Goobstation/Heretic/store/heretic/heretic-catalog-side.ftl:44 'Фляга эльдрической эссенции' (probable subject)"
+  ],
+  "dossier": ".ai-triage/bugs/1535333849515692155.md"
+ },
+ {
+  "thread_id": "1540061285029257266",
+  "verdict": "LIKELY_CURRENT_BUG",
+  "confidence": "Medium",
+  "severity": "S2",
+  "complexity": "L",
+  "cluster_hint": "gubs-migration-regressions",
+  "root_cause_short": "Batch of independent regressions after Goob-codebase migration (commits bc02215fde 2026-08-14, 391b6b275c 2026-08-15): bag sprites, RCD placement, character size application, censer fuel UI, abductor console, faxes; needs per-claim tickets",
+  "evidence": [
+   "git:bc02215fde 'content port (#15)' 2026-08-14; git:391b6b275c 'The end of the end (#19)' 2026-08-15",
+   "Content.Server.Database/Migrations/Postgres/20260809220323_NewBuild.Designer.cs (2026-08-09)",
+   "Content.Server.Database/Migrations/Postgres/20251222125459_CharacterSize.cs:profile.height/width",
+   "Resources/Prototypes/_DV/CosmicCult/Objects/censer.yml + Content.Shared/_DV/CosmicCult/Components/CosmicCenserComponent.cs",
+   "Content.Client/_Shitmed/Antags/Abductor/AbductorCameraConsoleWindow.xaml.cs",
+   ".ai-triage/data/threads/1540061285029257266.json (✅-confirmed claims)"
+  ],
+  "dossier": ".ai-triage/bugs/1540061285029257266.md"
+ }
+]
