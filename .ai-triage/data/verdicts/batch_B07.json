@@ -1,0 +1,94 @@
+[
+  {
+    "thread_id": "1388579548357984378",
+    "verdict": "CONFIG_OR_CONTENT_ISSUE",
+    "confidence": "High",
+    "severity": "S4",
+    "complexity": "XS",
+    "cluster_hint": "goobstation-role-loadout-erida-content-gap",
+    "root_cause_short": "Медали существуют как предметы (Entities/Clothing/Neck/medals.yml), но loadoutGroup/loadout с медалями никогда не создавалась и JobBrigmedic их не подключает.",
+    "evidence": [
+      "Resources/Prototypes/_Goobstation/Loadouts/role_loadouts.yml:roleLoadout JobBrigmedic (96-116)",
+      "Resources/Prototypes/Entities/Clothing/Neck/medals.yml",
+      "rg -i medal Resources/Prototypes/{Loadouts,_Goobstation/Loadouts,_Erida/Loadouts} = 0 hits"
+    ],
+    "dossier": ".ai-triage/bugs/1388579548357984378.md"
+  },
+  {
+    "thread_id": "1388579685453135994",
+    "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+    "confidence": "Medium",
+    "severity": "S3",
+    "complexity": "S",
+    "cluster_hint": "species-survival-box-loadout-effects",
+    "root_cause_short": "На дату репорта лодаут-реворк был незавершён; сейчас бригмедик получает SurvivalSecurity, врач (хирург = alt-title MedicalDoctor) — SurvivalMedical (hidden, minLimit 3); вида Arkan в форке нет (порт отдельным PR).",
+    "evidence": [
+      "Resources/Prototypes/_Goobstation/Loadouts/role_loadouts.yml:JobBrigmedic->SurvivalSecurity (108)",
+      "Resources/Prototypes/Loadouts/role_loadouts.yml:JobMedicalDoctor->SurvivalMedical (790)",
+      "Resources/Prototypes/Loadouts/loadout_groups.yml:SurvivalSecurity (1509), SurvivalMedical (1759)",
+      "Resources/Prototypes/Loadouts/Miscellaneous/survival.yml:EmergencyOxygenSecurity->BoxSurvivalSlotsSecurity (187-194)",
+      "rg 'id: Surgeon\\b' и git grep Plafeim/'id: Arkan' = 0 hits"
+    ],
+    "dossier": ".ai-triage/bugs/1388579685453135994.md"
+  },
+  {
+    "thread_id": "1413573121369444403",
+    "verdict": "CONFIG_OR_CONTENT_ISSUE",
+    "confidence": "High",
+    "severity": "S3",
+    "complexity": "XS",
+    "cluster_hint": "goobstation-role-loadout-erida-content-gap",
+    "root_cause_short": "Форковые группы белья Undershirt/Underwear/Socks добавлены PR 9ebb47b00c только в базовый role_loadouts.yml; roleLoadout JobBlueshieldOfficer в _Goobstation/Loadouts/role_loadouts.yml (25-45) их не содержит.",
+    "evidence": [
+      "Resources/Prototypes/_Erida/Loadouts/loadout_groups.yml:Undershirt/Underwear/Socks",
+      "Resources/Prototypes/_Goobstation/Loadouts/role_loadouts.yml:roleLoadout JobBlueshieldOfficer (25-45)",
+      "Resources/Prototypes/Loadouts/role_loadouts.yml:'# Erida start' blocks (например 15-19)"
+    ],
+    "dossier": ".ai-triage/bugs/1413573121369444403.md"
+  },
+  {
+    "thread_id": "1413573325749485629",
+    "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+    "confidence": "Medium",
+    "severity": "S3",
+    "complexity": "S",
+    "cluster_hint": null,
+    "root_cause_short": "Исторический разрыв конфига/UI лодаутов до синка; сейчас roleLoadout JobTechnicalAssistant полон (13 групп, все существуют), SurvivalExtended выдаёт аварийный набор.",
+    "evidence": [
+      "Resources/Prototypes/Loadouts/role_loadouts.yml:roleLoadout JobTechnicalAssistant (469-487)",
+      "Resources/Prototypes/Loadouts/loadout_groups.yml:TechnicalAssistantJumpsuit (1005), TechnicalAssistantJobTrinkets (1013)",
+      "Resources/Prototypes/_Goobstation/Loadouts/loadout_groups.yml:TechnicalAssistantEnviro* (305-321)",
+      "git log -S'JobTechnicalAssistant' -> 12766fe6e3 Loadouts redux; синки 65c87a61ac/6396fa7c70 после репорта"
+    ],
+    "dossier": ".ai-triage/bugs/1413573325749485629.md"
+  },
+  {
+    "thread_id": "1413877351011450890",
+    "verdict": "CONFIG_OR_CONTENT_ISSUE",
+    "confidence": "High",
+    "severity": "S4",
+    "complexity": "XS",
+    "cluster_hint": null,
+    "root_cause_short": "Сумка выбора оружия ОСЩ (BlueShieldSetLoadouts) намеренно переиспользует антаг-механику вора: ThiefUndeterminedBackpack + ThiefBackpackUIKey/ThiefBackpackBoundUserInterface; выдаётся через BlueshieldOfficerGear.storage.back.",
+    "evidence": [
+      "Resources/Prototypes/_Backmen/Entities/Objects/Misc/entities_loadouts.yml:ArmySetLoadouts (3-22), BlueShieldSetLoadouts (24-33)",
+      "Resources/Prototypes/_Goobstation/Roles/Jobs/Dignitary/blueshield_officer.yml:BlueshieldOfficerGear storage (68-73)"
+    ],
+    "dossier": ".ai-triage/bugs/1413877351011450890.md"
+  },
+  {
+    "thread_id": "1422135237755932723",
+    "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+    "confidence": "Medium",
+    "severity": "S2",
+    "complexity": "M",
+    "cluster_hint": "species-survival-box-loadout-effects",
+    "root_cause_short": "Регрессия: вид Shadowkin временно выпадал из loadoutEffectGroup OxygenBreather при синке — hidden-группа Survival (minLimit 3) не находила подходящего loadout и боксы не спавнились; сейчас Shadowkin (и Hydrakin) в OxygenBreather, игрок подтвердил «Исправлено».",
+    "evidence": [
+      "Resources/Prototypes/Loadouts/Miscellaneous/survival.yml:loadoutEffectGroup OxygenBreather (Shadowkin:33, Hydrakin:34)",
+      "Resources/Prototypes/Loadouts/loadout_groups.yml:loadoutGroup Survival (113-125, minLimit 3)",
+      "git log: 322999f165 'Shadowkin Box Fix' 2025-05-24, 7bd75d2606 'Fixing Hydrakin's Bugs' — survival.yml правки после репорта"
+    ],
+    "dossier": ".ai-triage/bugs/1422135237755932723.md"
+  }
+]

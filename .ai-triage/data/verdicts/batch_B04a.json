@@ -1,0 +1,55 @@
+[
+  {
+    "thread_id": "1364960599544561746",
+    "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+    "confidence": "Medium",
+    "severity": "S3",
+    "complexity": "XS",
+    "cluster_hint": null,
+    "root_cause_short": "Report-era missing/broken vulpkanin ear/tail-tip/snout marking content and HeadTop-under-Hair layer order no longer exist: all marking prototypes + RSI states present and HeadTop now drawn after Hair.",
+    "evidence": [
+      "Resources/Prototypes/_DV/Entities/Mobs/Customization/Markings/vulpkanin.yml:VulpEar,VulpTailTip,VulpSnout",
+      "Resources/Textures/_DV/Mobs/Customization/Vulpkanin/ear_markings.rsi/meta.json (20 states, none missing)",
+      "Resources/Textures/_DV/Mobs/Customization/Vulpkanin/tail_markings.rsi/meta.json (32 states incl. vulp-tip)",
+      "Resources/Prototypes/_DV/Species/vulpkanin.yml:MobVulpkaninMarkingLimits",
+      "Resources/Prototypes/_DV/Entities/Mobs/Species/vulpkanin.yml:HumanoidVisualLayers.HeadTop-after-Hair",
+      "commit 72a45ae642 Species (#12); commit 0572564025 [Fix] Bug fixes (#32)"
+    ],
+    "dossier": ".ai-triage/bugs/1364960599544561746.md"
+  },
+  {
+    "thread_id": "1382754417589358672",
+    "verdict": "LIKELY_CURRENT_BUG",
+    "confidence": "Low",
+    "severity": "S3",
+    "complexity": "M",
+    "cluster_hint": "arachnid-body-clothing",
+    "root_cause_short": "Multi-symptom arachnid thread: underwear-over-clothes fixed (0572564025 removed UndergarmentTop/Bottom layers); cape-through-abdomen and no-surgery-on-abdomen are by design (TailOversuit marking layer; abdomen is a marking not a BodyPart); unresolved: freezer-coat re-equip failure and arachnid-head->monkey limbless floating transplant (suspected cross-body-template mapping in SharedBody/_Shitmed + Erida inventory rework).",
+    "evidence": [
+      "Resources/Prototypes/Entities/Mobs/Species/arachnid.yml:underpants/undershirt-before-jumpsuit layers",
+      "Resources/Prototypes/Species/arachnid.yml:TailOversuit,ArachnidAppendagesDefault",
+      "Resources/Prototypes/Body/Prototypes/arachnid.yml:body id Arachnid (no abdomen part)",
+      "commit 0572564025 '* Removed UndergarmentTop from markings'",
+      "commit a7edf47940 Second inventory (#11)"
+    ],
+    "dossier": ".ai-triage/bugs/1382754417589358672.md"
+  },
+  {
+    "thread_id": "1394565743768768653",
+    "verdict": "ALREADY_FIXED_IN_CURRENT_FORK",
+    "confidence": "Medium",
+    "severity": "S4",
+    "complexity": "S",
+    "cluster_hint": "marking-rendering-family",
+    "root_cause_short": "Chest markings (Reptilian/Moth) terminating mid-torso was a pre-port marking-fit defect; superseded by multilayer markings + shrink-wrapping port a2ba0ebe00 and humanoid appearance fixes c53ccf66d6/0572564025; all current chest RSI states are standard 32x32 with no alignment defect.",
+    "evidence": [
+      "Resources/Prototypes/Entities/Mobs/Customization/Markings/moth.yml:MothChestDeathhead (+12 other *_chest)",
+      "Resources/Textures/Mobs/Customization/Moth/moth_parts.rsi/meta.json (*_chest all 32x32)",
+      "Resources/Prototypes/Species/reptilian.yml:MobReptilianChest/MobReptilianGroin (Goob chest/groin split)",
+      "commit a2ba0ebe00 moth shrink-wrapping + multilayer markings (#6682)",
+      "commit 0572564025 Height fix (SharedHumanoidAppearanceSystem.LoadProfile SetScale)",
+      "commit c53ccf66d6 Bug fixes (#30)"
+    ],
+    "dossier": ".ai-triage/bugs/1394565743768768653.md"
+  }
+]
